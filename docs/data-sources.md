@@ -60,3 +60,28 @@
 records. Defenses: data minimization, open source, no automated
 "recommendation judgment" (show raw data + score-to-rank lookup, let user
 decide), proactive disclosure to provincial 考试院.
+
+## 一分一段表 ingest pipeline (roadmap)
+
+`schoolspecialscore` already gives us **per-major min_section (位次)** for 新高考
+provinces — the recommendation core can do rank-aware filtering on a known
+candidate set without provincial 一分一段 data.
+
+The remaining use case for province bureau data is **score → province rank
+reverse lookup** ("I scored 580, what's my position in Guangdong?"). That
+needs the 一分一段 distribution table from each 考试院.
+
+Pipeline (per province):
+1. **Source URL** (e.g. https://eea.gd.gov.cn/attachment/0/583/583759/4734345.zip for 广东 2025)
+2. **Extract** — `unzip` then `pdftotext -layout` or `tabula-py`
+3. **Normalize** to `RankTable` shape (see `cli/src/provinces/guangdong.ts`)
+4. **Place** at `cli/data/yifenyiduan/{province}-{year}-{track}.json`
+5. **Ship** as part of the npm package; the in-process loader picks it up automatically.
+
+Provinces ranked by ingest ease (verdicts from feasibility scan):
+- 🟢 Tier 1 (next): 广东 / 北京 / 河北 / 江苏 / 广西 / 黑龙江 / 西藏
+- 🟡 Tier 2: 山东 / 浙江 / 上海 / 河南 / 福建 / 安徽 / 江西 + 14 more
+- 🔴 Tier 3: 湖南 (unstable infra), 海南 (uses 标准分 transform)
+
+The `cli/src/provinces/guangdong.ts` adapter is the canonical template —
+copying it for a new province is ~50 lines.

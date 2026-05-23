@@ -5,6 +5,7 @@ import { recommend } from "./recommend.js";
 import { find } from "./find.js";
 import { top } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
+import { runMcpServer } from "./mcp.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -85,6 +86,11 @@ Usage:
   gaokao-pro provinces
       List supported provinces with their ids and 新高考 reform mode.
 
+  gaokao-pro mcp
+      Start an MCP server over stdio. Plug into Claude Code with:
+        claude mcp add gaokao-pro -- npx -y gaokao-pro mcp
+      All verbs above become MCP tools callable by Claude.
+
   gaokao-pro help | --help
       Show this help.
 
@@ -105,6 +111,10 @@ const VERBS: Record<string, Verb> = {
   },
   async "--version"() {
     process.stdout.write(VERSION + "\n");
+  },
+
+  async mcp() {
+    await runMcpServer();
   },
 
   async provinces() {

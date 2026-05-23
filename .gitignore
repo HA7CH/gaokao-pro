@@ -5,6 +5,7 @@ dist/
 .env
 .env.local
 .next/
+next-env.d.ts
 .vercel/
 
 # probe outputs and cached fixtures (kept locally, not checked in)

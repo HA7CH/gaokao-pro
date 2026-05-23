@@ -1,15 +1,27 @@
 {
-  "name": "gaokao-pro-monorepo",
+  "name": "gaokao-pro-web",
   "private": true,
-  "version": "0.0.1",
-  "description": "China gaokao college planner — from your terminal.",
-  "workspaces": [
-    "cli"
-  ],
+  "version": "0.0.2",
+  "description": "Landing page for gaokao-pro — China gaokao college planner from your terminal.",
   "scripts": {
-    "build": "pnpm -C cli build",
-    "test": "pnpm -C cli test",
-    "probe": "pnpm -C cli probe"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cli:build": "pnpm -C cli build",
+    "cli:test": "pnpm -C cli test",
+    "cli:probe": "pnpm -C cli probe"
+  },
+  "dependencies": {
+    "next": "^16.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   },
   "packageManager": "pnpm@9.0.0"
 }
