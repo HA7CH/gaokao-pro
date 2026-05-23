@@ -24,6 +24,13 @@ import {
   type Subject,
   type ProvinceId
 } from "./codes.js";
+import {
+  loadRankTable,
+  listRankTables,
+  scoreToRank,
+  rankToScore,
+  inferDefaultTrack
+} from "./rank-table.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -172,6 +179,28 @@ const TOOLS = [
     name: "provinces",
     description: "List all 31 supported provinces with their numeric ids, pinyin, and 新高考 reform mode (old / 3+3 / 3+1+2). Useful before calling tools that need a province parameter.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
+    name: "rank",
+    description:
+      "Translate between gaokao score and provincial rank (位次) using the official 一分一段表. Pass `score` to get the rank; pass `rank` to get the score that hits that rank. Provinces with ingested data: see `rank_tables` tool first. Use this whenever the user mentions their 位次 — rank-based comparison is much more accurate than raw score across years (since exam difficulty varies).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string" },
+        year: { type: "number" },
+        track: { type: "string", description: "'combined' for 3+3 provinces (北京/上海/天津/山东/海南/浙江); 'physics' or 'history' for 3+1+2; 'science'/'liberal' for 老高考. Omit to use the province default." },
+        score: { type: "number", description: "If set, return the rank for this score." },
+        rank: { type: "number", description: "If set, return the score that hits this rank." }
+      },
+      required: ["province", "year"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "rank_tables",
+    description: "List the (province, year, track) tuples for which we have ingested 一分一段 data. Call this before `rank` to confirm coverage. Beijing is the proof-of-concept; other provinces are being added incrementally.",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
   }
 ];
 
@@ -299,6 +328,41 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
         pinyin: p.pinyin,
         reform: p.reform
       }));
+    }
+    case "rank": {
+      const provinceId = getProvinceId(args);
+      const year = getNum(args, "year");
+      const track = typeof args.track === "string" ? args.track : inferDefaultTrack(provinceId);
+      const table = loadRankTable(provinceId, year, track);
+      if (!table) {
+        throw new Error(`No 一分一段 table for ${PROVINCES[provinceId].name} ${year} ${track}. Call \`rank_tables\` to see what's ingested.`);
+      }
+      const hasScore = args.score !== undefined;
+      const hasRank = args.rank !== undefined;
+      if (!hasScore && !hasRank) throw new Error("Pass either `score` or `rank`.");
+      if (hasScore) {
+        const score = Number(args.score);
+        return {
+          province: PROVINCES[provinceId].name,
+          year,
+          track,
+          source: table.source,
+          score,
+          rank: scoreToRank(table, score)
+        };
+      }
+      const rank = Number(args.rank);
+      return {
+        province: PROVINCES[provinceId].name,
+        year,
+        track,
+        source: table.source,
+        rank,
+        score: rankToScore(table, rank)
+      };
+    }
+    case "rank_tables": {
+      return listRankTables();
     }
     default:
       throw new Error(`unknown tool: ${name}`);

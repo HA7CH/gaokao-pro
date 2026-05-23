@@ -5,6 +5,7 @@ import { recommend } from "../src/recommend.js";
 import { top } from "../src/top.js";
 import { loadIndex } from "../src/index-loader.js";
 import { formatRecommend } from "../src/format.js";
+import { listRankTables, loadRankTable, scoreToRank, rankToScore } from "../src/rank-table.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -97,6 +98,25 @@ async function main() {
     if (items.length === 0) throw new Error("empty actual");
     const hasRank = items.some((it) => it.min_section && it.min_section !== "-");
     if (!hasRank) throw new Error("no min_section/位次 found");
+  });
+
+  await expect("rank-tables ingested includes beijing 2024", () => {
+    const tables = listRankTables();
+    const has = tables.some((t) => t.province === "beijing" && t.year === 2024);
+    if (!has) throw new Error(`beijing 2024 missing from rank-tables (have: ${JSON.stringify(tables)})`);
+  });
+
+  await expect("beijing 2024 一分一段: 650 → rank ~3176", () => {
+    const table = loadRankTable(11, 2024, "combined");
+    if (!table) throw new Error("beijing 2024 table missing");
+    const rank = scoreToRank(table, 650);
+    if (!rank || rank < 2000 || rank > 5000) {
+      throw new Error(`expected rank in [2000, 5000] for score 650, got ${rank}`);
+    }
+    const score = rankToScore(table, 10000);
+    if (!score || score < 580 || score > 630) {
+      throw new Error(`expected score in [580, 630] for rank 10000, got ${score}`);
+    }
   });
 }
 

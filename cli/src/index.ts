@@ -6,6 +6,7 @@ import { find } from "./find.js";
 import { top } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
 import { runMcpServer } from "./mcp.js";
+import { loadRankTable, listRankTables, scoreToRank, rankToScore, inferDefaultTrack } from "./rank-table.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -83,6 +84,16 @@ Usage:
       Search for a major keyword across schools recruiting in a province.
       e.g. gaokao-pro find "计算机" --province henan --year 2024 --985 --limit 20
 
+  gaokao-pro rank --province <name|id> --year <year>
+                  (--score <n> | --rank <n>)  [--track <combined|physics|history|...>]
+      Look up a (score, rank) pair against the province's official 一分一段表.
+      Pass --score to get your 全省位次. Pass --rank to get the score that
+      hits that rank. Provinces ingested: see 'gaokao-pro rank-tables'.
+      e.g. gaokao-pro rank --province beijing --year 2024 --score 650
+
+  gaokao-pro rank-tables
+      List all (province, year, track) tuples with ingested 一分一段 data.
+
   gaokao-pro provinces
       List supported provinces with their ids and 新高考 reform mode.
 
@@ -115,6 +126,57 @@ const VERBS: Record<string, Verb> = {
 
   async mcp() {
     await runMcpServer();
+  },
+
+  async rank(args) {
+    const { flags } = parseFlags(args);
+    if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+    const year = Number(flags.year);
+    if (!Number.isFinite(year)) throw new Error("--year <year> is required");
+    const track = typeof flags.track === "string" ? flags.track : inferDefaultTrack(provinceId);
+    const table = loadRankTable(provinceId, year, track);
+    if (!table) {
+      throw new Error(
+        `no 一分一段 table for ${PROVINCES[provinceId].name} ${year} ${track}. ` +
+          `Run \`gaokao-pro rank-tables\` to see what we have. ` +
+          `To add this province, drop a JSON file at cli/data/yifenyiduan/${PROVINCES[provinceId].pinyin}-${year}-${track}.json — see cli/src/rank-table.ts for the schema.`
+      );
+    }
+    const hasScore = flags.score !== undefined;
+    const hasRank = flags.rank !== undefined;
+    if (!hasScore && !hasRank) throw new Error("provide either --score <n> or --rank <n>");
+    if (hasScore && hasRank) throw new Error("--score and --rank are mutually exclusive");
+    const result: Record<string, unknown> = {
+      province: PROVINCES[provinceId].name,
+      year,
+      track,
+      source: table.source
+    };
+    if (hasScore) {
+      const score = Number(flags.score);
+      const rank = scoreToRank(table, score);
+      result.score = score;
+      result.rank = rank;
+      result.summary = rank !== null
+        ? `${PROVINCES[provinceId].name} ${year} ${track}: 分数 ${score} → 全省位次 ${rank} 名以内`
+        : `分数 ${score} 低于该表覆盖范围`;
+    } else {
+      const rank = Number(flags.rank);
+      const score = rankToScore(table, rank);
+      result.rank = rank;
+      result.score = score;
+      result.summary = score !== null
+        ? `${PROVINCES[provinceId].name} ${year} ${track}: 位次 ${rank} → 至少需要 ${score} 分`
+        : `位次 ${rank} 超出该表覆盖范围`;
+    }
+    printJson({ ok: true, ...result });
+  },
+
+  async "rank-tables"() {
+    const items = listRankTables();
+    printJson({ ok: true, count: items.length, tables: items });
   },
 
   async provinces() {

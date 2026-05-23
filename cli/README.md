@@ -1,12 +1,27 @@
 # gaokao-pro
 
-Chinese 高考 college planner — from your terminal.
+Plan your gaokao with your Claude Code.
+
+Drop this prompt into Claude Code, Codex, or Cursor:
+
+```
+Run `npx gaokao-pro@latest help` to discover the CLI, then help me plan
+my (or my child's) college applications for the 2026 高考.
+
+Ask me for my score, 全省位次, province, 选科 combination, intended majors,
+and any preferences. Ground every recommendation in real admissions data
+using the CLI. Always reply to me in Chinese.
+```
+
+Or use the CLI yourself:
 
 ```bash
-# 660 分 / 河南 / 物化生 / 985 院校推荐：
 npx gaokao-pro@latest recommend \
   --score 660 --province henan --subjects 物理,化学,生物 \
   --985 --limit 5 --explain
+
+npx gaokao-pro@latest rank --province beijing --year 2024 --score 650
+# → 全省位次 3176 名以内
 ```
 
 ```
@@ -41,7 +56,9 @@ local index (1 MB gzipped) so `recommend` and `top` run fully offline.
 | `plan`      | Forward-looking admission plan per (school, year, province)               |
 | `actual`    | Backward-looking actual admissions: 最低分 / 平均分 / 最低位次              |
 | `scores`    | Historical min-score time series for a (school, province) pair            |
+| `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
 | `provinces` | List supported provinces with 新高考 reform regime                          |
+| `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
 
 Run `gaokao-pro help` for the full command reference.
 

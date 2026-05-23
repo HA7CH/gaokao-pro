@@ -1,6 +1,21 @@
 # gaokao-pro
 
-Chinese 高考 college planner — from your terminal.
+Plan your gaokao with your Claude Code.
+[gaokao.ha7ch.com](https://gaokao.ha7ch.com)
+
+Drop this prompt into Claude Code, Codex, or Cursor:
+
+```
+Run `npx gaokao-pro@latest help` to discover the CLI, then help me plan
+my (or my child's) college applications for the 2026 高考.
+
+Ask me for my score, 全省位次 if I know it, province, 选科 combination,
+intended majors or career interests, and any preferences (target cities,
+985/211 priority, budget). Use the CLI to ground every recommendation
+in real admissions data — pull historical scores, search for matching
+majors across schools, and translate score → 位次 when 一分一段 data
+exists for my province. Always reply to me in Chinese.
+```
 
 ## Install
 
@@ -8,98 +23,98 @@ Chinese 高考 college planner — from your terminal.
 curl -fsSL https://raw.githubusercontent.com/HA7CH/gaokao-pro/main/install.sh | bash
 ```
 
-Then:
+npm release coming — `npx gaokao-pro@latest` will Just Work once we
+finish wiring 2FA-bypass tokens on the publish account.
 
-```bash
-gaokao-pro recommend \
-  --score 660 --province henan --subjects 物理,化学,生物 \
-  --985 --limit 5 --explain
-```
+## How it works
 
-(npm release coming soon — `npx gaokao-pro@latest ...` will work once we
-finish wiring 2FA-bypass tokens on the publish account.)
+`gaokao-pro` is a CLI + MCP server that grounds an AI conversation in
+official Chinese college-admissions data. Claude drives the flow; the
+CLI is the data spine.
 
-No signup, no token, no backend. Talks straight to
-`static-data.gaokao.cn` (the 中国教育在线 / 掌上高考 static JSON tier — no
-auth, no sign, no rate limit observed). Ships with a built-in 2,400-school
-local index so `recommend` / `top` / `find` filters run offline.
-
-## Verbs
+Tools Claude can call (via Bash or MCP):
 
 | Verb        | What it does                                                              |
 |-------------|---------------------------------------------------------------------------|
-| `recommend` | 冲 / 稳 / 保 buckets for your score in a province (offline)                |
-| `top`       | Top-N best schools your score can reach (offline)                         |
-| `find`      | Search majors across schools — e.g. all 985 schools that recruit 计算机     |
-| `school`    | School metadata: 985/211/双一流/学科评估/校友会排名                         |
-| `plan`      | Forward-looking admission plan per (school, year, province)               |
-| `actual`    | Backward-looking actual admissions: 最低分 / 平均分 / 最低位次              |
+| `recommend` | 冲 / 稳 / 保 buckets for your score in a province (offline, 2,400+ schools) |
+| `top`       | Top-N best schools your score can reach                                   |
+| `find`      | Search majors across schools — e.g. all 985 schools recruiting 计算机       |
+| `school`    | University metadata: 985 / 211 / 双一流 / 学科评估 / 排名                    |
+| `plan`      | Forward-looking admission plan (year × province × school)                 |
+| `actual`    | Backward-looking actual admissions: 最高/最低/平均分 + 最低位次              |
 | `scores`    | Historical min-score time series for a (school, province) pair            |
-| `provinces` | List supported provinces with 新高考 reform regime                          |
+| `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
+| `provinces` | List 31 provinces with their 新高考 reform mode                            |
+| `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
 
-See [cli/README.md](./cli/README.md) for the full CLI doc.
+Data sources:
+- **`static-data.gaokao.cn`** (中国教育在线 / 掌上高考 static JSON tier) —
+  no auth, no sign, no rate limit. Powers `school` / `plan` / `actual` /
+  `scores` / `find` / the offline index for `recommend` / `top`.
+- **`cli/data/yifenyiduan/`** — extracted 一分一段表 JSON, per province per
+  year per track. Beijing 2023-2025 ingested. Roadmap: 31 provinces.
 
 ## Repo
 
 ```
 gaokao-pro/
-├── cli/                     # npm package `gaokao-pro`
+├── cli/                            # npm package
 │   ├── src/
-│   │   ├── gaokao-cn.ts     # static-data.gaokao.cn client + types
-│   │   ├── recommend.ts     # 冲/稳/保 algorithm (offline, transparent)
-│   │   ├── top.ts           # top-N within reach
-│   │   ├── find.ts          # cross-school major search
-│   │   ├── format.ts        # TTY table rendering
-│   │   ├── index-loader.ts  # gunzip + cache the school index
-│   │   ├── probe.ts         # rebuild the school index
-│   │   └── codes.ts         # 31 province codes + 新高考 reform map
+│   │   ├── index.ts                # CLI router + help
+│   │   ├── gaokao-cn.ts            # static-data.gaokao.cn client
+│   │   ├── recommend.ts            # 冲/稳/保 algorithm (offline)
+│   │   ├── top.ts / find.ts        # top-N + cross-school search
+│   │   ├── rank-table.ts           # 一分一段 loader (score ↔ rank)
+│   │   ├── mcp.ts                  # stdio MCP server
+│   │   ├── format.ts               # TTY table rendering
+│   │   ├── index-loader.ts         # gunzip + cache the school index
+│   │   ├── probe.ts                # rebuild the school index
+│   │   ├── codes.ts                # 31 province codes + 新高考 reform map
+│   │   └── provinces/              # province-bureau fallback adapters
 │   ├── data/
-│   │   └── school-index.json.gz   # 2,422-school corpus (1 MB gzipped)
-│   └── test/smoke.ts        # live API smoke test
-└── docs/
-    ├── data-sources.md      # 50-agent feasibility scan (31 省 + national + competitors)
-    └── schema-gaokao-cn.md  # upstream JSON schema notes + gotchas
+│   │   ├── school-index.json.gz    # 2,422-school corpus (1 MB gzipped)
+│   │   └── yifenyiduan/            # 一分一段 (beijing 2023/24/25 today)
+│   └── test/smoke.ts               # live API smoke (10 checks)
+├── src/                            # gaokao.ha7ch.com landing page
+└── docs/                           # data-sources scan + schema notes
 ```
 
 ## Develop
 
 ```bash
 pnpm install
+pnpm dev                            # gaokao.ha7ch.com landing on :3000
 pnpm -C cli dev recommend --score 660 --province henan --subjects 物理,化学,生物 --985
-pnpm -C cli test                       # 8 smoke checks against live API
-pnpm -C cli probe                      # rebuild data/school-index.json.gz
-pnpm -C cli build                      # tsc → dist/
+pnpm -C cli test                    # 10 smoke checks against live API + local data
+pnpm -C cli probe                   # rebuild cli/data/school-index.json.gz
+pnpm -C cli build                   # tsc → cli/dist/
 ```
 
-## Compliance
+## Adding a new province's 一分一段
 
-This is a thin client over public CDN-served JSON. The CLI doesn't store any
-PII, doesn't make value judgments, doesn't replace a 志愿规划师. See
-[docs/data-sources.md](./docs/data-sources.md) for the compliance posture
-and provincial 教育考试院 fallback notes.
+The infrastructure is in place — adding a new province is a JSON drop:
 
-Part of [HA7CH](https://ha7ch.com) — sibling of `job-pro` and `cv-pro`.
+1. Get the 一分一段表 PDF/Excel from the 省考试院 (see `docs/data-sources.md` for URLs).
+2. Extract rows in this shape:
+   ```json
+   {
+     "province": "henan",
+     "province_name": "河南",
+     "year": 2024,
+     "track": "physics",
+     "source": "河南省教育考试院 (heao.com.cn)",
+     "count": 547,
+     "rows": [
+       { "score": 700, "count": 12, "cumulative": 12 },
+       { "score": 699, "count": 18, "cumulative": 30 }
+     ]
+   }
+   ```
+3. Save to `cli/data/yifenyiduan/{province-pinyin}-{year}-{track}.json`.
+4. `rank` / `rank-tables` / MCP pick it up automatically.
 
-## Why
-
-Existing tools (夸克高考, 百度AI高考, 优志愿, 掌上高考 App) are App-only,
-black-box, and either pay-walled or ad-supported. We want the same data in
-the terminal so a parent + Claude Code can plan together — auditable,
-scriptable, free.
-
-See [docs/](./docs/) for the data-source research, schema notes, and
-endpoint inventory.
-
-## Develop
-
-```bash
-pnpm install
-pnpm -C cli dev school 31              # run via tsx
-pnpm -C cli test                       # smoke test against live API
-pnpm -C cli probe -- --start 1 --end 50   # build school-id index
-pnpm -C cli build                      # tsc → dist/
-```
+Tracks: `combined` (3+3 provinces), `physics` / `history` (3+1+2), `science` / `liberal` (老高考).
 
 ## License
 
-MIT.
+MIT. Part of [HA7CH](https://ha7ch.com) — sibling of `job-pro` and `cv-pro`.
