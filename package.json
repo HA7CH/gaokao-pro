@@ -1,0 +1,15 @@
+{
+  "name": "gaokao-pro-monorepo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "China gaokao college planner — from your terminal.",
+  "workspaces": [
+    "cli"
+  ],
+  "scripts": {
+    "build": "pnpm -C cli build",
+    "test": "pnpm -C cli test",
+    "probe": "pnpm -C cli probe"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "gaokao-pro",
+  "version": "0.0.1",
+  "description": "Query Chinese gaokao college admission data from your terminal.",
+  "type": "module",
+  "bin": {
+    "gaokao-pro": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "probe": "tsx src/probe.ts",
+    "test": "tsx test/smoke.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "gaokao",
+    "china",
+    "college",
+    "admission",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
