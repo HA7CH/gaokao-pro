@@ -8,6 +8,8 @@ import { formatRecommend } from "../src/format.js";
 import { listRankTables, loadRankTable, scoreToRank, rankToScore } from "../src/rank-table.js";
 import { decodeXuanke } from "../src/xuanke.js";
 import { runSelftest } from "../src/selftest.js";
+import { match } from "../src/match.js";
+import { chartCheck } from "../src/chart-check.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -131,6 +133,34 @@ async function main() {
       const failures = out.results.filter((r) => !r.ok).map((r) => `${r.stage}: ${r.reason}`);
       throw new Error(`selftest failed: ${failures.join("; ")}`);
     }
+  });
+
+  await expect("match 660 / 河南 / 物化生 / 985 returns ≥10 candidates", () => {
+    const out = match({
+      score: 660,
+      province: 41,
+      subjects: ["物理", "化学", "生物"],
+      constraints: { require_985: true }
+    }, 20);
+    if (out.candidates.length < 10) throw new Error(`only ${out.candidates.length} candidates`);
+  });
+
+  await expect("chart-check clean profile health=100", () => {
+    const out = chartCheck({
+      province_id: 41,
+      score: 660,
+      subjects: ["物理", "化学", "生物"]
+    });
+    if (!out.ok || out.health < 90) throw new Error(`unexpected: ok=${out.ok} health=${out.health}`);
+  });
+
+  await expect("chart-check 3+1+2 missing 物理/历史 fails", () => {
+    const out = chartCheck({
+      province_id: 41,                 // 河南 3+1+2
+      score: 600,
+      subjects: ["化学", "生物", "地理"]
+    });
+    if (out.ok) throw new Error("expected ok=false");
   });
 
   await expect("beijing 2024 一分一段: 650 → rank ~3176", () => {

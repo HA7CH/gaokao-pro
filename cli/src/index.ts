@@ -17,6 +17,11 @@ import {
   memoryPath
 } from "./memory.js";
 import { runSelftest } from "./selftest.js";
+import { match, type Profile } from "./match.js";
+import { recommendMajor } from "./recommend-major.js";
+import { chartCheck } from "./chart-check.js";
+import { readFileSync, existsSync } from "node:fs";
+import type { ProvinceId } from "./codes.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -103,6 +108,23 @@ Usage:
 
   gaokao-pro rank-tables
       List all (province, year, track) tuples with ingested 一分一段 data.
+
+  gaokao-pro match --profile profile.json [--limit <n>] [--format table|json]
+      Read a student profile (JSON file or stdin) and return ranked schools
+      with composite fit scores (interest + baseline + label + city).
+      e.g. cat profile.json | gaokao-pro match - --limit 20
+
+  gaokao-pro recommend-major <interest> --score <n> --province <name|id>
+                              --subjects <list> --year <year>
+                              [--985] [--211] [--limit <n>]
+      Interest-driven: find majors matching <interest> across schools that
+      recruit in your province for the year. Returns schools grouped by 专业.
+      e.g. gaokao-pro recommend-major 计算机 --score 660 --province henan \\
+                                        --subjects 物理,化学,生物 --year 2024 --985
+
+  gaokao-pro chart-check --profile profile.json
+      Sanity-check a profile: score range, subject combo for the province's
+      新高考 reform, rank↔score consistency (if 一分一段 exists). 0-100 score.
 
   gaokao-pro xuanke <raw>
       Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
@@ -202,6 +224,85 @@ const VERBS: Record<string, Verb> = {
   async "rank-tables"() {
     const items = listRankTables();
     printJson({ ok: true, count: items.length, tables: items });
+  },
+
+  async match(args) {
+    const { positional, flags } = parseFlags(args);
+    let profileJson: unknown;
+    const src = typeof flags.profile === "string" ? flags.profile : positional[0];
+    if (!src || src === "-") {
+      const stdin = readFileSync(0, "utf8");
+      profileJson = JSON.parse(stdin);
+    } else {
+      if (!existsSync(src)) throw new Error(`profile not found: ${src}`);
+      profileJson = JSON.parse(readFileSync(src, "utf8"));
+    }
+    const p = profileJson as { score: number; province: string; subjects: string[]; rank?: number; interests?: string[]; constraints?: unknown };
+    if (typeof p.score !== "number") throw new Error("profile.score must be number");
+    if (typeof p.province !== "string") throw new Error("profile.province must be string");
+    const provinceId = resolveProvince(p.province);
+    if (!provinceId) throw new Error(`unknown province: ${p.province}`);
+    if (!Array.isArray(p.subjects)) throw new Error("profile.subjects must be array");
+    for (const s of p.subjects) {
+      if (!ALL_SUBJECTS.includes(s as Subject)) throw new Error(`unknown subject: ${s}`);
+    }
+    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const out = match({
+      score: p.score,
+      province: provinceId,
+      subjects: p.subjects as Subject[],
+      rank: p.rank,
+      interests: p.interests,
+      constraints: p.constraints as Profile["constraints"]
+    }, limit);
+    printJson({ ok: true, ...out });
+  },
+
+  async "recommend-major"(args) {
+    const { positional, flags } = parseFlags(args);
+    const keyword = positional[0];
+    if (!keyword) throw new Error("missing <interest>. e.g. `gaokao-pro recommend-major 计算机 ...`");
+    const score = Number(flags.score);
+    if (!Number.isFinite(score)) throw new Error("--score <n> is required");
+    if (typeof flags.province !== "string") throw new Error("--province is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+    if (typeof flags.subjects !== "string") throw new Error("--subjects is required");
+    const subjects = flags.subjects.split(",").map((s) => s.trim()) as Subject[];
+    for (const s of subjects) {
+      if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s}`);
+    }
+    const year = Number(flags.year);
+    if (!Number.isFinite(year)) throw new Error("--year is required");
+    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const filter = {
+      f985: flags["985"] === true ? true : undefined,
+      f211: flags["211"] === true ? true : undefined,
+      dualClass: flags["dual-class"] === true ? true : undefined,
+      belong: typeof flags.belong === "string" ? flags.belong : undefined
+    };
+    const out = await recommendMajor({ keyword, score, provinceId, subjects, year, filter, limit });
+    printJson({ ok: true, ...out });
+  },
+
+  async "chart-check"(args) {
+    const { flags } = parseFlags(args);
+    let profileJson: unknown;
+    const src = typeof flags.profile === "string" ? flags.profile : "-";
+    if (src === "-") {
+      profileJson = JSON.parse(readFileSync(0, "utf8"));
+    } else {
+      if (!existsSync(src)) throw new Error(`profile not found: ${src}`);
+      profileJson = JSON.parse(readFileSync(src, "utf8"));
+    }
+    const p = profileJson as { score?: number; rank?: number; province?: string; subjects?: string[]; year?: number };
+    let province_id: ProvinceId | undefined;
+    if (typeof p.province === "string") {
+      const id = resolveProvince(p.province);
+      if (id) province_id = id;
+    }
+    const out = chartCheck({ ...p, province_id });
+    printJson(out);
   },
 
   async xuanke(args) {

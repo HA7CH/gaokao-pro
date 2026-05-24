@@ -32,6 +32,9 @@ import {
   inferDefaultTrack
 } from "./rank-table.js";
 import { decodeXuanke } from "./xuanke.js";
+import { match } from "./match.js";
+import { recommendMajor } from "./recommend-major.js";
+import { chartCheck } from "./chart-check.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -202,6 +205,72 @@ const TOOLS = [
     name: "rank_tables",
     description: "List the (province, year, track) tuples for which we have ingested 一分一段 data. Call this before `rank` to confirm coverage. Beijing is the proof-of-concept; other provinces are being added incrementally.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
+    name: "match",
+    description: "Take a complete student profile (score + province + subjects + interests + constraints) and return ranked schools with composite fit scores (interest 0.4 + baseline 0.35 + label 0.15 + city 0.10). Use this when the user has given you enough preferences for a holistic plan; for pure score-based reach/match/safety lists use `recommend` instead.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        score: { type: "number" },
+        province: { type: "string" },
+        subjects: { type: "array", items: { type: "string", enum: ALL_SUBJECTS } },
+        rank: { type: "number" },
+        interests: { type: "array", items: { type: "string" } },
+        constraints: {
+          type: "object",
+          properties: {
+            cities_preferred: { type: "array", items: { type: "string" } },
+            cities_avoid: { type: "array", items: { type: "string" } },
+            require_985: { type: "boolean" },
+            require_211: { type: "boolean" },
+            require_dual_class: { type: "boolean" },
+            belong: { type: "string" },
+            max_tuition_yuan: { type: "number" }
+          },
+          additionalProperties: false
+        },
+        limit: { type: "number" }
+      },
+      required: ["score", "province", "subjects"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "recommend_major",
+    description: "Interest-driven inverse of `recommend`: given a major keyword (e.g. '计算机', 'AI', '临床医学'), find which schools in the user's province recruit that major, ranked by how many of them the student's score can reach. Use this when the user starts from a major interest instead of a school.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        keyword: { type: "string" },
+        score: { type: "number" },
+        province: { type: "string" },
+        subjects: { type: "array", items: { type: "string", enum: ALL_SUBJECTS } },
+        year: { type: "number" },
+        f985: { type: "boolean" },
+        f211: { type: "boolean" },
+        dualClass: { type: "boolean" },
+        belong: { type: "string" },
+        limit: { type: "number" }
+      },
+      required: ["keyword", "score", "province", "subjects", "year"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "chart_check",
+    description: "Sanity-check a student profile before sending it into `match` or `recommend`. Validates score range, 选科 vs 新高考 reform, rank↔score consistency (when 一分一段 data exists). Returns ok/health (0-100) + errors + warnings. ALWAYS call this once after collecting the user's profile.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        score: { type: "number" },
+        rank: { type: "number" },
+        province: { type: "string" },
+        subjects: { type: "array", items: { type: "string" } },
+        year: { type: "number" }
+      },
+      additionalProperties: false
+    }
   },
   {
     name: "xuanke",
@@ -379,6 +448,39 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "xuanke": {
       return decodeXuanke(getStr(args, "raw"));
+    }
+    case "match": {
+      return match({
+        score: getNum(args, "score"),
+        province: getProvinceId(args),
+        subjects: getSubjects(args),
+        rank: args.rank !== undefined ? Number(args.rank) : undefined,
+        interests: Array.isArray(args.interests) ? (args.interests as string[]) : undefined,
+        constraints: (args.constraints ?? undefined) as never
+      }, args.limit !== undefined ? Number(args.limit) : 20);
+    }
+    case "recommend_major": {
+      return recommendMajor({
+        keyword: getStr(args, "keyword"),
+        score: getNum(args, "score"),
+        provinceId: getProvinceId(args),
+        subjects: getSubjects(args),
+        year: getNum(args, "year"),
+        filter: getFilter(args),
+        limit: args.limit !== undefined ? Number(args.limit) : 20
+      });
+    }
+    case "chart_check": {
+      const provinceArg = typeof args.province === "string" ? args.province : undefined;
+      const province_id = provinceArg ? resolveProvince(provinceArg) ?? undefined : undefined;
+      return chartCheck({
+        score: args.score !== undefined ? Number(args.score) : undefined,
+        rank: args.rank !== undefined ? Number(args.rank) : undefined,
+        province: provinceArg,
+        province_id,
+        subjects: Array.isArray(args.subjects) ? (args.subjects as string[]) : undefined,
+        year: args.year !== undefined ? Number(args.year) : undefined
+      });
     }
     default:
       throw new Error(`unknown tool: ${name}`);
