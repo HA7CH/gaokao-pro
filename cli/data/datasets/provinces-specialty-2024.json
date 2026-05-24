@@ -1,0 +1,139 @@
+{
+  "_kind": "Per-province 提前批 + 各类专项计划 implementation, 2024",
+  "_year": 2024,
+  "_source": "100-agent fan-out 2026-05-24; verified entries marked, others incomplete",
+  "_note": "Provincial 教育考试院 specialty plans are sparsely documented online. The verified entries below are from official policy pages; others sources require manual confirmation.",
+  "provinces": [
+    {
+      "province": "tianjin",
+      "year": 2024,
+      "data_quality": "verified",
+      "tiqian": {
+        "types": ["军校", "公安", "民航飞行学员", "公费师范生", "航海类", "本科特殊院校"],
+        "rules": "A段(军校/公安/飞行学员/公费师范生/航海类) 顺序志愿(民航飞行除外); B段(地方农村专项) 平行志愿。B段仅限宁河/武清/静海/宝坻/蓟州区高中学籍考生填报。"
+      },
+      "qiangji_implementing": ["北京大学", "清华大学", "南开大学", "天津大学", "大连理工大学", "哈尔滨工业大学", "复旦大学", "同济大学", "上海交通大学"],
+      "zonghepingjia_implementing": ["南开大学", "天津大学", "民航大学", "天津科技大学", "天津工业大学"],
+      "guojia_zhuanxiang": false,
+      "gaoxiao_zhuanxiang": true,
+      "difang_zhuanxiang": true,
+      "source": ["https://gaokao.eol.cn/tian_jin/dongtai/202407/t20240715_2623819.shtml", "https://www.zizzs.com/gk/qiangjijihua/157057.html"]
+    },
+    {
+      "province": "zhejiang",
+      "year": 2024,
+      "data_quality": "verified",
+      "tiqian": {
+        "types": ["强基计划", "三位一体综合评价", "高校专项", "地方专项"],
+        "rules": "三位一体: 浙大 980 人, 综合成绩 = 高考85% + 校测10% + 学考5%, 初审 1:6 入围。地方专项覆盖 29 县, 23 校 800 名。"
+      },
+      "qiangji_implementing": ["浙江大学", "北京大学", "清华大学"],
+      "zonghepingjia_implementing": ["浙江大学(980人,85:10:5)", "复旦大学(205人)", "上海交通大学(295人)", "中国科学院大学(39人,90:10)"],
+      "guojia_zhuanxiang": false,
+      "gaoxiao_zhuanxiang": true,
+      "difang_zhuanxiang": true,
+      "source": ["https://www.zjzs.net/art/2024/5/17/art_155_8594.html", "https://zdzsc.zju.edu.cn/2024/0509/c3299a2913074/page.htm", "https://jyt.zj.gov.cn/art/2024/4/28/art_1532974_58942082.html"]
+    },
+    {
+      "province": "hunan",
+      "year": 2024,
+      "data_quality": "verified",
+      "tiqian": {
+        "types": ["军事院校", "公安院校", "民航飞行学员", "农村订单定向医学生", "农技/水利/林业/核产业 特岗生", "航海类", "省外高校综合评价"],
+        "rules": "本科提前批分平行志愿(军事/公安等)和单个志愿(民航/订单医学等)两类; 国家专项与普通志愿同时投档。国专40县, 地专全省农村, 高专51县市区。"
+      },
+      "qiangji_implementing": ["中南大学", "湖南大学", "国防科技大学"],
+      "zonghepingjia_implementing": ["中南大学(500人)"],
+      "guojia_zhuanxiang": true,
+      "gaoxiao_zhuanxiang": true,
+      "difang_zhuanxiang": true,
+      "source": ["http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/zcfg/zcjd/202406/t20240621_33332962.html", "https://zhaosheng.csu.edu.cn/info/1030/4410.htm"]
+    },
+    {
+      "province": "shandong",
+      "year": 2024,
+      "data_quality": "partial",
+      "tiqian": {
+        "types": ["军校", "武警", "公安", "外语类", "免费师范", "航海类"]
+      },
+      "qiangji_implementing": ["山东大学", "中国海洋大学"],
+      "zonghepingjia_implementing": ["山东大学(300人)", "中国海洋大学(50人)", "中国石油大学(华东)", "哈尔滨工业大学(威海)", "北京外国语大学"],
+      "guojia_zhuanxiang": true,
+      "gaoxiao_zhuanxiang": true,
+      "difang_zhuanxiang": true,
+      "source": ["https://www.sdzk.cn/", "http://edu.shandong.gov.cn/art/2024/4/13/art_107055_10330318.html"]
+    },
+    {
+      "province": "guangdong",
+      "year": 2024,
+      "data_quality": "partial",
+      "tiqian": {
+        "types": ["军校", "公安", "定向", "本硕连读"],
+        "rules": "需政审+体检"
+      },
+      "zonghepingjia_implementing": ["中山大学(495人,85:15)", "华南理工大学(300人)", "南方科技大学(631)", "暨南大学", "深圳大学"],
+      "source": ["https://eea.gd.gov.cn/ptgk/"]
+    }
+  ],
+  "cross_province_special_programs": {
+    "guojia_zhuanxiang": {
+      "year": 2024,
+      "policy_summary": "国家专项计划面向脱贫地区学生, 覆盖 832 个原集中连片特困县和国家级扶贫开发重点县。招生院校为中央部门所属高校和各省属重点高校。",
+      "implementing_provinces": [
+        {"province": "河南", "county_count": 38, "sample_counties": ["兰考县", "卢氏县", "栾川县", "淅川县", "内乡县"]},
+        {"province": "四川", "county_count": 68, "sample_counties": ["汶川县", "理县", "茂县", "九寨沟县", "甘孜县", "稻城县"]},
+        {"province": "山西", "county_count": 36, "regions": ["吕梁地区各县", "长治地区各县", "忻州地区各县"]},
+        {"province": "贵州", "regions": ["脱贫地区"]},
+        {"province": "云南", "regions": ["西部边远脱贫县"]},
+        {"province": "甘肃", "regions": ["陇东陇中"]}
+      ],
+      "source": ["https://gaokao.eol.cn/news/202404/t20240416_2598977.shtml", "https://gaokao.chsi.com.cn/gkzt/gxzxjh2024"]
+    },
+    "gaoxiao_zhuanxiang": {
+      "year": 2024,
+      "policy_summary": "高校专项计划 95 所重点高校面向边远/脱贫/民族 地区县级以下农村学生定向招生。考生及父母需在实施区农村户籍 3 年+ 学籍 3 年。",
+      "universities_count": 95,
+      "universities_sample": ["清华大学", "北京大学", "中国人民大学", "复旦大学", "上海交通大学", "浙江大学", "南京大学", "中国科学技术大学", "武汉大学", "华中科技大学", "中山大学", "西安交通大学", "哈尔滨工业大学", "厦门大学", "山东大学", "四川大学", "重庆大学", "湖南大学", "中南大学", "电子科技大学"],
+      "source": ["https://gaokao.eol.cn/zhuanxiang/202404/t20240407_2597062.shtml", "https://gaokao.chsi.com.cn/gkzt/gxzxjh2024"]
+    },
+    "difang_zhuanxiang": {
+      "year": 2024,
+      "policy_summary": "地方专项计划由各省属重点高校面向本省实施区域农村学生招生。各省自行界定实施区域(脱贫地区/民族地区/革命老区)。",
+      "by_province": [
+        {"province": "山东", "universities": ["山东科技大学", "济南大学", "山东师范大学", "山东财经大学", "山东农业大学"], "implementing_areas": "省级财政困难县+沂蒙革命老区", "plans": 3150},
+        {"province": "浙江", "universities_count": 23, "implementing_areas": "29 县市区 (淳安/洞头/永嘉/文成/平阳/泰顺/苍南/武义/磐安 等)", "plans": 800},
+        {"province": "四川", "universities": ["西南石油大学", "成都信息工程大学", "四川轻化工大学"], "implementing_areas": "民族地区+原集中连片特困地区+革命老区, 共 119 县市区"},
+        {"province": "山西", "universities_count": 18, "implementing_areas": "22 个省级脱贫县 + 4 个乡村振兴重点县"}
+      ],
+      "source": ["https://gaokao.eol.cn/news/202404/t20240416_2598977.shtml"]
+    },
+    "gangaotai_lianzhao": {
+      "year": 2024,
+      "name": "中华人民共和国普通高等学校联合招收华侨港澳台学生入学考试",
+      "report_url": "https://www.gatzs.com.cn",
+      "key_scores_2024": {
+        "本科普通类_文史": 365,
+        "本科普通类_理工": 390,
+        "本科高分线_文史": 465,
+        "本科高分线_理工": 510,
+        "艺体_文史": 265,
+        "艺体_理工": 290
+      },
+      "applicant_eligibility": "港澳台学生及华侨生 (华侨需父母及本人在居住国 2 年+ 长期/永久居住权)。",
+      "subjects_science": ["中文", "数学", "英语", "物理", "化学"],
+      "subjects_liberal": ["中文", "数学", "英语", "历史", "地理"],
+      "max_score": 750,
+      "participating_universities_count": 366,
+      "stats_2024": {"applicants": 10320, "admitted": 6012, "rate_pct": 58},
+      "single_school_channels": [
+        {"name": "暨南大学", "route": "两校单招 + 全国联招"},
+        {"name": "华侨大学", "route": "两校单招 + 全国联招"},
+        {"name": "清华大学", "route": "全国联招", "seats_2024": 4},
+        {"name": "北京大学", "route": "全国联招", "seats_2024": 5},
+        {"name": "复旦大学", "route": "全国联招", "seats_2024": 12},
+        {"name": "上海交通大学", "route": "全国联招", "seats_2024": 17}
+      ],
+      "source": ["https://www.gatzs.com.cn/gatzs/pz/hongkong/202401/20240131/2293253064.html", "https://eea.gd.gov.cn/lhzs/content/post_4441430.html"]
+    }
+  }
+}
