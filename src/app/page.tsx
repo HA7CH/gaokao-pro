@@ -151,10 +151,10 @@ export default function Home() {
         {/* Header */}
         <div className="grid grid-cols-[1.2fr_repeat(4,1fr)] sm:grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-1 sm:gap-3 px-1 pb-2 items-center" aria-hidden>
           <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring">省份</span>
-          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">计划</span>
-          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">分数</span>
-          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">一段</span>
-          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">录取</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">招生计划</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">历年分数</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">一分一段</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">实际录取</span>
         </div>
 
         {/* Rows */}
