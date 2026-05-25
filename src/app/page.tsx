@@ -149,23 +149,23 @@ export default function Home() {
         <h2 id="provinces-title" className="sr-only">Province coverage</h2>
 
         {/* Header */}
-        <div className="grid grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-3 px-1 pb-2 items-center" aria-hidden>
-          <span className="font-mono text-[0.6875rem] tracking-wider uppercase text-ring">省份</span>
-          <span className="font-mono text-[0.6875rem] tracking-wider uppercase text-ring text-center">招生计划</span>
-          <span className="font-mono text-[0.6875rem] tracking-wider uppercase text-ring text-center">历年分数</span>
-          <span className="font-mono text-[0.6875rem] tracking-wider uppercase text-ring text-center">一分一段</span>
-          <span className="font-mono text-[0.6875rem] tracking-wider uppercase text-ring text-center">实际录取</span>
+        <div className="grid grid-cols-[1.2fr_repeat(4,1fr)] sm:grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-1 sm:gap-3 px-1 pb-2 items-center" aria-hidden>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring">省份</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">计划</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">分数</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">一段</span>
+          <span className="font-mono text-[0.625rem] sm:text-[0.6875rem] tracking-wider uppercase text-ring text-center">录取</span>
         </div>
 
         {/* Rows */}
         {PROVINCES.map((p) => (
           <div
             key={p.name}
-            className="grid grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-3 px-1 py-2 items-center transition-opacity duration-150 group-hover/table:[&:not(:hover)]:opacity-35 hover:opacity-100"
+            className="grid grid-cols-[1.2fr_repeat(4,1fr)] sm:grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-1 sm:gap-3 px-1 py-1.5 sm:py-2 items-center transition-opacity duration-150 group-hover/table:[&:not(:hover)]:opacity-35 hover:opacity-100"
           >
-            <span className="text-[0.9375rem] font-medium tracking-tight text-foreground transition-transform duration-150 hover:translate-x-0.5">
+            <span className="text-sm sm:text-[0.9375rem] font-medium tracking-tight text-foreground transition-transform duration-150 hover:translate-x-0.5 whitespace-nowrap">
               {p.name}
-              <span className="ml-2 text-[0.6875rem] font-normal text-muted-foreground">{p.reform}</span>
+              <span className="ml-1 sm:ml-2 text-[0.625rem] sm:text-[0.6875rem] font-normal text-muted-foreground">{p.reform}</span>
             </span>
             <span className={`flex items-center justify-center ${statusColor(p.plan)}`}>
               <StatusIcon kind={p.plan} />
