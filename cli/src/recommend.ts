@@ -17,6 +17,25 @@
 import { PROVINCES, TRACK_NAMES, type ProvinceId, type Subject } from "./codes.js";
 import { loadIndex, filterIndex, type SchoolRow, type IndexFilter } from "./index-loader.js";
 
+// Provinces where 2024 or 2025 was the FIRST year under 新高考 — historical
+// score-based ranking will be unreliable until the reform settles.
+// Source: 100-agent scan (河南/四川/陕西/山西/云南/甘肃 + 安徽/江西/广西/贵州 2024).
+const NEW_REFORM_FIRST_YEAR: Partial<Record<ProvinceId, number>> = {
+  34: 2024, // 安徽
+  36: 2024, // 江西
+  45: 2024, // 广西
+  52: 2024, // 贵州
+  41: 2025, // 河南
+  51: 2025, // 四川
+  61: 2025, // 陕西
+  14: 2025, // 山西
+  53: 2025, // 云南
+  62: 2025, // 甘肃
+  63: 2025, // 青海
+  64: 2025, // 宁夏
+  65: 2025  // 新疆
+};
+
 export type Bucket = "保" | "稳" | "冲" | "out";
 
 export type RecommendInput = {
@@ -55,6 +74,7 @@ export type RecommendOutput = {
     track: string;
     trackName: string;
     rank?: number;
+    reform_warning?: string;
   };
   evaluated: number;
   buckets: {
@@ -164,6 +184,11 @@ export function recommend(input: RecommendInput): RecommendOutput {
     buckets.out = buckets.out.slice(0, input.limit);
   }
 
+  const firstReformYear = NEW_REFORM_FIRST_YEAR[input.provinceId];
+  const reform_warning = firstReformYear !== undefined
+    ? `${province.name} 在 ${firstReformYear} 年首次进入新高考 (${province.reform})。历年位次跨改革前后不可直接对比；推荐结果按最近一年最低分粗估，请结合 2024/2025 真实录取数据校正。`
+    : undefined;
+
   return {
     query: {
       score: input.score,
@@ -171,7 +196,8 @@ export function recommend(input: RecommendInput): RecommendOutput {
       subjects: input.subjects,
       track,
       trackName: TRACK_NAMES[track] ?? track,
-      rank: input.rank
+      rank: input.rank,
+      ...(reform_warning ? { reform_warning } : {})
     },
     evaluated: rows.length,
     buckets: { ...buckets, skipped }

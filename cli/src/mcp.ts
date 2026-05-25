@@ -35,6 +35,8 @@ import { decodeXuanke } from "./xuanke.js";
 import { match } from "./match.js";
 import { recommendMajor } from "./recommend-major.js";
 import { chartCheck } from "./chart-check.js";
+import { compare } from "./compare.js";
+import { paiming } from "./paiming.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -273,6 +275,32 @@ const TOOLS = [
     }
   },
   {
+    name: "compare",
+    description: "Side-by-side comparison of two schools: labels (985/211/双一流), 隶属, recent 5-province minimum scores, 招生网 URL, special-program flags, contact. Aliases accepted: 清华/北大/复旦/上交/浙大/南大/中科大/哈工大/西交/北航/北理/南开/天大/同济/东南/厦大/山大/海大/武大/华科/中南/中山/华工/川大/重大/电子科大/西工大/西农/兰大/湖大/北邮/央财/贸大/上财/上外/华理/上大/西电/南理工/南航/苏大 etc.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        a: { type: "string", description: "School A: name, alias (e.g. 清华), or zs_code (e.g. 10003)" },
+        b: { type: "string", description: "School B (same forms)" },
+        province: { type: "string", description: "Optional focus province (only this province's score series in output)." }
+      },
+      required: ["a", "b"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "paiming",
+    description: "Aggregate rankings for one school: 软科 (Shanghai), 校友会, QS World, US News, 泰晤士中国 + 第四轮学科评估 (A+/A/A-/B+/B/B-/C+/C/C- counts) + 第五轮 disclosed A+ subjects if available. Use this whenever the user asks about a school's 'rank' / '排名' / '学科评估'.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        school: { type: "string", description: "School name, alias, or zs_code" }
+      },
+      required: ["school"],
+      additionalProperties: false
+    }
+  },
+  {
     name: "xuanke",
     description: "Decode a gaokao.cn selected-subject requirement string (e.g. '70001_70002^70001_70003') into Chinese subject names. Use this whenever you encounter `sp_xuanke` / `sg_xuanke` fields in plan / actual responses.",
     inputSchema: {
@@ -448,6 +476,13 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "xuanke": {
       return decodeXuanke(getStr(args, "raw"));
+    }
+    case "compare": {
+      const focusProv = typeof args.province === "string" ? resolveProvince(args.province) ?? undefined : undefined;
+      return compare(getStr(args, "a"), getStr(args, "b"), focusProv);
+    }
+    case "paiming": {
+      return await paiming(getStr(args, "school"));
     }
     case "match": {
       return match({

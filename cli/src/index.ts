@@ -29,6 +29,8 @@ import {
   listProvinceKeys,
   getCrossProvincePrograms
 } from "./datasets.js";
+import { compare } from "./compare.js";
+import { paiming } from "./paiming.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -132,6 +134,16 @@ Usage:
   gaokao-pro chart-check --profile profile.json
       Sanity-check a profile: score range, subject combo for the province's
       新高考 reform, rank↔score consistency (if 一分一段 exists). 0-100 score.
+
+  gaokao-pro compare <A> <B> [--province <name|id>]
+      Side-by-side: labels (985/211/双一流), 隶属, recent province min scores,
+      招生网 URL, special-program flags, contact. Offline.
+      e.g. gaokao-pro compare 复旦 上交 --province henan
+
+  gaokao-pro paiming <school>
+      Aggregate rankings: 软科 / 校友会 / QS / US News / 泰晤士中国 +
+      第四轮学科评估 (A+/A/A- counts) + 第五轮已披露 A+ 学科 (if any).
+      e.g. gaokao-pro paiming 清华大学
 
   gaokao-pro adapter <name|zs_code>
       Look up one school's 招生网 URL + special-program offer flags + contact.
@@ -325,6 +337,26 @@ const VERBS: Record<string, Verb> = {
     }
     const out = chartCheck({ ...p, province_id });
     printJson(out);
+  },
+
+  async compare(args) {
+    const { positional, flags } = parseFlags(args);
+    const a = positional[0];
+    const b = positional[1];
+    if (!a || !b) throw new Error("usage: compare <A> <B> [--province <name|id>]");
+    const focusProvince = typeof flags.province === "string"
+      ? resolveProvince(flags.province) ?? undefined
+      : undefined;
+    const out = compare(a, b, focusProvince);
+    printJson({ ok: true, ...out });
+  },
+
+  async paiming(args) {
+    const { positional } = parseFlags(args);
+    const q = positional[0];
+    if (!q) throw new Error("usage: paiming <name|zs_code|schoolId>");
+    const out = await paiming(q);
+    printJson({ ok: true, ...out });
   },
 
   async adapter(args) {

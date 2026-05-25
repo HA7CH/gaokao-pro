@@ -32,12 +32,9 @@ export type SchoolInfo = {
   nature_name: string;         // 公办 / 民办 / 中外合作办学
   dual_class_name: string;     // 双一流 / -
   f985: string; f211: string;  // "1" if yes, "2" if no
-  rank: {
-    ruanke_rank?: string;      // 软科中国大学排名
-    qs_world?: string;
-    us_rank?: string;
-  };
+  rank: Record<string, string>;
   xueke_rank: Record<string, string>; // 第四轮学科评估 e.g. {"A+":"21","A":"11",...}
+  xueke_pinggu?: Record<string, string>;
   pro_type_min: Record<string, Array<{ year: number; type: Record<string, string> }>>;
   // ^^ This is the gold field. Keyed by province_id; each entry has historical min scores per track.
   province_score_year: string;
