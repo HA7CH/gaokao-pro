@@ -11,3 +11,4 @@ next-env.d.ts
 # probe outputs and cached fixtures (kept locally, not checked in)
 cli/.cache/
 cli/probe-output/
+.vercel
