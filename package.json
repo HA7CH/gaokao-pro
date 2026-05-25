@@ -1,8 +1,8 @@
 {
   "name": "gaokao-pro-web",
   "private": true,
-  "version": "0.0.2",
-  "description": "Landing page for gaokao-pro — China gaokao college planner from your terminal.",
+  "version": "0.1.1",
+  "description": "gaokao.pro 落地页 · 用 Claude Code 规划你的高考。",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,20 +1,16 @@
 # gaokao-pro
 
-Plan your gaokao with your Claude Code.
+用 Claude Code 规划你的高考。
 [gaokao.ha7ch.com](https://gaokao.ha7ch.com)
 
-Drop this prompt into Claude Code, Codex, or Cursor:
+把下面这段 prompt 粘进 Claude Code / Codex / Cursor：
 
 ```
-Run `npx gaokao-pro@latest help` to discover the CLI, then help me plan
-my (or my child's) college applications for the 2026 高考.
+跑 `npx gaokao-pro@latest help` 把命令摸清楚，然后帮我规划 2026 年的高考志愿。
 
-Ask me for my score, 全省位次 if I know it, province, 选科 combination,
-intended majors or career interests, and any preferences (target cities,
-985/211 priority, budget). Use the CLI to ground every recommendation
-in real admissions data — pull historical scores, search for matching
-majors across schools, and translate score → 位次 when 一分一段 data
-exists for my province. Always reply to me in Chinese.
+先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+
+每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。
 ```
 
 ## Install

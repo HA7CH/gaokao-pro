@@ -50,15 +50,11 @@ const PROVINCES: Row[] = [
   { name: "新疆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" }
 ];
 
-const PROMPT = `Run \`npx gaokao-pro@latest help\` to discover the CLI, then help me plan
-my (or my child's) college applications for the 2026 高考.
+const PROMPT = `跑 \`npx gaokao-pro@latest help\` 把命令摸清楚，然后帮我规划 2026 年的高考志愿。
 
-Ask me for my score, 全省位次 if I know it, province, 选科 combination,
-intended majors or career interests, and any preferences (target cities,
-985/211 priority, budget). Use the CLI to ground every recommendation
-in real admissions data — pull historical scores, search for matching
-majors across schools, and translate score → 位次 when 一分一段 data
-exists for my province. Always reply to me in Chinese.`;
+先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+
+每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。`;
 
 function StatusDot({ kind }: { kind: Status }) {
   if (kind === "live") return <span className="status-cell live" aria-label="ready">●</span>;
@@ -82,8 +78,8 @@ export default function Home() {
   return (
     <main className="page">
       <h1>
-        Plan your gaokao w/{" "}
-        <span className="accent">your Claude Code</span>
+        用 <span className="accent">Claude Code</span>{" "}
+        规划你的高考
       </h1>
       <p className="lede">
         <span className="lede-prefix">$</span> npx gaokao-pro help
@@ -92,7 +88,7 @@ export default function Home() {
       <section className="prompt-card" aria-labelledby="prompt-title">
         <div className="prompt-head">
           <span id="prompt-title" className="prompt-head-label">
-            Copy into Claude Code, Codex, or Cursor
+            粘贴进 Claude Code / Codex / Cursor
           </span>
           <button
             type="button"
@@ -112,15 +108,15 @@ export default function Home() {
       </p>
 
       <p className="companion">
-        Pairs with{" "}
+        搭配{" "}
         <a href="https://cv.ha7ch.com" target="_blank" rel="noopener noreferrer">
           cv.ha7ch.com
         </a>{" "}
-        for a tailored 简历 and{" "}
+        写简历，毕业后用{" "}
         <a href="https://job.ha7ch.com" target="_blank" rel="noopener noreferrer">
           job.ha7ch.com
         </a>{" "}
-        once you graduate.
+        找工作。
       </p>
 
       <section className="province-table" aria-labelledby="provinces-title">
@@ -128,7 +124,7 @@ export default function Home() {
           Province coverage
         </h2>
         <div className="province-row header" aria-hidden>
-          <span>Province</span>
+          <span>省份</span>
           <span className="status-cell">招生计划</span>
           <span className="status-cell">历年分数</span>
           <span className="status-cell">一分一段</span>

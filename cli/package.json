@@ -1,7 +1,7 @@
 {
   "name": "gaokao-pro",
-  "version": "0.1.0",
-  "description": "Query Chinese gaokao college admission data from your terminal.",
+  "version": "0.1.2",
+  "description": "中国高考志愿规划 CLI · 用 Claude Code / Codex / Cursor 帮你查招生数据、出冲稳保。",
   "type": "module",
   "bin": {
     "gaokao-pro": "dist/index.js"
