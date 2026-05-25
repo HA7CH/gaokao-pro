@@ -13,6 +13,7 @@
     "cli:probe": "pnpm -C cli probe"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "lucide-react": "^1.16.0",
     "next": "^16.2.5",
     "react": "^19.2.6",
