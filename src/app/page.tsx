@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy } from "lucide-react";
 
 type Status = "live" | "building" | "none";
 
@@ -12,71 +11,72 @@ type Row = {
   scores: Status;
   rank: Status;
   actual: Status;
+  employment: Status;
   rules: string;
 };
 
 const PROVINCES: Row[] = [
-  { name: "北京", reform: "3+3", plan: "live", scores: "live", rank: "live", actual: "live",
+  { name: "北京", reform: "3+3", plan: "live", scores: "live", rank: "live", actual: "live", employment: "building",
     rules: "3+3 新高考（6 选 3，含技术）。普通本科批 30 个院校专业组志愿，平行投档。强基/综合评价/军校/公安/小语种 走本科提前批。语数外原始分 + 6 选 3 等级赋分，满分 750。" },
-  { name: "天津", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "天津", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+3 新高考（6 选 3，等级赋分）。普通本科批 50 个院校专业组志愿，平行投档。提前批 A 段 (军校/公安/飞行学员/公费师范) 顺序志愿，B 段 (五区农村专项) 平行志愿。" },
-  { name: "上海", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "上海", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+3 新高考（6 选 3，等级赋分），满分 660。综合评价是上海一大特色，复旦/上交/同济/华东师大/上财/上外/华理 等 14 所校都有综评。院校专业组志愿，平行投档。高分段（>580）投档线不公开。" },
-  { name: "重庆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "重庆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理或历史，再选化学/生物/政治/地理 中选 2 科。院校专业组志愿。本科批 96 个志愿。提前批 含军校/公安/公费师范。" },
-  { name: "河北", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "河北", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨（物理类占 81% 计划，历史类 19%）。院校专业组志愿。本科批 96 个志愿，平行投档。" },
-  { name: "山西", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "山西", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "2024 仍为老高考（文理分科，2025 起进入新高考首届）。本科一批/二批分批次，提前批/常规批分次第。" },
-  { name: "内蒙古", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live",
-    rules: "老高考（2025 才进入新高考首届）。文理分科。独有"动态排名实时填报"机制：填报期间考生可实时看自己在意向校/专业的排名，整点公开投档预测线，高分先截止低分后截止。" },
-  { name: "辽宁", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "内蒙古", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "老高考（2025 才进入新高考首届）。文理分科。独有「动态排名实时填报」机制：填报期间考生可实时看自己在意向校/专业的排名，整点公开投档预测线，高分先截止低分后截止。" },
+  { name: "辽宁", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。院校专业组志愿，本科批 112 个志愿，平行投档。" },
-  { name: "吉林", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "吉林", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史 + 再选 2 科。院校专业组志愿。东北师大公费师范在吉林提前批招生。" },
-  { name: "黑龙江", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "黑龙江", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史 + 再选 2 科。哈工大本部/哈工程/哈深 是省内主要工科去向。" },
-  { name: "江苏", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "江苏", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。院校专业组志愿，本科批 40 个志愿。南大/东南综合评价是江苏特色路径。" },
-  { name: "浙江", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live",
-    rules: "3+3 新高考（7 选 3，含技术）。一段线/二段线分段录取。80 个"专业 + 院校"志愿，平行投档。三位一体综合评价 是浙大/复旦/上交/科大等校在浙江独有的招生路径，高考 85% + 校测 10% + 学考 5%。" },
-  { name: "安徽", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "浙江", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "3+3 新高考（7 选 3，含技术）。一段线/二段线分段录取。80 个「专业 + 院校」志愿，平行投档。三位一体综合评价 是浙大/复旦/上交/科大等校在浙江独有的招生路径，高考 85% + 校测 10% + 学考 5%。" },
+  { name: "安徽", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2024 首届）。首选物理/历史 + 再选 2 科。院校专业组志愿。" },
-  { name: "福建", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "福建", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。院校专业组志愿。厦大综合评价 + 福建省内多校公费师范 是本省特色。" },
-  { name: "江西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "江西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2024 首届）。首选物理/历史分轨。院校专业组志愿。南昌大学是省内唯一 211。" },
-  { name: "山东", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live",
-    rules: "3+3 新高考（6 选 3，等级赋分 8 档）。普通类常规批 96 个"专业 + 院校"志愿，平行投档。山大/海大 综评 + 部属公费师范在山东招生量较大。" },
-  { name: "河南", reform: "3+1+2", plan: "live", scores: "live", rank: "live", actual: "live",
+  { name: "山东", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "3+3 新高考（6 选 3，等级赋分 8 档）。普通类常规批 96 个「专业 + 院校」志愿，平行投档。山大/海大 综评 + 部属公费师范在山东招生量较大。" },
+  { name: "河南", reform: "3+1+2", plan: "live", scores: "live", rank: "live", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。考生数全国第一（140 万 +）。首选物理/历史分轨。院校专业组志愿。国家专项 + 地方专项 + 高校专项均参与。郑大是省内唯一 211。" },
-  { name: "湖北", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "湖北", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。院校专业组志愿。武大/华科/华农/中国地大武汉等是省内顶尖工科去向。" },
-  { name: "湖南", reform: "3+1+2", plan: "live", scores: "live", rank: "live", actual: "live",
+  { name: "湖南", reform: "3+1+2", plan: "live", scores: "live", rank: "live", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。湖南公费师范 6 校（湖南师大/一师/衡阳师院/湖南文理/吉首/科技）走提前批 + 服务期 6 年。国防科大在湖南有特殊招生。" },
-  { name: "广东", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "广东", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考。首选物理/历史分轨。院校专业组志愿，本科批 45 个志愿。中山大学（85:15）+ 华南理工（300 名）+ 南科大/上科大（631 模式）是广东综评主力。" },
-  { name: "广西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "广西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2024 首届）。少数民族加分政策（壮族/瑶族等）。广西大学是省内唯一 211。民族班/预科班招生量较大。" },
-  { name: "海南", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live",
-    rules: "3+3 新高考（6 选 3）。独特的"标准分"制：总分 100-900，单科满分 300。等级赋分 + 百分等级转换。院校专业组志愿。" },
-  { name: "四川", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "海南", reform: "3+3", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "3+3 新高考（6 选 3）。独特的「标准分」制：总分 100-900，单科满分 300。等级赋分 + 百分等级转换。院校专业组志愿。" },
+  { name: "四川", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。首选物理/历史 + 再选 2 科。院校专业组志愿。电子科大/川大/西南交大/西南财大 是省内顶尖去向。" },
-  { name: "贵州", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "贵州", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2024 首届）。首选物理/历史分轨。国家专项计划是贵州特色（脱贫县/集中连片特困区）。贵州大学是省内唯一 211。" },
-  { name: "云南", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "云南", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。首选物理/历史 + 再选 2 科。少数民族加分 + 民族班/预科班。云大/昆工是省内主要去向。" },
-  { name: "西藏", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "西藏", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "老高考（暂未启动新高考）。独特的双线分轨录取：A 类（少数民族/农牧民子女）与 B 类（汉族/其他）分别设线，A 类线远低于 B 类。区外内地高校设西藏专项/民族班/预科班。" },
-  { name: "陕西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
-    rules: "3+1+2 新高考（2025 首届）。首选物理/历史分轨。西交/西工大/西电/长安/陕师大 是省内顶尖去向。陕师大公费师范"红烛计划"是本省师范主力。" },
-  { name: "甘肃", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "陕西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "3+1+2 新高考（2025 首届）。首选物理/历史分轨。西交/西工大/西电/长安/陕师大 是省内顶尖去向。陕师大公费师范「红烛计划」是本省师范主力。" },
+  { name: "甘肃", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。首选物理/历史分轨。兰大是省内唯一 985。农村专项 + 国家专项 + 地方专项 实施面较广。" },
-  { name: "青海", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "青海", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。少数民族加分政策（藏族/回族/土族/撒拉族等）。民族班/预科班招生量大。青大医学院藏族民族班是本地医学主路径。" },
-  { name: "宁夏", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "宁夏", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。少数民族加分（回族）。宁大/北方民大 是省内主要去向。" },
-  { name: "新疆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live",
+  { name: "新疆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。三分离录取（汉族/民考汉/民考民 三类分别划线）。民族班/双语班 + 内地高校新疆班/协作计划。少数民族加分 50 分（双亲少数民族）。" }
 ];
 
@@ -212,6 +212,20 @@ export default function Home() {
 
   return (
     <main className="page">
+      <header className="site-head" aria-label="高考PRO">
+        <a href="/" className="logo">
+          <span className="logo-mark" aria-hidden>
+            <span className="logo-char">录</span>
+          </span>
+          <span className="logo-wordmark">
+            <span className="logo-name">
+              高考<span className="logo-suffix">PRO</span>
+            </span>
+            <span className="logo-tag">用 AI 规划你的高考</span>
+          </span>
+        </a>
+      </header>
+
       <h1>
         用 <span className="accent">AI</span> 高考填报志愿
       </h1>
@@ -222,93 +236,107 @@ export default function Home() {
         <SlotReel items={ASPIRATIONS} dir="left" speed={40} kind="aspiration" />
       </section>
 
-      {/* Prompt card */}
-      <section className="mt-10 border border-border rounded-[var(--radius-md)] bg-muted overflow-hidden" aria-labelledby="prompt-title">
-        <div className="flex items-center justify-between gap-2 px-4 py-1.5 bg-background border-b border-border">
-          <span id="prompt-title" className="font-mono text-[0.6875rem] tracking-wider uppercase text-muted-foreground">
+      <section className="prompt-card" aria-labelledby="prompt-title">
+        <div className="prompt-head">
+          <span id="prompt-title" className="prompt-head-label">
             粘贴进 Claude Code / Codex / Cursor
           </span>
           <button
             type="button"
-            className="inline-flex items-center justify-center size-6 rounded-md text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+            className="prompt-copy"
             onClick={copyPrompt}
             aria-label={copied ? "已复制" : "复制"}
           >
             {copied ? "✓ 已复制" : "复制"}
           </button>
         </div>
-        <pre className="px-5 py-4 font-mono text-[0.8125rem] leading-relaxed whitespace-pre overflow-x-auto text-foreground">
-          {PROMPT}
-        </pre>
+        <pre className="prompt-body">{PROMPT}</pre>
       </section>
 
-      <p className="install">
-        <span className="install-label">安装</span>
-        npx gaokao-pro@latest help
-      </p>
+      <aside className="parent-note" aria-labelledby="parent-note-title">
+        <h2 id="parent-note-title">致各位家长</h2>
+        <p>这是个开源免费的工具，给所有准备高考的家庭。</p>
+        <p>
+          它要跑在 Claude Code / Codex / Cursor 这类 AI 工具里。如果家里还没人用过这些，
+          请务必找一位用过的人陪你跑一次——孩子的同学、亲戚里的年轻人、单位里搞 IT 的同事都可以；
+          实在找不到，可以去{" "}
+          <a href="https://www.xiaohongshu.com/user/profile/5d4113b2000000001202e2ee" target="_blank" rel="noopener noreferrer">lawted</a>{" "}
+          的直播间让他帮你看一眼。
+        </p>
+        <p>
+          倒不是说这个工具本身有多重要——重要的是 AI 这一关，孩子未来三十年都要过。
+          这场革命已经发生了：你正在看的这个网站、背后的命令行工具、那几千行代码，
+          绝大部分是 AI 一行行写出来的，人只是把需求和判断给到它。
+          越来越多的公司，已经在用这种方式做事。
+        </p>
+        <p>
+          报志愿之前，请抽一晚上去看看现在的市场——大模型今天能干哪些活、
+          哪些岗位过去一两年被压缩了、哪些公司今年只招会用 AI 的人。
+          今天看着稳的专业，四年后可能被 AI 重新洗牌；今天看着冷门的方向，
+          可能恰好是新生产力的入口。报志愿别再单凭十年前的印象。
+        </p>
+        <p>
+          跑完之后，把 AI 当朋友继续聊下去。让它讲讲每个专业五年、十年后的样子，
+          让它说清楚自动化会冲掉哪些岗位、又会冒出哪些新岗位。
+          心里有一杆自己的秤，比靠亲戚邻居转述的旧地图靠谱。
+        </p>
+        <p className="parent-note-sign">孩子的人生路口，多花点时间是值得的。</p>
+      </aside>
+
+      <section className="province-table" aria-labelledby="provinces-title">
+        <h2 id="provinces-title" className="section-title">
+          省份覆盖
+          <InfoTip text="● 已就绪 · ◐ 数据建设中 · ○ 暂未支持。每个省份名后的 ⓘ 写了该省的录取规则。" />
+        </h2>
+        <div className="province-row header" aria-hidden>
+          <span>省份</span>
+          <span className="status-cell">招生计划</span>
+          <span className="status-cell">历年分数</span>
+          <span className="status-cell">一分一段</span>
+          <span className="status-cell">实际录取</span>
+          <span className="status-cell">就业报告</span>
+        </div>
+        {PROVINCES.map((p) => (
+          <div key={p.name} className="province-row">
+            <span className="province-name">
+              {p.name}
+              <InfoTip text={p.rules} />
+            </span>
+            <StatusDot kind={p.plan} />
+            <StatusDot kind={p.scores} />
+            <StatusDot kind={p.rank} />
+            <StatusDot kind={p.actual} />
+            <StatusDot kind={p.employment} />
+          </div>
+        ))}
+      </section>
 
       <p className="companion">
         搭配{" "}
-        <a href="https://cv.ha7ch.com" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-2">
+        <a href="https://cv.ha7ch.com" target="_blank" rel="noopener noreferrer">
           cv.ha7ch.com
         </a>{" "}
         写简历，毕业后用{" "}
-        <a href="https://job.ha7ch.com" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-2">
+        <a href="https://job.ha7ch.com" target="_blank" rel="noopener noreferrer">
           job.ha7ch.com
         </a>{" "}
         找工作。
       </p>
 
-      <section className="province-table" aria-labelledby="provinces-title">
-        <h2 id="provinces-title" className="section-title">
-          省份覆盖
-          <InfoTip text="● 已就绪 · ◐ 数据建设中 · ○ 暂未支持。每列含义把鼠标移到列名右侧的 ? 上查看。" />
-        </h2>
-        <div className="province-row header" aria-hidden>
-          <span>省份</span>
-          <span className="status-cell">
-            招生计划
-            <InfoTip text="学校每年在该省每个专业招几人、按什么批次、学制几年、学费多少。数据来自 static-data.gaokao.cn 公开 JSON。" />
-          </span>
-          <span className="status-cell">
-            历年分数
-            <InfoTip text="学校近年在该省各科类（物理类 / 历史类 / 综合 / 文 / 理）的最低录取分。用于初步定位冲稳保。" />
-          </span>
-          <span className="status-cell">
-            一分一段
-            <InfoTip text="全省考生的分数分布表（每分对应多少人 + 累计位次）。把分数换算成全省位次，跨年比较时位次比分数靠谱。" />
-          </span>
-          <span className="status-cell">
-            实际录取
-            <InfoTip text="学校在该省每个专业的实际录取最高/最低/平均分 + 录取数 + 最低位次（新高考省）。比招生计划更接近真实门槛。" />
-          </span>
-        </div>
+      <p className="install">
+        <span className="install-label">CLI</span>
+        npx gaokao-pro@latest help
+      </p>
 
-        {/* Rows */}
-        {PROVINCES.map((p) => (
-          <div
-            key={p.name}
-            className="grid grid-cols-[1.2fr_repeat(4,1fr)] sm:grid-cols-[1fr_6rem_6rem_6rem_6rem] gap-1 sm:gap-3 px-1 py-1.5 sm:py-2 items-center transition-opacity duration-150 group-hover/table:[&:not(:hover)]:opacity-35 hover:opacity-100"
-          >
-            <span className="text-sm sm:text-[0.9375rem] font-medium tracking-tight text-foreground transition-transform duration-150 hover:translate-x-0.5 whitespace-nowrap">
-              {p.name}
-              <span className="reform">{p.reform}</span>
-              <InfoTip text={p.rules} />
-            </span>
-          </div>
-        ))}
-      </section>
-
-      {/* Footer links */}
-      <div className="mt-12 font-mono text-[0.8125rem] text-muted-foreground flex flex-wrap items-center gap-1">
+      <p className="link-row">
         <a
           href="https://github.com/HA7CH/gaokao-pro"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="inline-flex items-center p-0.5 text-muted-foreground hover:text-foreground transition-colors"
+          className="link-icon"
         >
-          <svg viewBox="0 0 24 24" className="size-4" fill="currentColor" aria-hidden>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden>
             <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
           </svg>
         </a>
@@ -317,23 +345,28 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="npm"
-          className="inline-flex items-center p-0.5 text-muted-foreground hover:text-foreground transition-colors"
+          className="link-icon"
         >
-          <svg viewBox="0 0 24 24" className="size-4" fill="currentColor" aria-hidden>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden>
             <path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C23.99.786 23.204 0 22.227 0H1.763zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113V5.323z" />
           </svg>
         </a>
-        <span aria-hidden className="text-ring"> · </span>
-        <a href="https://cv.ha7ch.com" target="_blank" rel="noopener noreferrer" className="relative text-foreground after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:bg-border hover:after:bg-muted-foreground after:transition-colors">
+        <span aria-hidden style={{ color: "var(--fg-dim)" }}>·</span>
+        <a href="https://cv.ha7ch.com" target="_blank" rel="noopener noreferrer">
           cv.ha7ch.com
         </a>
-        <a href="https://job.ha7ch.com" target="_blank" rel="noopener noreferrer" className="relative text-foreground after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:bg-border hover:after:bg-muted-foreground after:transition-colors">
+        <a href="https://job.ha7ch.com" target="_blank" rel="noopener noreferrer">
           job.ha7ch.com
         </a>
-        <a href="https://ha7ch.com" target="_blank" rel="noopener noreferrer" className="relative ml-auto text-foreground after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:bg-border hover:after:bg-muted-foreground after:transition-colors">
+        <a
+          href="https://ha7ch.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-right"
+        >
           ha7ch.com
         </a>
-      </div>
+      </p>
     </main>
   );
 }

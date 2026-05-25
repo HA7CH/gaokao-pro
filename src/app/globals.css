@@ -1,4 +1,19 @@
-@import "tailwindcss";
+:root {
+  --bg: #fafaf7;
+  --fg: #1a1a1a;
+  --fg-muted: #5c5c5c;
+  --fg-dim: #8a8a8a;
+  --accent: #8b1538;
+  --accent-soft: #b91f4a;
+  --card: #ffffff;
+  --card-border: #e5e3dd;
+  --code-bg: #1a1a1a;
+  --code-fg: #f0e6d2;
+  --code-accent: #d4af37;
+  --row-hover: #f5f3ee;
+  --live: #2e7d3a;
+  --building: #c77b1e;
+  --none: #b3b3b3;
 
   --font-sans: var(--font-cjk-sans), ui-sans-serif, -apple-system, BlinkMacSystemFont,
     "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -7,40 +22,20 @@
   --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
-:root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --success: oklch(0.62 0.17 142);
-  --warning: oklch(0.78 0.16 85);
-  --border: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-  --radius: 0.625rem;
-}
-
-html {
-  height: 100%;
-  scroll-behavior: smooth;
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
-body {
-  min-height: 100%;
-}
-
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 100ms ease;
@@ -50,7 +45,81 @@ a:hover { border-bottom-color: var(--accent); }
 main.page {
   max-width: 880px;
   margin: 0 auto;
-  padding: 72px 24px 88px;
+  padding: 56px 24px 88px;
+}
+
+.site-head {
+  margin-bottom: 44px;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--fg);
+  border-bottom: none;
+}
+.logo:hover { border-bottom-color: transparent; }
+.logo:hover .logo-mark {
+  transform: rotate(-4deg) scale(1.04);
+}
+.logo-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform: rotate(-2deg);
+  transition: transform 220ms cubic-bezier(.2,.8,.2,1);
+  box-shadow:
+    inset 0 0 0 2px rgba(251, 245, 230, 0.45),
+    0 4px 10px -4px rgba(139, 21, 56, 0.55);
+  flex-shrink: 0;
+}
+.logo-char {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 22px;
+  color: #fbf5e6;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.logo-wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.logo-name {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--fg);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.logo-suffix {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  line-height: 1.2;
+  position: relative;
+  top: -1px;
+}
+.logo-tag {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--fg-muted);
+  letter-spacing: 0.04em;
+  margin-top: 3px;
 }
 
 h1 {
@@ -71,53 +140,146 @@ h1 .accent { color: var(--accent); }
 }
 .lede-prefix { color: var(--fg-dim); user-select: none; margin-right: 8px; }
 
+/* 信笺气质：克制米色 + 深墨顶带 + 角落浅印章 */
 .prompt-card {
-  background: var(--code-bg);
-  color: var(--code-fg);
-  border-radius: 12px;
+  position: relative;
+  background: #f8f4ea;
+  border: 1px solid #e2dccb;
+  border-radius: 10px;
   padding: 0;
   overflow: hidden;
   margin-bottom: 28px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 12px 32px -16px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 1px 2px rgba(40, 30, 20, 0.04),
+    0 18px 36px -28px rgba(40, 30, 20, 0.22);
+}
+.prompt-card::after {
+  content: "高考";
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  width: 30px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 11px;
+  color: #f8f4ea;
+  background: var(--accent);
+  border-radius: 2px;
+  letter-spacing: 0.16em;
+  transform: rotate(-5deg);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(248, 244, 234, 0.5);
+  pointer-events: none;
+  line-height: 1.05;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  opacity: 0.62;
 }
 .prompt-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 18px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 13px 22px;
+  background: #2a2422;
+  border-bottom: 1px solid #1c1816;
   font-family: var(--font-sans);
 }
 .prompt-head-label {
-  font-size: 12.5px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: rgba(240, 230, 210, 0.6);
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  color: #e6ddc7;
 }
 .prompt-copy {
   background: transparent;
-  color: var(--code-accent);
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  border-radius: 6px;
-  padding: 4px 8px;
+  color: #e6ddc7;
+  border: 1px solid rgba(230, 221, 199, 0.28);
+  border-radius: 4px;
+  padding: 4px 12px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 4px;
   font-size: 12px;
+  font-family: var(--font-sans);
+  letter-spacing: 0.02em;
+  transition: background-color 120ms ease, border-color 120ms ease;
 }
 .prompt-copy:hover {
-  background: rgba(212, 175, 55, 0.12);
-  border-color: rgba(212, 175, 55, 0.5);
+  background: rgba(230, 221, 199, 0.08);
+  border-color: rgba(230, 221, 199, 0.55);
 }
 .prompt-body {
-  font-family: var(--font-mono);
-  font-size: 13.5px;
-  line-height: 1.65;
-  padding: 18px 22px 22px;
+  font-family: var(--font-sans);
+  font-size: 14.5px;
+  line-height: 1.78;
+  padding: 22px 26px 60px;
   white-space: pre-wrap;
   word-break: break-word;
-  color: var(--code-fg);
+  color: #2a1f15;
+}
+.prompt-body code,
+.prompt-body :is(pre, kbd) {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: rgba(40, 30, 20, 0.06);
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #2a2422;
+}
+
+/* 致家长——开源工具的「使用说明书」，写给非技术家长的开放信 */
+.parent-note {
+  background: #fcfaf3;
+  border: 1px solid #ece5cf;
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 26px 32px 28px;
+  margin-bottom: 36px;
+  max-width: 100%;
+}
+.parent-note h2 {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.16em;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+.parent-note p {
+  font-family: var(--font-sans);
+  font-size: 14.5px;
+  line-height: 1.9;
+  color: #353030;
+  margin-bottom: 14px;
+}
+.parent-note p:last-of-type {
+  margin-bottom: 0;
+}
+.parent-note a {
+  color: var(--accent);
+  border-bottom: 1px solid rgba(139, 21, 56, 0.35);
+}
+.parent-note a:hover {
+  border-bottom-color: var(--accent);
+}
+.parent-note-sign {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed #e0d8be;
+  font-family: var(--font-serif) !important;
+  font-size: 14px !important;
+  color: #6f5b3a !important;
+  font-style: italic;
+  letter-spacing: 0.02em;
 }
 
 .install {
@@ -165,7 +327,7 @@ h1 .accent { color: var(--accent); }
 
 .province-row {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
   padding: 12px 22px;
   border-bottom: 1px solid var(--card-border);
   font-size: 14px;
@@ -450,14 +612,31 @@ h1 .accent { color: var(--accent); }
   }
   .reel-aspiration .chip.voice-chip { font-size: 12px; padding: 3px 5px; }
 
+  .site-head { margin-bottom: 30px; }
+  .logo-mark { width: 36px; height: 36px; }
+  .logo-char { font-size: 20px; }
+  .logo-name { font-size: 17px; }
+  .logo-tag { font-size: 11px; }
+
   .prompt-card { margin-bottom: 22px; }
-  .prompt-head { padding: 10px 14px; }
-  .prompt-head-label { font-size: 11.5px; }
-  .prompt-body {
-    font-size: 12.5px;
-    padding: 14px 16px 18px;
-    line-height: 1.7;
+  .prompt-card::after {
+    width: 28px; height: 42px;
+    right: 14px; bottom: 12px;
+    font-size: 11px; letter-spacing: 0.16em;
   }
+  .prompt-head { padding: 11px 16px; }
+  .prompt-head-label { font-size: 12px; letter-spacing: 0.06em; }
+  .prompt-copy { padding: 4px 10px; font-size: 11.5px; }
+  .prompt-body {
+    font-size: 13px;
+    padding: 16px 18px 52px;
+    line-height: 1.72;
+  }
+
+  .parent-note { padding: 20px 20px 22px; margin-bottom: 28px; }
+  .parent-note h2 { font-size: 15.5px; letter-spacing: 0.14em; margin-bottom: 14px; }
+  .parent-note p { font-size: 13.5px; line-height: 1.85; }
+  .parent-note-sign { font-size: 13px !important; margin-top: 14px; padding-top: 12px; }
 
   .install {
     font-size: 12px;
@@ -467,7 +646,7 @@ h1 .accent { color: var(--accent); }
 
   .section-title { font-size: 16px; margin-bottom: 10px; }
   .province-row {
-    grid-template-columns: 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-columns: 1.4fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
     font-size: 13px;
     padding: 10px 12px;
   }
