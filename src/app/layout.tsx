@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC, Noto_Sans_SC, ZCOOL_XiaoWei } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 
 const serif = Noto_Serif_SC({
@@ -143,7 +144,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
         />
-        {children}
+        <TooltipProvider>
+          {children}
+        </TooltipProvider>
         <Analytics />
       </body>
     </html>

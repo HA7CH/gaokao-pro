@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 
 type Status = "live" | "building" | "none";
 
@@ -181,11 +182,14 @@ function StatusDot({ kind }: { kind: Status }) {
 
 function InfoTip({ text }: { text: string }) {
   return (
-    <span className="info-tip" tabIndex={0}>
-      <span className="info-icon" aria-hidden>?</span>
-      <span className="sr-only">{text}</span>
-      <span className="info-bubble" role="tooltip">{text}</span>
-    </span>
+    <Tooltip>
+      <TooltipTrigger className="info-tip">
+        <span className="info-icon" aria-hidden>?</span>
+      </TooltipTrigger>
+      <TooltipContent side="top" className="max-w-xs text-xs leading-relaxed">
+        {text}
+      </TooltipContent>
+    </Tooltip>
   );
 }
 
@@ -251,6 +255,7 @@ export default function Home() {
       <h1>
         用 <span className="accent">AI</span> 高考填报志愿
       </h1>
+      <p className="lede"><span className="lede-prefix">$</span>开源免费 · 覆盖 31 省 · 3000+ 院校</p>
 
       <section className="reels" aria-label="数据维度">
         <SlotReel items={SCHOOLS} dir="left"  speed={70} kind="school" />
@@ -275,34 +280,47 @@ export default function Home() {
         <pre className="prompt-body">{PROMPT}</pre>
       </section>
 
-      <aside className="parent-note" aria-labelledby="parent-note-title">
-        <h2 id="parent-note-title">致各位家长</h2>
-        <p>这是个开源免费的工具，给所有准备高考的家庭。</p>
-        <p>
-          它要跑在 Claude Code / Codex / Cursor 这类 AI 工具里。如果家里还没人用过这些，
-          请务必找一位用过的人陪你跑一次——孩子的同学、亲戚里的年轻人、单位里搞 IT 的同事都可以；
-          实在找不到，可以去{" "}
-          <a href="https://www.xiaohongshu.com/user/profile/5d4113b2000000001202e2ee" target="_blank" rel="noopener noreferrer">lawted</a>{" "}
-          的直播间让他帮你看一眼。
-        </p>
-        <p>
-          这场革命已经发生了。你正在看的这个网站、背后的命令行工具、那几千行代码，
-          绝大部分是 AI 一行行写出来的，人只是把需求和判断给到它。
-          越来越多的公司，也已经在这样做事。
-        </p>
-        <p>
-          所以报志愿之前，请抽一晚上去看看现在的市场——大模型今天能干哪些活、
-          哪些岗位过去一两年被压缩了、哪些公司今年只招会用 AI 的人。
-          今天看着稳的专业，四年后可能被重新洗牌；今天看着冷门的方向，
-          可能正是入口。心里有一杆自己的秤，比靠亲戚邻居转述的旧地图靠谱。
-        </p>
-        <p className="parent-note-thesis">
-          <strong>说到这儿，得讲一句真心话。我们做这个工具，并不是为了让 AI 替你拍板冲、稳、保——那只是个由头。
-          真正想让你借这次机会看见的，是 AI 现在已经能干到什么程度、又在重塑哪些行业。
-          报志愿是人生里少数几个会逼你和孩子认真想「未来三十年靠什么吃饭」的时刻，
-          错过太可惜。一份冲稳保名单，远远没有这件事重要。</strong>
-        </p>
-        <p className="parent-note-sign">孩子的人生路口，多花点时间是值得的。</p>
+      <aside className="letter" aria-labelledby="letter-title">
+        <div className="letter-paper">
+          <div className="letter-header">
+            <div className="letter-stamp" aria-hidden>录</div>
+            <h2 id="letter-title" className="letter-salutation">致各位家长</h2>
+          </div>
+          <div className="letter-body">
+            <p>这是个开源免费的工具，给所有准备高考的家庭。</p>
+            <p>
+              它要跑在 Claude Code / Codex / Cursor 这类 AI 工具里。如果家里还没人用过这些，
+              请务必找一位用过的人陪你跑一次——孩子的同学、亲戚里的年轻人、单位里搞 IT 的同事都可以；
+              实在找不到，可以去{" "}
+              <a href="https://www.xiaohongshu.com/user/profile/5d4113b2000000001202e2ee" target="_blank" rel="noopener noreferrer">lawted</a>{" "}
+              的直播间让他帮你看一眼。
+            </p>
+            <p>
+              倒不是说这个工具本身有多重要——重要的是 AI 这一关，孩子未来三十年都要过。
+              这场革命已经发生了：你正在看的这个网站、背后的命令行工具、那几千行代码，
+              绝大部分是 AI 一行行写出来的，人只是把需求和判断给到它。
+              越来越多的公司，已经在用这种方式做事。
+            </p>
+            <p>
+              报志愿之前，请抽一晚上去看看现在的市场——大模型今天能干哪些活、
+              哪些岗位过去一两年被压缩了、哪些公司今年只招会用 AI 的人。
+              今天看着稳的专业，四年后可能被 AI 重新洗牌；今天看着冷门的方向，
+              可能恰好是新生产力的入口。报志愿别再单凭十年前的印象。
+            </p>
+            <p>
+              跑完之后，把 AI 当朋友继续聊下去。让它讲讲每个专业五年、十年后的样子，
+              让它说清楚自动化会冲掉哪些岗位、又会冒出哪些新岗位。
+              心里有一杆自己的秤，比靠亲戚邻居转述的旧地图靠谱。
+            </p>
+          </div>
+          <div className="letter-footer">
+            <p className="letter-closing">孩子的人生路口，多花点时间是值得的。</p>
+            <div className="letter-sign">
+              <span className="letter-sign-name">高考PRO 团队</span>
+              <span className="letter-sign-site">Ha7ch.com</span>
+            </div>
+          </div>
+        </div>
       </aside>
 
       <section className="province-table" aria-labelledby="provinces-title">

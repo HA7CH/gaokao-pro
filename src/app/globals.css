@@ -1,3 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fafaf7;
+  --color-foreground: #1a1a1a;
+}
+
+@layer base {
+
 :root {
   --bg: #fafaf7;
   --fg: #1a1a1a;
@@ -235,64 +244,108 @@ h1 .accent { color: var(--accent); }
   color: #2a2422;
 }
 
-/* 致家长——开源工具的「使用说明书」，写给非技术家长的开放信 */
-.parent-note {
-  background: #fcfaf3;
-  border: 1px solid #ece5cf;
-  border-left: 3px solid var(--accent);
-  border-radius: 8px;
-  padding: 26px 32px 28px;
+/* 致家长——信件样式 */
+.letter {
   margin-bottom: 36px;
   max-width: 100%;
 }
-.parent-note h2 {
+.letter-paper {
+  position: relative;
+  background: #fffdf7;
+  border: 1px solid #e8e0cc;
+  border-radius: 2px;
+  padding: 48px 48px 40px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 12px rgba(139, 21, 56, 0.03);
+}
+.letter-paper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0%, #d4af37 100%);
+  border-radius: 2px 2px 0 0;
+}
+.letter-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ece5cf;
+}
+.letter-stamp {
+  width: 44px;
+  height: 44px;
+  background: var(--accent);
+  color: #fff;
   font-family: var(--font-serif);
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.letter-salutation {
+  font-family: var(--font-serif);
+  font-size: 20px;
   font-weight: 700;
   color: var(--accent);
-  letter-spacing: 0.16em;
-  margin-bottom: 18px;
+  letter-spacing: 0.18em;
   line-height: 1.2;
 }
-.parent-note p {
+.letter-body p {
   font-family: var(--font-sans);
-  font-size: 14.5px;
-  line-height: 1.9;
-  color: #353030;
-  margin-bottom: 14px;
+  font-size: 15px;
+  line-height: 2;
+  color: #2a2422;
+  margin-bottom: 16px;
+  text-indent: 2em;
 }
-.parent-note p:last-of-type {
-  margin-bottom: 0;
+.letter-body p:first-child {
+  text-indent: 0;
 }
-.parent-note a {
+.letter-body a {
   color: var(--accent);
   border-bottom: 1px solid rgba(139, 21, 56, 0.35);
 }
-.parent-note a:hover {
+.letter-body a:hover {
   border-bottom-color: var(--accent);
 }
-.parent-note-thesis {
-  margin-top: 4px !important;
-  padding: 18px 20px !important;
-  background: linear-gradient(180deg, #fbf2dd 0%, #f7ead0 100%);
-  border-radius: 6px;
-  border-left: 3px solid var(--accent);
-  font-size: 15px !important;
-  line-height: 1.9 !important;
-  color: #2a1d1d !important;
-}
-.parent-note-thesis strong {
-  font-weight: 700;
-  letter-spacing: 0.005em;
-}
-.parent-note-sign {
-  margin-top: 18px;
-  padding-top: 16px;
+.letter-footer {
+  margin-top: 28px;
+  padding-top: 20px;
   border-top: 1px dashed #e0d8be;
-  font-family: var(--font-serif) !important;
-  font-size: 14px !important;
-  color: #6f5b3a !important;
-  font-style: italic;
+}
+.letter-closing {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: #4a3f35;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.letter-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.letter-sign-name {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+.letter-sign-site {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--fg-muted);
   letter-spacing: 0.02em;
 }
 
@@ -328,8 +381,7 @@ h1 .accent { color: var(--accent); }
   border: 1px solid var(--card-border);
   border-radius: 12px;
   margin: 40px 0;
-  /* overflow stays visible so the tooltip bubbles in the header can escape
-     above the table boundary without being clipped. */
+  padding-top: 10px;
 }
 .province-row:first-of-type {
   border-radius: 12px 12px 0 0;
@@ -361,7 +413,6 @@ h1 .accent { color: var(--accent); }
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--fg-dim);
-  background: rgba(0, 0, 0, 0.015);
 }
 .province-row.header:hover { background: rgba(0, 0, 0, 0.015); }
 .province-name { font-weight: 500; }
@@ -535,7 +586,7 @@ h1 .accent { color: var(--accent); }
   font-weight: 600;
   color: var(--fg);
   margin: 8px 0 18px;
-  padding: 0 4px;
+  padding: 0 22px;
 }
 .info-tip {
   position: relative;
@@ -663,11 +714,6 @@ h1 .accent { color: var(--accent); }
     line-height: 1.72;
   }
 
-  .parent-note { padding: 20px 20px 22px; margin-bottom: 28px; }
-  .parent-note h2 { font-size: 15.5px; letter-spacing: 0.14em; margin-bottom: 14px; }
-  .parent-note p { font-size: 13.5px; line-height: 1.85; }
-  .parent-note-thesis { padding: 14px 16px !important; font-size: 14px !important; line-height: 1.85 !important; }
-  .parent-note-sign { font-size: 13px !important; margin-top: 14px; padding-top: 12px; }
 
   .install {
     font-size: 12px;
@@ -687,6 +733,16 @@ h1 .accent { color: var(--accent); }
 
   .link-row { font-size: 13px; gap: 14px; flex-wrap: wrap; }
   .link-row .link-right { margin-left: 0; }
+
+  .letter-paper { padding: 28px 22px 24px; }
+  .letter-header { gap: 12px; margin-bottom: 20px; padding-bottom: 14px; }
+  .letter-stamp { width: 36px; height: 36px; font-size: 17px; }
+  .letter-salutation { font-size: 17px; letter-spacing: 0.14em; }
+  .letter-body p { font-size: 13.5px; line-height: 1.9; margin-bottom: 12px; }
+  .letter-footer { margin-top: 20px; padding-top: 14px; }
+  .letter-closing { font-size: 13.5px; margin-bottom: 16px; }
+  .letter-sign-name { font-size: 14px; }
+  .letter-sign-site { font-size: 11px; }
 }
 
 @media (max-width: 420px) {
@@ -695,3 +751,5 @@ h1 .accent { color: var(--accent); }
   .province-row { padding: 9px 10px; font-size: 12.5px; }
   .info-icon { width: 12px; height: 12px; font-size: 9px; }
 }
+
+} /* end @layer base */
