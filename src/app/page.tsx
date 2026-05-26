@@ -243,6 +243,7 @@ export default function Home() {
               高考<span className="logo-suffix">PRO</span>
             </span>
             <span className="logo-tag">用 AI 规划你的高考</span>
+            <span className="logo-tag">Ha7ch.com</span>
           </span>
         </a>
       </header>
