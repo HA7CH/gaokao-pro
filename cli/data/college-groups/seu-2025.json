@@ -1,0 +1,2486 @@
+{
+  "_kind": "东南大学 2025 院校专业组招生计划",
+  "_university": "东南大学",
+  "_code_enroll": "1286",
+  "_school_id_eolcn": 109,
+  "_year": 2025,
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
+  ],
+  "_sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/109/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
+    "https://static-data.gaokao.cn/www/2.0/school/109/info.json (pro_type_min — 2025 投档最低分)",
+    "https://zsb.seu.edu.cn/ (东南大学本科招生网)",
+    "https://gaokao.cn/school/109 (gaokao.cn 院校页)"
+  ],
+  "_notes": [
+    "山东 (37) 为 3+3 综合改革 (type=3)；其余 6 省均为 3+1+2 新高考，按物理类 (2073) / 历史类 (2074) 双轨投档。",
+    "新高考省份按官方公布的院校专业组划分，每组含选科要求 + 一组本科专业，投档单位为组。",
+    "河北/山东 eol.cn 数据源未提供 special_group_id；按 (type, batch, 选考要求) 聚合展示为招生单元，group_code 为 “—”。",
+    "本数据合并 batch=14 (本科批)、batch=6 (提前批)、batch=1561 (艺术提前批)、batch=4073 (高校专项)、batch=4862/4070 (国家专项/高校专项) 等模块。",
+    "同一 (special_group, type, batch) 多条记录已合并，相同 (spcode,name,num,info) 去重。",
+    "min_admission_2025 来自 pro_type_min 字段，对应各省该 track 的投档最低分 (普通组主分)；分组明细投档线请以省考试院公告为准。",
+    "province_cutoff_2025_ref 为各省 2025 本科批/一段控制线 (公开口径)，仅作位次参考。",
+    "江苏 (本省) 组数最多，含艺术类、高校专项、本科批、提前批等多模块。",
+    "info 字段保留办学地点 / 包含专业 / 备注，长度<220 字符。",
+    "xuanke_detail 为选考要求的人类可读译码 (如 “物+化+生 或 物+化+政 或 物+化+地”)。"
+  ],
+  "_extracted_at": "2026-05-25",
+  "_total_plan_covered": 1684,
+  "provinces": [
+    {
+      "province": "henan",
+      "province_cn": "河南",
+      "province_id": 41,
+      "uses_college_groups": true,
+      "group_count": 10,
+      "total_plan": 225,
+      "min_admission_2025": {
+        "物理类": 652,
+        "历史类": 642
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 447,
+        "历史类": 519
+      },
+      "groups": [
+        {
+          "group_code": "L政",
+          "special_group_id": "230376",
+          "track": "历史类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030201",
+              "name": "政治学与行政学",
+              "full_name": "政治学与行政学（高校专项）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "",
+              "category": "法学",
+              "subcategory": "政治学类",
+              "info": "（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "230377",
+          "track": "历史类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（高校专项）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "230378",
+          "track": "物理类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（高校专项）（高校专项计划）",
+              "num": 7,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（物质科学与生态）（高校专项）（高校专项计划）",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（物质科学与生态）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（数智科学与智慧金融）（高校专项）（高校专项计划）",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（数智科学与智慧金融）（高校专项）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（高校专项）（高校专项计划）",
+              "num": 3,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧能源与电气工程）（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧能源与电气工程）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "W不限",
+          "special_group_id": "230381",
+          "track": "物理类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（数智经济与智能管理）（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（数智经济与智能管理）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "901",
+          "special_group_id": "368664",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（包含专业：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）",
+              "num": 35,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（包含专业：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（物质科学与生态）（包含专业：材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（物质科学与生态）（包含专业：材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（包含专业：建筑学（学制5年）、城乡规划（学制4年）风景园林（学制4年））",
+              "num": 10,
+              "length": "五年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（包含专业：建筑学（学制5年）、城乡规划（学制4年）风景园林（学制4年））"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学",
+              "num": 7,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": ""
+            },
+            {
+              "spcode": "0826",
+              "name": "生物医学工程类",
+              "full_name": "生物医学工程类（包含专业：生物医学工程、智能医学工程、生物信息学、生物科学）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（包含专业：生物医学工程、智能医学工程、生物信息学、生物科学）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "full_name": "临床医学类（包含专业：临床医学、医学影像学）",
+              "num": 5,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（包含专业：临床医学、医学影像学）"
+            }
+          ]
+        },
+        {
+          "group_code": "101",
+          "special_group_id": "368665",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（包含专业：信息工程、电子科学与技术、海洋信息工程）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（包含专业：信息工程、电子科学与技术、海洋信息工程）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（包含专业：计算机科学与技术、人工智能、软件工程、网络空间安全）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（包含专业：计算机科学与技术、人工智能、软件工程、网络空间安全）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（吴健雄班）（包含专业：信息工程（等四年制理工科专业））",
+              "num": 16,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（吴健雄班）（包含专业：信息工程（等四年制理工科专业））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧能源与电气工程）（包含专业：电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧能源与电气工程）（包含专业：电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）（包含专业：机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）（包含专业：机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（包含专业：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（包含专业：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）"
+            }
+          ]
+        },
+        {
+          "group_code": "303",
+          "special_group_id": "368679",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（国家专项）（数智经济与智能管理）（包含专业：会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（国家专项）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（国家专项）（数智经济与智能管理）（包含专业：会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）"
+            }
+          ]
+        },
+        {
+          "group_code": "301",
+          "special_group_id": "368680",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（国家专项）（包含专业：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）（国家专项）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项）（包含专业：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（国家专项）（物质科学与生态）（包含专业：材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）（国家专项）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项）（物质科学与生态）（包含专业：材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（国家专项）（智慧建造与智能交通）（包含专业：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）（国家专项）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项）（智慧建造与智能交通）（包含专业：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（国家专项）（智慧能源与电气工程）（包含专业：电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）（国家专项）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项）（智慧能源与电气工程）（包含专业：电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（国家专项）（国家专项）",
+              "num": 3,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（国家专项）（包含专业：建筑学（学制5年）、城乡规划（学制4年）风景园林（学制4年））（国家专项）",
+              "num": 2,
+              "length": "五年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（国家专项）（包含专业：建筑学（学制5年）、城乡规划（学制4年）风景园林（学制4年））"
+            }
+          ]
+        },
+        {
+          "group_code": "103",
+          "special_group_id": "368704",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030201",
+              "name": "政治学与行政学",
+              "full_name": "政治学与行政学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "政治学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "102",
+          "special_group_id": "368705",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（包含专业：法学、艺术史论、哲学、汉语言文学、社会学）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（包含专业：法学、艺术史论、哲学、汉语言文学、社会学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "jiangsu",
+      "province_cn": "江苏",
+      "province_id": 32,
+      "uses_college_groups": true,
+      "group_count": 14,
+      "total_plan": 833,
+      "min_admission_2025": {
+        "物理类": 652,
+        "历史类": 631
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 416,
+        "历史类": 478
+      },
+      "groups": [
+        {
+          "group_code": "L艺术类",
+          "special_group_id": "230363",
+          "track": "历史类",
+          "batch": "本科提前批(艺术)",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "1305",
+              "name": "设计学类",
+              "full_name": "设计学类",
+              "num": 28,
+              "length": "4",
+              "tuition": "",
+              "category": "艺术学",
+              "subcategory": "设计学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W艺术类",
+          "special_group_id": "230364",
+          "track": "物理类",
+          "batch": "本科提前批(艺术)",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "1305",
+              "name": "设计学类",
+              "full_name": "设计学类",
+              "num": 4,
+              "length": "4",
+              "tuition": "",
+              "category": "艺术学",
+              "subcategory": "设计学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "L政",
+          "special_group_id": "230365",
+          "track": "历史类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030201",
+              "name": "政治学与行政学",
+              "full_name": "政治学与行政学（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "法学",
+              "subcategory": "政治学类",
+              "info": "（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "230360",
+          "track": "历史类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（高校专项）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "230361",
+          "track": "物理类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（高校专项）（高校专项计划）",
+              "num": 15,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（高校专项）（高校专项计划）",
+              "num": 10,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（高校专项）"
+            },
+            {
+              "spcode": "0826",
+              "name": "生物医学工程类",
+              "full_name": "生物医学工程类（高校专项）（高校专项计划）",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（高校专项）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "W不限",
+          "special_group_id": "230362",
+          "track": "物理类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（数智经济与智能管理）（高校专项）（高校专项计划）",
+              "num": 4,
+              "length": "4",
+              "tuition": "",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（数智经济与智能管理）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "426180",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（法学、艺术史论、哲学、汉语言文学、社会学）（郭秉文班）",
+              "num": 57,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（法学、艺术史论、哲学、汉语言文学、社会学）（郭秉文班）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）"
+            }
+          ]
+        },
+        {
+          "group_code": "08",
+          "special_group_id": "426212",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3—体化）",
+              "num": 87,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3—体化）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "full_name": "临床医学类（临床医学、医学影像学）",
+              "num": 33,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（临床医学、医学影像学）"
+            },
+            {
+              "spcode": "101001",
+              "name": "医学检验技术",
+              "full_name": "医学检验技术（医学检验技术+生物医学工程）（双学士学位培养项目）",
+              "num": 20,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "医学",
+              "subcategory": "医学技术类",
+              "info": "（医学检验技术+生物医学工程）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "100203TK",
+              "name": "医学影像学",
+              "full_name": "医学影像学（医学影像学+人工智能）（双学士学位培养项目）",
+              "num": 20,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（医学影像学+人工智能）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学",
+              "num": 5,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "426213",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（会计学+人工智能）（双学士学位培养项目）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（会计学+人工智能）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（会计学、金融学、经济学、工商管理、国除经济与贸易、物流管理）（数智经济与智能管理）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（会计学、金融学、经济学、工商管理、国除经济与贸易、物流管理）（数智经济与智能管理）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（英语+信息工程）（双学士学位培养项目）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（英语+信息工程）（双学士学位培养项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "426214",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（信息工程等四年制理工科专业）（吴健雄班）",
+              "num": 65,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（信息工程等四年制理工科专业）（吴健雄班）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（信息工程、电子科学与技术、海洋信息工程）",
+              "num": 47,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（信息工程、电子科学与技术、海洋信息工程）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（计算机科学与技术、人工智能、软件工程、网络空间安全）",
+              "num": 45,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（计算机科学与技术、人工智能、软件工程、网络空间安全）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（智能制造与智能系统）",
+              "num": 39,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（智能制造与智能系统）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）（智慧能源与电气工程）",
+              "num": 33,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）（智慧能源与电气工程）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统",
+              "num": 24,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "081008T",
+              "name": "智能建造",
+              "full_name": "智能建造（丁大钧班）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "土木类",
+              "info": "（丁大钧班）"
+            },
+            {
+              "spcode": "081811T",
+              "name": "智慧交通",
+              "full_name": "智慧交通（茅以升班）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "（茅以升班）"
+            },
+            {
+              "spcode": "083201TK",
+              "name": "未来机器人",
+              "full_name": "未来机器人（未来技术班）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "（未来技术班）"
+            },
+            {
+              "spcode": "020302",
+              "name": "金融工程",
+              "full_name": "金融工程（金融工程+统计学）（双学士学位培养项目）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（金融工程+统计学）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "full_name": "能源与动力工程（能源与动力工程+经济学）（双学士学位培养项目）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "（能源与动力工程+经济学）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "080911TK",
+              "name": "网络空间安全",
+              "full_name": "网络空间安全（网络空间安全+法学）（双学士学位培养项目）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（网络空间安全+法学）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（建筑学（学制五年）、城乡规划（学制四年）、风景园林（学制四年））",
+              "num": 5,
+              "length": "五年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（建筑学（学制五年）、城乡规划（学制四年）、风景园林（学制四年））"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）"
+            },
+            {
+              "spcode": "0826",
+              "name": "生物医学工程类",
+              "full_name": "生物医学工程类（生物医学工程、智能医学工程、生物信息学、生物科学）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（生物医学工程、智能医学工程、生物信息学、生物科学）"
+            },
+            {
+              "spcode": "071001",
+              "name": "生物科学",
+              "full_name": "生物科学（生物科学+计算机科学与技术）（双学士学位培养项目）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（生物科学+计算机科学与技术）（双学士学位培养项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "special_group_id": "471215",
+          "track": "历史类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）（以下专业只招收该校测试合格的考生）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（法学、艺术史论、哲学、汉语言文学、社会学）（郭秉文班）（以下专业只招收该校测试合格的考生）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（法学、艺术史论、哲学、汉语言文学、社会学）（郭秉文班）（以下专业只招收该校测试合格的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "special_group_id": "455630",
+          "track": "历史类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "471223",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）（以下专业只招收该校测试合格的考生）",
+              "num": 30,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（数智经济与智能管理）（以下专业只招收该校测试合格的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "471224",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）（智慧建造与智能交通）（以下专业只招收该校测试合格的考生）",
+              "num": 35,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）（智慧建造与智能交通）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）（物质科学与生态）（以下专业只招收该校测试合格的考生）",
+              "num": 30,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）（物质科学与生态）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0826",
+              "name": "生物医学工程类",
+              "full_name": "生物医学工程类（生物医学工程、智能医学工程、生物信息学、生物科学）（以下专业只招收该校测试合格的考生）",
+              "num": 20,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（生物医学工程、智能医学工程、生物信息学、生物科学）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "full_name": "建筑类（建筑学（学制五年）、城乡规划（学制四年）、风景园林（学制四年）（以下专业只招收该校测试合格的考生）",
+              "num": 15,
+              "length": "五年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（建筑学（学制五年）、城乡规划（学制四年）、风景园林（学制四年）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（智能制造与智能系统）（以下专业只招收该校测试合格的考生）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（智能制造与智能系统）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）（智慧能源与电:气工程）（以下专业只招收该校测试合格的考生）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）（智慧能源与电:气工程）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（信息工程等四年制理工科专业）（吴健雄班）（以下专业只招收该校测试合格的考生）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（信息工程等四年制理工科专业）（吴健雄班）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（计算机科学与技术、人工智能、软件工程、网络空间安全）（以下专业只招收该校测试合格的考生）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（计算机科学与技术、人工智能、软件工程、网络空间安全）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统（以下专业只招收该校测试合格的考生）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（以下专业只招收该校测试合格的考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "guangdong",
+      "province_cn": "广东",
+      "province_id": 44,
+      "uses_college_groups": true,
+      "group_count": 3,
+      "total_plan": 90,
+      "min_admission_2025": {
+        "物理类": 646,
+        "历史类": 623
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 433,
+        "历史类": 449
+      },
+      "groups": [
+        {
+          "group_code": "207",
+          "special_group_id": "431925",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（数智经济与智能管理）（不招单色识别不全者；含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业；办学地点：江苏省南京市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（数智经济与智能管理）（不招单色识别不全者；含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（不招单色识别不全者；含法学、艺术史论、哲学、汉语言文学、社会学专业；办学地点：江苏省南京市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（不招单色识别不全者；含法学、艺术史论、哲学、汉语言文学、社会学专业；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（办学地点：江苏省南京市）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（办学地点：江苏省南京市）"
+            }
+          ]
+        },
+        {
+          "group_code": "208",
+          "special_group_id": "431982",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（含信息工程、电子科学与技术、海洋信息工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（含信息工程、电子科学与技术、海洋信息工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（吴健雄班）（不招单色识别不全者；含信息工程（等四年制理工科专业）专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 14,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（吴健雄班）（不招单色识别不全者；含信息工程（等四年制理工科专业）专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（不招单色识别不全者；含计算机科学与技术、人工智能、软件工程、网络空间安全专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（不招单色识别不全者；含计算机科学与技术、人工智能、软件工程、网络空间安全专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧能源与电气工程）（含电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧能源与电气工程）（含电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程专业；特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "full_name": "生物医学工程（学制七年本硕连读）（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（学制七年本硕连读）（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省南京市）"
+            }
+          ]
+        },
+        {
+          "group_code": "702",
+          "special_group_id": "258710",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（特殊类型招生）（智能制造与智能系统）（包含专业：080803.机器人工程+080801.自动化+080303.智能感知工程+080214.智能车辆工程+080301.测控技术与仪器+080201.机械工程）（住宿费：待定）（办学地点：校本部）（招生种类：高校专项计划）（不招色盲且不招单色识别不全者）（高考文化课成绩总分须达到特殊类型招生录取控制分数线上60分）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（特殊类型招生）（智能制造与智能系统）（包含专业：080803.机器人工程+080801.自动化+080303.智能感知工程+080214.智能车辆工程+080301.测控技术与仪器+080201.机械工程）（住宿费：待定）（办学地点：校本部）（招生种类：高校专项计划）（不招色盲且不招单色识别不全者）（高考文化课成绩总分须达到特殊类型招生录取控制分数线上60分）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hubei",
+      "province_cn": "湖北",
+      "province_id": 42,
+      "uses_college_groups": true,
+      "group_count": 5,
+      "total_plan": 112,
+      "min_admission_2025": {
+        "物理类": 623,
+        "历史类": 620
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 437,
+        "历史类": 432
+      },
+      "groups": [
+        {
+          "group_code": "L不限",
+          "special_group_id": "230382",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）",
+              "num": 6,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）"
+            },
+            {
+              "spcode": "120403",
+              "name": "劳动与社会保障",
+              "full_name": "劳动与社会保障",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "230383",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）",
+              "num": 15,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类",
+              "num": 15,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（吴健雄班）",
+              "num": 14,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（吴健雄班）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类",
+              "num": 13,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧能源与电气工程）",
+              "num": 10,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧能源与电气工程）"
+            },
+            {
+              "spcode": "081811T",
+              "name": "智慧交通",
+              "full_name": "智慧交通（茅以升班）",
+              "num": 10,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "（茅以升班）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "230383",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（物质科学与生态）（国家专项）（国家专项计划）",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（物质科学与生态）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（国家专项）（国家专项计划）",
+              "num": 5,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（国家专项）（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "230382",
+          "track": "历史类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（高校专项）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（高校专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "230383",
+          "track": "物理类",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（物质科学与生态）（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（物质科学与生态）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（高校专项）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "",
+              "subcategory": "",
+              "info": "（高校专项）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "fujian",
+      "province_cn": "福建",
+      "province_id": 35,
+      "uses_college_groups": true,
+      "group_count": 5,
+      "total_plan": 103,
+      "min_admission_2025": {
+        "物理类": 655,
+        "历史类": 620
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 442,
+        "历史类": 451
+      },
+      "groups": [
+        {
+          "group_code": "L艺术类",
+          "special_group_id": "230372",
+          "track": "历史类",
+          "batch": "本科提前批(艺术)",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "1305",
+              "name": "设计学类",
+              "full_name": "设计学类",
+              "num": 2,
+              "length": "4",
+              "tuition": "",
+              "category": "艺术学",
+              "subcategory": "设计学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W艺术类",
+          "special_group_id": "230373",
+          "track": "物理类",
+          "batch": "本科提前批(艺术)",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "1305",
+              "name": "设计学类",
+              "full_name": "设计学类",
+              "num": 1,
+              "length": "4",
+              "tuition": "",
+              "category": "艺术学",
+              "subcategory": "设计学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "393102",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）"
+            },
+            {
+              "spcode": "120403",
+              "name": "劳动与社会保障",
+              "full_name": "劳动与社会保障",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393160",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）",
+              "num": 20,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（含信息工程、电子科学与技术、海洋信息工程）",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（含信息工程、电子科学与技术、海洋信息工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧能源与电气工程）（含电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）",
+              "num": 13,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧能源与电气工程）（含电气工程及其自动化、电动载运工程、新能源科学与工程、能源与动力工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（吴健雄班）（含信息工程等四年制理工科专业）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（吴健雄班）（含信息工程等四年制理工科专业）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（含计算机科学与技术、人工智能、软件工程、网络空间安全）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（含计算机科学与技术、人工智能、软件工程、网络空间安全）"
+            },
+            {
+              "spcode": "0826",
+              "name": "生物医学工程类",
+              "full_name": "生物医学工程类（含生物医学工程、智能医学工程、生物信息学、生物科学）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（含生物医学工程、智能医学工程、生物信息学、生物科学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393160",
+          "track": "物理类",
+          "batch": "本科批(国家专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（含：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）（高校专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（含：智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "full_name": "临床医学类（含：临床医学、医学影像学；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（含：临床医学、医学影像学；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（含：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（含：数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术；高考投档成绩（含：政策性加分）需达到特殊类型招生控制线上60分（含：）。）（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "shandong",
+      "province_cn": "山东",
+      "province_id": 37,
+      "uses_college_groups": false,
+      "group_count": 4,
+      "total_plan": 159,
+      "min_admission_2025": {
+        "综合": 642
+      },
+      "province_cutoff_2025_ref": {
+        "综合": 444
+      },
+      "groups": [
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合",
+          "batch": "本科批(普通类一段)",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（信息工程、电子科学与技术、海洋信息工程）",
+              "num": 27,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（信息工程、电子科学与技术、海洋信息工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）",
+              "num": 25,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（计算机科学与技术、人工智能、软件工程、网络空间安全）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（计算机科学与技术、人工智能、软件工程、网络空间安全）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（吴健雄班）（信息工程（等四年制理工科专业））",
+              "num": 13,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（吴健雄班）（信息工程（等四年制理工科专业））"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3—体化培养）",
+              "num": 5,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3—体化培养）"
+            },
+            {
+              "spcode": "083201TK",
+              "name": "未来机器人",
+              "full_name": "未来机器人（未来技术班）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "（未来技术班）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合",
+          "batch": "本科批(普通类一段)",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "不限",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 化+政+史 或 化+史+地 或 化+史+技 或 化+政+地 或 化+政+技 或 化+地+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技 或 政+史+地 或 政+史+技 或 史+地+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（数智经济与智能管理）（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（数智经济与智能管理）（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（法学、艺术史论、哲学、汉语言文学、社会学）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（法学、艺术史论、哲学、汉语言文学、社会学）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智慧建造与智能交通）（智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智慧建造与智能交通）（智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（数智科学与智慧金融）（信息管理与信息系统、金融工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（数智科学与智慧金融）（信息管理与信息系统、金融工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（智能制造与智能系统）（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（智能制造与智能系统）（机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（物质科学与生态）（材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（物质科学与生态）（材料科学与工程、环境工程、化学工程与工艺、制药工程、化学）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合",
+          "batch": "本科批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "",
+          "xuanke": "不限",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 化+政+史 或 化+史+地 或 化+史+技 或 化+政+地 或 化+政+技 或 化+地+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技 或 政+史+地 或 政+史+技 或 史+地+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（数智经济与智能管理）（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（数智经济与智能管理）（会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（郭秉文班）（法学、艺术史论、哲学、汉语言文学、社会学）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（郭秉文班）（法学、艺术史论、哲学、汉语言文学、社会学）（考生高考投档成绩（含:政策性加分）需达到特殊类型招生控制线上60分（含））（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hebei",
+      "province_cn": "河北",
+      "province_id": 13,
+      "uses_college_groups": false,
+      "group_count": 6,
+      "total_plan": 162,
+      "min_admission_2025": {
+        "物理类": 658,
+        "历史类": 631
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 448,
+        "历史类": 451
+      },
+      "groups": [
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（南京市）（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程专业）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（智能制造与智能系统）（含机器人工程、自动化、智能感知工程、智能车辆工程、测控技术与仪器、机械工程专业）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "full_name": "电子信息类（南京市）（含信息工程、电子科学与技术、海洋信息工程专业）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（南京市）（含信息工程、电子科学与技术、海洋信息工程专业）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "full_name": "计算机类（南京市）（含计算机科学与技术、人工智能、软件工程、网络空间安全专业）",
+              "num": 21,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（南京市）（含计算机科学与技术、人工智能、软件工程、网络空间安全专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（南京市）（吴健雄班）（含信息工程（等四年制理工科专业）专业）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（吴健雄班）（含信息工程（等四年制理工科专业）专业）"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化（南京市）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "（南京市）"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "full_name": "生物医学工程（南京市）（学制七年本硕连读）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "（南京市）（学制七年本硕连读）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统（南京市）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（南京市）"
+            },
+            {
+              "spcode": "083201TK",
+              "name": "未来机器人",
+              "full_name": "未来机器人（南京市）（未来技术班）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "（南京市）（未来技术班）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（南京市）（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（南京市）（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学专业）",
+              "num": 15,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学专业）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（南京市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（南京市）"
+            },
+            {
+              "spcode": "120403",
+              "name": "劳动与社会保障",
+              "full_name": "劳动与社会保障（南京市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "（南京市）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（国家专项计划）（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程专业）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项计划）（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（国家专项计划）（物质科学与生态）（含材料科学与工程、环境工程、化学工程与工艺、制药工程、化学专业）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项计划）（物质科学与生态）（含材料科学与工程、环境工程、化学工程与工艺、制药工程、化学专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（国家专项计划）（含数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术专业）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项计划）（含数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（国家专项计划）（数智科学与智慧金融）（含信息管理与信息系统、金融工程专业）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（国家专项计划）（数智科学与智慧金融）（含信息管理与信息系统、金融工程专业）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "历史类",
+          "batch": "本科批(中外合作/国家专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "文科试验班类",
+              "full_name": "文科试验班类（南京市）（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学专业）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（郭秉文班）（含法学、艺术史论、哲学、汉语言文学、社会学专业）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批(中外合作/国家专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "full_name": "临床医学类（南京市）（含临床医学、医学影像学专业）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "五年",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（南京市）（含临床医学、医学影像学专业）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "理科试验班",
+              "full_name": "理科试验班（南京市）（含数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术专业）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（含数学与应用数学、信息与计算科学、统计学、应用物理学、物理学、工程力学、密码科学与技术专业）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "full_name": "工科试验班（南京市）（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程专业）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "",
+              "subcategory": "",
+              "info": "（南京市）（智慧建造与智能交通）（含智慧交通、智能建造、交通工程、交通运输、土木工程、给排水科学与工程、工程管理、城市地下空间工程、道路桥梁与渡河工程专业）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批(中外合作/国家专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "full_name": "经济学类（南京市）（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（南京市）（数智经济与智能管理）（含会计学、金融学、经济学、工商管理、国际经济与贸易、物流管理专业）（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

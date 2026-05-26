@@ -1,0 +1,285 @@
+{
+  "uni": "北京航空航天大学",
+  "code": 1006,
+  "zs_code": "10006",
+  "gaokao_cn_school_id": 47,
+  "year": 2025,
+  "batch_default": "本科批",
+  "sources": [
+    "https://www.6617.com/p_161919629376.html",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/47/2025/41.json",
+    "https://static-data.gaokao.cn/www/2.0/school/47/info.json",
+    "https://zs.buaa.edu.cn/bkzn/lnfs.htm"
+  ],
+  "fetched_at": "2026-05-25",
+  "notes": [
+    "Per-院校专业组 投档线 / 最低位次 sourced from 6617.com 2025 aggregated table.",
+    "Group ids (101/102/201/311/312) for 河南 cross-checked against gaokao.cn schoolspecialplan/47/2025/41 (special_group: 368130/368194/368129/368168/368185).",
+    "山东 is 综合改革 (3+3), reported at school level (not 院校专业组); listed here with group=null.",
+    "Track codes follow schema-gaokao-cn.md: 2073=物理类, 2074=历史类, 3=综合改革.",
+    "gaokao.cn pro_type_min for the school differs from per-group min on some provinces (e.g. 河南 物理 670 vs 普通组 679 / 中外合作 659); 6617 per-group table is preferred for 院校专业组 granularity."
+  ],
+  "provinces": {
+    "41": {
+      "province_name": "河南",
+      "groups": [
+        {
+          "group": "第101组",
+          "special_group_id": "368130",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 679,
+          "min_rank": 1277
+        },
+        {
+          "group": "第311组",
+          "special_group_id": "368168",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 671,
+          "min_rank": 2395
+        },
+        {
+          "group": "第201组",
+          "special_group_id": "368129",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 659,
+          "min_rank": 5147
+        },
+        {
+          "group": "第102组",
+          "special_group_id": "368194",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 647,
+          "min_rank": 549
+        },
+        {
+          "group": "第312组",
+          "special_group_id": "368185",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 640,
+          "min_rank": 874
+        }
+      ]
+    },
+    "32": {
+      "province_name": "江苏",
+      "groups": [
+        {
+          "group": "02组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 659,
+          "min_rank": 2209
+        },
+        {
+          "group": "03组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 646,
+          "min_rank": 5633
+        },
+        {
+          "group": "01组",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 634,
+          "min_rank": 958
+        }
+      ]
+    },
+    "44": {
+      "province_name": "广东",
+      "groups": [
+        {
+          "group": "207组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 668,
+          "min_rank": 1173
+        },
+        {
+          "group": "210组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 646,
+          "min_rank": 4469
+        },
+        {
+          "group": "206组",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 641,
+          "min_rank": 493
+        }
+      ]
+    },
+    "42": {
+      "province_name": "湖北",
+      "groups": [
+        {
+          "group": "第06组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 653,
+          "min_rank": 1446
+        },
+        {
+          "group": "第09组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 635,
+          "min_rank": 3916
+        },
+        {
+          "group": "第08组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "民族班",
+          "batch": "本科批",
+          "min_score": 634,
+          "min_rank": 4125
+        },
+        {
+          "group": "第07组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 630,
+          "min_rank": 4962
+        },
+        {
+          "group": "第05组",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 630,
+          "min_rank": 696
+        }
+      ]
+    },
+    "35": {
+      "province_name": "福建",
+      "groups": [
+        {
+          "group": "500组",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 661,
+          "min_rank": 891
+        },
+        {
+          "group": "999组",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 624,
+          "min_rank": 598
+        }
+      ]
+    },
+    "37": {
+      "province_name": "山东",
+      "regime_note": "综合改革 3+3, 一段线 by school (not 院校专业组)",
+      "groups": [
+        {
+          "group": null,
+          "track": "3",
+          "track_name": "综合改革",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "普通类一段",
+          "min_score": 645,
+          "min_rank": 4602
+        },
+        {
+          "group": null,
+          "track": "3",
+          "track_name": "综合改革",
+          "xuanke": "历史",
+          "type_name": "普通类",
+          "batch": "普通类一段",
+          "min_score": 645,
+          "min_rank": 4657
+        }
+      ]
+    },
+    "13": {
+      "province_name": "河北",
+      "groups": [
+        {
+          "group": null,
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 669,
+          "min_rank": 788
+        },
+        {
+          "group": null,
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 650,
+          "min_rank": 409
+        }
+      ]
+    }
+  }
+}

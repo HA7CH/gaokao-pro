@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "uni": "南开大学",
+    "code": 1110,
+    "zs_code_guobiao": "10055",
+    "school_id_eol": 59,
+    "year": 2025,
+    "compiled": "2026-05-25",
+    "sources": [
+      "zsb.nankai.edu.cn 南开大学本科招生网",
+      "gaokao.cn/school/59 (eol.cn) 南开大学历年分数线",
+      "gk100.com/read_25087.htm 南开大学2025录取分数线汇总",
+      "gk100.com/read_920174941.htm 南开大学2025各省专业组+位次",
+      "6617.com/p_621175634 / p_1979011860 南开大学2025投档线一览",
+      "jseea.cn 江苏省2025本科批平行志愿投档线(物理/历史)",
+      "eea.gd.gov.cn 广东省2025本科批投档",
+      "zsxxw.e21.cn 湖北省2025本科批投档",
+      "sdzk.cn 山东省2025普通类常规批",
+      "hebeea.edu.cn 河北省2025本科批投档",
+      "fjeea.cn 福建省2025本科批投档",
+      "haedu.cn / heao.gov.cn 河南省2025本科批投档"
+    ],
+    "note": "1110 为南开大学多数省份招生代号(4位)；国标 10055。专业组号、组内选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次；null 表示来源未披露。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学", "group": "101", "subject_req": "化学", "min_score": 664, "min_rank": 3838, "note": "本部物理主组"},
+        {"track": "物理", "name_in_plan": "南开大学(国家专项)", "group": "302", "subject_req": "化学", "min_score": 649, "min_rank": 8687},
+        {"track": "历史", "name_in_plan": "南开大学", "group": "102", "subject_req": "不限", "min_score": 645, "min_rank": 614},
+        {"track": "历史", "name_in_plan": "南开大学(国家专项)", "group": "301", "subject_req": "不限", "min_score": 632, "min_rank": 1382}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "1101",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学03专业组", "code": "1101", "group": "03", "subject_req": "化学", "min_score": 651, "min_rank": 4082, "note": "物化组(本部主组)"},
+        {"track": "历史", "name_in_plan": "南开大学02专业组", "code": "1101", "group": "02", "subject_req": "不限", "min_score": 636, "min_rank": 828}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学", "group": "206", "subject_req": "不限", "min_score": 647, "min_rank": 4394},
+        {"track": "物理", "name_in_plan": "南开大学", "group": "205", "subject_req": "化学", "min_score": 644, "min_rank": 5048},
+        {"track": "历史", "name_in_plan": "南开大学", "group": "204", "subject_req": "不限", "min_score": 632, "min_rank": 964}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学(普通类)", "group": "06", "subject_req": "化学", "min_score": 632, "min_rank": 4535},
+        {"track": "物理", "name_in_plan": "南开大学(普通类)", "group": "05", "subject_req": "不限", "min_score": 630, "min_rank": 4962},
+        {"track": "物理", "name_in_plan": "南开大学(国家专项)", "group": "07", "subject_req": "化学", "min_score": 611, "min_rank": 10072},
+        {"track": "历史", "name_in_plan": "南开大学(普通类)", "group": "03", "subject_req": "不限", "min_score": 626, "min_rank": 905},
+        {"track": "历史", "name_in_plan": "南开大学(国家专项)", "group": "04", "subject_req": "不限", "min_score": 623, "min_rank": 1089}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学", "group": "500", "subject_req": "化学", "min_score": 649, "min_rank": 1921},
+        {"track": "物理", "name_in_plan": "南开大学", "group": "999", "subject_req": "化学", "min_score": 648, "min_rank": 2036},
+        {"track": "历史", "name_in_plan": "南开大学", "group": "999", "subject_req": "不限", "min_score": 629, "min_rank": 454}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3",
+      "groups": [
+        {"track": "综合", "name_in_plan": "南开大学", "group": null, "subject_req": "见各专业", "min_score": 648, "min_rank": null, "note": "普通类一段投档线；山东不分组，按专业(类)平行志愿"}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "南开大学", "group": null, "subject_req": "见各专业组", "min_score": 646, "min_rank": 4252, "note": "本科批物理类合并最低分"},
+        {"track": "历史", "name_in_plan": "南开大学", "group": null, "subject_req": "不限", "min_score": 647, "min_rank": 512}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "uni": "复旦大学",
+    "code": 1246,
+    "zs_code_guobiao": "10246",
+    "year": 2025,
+    "compiled": "2026-05-25",
+    "sources": [
+      "ao.fudan.edu.cn/b7/a6/c36333a767910/page.htm",
+      "jseea.cn 江苏省 2025 普通类本科批平行志愿投档线（物理/历史）",
+      "eea.gd.gov.cn / 广东省教育考试院 2025 本科批投档",
+      "zsxxw.e21.cn (湖北招生信息综合服务平台) 2025",
+      "sdzk.cn 山东省 2025 普通类常规批第1次志愿投档情况表",
+      "hebeea.edu.cn 河北省 2025 本科批平行志愿投档情况统计",
+      "fjeea.cn / 福建省教育考试院 2025 本科批投档",
+      "haedu.cn / heao.gov.cn 河南省 2025 本科批投档",
+      "eol.cn 投档线汇总, dakao100.com, gk100.com 转载"
+    ],
+    "note": "1246 为复旦大学在多数省份招生代号(4位)；国标 10246。专业组号、组内选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学", "group": "101", "subject_req": "化学", "min_score": 690, "min_rank": null, "note": "本部物理组主投档线"},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院", "group": "102", "subject_req": "化学+生物", "min_score": 667, "min_rank": null, "note": "医学院组"},
+        {"track": "物理", "name_in_plan": "复旦大学(国家专项)", "group": "301", "subject_req": "化学", "min_score": 674, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院(国家专项)", "group": "302", "subject_req": "化学+生物", "min_score": 654, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学(高校专项)", "group": "腾飞计划", "subject_req": "化学", "min_score": 672, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学", "group": "101", "subject_req": "不限", "min_score": 666, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学(国家专项)", "group": "301", "subject_req": "不限", "min_score": 657, "min_rank": null}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "2101",
+      "school_code_yixueyuan": "2128",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学04专业组", "code": "2101", "group": "04", "subject_req": "化学", "min_score": 672, "min_rank": 570},
+        {"track": "物理", "name_in_plan": "复旦大学医学院01专业组", "code": "2128", "group": "01", "subject_req": "化学", "min_score": 681, "min_rank": 260, "note": "临床医学八年制"},
+        {"track": "物理", "name_in_plan": "复旦大学医学院02专业组", "code": "2128", "group": "02", "subject_req": "化学", "min_score": 657, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学03专业组", "code": "2101", "group": "03", "subject_req": "不限", "min_score": 656, "min_rank": 140}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学", "group": "206", "subject_req": "不限", "min_score": 678, "min_rank": 419},
+        {"track": "物理", "name_in_plan": "复旦大学(中外/单列)", "group": "710", "subject_req": "不限", "min_score": 663, "min_rank": 1581},
+        {"track": "物理", "name_in_plan": "复旦大学(中外/单列)", "group": "709", "subject_req": "不限", "min_score": 657, "min_rank": 2405},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院", "group": "205", "subject_req": "化学+生物", "min_score": 661, "min_rank": null, "note": "医学院 661 见物理(医学)"},
+        {"track": "历史", "name_in_plan": "复旦大学", "group": "205", "subject_req": "不限", "min_score": 661, "min_rank": 88},
+        {"track": "历史", "name_in_plan": "复旦大学", "group": "104", "subject_req": "不限", "min_score": 650, "min_rank": 215},
+        {"track": "历史", "name_in_plan": "复旦大学(高校专项)", "group": "707", "subject_req": "不限", "min_score": 647, "min_rank": 277},
+        {"track": "历史", "name_in_plan": "复旦大学", "group": "103", "subject_req": "不限", "min_score": 644, "min_rank": 359}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学(普通类)", "group": "07", "subject_req": "不限/化学", "min_score": 670, "min_rank": 373},
+        {"track": "物理", "name_in_plan": "复旦大学(国家专项)", "group": "08", "subject_req": "化学", "min_score": 660, "min_rank": 885},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院", "group": "02", "subject_req": "化学+生物", "min_score": 674, "min_rank": 245, "note": "临床八年制"},
+        {"track": "历史", "name_in_plan": "复旦大学(普通类)", "group": "05", "subject_req": "不限", "min_score": 654, "min_rank": 114},
+        {"track": "历史", "name_in_plan": "复旦大学(国家专项)", "group": "06", "subject_req": "不限", "min_score": 652, "min_rank": 135}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学(相辉学堂)", "group": "500", "subject_req": "化学", "min_score": 689, "min_rank": 128, "note": "相辉拔尖班"},
+        {"track": "物理", "name_in_plan": "复旦大学", "group": "999", "subject_req": "化学", "min_score": 681, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学(普通)", "group": "506", "subject_req": "不限", "min_score": 673, "min_rank": 340, "note": "本部主组"},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院", "group": "508", "subject_req": "化学+生物", "min_score": 650, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院(高校专项)", "group": null, "subject_req": "化学+生物", "min_score": 639, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学", "group": "999", "subject_req": "不限", "min_score": 649, "min_rank": 100}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3 综合",
+      "note": "山东不分院校专业组，按专业(类)+院校投档；下方为复旦在鲁专业(类)代表性段位。",
+      "groups": [
+        {"track": "综合", "name_in_plan": "复旦大学(普通类一段·最低)", "group": null, "subject_req": "选考差异", "min_score": 668, "min_rank": 1074, "note": "人文科学试验班(走向最低端)"},
+        {"track": "综合", "name_in_plan": "复旦大学(普通类一段·中位)", "group": null, "subject_req": "差异", "min_score": 670, "min_rank": 890, "note": "院校线参考"},
+        {"track": "综合", "name_in_plan": "复旦大学(工科试验班·相辉香农计划)", "group": null, "subject_req": "物化", "min_score": 687, "min_rank": 203, "note": "顶段专业"},
+        {"track": "综合", "name_in_plan": "复旦大学上海医学院", "group": null, "subject_req": "化学+生物", "min_score": 663, "min_rank": null, "note": "医学院线"},
+        {"track": "综合", "name_in_plan": "复旦大学(高校专项)", "group": null, "subject_req": "差异", "min_score": 654, "min_rank": null}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "note": "河北本科批为专业+学校平行志愿(96 个)，不设院校专业组；下列为复旦在冀代表性段位。",
+      "groups": [
+        {"track": "物理", "name_in_plan": "复旦大学(本科批)", "group": null, "subject_req": "差异", "min_score": 680, "min_rank": 267},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院", "group": null, "subject_req": "化学+生物", "min_score": 660, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学(国家专项)", "group": null, "subject_req": "差异", "min_score": 666, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学上海医学院(国家专项)", "group": null, "subject_req": "化学+生物", "min_score": 647, "min_rank": null},
+        {"track": "物理", "name_in_plan": "复旦大学(高校专项)", "group": null, "subject_req": "差异", "min_score": 623, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学(本科批)", "group": null, "subject_req": "不限", "min_score": 667, "min_rank": 76},
+        {"track": "历史", "name_in_plan": "复旦大学(国家专项)", "group": null, "subject_req": "不限", "min_score": 663, "min_rank": null},
+        {"track": "历史", "name_in_plan": "复旦大学(高校专项)", "group": null, "subject_req": "不限", "min_score": 646, "min_rank": null}
+      ]
+    }
+  ]
+}

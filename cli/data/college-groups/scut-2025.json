@@ -1,0 +1,109 @@
+{
+  "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
+  "_year": 2025,
+  "_university": "华南理工大学",
+  "_university_code": "1572",
+  "_zs_code_note": "1572 is the user-supplied provincial 招生院校代码; verify per province. SCUT 国标代码=10561. Jiangsu uses 5402 in the 2025 投档线 PDF (江苏省教育考试院).",
+  "_sources": [
+    "https://admission.scut.edu.cn/",
+    "https://admission.scut.edu.cn/30821/list.htm",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-5302461102655621.pdf",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf",
+    "https://www.jseea.cn/webfile/index/index_zkxx/2025-07-18/7351781448019349504.html",
+    "https://www.6617.com/p_163810984431.html",
+    "https://gz.bendibao.com/edu/2025723/edu360875.shtml",
+    "https://www.gk100.com/read_64183.htm",
+    "https://www.zizzs.com/gk/gaokao/216363.html",
+    "https://www.gaokao.cn/school/105/provinceline",
+    "https://www.eol.cn/e_html/gk/gktoudang/index.shtml"
+  ],
+  "_data_quality": "jiangsu=verified group-level from jseea.cn PDF; guangdong=partial group-level (212,215,211 known); henan/hubei/fujian/shandong/hebei=aggregate min scores from secondary aggregators. Hebei has per-major data (no traditional group concept under 96 平行志愿).",
+  "_collected_at": "2026-05-25",
+  "university": {
+    "name": "华南理工大学",
+    "code": "1572",
+    "moe_zs_code": "10561",
+    "city": "广州",
+    "tags": ["985", "211", "双一流", "教育部直属", "建筑老八校", "四大工学院"]
+  },
+  "provinces": [
+    {
+      "province": "广东",
+      "province_id": 44,
+      "regime": "3+1+2",
+      "data_quality": "partial_group",
+      "groups": [
+        { "group_code": "211", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 615, "最低位次": null, "示例专业": ["工商管理类", "会计学", "行政管理", "商务英语", "新闻传播学类"], "tuition": null, "notes": "历史类最低组" },
+        { "group_code": "212", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 640, "最低位次": 6278, "示例专业": ["工科试验班(国豪/创新班)"], "tuition": null, "notes": "物理类最高组" },
+        { "group_code": "215", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 622, "最低位次": null, "示例专业": ["工科试验班", "建筑类", "城乡规划", "自动化", "数学类"], "tuition": null, "notes": "物理类最低组; 全省 2025 共录 3516 人(物理 2793/历史 220 + 其他批次)" }
+      ]
+    },
+    {
+      "province": "江苏",
+      "province_id": 32,
+      "regime": "3+1+2",
+      "data_quality": "verified",
+      "groups": [
+        { "group_code": "5402-01", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 624, "最低位次": null, "示例专业": null, "tuition": null, "notes": "江苏 jseea 2025 历史类本科批投档线 PDF" },
+        { "group_code": "5402-03", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 648, "最低位次": null, "示例专业": null, "tuition": null },
+        { "group_code": "5402-04", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 644, "最低位次": null, "示例专业": null, "tuition": null, "notes": "本校物理类最低组" },
+        { "group_code": "5402-05", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 652, "最低位次": null, "示例专业": null, "tuition": null, "notes": "本校物理类最高组" },
+        { "group_code": "5402-06", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 649, "最低位次": null, "示例专业": null, "tuition": null }
+      ]
+    },
+    {
+      "province": "河南",
+      "province_id": 41,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 662, "最低位次": null, "示例专业": null, "notes": "河南 2025 首届 3+1+2; SCUT 物理类最低 662 (聚合源); 组代码需查《河南省 2025 普通高校招生计划》" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "公开聚合源未给出具体分; 历史类建议 4000 名以内" }
+      ]
+    },
+    {
+      "province": "湖北",
+      "province_id": 42,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 628, "最低位次": null, "示例专业": null, "notes": "聚合源最低; 具体组代码与组内投档分见《湖北省 2025 投档线公告》" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 615, "最低位次": null, "示例专业": null }
+      ]
+    },
+    {
+      "province": "福建",
+      "province_id": 35,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 616, "最低位次": null, "示例专业": null, "notes": "聚合源最低; 待补福建省考试院投档表" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 610, "最低位次": null, "示例专业": null }
+      ]
+    },
+    {
+      "province": "山东",
+      "province_id": 37,
+      "regime": "3+3",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "综合改革", "首选": null, "再选": null, "投档分": 627, "最低位次": null, "示例专业": null, "notes": "山东为 96「专业+学校」平行志愿, 无传统院校专业组概念; SCUT 2025 综合最低约 627" }
+      ]
+    },
+    {
+      "province": "河北",
+      "province_id": 13,
+      "regime": "3+1+2",
+      "data_quality": "per_major",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 654, "最低位次": 2505, "示例专业": ["计算机类"], "tuition": null, "notes": "河北「专业+学校」无调剂; 96 志愿; 计算机类最高" },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 652, "最低位次": 2914, "示例专业": ["电子科学与技术"], "tuition": null },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 650, "最低位次": 3294, "示例专业": ["软件工程"], "tuition": null },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 623, "最低位次": 12592, "示例专业": ["建筑类"], "tuition": null, "notes": "物理类最低专业" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 643, "最低位次": 679, "示例专业": ["法学"], "tuition": null, "notes": "历史类最高" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 631, "最低位次": 1447, "示例专业": ["经济学类"], "tuition": null },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 622, "最低位次": 2295, "示例专业": ["新闻传播学类"], "tuition": null, "notes": "历史类最低" }
+      ]
+    }
+  ]
+}

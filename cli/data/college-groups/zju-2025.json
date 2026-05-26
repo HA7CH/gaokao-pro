@@ -1,0 +1,512 @@
+{
+  "uni": "浙江大学",
+  "code": 1335,
+  "zs_code": "10335",
+  "gaokao_cn_id": 114,
+  "year": 2025,
+  "generated_at": "2026-05-25",
+  "sources": [
+    {
+      "name": "static-data.gaokao.cn",
+      "endpoint": "/www/2.0/schoolspecialscore/114/2025/{province_id}.json",
+      "status": "partial — only 37(山东) and 13(河北) returned 2025 per-major data; 41/32/44/42/35 returned 404 as of 2026-05-25"
+    },
+    {
+      "name": "static-data.gaokao.cn",
+      "endpoint": "school-index pro_type_min",
+      "status": "2025 batch-level minimum scores complete for all 7 provinces"
+    },
+    {
+      "name": "zdzsc.zju.edu.cn",
+      "endpoint": "/87245/list.htm",
+      "status": "no 2025-specific per-province group PDF published yet (only 2024 page available)"
+    }
+  ],
+  "caveats": "河南/江苏/广东/湖北/福建 的 2025 院校专业组明细在源站点（eol.cn 静态数据 + zdzsc.zju.edu.cn）尚未发布；本文件仅含批次线。山东（37）综合改革无院校专业组分组（group_code=0）。河北（13）静态数据未输出 sg_name/group_code，但实际投档时浙大在河北分 W500/L999 等组。",
+  "provinces": {
+    "41": {
+      "province": "河南",
+      "province_id": "41",
+      "model": "3+1+2",
+      "note": "2025首届新高考；新增物理类2073、历史类2074；本科批合并",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 675,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 652,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [],
+      "majors_coverage": "unpublished_at_source_as_of_2026-05-25"
+    },
+    "32": {
+      "province": "江苏",
+      "province_id": "32",
+      "model": "3+1+2",
+      "note": "本科批院校专业组志愿",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 662,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 642,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [],
+      "majors_coverage": "unpublished_at_source_as_of_2026-05-25"
+    },
+    "44": {
+      "province": "广东",
+      "province_id": "44",
+      "model": "3+1+2",
+      "note": "本科批院校专业组志愿",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 661,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 637,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [],
+      "majors_coverage": "unpublished_at_source_as_of_2026-05-25"
+    },
+    "42": {
+      "province": "湖北",
+      "province_id": "42",
+      "model": "3+1+2",
+      "note": "本科批院校专业组志愿",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 648,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 647,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [],
+      "majors_coverage": "unpublished_at_source_as_of_2026-05-25"
+    },
+    "35": {
+      "province": "福建",
+      "province_id": "35",
+      "model": "3+1+2",
+      "note": "本科批院校专业组志愿",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 673,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 641,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [],
+      "majors_coverage": "unpublished_at_source_as_of_2026-05-25"
+    },
+    "37": {
+      "province": "山东",
+      "province_id": "37",
+      "model": "3+3",
+      "note": "常规批，综合改革不分track；选科要求按专业",
+      "batch_lines_2025": {
+        "综合改革": {
+          "min_score": 645,
+          "track_code": "3"
+        }
+      },
+      "majors_2025": [
+        {
+          "major": "工科试验班（竺可桢学院图灵班）（计算机科学与技术）",
+          "major_short": "工科试验班",
+          "category": "",
+          "info": "（竺可桢学院图灵班）（计算机科学与技术）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 681,
+          "min_rank": "274",
+          "admitted_count": "3"
+        },
+        {
+          "major": "机器人工程（荣誉项目班）",
+          "major_short": "机器人工程",
+          "category": "自动化类",
+          "info": "（荣誉项目班）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 678,
+          "min_rank": "372",
+          "admitted_count": "4"
+        },
+        {
+          "major": "人工智能",
+          "major_short": "人工智能",
+          "category": "电子信息类",
+          "info": "",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 678,
+          "min_rank": "380",
+          "admitted_count": "6"
+        },
+        {
+          "major": "理科试验班类（含商务大数据分析双学士学位项目）（数学与应用数学、信息与计算科学、统计学、物理学、心理学、信息管理与信息系统）（含商务大数据分析（信息管理与信息系统-统计学）双学士学位项目）",
+          "major_short": "理科试验班类",
+          "category": "",
+          "info": "（含商务大数据分析双学士学位项目）（数学与应用数学、信息与计算科学、统计学、物理学、心理学、信息管理与信息系统）（含商务大数据分析（信息管理与信息系统-统计学）双学士学位项目）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 674,
+          "min_rank": "556",
+          "admitted_count": "3"
+        },
+        {
+          "major": "医学试验班（竺可桢学院巴德年医学班）（临床医学）",
+          "major_short": "医学试验班",
+          "category": "",
+          "info": "（竺可桢学院巴德年医学班）（临床医学）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 674,
+          "min_rank": "580",
+          "admitted_count": "6"
+        },
+        {
+          "major": "社会科学试验班（竺可桢学院人文社科实验班）（经济学、财政学、金融学、国际经济与贸易、教育学、会计学、工商管理、社会学、农林经济管理、行政管理、劳动与社会保障、土地资源管理、法学）",
+          "major_short": "社会科学试验班",
+          "category": "",
+          "info": "（竺可桢学院人文社科实验班）（经济学、财政学、金融学、国际经济与贸易、教育学、会计学、工商管理、社会学、农林经济管理、行政管理、劳动与社会保障、土地资源管理、法学）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "不限",
+          "min_score": 667,
+          "min_rank": "1118",
+          "admitted_count": "3"
+        },
+        {
+          "major": "人文科学试验班（古典文献学、汉语言文学、哲学、历史学、文物与博物馆学、考古学）",
+          "major_short": "人文科学试验班",
+          "category": "",
+          "info": "（古典文献学、汉语言文学、哲学、历史学、文物与博物馆学、考古学）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "不限",
+          "min_score": 661,
+          "min_rank": "1830",
+          "admitted_count": "5"
+        },
+        {
+          "major": "新闻传播学类（含智能与国际传播创新班）（新闻学、传播学）",
+          "major_short": "新闻传播学类",
+          "category": "新闻传播学类",
+          "info": "（含智能与国际传播创新班）（新闻学、传播学）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "不限",
+          "min_score": 658,
+          "min_rank": "2217",
+          "admitted_count": "3"
+        },
+        {
+          "major": "政治学与行政学",
+          "major_short": "政治学与行政学",
+          "category": "政治学类",
+          "info": "",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "思想政治必选",
+          "min_score": 657,
+          "min_rank": "2338",
+          "admitted_count": "2"
+        },
+        {
+          "major": "应用生物科学（农学，含竺可桢学院新农科实验班）（含农业资源与环境、茶学、农学、植物保护、园艺、动物科学、动物医学专业，其中动物医学学制五年）",
+          "major_short": "应用生物科学",
+          "category": "植物生产类",
+          "info": "（农学，含竺可桢学院新农科实验班）（含农业资源与环境、茶学、农学、植物保护、园艺、动物科学、动物医学专业，其中动物医学学制五年）",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "物理、化学(2科必选)",
+          "min_score": 646,
+          "min_rank": "4352",
+          "admitted_count": "23"
+        },
+        {
+          "major": "园林",
+          "major_short": "园林",
+          "category": "林学类",
+          "info": "",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "track": "综合改革",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": null,
+          "sp_sxk_req": "生物必选",
+          "min_score": 645,
+          "min_rank": "4628",
+          "admitted_count": "5"
+        }
+      ],
+      "majors_coverage": "complete"
+    },
+    "13": {
+      "province": "河北",
+      "province_id": "13",
+      "model": "3+1+2",
+      "note": "本科批院校专业组志愿",
+      "batch_lines_2025": {
+        "物理类": {
+          "min_score": 679,
+          "track_code": "2073"
+        },
+        "历史类": {
+          "min_score": 657,
+          "track_code": "2074"
+        }
+      },
+      "majors_2025": [
+        {
+          "major": "社会科学试验班（杭州市）（国家专项计划）（含数字金融双学士学位项目）（国家专项计划）",
+          "major_short": "社会科学试验班",
+          "category": "",
+          "info": "（杭州市）（国家专项计划）（含数字金融双学士学位项目）",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 658,
+          "min_rank": "198",
+          "admitted_count": "-"
+        },
+        {
+          "major": "人文科学试验班（杭州市）（国家专项计划）（国家专项计划）",
+          "major_short": "人文科学试验班",
+          "category": "",
+          "info": "（杭州市）（国家专项计划）",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 655,
+          "min_rank": "266",
+          "admitted_count": "-"
+        },
+        {
+          "major": "新闻传播学类（杭州市）（国家专项计划）（含智能与国际传播创新班）（国家专项计划）",
+          "major_short": "新闻传播学类",
+          "category": "新闻传播学类",
+          "info": "（杭州市）（国家专项计划）（含智能与国际传播创新班）",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 649,
+          "min_rank": "435",
+          "admitted_count": "-"
+        },
+        {
+          "major": "工科试验班（杭州市）（国家专项计划）（信息）（国家专项计划）",
+          "major_short": "工科试验班",
+          "category": "",
+          "info": "（杭州市）（国家专项计划）（信息）",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "track": "物理类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "物理",
+          "sp_sxk_req": "首选物理，再选化学",
+          "min_score": 677,
+          "min_rank": "361",
+          "admitted_count": "-"
+        },
+        {
+          "major": "工科试验班（杭州市）（竺可桢学院图灵班）（含计算机科学与技术专业）",
+          "major_short": "工科试验班",
+          "category": "",
+          "info": "（杭州市）（竺可桢学院图灵班）（含计算机科学与技术专业）",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "track": "物理类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "物理",
+          "sp_sxk_req": "首选物理，再选化学",
+          "min_score": 684,
+          "min_rank": "159",
+          "admitted_count": "-"
+        },
+        {
+          "major": "人工智能（杭州市）",
+          "major_short": "人工智能",
+          "category": "电子信息类",
+          "info": "（杭州市）",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "track": "物理类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "物理",
+          "sp_sxk_req": "首选物理，再选化学",
+          "min_score": 682,
+          "min_rank": "206",
+          "admitted_count": "-"
+        },
+        {
+          "major": "社会科学试验班（杭州市）（竺可桢学院人文社科实验班）（含经济学、财政学、金融学、国际经济与贸易、教育学、会计学、工商管理、社会学、农林经济管理、行政管理、劳动与社会保障、土地资源管理、法学专业）",
+          "major_short": "社会科学试验班",
+          "category": "",
+          "info": "（杭州市）（竺可桢学院人文社科实验班）（含经济学、财政学、金融学、国际经济与贸易、教育学、会计学、工商管理、社会学、农林经济管理、行政管理、劳动与社会保障、土地资源管理、法学专业）",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 665,
+          "min_rank": "96",
+          "admitted_count": "-"
+        },
+        {
+          "major": "人文科学试验班（杭州市）（含古典文献学、汉语言文学、哲学、历史学、文物与博物馆学、考古学专业）",
+          "major_short": "人文科学试验班",
+          "category": "",
+          "info": "（杭州市）（含古典文献学、汉语言文学、哲学、历史学、文物与博物馆学、考古学专业）",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 658,
+          "min_rank": "198",
+          "admitted_count": "-"
+        },
+        {
+          "major": "外国语言文学类（杭州市）（含涉外法治双学士学位项目）（含英语、翻译专业；含涉外法治（英语-法学）双学士学位项目）",
+          "major_short": "外国语言文学类",
+          "category": "外国语言文学类",
+          "info": "（杭州市）（含涉外法治双学士学位项目）（含英语、翻译专业；含涉外法治（英语-法学）双学士学位项目）",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "track": "历史类",
+          "group_code": "0",
+          "group_name": null,
+          "sg_fxk": null,
+          "sg_sxk_req": null,
+          "sp_fxk": "历史",
+          "sp_sxk_req": "首选历史，再选不限",
+          "min_score": 657,
+          "min_rank": "217",
+          "admitted_count": "-"
+        }
+      ],
+      "majors_coverage": "complete"
+    }
+  }
+}

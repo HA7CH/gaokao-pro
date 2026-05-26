@@ -1,0 +1,290 @@
+{
+  "uni": "哈尔滨工业大学",
+  "campus": "本部",
+  "code": 1213,
+  "zs_code": "10213",
+  "eol_school_id": 34,
+  "year": 2025,
+  "source": {
+    "primary": "static-data.gaokao.cn/www/2.0/schoolspecialplan/34/2025/{provinceId}.json",
+    "secondary": "zsb.hit.edu.cn/information/plan",
+    "fetched_at": "2026-05-25"
+  },
+  "notes": [
+    "school_id=34 是哈工大本部（哈尔滨校区），不含威海(school_id=36)与深圳(school_id=35)。",
+    "招生类型代码: 普通类 / 中外合作 / 国家专项 / 高校专项 / 民族班。",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。",
+    "部分计划虽列于本部 school_id 下但 info 注明培养地点为'深圳校区'(如 AI加先进技术领军班深圳拔尖班) — 这是本部代码招生、深圳培养。",
+    "school_min_2025 来自 info.json 的 province_score_min（仅统招批最低投档分，不含中外合作、专项）。"
+  ],
+  "school_min_2025": {
+    "henan": { "type": 2073, "min": 654, "track": "物理类" },
+    "henan_history": { "type": 2074, "min": 637, "track": "历史类" },
+    "jiangsu": { "type": 2073, "min": 645, "track": "物理类" },
+    "jiangsu_history": { "type": 2074, "min": 627, "track": "历史类" },
+    "guangdong": { "type": 2073, "min": 639, "track": "物理类" },
+    "hubei": { "type": 2073, "min": 626, "track": "物理类" },
+    "hubei_history": { "type": 2074, "min": 613, "track": "历史类" },
+    "fujian": { "type": 2073, "min": 636, "track": "物理类" },
+    "fujian_history": { "type": 2074, "min": 610, "track": "历史类" },
+    "shandong": { "type": 3, "min": 670, "track": "综合改革" },
+    "hebei": { "type": 2073, "min": 673, "track": "物理类" },
+    "hebei_history": { "type": 2074, "min": 637, "track": "历史类" }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "368061",
+          "sg_name": "(101)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            { "sp_name": "工科试验班(尖班)", "num": 1, "tuition": 5500, "info_short": "院士相关研究领域专业任选(自动化/人工智能/复合材料与工程/工程力学/材料科学与工程/机械设计制造及其自动化/机器人工程/飞行器制造工程/环境工程/精密仪器/测控技术与仪器/智能材料与结构/智能装备与系统/土木工程)" },
+            { "sp_name": "工科试验班(港大优学班)", "num": 1, "tuition": 5500, "info_short": "人工智能、自动化；与香港大学联合培养" }
+          ]
+        },
+        {
+          "group_code": "368060",
+          "sg_name": "(102)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 28,
+          "items": [
+            { "sp_name": "工科试验班(未来技术拔尖班)", "num": 14, "tuition": 5500, "info_short": "校本部理工专业任选，未来技术学院培养" },
+            { "sp_name": "工科试验班(院士特色班)", "num": 7, "tuition": 5500, "info_short": "含永坦班/善义班/小卫星班/智能机器人班" },
+            { "sp_name": "工科试验班(AI加先进技术领军班深圳拔尖班)", "num": 7, "tuition": 6230, "info_short": "培养地点为深圳校区" },
+            { "sp_name": "工科试验班(AI加先进技术领军班)", "num": 5, "tuition": 5500 },
+            { "sp_name": "工科试验班(AI院士特色班)", "num": 1, "tuition": 5500, "info_short": "人工智能；1年校本部+3年深圳校区" },
+            { "sp_name": "工科试验班(自主智能系统院士特色班)", "num": 1, "tuition": 5500, "info_short": "哈尔滨+上海(夏季学期)" }
+          ]
+        },
+        {
+          "group_code": "368111",
+          "sg_name": "(115)",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            { "sp_name": "经济管理试验班", "num": 8, "tuition": 5500, "info_short": "工商管理/会计学/建筑学/城乡规划；含社会学双学士学位、法学、国际组织与全球治理" }
+          ]
+        },
+        {
+          "group_code": "368059",
+          "sg_name": "(205)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 4, "tuition": 78000, "info_short": "法国里昂商学院 4+0" }
+          ]
+        },
+        {
+          "group_code": "368058",
+          "sg_name": "(206)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 3, "tuition": 70000, "info_short": "意大利都灵理工大学 4+0" }
+          ]
+        },
+        {
+          "group_code": "368057",
+          "sg_name": "(207)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "items": [
+            { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 6, "tuition": 68000, "info_short": "俄罗斯圣彼得堡国立大学 4+0" }
+          ]
+        },
+        {
+          "group_code": "368056",
+          "sg_name": "(208)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "items": [
+            { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 6, "tuition": 68000, "info_short": "俄罗斯圣彼得堡国立大学 4+0" }
+          ]
+        },
+        {
+          "group_code": "368055",
+          "sg_name": "(209)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "items": [
+            { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 6, "tuition": 68000, "info_short": "俄罗斯圣彼得堡国立大学 4+0" }
+          ]
+        },
+        {
+          "group_code": "368084",
+          "sg_name": "(311)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 30,
+          "items": [
+            { "sp_name": "工科试验班(卓越优才计划)", "num": 30, "tuition": 5500, "info_short": "信息管理/大数据/计算金融/数字经济/土木/环境/化工等" }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        { "group_code": "425818", "sg_name": "(01)", "track": "历史类", "subject_req": "首选历史，再选不限", "batch": "本科批", "zslx": "普通类", "total_num": 10, "items": [ { "sp_name": "经济管理试验班", "num": 10, "tuition": 5500 } ] },
+        { "group_code": "425849", "sg_name": "(02)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 5, "items": [ { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 5, "tuition": 78000, "info_short": "法国里昂商学院" } ] },
+        { "group_code": "425848", "sg_name": "(03)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 4, "items": [ { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 4, "tuition": 70000, "info_short": "意大利都灵理工" } ] },
+        { "group_code": "425847", "sg_name": "(04)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 29, "items": [
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 13, "tuition": 5500 },
+          { "sp_name": "工科试验班(卓士特色班)", "num": 10, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班)", "num": 3, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班深圳拔尖班)", "num": 3, "tuition": 6230, "info_short": "深圳校区" }
+        ] },
+        { "group_code": "425846", "sg_name": "(05)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 10, "items": [ { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 10, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "425845", "sg_name": "(06)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 10, "items": [ { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 10, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "425844", "sg_name": "(07)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 9, "items": [ { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 9, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "425843", "sg_name": "(08)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 1, "items": [ { "sp_name": "工科试验班(尖班、港大优学班)", "num": 1, "tuition": 5500 } ] }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        { "group_code": "431518", "sg_name": "(206)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 14, "items": [
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 7, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班)", "num": 4, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班深圳拔尖班)", "num": 2, "tuition": 6230, "info_short": "深圳校区" },
+          { "sp_name": "工科试验班(院士特色班)", "num": 1, "tuition": 5500 }
+        ] },
+        { "group_code": "431517", "sg_name": "(207)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 1, "items": [ { "sp_name": "工科试验班(尖班、港大优学班)", "num": 1, "tuition": 5500 } ] },
+        { "group_code": "431516", "sg_name": "(208)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 4, "items": [ { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 4, "tuition": 78000, "info_short": "法国里昂商学院" } ] },
+        { "group_code": "431515", "sg_name": "(209)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 4, "items": [ { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 4, "tuition": 70000, "info_short": "意大利都灵理工" } ] },
+        { "group_code": "431514", "sg_name": "(210)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 5, "items": [ { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 5, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "431513", "sg_name": "(211)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 6, "items": [ { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 6, "tuition": 68000, "info_short": "俄圣彼得堡国立大学；不招色盲" } ] },
+        { "group_code": "431512", "sg_name": "(212)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 5, "items": [ { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 5, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "258696", "sg_name": "(702)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "特殊类型招生批", "zslx": "高校专项计划", "total_num": 3, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 3, "tuition": 5500, "info_short": "高校专项；高考成绩须达特殊类型分数线+100" } ] }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        { "group_code": "290638", "sg_name": "(03)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 1, "items": [ { "sp_name": "工科试验班(尖班、港大优学班)", "num": 1, "tuition": 5500 } ] },
+        { "group_code": "290637", "sg_name": "(04)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 25, "items": [
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 9, "tuition": 5500 },
+          { "sp_name": "工科试验班(院士特色班)", "num": 5, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班深圳拔尖班)", "num": 5, "tuition": 6230, "info_short": "深圳校区" },
+          { "sp_name": "工科试验班(AI加先进技术领军班)", "num": 4, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI院士特色班)", "num": 1, "tuition": 5500 },
+          { "sp_name": "工科试验班(自主智能系统院士特色班)", "num": 1, "tuition": 5500 }
+        ] },
+        { "group_code": "290636", "sg_name": "(05)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 2, "items": [ { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 2, "tuition": 78000, "info_short": "法国里昂商学院" } ] },
+        { "group_code": "290635", "sg_name": "(06)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 3, "items": [ { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 3, "tuition": 70000, "info_short": "意大利都灵理工" } ] },
+        { "group_code": "290634", "sg_name": "(07)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 4, "items": [ { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 4, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "290633", "sg_name": "(08)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 5, "items": [ { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 5, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "290632", "sg_name": "(09)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 5, "items": [ { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 5, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "290631", "sg_name": "(10)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "民族班", "total_num": 6, "items": [ { "sp_name": "工科试验班(民族班·卓越优才计划)", "num": 6, "tuition": 5500, "info_short": "只招少数民族；分数线本科批我校投档线下40分内" } ] },
+        { "group_code": "290668", "sg_name": "(11)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "国家专项计划", "total_num": 10, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 10, "tuition": 5500 } ] },
+        { "group_code": "290657", "sg_name": "(02)", "track": "历史类", "subject_req": "首选历史，再选不限", "batch": "本科批", "zslx": "普通类", "total_num": 9, "items": [ { "sp_name": "经济管理试验班", "num": 9, "tuition": 5500, "info_short": "工商管理/会计学/建筑学/城乡规划/双学士学位等" } ] }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        { "group_code": "392508", "sg_name": "(999)历史类", "track": "历史类", "subject_req": "首选历史，再选不限", "batch": "本科批", "zslx": "普通类", "total_num": 10, "items": [ { "sp_name": "经济管理试验班", "num": 10, "tuition": 5500 } ] },
+        { "group_code": "392550", "sg_name": "(500)物理化学组", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 19, "items": [
+          { "sp_name": "工科试验班(院士特色班)", "num": 8, "tuition": 5500 },
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 7, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班)", "num": 2, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI加先进技术领军班深圳拔尖班)", "num": 2, "tuition": 6230, "info_short": "深圳校区" }
+        ] },
+        { "group_code": "392548", "sg_name": "(500)物化组1", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "物化组(1)", "total_num": 1, "items": [ { "sp_name": "工科试验班(尖班、港大优学班)", "num": 1, "tuition": 5500 } ] },
+        { "group_code": "392546", "sg_name": "(500)中外合作(1)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 8, "items": [ { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 8, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "392544", "sg_name": "(999)中外合作(2)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 3, "items": [ { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 3, "tuition": 70000, "info_short": "意大利都灵理工" } ] },
+        { "group_code": "392542", "sg_name": "(999)中外合作(3)", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 4, "items": [ { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 4, "tuition": 78000, "info_short": "法国里昂商学院" } ] },
+        { "group_code": "392540", "sg_name": "(500)中外合作(4)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 8, "items": [ { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 8, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "392538", "sg_name": "(500)中外合作(5)", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 8, "items": [ { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 8, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" } ] },
+        { "group_code": "392550_gxzx", "sg_name": "(500)高校专项", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "高校农村专项计划", "zslx": "高校专项计划", "total_num": 5, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 5, "tuition": 5500, "info_short": "特殊类型线+100" } ] }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按招生计划项目展开",
+      "groups": [
+        { "group_code": "0_pt", "sg_name": "普通类一段", "track": "综合改革", "subject_req": "物理+化学(2科必选)", "batch": "普通类一段", "zslx": "普通类", "total_num": 45, "items": [
+          { "sp_name": "工科试验班(院士特色班)", "num": 29, "tuition": 5500 },
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 10, "tuition": 5500 },
+          { "sp_name": "工科试验班(尖班)", "num": 2, "tuition": 5500 },
+          { "sp_name": "工科试验班(港大优学班)", "num": 2, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI院士特色班)", "num": 1, "tuition": 5500 },
+          { "sp_name": "工科试验班(自主智能系统院士特色班)", "num": 1, "tuition": 5500 }
+        ] },
+        { "group_code": "0_zwhz_phys_chem", "sg_name": "普通类一段·中外合作(物化)", "track": "综合改革", "subject_req": "物理+化学(2科必选)", "batch": "普通类一段", "zslx": "中外合作办学", "total_num": 12, "items": [
+          { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 4, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" },
+          { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 4, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" },
+          { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 4, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" }
+        ] },
+        { "group_code": "0_zwhz_phys_only", "sg_name": "普通类一段·中外合作(物理)", "track": "综合改革", "subject_req": "物理必选", "batch": "普通类一段", "zslx": "中外合作办学", "total_num": 7, "items": [
+          { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 4, "tuition": 78000, "info_short": "法国里昂商学院" },
+          { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 3, "tuition": 70000, "info_short": "意大利都灵理工" }
+        ] },
+        { "group_code": "0_special", "sg_name": "特殊类型批·高校专项", "track": "综合改革", "subject_req": "物理+化学(2科必选)", "batch": "特殊类型批", "zslx": "高校专项计划", "total_num": 18, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 18, "tuition": 5500, "info_short": "特殊类型控制线+120" } ] }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "note": "河北 2025 不再公布院校专业组代号(special_group=0)，按 sg_info(选科)+招生类型为组分",
+      "groups": [
+        { "group_code": "13_2073_pt_phys_chem", "sg_name": "首选物理+再选化学·普通类", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "普通类", "total_num": 24, "items": [
+          { "sp_name": "工科试验班(未来技术拔尖班)", "num": 10, "tuition": 5500 },
+          { "sp_name": "工科试验班(院士特色班)", "num": 6, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI拔先进技术领军班深圳拔尖班)", "num": 6, "tuition": 6230, "info_short": "深圳校区" },
+          { "sp_name": "工科试验班(AI拔先进技术领军班)", "num": 5, "tuition": 5500 },
+          { "sp_name": "工科试验班(AI院士特色班)", "num": 1, "tuition": 5500 },
+          { "sp_name": "工科试验班(尖班、港大优学班)", "num": 1, "tuition": 5500 },
+          { "sp_name": "工科试验班(自主智能系统院士特色班)", "num": 1, "tuition": 5500 }
+        ] },
+        { "group_code": "13_2073_zwhz_phys_chem", "sg_name": "首选物理+再选化学·中外合作", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科批", "zslx": "中外合作", "total_num": 23, "items": [
+          { "sp_name": "应用物理学(中外合作)", "spcode": "070202", "num": 8, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" },
+          { "sp_name": "化学(中外合作)", "spcode": "070301", "num": 8, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" },
+          { "sp_name": "数学与应用数学(中外合作)", "spcode": "070101", "num": 7, "tuition": 68000, "info_short": "俄圣彼得堡国立大学" }
+        ] },
+        { "group_code": "13_2073_zwhz_phys_only", "sg_name": "首选物理+再选不限·中外合作", "track": "物理类", "subject_req": "首选物理，再选不限", "batch": "本科批", "zslx": "中外合作", "total_num": 8, "items": [
+          { "sp_name": "大数据管理与应用(中外合作)", "spcode": "120108T", "num": 5, "tuition": 78000, "info_short": "法国里昂商学院" },
+          { "sp_name": "智慧建筑与建造(中外合作)", "spcode": "082807T", "num": 3, "tuition": 70000, "info_short": "意大利都灵理工" }
+        ] },
+        { "group_code": "13_2074_pt_history", "sg_name": "首选历史+再选不限·普通类", "track": "历史类", "subject_req": "首选历史，再选不限", "batch": "本科批", "zslx": "普通类", "total_num": 20, "items": [ { "sp_name": "经济管理试验班", "num": 20, "tuition": 5500 } ] },
+        { "group_code": "13_2073_gjzx", "sg_name": "国家专项·物化", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科提前批B段", "zslx": "国家专项计划", "total_num": 8, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 8, "tuition": 5500 } ] },
+        { "group_code": "13_2073_gxzx", "sg_name": "高校专项·物化", "track": "物理类", "subject_req": "首选物理，再选化学", "batch": "本科提前批C段", "zslx": "高校专项计划", "total_num": 9, "items": [ { "sp_name": "工科试验班(卓越优才计划)", "num": 9, "tuition": 5500, "info_short": "特殊类型线+140" } ] }
+      ]
+    }
+  }
+}

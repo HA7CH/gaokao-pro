@@ -33,6 +33,7 @@ import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
+import { findUniversity, listGroups, safetyScore, datasetStats } from "./groups.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -730,6 +731,32 @@ const VERBS: Record<string, Verb> = {
     };
     const out = await find({ keyword, provinceId, year, filter, limit });
     printJson({ ok: true, ...out });
+  },
+
+  async groups(args) {
+    const { flags } = parseFlags(args);
+    const uni = typeof flags.university === "string" ? flags.university : (typeof flags.uni === "string" ? flags.uni : null);
+    if (!uni) throw new Error("--university <name> required (e.g. 清华大学)");
+    const province = typeof flags.province === "string" ? flags.province : null;
+    const u = findUniversity(uni);
+    if (!u) throw new Error(`university not found in dataset: ${uni}`);
+    if (province) {
+      const groups = listGroups(uni, province);
+      const must = typeof flags["must"] === "string" ? (flags["must"] as string).split(",").map(s => s.trim()) : [];
+      const ok = typeof flags["ok"] === "string" ? (flags["ok"] as string).split(",").map(s => s.trim()) : [];
+      const reject = typeof flags["reject"] === "string" ? (flags["reject"] as string).split(",").map(s => s.trim()) : [];
+      const enrichedGroups = groups.map(g => {
+        const safety = (must.length || ok.length || reject.length) ? safetyScore(g, { must_have: must, acceptable: ok, reject }) : null;
+        return { ...g, safety };
+      });
+      printJson({ ok: true, university: u.university, code: u.code, province, groups: enrichedGroups });
+    } else {
+      printJson({ ok: true, university: u.university, code: u.code, year: u.year, provinces_count: u.provinces.length, provinces: u.provinces.map(p => ({ province: p.province, groups_count: p.groups_count, majors_total: p.majors_total })) });
+    }
+  },
+
+  async "groups-stats"() {
+    printJson({ ok: true, stats: datasetStats() });
   },
 
   async scores(args) {

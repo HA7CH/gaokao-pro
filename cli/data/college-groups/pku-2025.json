@@ -1,0 +1,406 @@
+{
+  "uni": "北京大学",
+  "code": 1001,
+  "year": 2025,
+  "sources": [
+    "https://www.gotopku.cn/ (北京大学招生网)",
+    "https://gaokao.eol.cn/daxue/202506/t20250609_2673555.shtml (北大2025年普通本科招生章程, eol.cn)",
+    "https://www.dxsbb.com/news/31640.html (2025北京大学录取分数线)",
+    "https://www.dakao100.com/article_54447284944.html (北大2025全国各省招生计划)",
+    "https://www.gk100.com/read_833007623654.htm (北大2025录取分数线各省汇总)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf (江苏省2025本科批投档线-历史)",
+    "https://cdn.zizzs.com/zixunzhan/1752805466340%E7%89%A9%E7%90%86.pdf (江苏省2025本科批投档线-物理)",
+    "https://xcoss.henan.gov.cn/typtfile/20250625/616a4e0467ed41d284a326abd11d3054.pdf (河南省2025高校专项/高水平运动队招生)"
+  ],
+  "notes": "2025年河南省首次实行新高考3+1+2模式，分物理类/历史类。山东省为综合改革，按专业组（首选物理/首选历史）划分。河北、湖北、福建、广东、江苏均为3+1+2新高考。每个省份招生代号不同(北大在河南=1105；江苏、福建、广东等省份院校代号各异)。本数据汇总各省本科批院校专业组（含国家专项），不含强基、艺术、体育、专项后置等其他批次。专业列表为公开渠道整理的代表性专业；具体每组明细以各省考试院官方PDF为准（部分组未在公开网页全量披露专业）。",
+  "provinces": [
+    {
+      "province": "河南",
+      "province_code": "henan",
+      "institution_code_in_province": "1105",
+      "exam_mode": "新高考3+1+2(2025首年)",
+      "total_plan": 89,
+      "groups": [
+        {
+          "group_code": "101",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 673,
+          "majors": [
+            "文科试验班类（人文学科类）",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "经济学类",
+            "工商管理类",
+            "社会学类"
+          ]
+        },
+        {
+          "group_code": "102",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学（部分专业）/ 不限",
+          "batch": "本科批",
+          "min_score_2025": 697,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "地球物理学类",
+            "地质学类",
+            "心理学类",
+            "信息管理与信息系统",
+            "环境科学与工程类",
+            "计算机类（信息科学技术类）",
+            "电子信息类"
+          ]
+        },
+        {
+          "group_code": "303",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "国家专项计划",
+          "min_score_2025": 669,
+          "majors": [
+            "文科试验班类",
+            "中国语言文学类",
+            "新闻传播学类"
+          ]
+        },
+        {
+          "group_code": "304",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "国家专项计划",
+          "min_score_2025": 690,
+          "majors": [
+            "理科试验班类",
+            "化学类",
+            "环境科学与工程类"
+          ]
+        },
+        {
+          "group_code": "305",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "国家专项计划",
+          "min_score_2025": 687,
+          "majors": [
+            "工科试验班类",
+            "信息管理与信息系统",
+            "地球物理学类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "江苏",
+      "province_code": "jiangsu",
+      "exam_mode": "新高考3+1+2",
+      "total_plan": 51,
+      "groups": [
+        {
+          "group_code": "03",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 666,
+          "majors": [
+            "文科试验班类（人文学科类）",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "社会学类",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "05",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "min_score_2025": 686,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "信息管理与信息系统",
+            "环境科学与工程类",
+            "电子信息类",
+            "计算机类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "广东",
+      "province_code": "guangdong",
+      "exam_mode": "新高考3+1+2",
+      "total_plan": 58,
+      "groups": [
+        {
+          "group_code": "205",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 669,
+          "majors": [
+            "法学",
+            "中国语言文学类",
+            "英语",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "图书馆学",
+            "城乡规划",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "206",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学（部分）/ 不限",
+          "batch": "本科批",
+          "min_score_2025": 689,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "电子信息类",
+            "计算机类",
+            "环境科学与工程类",
+            "地球物理学类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "湖北",
+      "province_code": "hubei",
+      "exam_mode": "新高考3+1+2",
+      "total_plan": 73,
+      "groups": [
+        {
+          "group_code": "06",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 668,
+          "majors": [
+            "文科试验班类",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "社会学类",
+            "经济学类",
+            "工商管理类",
+            "法学"
+          ]
+        },
+        {
+          "group_code": "08",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学（部分）/ 不限",
+          "batch": "本科批",
+          "min_score_2025": 682,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "信息管理与信息系统",
+            "电子信息类",
+            "计算机类",
+            "环境科学与工程类",
+            "地球物理学类",
+            "地质学类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "福建",
+      "province_code": "fujian",
+      "exam_mode": "新高考3+1+2",
+      "total_plan": 48,
+      "groups": [
+        {
+          "group_code": "999",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 665,
+          "majors": [
+            "文科试验班类",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "500",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学（部分）/ 不限",
+          "batch": "本科批",
+          "min_score_2025": 686,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "电子信息类",
+            "计算机类",
+            "环境科学与工程类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "山东",
+      "province_code": "shandong",
+      "exam_mode": "综合改革3+3",
+      "total_plan": 72,
+      "groups": [
+        {
+          "group_code": "01",
+          "subject_type": "综合改革",
+          "first_choice": "不限",
+          "reselect_requirement": "不提科目要求",
+          "batch": "普通类常规批一段",
+          "min_score_2025": 684,
+          "majors": [
+            "文科试验班类（人文学科类）",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "经济学类",
+            "工商管理类",
+            "社会学类",
+            "法学"
+          ]
+        },
+        {
+          "group_code": "02",
+          "subject_type": "综合改革",
+          "first_choice": "物理",
+          "reselect_requirement": "物理（必须）",
+          "batch": "普通类常规批一段",
+          "min_score_2025": 685,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "电子信息类",
+            "计算机类",
+            "环境科学与工程类",
+            "地球物理学类"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "河北",
+      "province_code": "hebei",
+      "exam_mode": "新高考3+1+2",
+      "total_plan": 47,
+      "groups": [
+        {
+          "group_code": "历史组",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不提科目要求",
+          "batch": "本科批",
+          "min_score_2025": 671,
+          "majors": [
+            "文科试验班类",
+            "中国语言文学类",
+            "外国语言文学类",
+            "新闻传播学类",
+            "历史学类",
+            "哲学类",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "物理组",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学（部分）/ 不限",
+          "batch": "本科批",
+          "min_score_2025": 688,
+          "majors": [
+            "理科试验班类",
+            "工科试验班类",
+            "数学类",
+            "物理学类",
+            "化学类",
+            "生物科学类",
+            "心理学类",
+            "电子信息类",
+            "计算机类",
+            "环境科学与工程类",
+            "地球物理学类"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "河北未公开披露具体专业组代号(如01/02)，已以'历史组/物理组'占位；需以河北省教育考试院官方投档PDF为准",
+    "山东综合改革具体专业组代号与每组完整专业明细需以山东省教育招生考试院2025本科批投档表PDF为准",
+    "福建专业组代号'999/500'来源为大众教育站点(gk100)整理；福建省教育考试院官方PDF未抓到",
+    "各省每组完整专业列表为公开渠道（dakao100/eol.cn/北大招生网）整理的代表性专业，可能存在遗漏或个别专业归组差异",
+    "未涵盖的批次：本科提前批(小语种/外交学院联培等)、强基计划、国家专项除河南外其他省、高校专项、高水平艺术团/运动队、医学部独立招生(部分省份)",
+    "北大医学部在山东、河南等省常按独立院校代号(如1158)招生，本数据合并到北京大学校本部专业组，未单列"
+  ]
+}

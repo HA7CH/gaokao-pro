@@ -1,0 +1,86 @@
+{
+  "uni": "中国人民大学",
+  "code": 1002,
+  "year": 2025,
+  "sources": [
+    "https://gaokao.eol.cn/daxue/202506/t20250609_2673560.shtml",
+    "https://rdzs.ruc.edu.cn/cms/",
+    "https://app.gaokaozhitongche.com/newsguide/h/5gm7mnyN",
+    "https://app.gaokaozhitongche.com/newsguide/h/Mg9xalEX",
+    "https://www.gk100.com/read_918936948.htm",
+    "https://www.gk100.com/daxue/luqu_265.htm"
+  ],
+  "notes": "院校专业组按各省教育考试院公布的2025本科批投档为准；分数为各组最低投档分。再选科目要求以人大本科招生章程及阳光招生平台公示为准。苏州校区(中外合作)单独成组。",
+  "provinces": {
+    "河南": {
+      "model": "3+1+2",
+      "school_code": "1110",
+      "groups": [
+        { "group": "101", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 664, "campus": "北京", "majors_summary": "人文社科类常规批(不限再选)" },
+        { "group": "102", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 664, "campus": "北京", "majors_summary": "马克思主义理论类等(再选含思政)" },
+        { "group": "103", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 688, "campus": "北京", "majors_summary": "经管/计算机/统计/数据科学等(不限再选)" },
+        { "group": "104", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 679, "campus": "北京", "majors_summary": "理工/环境/心理等(需选化学)" },
+        { "group": "103_苏州", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 670, "campus": "苏州(中外合作)", "majors_summary": "金融学/工商管理类(中外合作办学)" },
+        { "group": "201_苏州", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 628, "campus": "苏州(中外合作)", "majors_summary": "法语/人文社科(中外合作办学)" }
+      ]
+    },
+    "江苏": {
+      "model": "3+1+2",
+      "school_code": "1102",
+      "groups": [
+        { "group": "03", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 653, "campus": "北京", "majors_summary": "人文社科类(不限再选)" },
+        { "group": "04", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 657, "campus": "北京", "majors_summary": "马克思主义理论/政治学类(需选思政)" },
+        { "group": "05", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 661, "campus": "北京", "majors_summary": "经管/计算机/数据科学等" },
+        { "group": "05_苏州", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 658, "campus": "苏州(中外合作)", "majors_summary": "金融/工商管理(中外合作)" }
+      ]
+    },
+    "广东": {
+      "model": "3+1+2",
+      "school_code": "10002",
+      "groups": [
+        { "group": "205", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 655, "campus": "北京", "majors_summary": "人文社科类常规批" },
+        { "group": "208", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 666, "campus": "北京", "majors_summary": "马院/政治学(需选思政)" },
+        { "group": "206", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 679, "campus": "北京", "majors_summary": "经管/计算机/统计等" },
+        { "group": "207", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 672, "campus": "北京", "majors_summary": "理工/环境/心理(需选化学)" }
+      ]
+    },
+    "湖北": {
+      "model": "3+1+2",
+      "school_code": "1102",
+      "groups": [
+        { "group": "05", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 666, "campus": "北京", "majors_summary": "人文社科类常规批" },
+        { "group": "06", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 652, "campus": "北京", "majors_summary": "马克思主义理论/政治学(需思政)" },
+        { "group": "07", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 654, "campus": "北京", "majors_summary": "外语/法学类提前批" },
+        { "group": "12", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 668, "campus": "北京", "majors_summary": "经管/计算机/数据科学" },
+        { "group": "13", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 660, "campus": "北京", "majors_summary": "理工/环境/心理(需化学)" },
+        { "group": "14", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 640, "campus": "苏州(中外合作)", "majors_summary": "金融/工商管理(中外合作)" },
+        { "group": "15", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 623, "campus": "苏州(中外合作)", "majors_summary": "理工类中外合作(需化学)" }
+      ]
+    },
+    "福建": {
+      "model": "3+1+2",
+      "school_code": "1100",
+      "groups": [
+        { "group": "500", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 669, "campus": "北京", "majors_summary": "经管/计算机/统计等(物理组主组)" },
+        { "group": "999", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 667, "campus": "北京", "majors_summary": "理工/环境(需选化学)" },
+        { "group": "700", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 644, "campus": "北京", "majors_summary": "人文社科/法学/新闻等" }
+      ]
+    },
+    "山东": {
+      "model": "3+3",
+      "school_code": "A158",
+      "note": "山东按专业(专业类)平行志愿投档,无院校专业组,记录为单一段次最低投档分。",
+      "groups": [
+        { "group": "一段", "track": "综合", "first_subject": "—", "second_subject": "按专业列选科要求(物理/思政/化学/不限等)", "min_score": 665, "campus": "北京", "majors_summary": "2025共17个专业投档,分数区间约662-678(国际政治662,人工智能678)" }
+      ]
+    },
+    "河北": {
+      "model": "3+1+2",
+      "school_code": "1102",
+      "groups": [
+        { "group": "历史组", "track": "历史", "first_subject": "历史", "second_subject": "不限/含思政细分", "min_score": 661, "campus": "北京", "majors_summary": "人文社科类(含需思政再选的政治学/马院专业)" },
+        { "group": "物理组", "track": "物理", "first_subject": "物理", "second_subject": "不限/含化学细分", "min_score": 673, "campus": "北京", "majors_summary": "经管/计算机/统计/理工(部分专业需化学)" }
+      ]
+    }
+  }
+}

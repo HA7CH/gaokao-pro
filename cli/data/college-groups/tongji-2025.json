@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "uni": "同济大学",
+    "code": 1247,
+    "zs_code_guobiao": "10247",
+    "year": 2025,
+    "compiled": "2026-05-25",
+    "sources": [
+      "bkzsb.tongji.edu.cn / bkzs-h5.tongji.edu.cn 同济大学本科招生网 2025",
+      "gaokao.cn/school/73 同济大学历年分数线",
+      "eol.cn 投档线汇总 2025",
+      "jseea.cn 江苏省2025本科批普通类(物理/历史)平行志愿投档线",
+      "eea.gd.gov.cn 广东省2025本科普通类投档情况",
+      "zsxxw.e21.cn / zxh.e21.cn 湖北招生信息服务平台 2025",
+      "sdzk.cn 山东省2025普通类常规批投档表",
+      "hebeea.edu.cn 河北省2025本科批投档统计",
+      "fjeea.cn 福建省2025本科批投档",
+      "haedu.cn / heao.gov.cn 河南省2025本科批投档",
+      "dakao100.com, gk100.com, xinshinet.com 转载汇总"
+    ],
+    "note": "1247 为同济大学在多数省份招生代号(4位)；国标 10247。专业组号、选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次。新高考实施年份较多省份已按院校专业组投档。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学", "group": "103", "subject_req": "化学", "min_score": 669, "min_rank": null, "note": "本部物理主组"},
+        {"track": "物理", "name_in_plan": "同济大学", "group": "104", "subject_req": "不限/化学", "min_score": 662, "min_rank": null},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "group": null, "subject_req": "化学", "min_score": 661, "min_rank": null, "note": "中外合作办学专业组"},
+        {"track": "物理", "name_in_plan": "同济大学(国家专项)", "group": null, "subject_req": "化学", "min_score": 635, "min_rank": 15727, "note": "国家专项计划批次"},
+        {"track": "历史", "name_in_plan": "同济大学", "group": "101", "subject_req": "不限", "min_score": 648, "min_rank": null, "note": "本部历史主组"},
+        {"track": "历史", "name_in_plan": "同济大学", "group": "102", "subject_req": "不限", "min_score": 646, "min_rank": null}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "2202",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学04专业组", "code": "2202", "group": "04", "subject_req": "化学", "min_score": 657, "min_rank": null, "note": "顶段专业组"},
+        {"track": "物理", "name_in_plan": "同济大学05专业组", "code": "2202", "group": "05", "subject_req": "化学", "min_score": 653, "min_rank": null},
+        {"track": "物理", "name_in_plan": "同济大学06专业组", "code": "2202", "group": "06", "subject_req": "不限/化学", "min_score": 649, "min_rank": 4675, "note": "院校主投档线(最低)"},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "code": "2202", "group": null, "subject_req": "化学", "min_score": 652, "min_rank": null},
+        {"track": "历史", "name_in_plan": "同济大学02专业组", "code": "2202", "group": "02", "subject_req": "不限", "min_score": 641, "min_rank": null},
+        {"track": "历史", "name_in_plan": "同济大学03专业组", "code": "2202", "group": "03", "subject_req": "不限", "min_score": 639, "min_rank": 672}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学", "group": "208", "subject_req": "化学", "min_score": 659, "min_rank": null, "note": "顶段专业组"},
+        {"track": "物理", "name_in_plan": "同济大学", "group": "211", "subject_req": "不限/化学", "min_score": 651, "min_rank": 3567},
+        {"track": "物理", "name_in_plan": "同济大学", "group": "209", "subject_req": "化学", "min_score": 647, "min_rank": 4291, "note": "院校最低投档"},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "group": null, "subject_req": "化学", "min_score": 648, "min_rank": null},
+        {"track": "历史", "name_in_plan": "同济大学", "group": "207", "subject_req": "不限", "min_score": 637, "min_rank": 647}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学(普通类)", "group": "05", "subject_req": "化学", "min_score": 651, "min_rank": null, "note": "顶段组"},
+        {"track": "物理", "name_in_plan": "同济大学(普通类)", "group": "07", "subject_req": "不限/化学", "min_score": 635, "min_rank": null},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "group": null, "subject_req": "化学", "min_score": 631, "min_rank": null},
+        {"track": "物理", "name_in_plan": "同济大学(普通类)", "group": "06", "subject_req": "化学", "min_score": 630, "min_rank": 4962, "note": "院校最低投档"},
+        {"track": "历史", "name_in_plan": "同济大学", "group": null, "subject_req": "不限", "min_score": 635, "min_rank": null},
+        {"track": "历史", "name_in_plan": "同济大学(国家专项)", "group": null, "subject_req": "不限", "min_score": 613, "min_rank": 1786}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学", "group": "999", "subject_req": "化学", "min_score": 656, "min_rank": 1271, "note": "本部物理主组"},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "group": null, "subject_req": "化学", "min_score": 646, "min_rank": null},
+        {"track": "历史", "name_in_plan": "同济大学", "group": "999", "subject_req": "不限", "min_score": 629, "min_rank": 454}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3 综合",
+      "note": "山东不分院校专业组，按专业(类)+院校投档；下方为同济在鲁专业(类)代表性段位。",
+      "groups": [
+        {"track": "综合", "name_in_plan": "同济大学(工科试验班·国豪精英班)", "group": null, "subject_req": "物化", "min_score": 667, "min_rank": null, "note": "顶段专业(类)"},
+        {"track": "综合", "name_in_plan": "同济大学(普通类一段·最低)", "group": null, "subject_req": "差异", "min_score": 643, "min_rank": 5151, "note": "政治学与行政学等低端专业"}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "note": "河北本科批为专业+学校平行志愿(96个)，不设院校专业组；下列为同济在冀代表性段位。",
+      "groups": [
+        {"track": "物理", "name_in_plan": "同济大学(本科批)", "group": null, "subject_req": "差异", "min_score": 654, "min_rank": 2505, "note": "院校最低段"},
+        {"track": "物理", "name_in_plan": "同济大学(中外合作)", "group": null, "subject_req": "化学", "min_score": 650, "min_rank": 3294},
+        {"track": "历史", "name_in_plan": "同济大学(本科批)", "group": null, "subject_req": "不限", "min_score": 647, "min_rank": 512}
+      ]
+    }
+  ]
+}

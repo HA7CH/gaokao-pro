@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "uni": "北京师范大学",
+    "code": 1027,
+    "zs_code_guobiao": "10027",
+    "zhuhai_code_guobiao": "19027",
+    "year": 2025,
+    "compiled": "2026-05-25",
+    "sources": [
+      "admission.bnu.edu.cn (北京师范大学本科生招生网) 2025年分省份招生计划及近年录取分数",
+      "admission.bnu.edu.cn/zsjhlnfs/a6eba715a00c4dd984f1e119aa01f8b7.html",
+      "zhaosheng.bnu.edu.cn",
+      "eol.cn / gaokao.cn 北京师范大学 2025 录取分数线汇总",
+      "jseea.cn 江苏省 2025 普通类本科批平行志愿投档线（物理/历史）",
+      "eea.gd.gov.cn 广东省 2025 本科批投档",
+      "zxh.e21.cn 湖北招生信息网 2025 本科批投档",
+      "fjeea.cn 福建省教育考试院 2025 本科批投档",
+      "sdzk.cn 山东省 2025 普通类常规批投档",
+      "hebeea.edu.cn 河北省 2025 本科批投档",
+      "heao.gov.cn 河南省 2025 本科批投档",
+      "gk100.com / 6617.com / bendibao.com 转载汇总"
+    ],
+    "note": "1027 为北京师范大学(北京校区, 10027)在多数省份的招生代号；珠海校区(19027)在多数省份独立招生，分数显著低于北京校区。2025年河南首次实行新高考 3+1+2；山东为综合改革(无文理之分，按选科);江苏/广东/湖北/福建/河北均为 3+1+2。专业组号、组内选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次。本表汇总本科批/本科一批与提前批(含国家专项、公费师范、优师专项)代表性专业组，珠海校区单列；专业明细以学校官方PDF为准。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第1年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学(北京校区)", "group": "本科批", "subject_req": "化学/不限(分组)", "min_score": 651, "min_rank": null, "note": "北京校区本科批物理类(最高组)"},
+        {"track": "物理", "name_in_plan": "北京师范大学(北京校区)", "group": "本科批", "subject_req": "不限", "min_score": 646, "min_rank": null, "note": "北京校区本科批物理类(主投档组)"},
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "103", "subject_req": "化学", "min_score": 646, "min_rank": null, "note": "珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "102", "subject_req": "不限", "min_score": 649, "min_rank": null, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(北京校区)", "group": "本科批", "subject_req": "不限", "min_score": 640, "min_rank": null},
+        {"track": "历史", "name_in_plan": "北京师范大学(北京校区)国家专项", "group": "国家专项", "subject_req": "不限", "min_score": 647, "min_rank": null},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "101", "subject_req": "不限", "min_score": 639, "min_rank": null}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "1108",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "04", "subject_req": "不限", "min_score": 642, "min_rank": 7121, "note": "本科批"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "05", "subject_req": "化学", "min_score": 644, "min_rank": 6362, "note": "本科批"},
+        {"track": "历史", "name_in_plan": "北京师范大学", "group": "01", "subject_req": "不限", "min_score": 625, "min_rank": 1693, "note": "本科提前批/优师专项"},
+        {"track": "历史", "name_in_plan": "北京师范大学", "group": "02", "subject_req": "不限", "min_score": 627, "min_rank": 1489, "note": "本科批"}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "211", "subject_req": "化学", "min_score": 621, "min_rank": 13642, "note": "珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "210", "subject_req": "不限", "min_score": 625, "min_rank": 11765, "note": "珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "213", "subject_req": "不限", "min_score": 639, "min_rank": 6364, "note": "北京校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "215", "subject_req": "化学", "min_score": 645, "min_rank": 4899, "note": "北京校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学(提前批)", "group": "106", "subject_req": "不限", "min_score": 625, "min_rank": null, "note": "提前批/公费师范"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "208", "subject_req": "不限", "min_score": 624, "min_rank": 1569, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "218", "subject_req": "不限", "min_score": 628, "min_rank": 1187, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学", "group": "211", "subject_req": "不限", "min_score": 642, "min_rank": 469, "note": "北京校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(提前批)", "group": "104", "subject_req": "不限", "min_score": 626, "min_rank": null, "note": "提前批"},
+        {"track": "历史", "name_in_plan": "北京师范大学(提前批)", "group": "105", "subject_req": "不限", "min_score": 607, "min_rank": null, "note": "提前批/优师专项"}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "08", "subject_req": "不限", "min_score": 612, "min_rank": 9749, "note": "珠海校区本科批"},
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "09", "subject_req": "化学", "min_score": 623, "min_rank": 6590, "note": "珠海校区本科批"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "06", "subject_req": "不限", "min_score": 623, "min_rank": 6590, "note": "北京校区本科批"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "07", "subject_req": "化学", "min_score": 625, "min_rank": 6109, "note": "北京校区本科批"},
+        {"track": "物理", "name_in_plan": "北京师范大学(提前批)", "group": "02", "subject_req": "化学", "min_score": 636, "min_rank": 3744, "note": "本科提前批"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "05", "subject_req": "不限", "min_score": 627, "min_rank": 845, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "04", "subject_req": "不限", "min_score": 626, "min_rank": 905, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学", "group": "03", "subject_req": "不限", "min_score": 630, "min_rank": 696, "note": "北京校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(提前批)", "group": "01", "subject_req": "不限", "min_score": 633, "min_rank": 568, "note": "本科提前批"}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "700", "subject_req": "思想政治", "min_score": 626, "min_rank": 5610, "note": "珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "999", "subject_req": "不限", "min_score": 630, "min_rank": 4805, "note": "珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学", "group": "500", "subject_req": "化学", "min_score": 633, "min_rank": 4244, "note": "北京校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "999", "subject_req": "不限", "min_score": 630, "min_rank": 416, "note": "珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学", "group": "700", "subject_req": "思想政治", "min_score": 635, "min_rank": 304, "note": "北京校区"}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "综合改革(3+3)",
+      "groups": [
+        {"track": "综合", "name_in_plan": "北京师范大学(珠海校区)", "group": "1", "subject_req": "不限/分组", "min_score": 623, "min_rank": 11839, "note": "普通类一段 珠海校区"},
+        {"track": "综合", "name_in_plan": "北京师范大学", "group": "2", "subject_req": "化学/不限(分组)", "min_score": 635, "min_rank": 7293, "note": "普通类一段 北京校区"}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "北京师范大学(珠海校区)", "group": "本科批", "subject_req": "不限/化学", "min_score": 641, "min_rank": 5573, "note": "本科批 珠海校区"},
+        {"track": "物理", "name_in_plan": "北京师范大学(提前批B)", "group": "提前批B", "subject_req": "不限", "min_score": 647, "min_rank": 4006, "note": "本科提前批B段 公费师范/优师"},
+        {"track": "物理", "name_in_plan": "北京师范大学(提前批B)", "group": "提前批B", "subject_req": "化学", "min_score": 660, "min_rank": null, "note": "本科提前批B段"},
+        {"track": "历史", "name_in_plan": "北京师范大学(珠海校区)", "group": "本科批", "subject_req": "不限", "min_score": 626, "min_rank": 1884, "note": "本科批 珠海校区"},
+        {"track": "历史", "name_in_plan": "北京师范大学(提前批B)", "group": "提前批B", "subject_req": "不限", "min_score": 646, "min_rank": 555, "note": "本科提前批B段"},
+        {"track": "历史", "name_in_plan": "北京师范大学(提前批B)", "group": "提前批B", "subject_req": "不限", "min_score": 650, "min_rank": 409, "note": "本科提前批B段(最高组)"}
+      ]
+    }
+  ]
+}

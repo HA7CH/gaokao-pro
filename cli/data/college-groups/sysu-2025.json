@@ -1,0 +1,106 @@
+{
+  "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
+  "_year": 2025,
+  "_university": "中山大学",
+  "_university_code": "1558",
+  "_zs_code_note": "1558 is the provincial 招生院校代码 (varies by province; many provinces use the 4-digit local code rather than 教育部 zs_code 10558). Verify against each province's 招生计划手册.",
+  "_sources": [
+    "https://admission.sysu.edu.cn",
+    "https://www.zizzs.com/gk/gaokao/206427.html",
+    "https://app.gaokaozhitongche.com/newsguide/h/lGR4dvxX",
+    "https://www.6617.com/p_162577201716.html",
+    "https://m.gk100.com/read_941723927792.htm",
+    "https://www.gk100.com/read_29372561.htm",
+    "https://www.dakao100.com/article_47465093795.html"
+  ],
+  "_data_quality": "guangdong=verified group-level; others=aggregate min scores only (group breakdown not publicly indexed in canonical machine-readable form). Fill in from each provincial 教育考试院 投档线公告 to upgrade.",
+  "_collected_at": "2026-05-25",
+  "university": {
+    "name": "中山大学",
+    "code": "1558",
+    "moe_zs_code": "10558",
+    "city": "广州",
+    "tags": ["985", "211", "双一流", "C9 候补", "教育部直属"]
+  },
+  "provinces": [
+    {
+      "province": "广东",
+      "province_id": 44,
+      "regime": "3+1+2",
+      "data_quality": "verified",
+      "groups": [
+        { "group_code": "210", "track": "历史类", "首选": "历史", "再选": "政治必选", "投档分": 623, "最低位次": 1590, "示例专业": ["公共管理类", "国际政治"], "tuition": null, "notes": "历史类最低组" },
+        { "group_code": "211", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 626, "最低位次": null, "示例专业": ["法学", "中文", "新闻"], "tuition": null },
+        { "group_code": "221", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 627, "最低位次": 1317, "示例专业": ["经济学类"], "tuition": null, "notes": "历史类最高组" },
+        { "group_code": "222", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 625, "最低位次": null, "示例专业": ["工商管理类"], "tuition": null },
+        { "group_code": "212", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 631, "最低位次": null, "示例专业": ["材料类", "化工类"], "tuition": null },
+        { "group_code": "213", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 629, "最低位次": null, "示例专业": ["数学类", "物理学类"], "tuition": null },
+        { "group_code": "214", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 642, "最低位次": null, "示例专业": ["临床医学(5年)"], "tuition": null },
+        { "group_code": "215", "track": "物理类", "首选": "物理", "再选": "化学+生物", "投档分": 647, "最低位次": null, "示例专业": ["临床医学(8年)", "口腔医学"], "tuition": null },
+        { "group_code": "216", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 651, "最低位次": 3575, "示例专业": ["计算机类", "软件工程", "人工智能"], "tuition": null, "notes": "物理类最高组" },
+        { "group_code": "217", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 639, "最低位次": null, "示例专业": ["电子信息类", "微电子"], "tuition": null },
+        { "group_code": "218", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 633, "最低位次": null, "示例专业": ["土木类", "海洋科学"], "tuition": null },
+        { "group_code": "219", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 628, "最低位次": 10616, "示例专业": ["化学类", "生物科学类"], "tuition": null, "notes": "物理类最低组" }
+      ]
+    },
+    {
+      "province": "河南",
+      "province_id": 41,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 663, "最低位次": null, "示例专业": null, "notes": "河南 2025 首届 3+1+2; SYSU 物理类最低投档约 663; 组代码需查《河南省 2025 普通高校招生计划》册" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "历史类投档分公开来源未给出具体组代码; 推测在 620+ 区间" }
+      ]
+    },
+    {
+      "province": "江苏",
+      "province_id": 32,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 643, "最低位次": null, "示例专业": null, "notes": "江苏 SYSU 通常分 6-10 个组(化学必选 / 化生组 / 不限 / 政治组等); 公开来源仅给汇总最低 643" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null }
+      ]
+    },
+    {
+      "province": "湖北",
+      "province_id": 42,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "湖北 SYSU 通常 8-12 组; 2026 参考最低 625; 2025 具体组代码与投档分见《湖北省 2025 投档线公告》" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null }
+      ]
+    },
+    {
+      "province": "福建",
+      "province_id": 35,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "2024 物理类最低 638; 2025 数据未在公开聚合源中收录, 待补 省考试院投档表" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "2024 历史类最低 619" }
+      ]
+    },
+    {
+      "province": "山东",
+      "province_id": 37,
+      "regime": "3+3",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "综合改革", "首选": null, "再选": null, "投档分": 630, "最低位次": null, "示例专业": null, "notes": "山东为 96 个「专业+学校」平行志愿, 无传统院校专业组概念; SYSU 2025 在鲁招 17 个专业, 录取区间 630~676 (公共管理类最低 630 / 临床医学最高 676)" }
+      ]
+    },
+    {
+      "province": "河北",
+      "province_id": 13,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 625, "最低位次": null, "示例专业": null, "notes": "河北采用「专业+学校」无调剂模式, 96 志愿, SYSU 物理类最低约 625" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 633, "最低位次": null, "示例专业": null, "notes": "历史类最低约 633" }
+      ]
+    }
+  ]
+}

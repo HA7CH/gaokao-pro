@@ -1,0 +1,290 @@
+{
+  "university": "清华大学",
+  "code": 1003,
+  "year": 2025,
+  "provinces": {
+    "河南": {
+      "groups": [
+        {
+          "group_code": "01",
+          "track": "physics",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "法学类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "文科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "社会科学试验班", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 689,
+          "group_min_rank": null
+        },
+        {
+          "group_code": "02",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "理科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "临床医学类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 685,
+          "group_min_rank": null
+        }
+      ]
+    },
+    "江苏": {
+      "groups": [
+        {
+          "group_code": "02",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 679,
+          "group_min_rank": 262
+        },
+        {
+          "group_code": "04",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "理科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "临床医学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 684,
+          "group_min_rank": 138
+        }
+      ]
+    },
+    "广东": {
+      "groups": [
+        {
+          "group_code": "204",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "理科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "临床医学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 688,
+          "group_min_rank": 118
+        },
+        {
+          "group_code": "201",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "法学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 675,
+          "group_min_rank": 13
+        }
+      ]
+    },
+    "湖北": {
+      "groups": [
+        {
+          "group_code": "06",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "法学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 674,
+          "group_min_rank": 15
+        },
+        {
+          "group_code": "07",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类(国家专项)", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 660,
+          "group_min_rank": 68
+        },
+        {
+          "group_code": "08",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "理科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "临床医学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 682,
+          "group_min_rank": 101
+        },
+        {
+          "group_code": "09",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "工科试验班(国家专项)", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 672,
+          "group_min_rank": 302
+        },
+        {
+          "group_code": "10",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "理科试验班(国家专项)", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 672,
+          "group_min_rank": 302
+        }
+      ]
+    },
+    "福建": {
+      "groups": [
+        {
+          "group_code": "500",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "理科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "临床医学类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 691,
+          "group_min_rank": 91
+        },
+        {
+          "group_code": "999",
+          "track": "physics",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "理科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "社会科学试验班", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 696,
+          "group_min_rank": 51
+        },
+        {
+          "group_code": "999H",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "法学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 669,
+          "group_min_rank": 18
+        }
+      ]
+    },
+    "山东": {
+      "groups": [
+        {
+          "group_code": null,
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "理科试验班(理科各专业)", "plan": null, "min_score": 685, "min_rank": 140},
+            {"name": "临床医学类", "plan": 5, "min_score": 687, "min_rank": 109},
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 685,
+          "group_min_rank": 140
+        },
+        {
+          "group_code": null,
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类(文科各专业)", "plan": 3, "min_score": 692, "min_rank": 50}
+          ],
+          "group_min_score": 692,
+          "group_min_rank": 50
+        }
+      ]
+    },
+    "河北": {
+      "groups": [
+        {
+          "group_code": "物理组",
+          "track": "physics",
+          "subject_require": "化学",
+          "majors": [
+            {"name": "临床医学类", "plan": null, "min_score": 689, "min_rank": null},
+            {"name": "理科试验班(理科各专业)", "plan": null, "min_score": 688, "min_rank": null},
+            {"name": "建筑类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "工科试验班", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "电子信息类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "计算机类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "自动化类", "plan": null, "min_score": null, "min_rank": null},
+            {"name": "土木类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 688,
+          "group_min_rank": null
+        },
+        {
+          "group_code": "历史组",
+          "track": "history",
+          "subject_require": "不限",
+          "majors": [
+            {"name": "文科试验班类", "plan": null, "min_score": 679, "min_rank": 35},
+            {"name": "法学类", "plan": null, "min_score": null, "min_rank": null}
+          ],
+          "group_min_score": 679,
+          "group_min_rank": 35
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.gk100.com/read_918492237.htm",
+    "https://www.gk100.com/read_1804130955827.htm",
+    "https://www.hfplg.com/zsjz/3160b67145.html",
+    "https://www.hfplg.com/zsjz/v303886369.html",
+    "https://www.hfplg.com/zsjz/317t567439.html",
+    "https://eea.gd.gov.cn/attachment/0/585/585886/4746786.pdf",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf",
+    "https://cdn.zizzs.com/zixunzhan/1752805466340%E7%89%A9%E7%90%86.pdf",
+    "https://m.gk100.com/read_159044067.htm",
+    "https://www.hzgrys.net/score/37/2025/3.html",
+    "https://www.hzgrys.net/score/13/2025/3.html",
+    "https://finance.sina.com.cn/roll/2025-07-21/doc-infhfezu3132295.shtml",
+    "https://gaokao.eol.cn/he_bei/dongtai/202507/t20250723_2682573.shtml",
+    "https://www.6617.com/p_1405709214.html",
+    "https://www.dakao100.com/article_52451647439.html",
+    "https://join-tsinghua.edu.cn/",
+    "https://10003.gaokao.haedu.cn/plan/school/list_7_1.html"
+  ]
+}
