@@ -129,7 +129,8 @@ const SCHOOLS: Array<{ name: string; abbr: string }> = [
   { name: "中国海洋大学", abbr: "海大" },
   { name: "华南理工大学", abbr: "华工" },
   { name: "南方科技大学", abbr: "南科" },
-  { name: "上海科技大学", abbr: "上科" }
+  { name: "上海科技大学", abbr: "上科" },
+  { name: "北京邮电大学", abbr: "北邮" }
 ];
 
 const MAJORS = [
