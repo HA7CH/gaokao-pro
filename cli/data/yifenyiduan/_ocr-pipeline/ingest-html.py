@@ -90,6 +90,34 @@ def extract_rows(htmltext: str):
     return best
 
 
+def extract_rows_trust_cumulative(htmltext: str):
+    """For 'cumulative-only' official tables (2-col 分数/累计人数) or tables that
+    suppress the top score bucket's per-segment count: take the FIRST cell as the
+    score and the LAST cell as the canonical cumulative (位次), and DERIVE
+    count = cum[i] - cum[i-1]. The served `cumulative` column is taken verbatim;
+    only the unused `count` column is synthesized so the file is self-consistent."""
+    best = []
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        parsed = []
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            if len(cells) not in (2, 3):
+                continue  # skip multi-track side-by-side layouts (ambiguous)
+            score = parse_score(cells[0])
+            cum = parse_int(cells[-1])
+            if score is None or cum is None:
+                continue
+            parsed.append((score, cum))
+        if len(parsed) > len(best):
+            best = parsed
+    rows = []
+    prev_cum = 0
+    for score, cum in best:
+        rows.append({"score": score, "count": cum - prev_cum, "cumulative": cum})
+        prev_cum = cum
+    return rows
+
+
 def validate(rows):
     """Raise ValueError on any integrity violation. Returns (n, top, bottom)."""
     if len(rows) < 20:
@@ -97,6 +125,8 @@ def validate(rows):
     running = 0
     prev_score = None
     for i, r in enumerate(rows):
+        if r["count"] < 0:
+            raise ValueError(f"negative count at row {i} (score {r['score']}) — cumulative decreased (non-monotonic)")
         running += r["count"]
         if running != r["cumulative"]:
             raise ValueError(
@@ -124,6 +154,10 @@ def main():
                          "(track-identity gate, prevents fetching the wrong track's table). "
                          "Defaults from --track-cn / --track.")
     ap.add_argument("--source-note", default="")
+    ap.add_argument("--trust-cumulative", action="store_true",
+                    help="for cumulative-only / top-suppressed official tables: take "
+                         "cumulative verbatim and derive count from it (see "
+                         "extract_rows_trust_cumulative). Running-sum holds by construction.")
     ap.add_argument("--out")
     ap.add_argument("--write", action="store_true")
     a = ap.parse_args()
@@ -150,7 +184,7 @@ def main():
         )
         sys.exit(5)
 
-    rows = extract_rows(htmltext)
+    rows = extract_rows_trust_cumulative(htmltext) if a.trust_cumulative else extract_rows(htmltext)
     try:
         n, top, bottom = validate(rows)
     except ValueError as e:
@@ -180,7 +214,7 @@ def main():
         "track_cn": a.track_cn,
         "source": "省考试院 / eol.cn (一分一段表全表)",
         "source_url": a.url,
-        "note": a.source_note,
+        "note": (a.source_note + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")).lstrip("；"),
         "count": n,
         "rows": rows,
     }

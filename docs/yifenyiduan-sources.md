@@ -10,9 +10,11 @@ URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
 (1) ≥20 rows, (2) running-sum integrity — Σ人数 == 累计人数 at every row (makes
 fabrication mechanically impossible), (3) track-identity — the page `<title>`
 must name the expected track. A published "N人超X分" figure is cross-checked as
-a soft confirmation. `_ocr-pipeline/normalize-counts.py` recomputes the (unused,
-provenance-only) `count` column from the canonical `cumulative` column for
-legacy OCR files, never touching the served `cumulative`/位次 values.
+a soft confirmation. `ingest-html.py --trust-cumulative` handles "cumulative-only" tables (2-col
+分数/累计人数) and top-suppressed tables: it takes the canonical `cumulative`
+(位次) verbatim and derives `count` from it. `_ocr-pipeline/normalize-counts.py`
+likewise recomputes the (unused, provenance-only) `count` column from
+`cumulative` for legacy OCR files, never touching the served 位次 values.
 
 Every shipped file is guarded by `cli/test/yifenyiduan-integrity.test.ts`
 (running-sum + strictly-descending scores + monotonic cumulative on all 108
@@ -21,19 +23,22 @@ files). The product serves only the `cumulative` column (= 位次), via
 
 ## Status (updated 2026-05-26)
 
-**56 of 108 files are FULL per-score tables (≥100 rows); the rest are
+**64 of 108 files are FULL per-score tables (≥100 rows); the rest are
 integrity-clean coarse tables** (10-pt steps / partial) kept as fallback.
 Full-table coverage now includes: 北京, 安徽, 重庆, 福建, 湖北, 湖南, 河南(2025),
-陕西, 河北(2024), 内蒙古(2025), 山西(2025), 山东, 广东, 浙江(2025), 上海(2025),
-天津(2025), 辽宁(2025), 黑龙江(2025), 江苏(2025 物理), 江西(2025 物理), 云南(2025),
-贵州(2025 物理), 海南(2025), 四川(2024 理 / 2025 物理) …
+陕西, 河北(2024), 内蒙古(2024 + 2025), 山西(2025), 山东, 广东, 浙江(2025),
+上海(2025), 天津(2025), 辽宁(2025), 黑龙江(2025), 江苏(2025 物理), 江西(2025 物理),
+云南(2025), 贵州(2025 物理), 海南(2025), 广西(2024 + 2025, via --trust-cumulative),
+甘肃(2024), 四川(2024 理 / 2025 物理) …
 
 **Still needs OCR (image/PDF-only sources, served coarse for now):** most
-老高考 2024 文/理 tables (河南/内蒙古/宁夏/青海/山西/四川文/新疆/云南/甘肃史),
-several 2024 3+1+2 history pages published as images (辽宁/江西/江苏/广东史),
-广西 (官方表 suppresses the top score bucket → running-sum can't reconcile a
-fetched HTML table), 贵州 2024 (image), 海南 2024 (900 标准分, 嵌图),
-and assorted 2025 history/pdf pages (河北/湖北史/吉林史/宁夏史/青海/四川史).
+老高考 2024 文/理 tables (河南/宁夏/青海/山西/四川文/新疆/云南/甘肃史), several
+2024 3+1+2 history pages published as images (辽宁/江西/江苏/广东史), 吉林 2024
+(official format is a tens×ones cross-tab grid, not a per-row table), 贵州 2024
+(image), 海南 2024 (900 标准分, 嵌图), and assorted 2025 history/pdf pages
+(河北/湖北史/吉林史/宁夏史/青海/四川史). The 河南 2024 文/理 PDF is a scanned
+image (no text layer) with a 3-column-pair layout — needs per-column OCR
+segmentation + digit correction, validated through the running-sum gate.
 
 ## Verified source URLs
 
