@@ -31,7 +31,7 @@ Land them at `cli/data/yifenyiduan/{province-pinyin}-{year}-{track}.json`.
 | 天津 | — | — | 🔴 unknown | zhaokao.net 抓不动 |
 | 陕西 | 🔴 403 | — | — | sneac.com 反爬 |
 | 山西 | 🔴 timeout | 🔴 timeout | — | sxkszx.cn 抓不动 |
-| 广西 | 🔴 unknown | — | — | gxeea.cn 一分一档系统 |
+| 广西 | ✅ 2024 sparse | — | — | gxeea.cn 一分一档系统; eol.cn 镜像 ingested |
 | 贵州 | 🔴 image | — | — | gaokao.eol.cn 镜像 |
 | 云南 | 🔴 only aggregate | — | — | gk100/eol 只给汇总 |
 | 海南 | — | — | 🔴 image | ea.hainan.gov.cn 嵌图 (900 标准分) |

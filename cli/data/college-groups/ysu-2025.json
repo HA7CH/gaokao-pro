@@ -1,0 +1,2022 @@
+{
+  "uni": "燕山大学",
+  "code": 1086,
+  "zs_code": "10216",
+  "gaokao_cn_school_id": 599,
+  "year": 2025,
+  "batch_default": "本科批",
+  "sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/599/2025/{provinceId}.json",
+    "https://static-data.gaokao.cn/www/2.0/school/599/info.json",
+    "https://zsb.ysu.edu.cn/",
+    "https://www.gaokao.cn/school/599"
+  ],
+  "fetched_at": "2026-05-26",
+  "notes": [
+    "数据源: gaokao.cn schoolspecialplan API (school_id=599).",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东).",
+    "山东/河北 在 gaokao.cn 数据中 special_group=0, 按 batch+zslx+选科 拆组。",
+    "school_min_2025 来自 info.json province_score_min (统招批最低投档分).",
+    "info_short 由 招生计划 info 字段提取关键标签 (中外合作/波兰校区/合作院校/办学地点)；详细专业方向见 gaokao.cn 原页面.",
+    "燕山大学 部分专业为中外合作办学(波兰西里西亚技术大学), 含校本部与\"波兰校区\"区别; 国家专项/地方专项均见相应批次."
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": "2073",
+      "min": 601,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 572,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 567,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 558,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 588,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 490,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 565,
+      "track": "物理类"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "371882",
+          "sg_name": "（606）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 20,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国外学费8000欧元/年"
+            }
+          ]
+        },
+        {
+          "group_code": "371884",
+          "sg_name": "（104）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 66,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "包含专业：土木工程、建筑环境与能源应用工程"
+            },
+            {
+              "sp_name": "化工与制药类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "包含专业：化学工程与工艺、生物工程、能源化学工程"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 4,
+              "tuition": 10000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "包含专业：机械设计制造及其自动化、智能制造工程、机器人工程"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "包含专业：能源与动力工程、石油工程"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 3,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "num": 3,
+              "tuition": 5390,
+              "info_short": "包含专业：材料物理、金属材料工程、无机非金属材料工程、高分子材料与工程"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "统计学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "过程装备与控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "包含专业：电气工程及其自动化、自动化、智能科学与技术"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "包含专业：电子信息工程、电子科学与技术"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "371885",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "工业工程",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "包含专业：工商管理、会计学、旅游管理、电子商务"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "371883",
+          "sg_name": "（202）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 20,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 5,
+              "tuition": 72000,
+              "info_short": "中外合作办学）（合作方：波兰西里西亚技术大学；外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 5,
+              "tuition": 72000,
+              "info_short": "中外合作办学）（合作方：波兰西里西亚技术大学；外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 5,
+              "tuition": 72000,
+              "info_short": "中外合作办学）（合作方：波兰西里西亚技术大学；外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 5,
+              "tuition": 72000,
+              "info_short": "中外合作办学）（合作方：波兰西里西亚技术大学；外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            }
+          ]
+        },
+        {
+          "group_code": "371909",
+          "sg_name": "（101）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 18,
+          "items": [
+            {
+              "sp_name": "日语",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "只招英语语种的考生"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "包含专业：工商管理、会计学、旅游管理、电子商务"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "英语）（包含专业：英语、翻译；只招英语语种的考生"
+            },
+            {
+              "sp_name": "汉语国际教育",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "428337",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 40,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 10,
+              "tuition": 72000,
+              "info_short": "须查阅院校招生章程）（中外合作办学"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 10,
+              "tuition": 72000,
+              "info_short": "须查阅院校招生章程）（中外合作办学"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 10,
+              "tuition": 72000,
+              "info_short": "须查阅院校招生章程）（中外合作办学"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 10,
+              "tuition": 72000,
+              "info_short": "须查阅院校招生章程）（中外合作办学"
+            }
+          ]
+        },
+        {
+          "group_code": "428338",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 42,
+          "items": [
+            {
+              "sp_name": "车辆工程",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "材料成型及控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "过程装备与控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "电气类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "化工与制药类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            }
+          ]
+        },
+        {
+          "group_code": "428339",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            }
+          ]
+        },
+        {
+          "group_code": "428321",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "以下按大类招生专业，所含专业详见院校招生章程"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "434527",
+          "sg_name": "（205）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 42,
+          "items": [
+            {
+              "sp_name": "电气类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "含电气工程及其自动化、自动化、智能科学与技术专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划；办学地点：校本部"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "含能源与动力工程、石油工程专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "含材料物理、金属材料工程、无机非金属材料工程、高分子材料与工程专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划；办学地点：校本部"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划；办学地点：校本部"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划；办学地点：校本部"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "过程装备与控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "不招色盲色弱；办学地点：校本部"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 2,
+              "tuition": 10000,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "含机械设计制造及其自动化、智能制造工程、机器人工程专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "含土木工程、建筑环境与能源应用工程专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "办学地点：校本部"
+            }
+          ]
+        },
+        {
+          "group_code": "434516",
+          "sg_name": "（204）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "含工商管理、会计学、旅游管理、电子商务专业；办学地点：校本部"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "办学地点：校本部"
+            },
+            {
+              "sp_name": "汉语国际教育",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "办学地点：校本部"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "293374",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 57,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 7,
+              "tuition": 5390,
+              "info_short": "机械设计制造及其自动化、智能制造工程、机器人工程"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 4,
+              "tuition": 10000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "电气工程及其自动化、自动化、智能科学与技术"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "材料物理、金属材料工程、无机非金属材料工程、高分子材料与工程"
+            },
+            {
+              "sp_name": "化工与制药类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "化学工程与工艺、生物工程、能源化学工程"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "电子信息工程、电子科学与技术"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料成型及控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "能源与动力工程、石油工程"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "土木工程、建筑环境与能源应用工程"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "293375",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "工商管理、会计学、旅游管理、电子商务"
+            },
+            {
+              "sp_name": "工业工程",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "公共事业管理、行政管理"
+            }
+          ]
+        },
+        {
+          "group_code": "293373",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "工业工程",
+              "num": 5,
+              "tuition": 25500,
+              "info_short": "中外合作办学）（外语教学为英语，非英语语种考生慎报。与澳大利亚科廷大学合作项目，采取3+1模式（国内3年，澳大利亚1年"
+            }
+          ]
+        },
+        {
+          "group_code": "293405",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "外国语言文学类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "英语、翻译；外语语种：英语"
+            }
+          ]
+        },
+        {
+          "group_code": "293406",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "汉语言文学",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "工商管理、会计学、旅游管理、电子商务"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "公共事业管理、行政管理"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "396666",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 34,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "含机械设计制造及其自动化、智能制造工程、机器人工程"
+            },
+            {
+              "sp_name": "电气类",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "含电气工程及其自动化、自动化、智能科学与技术"
+            },
+            {
+              "sp_name": "材料成型及控制工程",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "含电子信息工程、电子科学与技术"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": ""
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "含土木工程、建筑环境与能源应用工程"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "groups": [
+        {
+          "group_code": "37_3_普通类一段_普通类_不限",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 6,
+              "tuition": 5060,
+              "info_short": "不限；工商管理、会计学、旅游管理、电子商务"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "不限；英语、翻译）（只招英语语种考生"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "不限"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "不限"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "不限"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "不限；只招英语语种考生"
+            },
+            {
+              "sp_name": "德语",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "不限；只招英语语种考生"
+            },
+            {
+              "sp_name": "法语",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "不限；只招英语语种考生"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "不限"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "不限；公共事业管理、行政管理"
+            },
+            {
+              "sp_name": "汉语国际教育",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "不限"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_普通类_思想政治必选",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "思想政治必选",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "马克思主义理论",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "思想政治必选"
+            },
+            {
+              "sp_name": "马克思主义理论",
+              "num": 4,
+              "tuition": 5060,
+              "info_short": "思想政治必选；师范类"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_普通类_物理、化学(2科必选)",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 93,
+          "items": [
+            {
+              "sp_name": "应用物理学",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；师范类"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；机械设计制造及其自动化、智能制造工程、机器人工程"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；电子信息工程、电子科学与技术"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 5,
+              "tuition": 10000,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国内学费5390元/年，国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国内学费5390元/年，国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国内学费5390元/年，国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国内学费5390元/年，国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；外语教学为英语，非英语语种考生慎报；采取1+3模式（国内1年，波兰3年），国内学费5390元/年，国外学费8000欧元/年"
+            },
+            {
+              "sp_name": "电气类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；电气工程及其自动化、自动化、智能科学与技术"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "统计学",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "材料成型及控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "过程装备与控制工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；能源与动力工程、石油工程"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)；材料物理、金属材料工程、无机非金属材料工程、高分子材料与工程"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 2,
+              "tuition": 5390,
+              "info_short": "物理、化学(2科必选)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_普通类_物理必选",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "物理必选",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "工业工程",
+              "num": 2,
+              "tuition": 5060,
+              "info_short": "物理必选"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_中外合作办学_物理、化学(2科必选)",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 60,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 15,
+              "tuition": 72000,
+              "info_short": "物理、化学(2科必选)；中外合作办学）（外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 15,
+              "tuition": 72000,
+              "info_short": "物理、化学(2科必选)；中外合作办学）（外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 15,
+              "tuition": 72000,
+              "info_short": "物理、化学(2科必选)；中外合作办学）（外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 15,
+              "tuition": 72000,
+              "info_short": "物理、化学(2科必选)；中外合作办学）（外语教学为英语，非英语语种考生慎报，采取4+0模式（4年全部在国内"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_中外合作办学_物理必选",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "物理必选",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 15,
+          "items": [
+            {
+              "sp_name": "工业工程",
+              "num": 15,
+              "tuition": 25500,
+              "info_short": "物理必选；中外合作办学）（外语教学为英语，非英语语种考生慎报；与澳大利亚科廷大学合作项目，采取3+1模式（国内3年，澳大利亚1年"
+            }
+          ]
+        }
+      ],
+      "note": "山东不分院校专业组, 按专业(组合)报志愿; 此处按 batch+招生类型+选科 拆组"
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "13_2073_本科批_普通类_首选物理+再选不限",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 199,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 75,
+              "tuition": 5060,
+              "info_short": "首选物理，再选不限；秦皇岛市）（含工商管理、会计学、旅游管理、电子商务专业"
+            },
+            {
+              "sp_name": "工业工程",
+              "num": 38,
+              "tuition": 5060,
+              "info_short": "首选物理，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 24,
+              "tuition": 5060,
+              "info_short": "首选物理，再选不限；秦皇岛市）（含公共事业管理、行政管理专业"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 21,
+              "tuition": 5060,
+              "info_short": "首选物理，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "工业工程",
+              "num": 20,
+              "tuition": 25500,
+              "info_short": "首选物理，再选不限；秦皇岛市）（中外合作办学）（外语教学为英语，非英语语种考生慎报。与澳大利亚科廷大学合作项目，采取3+1模式（国内3年，澳大利亚1年）。国内学费25500元/年；国外学费约42000澳元/年。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 17,
+              "tuition": 5390,
+              "info_short": "首选物理，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 4,
+              "tuition": 5390,
+              "info_short": "首选物理，再选不限；秦皇岛市）（英语）（含英语、翻译专业；只招英语语种考生"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_本科批_普通类_首选物理+再选化学",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 1930,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 288,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含机械设计制造及其自动化、智能制造工程、机器人工程专业"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 157,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含能源与动力工程、石油工程专业"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 133,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含材料物理、金属材料工程、无机非金属材料工程、高分子材料与工程专业"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 129,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含土木工程、建筑环境与能源应用工程专业"
+            },
+            {
+              "sp_name": "电气类",
+              "num": 120,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含电气工程及其自动化、自动化、智能科学与技术专业"
+            },
+            {
+              "sp_name": "化工与制药类",
+              "num": 109,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含化学工程与工艺、生物工程、能源化学工程专业"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 95,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（含电子信息工程、电子科学与技术专业"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 85,
+              "tuition": 10000,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 70,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 65,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "材料成型及控制工程",
+              "num": 55,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 54,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 52,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（师范类"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 48,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 47,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 47,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 46,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 40,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 30,
+              "tuition": 72000,
+              "info_short": "首选物理，再选化学；秦皇岛市）（中外合作办学）（外语教学为英语,非英语语种考生慎报,采取4+0模式（4年全部在国内），学费72000元/年。达到中外双方共同制定的毕业要求的毕业生将获得燕山大学本科毕业证书、学士学位证书以及西里西亚技术大学学士学位证书。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "统计学",
+              "num": 30,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 30,
+              "tuition": 72000,
+              "info_short": "首选物理，再选化学；秦皇岛市）（中外合作办学）（外语教学为英语,非英语语种考生慎报,采取4+0模式（4年全部在国内），学费72000元/年。达到中外双方共同制定的毕业要求的毕业生将获得燕山大学本科毕业证书、学士学位证书以及西里西亚技术大学学士学位证书。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 30,
+              "tuition": 72000,
+              "info_short": "首选物理，再选化学；秦皇岛市）（中外合作办学）（外语教学为英语,非英语语种考生慎报,采取4+0模式（4年全部在国内），学费72000元/年。达到中外双方共同制定的毕业要求的毕业生将获得燕山大学本科毕业证书、学士学位证书以及西里西亚技术大学学士学位证书。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 30,
+              "tuition": 72000,
+              "info_short": "首选物理，再选化学；秦皇岛市）（中外合作办学）（外语教学为英语,非英语语种考生慎报,采取4+0模式（4年全部在国内），学费72000元/年。达到中外双方共同制定的毕业要求的毕业生将获得燕山大学本科毕业证书、学士学位证书以及西里西亚技术大学学士学位证书。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "过程装备与控制工程",
+              "num": 28,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 20,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "num": 18,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 16,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 14,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（教育部卓越工程师培养计划"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；秦皇岛市）（教育部卓越工程师培养计划"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_本科批_地方专项计划_首选物理+再选化学",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项计划",
+          "total_num": 105,
+          "items": [
+            {
+              "sp_name": "电气类",
+              "num": 36,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划）（含电气工程及其自动化、自动化、智能科学与技术专业"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 26,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划）（含机械设计制造及其自动化、智能制造工程、机器人工程专业"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 16,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划）（含土木工程、建筑环境与能源应用工程专业"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 13,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划）（含电子信息工程、电子科学与技术专业"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；地方专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_本科批_少数民族预科班_首选物理+再选不限",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "少数民族预科班",
+          "total_num": 45,
+          "items": [
+            {
+              "sp_name": "本科预科班",
+              "num": 45,
+              "tuition": 4600,
+              "info_short": "首选物理，再选不限；少数民族预科班）（少数民族预科班，招少数民族考生，在河北师范大学附属民族学院学习一年后成绩合格转入本校学习，详情向院校咨询"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_本科批_波兰校区_首选物理+再选化学",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "波兰校区",
+          "total_num": 60,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；波兰校区）（外语教学为英语,非英语语种考生慎报。采取1+3模式（国内1年,波兰3年）,国内学费5390元/年,国外学费8000欧元/年。学生入学后需签署承诺书，承诺第一学年结束后赴波兰校区继续完成学业。第一学年结束后达不到出国要求的，可以申请重修一年，但不可以转入燕山大学其他学院专业就读。第一学年结束后因为个人原因违背承诺不出国学习的，按自动退学处理。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；波兰校区）（外语教学为英语,非英语语种考生慎报。采取1+3模式（国内1年,波兰3年）,国内学费5390元/年,国外学费8000欧元/年。学生入学后需签署承诺书，承诺第一学年结束后赴波兰校区继续完成学业。第一学年结束后达不到出国要求的，可以申请重修一年，但不可以转入燕山大学其他学院专业就读。第一学年结束后因为个人原因违背承诺不出国学习的，按自动退学处理。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；波兰校区）（外语教学为英语,非英语语种考生慎报。采取1+3模式（国内1年,波兰3年）,国内学费5390元/年,国外学费8000欧元/年。学生入学后需签署承诺书，承诺第一学年结束后赴波兰校区继续完成学业。第一学年结束后达不到出国要求的，可以申请重修一年，但不可以转入燕山大学其他学院专业就读。第一学年结束后因为个人原因违背承诺不出国学习的，按自动退学处理。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；波兰校区）（外语教学为英语,非英语语种考生慎报。采取1+3模式（国内1年,波兰3年）,国内学费5390元/年,国外学费8000欧元/年。学生入学后需签署承诺书，承诺第一学年结束后赴波兰校区继续完成学业。第一学年结束后达不到出国要求的，可以申请重修一年，但不可以转入燕山大学其他学院专业就读。第一学年结束后因为个人原因违背承诺不出国学习的，按自动退学处理。具体可查看该项目招生简章"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 12,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；波兰校区）（外语教学为英语,非英语语种考生慎报。采取1+3模式（国内1年,波兰3年）,国内学费5390元/年,国外学费8000欧元/年。学生入学后需签署承诺书，承诺第一学年结束后赴波兰校区继续完成学业。第一学年结束后达不到出国要求的，可以申请重修一年，但不可以转入燕山大学其他学院专业就读。第一学年结束后因为个人原因违背承诺不出国学习的，按自动退学处理。具体可查看该项目招生简章"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_本科提前批B段_国家专项计划_首选物理+再选化学",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 84,
+          "items": [
+            {
+              "sp_name": "电气类",
+              "num": 24,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划）（含电气工程及其自动化、自动化、智能科学与技术专业"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 20,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划）（含机械设计制造及其自动化、智能制造工程、机器人工程专业"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 10,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划）（含电子信息工程、电子科学与技术专业"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 8,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划）（含土木工程、建筑环境与能源应用工程专业"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "首选物理，再选化学；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_本科批_普通类_首选历史+再选不限",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 401,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 77,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市）（含工商管理、会计学、旅游管理、电子商务专业"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 69,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 58,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；秦皇岛市）（英语）（含英语、翻译专业；只招英语语种考生"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 56,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市）（含公共事业管理、行政管理专业"
+            },
+            {
+              "sp_name": "法学",
+              "num": 54,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "日语",
+              "num": 27,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；秦皇岛市）（只招英语语种考生"
+            },
+            {
+              "sp_name": "经济与金融",
+              "num": 17,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 13,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；秦皇岛市）（只招英语语种考生"
+            },
+            {
+              "sp_name": "德语",
+              "num": 11,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；秦皇岛市）（只招英语语种考生"
+            },
+            {
+              "sp_name": "法语",
+              "num": 11,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；秦皇岛市）（只招英语语种考生"
+            },
+            {
+              "sp_name": "汉语国际教育",
+              "num": 8,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；秦皇岛市"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_本科批_普通类_首选历史+再选思想政治",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 30,
+          "items": [
+            {
+              "sp_name": "马克思主义理论",
+              "num": 20,
+              "tuition": 5060,
+              "info_short": "首选历史，再选思想政治；秦皇岛市）（师范类"
+            },
+            {
+              "sp_name": "马克思主义理论",
+              "num": 10,
+              "tuition": 5060,
+              "info_short": "首选历史，再选思想政治；秦皇岛市"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_本科批_地方专项计划_首选历史+再选不限",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "地方专项计划",
+          "total_num": 75,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 23,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；地方专项计划）（含工商管理、会计学、旅游管理、电子商务专业"
+            },
+            {
+              "sp_name": "法学",
+              "num": 20,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；地方专项计划"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 16,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；地方专项计划"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 10,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；地方专项计划）（含公共事业管理、行政管理专业"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 6,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；地方专项计划）（英语）（含英语、翻译专业；只招英语语种考生"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_本科批_少数民族预科班_首选历史+再选不限",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "少数民族预科班",
+          "total_num": 15,
+          "items": [
+            {
+              "sp_name": "本科预科班",
+              "num": 15,
+              "tuition": 4600,
+              "info_short": "首选历史，再选不限；少数民族预科班）（少数民族预科班，招少数民族考生，在河北师范大学附属民族学院学习一年后成绩合格转入本校学习，详情向院校咨询"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_本科提前批B段_国家专项计划_首选历史+再选不限",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 48,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 15,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；国家专项计划）（含工商管理、会计学、旅游管理、电子商务专业"
+            },
+            {
+              "sp_name": "法学",
+              "num": 10,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；国家专项计划"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 10,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；国家专项计划"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 8,
+              "tuition": 5060,
+              "info_short": "首选历史，再选不限；国家专项计划）（含公共事业管理、行政管理专业"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 5,
+              "tuition": 5390,
+              "info_short": "首选历史，再选不限；国家专项计划）（英语）（含英语、翻译专业；只招英语语种考生"
+            }
+          ]
+        }
+      ],
+      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0; 按 batch+招生类型+选科 拆组"
+    }
+  }
+}

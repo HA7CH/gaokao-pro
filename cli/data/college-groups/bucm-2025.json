@@ -1,0 +1,1691 @@
+{
+  "uni": "北京中医药大学",
+  "code": 1030,
+  "zs_code": "10026",
+  "gaokao_cn_school_id": 49,
+  "year": 2025,
+  "batch_default": "本科批",
+  "sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/49/2025/{provinceId}.json",
+    "https://static-data.gaokao.cn/www/2.0/school/49/info.json",
+    "https://bkzs.bucm.edu.cn/",
+    "https://www.gaokao.cn/school/49"
+  ],
+  "fetched_at": "2026-05-26",
+  "notes": [
+    "数据源: gaokao.cn schoolspecialplan API (school_id=49)。",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。",
+    "北京中医药大学办学地点: 和平街校区(朝阳本部)+良乡校区(房山, 大一大二)+望京校区。东方学院(廊坊)为独立学院，单列。",
+    "主要培养层次: 中医学(九年制屠呦呦/卓越中医师/卓越医师-理学/中西医结合7年长学制)、中药学类、药学、护理学、卫生管理、康复治疗学等。",
+    "山东在 gaokao.cn 数据中 sg_name=null 不区分院校专业组，按 batch+zslx 拆组: batch=1570 普通类一段, batch=4073 高校专项计划批, batch=4070 特殊类型批。",
+    "河北在 gaokao.cn 数据中 sg_name=null，按 type/batch+zslx 拆组: 2073_14 物理本科批, 2074_14 历史本科批, 2073_99 国家专项, 2073_37 提前批B(国家专项), 2073_86/2074_86 提前批C(高校专项), 2073/2074_4073 高校专项计划批。",
+    "school_min_2025 来自 info.json province_score_min (2025最低投档分)。",
+    "info_short 由招生计划 info 字段提取关键标签(培养方向/办学地点/招生类型)；详细培养方案以 bkzs.bucm.edu.cn 招生章程为准。",
+    "专业组号(sg_name) 沿用各省考试院公布编号；total_num 为该组计划合计；num 为单专业计划数；tuition 为学费(元/年)。",
+    "BUCM国标代码10026，多省以 1030/10026 招生代号出现。"
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": "2073",
+      "min": 607,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 606,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 600,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 579,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 581,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 589,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 603,
+      "track": "物理类"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "350003",
+          "sg_name": "（L不限）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "350004",
+          "sg_name": "（W化）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "368170",
+          "sg_name": "（301）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "国家专项计划批",
+          "zslx": "国家专项计划",
+          "total_num": 10,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "num": 4,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "康复治疗学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "368169",
+          "sg_name": "（302）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "国家专项计划批",
+          "zslx": "国家专项计划",
+          "total_num": 4,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；办学地点良乡校区；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "368131",
+          "sg_name": "（104）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 14,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 14,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "368133",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 69,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 15,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 13,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 7,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 6,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "康复治疗学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "368132",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "368195",
+          "sg_name": "（102）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "349999",
+          "sg_name": "（W化）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "425899",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 32,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 4,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 4,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "康复治疗学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "425900",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "425873",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "350007",
+          "sg_name": "（W化）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "431579",
+          "sg_name": "（214）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 30,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 4,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431580",
+          "sg_name": "（211）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431549",
+          "sg_name": "（208）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "350005",
+          "sg_name": "（W化）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "290753",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "国家专项计划批",
+          "zslx": "国家专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；办学地点良乡校区；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "290752",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "国家专项计划批",
+          "zslx": "国家专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "290703",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 36,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 7,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290704",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290736",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "350001",
+          "sg_name": "（W化）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "392643",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 36,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 8,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 6,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 4,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "392645",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "392617",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考综合改革(3+3)",
+      "groups": [
+        {
+          "group_code": "3_4073",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "按专业列选科要求",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 3,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划；选科:不限"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；办学地点良乡校区；高校专项计划；选科:不限"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划；选科:物理、化学(2科必选)"
+            }
+          ]
+        },
+        {
+          "group_code": "3_1570",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "按专业列选科要求",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 93,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 15,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 9,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 9,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "针灸推拿学",
+              "num": 8,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:不限"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 8,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 6,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 6,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区；选科:不限"
+            },
+            {
+              "sp_name": "康复治疗学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "药学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区；选科:不限"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区；选科:不限"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区；选科:物理、化学(2科必选)"
+            }
+          ]
+        },
+        {
+          "group_code": "3_4070",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "按专业列选科要求",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 3,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱；高校专项计划；选科:不限"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；高校专项计划；选科:不限"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱；高校专项计划；选科:物理、化学(2科必选)"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "2073_4073",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "2074_4073",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；办学地点良乡校区；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "2073_99",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "国家专项计划批",
+          "zslx": "国家专项计划",
+          "total_num": 3,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "2073_14",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 97,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "num": 16,
+              "tuition": 5800,
+              "info_short": "卓越5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 13,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 11,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "针灸推拿学",
+              "num": 10,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 9,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 6,
+              "tuition": 5800,
+              "info_short": "实验班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "领军人才培养计划；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "num": 5,
+              "tuition": 5800,
+              "info_short": "华佗班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "成思危拔尖人才班；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药制药",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "康复治疗学",
+              "num": 3,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药事管理",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "交叉创新班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医骨伤科学",
+              "num": 2,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "时珍国药班；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "卓越中医儿科班5+3一体化；不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "2074_14",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱，办学地点良乡校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者，办学地点良乡校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "医药卫生；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "中医药国际传播；办学地点良乡校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "医学；办学地点良乡校区"
+            }
+          ]
+        },
+        {
+          "group_code": "2073_37",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 3,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "国家专项计划；不招色盲色弱"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "国家专项计划；不招色盲色弱"
+            },
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "国家专项计划；不招色盲色弱"
+            }
+          ]
+        },
+        {
+          "group_code": "2074_86",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卫生管理；不招色盲色弱且不招单色识别不全者；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "2073_86",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱；高校专项计划"
+            },
+            {
+              "sp_name": "中医学",
+              "num": 1,
+              "tuition": 5800,
+              "info_short": "不招色盲色弱；高校专项计划"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

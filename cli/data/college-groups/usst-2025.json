@@ -1,0 +1,1171 @@
+{
+  "_kind": "Per-university × per-province 院校专业组 (2025 投档)",
+  "_year": 2025,
+  "_university": "上海理工大学",
+  "_school_id": 307,
+  "_zs_code_guobiao": "10252",
+  "_collected_at": "2026-05-26",
+  "_sources": [
+    "static-data.gaokao.cn/www/2.0/schoolspecialplan/307/2025/{41,32,44,42,35,37,13}.json (招生计划-含分组/专业/计划数/学费)",
+    "static-data.gaokao.cn/www/2.0/schoolspecialscore/307/2025/{37,13}.json (山东/河北 专业级投档分)",
+    "static-data.gaokao.cn/www/2.0/school/307/info.json (校信息)"
+  ],
+  "_data_quality": "招生计划/分组/专业/学费=API 抓取并验证; 山东/河北 专业级 min_score/min_rank 已抓取; 豫/苏/粤/鄂/闽 5 省 static-data 未公开 2025 组级投档线, 留 null。",
+  "_notes": "上海理工大学真实 school_id=307 (用户提供 code=1256 实为北部湾大学, 已据 API 校正)。groups 按 (sg_name, special_group, zslx, batch, type) 唯一聚合, majors 按 (special_id, info, num, tuition) 唯一去重, 解决 API 返回的 \"default group 0\" 与命名组重复问题。山东/河北无传统院校专业组, 按 zslx+batch+track 聚合。",
+  "university": {
+    "name": "上海理工大学",
+    "short": "USST",
+    "school_id": 307,
+    "moe_zs_code": "10252",
+    "city": "上海",
+    "tags": [
+      "上海市属重点",
+      "工信部共建",
+      "原中央部委高校",
+      "机械四小龙",
+      "原沪江大学/原军工系"
+    ]
+  },
+  "provinces": {
+    "41": {
+      "province_name": "河南",
+      "province_id": 41,
+      "regime": "3+1+2 (2025 改革第2年)",
+      "groups": [
+        {
+          "group_code": "102",
+          "group_name": "（102）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 63,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（包含专业：大类招生，具体包含专业详见招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 31,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（包含专业：测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（包含专业：数学与应用数学、应用物理学、系统科学与工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "103",
+          "group_name": "（103）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工业工程",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120701",
+              "info": ""
+            },
+            {
+              "name": "管理科学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120101",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "202",
+          "group_name": "（202）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "中外合作,中德合作",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中外合作办学）（中德合作）（合作方：德国汉堡应用技术大学；学费拟调整至不超过每生每学年40000元（以批复为准））"
+            },
+            {
+              "name": "电气工程及其自动化",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080601",
+              "info": "（中外合作办学）（中德合作）（合作方：德国汉堡应用技术大学；学费拟调整至不超过每生每学年40000元（以批复为准））"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080705",
+              "info": "（中外合作办学）（中德合作）（合作方：德国科堡应用技术与艺术大学；学费拟调整至不超过每生每学年40000元（以批复为准））"
+            }
+          ]
+        },
+        {
+          "group_code": "202",
+          "group_name": "（202）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "中外合作,中英合作",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中外合作办学）（中英合作）（办学地点：徐汇校区；合作方：英国利物浦约翰摩尔大学）"
+            },
+            {
+              "name": "电子信息科学与技术",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中外合作办学）（中英合作）（办学地点：徐汇校区；合作方：英国利物浦约翰摩尔大学）"
+            }
+          ]
+        },
+        {
+          "group_code": "301",
+          "group_name": "（301）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "国家专项",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（国家专项）（智能化制造类）（包含专业：大类招生，具体包含专业详见招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "101",
+          "group_name": "（101）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 22,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（包含专业：税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理）"
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（包含专业：广告学、传播学、编辑出版学）"
+            },
+            {
+              "name": "英语",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050201",
+              "info": ""
+            },
+            {
+              "name": "德语",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": ""
+            },
+            {
+              "name": "日语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "201",
+          "group_name": "（201）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工商管理",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120201K",
+              "info": "（中外合作办学）（中英合作）（办学地点：徐汇校区；合作方：英国谢菲尔德哈勒姆大学）"
+            },
+            {
+              "name": "会展经济与管理",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120903",
+              "info": "（中外合作办学）（中英合作）（办学地点：徐汇校区；合作方：英国哈德斯菲尔德大学）"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "province_name": "江苏",
+      "province_id": 32,
+      "regime": "3+1+2",
+      "groups": [
+        {
+          "group_code": "03",
+          "group_name": "（03）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 24,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（按大类招生，所含专业详见招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（按大类招生，所含专业详见招生章程）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（按大类招生，所含专业详见招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "group_name": "（04）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中德合作）（学费拟调整至不超过40000元/年（以批复为准））（中外合作办学）"
+            },
+            {
+              "name": "电气工程及其自动化",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080601",
+              "info": "（中德合作）（学费拟调整至不超过40000元/年（以批复为准））（中外合作办学）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中英合作）（徐汇校区）（中外合作办学）"
+            },
+            {
+              "name": "电子信息科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中英合作）（徐汇校区）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "group_name": "（01）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（具体专业详见招生章程）"
+            },
+            {
+              "name": "英语",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050201",
+              "info": ""
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（具体专业详见招生章程）"
+            },
+            {
+              "name": "德语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": ""
+            },
+            {
+              "name": "日语",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "group_name": "（02）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工商管理",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120201K",
+              "info": "（徐汇校区）（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "province_name": "广东",
+      "province_id": 44,
+      "regime": "3+1+2",
+      "groups": [
+        {
+          "group_code": "207",
+          "group_name": "（207）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 12,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（含机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术专业；办学地点：校本部）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（含测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程专业；办学地点：校本部）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含数学与应用数学、应用物理学、系统科学与工程专业；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_code": "208",
+          "group_name": "（208）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中外合作办学）（与德国汉堡应用技术大学中外合作办学项目；办学地点：校本部；备注：具体培养模式和学习费用请查看学校网站）（学费：待定）"
+            },
+            {
+              "name": "电气工程及其自动化",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080601",
+              "info": "（中外合作办学）（与德国汉堡应用技术大学中外合作办学项目；办学地点：校本部；备注：具体培养模式和学习费用请查看学校网站）（学费：待定）"
+            },
+            {
+              "name": "电子信息科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中外合作办学）（办学地点：徐汇校区；与英国利物浦约翰摩尔大学中外合作办学项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "205",
+          "group_name": "（205）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理专业；办学地点：校本部）"
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（含广告学、传播学、编辑出版学专业；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_code": "206",
+          "group_name": "（206）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工商管理",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120201K",
+              "info": "（中外合作办学）（与英国谢菲尔德哈勒姆大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：徐汇校区）"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "province_name": "湖北",
+      "province_id": 42,
+      "regime": "3+1+2",
+      "groups": [
+        {
+          "group_code": "02",
+          "group_name": "（02）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 33,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类；机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 16,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类；测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（数学与应用数学、应用物理学、系统科学与工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "group_name": "（03）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "本科预科班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "一年",
+              "spcode": "0",
+              "info": "（少数民族预科班；外语语种：不限；学制：一年）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "group_name": "（04）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "国家专项计划",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类；机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "group_name": "（01）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理）"
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（广告学、传播学、编辑出版学）"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "province_name": "福建",
+      "province_id": 35,
+      "regime": "3+1+2",
+      "groups": [
+        {
+          "group_code": "500",
+          "group_name": "（500）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "中外合作",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "电子信息科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中外合作办学）（中英合作）"
+            },
+            {
+              "name": "电气工程及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080601",
+              "info": "（中外合作办学）（中德合作）（中德合作专业学费拟调整至不超过每生每学年40000元（以批复为准））"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "group_name": "（500）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 19,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（含机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（含测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含数学与应用数学、应用物理学、系统科学与工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "group_name": "（999）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理）"
+            },
+            {
+              "name": "德语",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": ""
+            },
+            {
+              "name": "英语",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050201",
+              "info": ""
+            },
+            {
+              "name": "日语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": ""
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（含广告学、传播学、编辑出版学）"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "province_name": "山东",
+      "province_id": 37,
+      "regime": "3+3 综合改革 (96 平行志愿)",
+      "groups": [
+        {
+          "group_code": null,
+          "group_name": "综合中外合作办学(普通类一段)",
+          "track": "综合",
+          "first_subject": null,
+          "second_subject": null,
+          "zslx": "中外合作办学",
+          "batch": "普通类一段",
+          "min_score": 555,
+          "min_rank": 73943,
+          "majors": [
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 3,
+              "min_score": 581,
+              "min_rank": 41441,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（中外合作办学）（中英合作）（英国利物浦约翰摩尔大学）"
+            },
+            {
+              "name": "电子信息科学与技术",
+              "plan": 3,
+              "min_score": 586,
+              "min_rank": 35669,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中外合作办学）（中英合作）（英国利物浦约翰摩尔大学）"
+            },
+            {
+              "name": "会展经济与管理",
+              "plan": 3,
+              "min_score": 555,
+              "min_rank": 73943,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120903",
+              "info": "（中外合作办学）（中英合作）（英国哈德斯菲尔德大学）"
+            },
+            {
+              "name": "工商管理",
+              "plan": 1,
+              "min_score": 583,
+              "min_rank": 38826,
+              "tuition": 25000,
+              "length": "四年",
+              "spcode": "120201K",
+              "info": "（中外合作办学）（中英合作）（英国谢菲尔德哈勒姆大学）"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 1,
+              "min_score": 594,
+              "min_rank": 29137,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080705",
+              "info": "（中外合作办学）（中德合作）（德国科堡应用技术与艺术大学，中德合作专业学费拟调整至不超过每生每学年40000元（以批复为准））"
+            }
+          ]
+        },
+        {
+          "group_code": null,
+          "group_name": "综合普通类(普通类一段)",
+          "track": "综合",
+          "first_subject": null,
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "普通类一段",
+          "min_score": 582,
+          "min_rank": 39746,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 28,
+              "min_score": 588,
+              "min_rank": 33922,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（大类招生，具体包含专业详见招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 14,
+              "min_score": 600,
+              "min_rank": 24542,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程）"
+            },
+            {
+              "name": "经济管理试验班",
+              "plan": 7,
+              "min_score": 593,
+              "min_rank": 29901,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理）"
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 3,
+              "min_score": 582,
+              "min_rank": 39746,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（广告学、传播学、编辑出版学）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 3,
+              "min_score": 591,
+              "min_rank": 31552,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（数学与应用数学、应用物理学、系统科学与工程）"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "province_name": "河北",
+      "province_id": 13,
+      "regime": "3+1+2 (96 平行志愿)",
+      "groups": [
+        {
+          "group_code": null,
+          "group_name": "物理国家专项计划(本科提前批B段)",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": null,
+          "zslx": "国家专项计划",
+          "batch": "本科提前批B段",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（国家专项计划）（智能化制造类）（含机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术专业）"
+            }
+          ]
+        },
+        {
+          "group_code": null,
+          "group_name": "物理普通类(本科批)",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 600,
+          "min_rank": 27073,
+          "majors": [
+            {
+              "name": "工科试验班",
+              "plan": 37,
+              "min_score": 600,
+              "min_rank": 27073,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能化制造类）（含机械设计制造及其自动化、材料成型及控制工程、工业设计、过程装备与控制工程、车辆工程、材料科学与工程、能源与动力工程、新能源科学与工程、储能科学与工程、机器人工程、土木工程、建筑环境与能源应用工程、交通工程、环境工程、生物医学工程、康复工程、食品科学与工程、食品质量与安全、应用化学、生物技术专业）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 18,
+              "min_score": 610,
+              "min_rank": 20009,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（电子与信息类）（含测控技术与仪器、电气工程及其自动化、电子信息工程、电子科学与技术、通信工程、光电信息科学与工程、医学信息工程、人工智能、自动化、计算机科学与技术、智能科学与技术、数据科学与大数据技术、新媒体技术、医学影像技术、智能医学工程专业）"
+            },
+            {
+              "name": "理科试验班",
+              "plan": 3,
+              "min_score": 607,
+              "min_rank": 22009,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含数学与应用数学、应用物理学、系统科学与工程专业）"
+            },
+            {
+              "name": "电子信息科学与技术",
+              "plan": 2,
+              "min_score": 603,
+              "min_rank": 24833,
+              "tuition": 30000,
+              "length": "四年",
+              "spcode": "080714T",
+              "info": "（中外合作办学）（中英合作）"
+            }
+          ]
+        },
+        {
+          "group_code": null,
+          "group_name": "历史普通类(本科批)",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 601,
+          "min_rank": 5759,
+          "majors": [
+            {
+              "name": "经济管理试验班",
+              "plan": 8,
+              "min_score": 603,
+              "min_rank": 5338,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（含税收学、金融学、国际经济与贸易、工商管理、会计学、公共事业管理专业）"
+            },
+            {
+              "name": "新闻传播学类",
+              "plan": 4,
+              "min_score": 601,
+              "min_rank": 5759,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0503",
+              "info": "（含广告学、传播学、编辑出版学专业）"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

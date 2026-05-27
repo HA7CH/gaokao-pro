@@ -1,0 +1,3971 @@
+{
+  "uni": "合肥工业大学",
+  "code": 1338,
+  "zs_code": "10359",
+  "eol_school_id": 63,
+  "year": 2025,
+  "source": {
+    "primary": "static-data.gaokao.cn/www/2.0/schoolspecialplan/63/2025/{provinceId}.json",
+    "secondary": "static-data.gaokao.cn/www/2.0/school/63/info.json",
+    "fetched_at": "2026-05-26"
+  },
+  "notes": [
+    "school_id=63 是合肥工业大学（含合肥校区与宣城校区，gaokao.cn 在该 school_id 下统一展示）。",
+    "track 编码：2073=物理类，2074=历史类，3=综合改革(山东)。",
+    "school_min_2025 取自 info.json 的 province_score_min，为该省最低投档分（不区分组别/招生类型）。"
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": 2073,
+      "min": 598,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": 2073,
+      "min": 615,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": 2073,
+      "min": 590,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": 2073,
+      "min": 577,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": 2073,
+      "min": 587,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": 3,
+      "min": 592,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": 2073,
+      "min": 605,
+      "track": "物理类"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "（104）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 13,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（只招英语语种的考生）"
+            },
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年"
+            }
+          ]
+        },
+        {
+          "group_code": "368375",
+          "sg_name": "（104）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（只招英语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "368376",
+          "sg_name": "（103）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 282,
+          "majors": [
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 12,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息材料",
+              "spcode": "080421T",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 9,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "生物工程",
+              "spcode": "083001",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 6,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "测绘工程",
+              "spcode": "081201",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "无机非金属材料工程",
+              "spcode": "080406",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "spcode": "081301",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "食品科学与工程",
+              "spcode": "082701",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "spcode": "082702",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 5,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "城乡规划",
+              "spcode": "082802",
+              "num": 5,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "spcode": "082702",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "工商管理",
+              "spcode": "120201K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "建筑环境与能源应用工程",
+              "spcode": "081002",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "给排水科学与工程",
+              "spcode": "081003",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "水文与水资源工程",
+              "spcode": "081102",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "水利水电工程",
+              "spcode": "081101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "高分子材料与工程",
+              "spcode": "080407",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "勘查技术与工程",
+              "spcode": "081402",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "spcode": "081301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "遥感科学与技术",
+              "spcode": "081202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "地球信息科学与技术",
+              "spcode": "070903T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子商务",
+              "spcode": "120801",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "应用化学",
+              "spcode": "070302",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "num": 3,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 2,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "368352",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 35,
+          "majors": [
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 5,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "城乡规划",
+              "spcode": "082802",
+              "num": 5,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "工商管理",
+              "spcode": "120201K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子商务",
+              "spcode": "120801",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "368353",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 207,
+          "majors": [
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 12,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息材料",
+              "spcode": "080421T",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 9,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "生物工程",
+              "spcode": "083001",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 6,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "测绘工程",
+              "spcode": "081201",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "无机非金属材料工程",
+              "spcode": "080406",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "spcode": "081301",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "spcode": "082702",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "建筑环境与能源应用工程",
+              "spcode": "081002",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "水文与水资源工程",
+              "spcode": "081102",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "水利水电工程",
+              "spcode": "081101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "高分子材料与工程",
+              "spcode": "080407",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "勘查技术与工程",
+              "spcode": "081402",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "遥感科学与技术",
+              "spcode": "081202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "地球信息科学与技术",
+              "spcode": "070903T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "368359",
+          "sg_name": "（302）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 6,
+          "majors": [
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "368360",
+          "sg_name": "（301）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 34,
+          "majors": [
+            {
+              "sp_name": "食品科学与工程",
+              "spcode": "082701",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "spcode": "082702",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "给排水科学与工程",
+              "spcode": "081003",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "spcode": "081301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "应用化学",
+              "spcode": "070302",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "num": 3,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）（专业体检要求详见院校招生章程）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 2,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 2,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项）"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（合肥校区）"
+            },
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（只招英语考生）（合肥校区）"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "425975",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（合肥校区）"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "425976",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（只招英语考生）（合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 247,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 12,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 12,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 12,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 9,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 7,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 6,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "spcode": "070206T",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "spcode": "120108T",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "spcode": "080214T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "426002",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 208,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 16,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 12,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 12,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 12,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 9,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 7,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 6,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "spcode": "070206T",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "spcode": "080214T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）（在合肥校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "426003",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 39,
+          "majors": [
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "spcode": "120108T",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在合肥校区学习）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（在合肥校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "（210）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 15,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（外语语种：英语；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "印度尼西亚语",
+              "spcode": "050212",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（外语语种：英语；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "431655",
+          "sg_name": "（210）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "431656",
+          "sg_name": "（209）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（外语语种：英语；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "印度尼西亚语",
+              "spcode": "050212",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（外语语种：英语；办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（213）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 99,
+          "majors": [
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 8,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国克拉克大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；不得转专业；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 3,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（702）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 1,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（特殊类型招生）（住宿费：待定）（办学地点：合肥校区）（招生种类：高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "258723",
+          "sg_name": "（702）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 1,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（特殊类型招生）（住宿费：待定）（办学地点：合肥校区）（招生种类：高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "431683",
+          "sg_name": "（214）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 72,
+          "majors": [
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 3,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "431684",
+          "sg_name": "（213）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "majors": [
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 8,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国克拉克大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；不得转专业；办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "431685",
+          "sg_name": "（211）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 19,
+          "majors": [
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（不招单色识别不全者；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（不招单色识别不全者；办学地点：合肥校区）"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 155,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 14,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 6,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（仅录取填报该专业志愿的考生，该专业学生在校期间不得申请转专业；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "应用化学",
+              "spcode": "070302",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子商务",
+              "spcode": "120801",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "交通运输",
+              "spcode": "081801",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "给排水科学与工程",
+              "spcode": "081003",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（办学地点：合肥校区；学制：五年）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "市场营销",
+              "spcode": "120202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（数智营销；专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "spcode": "080214T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "spcode": "070206T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班；专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 2,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "290859",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "majors": [
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 6,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（仅录取填报该专业志愿的考生，该专业学生在校期间不得申请转专业；办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "290860",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 119,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 14,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "交通运输",
+              "spcode": "081801",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "spcode": "080214T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "spcode": "070206T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班；专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "290861",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 15,
+          "majors": [
+            {
+              "sp_name": "电子商务",
+              "spcode": "120801",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（办学地点：合肥校区；学制：五年）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 3,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "290875",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 11,
+          "majors": [
+            {
+              "sp_name": "应用化学",
+              "spcode": "070302",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "给排水科学与工程",
+              "spcode": "081003",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 2,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（办学地点：合肥校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "290876",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 4,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "spcode": "120202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（数智营销；专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》；办学地点：合肥校区）"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（语种：英语。只招收外语语种为英语的考生）"
+            },
+            {
+              "sp_name": "印度尼西亚语",
+              "spcode": "050212",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（语种：英语。只招收外语语种为英语的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "392807",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（语种：英语。只招收外语语种为英语的考生）"
+            },
+            {
+              "sp_name": "印度尼西亚语",
+              "spcode": "050212",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（语种：英语。只招收外语语种为英语的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 127,
+          "majors": [
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 6,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（仅录取填报该专业志愿的考生，该专业学生在校期间不得申请转专业）"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "制药工程",
+              "spcode": "081302",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 3,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 2,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 1,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "392824",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "majors": [
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 6,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（仅录取填报该专业志愿的考生，该专业学生在校期间不得申请转专业）"
+            }
+          ]
+        },
+        {
+          "group_code": "392825",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 105,
+          "majors": [
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 7,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "制药工程",
+              "spcode": "081302",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "工业设计",
+              "spcode": "080205",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 3,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）"
+            }
+          ]
+        },
+        {
+          "group_code": "392825",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "majors": [
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 1,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "392826",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 16,
+          "majors": [
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 4,
+              "tuition": 6050,
+              "length": "五年"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 2,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 291,
+          "majors": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 22,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 14,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 14,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 14,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 11,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "电子信息材料",
+              "spcode": "080421T",
+              "num": 10,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 9,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "spcode": "070101",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "高分子材料与工程",
+              "spcode": "080407",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "材料物理",
+              "spcode": "080402",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能感知工程",
+              "spcode": "080303T",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（IC封测技术创新实验班）"
+            },
+            {
+              "sp_name": "遥感科学与技术",
+              "spcode": "081202",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "统计学",
+              "spcode": "071201",
+              "num": 7,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 6,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 6,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 6,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（该专业学生在校期间不得申请转专业，与美国克拉克大学合作）"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "spcode": "120108T",
+              "num": 6,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 5,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "综合改革",
+          "subject_req": "",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 5,
+          "majors": [
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "历史类",
+          "subject_req": "",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 12,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "spcode": "050201",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（只招英语语种考生）"
+            },
+            {
+              "sp_name": "法学",
+              "spcode": "030101K",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "spcode": "030503",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 243,
+          "majors": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 10,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 9,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "电子信息材料",
+              "spcode": "080421T",
+              "num": 9,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "无机非金属材料工程",
+              "spcode": "080406",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "spcode": "080601",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "自动化",
+              "spcode": "080801",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "spcode": "080701",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "信息安全",
+              "spcode": "080904K",
+              "num": 8,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "材料物理",
+              "spcode": "080402",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 8,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "交通运输",
+              "spcode": "081801",
+              "num": 7,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "spcode": "070102",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "spcode": "080704",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "高分子材料与工程",
+              "spcode": "080407",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "spcode": "080705",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 6,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "遥感科学与技术",
+              "spcode": "081202",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "化学",
+              "spcode": "070301",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "智能建造",
+              "spcode": "081008T",
+              "num": 6,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "金融工程",
+              "spcode": "020302",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "会计学",
+              "spcode": "120203K",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "工业工程",
+              "spcode": "120701",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 5,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "spcode": "020401",
+              "num": 5,
+              "tuition": 50000,
+              "length": "四年",
+              "info_short": "（中外合作办学）（该专业学生在校期间不得申请转专业）"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "spcode": "080401",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "地球信息科学与技术",
+              "spcode": "070903T",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "数字经济",
+              "spcode": "020109T",
+              "num": 5,
+              "tuition": 5500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "车辆工程",
+              "spcode": "080207",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "spcode": "120102",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（智能科学创新实验班）（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "spcode": "080710T",
+              "num": 4,
+              "tuition": 12500,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "飞行器制造工程",
+              "spcode": "082003",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（创新实验班）"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "spcode": "080702",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "spcode": "120108T",
+              "num": 4,
+              "tuition": 6600,
+              "length": "四年",
+              "info_short": "（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 4,
+              "tuition": 5500,
+              "length": "四年"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 11,
+          "majors": [
+            {
+              "sp_name": "建筑学",
+              "spcode": "082801",
+              "num": 3,
+              "tuition": 6050,
+              "length": "五年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "spcode": "080301",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "sp_name": "无机非金属材料工程",
+              "spcode": "080406",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（国家专项计划）（专业体检要求详见《合肥工业大学2025年全日制普通本科招生章程》）"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "spcode": "080202",
+              "num": 2,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "0",
+          "sg_name": "",
+          "track": "物理类",
+          "subject_req": "",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 7,
+          "majors": [
+            {
+              "sp_name": "土木工程",
+              "spcode": "081001",
+              "num": 4,
+              "tuition": 6050,
+              "length": "四年",
+              "info_short": "（高校专项计划）"
+            },
+            {
+              "sp_name": "交通工程",
+              "spcode": "081802",
+              "num": 3,
+              "tuition": 5500,
+              "length": "四年",
+              "info_short": "（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

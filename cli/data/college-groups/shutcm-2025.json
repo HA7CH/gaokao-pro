@@ -1,0 +1,853 @@
+{
+  "uni": "上海中医药大学",
+  "code": 1267,
+  "zs_code_guobiao": "10268",
+  "gaokao_cn_school_id": 310,
+  "year": 2025,
+  "compiled": "2026-05-26",
+  "source": [
+    "static-data.gaokao.cn",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/41.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/32.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/35.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/37.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/33.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/34.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/310/2025/31.json",
+    "https://static-data.gaokao.cn/www/2.0/school/310/dic/specialplan.json",
+    "shutcm.edu.cn (上海中医药大学本科招生网) 2025 招生章程及分省分专业计划"
+  ],
+  "note": "1267 为上海中医药大学在多数外省常用招生院校代号(4位)；国标 10268。data 字段从 gaokao.cn schoolspecialplan API 2025 (school_id=310) 抓取。各省 group code 取自 sg_name (院校专业组代号，去括号)；选科要求 shou=首选 (物理/历史/综合)，zai=再选 取自 sg_info 描述。投档最低分 min 在公开 API 中未提供，留待与省考试院公告核对补全。canonical 7 省中 广东/湖北/河北 上海中医药大学 2025 未在 static-data API 出现 (该校未在三省投放院校专业组招生计划)，本文件按学校实际招生省份代以 浙江/安徽/上海。山东/浙江/上海 (3+3 综合改革) 按 sg(special_group) 拆为虚拟组。API 同时返回 _0 聚合桶与 per-group 桶，本解析自动跳过聚合桶避免重复。",
+  "provinces": {
+    "henan": {
+      "name": "河南",
+      "mode": "新高考3+1+2 (2025首年)",
+      "groups": [
+        {
+          "code": "101",
+          "special_group_id": "369982",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 3,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "九年; （屠呦呦班）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "special_group_id": "369981",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 3,
+              "info_short": "五年; ¥8100/年"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "spcode": "100601K",
+              "plan": 3,
+              "info_short": "五年"
+            },
+            {
+              "sp_name": "针灸推拿学",
+              "spcode": "100502K",
+              "plan": 3,
+              "info_short": "五年; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "special_group_id": "369980",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 1,
+              "info_short": "（创新班）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "104",
+          "special_group_id": "369979",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "康复物理治疗",
+              "spcode": "101009T",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "康复治疗学",
+              "spcode": "101005",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "听力与言语康复学",
+              "spcode": "101008T",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "康复作业治疗",
+              "spcode": "101010T",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "105",
+          "special_group_id": "369978",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "plan": 2,
+              "info_short": "（中医信息与工程方向）"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "plan": 1,
+              "info_short": "（医工创新班）"
+            }
+          ]
+        },
+        {
+          "code": "201",
+          "special_group_id": "369977",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "中外合作",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 3,
+              "info_short": "（中外合作办学）（合作方：英国伦敦都市大学；要求外语高考成绩须达到单科满分的60及以上）; ¥22000/年"
+            }
+          ]
+        },
+        {
+          "code": "301",
+          "special_group_id": "369992",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "国家专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 3,
+              "info_short": "（国家专项）; ¥8100/年"
+            },
+            {
+              "sp_name": "听力与言语康复学",
+              "spcode": "101008T",
+              "plan": 2,
+              "info_short": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "code": "302",
+          "special_group_id": "369991",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "国家专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "spcode": "101101K",
+              "plan": 5,
+              "info_short": "（国家专项）"
+            }
+          ]
+        }
+      ]
+    },
+    "jiangsu": {
+      "name": "江苏",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "01",
+          "special_group_id": "427312",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 4,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "九年; （屠呦呦班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3—体化汇聚创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化针灸推拿英语）（该校要求报考该专业外语成绩不低于105分）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "special_group_id": "427311",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 4,
+              "info_short": "（该校要求报考该专业外语成绩不低于90分）（中外合作办学）; ¥22000/年"
+            }
+          ]
+        }
+      ]
+    },
+    "fujian": {
+      "name": "福建",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "500",
+          "special_group_id": "394713",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "中外合作",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 2,
+              "info_short": "（中外合作办学）（外语高考成绩须达到单科满分的60％及以上）; ¥22000/年"
+            }
+          ]
+        },
+        {
+          "code": "500",
+          "special_group_id": "394715",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 3,
+              "info_short": "九年; （屠呦呦班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5十3一体化）; ¥8100/年"
+            }
+          ]
+        }
+      ]
+    },
+    "shandong": {
+      "name": "山东",
+      "mode": "新高考3+3 (综合改革)",
+      "groups": [
+        {
+          "code": "",
+          "special_group_id": "0",
+          "shou": "综合",
+          "zai": "",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 4,
+              "info_short": "九年; （屠呦呦班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化，汇聚创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 2,
+              "info_short": "（创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 1,
+              "info_short": "五年; （5+3一体化，针灸推主拿英语方向）（外语成绩不低于105分）; ¥8100/年"
+            }
+          ]
+        }
+      ]
+    },
+    "zhejiang": {
+      "name": "浙江",
+      "mode": "新高考3+3 (综合改革)",
+      "groups": [
+        {
+          "code": "",
+          "special_group_id": "0",
+          "shou": "综合",
+          "zai": "",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 4,
+              "info_short": "九年; （屠呦呦班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "spcode": "100601K",
+              "plan": 4,
+              "info_short": "五年"
+            },
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 3,
+              "info_short": "（中外合作办学）（要求高考外语成绩不低于90分）; ¥22000/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化，针灸推拿英语方向）（要求高考外语成绩不低于105分）; ¥8100/年"
+            },
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 2,
+              "info_short": "（创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 1,
+              "info_short": "五年; （5+3一体化，汇聚创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 1,
+              "info_short": "¥8100/年"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "plan": 1,
+              "info_short": "（医工创新班）"
+            },
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "plan": 1,
+              "info_short": "（中医信息与工程方向）"
+            },
+            {
+              "sp_name": "预防医学",
+              "spcode": "100401K",
+              "plan": 1,
+              "info_short": "五年"
+            }
+          ]
+        }
+      ]
+    },
+    "anhui": {
+      "name": "安徽",
+      "mode": "新高考3+1+2 (2025首年)",
+      "groups": [
+        {
+          "code": "003",
+          "special_group_id": "342710",
+          "shou": "物理",
+          "zai": "首选物理，再选不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "spcode": "120401",
+              "plan": 1,
+              "info_short": "（卫生管理方向）"
+            }
+          ]
+        },
+        {
+          "code": "004",
+          "special_group_id": "342709",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 4,
+              "info_short": "五年; （五年制）; ¥8100/年"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "spcode": "100601K",
+              "plan": 3,
+              "info_short": "五年"
+            },
+            {
+              "sp_name": "针灸推拿学",
+              "spcode": "100502K",
+              "plan": 3,
+              "info_short": "五年; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 2,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "005",
+          "special_group_id": "342708",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 2,
+              "info_short": "（创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 1,
+              "info_short": "¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "006",
+          "special_group_id": "342707",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "康复作业治疗",
+              "spcode": "101010T",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "康复治疗学",
+              "spcode": "101005",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "康复物理治疗",
+              "spcode": "101009T",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "007",
+          "special_group_id": "342706",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "plan": 2,
+              "info_short": "（中医信息与工程方向）"
+            }
+          ]
+        },
+        {
+          "code": "008",
+          "special_group_id": "342705",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 2,
+              "info_short": "（中外合作办学）（外语成绩须达到满分的60%及以上）; ¥22000/年"
+            }
+          ]
+        },
+        {
+          "code": "W001",
+          "special_group_id": "310397",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中西医临床医学",
+              "spcode": "100601K",
+              "plan": 2,
+              "info_short": "5"
+            },
+            {
+              "sp_name": "食品卫生与营养学",
+              "spcode": "100402",
+              "plan": 2,
+              "info_short": "4"
+            }
+          ]
+        },
+        {
+          "code": "W002",
+          "special_group_id": "310398",
+          "shou": "物理",
+          "zai": "首选物理，再选化学",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "spcode": "101101K",
+              "plan": 6,
+              "info_short": "4"
+            }
+          ]
+        },
+        {
+          "code": "001",
+          "special_group_id": "342746",
+          "shou": "综合",
+          "zai": "首选历史，再选不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "spcode": "120401",
+              "plan": 1,
+              "info_short": "（卫生管理方向）"
+            }
+          ]
+        }
+      ]
+    },
+    "shanghai": {
+      "name": "上海",
+      "mode": "新高考3+3 (综合改革)",
+      "groups": [
+        {
+          "code": "01",
+          "special_group_id": "423521",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 24,
+              "info_short": "五年; （5+3一体化）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 18,
+              "info_short": "五年; （5+3一体化汇聚创新班）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 12,
+              "info_short": "五年; （5+3一体化针灸推拿英语方向）（外语单科成绩不低于105分）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "special_group_id": "423523",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 8,
+              "info_short": "（创新班）（“4+5”分段培养）; ¥8100/年"
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "special_group_id": "423550",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "针灸推拿学",
+              "spcode": "100502K",
+              "plan": 36,
+              "info_short": "五年; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 33,
+              "info_short": "五年; ¥8100/年"
+            },
+            {
+              "sp_name": "预防医学",
+              "spcode": "100401K",
+              "plan": 21,
+              "info_short": "五年"
+            },
+            {
+              "sp_name": "中西医临床医学",
+              "spcode": "100601K",
+              "plan": 9,
+              "info_short": "五年"
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "special_group_id": "423543",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中药学",
+              "spcode": "100801",
+              "plan": 47,
+              "info_short": "¥8100/年"
+            },
+            {
+              "sp_name": "听力与言语康复学",
+              "spcode": "101008T",
+              "plan": 20,
+              "info_short": ""
+            },
+            {
+              "sp_name": "康复作业治疗",
+              "spcode": "101010T",
+              "plan": 16,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品卫生与营养学",
+              "spcode": "100402",
+              "plan": 9,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "special_group_id": "423555",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物医学工程",
+              "spcode": "082601",
+              "plan": 18,
+              "info_short": "（中医信息与工程方向）"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "plan": 10,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "plan": 8,
+              "info_short": "（医工创新班）（“4+2”分段培养）"
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "special_group_id": "423558",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "spcode": "100701",
+              "plan": 37,
+              "info_short": "（中外合作办学）（外语单科成绩不低于90分）; ¥22000/年"
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "special_group_id": "423561",
+          "shou": "综合",
+          "zai": "化学必选",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "护理学",
+              "spcode": "101101K",
+              "plan": 78,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "08",
+          "special_group_id": "423564",
+          "shou": "综合",
+          "zai": "不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "公共事业管理",
+              "spcode": "120401",
+              "plan": 19,
+              "info_short": "（卫生管理方向）"
+            }
+          ]
+        },
+        {
+          "code": "Z2",
+          "special_group_id": "453079",
+          "shou": "综合",
+          "zai": "物理、化学(2科必选)",
+          "type": "综合评价",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 15,
+              "info_short": "五年; （5+3一体化）（综合评价）（招生省份：上海）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 6,
+              "info_short": "五年; （5+3一体化针灸推拿英语方向）（综合评价）（招生省份：上海）; ¥8100/年"
+            },
+            {
+              "sp_name": "中医学",
+              "spcode": "100501K",
+              "plan": 4,
+              "info_short": "九年; （屠呦呦班）（综合评价）（招生省份：上海）; ¥8100/年"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

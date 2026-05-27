@@ -1,0 +1,2804 @@
+{
+  "uni": "长安大学",
+  "code": 1395,
+  "zs_code": "10710",
+  "gaokao_cn_school_id": 36,
+  "year": 2025,
+  "batch_default": "本科批",
+  "sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/36/2025/{provinceId}.json",
+    "https://static-data.gaokao.cn/www/2.0/school/36/info.json",
+    "https://zsb.chd.edu.cn/",
+    "https://www.gaokao.cn/school/36"
+  ],
+  "fetched_at": "2026-05-26",
+  "notes": [
+    "数据源: gaokao.cn schoolspecialplan API (school_id=36).",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。",
+    "山东 special_group=0，按 batch + zslx + 选科 (sp_sxk) 拆组；河北 同样在 2025 数据中 special_group=0，按 batch + zslx + 再选 拆组。",
+    "school_min_2025 来自 info.json province_score_min (统招批最低投档分)。",
+    "info_short 由 招生计划 info 字段提取关键标签 (中外合作 / 国家专项 / 含专业列表 / 校区 / 合作院校)；详细专业方向见 gaokao.cn 原页面。",
+    "长安大学 部分中外合作专业 (爱尔兰都柏林大学 / 法国 ENPC 学院) 学费较高，非英语语种考生谨慎填报。"
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": "2073",
+      "min": 608,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 599,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 571,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 579,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 581,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 581,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 594,
+      "track": "物理类"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "368119",
+          "sg_name": "（104）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 24,
+          "items": [
+            {
+              "sp_name": "物流管理",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "含:建筑学、城乡规划、风景园林；其中仅建筑学专业为五年制"
+            },
+            {
+              "sp_name": "日语",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "含:工商管理、会计学"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含应急管理方向"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含:新闻学、汉语言文学"
+            }
+          ]
+        },
+        {
+          "group_code": "368118",
+          "sg_name": "（105）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "思想政治教育",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "368117",
+          "sg_name": "（501）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "广播电视编导",
+              "num": 5,
+              "tuition": 15400,
+              "info_short": "艺术类专业，授予艺术学学士学位"
+            }
+          ]
+        },
+        {
+          "group_code": "368074",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 9,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "未来交通含:道路桥梁与渡河工程、交通工程、交通运输、车辆工程、物流工程"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "茅以升班"
+            }
+          ]
+        },
+        {
+          "group_code": "368073",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 202,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 30,
+              "tuition": 6600,
+              "info_short": "含:土木工程、建筑环境与能源应用工程、给排水科学与工程"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 18,
+              "tuition": 6600,
+              "info_short": "含:智能制造工程、机械设计制造及其自动化、机械电子工程"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 17,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 14,
+              "tuition": 6600,
+              "info_short": "含:电子信息工程、通信工程、人工智能"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 12,
+              "tuition": 6600,
+              "info_short": "含:测绘工程、遥感科学与技术、地理空间信息工程"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "含:材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 9,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "水利类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "含:水文与水资源工程、水利水电工程、地下水科学与工程"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "含:自动化、机器人工程"
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "含:地质学、资源勘查工程、矿物加工工程、碳储科学与工程"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "数学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "含:数学与应用数学、信息与计算科学"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "含:地球物理学、勘查技术与工程"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "物流工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "368072",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 26,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 9,
+              "tuition": 6600,
+              "info_short": "含:建筑学、城乡规划、风景园林；其中仅建筑学专业为五年制"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "含:工商管理、会计学"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "含:经济统计学、国际经济与贸易"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "368071",
+          "sg_name": "（201）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 7,
+              "tuition": 70000,
+              "info_short": "中外合作办学；合作方：法国高等信息工程师学院；非英语语种考生谨慎填报，高收费"
+            }
+          ]
+        },
+        {
+          "group_code": "368070",
+          "sg_name": "（202）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 25,
+          "items": [
+            {
+              "sp_name": "交通运输",
+              "num": 9,
+              "tuition": 75000,
+              "info_short": "中外合作办学；合作方：爱尔兰都柏林大学；非英语语种考生谨慎填报，高收费"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 8,
+              "tuition": 75000,
+              "info_short": "中外合作办学；合作方：爱尔兰都柏林大学；非英语语种考生谨慎填报，高收费"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 8,
+              "tuition": 75000,
+              "info_short": "中外合作办学；合作方：爱尔兰都柏林大学；非英语语种考生谨慎填报，高收费"
+            }
+          ]
+        },
+        {
+          "group_code": "368091",
+          "sg_name": "（301）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 41,
+          "items": [
+            {
+              "sp_name": "地质学类",
+              "num": 12,
+              "tuition": 6600,
+              "info_short": "国家专项含:地质学、资源勘查工程、矿物加工工程、碳储科学与工程"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "国家专项含:土木工程、建筑环境与能源应用工程、给排水科学与工程"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "国家专项含:地球物理学、勘查技术与工程"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "国家专项含:水文与水资源工程、水利水电工程、地下水科学与工程"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "国家专项含:测绘工程、遥感科学与技术、地理空间信息工程"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "国家专项；国际工程班；非英语语种考生谨慎填报"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "国家专项含:材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "国家专项含:智能制造工程、机械设计制造及其自动化、机械电子工程"
+            }
+          ]
+        },
+        {
+          "group_code": "368090",
+          "sg_name": "（302）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "土地资源管理",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "国家专项含:工商管理、会计学"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "425813",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "新闻学、汉语言文学；在北校区学习"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；其中城乡规划、风景园林专业为四年制；在北校区学习"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "工商管理、会计学；南校区"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "含应急管理方向；在北校区学习"
+            }
+          ]
+        },
+        {
+          "group_code": "425812",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "广播电视编导",
+              "num": 2,
+              "tuition": 15400,
+              "info_short": "北校区；授予艺术学学士学位"
+            }
+          ]
+        },
+        {
+          "group_code": "425831",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；北校区；其中城乡规划、风景园林专业为四年制"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "经济统计学、国际经济与贸易；在南校区学习"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "长安学堂计划；在南校区学习"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "工商管理、会计学；在南校区学习"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "425830",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 74,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "土木工程、建筑环境与能源应用工程、给排永科学与工程；在北校区学习"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "智能制造工程、机械设计制造及其自动化、机械电子工程；在北校区学习"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "水文与水资源工程、水利水电工程、地下水科学与工程；在北校区学习"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "测绘工程、遥感科学与技术、地理空间信息工程；在北校区学习"
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "地质学、资源勘查工程、矿物加工工程、碳储科孚与工程；在北校区学习"
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "数学与应用数学、信息与计算科学；在北校区学习"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "道路桥梁与渡河工程、交通工程、交通运输、车辆工程、物流工程；未来交通；在北校区学习"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "物流工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程；在北校区学习"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "电子信息工程、通信工程、人工智能；在北校区学习"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "自动化、机器人工程；在北校区学习"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "在北校区学习"
+            }
+          ]
+        },
+        {
+          "group_code": "425829",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 7,
+              "tuition": 70000,
+              "info_short": "北校区；须查阅院校招生章程；中外合作办学"
+            }
+          ]
+        },
+        {
+          "group_code": "425828",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "车辆工程",
+              "num": 3,
+              "tuition": 75000,
+              "info_short": "在北校区学习，报考以下专业须查阅院校招生章程；中外合作办学"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 3,
+              "tuition": 75000,
+              "info_short": "在北校区学习，报考以下专业须查阅院校招生章程；中外合作办学"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 2,
+              "tuition": 75000,
+              "info_short": "在北校区学习，报考以下专业须查阅院校招生章程；中外合作办学"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "431472",
+          "sg_name": "（212）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 18,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "不招单色识别不全者；含工商管理、会计学专业办学地点：南校区；具体专业分流情况请查看学校网站"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "含建筑学、城乡规划、风景园林专业其中仅建筑学专业为五年制；具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "不招单色识别不全者；含应急管理方向；办学地点：北校区"
+            },
+            {
+              "sp_name": "日语",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "含新闻学、汉语言文学专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431471",
+          "sg_name": "（222）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "广播电视编导",
+              "num": 2,
+              "tuition": 15400,
+              "info_short": "授予艺术学学士学位；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431498",
+          "sg_name": "（214）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 26,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "含建筑学、城乡规划、风景园林专业办学地点：北校区；其中仅建筑学专业为五年制具体专业分流情况请查看学校网站"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "不招单色识别不全者；含工商管理、会计学专业具体专业分流情况请查看学校网站；办学地点：南校区"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "不招单色识别不全者；办学地点：南校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "含经济统计学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：南校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "不招单色识别不全者办学地点：北校区"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431497",
+          "sg_name": "（216）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 142,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 18,
+              "tuition": 6600,
+              "info_short": "含智能制造工程、机械设计制造及其自动化、机械电子工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 11,
+              "tuition": 6600,
+              "info_short": "含材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 9,
+              "tuition": 6600,
+              "info_short": "含测绘工程、遥感科学与技术、地理空间信息工程专业；办学地点：北校区"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 9,
+              "tuition": 6600,
+              "info_short": "含土木工程、建筑环境与能源应用工程、给排水科学与工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "含自动化、机器人工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "含电子信息工程、通信工程、人工智能专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "不招单色识别不全者；办学地点：北校区"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "含水文与水资源工程、水利水电工程、地下水科学与工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "不招色盲，不招单色识别不全者；办学地点：北校区"
+            },
+            {
+              "sp_name": "物流工程",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "不招色盲色弱，不招单色识别不全者；含地质学、资源勘查工程、矿物加工工程、碳储科学与工程专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "不招色盲色弱，不招单色识别不全者；含环境工程专业智慧环境与生态修复长安学堂计划；办学地点：北校区"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "不招色盲色弱，不招单色识别不全者；办学地点：北校区"
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：北校区"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "不招色盲色弱，不招单色识别不全者；办学地点：北校区"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "不招色盲，不招单色识别不全者；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431496",
+          "sg_name": "（220）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 7,
+              "tuition": 70000,
+              "info_short": "中外合作办学；与法国高等信息工程师学院中外合作办学项目，具体培养模式和学习费用请查看学校网站；请非英语语种的考生慎重报考；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "431495",
+          "sg_name": "（221）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 4,
+              "tuition": 75000,
+              "info_short": "中外合作办学；与爱尔兰都柏林大学中外合作办学项目；办学地点：北校区；备注：具体培养模式和学习费用请查看学校网站；请非英语语种的考生慎重报考"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 3,
+              "tuition": 75000,
+              "info_short": "中外合作办学；与爱尔兰都柏林大学中外合作办学项目；办学地点：北校区；备注：具体培养模式和学习费用请查看学校网站；请非英语语种的考生慎重报考"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 75000,
+              "info_short": "中外合作办学；与爱尔兰都柏林大学中外合作办学项目不招色盲，不招单色识别不全者；办学地点：北校区；备注：具体培养模式和学习费用请查看学校网站；请非英语语种的考生慎..."
+            }
+          ]
+        },
+        {
+          "group_code": "258764",
+          "sg_name": "（702）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "特殊类型招生含:081001.土木工程+081002.建筑环境与能源应用工程+081003.给排水科学与工程；住宿费：待定；办学地点：北校区；招生种类：高校专项..."
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "290656",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；其中仅建筑学专业为五年制；办学地点：北校区；学制：五年"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "工商管理、会计学；办学地点：南校区"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "长安学堂计划；办学地点：北校区"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290655",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "思想政治教育",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290625",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 17,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；其中仅建筑学专业为五年制；办学地点：北校区；学制：五年"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "工商管理、会计学；办学地点：南校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "经济统计学、国际经济与贸易；办学地点：南校区"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学地点：南校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290624",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 86,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": "土木工程、建筑环境与能源应用工程、给排水科学与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "测绘工程、遥感科学与技术、地理空间信息工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "智能制造工程、机械设计制造及其自动化、机械电子工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "电子信息工程、通信工程、人工智能；办学地点：北校区"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "水文与水资源工程、水利水电工程、地下水科学与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "地球物理学、勘查技术与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "地质学、资源勘查工程、矿物加工工程、碳储科学与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "自动化、机器人工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "智能车辆长安学堂计划；智能车辆工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "数学与应用数学、信息与计算科学；办学地点：北校区"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290623",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 5,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学；办学地点：北校区"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 5,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学；办学地点：北校区"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 4,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290622",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 5,
+              "tuition": 70000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为法国高等信息工程师学院；办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290621",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "本科预科班",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "少数民族预科班；外语语种：不限；学制：一年"
+            }
+          ]
+        },
+        {
+          "group_code": "290667",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；其中仅建筑学专业为五年制；办学地点：北校区；学制：五年"
+            },
+            {
+              "sp_name": "土地资源管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学地点：北校区"
+            }
+          ]
+        },
+        {
+          "group_code": "290666",
+          "sg_name": "（10）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 15,
+          "items": [
+            {
+              "sp_name": "地质学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "地质学、资源勘查工程、矿物加工工程、碳储科学与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "办学地点：北校区"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "土木工程、建筑环境与能源应用工程、给排水科学与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "地球物理学、勘查技术与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "国际工程班；非英语语种考生谨慎填报；办学地点：北校区"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "测绘工程、遥感科学与技术、地理空间信息工程；办学地点：北校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "自动化、机器人工程；办学地点：北校区"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "392511",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "行政管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含应急管理方向"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "含建筑学、城乡规划、风景园林。其中仅建筑学专业为五年制"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含工商管理、会计学"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "392560",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中法合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 5,
+              "tuition": 70000,
+              "info_short": "中法合作；中外合作办学；中外合作办学：非英语语种考生谨慎填报，高收费，合作院校为法国高等信息工程师学院"
+            }
+          ]
+        },
+        {
+          "group_code": "392562",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中爱合作",
+          "total_num": 17,
+          "items": [
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 7,
+              "tuition": 75000,
+              "info_short": "中爱合作；中外合作办学；中外合作办学：非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 5,
+              "tuition": 75000,
+              "info_short": "中爱合作；中外合作办学；中外合作办学：非英语语种考生谨慎填报，"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 5,
+              "tuition": 75000,
+              "info_short": "中爱合作；中外合作办学；中外合作办学：非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            }
+          ]
+        },
+        {
+          "group_code": "392564",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 67,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "含智能制造工程、机械设计制造及其自动化、机械电子工程"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "含土木工程、建筑环境与能源应用工程、给排水科学与工程"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "含测绘工程、遥感科学与技术、地理空间信息工程"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "含材料科学与工程、材料成型及控制工程、"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "未来交通；含道路桥梁与渡河工程、交通工程、交通运输、车辆工程、物流工程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "含：地质学、资源勘查工程、矿物加工工程、碳储科学与工程。；高校专项计划"
+            },
+            {
+              "sp_name": "物流工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "含电子信息工程、通信工程、人工智能"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "含自动化、机器人工程"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "含：地球物理学、勘查技术与工程。；高校专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "392566",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "含建筑学、城乡规划、风景园林。其中仅建筑学专业为5年制"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "含工商管理、会计学"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "groups": [
+        {
+          "group_code": "37_3_普通类_物理或化学",
+          "sg_name": "普通类·物理或化学",
+          "track": "综合改革",
+          "subject_req": "物理或化学",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 194,
+          "items": [
+            {
+              "sp_name": "安全工程",
+              "num": 27,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "num": 25,
+              "tuition": 6600,
+              "info_short": "智能制造工程、机械设计制造及其自动化、机械电子工程"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 23,
+              "tuition": 6600,
+              "info_short": "材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 15,
+              "tuition": 6600,
+              "info_short": "测绘工程、遥感科学与技术、地理空间信息工程"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 13,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "电子信息工程、通信工程、人工智能"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 9,
+              "tuition": 6600,
+              "info_short": "水文与水资源工程、水利水电工程、地下水科学与工程"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 8,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "自动化、机器人工程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "未来交通；道路桥梁与渡河工程、交通工程、交通运输、车辆工程、物流工程"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "地球物理学、勘查技术与工程"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "城市地下空间工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            },
+            {
+              "sp_name": "数学类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "数学与应用数学、信息与计算科学"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_中外合作办学_物理或化学",
+          "sg_name": "中外合作办学·物理或化学",
+          "track": "综合改革",
+          "subject_req": "物理或化学",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 35,
+          "items": [
+            {
+              "sp_name": "人工智能",
+              "num": 10,
+              "tuition": 70000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为法国高等信息工程师学院"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 9,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 8,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 8,
+              "tuition": 75000,
+              "info_short": "中外合作办学；非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类_不限",
+          "sg_name": "普通类·不限",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 31,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 11,
+              "tuition": 6600,
+              "info_short": "建筑学、城乡规划、风景园林；建筑学学制为五年"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "工商管理、会计学"
+            },
+            {
+              "sp_name": "日语",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含应急管理方向"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "广播电视编导",
+              "num": 2,
+              "tuition": 15400,
+              "info_short": "艺术类专业，授予艺术学学士学位"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "新闻学、汉语言文学"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类_物理",
+          "sg_name": "普通类·物理",
+          "track": "综合改革",
+          "subject_req": "物理",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "经济学类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "经济统计学、国际经济与贸易"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": ""
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类_政治",
+          "sg_name": "普通类·政治",
+          "track": "综合改革",
+          "subject_req": "政治",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "思想政治教育",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_高校专项计划_物理或化学",
+          "sg_name": "高校专项计划·物理或化学",
+          "track": "综合改革",
+          "subject_req": "物理或化学",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 16,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "土木工程、建筑环境与能源应用工程、给排水科学与工程；高校专项计划"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "地球物理学、勘查技术与工程；高校专项计划"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程；高校专项计划"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "电子信息工程、通信工程、人工智能；高校专项计划"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "智能制造工程、机械设计制造及其自动化、机械电子工程；高校专项计划"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "水文与水资源工程、水利水电工程、地下水科学与工程；高校专项计划"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "高校专项计划"
+            }
+          ]
+        }
+      ],
+      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按 batch+招生类型+选科 拆组"
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "13_2073_普通类_首选物理，再选化学",
+          "sg_name": "普通类·首选物理，再选化学",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 190,
+          "items": [
+            {
+              "sp_name": "水利类",
+              "num": 29,
+              "tuition": 6600,
+              "info_short": "西安市；含水文与水资源工程、水利水电工程、地下水科学与工程专业"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 18,
+              "tuition": 6600,
+              "info_short": "西安市；含智能制造工程、机械设计制造及其自动化、机械电子工程专业"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 14,
+              "tuition": 6600,
+              "info_short": "西安市；含材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程专业"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 12,
+              "tuition": 6600,
+              "info_short": "西安市；含电子信息工程、通信工程、人工智能专业"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "车辆工程",
+              "num": 9,
+              "tuition": 75000,
+              "info_short": "西安市；中外合作办学；中外合作办学，非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 8,
+              "tuition": 75000,
+              "info_short": "西安市；中外合作办学；中外合作办学，非英语语种考生谨慎填报，高收费，合作院校为爱尔兰都柏林大学，色盲和不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线..."
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 8,
+              "tuition": 70000,
+              "info_short": "西安市；中外合作办学；中外合作办学：单设专业组，非英语语种考生谨慎填报，高收费，合作院校为法国高等信息工程师学院"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "西安市；含测绘工程、遥感科学与技术、地理空间信息工程专业"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "西安市；不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者不予录取"
+            },
+            {
+              "sp_name": "智能车辆工程",
+              "num": 7,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "交通工程",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 6,
+              "tuition": 6600,
+              "info_short": "西安市；含自动化、机器人工程专业"
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "工程力学",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "物流工程",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市；含数学与应用数学、信息与计算科学专业"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市；未来交通；含道路桥梁与渡河工程、交通工程、交通运输、车辆工程、物流工程专业"
+            },
+            {
+              "sp_name": "地理信息科学",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市；含地球物理学、勘查技术与工程专业"
+            },
+            {
+              "sp_name": "交通设备与控制工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；色弱、色盲和不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；色盲和不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_普通类_首选物理，再选不限",
+          "sg_name": "普通类·首选物理，再选不限",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 10,
+              "tuition": 6600,
+              "info_short": "西安市；含建筑学、城乡规划、风景园林专业；其中仅建筑学专业为五年制"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "西安市；含经济统计学、国际经济与贸易专业"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "西安市；含工商管理、会计学专业；不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "西安市；不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "西安市；不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_普通类_首选历史，再选不限",
+          "sg_name": "普通类·首选历史，再选不限",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "行政管理",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "西安市；含应急管理方向，不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市；含建筑学、城乡规划、风景园林专业；其中仅建筑学专业为五年制"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "西安市；含新闻学、汉语言文学专业"
+            },
+            {
+              "sp_name": "物流管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "西安市"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "西安市；含工商管理、会计学专业；不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_普通类_首选历史，再选政治",
+          "sg_name": "普通类·首选历史，再选政治",
+          "track": "历史类",
+          "subject_req": "首选历史，再选政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "思想政治教育",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "西安市"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_国家专项计划_首选物理，再选化学",
+          "sg_name": "国家专项计划·首选物理，再选化学",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 24,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 5,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含土木工程、建筑环境与能源应用工程、给排水科学与工程专业"
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含地质学、资源勘查工程、矿物加工工程、碳储科学与工程专业"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；色弱、色盲和不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程专业"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含地球物理学、勘查技术与工程专业"
+            },
+            {
+              "sp_name": "汽车服务工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含智能制造工程、机械设计制造及其自动化、机械电子工程专业"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含水文与水资源工程、水利水电工程、地下水科学与工程专业"
+            },
+            {
+              "sp_name": "测绘类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含测绘工程、遥感科学与技术、地理空间信息工程专业"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国家专项计划；含自动化、机器人工程专业"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_国家专项计划_首选物理，再选不限",
+          "sg_name": "国家专项计划·首选物理，再选不限",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "土地资源管理",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "西安市；国家专项计划"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_高校专项计划_首选物理，再选化学",
+          "sg_name": "高校专项计划·首选物理，再选化学",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 21,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市；含土木工程、建筑环境与能源应用工程、给排水科学与工程专业；高校专项计划"
+            },
+            {
+              "sp_name": "地质学类",
+              "num": 4,
+              "tuition": 6600,
+              "info_short": "西安市；含地质学、资源勘查工程、矿物加工工程、碳储科学与工程专业；高校专项计划"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市；含材料科学与工程、材料成型及控制工程、新能源材料与器件、高分子材料与工程专业；高校专项计划"
+            },
+            {
+              "sp_name": "地球物理学类",
+              "num": 3,
+              "tuition": 6600,
+              "info_short": "西安市；含地球物理学、勘查技术与工程专业；高校专项计划"
+            },
+            {
+              "sp_name": "地质工程",
+              "num": 2,
+              "tuition": 6600,
+              "info_short": "西安市；高校专项计划"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；高校专项计划"
+            },
+            {
+              "sp_name": "土地整治工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；高校专项计划"
+            },
+            {
+              "sp_name": "道路桥梁与渡河工程",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；国际工程班；非英语语种考生谨慎填报；高校专项计划"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；含智能制造工程、机械设计制造及其自动化、机械电子工程专业；高校专项计划"
+            },
+            {
+              "sp_name": "水利类",
+              "num": 1,
+              "tuition": 6600,
+              "info_short": "西安市；含水文与水资源工程、水利水电工程、地下水科学与工程专业；高校专项计划"
+            }
+          ]
+        }
+      ],
+      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0；按 batch+招生类型+选科 拆组"
+    }
+  }
+}
