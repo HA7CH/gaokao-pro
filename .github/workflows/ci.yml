@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    name: Typecheck & Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # --- Reliable gate: these must pass for CI to be green ---
+      - name: CLI typecheck
+        run: pnpm -C cli run typecheck
+
+      - name: CLI offline unit tests
+        run: pnpm -C cli run test:unit
+
+      - name: Web lint
+        run: pnpm run lint
+
+  # The smoke test (cli test:smoke) hits the live gaokao.cn API and can flake
+  # on upstream outages, so it is kept out of the blocking gate above.
+  # It runs in a separate, non-blocking job for visibility only.
+  smoke:
+    name: CLI smoke (non-blocking)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: CLI network smoke test
+        run: pnpm -C cli run test:smoke

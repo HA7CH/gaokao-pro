@@ -15,6 +15,16 @@ cyan()  { printf "\033[36m%s\033[0m\n" "$1"; }
 green() { printf "\033[32m%s\033[0m\n" "$1"; }
 red()   { printf "\033[31m%s\033[0m\n" "$1" >&2; }
 
+# Surface a helpful message instead of a bare "exited with code N" on failure.
+STEP="starting up"
+on_error() {
+  local code=$?
+  red "install failed during: $STEP (exit $code)"
+  red "see the output above for details, then re-run this script."
+  exit "$code"
+}
+trap on_error ERR
+
 require() {
   if ! command -v "$1" >/dev/null 2>&1; then
     red "missing dependency: $1"
@@ -40,20 +50,24 @@ cyan "==> Installing gaokao-pro to $DIR (via $PM)"
 
 if [ -d "$DIR/.git" ]; then
   cyan "==> Updating existing checkout"
+  STEP="updating checkout (git pull --ff-only in $DIR)"
   git -C "$DIR" pull --ff-only
 else
   cyan "==> Cloning $REPO"
-  git clone --depth 1 "$REPO" "$DIR"
+  STEP="cloning $REPO into $DIR"
+  git clone --depth 1 --single-branch "$REPO" "$DIR"
 fi
 
 cyan "==> Installing deps"
+STEP="installing dependencies (via $PM)"
 if [ "$PM" = "pnpm" ]; then
-  (cd "$DIR" && pnpm install --filter ./cli --frozen-lockfile 2>/dev/null || pnpm install --filter ./cli)
+  (cd "$DIR" && pnpm install --filter ./cli --frozen-lockfile || pnpm install --filter ./cli)
 else
   (cd "$DIR/cli" && npm install --no-audit --no-fund)
 fi
 
 cyan "==> Building"
+STEP="building the CLI (tsc)"
 (cd "$DIR/cli" && ./node_modules/.bin/tsc -p tsconfig.json)
 
 BIN_SRC="$DIR/cli/dist/index.js"

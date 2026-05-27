@@ -5,15 +5,32 @@
 //   interests[] → fit against each school's 强势专业 (via index special_arr)
 //   constraints (cities, 985/211, max_tuition, dual_class) → hard filters
 //
-// Composite score = 0.4 × interestFit + 0.35 × baselineWeight + 0.15 × labelWeight + 0.10 × cityBonus
-// where interestFit ∈ [0,1], baselineWeight = baselineMinScore / 750 (normalized),
-// labelWeight = 985 ? 1 : 211 ? 0.7 : dual ? 0.5 : 0.2, cityBonus ∈ {-0.5, 0, +1}.
+// Composite score is a weighted blend of up to four components, each ∈ [0,1]:
+//   interestFit    (weight 0.40) — fit vs the student's interests
+//   baselineWeight (weight 0.35) — baselineMinScore / 750 (school prestige proxy)
+//   labelWeight    (weight 0.15) — 985 ? 1 : 211 ? 0.7 : dual ? 0.5 : 0.2
+//   cityBonus      (weight 0.10) — normalized (cityBonus + 0.5) ∈ [0, 1.5]
+//
+// IMPORTANT (finding #3): the offline school index has NO major-level signal,
+// so interestFit usually has no real data. A constant 0.5 injected at the
+// heaviest weight (0.40) would silently bias every school identically and
+// dominate ranking with noise. Instead, when there is no usable interest
+// signal we DROP the interest component entirely and renormalize the
+// remaining weights (baseline/label/city) so they sum to 1 — ranking is then
+// driven purely by real data. When a real interest signal exists we compute a
+// fit in [0,1] and keep all four weights. See computeComposite().
 //
 // Offline — reads docs/datasets at the index level for 985/211 and uses the
 // gaokao.cn-derived pro_type_min for score baseline.
 import { loadIndex, filterIndex, type IndexFilter, type SchoolRow } from "./index-loader.js";
-import { PROVINCES, TRACK_NAMES, type ProvinceId, type Subject } from "./codes.js";
-import { inferTrack } from "./recommend.js";
+import { PROVINCES, TRACK_NAMES, validateScore, type ProvinceId, type Subject } from "./codes.js";
+import { inferTrack, PREFILTER_DELTA } from "./recommend.js";
+
+// Composite component weights (must sum to 1.0).
+const W_INTEREST = 0.40;
+const W_BASELINE = 0.35;
+const W_LABEL = 0.15;
+const W_CITY = 0.10;
 
 export type Profile = {
   score: number;
@@ -67,13 +84,44 @@ function cityScore(r: SchoolRow, profile: Profile): number {
   return 0;
 }
 
-function interestFitScore(_row: SchoolRow, interests: string[] | undefined): number {
-  if (!interests || interests.length === 0) return 0.5; // neutral if no signal
-  // School index doesn't currently embed major-level signal; we'd need to fetch
-  // the plan endpoint per school for high-fidelity matching. For the offline
-  // fast path, return a neutral 0.5; future enrichment can wire in
-  // schoolspecialscore data.
-  return 0.5;
+// Returns a real interest-fit ∈ [0,1], or null when no usable interest signal
+// is available for this row (so the caller can renormalize the composite over
+// the components that DO have signal — finding #3).
+//
+// The offline index only carries school-level 强势专业 keywords in
+// `special_arr`; if present we score a keyword overlap against the student's
+// interests. If neither the interests nor the school's major keywords are
+// available, we return null (no signal) — NOT a constant — so interest never
+// silently biases the ranking.
+function interestFitScore(row: SchoolRow, interests: string[] | undefined): number | null {
+  if (!interests || interests.length === 0) return null; // no interest input → no signal
+  const majors = (row as { special_arr?: unknown }).special_arr;
+  if (!Array.isArray(majors) || majors.length === 0) return null; // index has no major-level data
+  const haystack = majors.map((m) => String(m).toLowerCase());
+  let matched = 0;
+  for (const want of interests) {
+    const w = String(want).toLowerCase().trim();
+    if (w && haystack.some((h) => h.includes(w) || w.includes(h))) matched++;
+  }
+  return Math.min(1, matched / interests.length);
+}
+
+// Blend the available components, renormalizing weights over those present so
+// a missing interest signal does not inject a constant (finding #3).
+function computeComposite(
+  interestFit: number | null,
+  baselineWeight: number,
+  labelW: number,
+  cityNorm: number
+): number {
+  const parts: Array<{ w: number; v: number }> = [
+    { w: W_BASELINE, v: baselineWeight },
+    { w: W_LABEL, v: labelW },
+    { w: W_CITY, v: cityNorm }
+  ];
+  if (interestFit !== null) parts.unshift({ w: W_INTEREST, v: interestFit });
+  const totalW = parts.reduce((s, p) => s + p.w, 0);
+  return parts.reduce((s, p) => s + p.w * p.v, 0) / totalW;
 }
 
 export function match(profile: Profile, limit?: number): {
@@ -81,6 +129,7 @@ export function match(profile: Profile, limit?: number): {
   considered: number;
   candidates: MatchCandidate[];
 } {
+  validateScore(profile.score, profile.province); // finding #12
   const index = loadIndex();
   const c = profile.constraints ?? {};
   const filter: IndexFilter = {
@@ -110,14 +159,17 @@ export function match(profile: Profile, limit?: number): {
     }
     if (!baselineMinScore) continue;
     const delta = profile.score - baselineMinScore;
-    if (delta < -40) continue; // too far out of reach
-    const interestFit = interestFitScore(r, profile.interests);
+    if (delta < PREFILTER_DELTA) continue; // too far out of reach
+    const interestFitRaw = interestFitScore(r, profile.interests);
     const cityBonus = cityScore(r, profile);
-    const composite =
-      0.4 * interestFit +
-      0.35 * (baselineMinScore / 750) +
-      0.15 * labelWeight(r) +
-      0.10 * (cityBonus + 0.5); // shift to [0, 1.5]
+    const composite = computeComposite(
+      interestFitRaw,
+      baselineMinScore / 750,
+      labelWeight(r),
+      (cityBonus + 0.5) / 1.5 // normalize {-0.5,0,1} → [0,1]
+    );
+    // Surface 0 when there is no real interest signal (not a fake 0.5).
+    const interestFit = interestFitRaw ?? 0;
     const tags = [r.f985 ? "985" : r.f211 ? "211" : r.dual_class === "双一流" ? "双一流" : ""].filter(Boolean).join(" ");
     candidates.push({
       schoolId: r.gaokao_cn_id,

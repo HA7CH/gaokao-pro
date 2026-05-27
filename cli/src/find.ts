@@ -3,6 +3,7 @@
 import { loadIndex, filterIndex, type IndexFilter, type SchoolRow } from "./index-loader.js";
 import { getAdmissionPlan, type AdmissionPlanItem } from "./gaokao-cn.js";
 import { PROVINCES, TRACK_NAMES, type ProvinceId } from "./codes.js";
+import { xuankeMatch } from "./xuanke.js";
 
 export type FindInput = {
   keyword: string;
@@ -11,6 +12,10 @@ export type FindInput = {
   filter?: IndexFilter;
   limit?: number;
   concurrency?: number;
+  // Optional: when provided, each hit is checked against the major's 选科
+  // requirement (sp_fxk/sp_sxk) and flagged. Backward-compatible — omitting
+  // it leaves behavior unchanged (finding #2).
+  studentSubjects?: string[];
 };
 
 export type FindHit = {
@@ -32,6 +37,9 @@ export type FindHit = {
   xuanke: { first: string | null; reselect: string | null; raw: string | null };
   category: string;
   info: string | null;
+  // Present only when studentSubjects was supplied (finding #2).
+  xuankeOk?: boolean;
+  xuankeReason?: string;
 };
 
 export type FindOutput = {
@@ -40,8 +48,11 @@ export type FindOutput = {
     province: { id: ProvinceId; name: string };
     year: number;
     filter?: IndexFilter;
+    studentSubjects?: string[];
   };
   schoolsScanned: number;
+  // Number of schools whose plan fetch failed and were skipped (finding #10).
+  schoolsSkippedErrors: number;
   hits: FindHit[];
 };
 
@@ -56,8 +67,11 @@ function matchItem(item: AdmissionPlanItem, keyword: string): boolean {
   );
 }
 
-function toHit(row: SchoolRow, item: AdmissionPlanItem): FindHit {
-  return {
+function toHit(row: SchoolRow, item: AdmissionPlanItem, studentSubjects?: string[]): FindHit {
+  const first = item.sp_fxk || item.sg_fxk || null;
+  const reselect = item.sp_sxk || item.sg_sxk || null;
+  const raw = item.sp_xuanke || item.sg_xuanke || null;
+  const hit: FindHit = {
     schoolId: row.gaokao_cn_id,
     zsCode: row.zs_code,
     schoolName: row.name,
@@ -73,14 +87,25 @@ function toHit(row: SchoolRow, item: AdmissionPlanItem): FindHit {
     length: item.length,
     batch: item.local_batch_name,
     track: TRACK_NAMES[item.type] ?? item.type,
-    xuanke: {
-      first: item.sp_fxk || item.sg_fxk || null,
-      reselect: item.sp_sxk || item.sg_sxk || null,
-      raw: item.sp_xuanke || item.sg_xuanke || null
-    },
+    xuanke: { first, reselect, raw },
     category: `${item.level2_name} · ${item.level3_name}`,
     info: item.info || item.remark || null
   };
+  // Flag selectability only when subjects are known (finding #2). Prefer the
+  // raw xuanke code (most precise); fall back to the human-readable fxk/sxk.
+  if (studentSubjects && studentSubjects.length > 0) {
+    const requirement = raw ? raw : [first, reselect].filter((s): s is string => !!s);
+    if (raw || (Array.isArray(requirement) && requirement.length > 0)) {
+      const m = xuankeMatch(studentSubjects, requirement);
+      hit.xuankeOk = m.ok;
+      hit.xuankeReason = m.reason;
+    } else {
+      // No requirement data on this item → treat as 不限 (selectable).
+      hit.xuankeOk = true;
+      hit.xuankeReason = "不限 (无选科要求)";
+    }
+  }
+  return hit;
 }
 
 export async function find(input: FindInput): Promise<FindOutput> {
@@ -95,6 +120,7 @@ export async function find(input: FindInput): Promise<FindOutput> {
   const concurrency = input.concurrency ?? 12;
   const hits: FindHit[] = [];
   let cursor = 0;
+  let fetchErrors = 0; // finding #10: aggregate fetch failures instead of dropping silently
   const workers = Array.from({ length: concurrency }, async () => {
     while (cursor < rows.length) {
       const row = rows[cursor++];
@@ -102,10 +128,11 @@ export async function find(input: FindInput): Promise<FindOutput> {
       try {
         const plan = await getAdmissionPlan(row.gaokao_cn_id, input.year, input.provinceId);
         for (const item of plan) {
-          if (matchItem(item, input.keyword)) hits.push(toHit(row, item));
+          if (matchItem(item, input.keyword)) hits.push(toHit(row, item, input.studentSubjects));
         }
       } catch {
-        // skip on error
+        // Aggregate, don't spam per-error logs.
+        fetchErrors++;
       }
     }
   });
@@ -124,9 +151,11 @@ export async function find(input: FindInput): Promise<FindOutput> {
       keyword: input.keyword,
       province: { id: input.provinceId, name: PROVINCES[input.provinceId].name },
       year: input.year,
-      filter: input.filter
+      filter: input.filter,
+      ...(input.studentSubjects ? { studentSubjects: input.studentSubjects } : {})
     },
     schoolsScanned: rows.length,
+    schoolsSkippedErrors: fetchErrors,
     hits: input.limit ? hits.slice(0, input.limit) : hits
   };
 }

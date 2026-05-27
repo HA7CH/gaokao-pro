@@ -21,12 +21,31 @@ function findDir(): string | null {
   return null;
 }
 
+// Returns null only when the file is genuinely absent (callers turn that into a
+// clear "missing dataset" error). A present-but-corrupt file throws here with the
+// offending path so the failure isn't a downstream null/undefined deref.
 function load<T>(filename: string): T | null {
   const dir = findDir();
   if (!dir) return null;
   const path = resolve(dir, filename);
   if (!existsSync(path)) return null;
-  return JSON.parse(readFileSync(path, "utf8")) as T;
+  try {
+    return JSON.parse(readFileSync(path, "utf8")) as T;
+  } catch (e) {
+    throw new Error(
+      `dataset ${filename} is unreadable or not valid JSON (${path}): ${e instanceof Error ? e.message : e}. ` +
+        `Re-run the dataset fan-out to regenerate it.`
+    );
+  }
+}
+
+// Builds a uniform "missing dataset" error so callers don't null-deref later.
+function missingDataset(filename: string): Error {
+  const where = findDir() ?? CANDIDATE_DATA_DIRS.join(" | ");
+  return new Error(
+    `dataset ${filename} not found in ${where}. ` +
+      `Ensure cli/data/datasets/ ships with the build, or re-run the dataset fan-out to regenerate it.`
+  );
 }
 
 // ---- Types ----
@@ -90,7 +109,10 @@ let provincesCache: ProvincesSpecialtyFile | null = null;
 export function loadSchoolsAdapters(): SchoolsAdaptersFile {
   if (schoolsCache) return schoolsCache;
   const data = load<SchoolsAdaptersFile>("schools-adapters-2024.json");
-  if (!data) throw new Error("schools-adapters-2024.json not found in cli/data/datasets/");
+  if (!data) throw missingDataset("schools-adapters-2024.json");
+  if (!Array.isArray(data.schools)) {
+    throw new Error("schools-adapters-2024.json is missing its `schools` array — file is malformed.");
+  }
   schoolsCache = data;
   return data;
 }
@@ -98,7 +120,10 @@ export function loadSchoolsAdapters(): SchoolsAdaptersFile {
 export function loadProvincesSpecialty(): ProvincesSpecialtyFile {
   if (provincesCache) return provincesCache;
   const data = load<ProvincesSpecialtyFile>("provinces-specialty-2024.json");
-  if (!data) throw new Error("provinces-specialty-2024.json not found in cli/data/datasets/");
+  if (!data) throw missingDataset("provinces-specialty-2024.json");
+  if (!Array.isArray(data.provinces)) {
+    throw new Error("provinces-specialty-2024.json is missing its `provinces` array — file is malformed.");
+  }
   provincesCache = data;
   return data;
 }

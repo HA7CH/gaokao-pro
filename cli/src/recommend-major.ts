@@ -3,14 +3,20 @@
 // (which is school-centric).
 //
 // Pipeline:
-//   1. Filter index to schools the user can reach (delta ≥ -25).
+//   1. Filter index to schools the user can plausibly reach (delta ≥
+//      PREFILTER_DELTA — a deliberately permissive net before the expensive
+//      per-school fetch).
 //   2. For each, fetch plan/{schoolId}/{year}/{province}.json (concurrent).
 //   3. Match the keyword against sp_name / spname / level3_name.
 //   4. Group hits by spcode, sort by (schools count desc, top school baseline desc).
+//
+// "reachable" uses the shared REACH_DELTA so it means the same thing as a 冲
+// bucket in recommend.ts (finding #14).
 import { loadIndex, type IndexFilter, filterIndex } from "./index-loader.js";
 import { getAdmissionPlan, type AdmissionPlanItem } from "./gaokao-cn.js";
-import { PROVINCES, TRACK_NAMES, type ProvinceId, type Subject } from "./codes.js";
-import { inferTrack } from "./recommend.js";
+import { PROVINCES, TRACK_NAMES, validateScore, type ProvinceId, type Subject } from "./codes.js";
+import { inferTrack, REACH_DELTA, PREFILTER_DELTA } from "./recommend.js";
+import { xuankeMatch } from "./xuanke.js";
 
 export type RecommendMajorInput = {
   keyword: string;
@@ -39,13 +45,19 @@ export type MajorMatch = {
     delta: number;
     reachable: boolean;
     track: string;
+    // 选科 selectability for this (school, major) given the student's subjects
+    // (finding #2). Defaults true when the major has no requirement data.
+    xuankeOk: boolean;
+    xuankeReason: string;
   }>;
 };
 
 export async function recommendMajor(input: RecommendMajorInput): Promise<{
   query: object;
+  schools_skipped_errors: number;
   majors_matched: MajorMatch[];
 }> {
+  validateScore(input.score, input.provinceId); // finding #12
   const index = loadIndex();
   const track = inferTrack(input.provinceId, input.subjects);
   let rows = input.filter ? filterIndex(index, input.filter) : index.rows;
@@ -58,7 +70,7 @@ export async function recommendMajor(input: RecommendMajorInput): Promise<{
     for (const e of sorted) {
       const v = e.type?.[track];
       const n = v ? Number(v) : NaN;
-      if (Number.isFinite(n) && n > 0 && input.score - n >= -40) return true;
+      if (Number.isFinite(n) && n > 0 && input.score - n >= PREFILTER_DELTA) return true;
     }
     return false;
   });
@@ -79,6 +91,7 @@ export async function recommendMajor(input: RecommendMajorInput): Promise<{
   const hits: Hit[] = [];
   const concurrency = input.concurrency ?? 12;
   let cursor = 0;
+  let fetchErrors = 0; // finding #10: count failed fetches instead of dropping silently
   await Promise.all(
     Array.from({ length: concurrency }, async () => {
       while (cursor < reachableRows.length) {
@@ -99,6 +112,15 @@ export async function recommendMajor(input: RecommendMajorInput): Promise<{
           for (const item of plan) {
             if (!matchHit(item)) continue;
             const spcode = item.spcode || `${item.level3_name}-${item.sp_name}`;
+            // 选科 check (finding #2): prefer raw code, else fxk/sxk fields.
+            const raw = item.sp_xuanke || item.sg_xuanke || "";
+            const fields = [item.sp_fxk || item.sg_fxk, item.sp_sxk || item.sg_sxk]
+              .filter((s): s is string => !!s);
+            const requirement = raw ? raw : fields;
+            const hasReq = !!raw || fields.length > 0;
+            const xk = hasReq
+              ? xuankeMatch(input.subjects, requirement)
+              : { ok: true, reason: "不限 (无选科要求)" };
             hits.push({
               spcode,
               sp_name: item.sp_name,
@@ -111,12 +133,16 @@ export async function recommendMajor(input: RecommendMajorInput): Promise<{
                 is211: r.f211,
                 baselineMinScore: baseline,
                 delta,
-                reachable: delta >= -15,
-                track: TRACK_NAMES[track] ?? track
+                reachable: delta >= REACH_DELTA, // shared threshold (finding #14)
+                track: TRACK_NAMES[track] ?? track,
+                xuankeOk: xk.ok,
+                xuankeReason: xk.reason
               }
             });
           }
-        } catch { /* skip */ }
+        } catch {
+          fetchErrors++; // aggregate, no per-error spam
+        }
       }
     })
   );
@@ -153,6 +179,7 @@ export async function recommendMajor(input: RecommendMajorInput): Promise<{
       track: TRACK_NAMES[track] ?? track,
       filter: input.filter
     },
+    schools_skipped_errors: fetchErrors,
     majors_matched: input.limit && input.limit > 0 ? majors.slice(0, input.limit) : majors
   };
 }

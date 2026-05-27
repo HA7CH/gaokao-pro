@@ -84,10 +84,17 @@ export function rankToScore(table: RankTable, rank: number): number | null {
   return best;
 }
 
-/** Try to pick a sensible default track key when caller omits one. */
+/**
+ * Try to pick a sensible default rank-table track key when caller omits one.
+ * Returns the file-name track key (see RankTable.track):
+ *   3+3 → "combined", 3+1+2 → "physics", 老高考(含西藏) → "science".
+ * NOTE: 西藏 additionally runs an A类/B类 民族 dual-track on top of 文/理;
+ * we have no per-A/B 一分一段 data, so it collapses to the 老高考 "science"
+ * table just like the other 文/理 provinces. See inferTrack() in recommend.ts.
+ */
 export function inferDefaultTrack(provinceId: ProvinceId): string {
   const reform = PROVINCES[provinceId].reform;
   if (reform === "3+3") return "combined";
   if (reform === "3+1+2") return "physics";
-  return "science";
+  return "science"; // old-reform 文/理 default to 理 (science) bucket
 }

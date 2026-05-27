@@ -2,8 +2,8 @@
 // Same data pipeline as recommend; different presentation: top-N within
 // reach (delta >= some floor), sorted by baselineMinScore desc.
 import { loadIndex, filterIndex, type IndexFilter, type SchoolRow } from "./index-loader.js";
-import { PROVINCES, TRACK_NAMES, type ProvinceId, type Subject } from "./codes.js";
-import { inferTrack } from "./recommend.js";
+import { PROVINCES, TRACK_NAMES, validateScore, type ProvinceId, type Subject } from "./codes.js";
+import { inferTrack, REACH_DELTA } from "./recommend.js";
 
 export type TopInput = {
   score: number;
@@ -11,7 +11,7 @@ export type TopInput = {
   subjects: Subject[];
   limit?: number;
   filter?: IndexFilter;
-  minDelta?: number;   // floor on delta (default -25, i.e. require within reach)
+  minDelta?: number;   // floor on delta (default REACH_DELTA, i.e. require within reach)
 };
 
 export type TopRow = {
@@ -31,11 +31,12 @@ export type TopRow = {
 };
 
 export function top(input: TopInput): { query: object; rows: TopRow[] } {
+  validateScore(input.score, input.provinceId); // finding #12
   const index = loadIndex();
   let rows: SchoolRow[] = index.rows;
   if (input.filter) rows = filterIndex({ generated_at: index.generated_at, rows }, input.filter);
   const track = inferTrack(input.provinceId, input.subjects);
-  const minDelta = input.minDelta ?? -25;
+  const minDelta = input.minDelta ?? REACH_DELTA;
 
   const out: TopRow[] = [];
   for (const r of rows) {

@@ -39,8 +39,17 @@ import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
+import {
+  findSchoolAdapter,
+  listSchoolsOfferingProgram,
+  findProvinceSpecialty,
+  listProvinceKeys,
+  getCrossProvincePrograms
+} from "./datasets.js";
+import { findUniversity, listGroups, safetyScore, datasetStats } from "./groups.js";
+import { VERSION } from "./version.js";
 
-const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
+const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
 const PROTOCOL_VERSION = "2025-06-18";
 
 type JsonRpc = {
@@ -197,9 +206,9 @@ const TOOLS = [
       properties: {
         province: { type: "string" },
         year: { type: "number" },
-        track: { type: "string", description: "'combined' for 3+3 provinces (北京/上海/天津/山东/海南/浙江); 'physics' or 'history' for 3+1+2; 'science'/'liberal' for 老高考. Omit to use the province default." },
-        score: { type: "number", description: "If set, return the rank for this score." },
-        rank: { type: "number", description: "If set, return the score that hits this rank." }
+        track: { type: "string", enum: ["combined", "physics", "history", "science", "liberal"], description: "'combined' for 3+3 provinces (北京/上海/天津/山东/海南/浙江); 'physics' or 'history' for 3+1+2; 'science'/'liberal' for 老高考. Omit to use the province default." },
+        score: { type: "number", description: "If set, return the rank for this score. Pass exactly one of score/rank." },
+        rank: { type: "number", description: "If set, return the score that hits this rank. Pass exactly one of score/rank." }
       },
       required: ["province", "year"],
       additionalProperties: false
@@ -352,6 +361,67 @@ const TOOLS = [
       required: ["raw"],
       additionalProperties: false
     }
+  },
+  {
+    name: "adapter",
+    description: "Look up one school's 招生网 (zsw) URL + special-program offer flags + contact, from the curated schools-adapters dataset (80+ schools). Use this to get a school's official 招生网 link and which special programs (强基/综评/中外合作/专项 etc.) it offers.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "School name, alias, or zs_code (e.g. '清华' or '10003')." }
+      },
+      required: ["query"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "program",
+    description: "List schools offering a specific special-program type. Use this to answer 'which schools offer 强基计划 / 综合评价 / 中外合作 / 专项计划 …?'",
+    inputSchema: {
+      type: "object",
+      properties: {
+        type: {
+          type: "string",
+          enum: ["qiangji", "zonghepingjia", "zhongwai_hezuo", "guojia_zhuanxiang", "gaoxiao_zhuanxiang", "minzu_ban", "yuke_ban", "gao_shui_yundong", "high_art"],
+          description: "Program type."
+        }
+      },
+      required: ["type"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "tiqian",
+    description: "Per-province 提前批 + 强基/综评 in-province implementing schools. Verified provinces: tianjin · zhejiang · hunan · shandong · guangdong. Pass province 'all' to list cross-province programs (国家/高校/地方专项 + 港澳台联招).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "Province key (tianjin/zhejiang/hunan/shandong/guangdong) or 'all' for cross-province programs." }
+      },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "groups",
+    description: "专业组 (major-group) lookup for a university. Without a province, returns the per-province coverage summary (groups_count / majors_total). With a province, returns each 专业组 in that province; optionally score each group's safety against must/ok/reject subject-preference lists.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        university: { type: "string", description: "University name as it appears in the dataset (e.g. '清华大学')." },
+        province: { type: "string", description: "Optional province name. Omit for the per-province coverage summary." },
+        must: { type: "array", items: { type: "string" }, description: "Optional: subjects/majors that MUST be present (drives safety scoring; only used when province is set)." },
+        ok: { type: "array", items: { type: "string" }, description: "Optional: acceptable subjects/majors (safety scoring)." },
+        reject: { type: "array", items: { type: "string" }, description: "Optional: subjects/majors to reject (safety scoring)." }
+      },
+      required: ["university"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "groups_stats",
+    description: "Dataset-wide statistics for the 专业组 dataset (coverage counts). Call this to see what the `groups` tool covers.",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
   }
 ];
 
@@ -484,15 +554,17 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const provinceId = getProvinceId(args);
       const year = getNum(args, "year");
       const track = typeof args.track === "string" ? args.track : inferDefaultTrack(provinceId);
+      const hasScore = args.score !== undefined && args.score !== null;
+      const hasRank = args.rank !== undefined && args.rank !== null;
+      if (hasScore === hasRank) {
+        throw new Error("Pass exactly one of `score` or `rank` (not neither, not both).");
+      }
       const table = loadRankTable(provinceId, year, track);
       if (!table) {
         throw new Error(`No 一分一段 table for ${PROVINCES[provinceId].name} ${year} ${track}. Call \`rank_tables\` to see what's ingested.`);
       }
-      const hasScore = args.score !== undefined;
-      const hasRank = args.rank !== undefined;
-      if (!hasScore && !hasRank) throw new Error("Pass either `score` or `rank`.");
       if (hasScore) {
-        const score = Number(args.score);
+        const score = getNum(args, "score");
         return {
           province: PROVINCES[provinceId].name,
           year,
@@ -502,7 +574,7 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
           rank: scoreToRank(table, score)
         };
       }
-      const rank = Number(args.rank);
+      const rank = getNum(args, "rank");
       return {
         province: PROVINCES[provinceId].name,
         year,
@@ -539,7 +611,7 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "manifest": {
       const province = getStr(args, "province");
-      const year = Number((args as Record<string, unknown>).year);
+      const year = getNum(args, "year");
       const rec = findManifest(province, year);
       if (!rec) return { ok: false, error: `no manifest record for province="${province}" year=${year}` };
       return { ok: true, ...rec };
@@ -582,6 +654,68 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
         subjects: Array.isArray(args.subjects) ? (args.subjects as string[]) : undefined,
         year: args.year !== undefined ? Number(args.year) : undefined
       });
+    }
+    case "adapter": {
+      const query = getStr(args, "query");
+      const adapter = findSchoolAdapter(query);
+      if (!adapter) return { ok: false, error: `no adapter for "${query}". Try a different name or zs_code.` };
+      return { ok: true, adapter };
+    }
+    case "program": {
+      const type = getStr(args, "type");
+      const valid = ["qiangji", "zonghepingjia", "zhongwai_hezuo", "guojia_zhuanxiang", "gaoxiao_zhuanxiang", "minzu_ban", "yuke_ban", "gao_shui_yundong", "high_art"];
+      if (!valid.includes(type)) {
+        return { ok: false, error: `type must be one of: ${valid.join(", ")}` };
+      }
+      const schools = listSchoolsOfferingProgram(type as Parameters<typeof listSchoolsOfferingProgram>[0]);
+      return {
+        ok: true,
+        program: type,
+        count: schools.length,
+        schools: schools.map((s) => ({
+          name: s.name,
+          zs_code: s.zs_code,
+          zsw_url: s.zsw_url,
+          detail: type === "gaoxiao_zhuanxiang" ? s.programs.gaoxiao_zhuanxiang : (s.programs[type as keyof typeof s.programs] as unknown)
+        }))
+      };
+    }
+    case "tiqian": {
+      const province = getStr(args, "province");
+      if (province === "all") {
+        return { ok: true, cross_province_programs: getCrossProvincePrograms() };
+      }
+      const data = findProvinceSpecialty(province);
+      if (!data) return { ok: false, error: `no specialty plan ingested for ${province}. Available: ${listProvinceKeys().join(", ")}` };
+      return { ok: true, ...data };
+    }
+    case "groups": {
+      const uni = getStr(args, "university");
+      const province = typeof args.province === "string" ? args.province : null;
+      const u = findUniversity(uni);
+      if (!u) return { ok: false, error: `university not found in dataset: ${uni}` };
+      if (province) {
+        const groups = listGroups(uni, province);
+        const must = Array.isArray(args.must) ? (args.must as string[]) : [];
+        const ok = Array.isArray(args.ok) ? (args.ok as string[]) : [];
+        const reject = Array.isArray(args.reject) ? (args.reject as string[]) : [];
+        const enrichedGroups = groups.map((g) => {
+          const safety = (must.length || ok.length || reject.length) ? safetyScore(g, { must_have: must, acceptable: ok, reject }) : null;
+          return { ...g, safety };
+        });
+        return { ok: true, university: u.university, code: u.code, province, groups: enrichedGroups };
+      }
+      return {
+        ok: true,
+        university: u.university,
+        code: u.code,
+        year: u.year,
+        provinces_count: u.provinces.length,
+        provinces: u.provinces.map((p) => ({ province: p.province, groups_count: p.groups_count, majors_total: p.majors_total }))
+      };
+    }
+    case "groups_stats": {
+      return { ok: true, stats: datasetStats() };
     }
     default:
       throw new Error(`unknown tool: ${name}`);

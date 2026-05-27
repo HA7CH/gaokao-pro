@@ -17,7 +17,10 @@
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/index.ts",
     "probe": "tsx src/probe.ts",
-    "test": "tsx test/smoke.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test:unit": "tsx test/run.ts",
+    "test:smoke": "tsx test/smoke.ts",
+    "test": "tsx test/run.ts && tsx test/smoke.ts",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -28,6 +31,15 @@
     "cli"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/HA7CH/gaokao-pro/tree/main/cli#readme",
+  "bugs": {
+    "url": "https://github.com/HA7CH/gaokao-pro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HA7CH/gaokao-pro.git",
+    "directory": "cli"
+  },
   "engines": {
     "node": ">=18"
   },

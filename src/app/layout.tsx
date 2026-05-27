@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Serif_SC, Noto_Sans_SC, ZCOOL_XiaoWei } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -61,15 +61,36 @@ export const metadata: Metadata = {
     url: "https://gaokao.ha7ch.com/",
     siteName: "高考PRO",
     locale: "zh_CN",
-    type: "website"
+    type: "website",
+    // No dedicated OG raster asset exists yet; reuse the brand icon as a stopgap
+    // so social cards render an image instead of a blank preview.
+    images: [
+      {
+        url: "/icon.svg",
+        width: 64,
+        height: 64,
+        alt: "高考PRO",
+        type: "image/svg+xml"
+      }
+    ]
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "高考PRO · AI 高考志愿规划",
     description: "分数 + 省份 + 选科 → 3000+ 院校冲稳保。开源免费，Claude Code / Codex / Cursor 原生支持。",
-    creator: "@lawted"
-  },
-  icons: { icon: "/icon.svg", shortcut: "/icon.svg", apple: "/icon.svg" }
+    creator: "@lawted",
+    images: ["/icon.svg"]
+  }
+  // NOTE: favicon is provided by the App Router file convention (src/app/icon.svg),
+  // which auto-emits the <link rel="icon"> tag. We intentionally omit a manual
+  // metadata.icons entry to avoid a duplicate/conflicting /icon.svg reference.
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // Matches the brand maroon used by the icon background (#8b1538).
+  themeColor: "#8b1538"
 };
 
 const JSON_LD = {
@@ -101,7 +122,8 @@ const JSON_LD = {
       applicationSubCategory: "高考志愿规划",
       url: "https://gaokao.ha7ch.com/",
       downloadUrl: "https://www.npmjs.com/package/gaokao-pro",
-      softwareVersion: "0.1.3",
+      // Should track cli/package.json version (source of truth).
+      softwareVersion: "0.1.16",
       offers: { "@type": "Offer", price: "0", priceCurrency: "CNY" },
       author: { "@id": "https://gaokao.ha7ch.com/#org" },
       inLanguage: "zh-CN",

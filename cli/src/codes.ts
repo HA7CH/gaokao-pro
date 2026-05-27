@@ -3,8 +3,8 @@ export const PROVINCES = {
   11: { name: "北京", pinyin: "beijing", reform: "3+3" },
   12: { name: "天津", pinyin: "tianjin", reform: "3+3" },
   13: { name: "河北", pinyin: "hebei", reform: "3+1+2" },
-  14: { name: "山西", pinyin: "shanxi", reform: "old" },
-  15: { name: "内蒙古", pinyin: "neimenggu", reform: "old" },
+  14: { name: "山西", pinyin: "shanxi", reform: "3+1+2" },   // 批5: first new-gaokao exam 2025 (was 文/理 through 2024)
+  15: { name: "内蒙古", pinyin: "neimenggu", reform: "3+1+2" }, // 批5: first new-gaokao exam 2025 (was 文/理 through 2024)
   21: { name: "辽宁", pinyin: "liaoning", reform: "3+1+2" },
   22: { name: "吉林", pinyin: "jilin", reform: "3+1+2" },
   23: { name: "黑龙江", pinyin: "heilongjiang", reform: "3+1+2" },
@@ -64,3 +64,42 @@ export function resolveProvince(input: string | number): ProvinceId | null {
 // Six 3+1+2 reselect subjects + the two first-choice tracks.
 export type Subject = "物理" | "历史" | "化学" | "生物" | "政治" | "地理";
 export const ALL_SUBJECTS: Subject[] = ["物理", "历史", "化学", "生物", "政治", "地理"];
+
+// ---------------------------------------------------------------------------
+// Score-input validation (finding #12)
+// ---------------------------------------------------------------------------
+// Provincial total-score caps. MUST stay in sync with chart-check.ts
+// PROVINCE_MAX — that file is the canonical owner of the cap values; we
+// duplicate the same numbers here only because chart-check.ts does not
+// export them. 海南 uses a 900 标准分 scale, 上海 is 660, everyone else 750.
+const PROVINCE_MAX_SCORE: Record<number, number> = {
+  46: 900,   // 海南 标准分
+  31: 660,   // 上海
+  // everyone else defaults to 750
+};
+
+/** Max valid total score for a province (matches chart-check.ts maxScoreFor). */
+export function maxScoreFor(id: ProvinceId): number {
+  return PROVINCE_MAX_SCORE[id] ?? 750;
+}
+
+/**
+ * Validate a user-supplied gaokao total score for a province.
+ * Throws a clear, actionable error when the score is not finite, ≤ 0, or
+ * above the provincial maximum. Used at the entry of recommend/match/top/
+ * recommendMajor so absurd inputs never reach the scoring math (finding #12).
+ */
+export function validateScore(score: number, provinceId: ProvinceId): void {
+  if (typeof score !== "number" || !Number.isFinite(score)) {
+    throw new Error(`无效分数: ${score} (分数必须是有限数字)`);
+  }
+  if (score <= 0) {
+    throw new Error(`无效分数: ${score} (分数必须大于 0)`);
+  }
+  const cap = maxScoreFor(provinceId);
+  if (score > cap) {
+    throw new Error(
+      `无效分数: ${score} 超出 ${PROVINCES[provinceId].name} 满分 ${cap} (有效区间 (0, ${cap}])`
+    );
+  }
+}

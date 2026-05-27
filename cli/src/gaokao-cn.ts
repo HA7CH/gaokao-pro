@@ -4,17 +4,130 @@
 const BASE = "https://static-data.gaokao.cn/www/2.0";
 const UA = "gaokao-pro/0.0.1 (+https://github.com/HA7CH/gaokao-pro)";
 
-async function fetchJson<T>(path: string): Promise<T> {
+// Per-request timeout (ms). Without this a stalled upstream can hang a fetch
+// forever — at concurrency 25 in probe.ts one bad server blocks the whole run.
+// Override via GAOKAO_CN_TIMEOUT_MS env var, or the opts.timeoutMs param.
+const DEFAULT_TIMEOUT_MS = (() => {
+  const env = Number(process.env.GAOKAO_CN_TIMEOUT_MS);
+  return Number.isFinite(env) && env > 0 ? env : 15_000;
+})();
+
+// Bounded retry for transient failures (network errors / timeouts / 5xx).
+// We deliberately do NOT retry clear 4xx — those won't fix themselves.
+const DEFAULT_RETRIES = 2;
+const RETRY_BACKOFF_MS = 300; // base; multiplied by attempt number + small jitter
+
+// Distinct error type so callers / probe can tell a timeout apart from
+// a genuine network or protocol error.
+export class GaokaoTimeoutError extends Error {
+  constructor(url: string, timeoutMs: number) {
+    super(`gaokao.cn request timed out after ${timeoutMs}ms for ${url}`);
+    this.name = "GaokaoTimeoutError";
+  }
+}
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+type FetchJsonOpts = { timeoutMs?: number; retries?: number };
+
+async function fetchJson<T>(path: string, opts: FetchJsonOpts = {}): Promise<T> {
   const url = `${BASE}${path}`;
-  const res = await fetch(url, { headers: { "User-Agent": UA } });
-  if (!res.ok) {
-    throw new Error(`gaokao.cn ${res.status} ${res.statusText} for ${url}`);
+  const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
+  const retries = opts.retries ?? DEFAULT_RETRIES;
+
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    // Fresh AbortController per attempt — a controller can't be reused once aborted.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let timedOut = false;
+    try {
+      const res = await fetch(url, {
+        headers: { "User-Agent": UA },
+        signal: controller.signal
+      });
+
+      // 4xx are not retried — they're deterministic for a given url.
+      if (res.status >= 400 && res.status < 500) {
+        throw new Error(`gaokao.cn ${res.status} ${res.statusText} for ${url}`);
+      }
+      // 5xx / other non-ok: throw so the retry loop below can have another go.
+      if (!res.ok) {
+        throw new RetryableError(`gaokao.cn ${res.status} ${res.statusText} for ${url}`);
+      }
+
+      // Guard against HTML error/throttle/maintenance pages served with 200.
+      // res.json() on HTML throws a cryptic SyntaxError; detect it up front.
+      const ct = res.headers.get("content-type") ?? "";
+      const text = await res.text();
+      if (!ct.includes("json") && !looksLikeJson(text)) {
+        const prefix = text.slice(0, 200).replace(/\s+/g, " ").trim();
+        throw new RetryableError(
+          `gaokao.cn returned non-JSON (status ${res.status}, content-type ${ct || "<none>"}) for ${url}: ${prefix}`
+        );
+      }
+
+      let body: { code?: string; message?: string; data?: T };
+      try {
+        body = JSON.parse(text);
+      } catch {
+        const prefix = text.slice(0, 200).replace(/\s+/g, " ").trim();
+        throw new RetryableError(
+          `gaokao.cn returned unparseable body (status ${res.status}, content-type ${ct || "<none>"}) for ${url}: ${prefix}`
+        );
+      }
+
+      if (body.code !== "0000") {
+        // Application-level error code — deterministic, don't retry.
+        throw new Error(`gaokao.cn returned code=${body.code} message=${body.message} for ${url}`);
+      }
+      // Validate expected shape: `data` must be present, otherwise downstream
+      // (.flatMap / .pro_type_min) crashes with an opaque undefined error.
+      if (body.data == null) {
+        throw new Error(`gaokao.cn response missing 'data' (code=${body.code}) for ${url}`);
+      }
+      return body.data;
+    } catch (err) {
+      // AbortError → our timeout fired.
+      if (err instanceof Error && err.name === "AbortError") {
+        timedOut = true;
+        lastErr = new GaokaoTimeoutError(url, timeoutMs);
+      } else {
+        lastErr = err;
+      }
+
+      // Non-retryable: plain Error that isn't a timeout (e.g. 4xx, bad code, missing data).
+      const retryable = timedOut || lastErr instanceof RetryableError || isTransientNetworkError(err);
+      if (!retryable || attempt === retries) {
+        throw lastErr;
+      }
+      // Short backoff with jitter before the next attempt.
+      await sleep(RETRY_BACKOFF_MS * (attempt + 1) + Math.floor(Math.random() * 100));
+    } finally {
+      clearTimeout(timer);
+    }
   }
-  const body = (await res.json()) as { code: string; message: string; data: T };
-  if (body.code !== "0000") {
-    throw new Error(`gaokao.cn returned code=${body.code} message=${body.message} for ${url}`);
-  }
-  return body.data;
+  // Unreachable in practice (loop either returns or throws), but satisfies types.
+  throw lastErr instanceof Error ? lastErr : new Error(String(lastErr));
+}
+
+// Marker class for failures we're willing to retry (5xx, non-JSON bodies).
+class RetryableError extends Error {}
+
+// Heuristic: does the body start like a JSON document? Used as a fallback when
+// the upstream omits/mislabels content-type but still returns valid JSON.
+function looksLikeJson(text: string): boolean {
+  const t = text.trimStart();
+  return t.startsWith("{") || t.startsWith("[");
+}
+
+// Treat low-level fetch/network errors (DNS, ECONNRESET, socket hang up) as transient.
+function isTransientNetworkError(err: unknown): boolean {
+  if (!(err instanceof Error)) return false;
+  // undici surfaces these as TypeError("fetch failed") with a .cause.
+  return err.name === "TypeError" && /fetch failed|network|ECONN|ENOTFOUND|EAI_AGAIN|socket/i.test(
+    `${err.message} ${(err as { cause?: { code?: string; message?: string } }).cause?.code ?? ""} ${(err as { cause?: { message?: string } }).cause?.message ?? ""}`
+  );
 }
 
 // ---- Schema (a representative subset — many fields omitted for clarity) ----

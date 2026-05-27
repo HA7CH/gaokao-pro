@@ -34,10 +34,9 @@ import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 import { findUniversity, listGroups, safetyScore, datasetStats } from "./groups.js";
+import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
-
-const VERSION = "0.0.1";
 
 function parseFlags(args: string[]): { positional: string[]; flags: Record<string, string | boolean> } {
   const positional: string[] = [];
@@ -68,6 +67,31 @@ function shouldTable(flags: Record<string, string | boolean>): boolean {
   if (flags.format === "table") return true;
   if (flags.format === "json") return false;
   return isTty();
+}
+
+// Validate a list of subjects against the canonical set, throwing a consistent
+// error for the first unknown one. Used by match/recommend-major/recommend/top.
+function validateSubjects(subjects: string[]): Subject[] {
+  for (const s of subjects) {
+    if (!ALL_SUBJECTS.includes(s as Subject)) {
+      throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
+    }
+  }
+  return subjects as Subject[];
+}
+
+// Build the shared 985/211/双一流 filter fields from parsed flags. Callers that
+// need extra fields (level/type/belong) spread the result and add their own.
+function buildLabelFilter(flags: Record<string, string | boolean>): {
+  f985: true | undefined;
+  f211: true | undefined;
+  dualClass: true | undefined;
+} {
+  return {
+    f985: flags["985"] === true ? true : undefined,
+    f211: flags["211"] === true ? true : undefined,
+    dualClass: flags["dual-class"] === true ? true : undefined
+  };
 }
 
 const HELP = `gaokao-pro v${VERSION}
@@ -137,6 +161,17 @@ Usage:
   gaokao-pro chart-check --profile profile.json
       Sanity-check a profile: score range, subject combo for the province's
       新高考 reform, rank↔score consistency (if 一分一段 exists). 0-100 score.
+
+  gaokao-pro groups --university <name> [--province <name|id>]
+                    [--must <list>] [--ok <list>] [--reject <list>]
+      专业组 (major-group) view for a university. Without --province, lists
+      per-province group/major counts. With --province, lists that province's
+      groups; pass --must/--ok/--reject (comma-separated 选科) to attach a
+      safety score per group.
+      e.g. gaokao-pro groups --university 清华大学 --province henan --must 物理
+
+  gaokao-pro groups-stats
+      Coverage stats for the 专业组 dataset (schools / provinces / groups).
 
   gaokao-pro compare <A> <B> [--province <name|id>]
       Side-by-side: labels (985/211/双一流), 隶属, recent province min scores,
@@ -303,14 +338,12 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(p.province);
     if (!provinceId) throw new Error(`unknown province: ${p.province}`);
     if (!Array.isArray(p.subjects)) throw new Error("profile.subjects must be array");
-    for (const s of p.subjects) {
-      if (!ALL_SUBJECTS.includes(s as Subject)) throw new Error(`unknown subject: ${s}`);
-    }
+    const subjects = validateSubjects(p.subjects);
     const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
     const out = match({
       score: p.score,
       province: provinceId,
-      subjects: p.subjects as Subject[],
+      subjects,
       rank: p.rank,
       interests: p.interests,
       constraints: p.constraints as Profile["constraints"]
@@ -328,17 +361,12 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects is required");
-    const subjects = flags.subjects.split(",").map((s) => s.trim()) as Subject[];
-    for (const s of subjects) {
-      if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s}`);
-    }
+    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
     const year = Number(flags.year);
     if (!Number.isFinite(year)) throw new Error("--year is required");
     const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
     const filter = {
-      f985: flags["985"] === true ? true : undefined,
-      f211: flags["211"] === true ? true : undefined,
-      dualClass: flags["dual-class"] === true ? true : undefined,
+      ...buildLabelFilter(flags),
       belong: typeof flags.belong === "string" ? flags.belong : undefined
     };
     const out = await recommendMajor({ keyword, score, provinceId, subjects, year, filter, limit });
@@ -572,7 +600,7 @@ const VERBS: Record<string, Verb> = {
   async plan(args) {
     const { positional, flags } = parseFlags(args);
     const id = positional[0];
-    if (!id) throw new Error("missing schoolId");
+    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro plan 31 --year 2024 --province henan`");
     const year = Number(flags.year ?? new Date().getFullYear() - 1);
     if (!Number.isFinite(year)) throw new Error("--year must be a number");
     const provinceArg = flags.province;
@@ -614,19 +642,14 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required (comma-separated, e.g. 物理,化学,生物)");
-    const subjects = flags.subjects.split(",").map((s) => s.trim()) as Subject[];
-    for (const s of subjects) {
-      if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
-    }
+    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
     const schoolIds = typeof flags.schools === "string"
       ? flags.schools.split(",").map((s) => s.trim()).filter(Boolean)
       : undefined;
     const rank = flags.rank !== undefined ? Number(flags.rank) : undefined;
     const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
     const filter = {
-      f985: flags["985"] === true ? true : undefined,
-      f211: flags["211"] === true ? true : undefined,
-      dualClass: flags["dual-class"] === true ? true : undefined,
+      ...buildLabelFilter(flags),
       level: typeof flags.level === "string" ? flags.level : undefined,
       type: typeof flags.type === "string" ? flags.type : undefined,
       belong: typeof flags.belong === "string" ? flags.belong : undefined
@@ -647,16 +670,9 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
-    const subjects = flags.subjects.split(",").map((s) => s.trim()) as Subject[];
-    for (const s of subjects) {
-      if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
-    }
+    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
     const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
-    const filter = {
-      f985: flags["985"] === true ? true : undefined,
-      f211: flags["211"] === true ? true : undefined,
-      dualClass: flags["dual-class"] === true ? true : undefined
-    };
+    const filter = buildLabelFilter(flags);
     const out = top({ score, provinceId, subjects, limit, filter });
     if (shouldTable(flags)) {
       const rows = out.rows.map((r) => ({
@@ -678,7 +694,7 @@ const VERBS: Record<string, Verb> = {
   async actual(args) {
     const { positional, flags } = parseFlags(args);
     const id = positional[0];
-    if (!id) throw new Error("missing schoolId");
+    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro actual 31 --year 2024 --province henan`");
     const year = Number(flags.year);
     if (!Number.isFinite(year)) throw new Error("--year <year> is required");
     if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
@@ -724,9 +740,7 @@ const VERBS: Record<string, Verb> = {
     if (!Number.isFinite(year)) throw new Error("--year <year> is required");
     const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
     const filter = {
-      f985: flags["985"] === true ? true : undefined,
-      f211: flags["211"] === true ? true : undefined,
-      dualClass: flags["dual-class"] === true ? true : undefined,
+      ...buildLabelFilter(flags),
       belong: typeof flags.belong === "string" ? flags.belong : undefined
     };
     const out = await find({ keyword, provinceId, year, filter, limit });
@@ -762,7 +776,7 @@ const VERBS: Record<string, Verb> = {
   async scores(args) {
     const { positional, flags } = parseFlags(args);
     const id = positional[0];
-    if (!id) throw new Error("missing schoolId");
+    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro scores 31 --province henan`");
     const provinceArg = flags.province;
     if (typeof provinceArg !== "string") throw new Error("--province <name|id> is required");
     const provinceId = resolveProvince(provinceArg);
