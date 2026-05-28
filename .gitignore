@@ -12,3 +12,6 @@ next-env.d.ts
 cli/.cache/
 cli/probe-output/
 .vercel
+
+# Claude Code worktree internals — per-session state, not source
+.claude/
