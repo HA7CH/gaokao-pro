@@ -76,13 +76,15 @@ const PROVINCES: Row[] = [
     rules: "3+1+2 新高考（2025 首届）。少数民族加分政策（藏族/回族/土族/撒拉族等）。民族班/预科班招生量大。青大医学院藏族民族班是本地医学主路径。" },
   { name: "宁夏", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
     rules: "3+1+2 新高考（2025 首届）。少数民族加分（回族）。宁大/北方民大 是省内主要去向。" },
-  { name: "新疆", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
-    rules: "3+1+2 新高考（2025 首届）。三分离录取（汉族/民考汉/民考民 三类分别划线）。民族班/双语班 + 内地高校新疆班/协作计划。少数民族加分 50 分（双亲少数民族）。" }
+  { name: "新疆", reform: "old", plan: "live", scores: "live", rank: "building", actual: "live", employment: "building",
+    rules: "目前仍 old 高考（2024 秋季高一启动 3+1+2，首届新高考为 2027）。单列类 11 民族 +15 加分（维/哈/蒙/柯/塔吉克/锡伯/乌兹别克/塔塔尔/达斡尔/藏/俄）。三试卷分流（普通类/单列类外语 vs 民语言）。内高班 14 内地省市办学 + 南疆单列 + 对口援疆。" }
 ];
 
 const PROMPT = `跑 \`npx gaokao-pro@latest help\` 把命令摸清楚，然后帮我规划 2026 年的高考志愿。
 
-先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+先问我：身份（普通类 / 艺术 / 体育 / 强基 / 综评 / 港澳台 / 民族班）、分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+
+对应通道：普通类用 recommend/top/find/match；艺术类用 art-tongkao 查综合分公式；体育用 sports-tongzhao 查公式；强基用 qiangji-line 查校×省入围线；综评用 zonghe 查校单+公式；港澳台用 qatw 查联招/居住证/DSE/学测通道；民族班用 minzu 查加分梯度+预科降分。
 
 每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。`;
 
@@ -304,6 +306,26 @@ export default function Home() {
         </p>
         <p className="parent-note-sign">孩子的人生路口，多花点时间是值得的。</p>
       </aside>
+
+      <section className="special-admissions-card" aria-labelledby="special-admissions-title">
+        <h2 id="special-admissions-title" className="section-title">
+          v0.2.0 · 特殊招生支持 ✦
+        </h2>
+        <p style={{ marginTop: "0.5rem", fontSize: "0.95rem", color: "var(--fg-dim)" }}>
+          为艺术 / 体育 / 强基 / 综评 / 港澳台 / 民族班家庭加的 7 个新命令。
+          覆盖 <strong>34 个区域</strong>（31 省 + 港 81 / 澳 82 / 台 71）×
+          <strong> 3 年</strong>（2023/2024/2025）× <strong>6 类数据</strong>，共 <strong>1,400+ 条结构化记录</strong>。
+        </p>
+        <ul style={{ marginTop: "0.5rem", paddingLeft: "1.2rem", fontSize: "0.92rem", lineHeight: "1.7" }}>
+          <li><code>art-tongkao</code> — 艺术统考 6 大类公式（含河南 5 选 1、云南 25 取消省线、湖北 ×2 还原、辽宁百分制再加权 等独有口径）</li>
+          <li><code>sports-tongzhao</code> — 体育统招 5 种公式 kind（湖南/青海 直接相加、陕西/甘肃 按专业课、海南 按高考总分、重庆 25 本专合一 73、湖北 1.25 系数）</li>
+          <li><code>qiangji-line</code> — 强基 39 校 × 31 省 × 3 年 入围线 + 报名即入围 12 校 + 西部 75% 文化门槛（甘青宁新）</li>
+          <li><code>zonghe</code> — 综评（浙江三位一体 39 校独有学考维度 / 江苏 23 校 A·B 类 / 沪鲁粤 11 校 85+15 / 京闽 7 校外省）</li>
+          <li><code>minzu</code> — 少数民族加分梯度 + 民族班/预科（甘肃两州五县 +20、新疆单列类 +15、西藏双联户 +10 + 进藏干部 +1/年）+ 退坡时间表</li>
+          <li><code>qatw</code> — 港澳台双向（全国联招 / 居住证高考 / DSE 互认 / 港校独立招生 / 澳门四校 / 学测申请陆校 / 陆生赴台 2020 起暂停）</li>
+          <li><code>special-coverage</code> — 18 个 dataset 覆盖率统计</li>
+        </ul>
+      </section>
 
       <section className="province-table" aria-labelledby="provinces-title">
         <h2 id="provinces-title" className="section-title">
