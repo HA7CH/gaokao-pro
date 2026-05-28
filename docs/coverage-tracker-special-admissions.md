@@ -107,12 +107,14 @@
 - [x] 新疆 prompt 错把 "24 首届" — 实际 27 首届(已在 xinjiang.md 标注)
 - [x] 山西 prompt 错把 "25 末年 old" — 实际 25 首届新高考(已在 shanxi.md 标注)
 
-### P5 — Release prep (iter 4+)
-- [ ] README 更新 — 7 个新 verb + 7 个 MCP 工具
-- [ ] 版本 bump 0.1.5 → 0.2.0
-- [ ] art-formula-2023.json 补全 或 文档已知 limitation
-- [ ] CI/test 集成(smoke test 加入 package.json scripts)
-- [ ] git commit + push 后才能 npm publish
+### P5 — Release prep — **DONE iter 4**
+- [x] README 更新 — Mainline + Special admissions 双表 + v0.2.0 章节
+- [x] 版本 bump 0.1.5 → 0.2.0(package.json + cli/src/index.ts VERSION)
+- [x] art-formula-2023.json 补全(97 records,25 regions)
+- [x] CI/test 集成(test:special script in package.json)
+- [x] git commit in worktree branch worktree-ralph-loop-special-admissions
+- [x] npm pack --dry-run 验证:18 JSON 文件都将 publish
+- [ ] **user action**: merge worktree branch → main + npm publish + git push
 
 ## Ralph Loop Iteration Plan
 
