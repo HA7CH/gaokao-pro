@@ -6,6 +6,26 @@
   "source_markdown_dir": "docs/special-admissions-3year",
   "records": [
     {
+      "region_id": 11,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "北京本地无地方少数民族加分(京籍少民无加分);援疆援藏内地班单列,不属于本省特招通道。"
+    },
+    {
+      "region_id": 12,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "天津本地不享受少数民族加分(2023 起取消);保留烈士子女、退役军人等政策性加分。"
+    },
+    {
       "region_id": 13,
       "year": 2023,
       "bonus_tiers": [
@@ -14,11 +34,26 @@
           "bonus": 10,
           "requirements": "户籍/学籍/实际就读三连+父母同县,县级招办初审;民族同父或母",
           "scope_universities": "all",
-          "rollback_schedule": { "2026": 5 }
+          "rollback_schedule": {
+            "2026": 5
+          }
         }
       ],
-      "data_source": ["hebeea.edu.cn", "jyt.hebei.gov.cn"],
+      "data_source": [
+        "hebeea.edu.cn",
+        "jyt.hebei.gov.cn"
+      ],
       "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "山西非民族聚居重点省份;按教育部统一规定执行,无省级特设加分。"
     },
     {
       "region_id": 15,
@@ -36,8 +71,12 @@
         "中南民族大学",
         "大连民族大学"
       ],
-      "language_tracks": ["蒙古语文(乙)加试,满分 150,按 70% 计入文化总分;外语按 30%"],
-      "data_source": ["nm.zsks.cn"],
+      "language_tracks": [
+        "蒙古语文(乙)加试,满分 150,按 70% 计入文化总分;外语按 30%"
+      ],
+      "data_source": [
+        "nm.zsks.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -49,10 +88,15 @@
           "bonus": 4,
           "requirements": "民族同父/母、连续 3 年户籍 + 3 年学籍并实际就读;不得用于艺术不分省、高水平、专项",
           "scope_universities": "all",
-          "rollback_schedule": { "2026": 0 }
+          "rollback_schedule": {
+            "2026": 0
+          }
         }
       ],
-      "data_source": ["lnzsks.com", "jyt.ln.gov.cn"],
+      "data_source": [
+        "lnzsks.com",
+        "jyt.ln.gov.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -66,7 +110,9 @@
           "scope_universities": "all"
         }
       ],
-      "data_source": ["jleea.com.cn"],
+      "data_source": [
+        "jleea.com.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -80,9 +126,53 @@
           "scope_universities": "all"
         }
       ],
-      "language_tracks": ["朝鲜语高考(民族语言授课考生)"],
-      "data_source": ["hlj.gov.cn"],
+      "language_tracks": [
+        "朝鲜语高考(民族语言授课考生)"
+      ],
+      "data_source": [
+        "hlj.gov.cn"
+      ],
       "confidence": "medium"
+    },
+    {
+      "region_id": 31,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "上海无少数民族高考政策。"
+    },
+    {
+      "region_id": 32,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "江苏非民族自治省,无少数民族加分。"
+    },
+    {
+      "region_id": 33,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "浙江非边疆少数民族大省,无显著加分政策。"
+    },
+    {
+      "region_id": 34,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "安徽非民族类省份,无特殊民族公式。"
     },
     {
       "region_id": 35,
@@ -93,10 +183,15 @@
           "bonus": 5,
           "requirements": "民族乡/高山/海岛 3 年完整户籍 + 学籍 + 实际就读",
           "scope_universities": "provincial_only",
-          "rollback_schedule": { "2026": 0 }
+          "rollback_schedule": {
+            "2026": 0
+          }
         }
       ],
-      "data_source": ["eeafj.cn", "jyt.fujian.gov.cn"],
+      "data_source": [
+        "eeafj.cn",
+        "jyt.fujian.gov.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -108,11 +203,25 @@
           "bonus": 3,
           "requirements": "仅省属高校投档使用",
           "scope_universities": "provincial_only",
-          "rollback_schedule": { "2025": 0 }
+          "rollback_schedule": {
+            "2025": 0
+          }
         }
       ],
-      "data_source": ["jxeea.cn"],
+      "data_source": [
+        "jxeea.cn"
+      ],
       "confidence": "high"
+    },
+    {
+      "region_id": 37,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "山东无民族高考加分。"
     },
     {
       "region_id": 41,
@@ -122,10 +231,15 @@
           "scope": "少数民族(2021-2023 末年)",
           "bonus": 5,
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 0 }
+          "rollback_schedule": {
+            "2024": 0
+          }
         }
       ],
-      "data_source": ["haeea.cn", "jyt.henan.gov.cn"],
+      "data_source": [
+        "haeea.cn",
+        "jyt.henan.gov.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -139,7 +253,9 @@
           "scope_universities": "all"
         }
       ],
-      "data_source": ["jyt.hubei.gov.cn"],
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -153,8 +269,20 @@
           "scope_universities": "all"
         }
       ],
-      "data_source": ["jyt.hunan.gov.cn"],
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
       "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "广东无规模性瑶/壮少民加分专项;按国家民委公布的少民聚居区规定加分,通常 5 分。"
     },
     {
       "region_id": 45,
@@ -219,8 +347,21 @@
         "预科 A 类(免费少数民族预科班):仅面向广西 60 个老少边山穷县(市、区)农村户籍少数民族应届考生;按民族人口比例配额",
         "预科 B 类(少数民族预科班):面向全区少数民族(不限农村/应届);本批次最低提档线下 80 分内"
       ],
-      "data_source": ["gxeea.cn", "jyt.gxzf.gov.cn"],
+      "data_source": [
+        "gxeea.cn",
+        "jyt.gxzf.gov.cn"
+      ],
       "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "海南本地少民(黎/苗/三亚回)加分已并入新高考过渡,以省考试局当年公告为准;2025 文件未单列硬加分。"
     },
     {
       "region_id": 50,
@@ -239,7 +380,10 @@
           "scope_universities": "all"
         }
       ],
-      "data_source": ["cqksy.cn", "gaokao.eol.cn"],
+      "data_source": [
+        "cqksy.cn",
+        "gaokao.eol.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -283,7 +427,10 @@
           "scope_universities": "provincial_only"
         }
       ],
-      "data_source": ["sceea.cn", "gaokao.eol.cn"],
+      "data_source": [
+        "sceea.cn",
+        "gaokao.eol.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -295,21 +442,28 @@
           "bonus": 10,
           "requirements": "三统一:户籍 + 学籍 + 实际就读地连续 3 年在同一县(市、区、特区)",
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 0 }
+          "rollback_schedule": {
+            "2024": 0
+          }
         },
         {
           "scope": "二类区少民(贵阳郊县、遵义县市、六盘水、安顺平坝/普定、凯里/都匀/兴义、毕节/铜仁非民族县、贵安)",
           "bonus": 10,
           "requirements": "三统一",
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 5, "2026": 0 }
+          "rollback_schedule": {
+            "2024": 5,
+            "2026": 0
+          }
         },
         {
           "scope": "三类区少民(三州除州府其他县市、民族自治县)",
           "bonus": 10,
           "requirements": "三统一",
           "scope_universities": "all",
-          "rollback_schedule": { "2026": 5 }
+          "rollback_schedule": {
+            "2026": 5
+          }
         }
       ],
       "host_schools": [
@@ -321,8 +475,13 @@
         "六盘水师范学院",
         "贵州大学"
       ],
-      "language_tracks": ["民汉双语:苗/布依/侗/彝/水/瑶 6 语种"],
-      "data_source": ["mzt.guizhou.gov.cn", "jyt.guizhou.gov.cn"],
+      "language_tracks": [
+        "民汉双语:苗/布依/侗/彝/水/瑶 6 语种"
+      ],
+      "data_source": [
+        "mzt.guizhou.gov.cn",
+        "jyt.guizhou.gov.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -358,7 +517,10 @@
         "中央民族大学",
         "西南民族大学"
       ],
-      "data_source": ["ynzs.cn", "gaokao.eol.cn"],
+      "data_source": [
+        "ynzs.cn",
+        "gaokao.eol.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -410,8 +572,21 @@
         "双线制 A/B:A=区内世居两代以上少数民族;B=汉族 + 区外少数民族",
         "本一/本二 预科 平行志愿各 10 个;批次顺序:本一→本一(预科)→本二→本二(预科)"
       ],
-      "data_source": ["xizang 政府网", "gaokao.chsi.com.cn"],
+      "data_source": [
+        "xizang 政府网",
+        "gaokao.chsi.com.cn"
+      ],
       "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2023,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "high",
+      "notes": "陕南/陕北汉/回 等少民加分政策已逐年清理;少民聚居区少民仍享国家规定加分。"
     },
     {
       "region_id": 62,
@@ -428,7 +603,10 @@
           "bonus": 10,
           "requirements": "连续 3 年户籍/学籍/实际就读",
           "scope_universities": "provincial_only",
-          "rollback_schedule": { "2026": 5, "2029": 0 }
+          "rollback_schedule": {
+            "2026": 5,
+            "2029": 0
+          }
         }
       ],
       "minzu_ban_discount": -40,
@@ -437,7 +615,11 @@
         "兰州大学",
         "西北民族大学"
       ],
-      "data_source": ["ganseea.cn", "zsb.lzu.edu.cn", "xbmu.edu.cn"],
+      "data_source": [
+        "ganseea.cn",
+        "zsb.lzu.edu.cn",
+        "xbmu.edu.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -459,7 +641,9 @@
         "省内本科预科:六州(海北/海南/海西/黄南/果洛/玉树) + 海东各区县农村户籍 + 大通/湟中/湟源农村少民",
         "藏汉双语投档:(民族汉考+藏语文)÷2 + 数学 + 外语 + 综合 + 加分"
       ],
-      "data_source": ["qhjyks.com"],
+      "data_source": [
+        "qhjyks.com"
+      ],
       "confidence": "medium"
     },
     {
@@ -471,21 +655,29 @@
           "bonus": 20,
           "requirements": "三统一(户籍 + 学籍 + 实际就读 各 3 年);2024 改革后降至 10",
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 10 }
+          "rollback_schedule": {
+            "2024": 10
+          }
         },
         {
           "scope": "山区汉族(2024 改革后,2023 旧制 10 分)",
           "bonus": 10,
           "requirements": "三统一;2024 起改为 5,2027 取消",
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 5, "2027": 0 }
+          "rollback_schedule": {
+            "2024": 5,
+            "2027": 0
+          }
         },
         {
           "scope": "川区少民(兴庆/西夏/金凤/永宁/贺兰/灵武/大武口/惠农/平罗/利通/青铜峡/沙坡头/中宁)",
           "bonus": 10,
           "requirements": "三统一;2024 起改为 5,2027 取消",
           "scope_universities": "all",
-          "rollback_schedule": { "2024": 5, "2027": 0 }
+          "rollback_schedule": {
+            "2024": 5,
+            "2027": 0
+          }
         }
       ],
       "minzu_ban_discount": -40,
@@ -496,7 +688,10 @@
         "宁夏师范大学",
         "宁夏医科大学"
       ],
-      "data_source": ["jyt.nx.gov.cn", "nxjyks.cn"],
+      "data_source": [
+        "jyt.nx.gov.cn",
+        "nxjyks.cn"
+      ],
       "confidence": "high"
     },
     {
@@ -529,7 +724,10 @@
         "内高班(内地新疆高中班):14 个内地省市办学,3 年制无预科,80%+ 农牧民子女;毕业生专用招生计划单列",
         "民族预科 / 协作计划:中央民大、西北民大、北方民大、青海民大 等"
       ],
-      "data_source": ["xjzk.gov.cn", "gaokao.eol.cn"],
+      "data_source": [
+        "xjzk.gov.cn",
+        "gaokao.eol.cn"
+      ],
       "confidence": "high"
     }
   ]
