@@ -42,13 +42,11 @@ import {
   findMinzuPolicy,
   listQATWForRegion,
   findQATWChannel,
-  coverageReport
+  coverageReport,
+  validateArtCategory,
+  validateQATWChannel
 } from "./special-admissions.js";
-import type {
-  ArtCategory,
-  Year as SAYear,
-  QATWChannelType
-} from "./types/special-admissions.js";
+import type { Year as SAYear } from "./types/special-admissions.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
@@ -814,8 +812,9 @@ const VERBS: Record<string, Verb> = {
     if (!id) throw new Error(`unknown province: ${pa}`);
     const year = parseSAYear(flags.year);
     if (typeof flags.category === "string") {
-      const rec = findArtFormula(id, flags.category as ArtCategory, year);
-      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, category: flags.category, year }, record: rec });
+      const category = validateArtCategory(flags.category); // throws on typo
+      const rec = findArtFormula(id, category, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, category, year }, record: rec });
     } else {
       const list = listArtFormulasForRegion(id, year);
       printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });
@@ -893,8 +892,9 @@ const VERBS: Record<string, Verb> = {
     }
     const year = parseSAYear(flags.year);
     if (typeof flags.channel === "string") {
-      const rec = findQATWChannel(id, flags.channel as QATWChannelType, year);
-      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, channel: flags.channel, year }, record: rec });
+      const channel = validateQATWChannel(flags.channel); // throws on typo
+      const rec = findQATWChannel(id, channel, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, channel, year }, record: rec });
     } else {
       const list = listQATWForRegion(id, year);
       printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });

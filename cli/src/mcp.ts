@@ -51,9 +51,11 @@ import {
   findMinzuPolicy,
   listQATWForRegion,
   findQATWChannel,
-  coverageReport
+  coverageReport,
+  validateArtCategory,
+  validateQATWChannel
 } from "./special-admissions.js";
-import type { ArtCategory, Year as SAYear, QATWChannelType } from "./types/special-admissions.js";
+import type { Year as SAYear } from "./types/special-admissions.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.2.0" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -689,7 +691,7 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const id = resolveProvince(province);
       if (!id) throw new Error(`unknown province: ${province}`);
       const year = saYearFrom(args);
-      const category = typeof args.category === "string" ? (args.category as ArtCategory) : undefined;
+      const category = typeof args.category === "string" ? validateArtCategory(args.category) : undefined;
       if (category) {
         const rec = findArtFormula(id, category, year);
         return { ok: true, query: { region: id, name: PROVINCES[id].name, category, year }, record: rec };
@@ -755,7 +757,7 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
         throw new Error(`qatw requires 71 台湾 / 81 香港 / 82 澳门, got: ${region}`);
       }
       const year = saYearFrom(args);
-      const channel = typeof args.channel === "string" ? (args.channel as QATWChannelType) : undefined;
+      const channel = typeof args.channel === "string" ? validateQATWChannel(args.channel) : undefined;
       if (channel) {
         const rec = findQATWChannel(id, channel, year);
         return { ok: true, query: { region: id, name: PROVINCES[id].name, channel, year }, record: rec };

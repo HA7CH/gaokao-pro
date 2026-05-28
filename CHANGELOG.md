@@ -7,7 +7,7 @@
 ### Added
 
 - **34 regions** indexed (31 mainland + 71 台湾 / 81 香港 / 82 澳门 per GB/T 2260). `provinces` verb now lists all 34.
-- **18 special-admissions JSON datasets** (6 categories × 3 years) totaling **1,400+ records**:
+- **18 special-admissions JSON datasets** (6 categories × 3 years) totaling **1,497 records**:
   - `art-formula-{2023,2024,2025}.json` — 6 大类公式 + 合格线 + 文化控制线
   - `sports-formula-{2023,2024,2025}.json` — 5 种 `SportsFormulaKind`(weighted / additive / professional_first / gaokao_only / merged_specline)
   - `qiangji-quota-{2023,2024,2025}.json` — 39 校 × 31 省 × 3 年 入围线 + 报名即入围 12 校
@@ -44,17 +44,24 @@ New TS types at `cli/src/types/special-admissions.ts`:
 - `ArtFormulaRecord` / `SportsFormulaRecord` / `QiangjiQuotaRecord` / `ZongPingRecord` / `MinzuPolicyRecord` / `QATWChannelRecord`
 - `SpecialAdmissionsDataset` envelope with `schema_version: "1.0.0"`
 
-### Coverage matrix
+### Coverage matrix (actual)
 
 ```
-art-formula    23:31/31 ✅  24:31/31 ✅  25:31/31 ✅
-sports-formula 23:31/31 ✅  24:31/31 ✅  25:31/31 ✅
-qiangji-quota  23:31/31 ✅  24:31/31 ✅  25:31/31 ✅
-zongping       23:31/31 ✅  24:31/31 ✅  25:31/31 ✅
-minzu-policy   23:31/31 ✅  24:31/31 ✅  25:31/31 ✅
-qatw-channel    3/3 × 3 = 9 cells (3 special regions)
-total = 474 (region × year × category) cells covered
+                 23 records / regions     24 records / regions    25 records / regions
+art-formula      109 / 28                 260 / 31 (含 qatw stub)   292 / 31 (含 qatw stub)
+sports-formula    34 / 31 (含 qatw stub)   34 / 31                  34 / 31
+qiangji-quota     44 / 31 (含 qatw stub)   67 / 31                 155 / 31 (含 qatw stub)
+zongping          99 / 31 (含 qatw stub)  111 / 31                 117 / 31
+minzu-policy      34 / 31 (31 mainland + 3 qatw stub × 3 年)
+qatw-channel      11 / 3                   11 / 3                   11 / 3
+
+31 mainland regions × 5 mainland categories × 3 years = 465 cells, 全部 ≥1 record(含 confidence:low stub)
+3 special regions × 3 years (qatw) = 9 cells
+3 special regions × 5 mainland categories × 3 years = 45 cross-verb guidance stub
+Total: 1,497 records / 18 JSON files
 ```
+
+Stub records (`confidence: low`) marked with notes pointing to source markdown when data is sparse(early-year coverage or 旧高考时期口径与 6 大类不可比),or "请用 qatw" cross-verb guidance for 港澳台 in mainland categories.
 
 ### Verification
 

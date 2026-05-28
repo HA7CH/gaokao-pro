@@ -11,16 +11,30 @@
       "channel": "全国联招",
       "applicants": 8189,
       "control_lines": [
-        { "batch": "本科普通", "wen": 365, "li": 390 },
-        { "batch": "本科普通高分", "wen": 465, "li": 510 },
-        { "batch": "本科艺术/体育", "wen": 265, "li": 290 }
+        {
+          "batch": "本科普通",
+          "wen": 365,
+          "li": 390
+        },
+        {
+          "batch": "本科普通高分",
+          "wen": 465,
+          "li": 510
+        },
+        {
+          "batch": "本科艺术/体育",
+          "wen": 265,
+          "li": 290
+        }
       ],
       "notes": "港籍报名 8,189(同比 +42.58%,激增)。联招总报名 10,320(港 8189/澳 554/台 1271/侨 306),总录取 6,012,录取率 58%(首破 1 万,录取率下行)。",
       "data_source": [
         "https://eea.gd.gov.cn/lhzs/",
         "docs/special-admissions-3year/hongkong.md"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "admitted": 6012,
+      "admission_rate": 0.58
     },
     {
       "region_id": 81,
@@ -49,15 +63,50 @@
       "year": 2024,
       "channel": "港校招内地生",
       "schools": [
-        { "name_zh": "香港大学", "quota": 360, "notes": "独立招生(无面试),总录 780 非本地" },
-        { "name_zh": "香港中文大学", "zs_code": "81002", "quota": 413, "notes": "统招提前批,扩至 406 名额" },
-        { "name_zh": "香港科技大学", "quota": 250, "notes": "独立招生,申请 1.5w" },
-        { "name_zh": "香港城市大学", "quota": 220, "notes": "统招提前批" },
-        { "name_zh": "香港理工大学", "quota": 280, "notes": "独立招生 + 3D 综评 + STARS" },
-        { "name_zh": "香港浸会大学", "quota": 301, "notes": "独立招生(+122)" },
-        { "name_zh": "岭南大学", "notes": "独立招生,小规模" },
-        { "name_zh": "香港教育大学", "quota": 300, "notes": "独立招生,大扩" },
-        { "name_zh": "香港都会大学", "notes": "独立招生,二本线" }
+        {
+          "name_zh": "香港大学",
+          "quota": 360,
+          "notes": "独立招生(无面试),总录 780 非本地"
+        },
+        {
+          "name_zh": "香港中文大学",
+          "zs_code": "81002",
+          "quota": 413,
+          "notes": "统招提前批,扩至 406 名额"
+        },
+        {
+          "name_zh": "香港科技大学",
+          "quota": 250,
+          "notes": "独立招生,申请 1.5w"
+        },
+        {
+          "name_zh": "香港城市大学",
+          "quota": 220,
+          "notes": "统招提前批"
+        },
+        {
+          "name_zh": "香港理工大学",
+          "quota": 280,
+          "notes": "独立招生 + 3D 综评 + STARS"
+        },
+        {
+          "name_zh": "香港浸会大学",
+          "quota": 301,
+          "notes": "独立招生(+122)"
+        },
+        {
+          "name_zh": "岭南大学",
+          "notes": "独立招生,小规模"
+        },
+        {
+          "name_zh": "香港教育大学",
+          "quota": 300,
+          "notes": "独立招生,大扩"
+        },
+        {
+          "name_zh": "香港都会大学",
+          "notes": "独立招生,二本线"
+        }
       ],
       "notes": "2024/25 起八大非本地生比例从 20% 阶梯上调至 40%(6 所自资大学执行),港校扩招。各校分省最低线无官方统一发布。",
       "data_source": [
@@ -67,23 +116,36 @@
       ],
       "confidence": "medium"
     },
-
     {
       "region_id": 82,
       "year": 2024,
       "channel": "全国联招",
       "applicants": 554,
       "control_lines": [
-        { "batch": "本科普通", "wen": 365, "li": 390 },
-        { "batch": "本科普通高分", "wen": 465, "li": 510 },
-        { "batch": "本科艺术/体育", "wen": 265, "li": 290 }
+        {
+          "batch": "本科普通",
+          "wen": 365,
+          "li": 390
+        },
+        {
+          "batch": "本科普通高分",
+          "wen": 465,
+          "li": 510
+        },
+        {
+          "batch": "本科艺术/体育",
+          "wen": 265,
+          "li": 290
+        }
       ],
       "notes": "澳门考区。联招总报名 10,320 首破万,总录取 6,012(录取率 58%)。",
       "data_source": [
         "https://eea.gd.gov.cn/lhzs/",
         "docs/special-admissions-3year/macau.md"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "admitted": 6012,
+      "admission_rate": 0.58
     },
     {
       "region_id": 82,
@@ -101,9 +163,18 @@
       "channel": "保送生",
       "admitted": 200,
       "schools": [
-        { "name_zh": "暨南大学", "notes": "澳门保送生最大接收方之一" },
-        { "name_zh": "北京师范大学珠海校区", "notes": "澳门保送生最大接收方之一" },
-        { "name_zh": "中山大学", "notes": "澳门保送生最大接收方之一" }
+        {
+          "name_zh": "暨南大学",
+          "notes": "澳门保送生最大接收方之一"
+        },
+        {
+          "name_zh": "北京师范大学珠海校区",
+          "notes": "澳门保送生最大接收方之一"
+        },
+        {
+          "name_zh": "中山大学",
+          "notes": "澳门保送生最大接收方之一"
+        }
       ],
       "notes": "教青局组织,本澳中学综合排名前 40% 推荐,免试直入。年度总录取约 200+。",
       "data_source": [
@@ -116,12 +187,35 @@
       "year": 2024,
       "channel": "澳校招内地生",
       "schools": [
-        { "name_zh": "澳门大学", "quota": 250, "notes": "独立招生,粤物理参考一本/特控 +60,英语 ≥110" },
-        { "name_zh": "澳门科技大学", "quota": 3000, "notes": "独立招生(含先修班 200),一本优先,二本高分" },
-        { "name_zh": "澳门理工大学", "quota": 250, "notes": "独立招生,一本/特控" },
-        { "name_zh": "澳门旅游大学", "quota": 150, "notes": "2024 升大,独立招生,一本 + 英语面试" },
-        { "name_zh": "澳门城市大学", "quota": 1000, "notes": "私立,独立招生,重点一本/普通二本" },
-        { "name_zh": "镜湖护理学院", "notes": "私立,独立招生,小规模,二本线" }
+        {
+          "name_zh": "澳门大学",
+          "quota": 250,
+          "notes": "独立招生,粤物理参考一本/特控 +60,英语 ≥110"
+        },
+        {
+          "name_zh": "澳门科技大学",
+          "quota": 3000,
+          "notes": "独立招生(含先修班 200),一本优先,二本高分"
+        },
+        {
+          "name_zh": "澳门理工大学",
+          "quota": 250,
+          "notes": "独立招生,一本/特控"
+        },
+        {
+          "name_zh": "澳门旅游大学",
+          "quota": 150,
+          "notes": "2024 升大,独立招生,一本 + 英语面试"
+        },
+        {
+          "name_zh": "澳门城市大学",
+          "quota": 1000,
+          "notes": "私立,独立招生,重点一本/普通二本"
+        },
+        {
+          "name_zh": "镜湖护理学院",
+          "notes": "私立,独立招生,小规模,二本线"
+        }
       ],
       "notes": "方向 B 内地 → 澳校。2024 旅游学院升格为'澳门旅游大学'。",
       "data_source": [
@@ -131,23 +225,36 @@
       ],
       "confidence": "medium"
     },
-
     {
       "region_id": 71,
       "year": 2024,
       "channel": "全国联招",
       "applicants": 1271,
       "control_lines": [
-        { "batch": "本科普通", "wen": 365, "li": 390 },
-        { "batch": "本科普通高分", "wen": 465, "li": 510 },
-        { "batch": "本科艺术/体育", "wen": 265, "li": 290 }
+        {
+          "batch": "本科普通",
+          "wen": 365,
+          "li": 390
+        },
+        {
+          "batch": "本科普通高分",
+          "wen": 465,
+          "li": 510
+        },
+        {
+          "batch": "本科艺术/体育",
+          "wen": 265,
+          "li": 290
+        }
       ],
       "notes": "2024 联招台籍报名首次官方按地区拆分(1271)。联招总报名 10,320,总录取 6,012(录取率 58%)。",
       "data_source": [
         "https://eea.gd.gov.cn/lhzs/",
         "docs/special-admissions-3year/taiwan.md"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "admitted": 6012,
+      "admission_rate": 0.58
     },
     {
       "region_id": 71,

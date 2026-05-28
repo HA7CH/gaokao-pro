@@ -25,6 +25,31 @@ import type {
   SpecialAdmissionsDataset
 } from "./types/special-admissions.js";
 
+// Runtime-validated enums — keep in sync with types/special-admissions.ts unions.
+export const ART_CATEGORIES: readonly ArtCategory[] = [
+  "美术与设计", "音乐表演-声乐", "音乐表演-器乐", "音乐教育-声乐", "音乐教育-器乐",
+  "舞蹈", "戏剧影视表演", "戏剧影视导演", "服装表演", "播音与主持", "书法", "戏曲"
+] as const;
+
+export const QATW_CHANNELS: readonly QATWChannelType[] = [
+  "全国联招", "居住证高考", "保送生", "DSE互认",
+  "港校招内地生", "澳校招内地生", "学测申请陆校", "陆生申请台校"
+] as const;
+
+export function validateArtCategory(c: string): ArtCategory {
+  if ((ART_CATEGORIES as readonly string[]).includes(c)) return c as ArtCategory;
+  throw new Error(
+    `unknown art category: "${c}". Must be one of: ${ART_CATEGORIES.join(" / ")}`
+  );
+}
+
+export function validateQATWChannel(c: string): QATWChannelType {
+  if ((QATW_CHANNELS as readonly string[]).includes(c)) return c as QATWChannelType;
+  throw new Error(
+    `unknown qatw channel: "${c}". Must be one of: ${QATW_CHANNELS.join(" / ")}`
+  );
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const SRC_DIR = dirname(__filename);
 
@@ -40,15 +65,43 @@ function findDir(): string | null {
   return null;
 }
 
+// Module-level cache — avoids re-reading + re-parsing JSON on every CLI/MCP call.
+// `coverageReport` previously walked all 18 files per invocation; now reads each once.
+const _cache = new Map<string, unknown[]>();
+
 function loadDataset<T>(category: string, year: Year): T[] {
+  const key = `${category}-${year}`;
+  const cached = _cache.get(key);
+  if (cached !== undefined) return cached as T[];
+
   const dir = findDir();
-  if (!dir) return [];
+  if (!dir) {
+    _cache.set(key, []);
+    return [];
+  }
   const path = resolve(dir, `${category}-${year}.json`);
-  if (!existsSync(path)) return [];
+  if (!existsSync(path)) {
+    _cache.set(key, []);
+    return [];
+  }
   try {
     const parsed = JSON.parse(readFileSync(path, "utf8")) as SpecialAdmissionsDataset;
-    return (parsed.records as T[]) ?? [];
-  } catch {
+    // Cross-check category matches filename — guards against misnamed file → wrong record type cast.
+    if (parsed.category !== category) {
+      process.stderr.write(
+        `[special-admissions] WARN: ${path} declares category="${parsed.category}" but filename implies "${category}". Returning empty.\n`
+      );
+      _cache.set(key, []);
+      return [];
+    }
+    const records = (parsed.records as T[]) ?? [];
+    _cache.set(key, records as unknown[]);
+    return records;
+  } catch (e) {
+    process.stderr.write(
+      `[special-admissions] WARN: failed to parse ${path}: ${e instanceof Error ? e.message : String(e)}\n`
+    );
+    _cache.set(key, []);
     return [];
   }
 }

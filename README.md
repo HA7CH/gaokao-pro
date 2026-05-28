@@ -70,8 +70,10 @@ Data sources:
 - **`cli/data/yifenyiduan/`** — extracted 一分一段表 JSON, per province per
   year per track. Beijing 2023-2025 ingested. Roadmap: 34 regions.
 - **`cli/data/datasets/special-admissions/`** — v0.2.0 ships 18 JSON files
-  (6 categories × 3 years) totaling 1,300+ records covering 34 regions for
+  (6 categories × 3 years) totaling **1,497 records** covering 34 regions for
   特殊招生. Source markdowns at `docs/special-admissions-3year/`.
+  Family quickstart at `docs/family-quickstart.md`; coverage details at
+  `docs/coverage-tracker-special-admissions.md`; release notes in `CHANGELOG.md`.
 
 ## Repo
 
@@ -84,7 +86,7 @@ gaokao-pro/
 │   │   ├── recommend.ts                  # 冲/稳/保 algorithm (offline)
 │   │   ├── top.ts / find.ts              # top-N + cross-school search
 │   │   ├── rank-table.ts                 # 一分一段 loader (score ↔ rank)
-│   │   ├── mcp.ts                        # stdio MCP server (24 tools)
+│   │   ├── mcp.ts                        # stdio MCP server (27 tools incl. 7 special)
 │   │   ├── special-admissions.ts         # v0.2.0 — 特殊招生 loader (artic/sports/qiangji/...)
 │   │   ├── types/special-admissions.ts   # v0.2.0 — 6 record interfaces + dataset shape
 │   │   ├── format.ts / index-loader.ts / probe.ts
@@ -96,7 +98,7 @@ gaokao-pro/
 │   │   └── datasets/
 │   │       ├── qiangji-2024.json         # 39 强基校清单
 │   │       ├── zonghepingjia-2024.json   # 综评校清单
-│   │       └── special-admissions/       # v0.2.0 — 18 JSON files (6 cat × 3 yr,1,300+ records)
+│   │       └── special-admissions/       # v0.2.0 — 18 JSON files (6 cat × 3 yr,1,497 records)
 │   └── test/
 │       ├── smoke.ts                      # live API smoke
 │       └── special-admissions.smoke.ts   # offline 15 smoke checks
@@ -124,7 +126,7 @@ For families targeting 艺术 / 体育 / 强基 / 综评 / 港澳台 / 民族班
 
 - **34 regions** indexed (31 mainland + 71 台湾 / 81 香港 / 82 澳门 per GB/T 2260)
 - **3 年历史** (2023/2024/2025) coverage,捕捉新高考改革过渡(8 省 2024 首届 / 7 省 2025 首届 / 新疆 2027)
-- **6 类数据集** with 1,300+ structured records:
+- **6 类数据集** with **1,497** structured records:
   - **艺术统考**: 6 大类公式(美设/音乐/舞蹈/表导/播音/书法),含河南 5 选 1、云南 2025 取消省线、湖北 ×2 还原、辽宁百分制再加权 等独有口径
   - **体育统招**: 5 种 SportsFormulaKind — weighted / additive(湘青)/ professional_first(陕甘)/ gaokao_only(海南)/ merged_specline(重庆 25 本专合一)
   - **强基计划**: 39 校 × 31 省 × 3 年 入围线 + 报名即入围 12 校标记 + 西部 75% 文化门槛(甘青宁新)

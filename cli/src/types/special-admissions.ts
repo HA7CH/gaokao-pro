@@ -61,6 +61,12 @@ export interface ArtFormula {
   culture_pct: number;
   pro_factor: number;
   pro_pct: number;
+  /**
+   * Outer multiplier applied to the weighted sum: `(culture×p1 + pro×factor×p2) × multiplier`.
+   * Default `1` (or undefined). Set `2` for 湖北/河南 "×2 还原到 750 制" 口径 — naive
+   * consumers computing `culture×pct + pro×factor×pct` underweight these provinces by 50%.
+   */
+  multiplier?: number;
   /** Free-form note for province-specific variants. Empty when standard. */
   extras?: string;
 }
@@ -303,7 +309,8 @@ export interface QATWChannelRecord {
 // ───────────────────────────────────────────────────────────────────────────
 
 export interface SpecialAdmissionsDataset {
-  schema_version: "1.0.0";
+  /** Semver string. Loaders should accept any "X.Y.Z" for forward-compat. */
+  schema_version: string;
   category:
     | "art-formula"
     | "sports-formula"

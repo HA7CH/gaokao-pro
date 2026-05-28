@@ -154,7 +154,7 @@ gaokao-pro minzu --province 广西 --year 2025
 gaokao-pro special-coverage
 ```
 
-显示 18 个 dataset 各自的 record 数 + 覆盖 region 数。当前(v0.2.0)总计 **1,300+ records**,覆盖 34 regions × 6 categories × 3 years。
+显示 18 个 dataset 各自的 record 数 + 覆盖 region 数。当前(v0.2.0)总计 **1,497 records**,覆盖 34 regions × 6 categories × 3 years。
 
 ## 已知 N/A 缺口
 

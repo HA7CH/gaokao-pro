@@ -314,7 +314,7 @@ export default function Home() {
         <p style={{ marginTop: "0.5rem", fontSize: "0.95rem", color: "var(--fg-dim)" }}>
           为艺术 / 体育 / 强基 / 综评 / 港澳台 / 民族班家庭加的 7 个新命令。
           覆盖 <strong>34 个区域</strong>（31 省 + 港 81 / 澳 82 / 台 71）×
-          <strong> 3 年</strong>（2023/2024/2025）× <strong>6 类数据</strong>，共 <strong>1,400+ 条结构化记录</strong>。
+          <strong> 3 年</strong>（2023/2024/2025）× <strong>6 类数据</strong>，共 <strong>1,497 条结构化记录</strong>。
         </p>
         <ul style={{ marginTop: "0.5rem", paddingLeft: "1.2rem", fontSize: "0.92rem", lineHeight: "1.7" }}>
           <li><code>art-tongkao</code> — 艺术统考 6 大类公式（含河南 5 选 1、云南 25 取消省线、湖北 ×2 还原、辽宁百分制再加权 等独有口径）</li>
