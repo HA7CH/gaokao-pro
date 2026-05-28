@@ -112,10 +112,13 @@ function validateSports(file: string, year: number, records: unknown[]) {
     if (r.kind === "weighted" && (r.formula === null || r.formula === undefined)) {
       report(file, i, "formula", "weighted kind requires formula");
     }
-    // 港澳台 (71/81/82) should not appear
+    // 港澳台 (71/81/82) records OK if notes explain redirect to qatw
     const rid = Number(r.region_id);
     if (rid === 71 || rid === 81 || rid === 82) {
-      report(file, i, "region_id", `${rid} 港澳台 should be skipped for sports`);
+      const ns = String(r.notes || "") + String(r.extras || "");
+      if (!ns.includes("不适用") && !ns.includes("不参与") && !ns.includes("请用 qatw")) {
+        report(file, i, "region_id", `${rid} 港澳台 needs redirect note ("不适用"/"不参与"/"请用 qatw")`);
+      }
     }
   });
 }
@@ -130,7 +133,10 @@ function validateQiangji(file: string, year: number, records: unknown[]) {
     validateCommon(file, i, r, year);
     const rid = Number(r.region_id);
     if (rid === 71 || rid === 81 || rid === 82) {
-      report(file, i, "region_id", `${rid} 港澳台 not applicable`);
+      const ns = String(r.notes || "") + String(r.extras || "");
+      if (!ns.includes("不适用") && !ns.includes("不参与") && !ns.includes("请用 qatw")) {
+        report(file, i, "region_id", `${rid} 港澳台 needs redirect note ("不适用"/"不参与"/"请用 qatw")`);
+      }
     }
     if (r.ruwei_ratio !== undefined && r.ruwei_ratio !== "all" && typeof r.ruwei_ratio !== "number") {
       report(file, i, "ruwei_ratio", `'${r.ruwei_ratio}' must be number or 'all'`);

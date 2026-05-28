@@ -615,6 +615,42 @@
         "docs/special-admissions-3year/xinjiang.md"
       ],
       "confidence": "low"
+    },
+    {
+      "region_id": 71,
+      "year": 2024,
+      "reform": "special",
+      "kind": "gaokao_only",
+      "professional_qualifying": {},
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地体育统招/单招。如查 台湾 → 内地体育通道,请用 qatw 台湾。"
+    },
+    {
+      "region_id": 81,
+      "year": 2024,
+      "reform": "special",
+      "kind": "gaokao_only",
+      "professional_qualifying": {},
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地体育统招/单招。如查 香港 → 内地体育通道,请用 qatw 香港。"
+    },
+    {
+      "region_id": 82,
+      "year": 2024,
+      "reform": "special",
+      "kind": "gaokao_only",
+      "professional_qualifying": {},
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地体育统招/单招。如查 澳门 → 内地体育通道,请用 qatw 澳门。"
     }
   ]
 }

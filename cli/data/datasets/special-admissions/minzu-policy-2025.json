@@ -729,6 +729,36 @@
         "gaokao.eol.cn"
       ],
       "confidence": "high"
+    },
+    {
+      "region_id": 71,
+      "year": 2025,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地民族加分政策。如查 台湾 → 内地高校通道,请用 qatw 台湾。"
+    },
+    {
+      "region_id": 81,
+      "year": 2025,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地民族加分政策。如查 香港 → 内地高校通道,请用 qatw 香港。"
+    },
+    {
+      "region_id": 82,
+      "year": 2025,
+      "bonus_tiers": [],
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地民族加分政策。如查 澳门 → 内地高校通道,请用 qatw 澳门。"
     }
   ]
 }

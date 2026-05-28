@@ -663,6 +663,45 @@
       ],
       "confidence": "low",
       "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 71,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地强基计划。如查 台湾 → 内地高校通道,请用 qatw 台湾 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 81,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地强基计划。如查 香港 → 内地高校通道,请用 qatw 香港 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 82,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地强基计划。如查 澳门 → 内地高校通道,请用 qatw 澳门 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
     }
   ]
 }

@@ -1732,6 +1732,45 @@
         "extras": "通常 631 模式(高考60+校测30+学考10)"
       },
       "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 71,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地综合评价。如查 台湾 → 内地高校通道,请用 qatw 台湾。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 81,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地综合评价。如查 香港 → 内地高校通道,请用 qatw 香港。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 82,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地综合评价。如查 澳门 → 内地高校通道,请用 qatw 澳门。"
     }
   ]
 }

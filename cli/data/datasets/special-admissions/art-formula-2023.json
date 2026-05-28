@@ -1893,6 +1893,45 @@
         "xjzk.gov.cn"
       ],
       "confidence": "high"
+    },
+    {
+      "region_id": 71,
+      "year": 2023,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "extras": "台湾 不参与内地艺术统考。如查 台湾 → 内地艺术招生通道,请用 qatw 台湾 --channel 全国联招 / 港校招内地生 等。"
+    },
+    {
+      "region_id": 81,
+      "year": 2023,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "extras": "香港 不参与内地艺术统考。如查 香港 → 内地艺术招生通道,请用 qatw 香港 --channel 全国联招 / 港校招内地生 等。"
+    },
+    {
+      "region_id": 82,
+      "year": 2023,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "extras": "澳门 不参与内地艺术统考。如查 澳门 → 内地艺术招生通道,请用 qatw 澳门 --channel 全国联招 / 港校招内地生 等。"
     }
   ]
 }
