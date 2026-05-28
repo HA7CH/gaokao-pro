@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "category": "qatw-channel",
+  "year": 2023,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "region_id": 81,
+      "year": 2023,
+      "channel": "全国联招",
+      "applicants": 5097,
+      "control_lines": [
+        { "batch": "本科普通", "wen": 360, "li": 380 },
+        { "batch": "本科普通高分", "wen": 460, "li": 480 },
+        { "batch": "本科艺术/体育", "wen": 260, "li": 280 },
+        { "batch": "预科普通", "wen": 340, "li": 360 },
+        { "batch": "预科(暨大)", "wen": 440, "li": 460 }
+      ],
+      "notes": "港澳台华侨联招广州考点(暨大主办),750 满分(中数英 + 文/理 3 科)。2023 总报名 7,238,总录取 5,016(录取率 69.3%)。",
+      "data_source": [
+        "https://eea.gd.gov.cn/lhzs/",
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 81,
+      "year": 2023,
+      "channel": "居住证高考",
+      "notes": "港澳台居民居住证(2018+)凭居住证 + 学籍参加普通高考,深圳/江苏/浙江/广东等省已纳入实操。实际使用人数无官方统一发布。",
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "region_id": 81,
+      "year": 2023,
+      "channel": "DSE互认",
+      "schools": [],
+      "notes": "约 138 内地高校承认 DSE 成绩。普通考生最低标准 3322A(中/英≥3,数学≥2,公民科达标)。热门接收:暨大 / 中山大 / 深大。",
+      "data_source": [
+        "https://www.edb.gov.hk/attachment/tc/edu-system/postsecondary/policy-doc/pilot-scheme/scheme_2025/info_chinese_only.pdf",
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 81,
+      "year": 2023,
+      "channel": "港校招内地生",
+      "schools": [
+        { "name_zh": "香港大学", "quota": 300, "notes": "独立招生(无面试),粤物理参考一本 +130~150,英语 120+" },
+        { "name_zh": "香港中文大学", "zs_code": "81002", "quota": 300, "notes": "统招提前批,粤物理 ~652 / 粤历史 ~632" },
+        { "name_zh": "香港科技大学", "quota": 190, "notes": "独立招生,粤物理参考一本 +120~140" },
+        { "name_zh": "香港城市大学", "quota": 210, "notes": "统招提前批" },
+        { "name_zh": "香港理工大学", "quota": 250, "notes": "独立招生 + 3D 综评 + STARS,建议一本 +120,英语 120+" },
+        { "name_zh": "香港浸会大学", "quota": 179, "notes": "独立招生,一本/特控,英语 110+" },
+        { "name_zh": "岭南大学", "notes": "独立招生,小规模,一本线参考" },
+        { "name_zh": "香港教育大学", "notes": "独立招生,小规模,一本线参考" }
+      ],
+      "notes": "方向 B 内地 → 港校。8 大公立 + 都大。港中大走统招提前批,其余独立招生不占内地志愿。各校分省最低线无官方统一发布。",
+      "data_source": [
+        "https://admission.cuhk.edu.hk/sc/application/mainland-gaokao/admission/",
+        "https://admissions.hku.hk/zh-hans/apply/mainland",
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "medium"
+    },
+
+    {
+      "region_id": 82,
+      "year": 2023,
+      "channel": "全国联招",
+      "applicants": 555,
+      "control_lines": [
+        { "batch": "本科普通", "wen": 360, "li": 380 },
+        { "batch": "本科普通高分", "wen": 460, "li": 480 },
+        { "batch": "本科艺术/体育", "wen": 260, "li": 280 },
+        { "batch": "预科普通", "wen": 340, "li": 360 },
+        { "batch": "预科(暨大)", "wen": 440, "li": 460 }
+      ],
+      "notes": "澳门考区(DSEDJ 设点;广东主办)。联招总报名 7,238,总录取 5,016。",
+      "data_source": [
+        "https://eea.gd.gov.cn/lhzs/",
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 82,
+      "year": 2023,
+      "channel": "居住证高考",
+      "notes": "港澳台居民居住证 + 普通高考。澳门生倾向联招/保送,实际使用极少。",
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "region_id": 82,
+      "year": 2023,
+      "channel": "保送生",
+      "admitted": 200,
+      "schools": [
+        { "name_zh": "暨南大学", "notes": "澳门保送生最大接收方之一" },
+        { "name_zh": "北京师范大学珠海校区", "notes": "澳门保送生最大接收方之一" },
+        { "name_zh": "中山大学", "notes": "澳门保送生最大接收方之一" }
+      ],
+      "notes": "教青局组织,本澳中学综合排名前 40% 推荐,免试直入。年度总录取约 200+。",
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 82,
+      "year": 2023,
+      "channel": "澳校招内地生",
+      "schools": [
+        { "name_zh": "澳门大学", "quota": 250, "notes": "独立招生,粤物理参考一本/特控 +60,英语 ≥110,学费 ~10.75w/年" },
+        { "name_zh": "澳门科技大学", "quota": 2500, "notes": "独立招生,一本优先,二本高分。学费 ~10w/年" },
+        { "name_zh": "澳门理工大学", "quota": 250, "notes": "独立招生,一本/特控。学费 ~9.9w/年" },
+        { "name_zh": "澳门旅游大学", "quota": 120, "notes": "独立招生(2024 升大前称澳门旅游学院),一本 + 英语面试" },
+        { "name_zh": "澳门城市大学", "quota": 1000, "notes": "私立,独立招生,重点一本/普通二本。学费 11-12w 港币" },
+        { "name_zh": "镜湖护理学院", "notes": "私立,独立招生,小规模,二本线" }
+      ],
+      "notes": "方向 B 内地 → 澳校。6 校独立招生,不提档、不锁档、不占内地志愿。",
+      "data_source": [
+        "https://reg.um.edu.mo/download/admission-china/Mainland%20China%20leaflet.pdf",
+        "https://www.mpu.edu.mo/admission_mainland/zh/",
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "medium"
+    },
+
+    {
+      "region_id": 71,
+      "year": 2023,
+      "channel": "全国联招",
+      "applicants": 1100,
+      "control_lines": [
+        { "batch": "本科普通", "wen": 360, "li": 380 },
+        { "batch": "本科普通高分", "wen": 460, "li": 480 },
+        { "batch": "本科艺术/体育", "wen": 260, "li": 280 },
+        { "batch": "预科普通", "wen": 340, "li": 360 },
+        { "batch": "预科(暨大)", "wen": 440, "li": 460 }
+      ],
+      "notes": "台籍报名数为估值,2023 及以前未官方按地区拆分。联招总报名 7,238(港 5097/澳 555/台 ~1333/侨 253),总录取 5,016。",
+      "data_source": [
+        "https://eea.gd.gov.cn/lhzs/",
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "region_id": 71,
+      "year": 2023,
+      "channel": "学测申请陆校",
+      "schools": [],
+      "notes": "凭学测成绩申请内地高校,约 400 所大陆校开放。学测申请门槛:任一科达均标级。业内估每年 1500-2500 台籍获录(学测+联招+两校联招+福建单招合计),官方未公开台籍录取总数。",
+      "data_source": [
+        "https://www.gatzs.com.cn/z/tw/",
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 71,
+      "year": 2023,
+      "channel": "陆生申请台校",
+      "applicants": 0,
+      "admitted": 0,
+      "status": "suspended_since_2020",
+      "notes": "2020/04/09 大陆教育部公告暂停陆生赴台升读(COVID + 政治) — 历史性断裂点,仅允许在台应届陆生续读硕博。2021-2023 无新增学士班陆生。",
+      "data_source": [
+        "https://zh.wikipedia.org/zh-hans/中國大陸學生赴臺灣就讀",
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

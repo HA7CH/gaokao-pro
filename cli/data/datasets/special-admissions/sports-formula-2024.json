@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0.0",
+  "category": "sports-formula",
+  "year": 2024,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "gaokao_only",
+      "professional_qualifying": { "benke": 60 },
+      "culture_control_line": { "benke": 400 },
+      "test_items": ["100m", "绕杆", "立定跳远", "原地推铅球"],
+      "notes": "北京'双过线后按高考总分排序投档'(平行志愿,无加权公式)。",
+      "data_source": ["docs/special-admissions-3year/beijing.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "additive",
+      "professional_qualifying": {},
+      "culture_control_line": { "benke": 421 },
+      "notes": "综合 = 文化总分 + 体育术科统考分(平行志愿按综合分,无加权);术科合格线未公开。",
+      "data_source": ["docs/special-admissions-3year/tianjin.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1.875,
+        "pro_pct": 0.7,
+        "extras": "河北 术科满分 400(全国少数维持 400 制);综合 = 文化×0.3 + (专业/400)×750×0.7"
+      },
+      "professional_qualifying": { "benke": 270 },
+      "culture_control_line": { "physical": 310, "historical": 315 },
+      "data_source": ["docs/special-admissions-3year/hebei.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "professional_qualifying": { "benke": 81 },
+      "culture_control_line": { "wen": 413, "li": 405 },
+      "notes": "山西 2024 旧高考 文理分类;一批 体文 413/体理 405;二批 体文 357/体理 334;专业线 体文 81/体理 83。综合分公式未标准化(2025 起 文化×40%+专业×7.5×60%)。",
+      "data_source": ["docs/special-admissions-3year/shanxi.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0,
+        "pro_factor": 3.5,
+        "pro_pct": 1.0,
+        "extras": "内蒙古 综合 = 体育术科 × 3.5(满分 350);文化课作单独控制线,综合分不含文化"
+      },
+      "professional_qualifying": { "benke": 76 },
+      "culture_control_line": { "benke": 332 },
+      "data_source": ["docs/special-admissions-3year/neimenggu.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 1.0,
+        "pro_factor": 0.13333,
+        "pro_pct": 1.0,
+        "extras": "辽宁 本科 综合 = 文化(含加分)/7.5 + 专业;专科 综合 = 文化/5 + 专业(百分制再加权)"
+      },
+      "professional_qualifying": { "benke": 45, "zhuanke": 45 },
+      "culture_control_line": { "historical": 150, "physical": 150, "benke": 150, "zhuanke": 150 },
+      "data_source": ["docs/special-admissions-3year/liaoning.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 1.0,
+        "pro_factor": 0.13333,
+        "pro_pct": 1.0,
+        "extras": "吉林 综合 = 文化课/7.5 + 专业课(专业满分 100,3 年一致)"
+      },
+      "professional_qualifying": { "benke": 50 },
+      "culture_control_line": { "wen": 285, "li": 235 },
+      "notes": "2024 仍按旧高考文/理(吉林 2024 首届新高考但体育沿用旧线)。",
+      "data_source": ["docs/special-admissions-3year/jilin.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 7.5,
+        "pro_pct": 0.6,
+        "extras": "黑龙江 综合 = (术科/100×750)×60% + 文化×40%(术科满分 100,4 项×25)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "2024 黑龙江具体控线未在文档列出。",
+      "data_source": ["docs/special-admissions-3year/heilongjiang.md"],
+      "confidence": "low"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1.0,
+        "pro_pct": 0.7,
+        "extras": "上海 专业×70% + 文化×30%;文化控线 = 本科普通线 × 70%"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "data_source": ["docs/special-admissions-3year/shanghai.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3,
+        "extras": "江苏 投档 = [文化/750×0.7 + 专业/300×0.3] × 750;专业满分 300"
+      },
+      "professional_qualifying": { "benke": 110, "zhuanke": 90 },
+      "culture_control_line": { "historical": 395, "physical": 410, "benke": 110, "zhuanke": 90 },
+      "notes": "高职(专科)历 363/物 382;本科 历 ~395/物 ~410。",
+      "data_source": ["docs/special-admissions-3year/jiangsu.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 7.5,
+        "pro_pct": 0.5,
+        "extras": "浙江 综合 = (文化总分+加分)×50% + 术科×7.5×50%"
+      },
+      "professional_qualifying": { "benke": 65 },
+      "culture_control_line": {},
+      "notes": "综合分段: 一段 530 / 二段 469。",
+      "data_source": ["docs/special-admissions-3year/zhejiang.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "安徽 综合 = 文化×50% + 专业×2.5×50%(750 折算)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "2024 安徽首届新高考,具体控线未在文档列出。",
+      "data_source": ["docs/special-admissions-3year/anhui.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 7.5,
+        "pro_pct": 0.7,
+        "extras": "福建 文化×30% + 术科×7.5×70%(文化权低)"
+      },
+      "professional_qualifying": { "benke": 60, "zhuanke": 60 },
+      "culture_control_line": {},
+      "data_source": ["docs/special-admissions-3year/fujian.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.55,
+        "pro_factor": 7.5,
+        "pro_pct": 0.45,
+        "extras": "江西 综合 = 文化×55% + 体育×(750/100)×45%"
+      },
+      "professional_qualifying": { "benke": 87.65 },
+      "culture_control_line": { "benke": 313 },
+      "data_source": ["docs/special-admissions-3year/jiangxi.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 7.5,
+        "pro_pct": 0.7,
+        "extras": "山东 综合 = 专业×(750/100)×70% + 文化×30%"
+      },
+      "professional_qualifying": { "benke": 73 },
+      "culture_control_line": {},
+      "data_source": ["docs/special-admissions-3year/shandong.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "河南 沿用 50/50 框架(2025 起改 4 选 1)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "2024 河南旧高考具体控线未公开列出。",
+      "data_source": ["docs/special-admissions-3year/henan.md"],
+      "confidence": "low"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1.0,
+        "pro_pct": 0.75,
+        "extras": "湖北 综合 = 文化×50% + 专业×75%(总系数 1.25,全国独有)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": { "benke": 385, "zhuanke": 350 },
+      "notes": "湖北 1.25 系数 全国独有。",
+      "data_source": ["docs/special-admissions-3year/hubei.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "additive",
+      "professional_qualifying": { "benke": 155 },
+      "culture_control_line": {},
+      "notes": "湖南独特'直接相加': 投档分 = 高考文化(含政策加分) + 专业统考成绩,不加权、不折算;文化 750 + 体育术科 300 = 理论上限 1050。155 为三年统一合格线。",
+      "data_source": ["docs/special-admissions-3year/hunan.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 2.5,
+        "pro_pct": 0.6,
+        "extras": "广东 综合 = 文化×40% + 术科×2.5×60%(术科满分 300)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "data_source": ["docs/special-admissions-3year/guangdong.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 7.5,
+        "pro_pct": 0.3,
+        "extras": "广西 综合 = 高考总分×70% + 体育统考×(750/100)×30%"
+      },
+      "professional_qualifying": { "benke": 83, "zhuanke": 60 },
+      "culture_control_line": { "historical": 309, "physical": 300, "zhuanke": 180 },
+      "data_source": ["docs/special-admissions-3year/guangxi.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "kind": "gaokao_only",
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "海南: 无综合分公式 — 双线达标后按高考总分(900 标准分)排序投档;同分用语数外三科分之和。",
+      "data_source": ["docs/special-admissions-3year/hainan.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1.0,
+        "pro_pct": 0.6,
+        "extras": "重庆 综合 = 文化/750×100×40% + 专业×60%"
+      },
+      "professional_qualifying": { "benke": 84, "zhuanke": 73 },
+      "culture_control_line": { "benke": 350, "zhuanke": 180 },
+      "data_source": ["docs/special-admissions-3year/chongqing.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1.0,
+        "pro_pct": 0.7,
+        "extras": "四川 综合 = (文化/6)×30% + 专业×70%"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "2024 四川旧高考具体控线未公开列出;阿坝/甘孜/凉山三州专业分下调 10。",
+      "data_source": ["docs/special-admissions-3year/sichuan.md"],
+      "confidence": "low"
+    },
+    {
+      "region_id": 52,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "additive",
+      "professional_qualifying": { "benke": 110, "zhuanke": 80 },
+      "culture_control_line": {},
+      "notes": "贵州独特公式: 综合 = 高考文化(含政策加分)÷2 + 专业省级统考成绩(四舍五入);无加权系数。",
+      "data_source": ["docs/special-admissions-3year/guizhou.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "2024 云南旧高考具体公式/控线未在文档明确;2025 起专业满分 100(身素 60+专项 40),≥60 合格。",
+      "data_source": ["docs/special-admissions-3year/yunnan.md"],
+      "confidence": "low"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "西藏: 文化分数线 = 本二×75%;录取按文化+统考双过线后,依统考成绩择优。专业合格线未公开(N/A)。",
+      "data_source": ["docs/special-admissions-3year/xizang.md"],
+      "confidence": "low"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "kind": "professional_first",
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "陕西按体育专业课成绩从高到低投档(平行志愿,全国少数省份);不采用综合分制。2024 旧高考分文/理。",
+      "data_source": ["docs/special-admissions-3year/shaanxi.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "professional_first",
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "甘肃平行志愿排序成绩 = 体育专业课成绩(非综合分,全国少数省份之一);文化课本科 ≥ 普本×75%。",
+      "data_source": ["docs/special-admissions-3year/gansu.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "additive",
+      "professional_qualifying": { "benke": 64 },
+      "culture_control_line": { "wen": 361, "li": 305, "zhuanke": 205 },
+      "notes": "青海: 投档 = 文化 + 加分(统考合格);2024 统考合格线 文/史 60、理/物 68(取低=64 作为整省合格 N/A 处理实为分文/理);无加权系数。",
+      "data_source": ["docs/special-admissions-3year/qinghai.md"],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 7.5,
+        "pro_pct": 0.6,
+        "extras": "宁夏 综合 = 文化×40% + 术科×7.5×60%"
+      },
+      "professional_qualifying": { "benke": 71, "zhuanke": 60 },
+      "culture_control_line": { "wen": 375, "li": 355 },
+      "data_source": ["docs/special-admissions-3year/ningxia.md"],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "kind": "weighted",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1.0,
+        "pro_pct": 0.7,
+        "extras": "新疆 综合分 = 文化成绩/6×30% + 体育专项成绩×70%(2023/2024/2025 同公式)"
+      },
+      "professional_qualifying": {},
+      "culture_control_line": {},
+      "notes": "术科 4 项 满分 100;2024 具体合格线未在文档列出。",
+      "data_source": ["docs/special-admissions-3year/xinjiang.md"],
+      "confidence": "low"
+    }
+  ]
+}

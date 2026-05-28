@@ -30,13 +30,32 @@ import {
   getCrossProvincePrograms
 } from "./datasets.js";
 import { compare } from "./compare.js";
+import {
+  findArtFormula,
+  listArtFormulasForRegion,
+  findSportsFormula,
+  listQiangjiForRegion,
+  findQiangjiQuota,
+  listQiangjiForSchool,
+  listZongPingForRegion,
+  findZongPing,
+  findMinzuPolicy,
+  listQATWForRegion,
+  findQATWChannel,
+  coverageReport
+} from "./special-admissions.js";
+import type {
+  ArtCategory,
+  Year as SAYear,
+  QATWChannelType
+} from "./types/special-admissions.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
-const VERSION = "0.0.1";
+const VERSION = "0.2.0";
 
 function parseFlags(args: string[]): { positional: string[]; flags: Record<string, string | boolean> } {
   const positional: string[] = [];
@@ -57,6 +76,15 @@ function parseFlags(args: string[]): { positional: string[]; flags: Record<strin
     }
   }
   return { positional, flags };
+}
+
+function parseSAYear(flag: unknown, fallback: SAYear = 2025): SAYear {
+  if (typeof flag === "string") {
+    const n = Number(flag);
+    if (n === 2023 || n === 2024 || n === 2025 || n === 2026) return n as SAYear;
+    throw new Error(`--year must be 2023/2024/2025/2026, got: ${flag}`);
+  }
+  return fallback;
 }
 
 function printJson(value: unknown): void {
@@ -196,6 +224,31 @@ Usage:
   gaokao-pro memory clear
       Local persistent state at ~/.gaokaopro/memory.json — prefs / watched
       schools / event log so Claude can resume across sessions.
+
+  gaokao-pro art-tongkao --province <p> [--category <c>] [--year 2023|2024|2025|2026]
+      Art unified exam (艺术统考) formula + 合格线 for a province × year.
+      With --category 美术与设计|音乐表演-声乐|...|戏曲: single record.
+      Without --category: all categories for that province × year.
+
+  gaokao-pro sports-tongzhao --province <p> [--year 2023|2024|2025|2026]
+      Sports unified admission (体育统招) formula + 合格线 for a province × year.
+
+  gaokao-pro qiangji-line [--school <s>] [--province <p>] [--year 2023|2024|2025|2026]
+      Qiangji (强基计划) quota + 入围线. Filter by school, province, or both.
+
+  gaokao-pro zonghe --province <p> [--school <s>] [--year 2023|2024|2025|2026]
+      Comprehensive evaluation (综合评价 / 三位一体) for a province × year.
+
+  gaokao-pro minzu --province <p> [--year 2023|2024|2025|2026]
+      Minority bonus + 民族班/预科 policy for a province × year.
+
+  gaokao-pro qatw <71|81|82|台湾|香港|澳门> [--channel <c>] [--year ...]
+      Port-Macau-Taiwan dual-direction channels. channels include:
+        全国联招 居住证高考 保送生 DSE互认 港校招内地生 澳校招内地生
+        学测申请陆校 陆生申请台校
+
+  gaokao-pro special-coverage
+      Coverage stats for special-admissions datasets (record count + region count per category × year).
 
   gaokao-pro selftest
       3-stage end-to-end smoke: upstream API, local index, 一分一段.
@@ -751,6 +804,105 @@ const VERBS: Record<string, Verb> = {
       count: series.length,
       series
     });
+  },
+
+  async "art-tongkao"(args) {
+    const { flags } = parseFlags(args);
+    const pa = flags.province;
+    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const id = resolveProvince(pa);
+    if (!id) throw new Error(`unknown province: ${pa}`);
+    const year = parseSAYear(flags.year);
+    if (typeof flags.category === "string") {
+      const rec = findArtFormula(id, flags.category as ArtCategory, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, category: flags.category, year }, record: rec });
+    } else {
+      const list = listArtFormulasForRegion(id, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });
+    }
+  },
+
+  async "sports-tongzhao"(args) {
+    const { flags } = parseFlags(args);
+    const pa = flags.province;
+    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const id = resolveProvince(pa);
+    if (!id) throw new Error(`unknown province: ${pa}`);
+    const year = parseSAYear(flags.year);
+    const rec = findSportsFormula(id, year);
+    printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, record: rec });
+  },
+
+  async "qiangji-line"(args) {
+    const { flags } = parseFlags(args);
+    const year = parseSAYear(flags.year);
+    const pa = flags.province;
+    const sa = flags.school;
+    if (typeof sa === "string" && typeof pa === "string") {
+      const id = resolveProvince(pa);
+      if (!id) throw new Error(`unknown province: ${pa}`);
+      const rec = findQiangjiQuota(sa, id, year);
+      printJson({ ok: true, query: { school: sa, region: id, name: PROVINCES[id].name, year }, record: rec });
+    } else if (typeof pa === "string") {
+      const id = resolveProvince(pa);
+      if (!id) throw new Error(`unknown province: ${pa}`);
+      const list = listQiangjiForRegion(id, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });
+    } else if (typeof sa === "string") {
+      const list = listQiangjiForSchool(sa, year);
+      printJson({ ok: true, query: { school: sa, year }, count: list.length, records: list });
+    } else {
+      throw new Error("--school <name> or --province <name|id> required (or both)");
+    }
+  },
+
+  async zonghe(args) {
+    const { flags } = parseFlags(args);
+    const pa = flags.province;
+    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const id = resolveProvince(pa);
+    if (!id) throw new Error(`unknown province: ${pa}`);
+    const year = parseSAYear(flags.year);
+    if (typeof flags.school === "string") {
+      const rec = findZongPing(flags.school, id, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, school: flags.school, year }, record: rec });
+    } else {
+      const list = listZongPingForRegion(id, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });
+    }
+  },
+
+  async minzu(args) {
+    const { flags } = parseFlags(args);
+    const pa = flags.province;
+    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const id = resolveProvince(pa);
+    if (!id) throw new Error(`unknown province: ${pa}`);
+    const year = parseSAYear(flags.year);
+    const rec = findMinzuPolicy(id, year);
+    printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, record: rec });
+  },
+
+  async qatw(args) {
+    const { positional, flags } = parseFlags(args);
+    const ra = positional[0] ?? (typeof flags.region === "string" ? flags.region : undefined);
+    if (typeof ra !== "string") throw new Error("region name/id required (e.g., 香港 / 81)");
+    const id = resolveProvince(ra);
+    if (!id || (id !== 71 && id !== 81 && id !== 82)) {
+      throw new Error(`qatw requires 71 台湾 / 81 香港 / 82 澳门, got: ${ra}`);
+    }
+    const year = parseSAYear(flags.year);
+    if (typeof flags.channel === "string") {
+      const rec = findQATWChannel(id, flags.channel as QATWChannelType, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, channel: flags.channel, year }, record: rec });
+    } else {
+      const list = listQATWForRegion(id, year);
+      printJson({ ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list });
+    }
+  },
+
+  async "special-coverage"() {
+    printJson({ ok: true, coverage: coverageReport() });
   }
 };
 
