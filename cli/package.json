@@ -19,6 +19,7 @@
     "probe": "tsx src/probe.ts",
     "test": "tsx test/smoke.ts",
     "test:special": "tsx test/special-admissions.smoke.ts",
+    "test:validate": "tsx test/special-admissions.validate.ts",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

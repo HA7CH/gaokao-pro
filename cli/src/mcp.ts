@@ -55,7 +55,7 @@ import {
 } from "./special-admissions.js";
 import type { ArtCategory, Year as SAYear, QATWChannelType } from "./types/special-admissions.js";
 
-const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
+const SERVER_INFO = { name: "gaokao-pro", version: "0.2.0" };
 const PROTOCOL_VERSION = "2025-06-18";
 
 type JsonRpc = {
