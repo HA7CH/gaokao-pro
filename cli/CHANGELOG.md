@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.1 — 2026-05-29
+
+### Fix
+- `groups` verb now surfaces each major's **6-digit national 专业代码** (e.g. `"090502"` for 园林). The data was already in the underlying files (~93% coverage from gaokao.cn's `spcode` field) but the normalizer didn't expose it. Added `MAJOR_CODE_KEYS` (`spcode/code/sp_code/major_code/spname_code/zycode/zy_code/majorcode`) and added `code: string | null` to the public `Major` type.
+- Added regression test guaranteeing ≥30% of majors surface a 6-digit code.
+
+### Improve
+- `groups` verb now defaults to table-mode output on TTY, with per-group section showing 专业代码 in brackets next to each major (e.g. `[080901] 计算机科学与技术 计划2`). Pipe or pass `--format json` to get the legacy JSON.
+- `--format table` flag added for forcing table mode even when piped.
+
+This directly answers questions like "if I apply to BUPT 计算机 and don't get in, what majors am I 调剂'd to?" — `groups --university 北邮 --province 河南` now lists every major in the same group with its national code, and `slip-risk` can weigh them via `--must` / `--ok` / `--reject` keyword preferences.
+
 ## 0.2.0 — 2026-05-29
 
 Major iteration covering parent-facing 滑档 risk, 综评提前批 catalog, 高水平运动队 specialty, plus new composite verbs (`paths`, `dossier`, `roadmap`, `province-overview`).

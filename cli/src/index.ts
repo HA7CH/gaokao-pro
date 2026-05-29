@@ -181,11 +181,14 @@ Usage:
 
   gaokao-pro groups --university <name> [--province <name|id>]
                     [--must <list>] [--ok <list>] [--reject <list>]
-      专业组 (major-group) view for a university. Without --province, lists
-      per-province group/major counts. With --province, lists that province's
-      groups; pass --must/--ok/--reject (comma-separated 选科) to attach a
-      safety score per group.
-      e.g. gaokao-pro groups --university 清华大学 --province henan --must 物理
+                    [--format table|json]
+      院校专业组 view for a university. Without --province, lists per-
+      province group/major counts. With --province, lists each 专业组 in
+      that province with all majors + their 6-位国标 专业代码 (e.g.
+      [080901] 计算机科学与技术). TTY defaults to table; pipe outputs JSON.
+      Pass --must/--ok/--reject to attach a safety score per group.
+      e.g. gaokao-pro groups --university 北京邮电 --province 河南
+           gaokao-pro groups --university 清华大学 --province henan --must 物理
 
   gaokao-pro groups-stats
       Coverage stats for the 专业组 dataset (schools / provinces / groups).
@@ -935,9 +938,48 @@ const VERBS: Record<string, Verb> = {
         const safety = (must.length || ok.length || reject.length) ? safetyScore(g, { must_have: must, acceptable: ok, reject }) : null;
         return { ...g, safety };
       });
-      printJson({ ok: true, university: u.university, code: u.code, province, groups: enrichedGroups });
+      const wantTable = flags.format === "table" || (flags.format !== "json" && flags.json !== true && isTty());
+      if (!wantTable) {
+        printJson({ ok: true, university: u.university, code: u.code, province, groups: enrichedGroups });
+        return;
+      }
+      // Table mode: per-group section with 专业代码 inline.
+      const lines: string[] = [];
+      lines.push(`院校专业组 — ${u.university}${u.code ? ` (${u.code})` : ""} / ${province}`);
+      lines.push("");
+      for (const g of enrichedGroups) {
+        const head = [`【组 ${g.group_code}】`];
+        if (g.track) head.push(g.track);
+        if (g.subject_require) head.push(`选科: ${g.subject_require}`);
+        if (g.category) head.push(g.category);
+        if (typeof g.group_min_score === "number") head.push(`组投档线 ${g.group_min_score}${typeof g.group_min_rank === "number" ? `/${g.group_min_rank}位` : ""}`);
+        lines.push(head.join(" · "));
+        for (const m of g.majors) {
+          const code = m.code ? `[${m.code}]` : "[      ]";
+          const plan = typeof m.plan === "number" ? ` 计划${m.plan}` : "";
+          const score = typeof m.min_score === "number" ? ` 最低${m.min_score}` : "";
+          lines.push(`  ${code} ${m.name ?? "(unnamed)"}${plan}${score}`);
+        }
+        if (g.safety) {
+          lines.push(`  → 调剂安全分: ${g.safety.score.toFixed(2)} (${g.safety.verdict}) · 匹配${g.safety.matched_majors.length} / 拒绝${g.safety.rejected_majors.length}`);
+        }
+        lines.push("");
+      }
+      process.stdout.write(lines.join("\n"));
     } else {
-      printJson({ ok: true, university: u.university, code: u.code, year: u.year, provinces_count: u.provinces.length, provinces: u.provinces.map(p => ({ province: p.province, groups_count: p.groups_count, majors_total: p.majors_total })) });
+      const wantTable = flags.format === "table" || (flags.format !== "json" && flags.json !== true && isTty());
+      if (!wantTable) {
+        printJson({ ok: true, university: u.university, code: u.code, year: u.year, provinces_count: u.provinces.length, provinces: u.provinces.map(p => ({ province: p.province, groups_count: p.groups_count, majors_total: p.majors_total })) });
+        return;
+      }
+      const lines: string[] = [];
+      lines.push(`院校专业组 总览 — ${u.university}${u.code ? ` (${u.code})` : ""} · ${u.year}`);
+      lines.push(`覆盖省份: ${u.provinces.length}`);
+      lines.push("");
+      for (const p of u.provinces) {
+        lines.push(`  ${p.province}: ${p.groups_count} 组 / ${p.majors_total} 专业`);
+      }
+      process.stdout.write(lines.join("\n") + "\n");
     }
   },
 

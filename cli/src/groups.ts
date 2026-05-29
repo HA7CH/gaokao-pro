@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // Per-university source files live here, one JSON per school (e.g. pku-2025.json).
 const GROUPS_DIR = resolve(__dirname, "../data/college-groups");
 
-type Major = { name: string | null; plan: number | null; min_score: number | null; min_rank: number | null };
+type Major = { name: string | null; code: string | null; plan: number | null; min_score: number | null; min_rank: number | null };
 type Group = {
   group_code: string;
   track: string | null;
@@ -60,14 +60,16 @@ function firstNumber(obj: any, keys: string[]): number | null {
 }
 
 const MAJOR_NAME_KEYS = ["name", "sp_name", "spname", "full_name", "spname_full", "name_in_plan", "short", "info_short"];
+const MAJOR_CODE_KEYS = ["spcode", "code", "sp_code", "major_code", "spname_code", "zycode", "zy_code", "majorcode"];
 const MAJOR_PLAN_KEYS = ["plan", "num", "plan_num", "total_num"];
 const MAJOR_SCORE_KEYS = ["min_score", "min", "score"];
 const MAJOR_RANK_KEYS = ["min_rank", "min_section", "rank"];
 
 function normMajor(m: any): Major {
-  if (!m || typeof m !== "object") return { name: null, plan: null, min_score: null, min_rank: null };
+  if (!m || typeof m !== "object") return { name: null, code: null, plan: null, min_score: null, min_rank: null };
   return {
     name: firstString(m, MAJOR_NAME_KEYS),
+    code: firstString(m, MAJOR_CODE_KEYS),
     plan: firstNumber(m, MAJOR_PLAN_KEYS),
     min_score: firstNumber(m, MAJOR_SCORE_KEYS),
     min_rank: firstNumber(m, MAJOR_RANK_KEYS),

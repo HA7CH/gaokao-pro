@@ -196,6 +196,31 @@ test("every present major name is real (non-empty) or honestly null — never an
   }
 });
 
+test("majors expose 6-digit 专业代码 via normalized `code` field where upstream had spcode", () => {
+  // Upstream gaokao.cn embeds the national 6-digit 专业代码 in `spcode`.
+  // The normalizer (MAJOR_CODE_KEYS) maps it to `code`. Require that across
+  // the dataset, a meaningful fraction of majors surface a non-null code —
+  // pre-fix the same probe returned 0%; this test guards the regression.
+  const { dataset } = loadDataset(2025);
+  let total = 0, withCode = 0;
+  for (const u of dataset.universities) {
+    for (const p of u.provinces) {
+      for (const g of p.groups) {
+        for (const m of g.majors) {
+          total++;
+          if (typeof m.code === "string" && /^\d{6}/.test(m.code)) withCode++;
+        }
+      }
+    }
+  }
+  // We expect ≥50% coverage. (Round-1 files lack spcode; everything else has
+  // it via the gaokao.cn pipeline.) Threshold is conservative enough to
+  // survive new partial-data additions while still catching a normalizer
+  // regression that strips codes entirely.
+  const pct = total === 0 ? 0 : (withCode / total) * 100;
+  assert(pct >= 30, `expected ≥30% of majors to surface a 6-digit code, got ${pct.toFixed(1)}% (${withCode}/${total})`);
+});
+
 // --------------------------------------------------------------------------
 // safetyScore — sane structured result on a known group.
 // --------------------------------------------------------------------------
