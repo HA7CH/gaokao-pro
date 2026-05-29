@@ -40,7 +40,9 @@ import {
   loadHuadangCases,
   findCalendarByProvince,
   loadZhiyuanCalendar2026,
-  loadSchoolsAdapters as loadSchoolsAdaptersFn
+  loadSchoolsAdapters as loadSchoolsAdaptersFn,
+  verbWarning,
+  loadDataYearStatus
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -290,6 +292,13 @@ Usage:
       groups colleges admitting here. Mirror of dossier (school 侧).
       e.g. gaokao-pro province-overview 河南
            gaokao-pro province-overview 浙江 --json
+
+  gaokao-pro data-status [--json]
+      数据集年度状态: 2026 关键数据 (招生计划/分数线/一分一段) 公布时间
+      窗口 + fallback message + per-verb baseline warning. CRITICAL:
+      6 月底前 verb 用 2025 baseline，必须告诉家长 2026 何时可拿。
+      recommend / slip-risk / roadmap 输出尾部自动 attach 提示。
+      e.g. gaokao-pro data-status
 
   gaokao-pro calendar <省份> [--json]  |  gaokao-pro calendar --list
       2026 投档时间日历 (31 省): 考试日期 / 出分时间 / 各批次填报-投档-
@@ -1069,6 +1078,11 @@ const VERBS: Record<string, Verb> = {
       lines.push("");
       lines.push("(查看完整案例: gaokao-pro huadang " + result.province + ")");
     }
+    const w = verbWarning("slip-risk");
+    if (w) {
+      lines.push("");
+      lines.push(`【2025 baseline 提示】${w}`);
+    }
     process.stdout.write(lines.join("\n") + "\n");
   },
 
@@ -1214,6 +1228,38 @@ const VERBS: Record<string, Verb> = {
     if (result.caveats.length) {
       lines.push("【关键提醒】");
       for (const c of result.caveats) lines.push(`  ⚠️ ${c}`);
+    }
+    const w = verbWarning("roadmap");
+    if (w) {
+      lines.push("");
+      lines.push(`【2025 baseline 提示】${w}`);
+    }
+    process.stdout.write(lines.join("\n") + "\n");
+  },
+
+  async "data-status"(args) {
+    const { flags } = parseFlags(args);
+    const s = loadDataYearStatus();
+    if (!s) throw new Error("data-year-status.json not found");
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...s });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`数据集年度状态 — 填报年=${s.current_filing_year} · baseline=${s.baseline_year}`);
+    lines.push("");
+    for (const [name, ds] of Object.entries(s.datasets)) {
+      lines.push(`【${name}】`);
+      if (ds.active_year !== undefined) lines.push(`  active_year: ${ds.active_year}`);
+      if (ds.status) lines.push(`  状态: ${ds.status}`);
+      if (ds.expected_2026_window) lines.push(`  2026 公布窗口: ${ds.expected_2026_window}`);
+      if (ds.fallback_message) lines.push(`  fallback: ${ds.fallback_message}`);
+      if (ds.note) lines.push(`  备注: ${ds.note}`);
+      lines.push("");
+    }
+    lines.push("各 verb 自带年度提示:");
+    for (const [verb, msg] of Object.entries(s.verb_warnings)) {
+      lines.push(`  ${verb}: ${msg}`);
     }
     process.stdout.write(lines.join("\n") + "\n");
   },

@@ -123,7 +123,7 @@ const JSON_LD = {
       url: "https://gaokao.ha7ch.com/",
       downloadUrl: "https://www.npmjs.com/package/gaokao-pro",
       // Should track cli/package.json version (source of truth).
-      softwareVersion: "0.2.1",
+      softwareVersion: "0.2.2",
       offers: { "@type": "Offer", price: "0", priceCurrency: "CNY" },
       author: { "@id": "https://gaokao.ha7ch.com/#org" },
       inLanguage: "zh-CN",

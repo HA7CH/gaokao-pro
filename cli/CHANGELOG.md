@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.2 — 2026-05-29
+
+### Add — 2026 数据预留 + baseline 警告
+- 新增 `cli/data/datasets/data-year-status.json` 记录每个数据集的 2025 baseline / 2026 公布窗口 / fallback message:
+  - **college_groups**: 2026-06-25 → 07-15 (出分后)
+  - **投档线**: 2026-07-15 → 07-30 (本科批投档结束后)
+  - **一分一段**: 2026-06-25 → 07-01 (出分次日)
+  - **提前批 catalog**: 2026-04 → 06 (各程序简章)
+  - **calendar**: 2026 partial (4 confirmed + 27 tentative)
+- 新增 `data-status` verb + MCP `data_status` tool (38 工具) 显示完整状态。
+- **recommend / top / slip-risk / roadmap 输出尾部自动 attach `【2025 baseline 提示】`** 告知家长：
+  - recommend: 基于 2025 历年最低分；2026 投档线发布前仅作参考
+  - slip-risk: 2026 投档线可能波动 ±5-15 分
+  - roadmap: 6/25 出分后请用真实分 + 当年一分一段重跑
+- 大量 spcode 回填 (26 round-1 校 × 7 省): 82% → 98% 覆盖.
+
 ## 0.2.1 — 2026-05-29
 
 ### Fix

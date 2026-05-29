@@ -2,6 +2,7 @@
 // Pipe-target runs still get JSON for jq / Claude Code.
 import type { RecommendOutput, RecommendCandidate } from "./recommend.js";
 import { provinceTiaojiInfo } from "./groups.js";
+import { verbWarning } from "./datasets.js";
 
 export function isTty(): boolean {
   return Boolean(process.stdout.isTTY);
@@ -106,6 +107,14 @@ export function formatRecommend(out: RecommendOutput, opts: { explain?: boolean 
   if (slip) {
     lines.push("");
     lines.push(slip);
+  }
+
+  // Year-baseline warning: tell parents that the data is 2025 baseline and
+  // 2026 may shift once exam scores + 一分一段 publish in late June.
+  const w = verbWarning("recommend");
+  if (w) {
+    lines.push("");
+    lines.push(`【2025 baseline 提示】${w}`);
   }
 
   return lines.join("\n");

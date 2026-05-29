@@ -1,0 +1,41 @@
+{
+  "_kind": "Per-dataset publish status for 2026 高考 (with 2025 baseline fallback)",
+  "_compiled": "2026-05-29",
+  "_note": "2026 真实数据要等以下时间窗才能采到：高考 6/7-6/8 → 出分 ~6/23-6/25 → 一分一段 6/25-7/1 → 各省招生计划全本 ~7/1-7/15 → 投档线 7/15-7/30。在那之前所有 verb 默认用 2025 baseline + 显示醒目警告。",
+  "current_filing_year": 2026,
+  "baseline_year": 2025,
+  "datasets": {
+    "college_groups": {
+      "active_year": 2025,
+      "expected_2026_window": "2026-06-25 → 2026-07-15 (出分后各省考试院陆续发布)",
+      "fallback_message": "2026 招生计划尚未公布；当前显示 2025 数据作为参考基线。2026 数据公布后 (~6 月底-7 月初) 各专业组的具体专业 / 计划 / 选科 可能调整，请重新查询。"
+    },
+    "投档线": {
+      "active_year": 2025,
+      "expected_2026_window": "2026-07-15 → 2026-07-30 (本科批投档结束后)",
+      "fallback_message": "2026 投档线尚未产生；slip-risk 使用 2025 投档线做风险评估。考虑 2024 → 2025 同校投档线波动 ±5-15 分是常态。"
+    },
+    "yifenyiduan": {
+      "active_year": 2025,
+      "expected_2026_window": "2026-06-25 → 2026-07-01 (各省考试院出分次日发布)",
+      "fallback_message": "2026 一分一段表尚未发布；位次估算用 2025 数据；新高考首届省份 (山西/内蒙古/河南/四川/陕西/云南/青海/宁夏) 由于改革断档，参考性更弱。"
+    },
+    "tiqian_pi_programs": {
+      "active_year": 2025,
+      "expected_2026_window": "2026-04-01 → 2026-06-10 (各程序简章陆续发布)",
+      "fallback_message": "提前批 / 综评 / 强基 catalog 大多沿用 2025 框架；2026 简章发布后请重查具体名额。"
+    },
+    "calendar_2026": {
+      "active_year": 2026,
+      "status": "partial",
+      "note": "31 省日历: 4 confirmed (上海/贵州/广西/青海), 27 tentative based on 2025 — 出分前最终公告以省考试院为准。"
+    }
+  },
+  "verb_warnings": {
+    "recommend": "本结果基于 2025 baseline 历年最低分；2026 投档线发布前仅作参考。",
+    "top": "本结果基于 2025 baseline；新高考首届省份 (山西/内蒙古/河南/四川/陕西/云南/青海/宁夏) 历年数据断档。",
+    "slip-risk": "本评估基于 2025 投档线；2026 投档线可能波动 ±5-15 分。",
+    "roadmap": "整套规划基于 2025 baseline；6/25 出分后请用真实分 + 当年一分一段重跑。",
+    "rank": "若查询 2026 位次：请等 6/25 出分后；2025 一分一段对应表仅作参考。"
+  }
+}

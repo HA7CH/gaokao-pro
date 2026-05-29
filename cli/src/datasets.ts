@@ -372,6 +372,32 @@ export function listTiqianProgramsByProvince(province: string): TiqianProgram[] 
   });
 }
 
+// ---- Year-status (2025 baseline vs 2026 pending) ----
+export type DataYearStatus = {
+  current_filing_year: number;
+  baseline_year: number;
+  datasets: Record<string, { active_year?: number; expected_2026_window?: string; fallback_message?: string; status?: string; note?: string }>;
+  verb_warnings: Record<string, string>;
+};
+let yearStatusCache: DataYearStatus | null = null;
+export function loadDataYearStatus(): DataYearStatus | null {
+  if (yearStatusCache) return yearStatusCache;
+  const data = load<DataYearStatus>("data-year-status.json");
+  if (!data) return null;
+  yearStatusCache = data;
+  return data;
+}
+// Returns the human-readable warning for a given verb (recommend / top /
+// slip-risk / roadmap / rank), or null if the status file is missing or
+// has no entry for that verb. Verbs append this to their output footer
+// so parents see clearly when data is baseline-only.
+export function verbWarning(verbName: string): string | null {
+  const s = loadDataYearStatus();
+  if (!s || !s.verb_warnings) return null;
+  const w = s.verb_warnings[verbName];
+  return typeof w === "string" && w.length > 0 ? w : null;
+}
+
 // Lists 提前批 programs of a given type (e.g. "公费师范生", "综评提前批").
 export function listTiqianProgramsByType(programType: string): TiqianProgram[] {
   const file = loadTiqianPrograms();

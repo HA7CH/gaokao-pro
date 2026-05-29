@@ -56,7 +56,8 @@ import {
   findCasesByCategory,
   loadHuadangCases,
   findCalendarByProvince,
-  loadZhiyuanCalendar2026
+  loadZhiyuanCalendar2026,
+  loadDataYearStatus
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { paths as pathsFn } from "./paths.js";
@@ -510,6 +511,11 @@ const TOOLS = [
     }
   },
   {
+    name: "data_status",
+    description: "数据集年度状态 — 2026 填报年要用的关键数据 (招生计划/分数线/一分一段) 公布时间窗口 + fallback message + per-verb baseline warning. CRITICAL: 6 月底前所有 verb 用 2025 baseline，必须告诉家长 2026 数据何时可拿到、如何重跑。",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
     name: "capabilities",
     description: "List dataset capabilities — version + counts of college_groups schools/groups/majors + adapters + tiqian-pi types/programs + zongping schools + gaoshui sports indexed + huadang cases/categories + calendar provinces + xiaoce probe hits. Useful for discovering what's available before calling specific verbs.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
@@ -955,6 +961,11 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "data_status": {
+      const s = loadDataYearStatus();
+      if (!s) return { ok: false, error: "data-year-status.json not found" };
+      return { ok: true, ...s };
     }
     case "capabilities": {
       const out: Record<string, unknown> = { version: VERSION };
