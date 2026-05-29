@@ -23,7 +23,7 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 313 recovered universities", () => {
+test("datasetStats reports 323 recovered universities", () => {
   const s = datasetStats();
   // 198 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
@@ -64,10 +64,18 @@ test("datasetStats reports 313 recovered universities", () => {
   // 财经 sxufe/ynufe, 综合/区域双一流 gzhu/qdu/hzu, 工科 lztu/hbtu/gut/
   // snpu/swust/qust, 师范 cqnu/hytc/jlnu/scun, 农 gsau, 体育 tjpe,
   // 艺术 sias (校考主导 — 本批仅含统考普通批), 山东综合 wfu/lyu.
+  // + round-13 partial (15) committed in 1178a0e: sxnu/imdc/jzu/ynu/jcu/
+  // xtu/nbut/ecut/hlju/ynust/zhku/hpnu/cslg/gznu/hszy.
+  // + round-13 completion (10) — final 25-school batch: 综合/医/外语/计量/
+  // 财经/师范/工科 yshu/tau/gpu/sxxk/gznufe/zjwu/gxust/neuq/fjmu/cjlu.
+  // neuq = 东北大学秦皇岛分校 (985 分校); fjmu = 福建医科; cjlu = 中国
+  // 计量大学 (计量特色); gpu = 广州医科; sxxk = 西安外国语; zjwu = 浙江
+  // 外国语学院; gznufe = 贵州财经; gxust = 广西科技; yshu = 烟台大学;
+  // tau = 太原师范学院.
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 313 means new data files were
+  // silently lost schools again. A jump above 323 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 313, "recovered university count");
+  assertEqual(s.universities, 323, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -141,7 +149,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 313, "all 313 schools have a name surfaced");
+  assertEqual(names.length, 323, "all 323 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }

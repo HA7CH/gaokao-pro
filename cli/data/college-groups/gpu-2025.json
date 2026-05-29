@@ -1,0 +1,4007 @@
+{
+  "_kind": "广州医科大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "广州医科大学",
+  "code": 295,
+  "zs_code": "10570",
+  "school_id_gaokao_cn": 295,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/295/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/295/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=295; zs_code=10570.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "spcode 为 6 位国标专业代码（如 080901=计算机科学与技术），保留以供 CLI 归一化使用。"
+  ],
+  "provinces": [
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 63946,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "393749",
+          "sg_name": "（302）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 33493,
+          "majors": [
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "393749",
+          "sg_name": "（302）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 33493,
+          "majors": [
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "393750",
+          "sg_name": "（301）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 613,
+          "min_rank": 7158,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点番禺校区不招色盲、色弱、单色识别不全考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（办学地点番禺校区不招色盲、色弱、单色识别不全考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "448556",
+          "sg_name": "（003）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 13604,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "448557",
+          "sg_name": "（002）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 23287,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "448557",
+          "sg_name": "（002）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 23287,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）（番禺校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "263003",
+          "sg_name": "（002）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 27485,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6960",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "263003",
+          "sg_name": "（002）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 27485,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6960",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "263004",
+          "sg_name": "（001）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 605,
+          "min_rank": 5206,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423485",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 10254,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423485",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 10254,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423495",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 18844,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 594,
+          "min_rank": 58253,
+          "majors": [
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（番禺校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（番禺校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（番禺校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（番禺校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（番禺校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（番禺校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（番禺校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "310303",
+          "sg_name": "（W001）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "min_score": 559,
+          "min_rank": 60269,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）（国家专项计划）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 6,
+              "tuition": "6230",
+              "length": "4",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "4",
+              "info": "（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "310303",
+          "sg_name": "（W001）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "min_score": 559,
+          "min_rank": 60269,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）（国家专项计划）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 6,
+              "tuition": "6230",
+              "length": "4",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "4",
+              "info": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）（国家专项计划）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "4",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "310304",
+          "sg_name": "（W002）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "min_score": 600,
+          "min_rank": 26459,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）（国家专项计划）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "4",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "342623",
+          "sg_name": "（005）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 55933,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "342623",
+          "sg_name": "（005）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 55933,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "342624",
+          "sg_name": "（004）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 626,
+          "min_rank": 12440,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 1,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "342625",
+          "sg_name": "（003）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 575,
+          "min_rank": 45653,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394595",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "临床医学",
+          "min_score": 613,
+          "min_rank": 8716,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（临床医学）（不招色盲、色弱且不招单色识别不全者）（临床医学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（临床医学）（不招色盲、色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "394596",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 32905,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 7,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（临床医学）（不招色盲、色弱且不招单色识别不全者）（临床医学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（临床医学）（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "394596",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 32905,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 7,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "394597",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 24825,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "404046",
+          "sg_name": "（503）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 34615,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "404046",
+          "sg_name": "（503）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 34615,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）（国家专项）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "404047",
+          "sg_name": "（502）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 596,
+          "min_rank": 10188,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "404048",
+          "sg_name": "（501）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 559,
+          "min_rank": 28842,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "404082",
+          "sg_name": "（562）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 562,
+          "min_rank": 26381,
+          "majors": [
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "404083",
+          "sg_name": "（561）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 503,
+          "min_rank": 80010,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）（国家专项）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369901",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369902",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 8,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "369902",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 8,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "369903",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291986",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 566,
+          "min_rank": 32837,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291986",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 566,
+          "min_rank": 32837,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "291987",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 609,
+          "min_rank": 10764,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "291988",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 581,
+          "min_rank": 23725,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319204",
+          "sg_name": "（304）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 543,
+          "min_rank": 50163,
+          "majors": [
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "319205",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 36495,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 6,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）（国家专项）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "319205",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 36495,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 6,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "319206",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 15422,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "319207",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 30892,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433076",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "地方专项计划",
+          "min_score": 549,
+          "min_rank": 24780,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433078",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 17943,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 90,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱，不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 54,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱，不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 45,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433077",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选化学",
+          "batch": "本科批",
+          "zslx_name": "地方专项计划",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433078",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 17943,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 90,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱，不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 54,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱，不招单色识别不全者；住宿费：1000元/学年；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（住宿费：1000元/学年；办学地点：番禺校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 45,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433221",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "地方专项计划",
+          "min_score": 542,
+          "min_rank": 92283,
+          "majors": [
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 10,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433223",
+          "sg_name": "（203）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 52651,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 494,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 101,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 100,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 97,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 90,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 88,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 87,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 85,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 75,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 60,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 60,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 58,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 55,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 30,
+              "tuition": "6960",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 20,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 10,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）（地方专项计划）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（地方专项）（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433222",
+          "sg_name": "（204）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 69922,
+          "majors": [
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 101,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 100,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 97,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 90,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 75,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 60,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 55,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433223",
+          "sg_name": "（203）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 52651,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 494,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 88,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 87,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 85,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 60,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 58,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 30,
+              "tuition": "6960",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 20,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433224",
+          "sg_name": "（202）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 620,
+          "min_rank": 14066,
+          "majors": [
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "五年",
+              "info": "（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433225",
+          "sg_name": "（201）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 633,
+          "min_rank": 8669,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（“5+X”一体化）（本科毕业符合相关条件的，可获得在本校继续攻读研究生的资格；住宿费：1000元/学年；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：番禺校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "458962",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 596,
+          "min_rank": 7427,
+          "majors": [
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "458962",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 596,
+          "min_rank": 7427,
+          "majors": [
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "458963",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 614,
+          "min_rank": 3683,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（在番禺校区办学，不招色盲、色弱考生且不招单色识别不全的考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "groups": [
+        {
+          "group_id": "350674",
+          "sg_name": "（80）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 688,
+          "min_rank": 2336,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "350676",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "化学必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 636,
+          "min_rank": 6697,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲、色弱、单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱、单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "350675",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 605,
+          "min_rank": 11264,
+          "majors": [
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱、单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "350676",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "化学必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 636,
+          "min_rank": 6697,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱、单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "350677",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 642,
+          "min_rank": 6010,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲、色弱、单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 21426,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（单色识别不全考生限报；办学地点：番禺校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（色弱、色盲、单色识别不全考生限报；办学地点：番禺校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 34689,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 22,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 6,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点:广州医科大学番禺校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（办学地点:广州医科大学番禺校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（不招色盲色弱且不招单色识别不全者;办学地点:广州医科大学番禺校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "362383",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 6,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "362383",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 6,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（番禺校区；不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（番禺校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（番禺校区；不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（番禺校区；不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "362384",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（番禺校区；不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（番禺校区；不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "417550",
+          "sg_name": "（002）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选化学",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 444,
+          "min_rank": 18423,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417551",
+          "sg_name": "（001）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 6358,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（国家专项计划）（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（国家专项计划）（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417551",
+          "sg_name": "（001）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 6358,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 5,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（国家专项计划）（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（国家专项计划）（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417557",
+          "sg_name": "（006）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 22153,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417573",
+          "sg_name": "（004）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 495,
+          "min_rank": 30723,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 12,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 7,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "7656",
+              "length": "五年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（国家专项计划）（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 3,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（国家专项计划）（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417573",
+          "sg_name": "（004）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 495,
+          "min_rank": 30723,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 12,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 7,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱且不招单色识别不全者）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲色弱且不招单色识别不全者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7656",
+              "length": "四年",
+              "info": "（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_id": "417574",
+          "sg_name": "（003）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 25071,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（不招单色识别不全者）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5510",
+              "length": "四年",
+              "info": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（番禺校区，不招色盲色弱且不招单色识别不全者;办学地点:广东省广州市）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6960",
+              "length": "四年",
+              "info": "（番禺校区，不招色盲色弱且不招单色识别不全者;办学地点:广东省广州市）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（番禺校区，不招色盲色弱且不招单色识别不全者;办学地点:广东省广州市）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "6230",
+              "length": "四年",
+              "info": "（番禺校区，不招色盲色弱且不招单色识别不全者;办学地点:广东省广州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科一批",
+          "zslx_name": "预科",
+          "min_score": 494,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（包含专业：麻醉学、护理学、康复治疗学、药学、公共事业管理、应用心理学；其中麻醉学专业学制为五年，录取条件见院校招生章程，在本校预科一年，预科阶段学费5510元/年）（单列类）（学费待定）（预科）",
+              "level2": null,
+              "level3": null,
+              "num": 20,
+              "tuition": null,
+              "length": "四年",
+              "info": "（包含专业：麻醉学、护理学、康复治疗学、药学、公共事业管理、应用心理学；其中麻醉学专业学制为五年，录取条件见院校招生章程，在本校预科一年，预科阶段学费5510元/年）（单列类）（学费待定）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
