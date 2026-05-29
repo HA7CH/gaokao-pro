@@ -120,13 +120,40 @@ function shouldTable(flags: Record<string, string | boolean>): boolean {
 
 // Validate a list of subjects against the canonical set, throwing a consistent
 // error for the first unknown one. Used by match/recommend-major/recommend/top.
-function validateSubjects(subjects: string[]): Subject[] {
+// 支持家长常用简写: "物化生" → ["物理","化学","生物"], "史地政" → ["历史","地理","政治"]
+// 也兼容已经是单 char 数组的形式.
+function expandSubjectShorthand(subjects: string[]): string[] {
+  const CHAR_MAP: Record<string, string> = {
+    "物": "物理", "化": "化学", "生": "生物",
+    "史": "历史", "地": "地理", "政": "政治",
+    "技": "技术"
+  };
+  const out: string[] = [];
   for (const s of subjects) {
+    const trimmed = s.trim();
+    // 完整名称直通
+    if (ALL_SUBJECTS.includes(trimmed as Subject)) {
+      out.push(trimmed);
+      continue;
+    }
+    // 简写: 每字一科 (e.g. "物化生" / "史地政" / "物化技")
+    if (trimmed.length >= 2 && trimmed.length <= 4 && [...trimmed].every(c => c in CHAR_MAP)) {
+      for (const c of trimmed) out.push(CHAR_MAP[c]);
+      continue;
+    }
+    out.push(trimmed); // 保留, 让 validateSubjects 报错
+  }
+  return out;
+}
+
+function validateSubjects(subjects: string[]): Subject[] {
+  const expanded = expandSubjectShorthand(subjects);
+  for (const s of expanded) {
     if (!ALL_SUBJECTS.includes(s as Subject)) {
-      throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
+      throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")}). 简写支持: 物化生/史地政/物化政 等 (每字一科)`);
     }
   }
-  return subjects as Subject[];
+  return expanded as Subject[];
 }
 
 // Build the shared 985/211/双一流 filter fields from parsed flags. Callers that
@@ -1952,9 +1979,9 @@ const VERBS: Record<string, Verb> = {
   // ---- LAWTED v0.2.0 — 特殊招生 (艺术/体育/强基/综评/民族/港澳台) 7 verbs ----
 
   async "art-tongkao"(args) {
-    const { flags } = parseFlags(args);
-    const pa = flags.province;
-    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const { positional, flags } = parseFlags(args);
+    const pa = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!pa) throw new Error("usage: gaokao-pro art-tongkao <省份> [--category <类>] [--year 2023|2024|2025|2026]");
     const id = resolveProvince(pa);
     if (!id) throw new Error(`unknown province: ${pa}`);
     const year = parseSAYear(flags.year);
@@ -1969,9 +1996,9 @@ const VERBS: Record<string, Verb> = {
   },
 
   async "sports-tongzhao"(args) {
-    const { flags } = parseFlags(args);
-    const pa = flags.province;
-    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const { positional, flags } = parseFlags(args);
+    const pa = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!pa) throw new Error("usage: gaokao-pro sports-tongzhao <省份> [--year 2023|2024|2025|2026]");
     const id = resolveProvince(pa);
     if (!id) throw new Error(`unknown province: ${pa}`);
     const year = parseSAYear(flags.year);

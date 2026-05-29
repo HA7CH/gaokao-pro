@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.4 — 2026-05-29
+
+### Fix — 31-province regression round 1
+- `subjects` 简写支持: `物化生` `史地政` `物化政` `史化生` `物化技` 等家长口语化 6字写法自动展开为完整科目数组
+- 综评 (zongping by-school) 按候选分数 540 floor 过滤 (380 分不再"合格"上海纽约/南科大)
+- 河北 huadang `candidate_profile_summary` + `tags` 字段中残留的"112 志愿"补修 (0.3.3 只改了 what_happened/lesson)
+- `art-tongkao` / `sports-tongzhao` 接受位置参数 (`art-tongkao 河南` 而不只是 `--province henan`) — 与其他 verb 一致
+
 ## 0.3.3 — 2026-05-29
 
 ### Fix — 100-persona red-team 系统性修补

@@ -137,7 +137,11 @@ function tiqianEligible(p: TiqianProgram, profile: ProfileLite): { eligible: boo
   return { eligible: true, caveat: null };
 }
 
-function zongpingEligible(_s: ZongheSchool2026, _profile: ProfileLite): { eligible: boolean; caveat: string | null } {
+function zongpingEligible(_s: ZongheSchool2026, profile: ProfileLite): { eligible: boolean; caveat: string | null } {
+  // 综评/三位一体 高考要求 ≥ 一本线/特控线 — 一般 540-560 区间因省略有差异. 保守取 540.
+  if (typeof profile.score === "number" && profile.score < 540) {
+    return { eligible: false, caveat: `分数门槛 ~540+ (≥一本/特控)，你 ${profile.score} 分暂不达标` };
+  }
   return { eligible: true, caveat: "需初审 + 校测；分数门槛通常 ≥ 一本/特控" };
 }
 
