@@ -11,7 +11,7 @@
 // paths / huadang manually. Parents see picks + their risk + alternative
 // routes all in one place.
 import { recommend, type RecommendCandidate } from "./recommend.js";
-import { findUniversity, slipRisk, provinceTiaojiInfo, type SlipRiskResult, type ProvinceTiaojiInfo } from "./groups.js";
+import { findUniversity, slipRisk, provinceTiaojiInfo, detectGroupTrap, type SlipRiskResult, type ProvinceTiaojiInfo } from "./groups.js";
 import { paths as pathsFn, type ProfileLite, type PathsResult } from "./paths.js";
 import { resolveProvince, type ProvinceId, type Subject } from "./codes.js";
 
@@ -47,6 +47,9 @@ export type SchoolPickWithRisk = {
     score_gap: number | null;
     reasons_count: number;
     precedent_count: number;
+    trap_majors: string[];           // 同组冷门"调剂雷"专业
+    hot_majors_sample: string[];     // 同组热门 (前 3 个)
+    trap_hint: string | null;        // 雷区文字提示 (e.g. "计算机+护理同组")
   } | null;
 };
 
@@ -102,12 +105,16 @@ function pickRepresentativeRisk(
       candidateScore,
       candidateRank,
     });
+    const trap = detectGroupTrap(target);
     return {
       group_code: target.group_code,
       verdict: risk.verdict,
       score_gap: risk.score_gap,
       reasons_count: risk.reasons.length,
       precedent_count: risk.precedents.length,
+      trap_majors: trap.trap_majors,
+      hot_majors_sample: trap.hot_majors.slice(0, 3),
+      trap_hint: trap.spread_hint,
     };
   } catch {
     return null;

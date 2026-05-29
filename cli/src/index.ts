@@ -48,7 +48,7 @@ import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
-import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo } from "./groups.js";
+import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo, detectGroupTrap } from "./groups.js";
 import { paths as pathsFn, type ProfileLite } from "./paths.js";
 import { dossier as dossierFn } from "./dossier.js";
 import { roadmap as roadmapFn } from "./roadmap.js";
@@ -937,7 +937,11 @@ const VERBS: Record<string, Verb> = {
     if (!uni) throw new Error("--university <name> required (e.g. 清华大学)");
     const province = typeof flags.province === "string" ? flags.province : null;
     const u = findUniversity(uni);
-    if (!u) throw new Error(`university not found in dataset: ${uni}`);
+    if (!u) {
+      const sugg = (await import("./groups.js")).suggestUniversities(uni, 3);
+      const hint = sugg.length > 0 ? `；可能想找：${sugg.join(" / ")}` : `；可试简称如 北邮/北航/华师/上交 等`;
+      throw new Error(`数据集里没找到「${uni}」${hint}`);
+    }
     if (province) {
       const groups = listGroups(uni, province);
       const must = typeof flags["must"] === "string" ? (flags["must"] as string).split(",").map(s => s.trim()) : [];
@@ -971,6 +975,11 @@ const VERBS: Record<string, Verb> = {
         }
         if (g.safety) {
           lines.push(`  → 调剂安全分: ${g.safety.score.toFixed(2)} (${g.safety.verdict}) · 匹配${g.safety.matched_majors.length} / 拒绝${g.safety.rejected_majors.length}`);
+        }
+        // Trap detection: 同组热门 + 冷门混搭 (经典 计算机 + 护理 调剂坑)
+        const trap = detectGroupTrap(g);
+        if (trap.is_trap && trap.spread_hint) {
+          lines.push(`  ${trap.spread_hint}`);
         }
         lines.push("");
       }
@@ -1211,6 +1220,10 @@ const VERBS: Record<string, Verb> = {
           if (risk.precedent_count > 0) riskStr += ` ·有${risk.precedent_count}个历史案例`;
         }
         lines.push(`  · ${c.name}${tagStr} delta=${c.delta >= 0 ? "+" : ""}${c.delta} (${c.baselineYear}基线${c.baselineMinScore}) · ${c.city} ${dataset}${riskStr}`);
+        // 调剂雷区 提示 (热门 + 冷门同组)
+        if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
+          lines.push(`    ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 4).join("、")}${risk.trap_majors.length > 4 ? "等" : ""} (同组热门 ${risk.hot_majors_sample.slice(0, 2).join("、")} — 勾服从可能掉到冷门)`);
+        }
       }
       lines.push("");
     }

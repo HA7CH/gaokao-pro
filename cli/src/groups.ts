@@ -2,6 +2,7 @@ import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
 import { findCasesByProvince, type HuadangCase } from "./datasets.js";
+import { resolveAlias } from "./aliases.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 // Per-university source files live here, one JSON per school (e.g. pku-2025.json).
@@ -270,7 +271,125 @@ function load(year?: number): Dataset {
 
 export function findUniversity(name: string, year?: number): University | null {
   const ds = load(year);
+  // 1) If `name` is a registered alias (北邮/华师/中大 etc.), use the canonical
+  //    name FIRST — substring match would find 西华师范 for 华师, or 西北大学
+  //    for 中大, which is wrong.
+  const canonical = resolveAlias(name);
+  if (canonical !== name) {
+    const aliased = ds.universities.find(u => typeof u.university === "string" && u.university.includes(canonical));
+    if (aliased) return aliased;
+  }
+  // 2) Fall back to substring match for full names ("清华大学", "北京邮电大学")
   return ds.universities.find(u => typeof u.university === "string" && u.university.includes(name)) || null;
+}
+
+/**
+ * Returns up to N university names that might be what the user meant.
+ * Used to build friendly "did you mean..." error messages for parents
+ * who typed an unrecognized name or a typo.
+ */
+export function suggestUniversities(query: string, max = 5, year?: number): string[] {
+  const ds = load(year);
+  const q = query.trim();
+  if (!q) return [];
+  // Build a corpus of all university names + their characters.
+  const names = ds.universities.map(u => u.university).filter((s): s is string => typeof s === "string" && s.length > 0);
+  // 1) Names that start with the query → highest priority
+  const starts = names.filter(n => n.startsWith(q));
+  // 2) Names that contain the query → second priority
+  const contains = names.filter(n => !starts.includes(n) && n.includes(q));
+  // 3) Names sharing ≥2 chars with query → fuzzy
+  const chars = new Set(q);
+  const fuzzy = names
+    .filter(n => !starts.includes(n) && !contains.includes(n))
+    .map(n => ({ n, hits: [...n].filter(c => chars.has(c)).length }))
+    .filter(x => x.hits >= 2)
+    .sort((a, b) => b.hits - a.hits)
+    .slice(0, max)
+    .map(x => x.n);
+  return [...starts, ...contains, ...fuzzy].slice(0, max);
+}
+
+/**
+ * Detect "trap groups" — 专业组内 混搭 热门 + 冷门 高分差专业，调剂可能
+ * 落到 parent 完全不想要的专业 (经典 e.g. 计算机 + 护理学 同组)。
+ *
+ * 算法: 扫 majors[] 的 spcode 前 4 位 (国标专业类码)。如果同时出现
+ *   ≥1 "热门工科类" (计算机 0809/电子 0807/AI 0807T/通信 0807/软件 0809
+ *   /集成电路 0807/自动化 0808/电气 0806)
+ * AND ≥1 "冷门陷阱类" (应物 0702/应化 0703/生科 0710/基础医学 1001/
+ *   护理 1011/农学 0901/林学 0907/动科 0903/水产 0908/纺织 0816/
+ *   食品 0827/服装 0816/旅游 1209)
+ * → 标 trap，并列出具体冷门专业作 warning.
+ */
+export type GroupTrapWarning = {
+  is_trap: boolean;
+  trap_majors: string[];          // 具体冷门专业名
+  hot_majors: string[];           // 同组热门专业名 (作对照)
+  spread_hint: string | null;     // 文字提示
+};
+
+const HOT_PREFIXES = new Set([
+  "0807", "0808", "0809", "0806",  // 电子/自动化/计算机/电气
+  "0203",  // 金融 (经管热门, 部分组场景)
+  "1002",  // 临床医学
+]);
+
+const TRAP_PREFIXES = new Set([
+  "0702",  // 物理学类 (应用物理)
+  "0703",  // 化学类 (应用化学)
+  "0710",  // 生物科学类
+  "0701",  // 数学类 (大类组内的冷门尾部, 部分场景)
+  "0805",  // 能源动力 (部分组里的冷门)
+  "0816",  // 纺织/服装
+  "0820",  // 测绘 (部分组冷)
+  "0821",  // 兵器类 (部分组冷)
+  "0827",  // 食品科学
+  "0830",  // 生物医学工程 (部分组冷)
+  "1001",  // 基础医学
+  "1011",  // 护理学 ⚠️ 经典调剂坑
+  "0901",  // 农学
+  "0902",  // 园艺/植物保护
+  "0903",  // 动物科学
+  "0905",  // 林学
+  "0907",  // 林学/水土保持
+  "0908",  // 水产
+  "0909",  // 草学
+  "1209",  // 旅游管理
+]);
+
+const SOFT_TRAP_NAMES = ["护理学", "应用物理", "应用化学", "园林", "林学", "动物科学", "水产", "草学", "应用气象", "防灾减灾"];
+
+export function detectGroupTrap(group: Group): GroupTrapWarning {
+  const hot: string[] = [];
+  const trap: string[] = [];
+  for (const m of group.majors) {
+    if (!m.name) continue;
+    const code = m.code ?? null;
+    const prefix4 = code ? code.replace(/[KTH]$/, "").slice(0, 4) : null;
+    const prefix2 = code ? code.replace(/[KTH]$/, "").slice(0, 2) : null;
+    // Hot: 计算机/电子/AI/通信 (prefix 0807, 0808, 0809) — and special-named
+    if (prefix4 && HOT_PREFIXES.has(prefix4)) hot.push(m.name);
+    else if (m.name.includes("计算机") || m.name.includes("人工智能") || m.name.includes("软件") || m.name.includes("电子信息") || m.name.includes("通信") || m.name.includes("自动化") || m.name.includes("微电子") || m.name.includes("集成电路")) hot.push(m.name);
+    // Trap: 护理/农林水产/应物/应化/食品 (prefix list + soft name hints)
+    if (prefix4 && TRAP_PREFIXES.has(prefix4)) trap.push(m.name);
+    else if (prefix2 && (prefix2 === "10" && m.name.includes("护理"))) trap.push(m.name);
+    else if (SOFT_TRAP_NAMES.some(s => m.name && m.name.includes(s))) {
+      if (!trap.includes(m.name)) trap.push(m.name);
+    }
+  }
+  // De-duplicate (some files have duplicate major rows due to source quirks).
+  const hotUniq = [...new Set(hot)];
+  const trapUniq = [...new Set(trap)];
+  const is_trap = hotUniq.length > 0 && trapUniq.length > 0;
+  return {
+    is_trap,
+    trap_majors: trapUniq,
+    hot_majors: hotUniq,
+    spread_hint: is_trap
+      ? `⚠️ 调剂雷区：本组同时包含 ${hotUniq.length} 个热门工科 (${hotUniq.slice(0, 3).join("、")}${hotUniq.length > 3 ? "等" : ""}) 与 ${trapUniq.length} 个冷门专业 (${trapUniq.slice(0, 3).join("、")}${trapUniq.length > 3 ? "等" : ""})；冲档勾服从 = 可能掉到这些冷门里`
+      : null,
+  };
 }
 
 export function listGroups(uniName: string, provinceName: string, year?: number): Group[] {
@@ -491,7 +610,11 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
   const { uniName, provinceName, groupCode, candidateScore, candidateRank, year, prefs } = input;
 
   const uni = findUniversity(uniName, year);
-  if (!uni) throw new Error(`university not found in dataset: ${uniName}`);
+  if (!uni) {
+    const sugg = suggestUniversities(uniName, 3);
+    const hint = sugg.length > 0 ? `；可能想找：${sugg.join(" / ")}` : `；可试简称如 北邮/北航/华师/上交 等`;
+    throw new Error(`数据集里没找到「${uniName}」${hint}`);
+  }
   const province = uni.provinces.find(p => p.province === provinceName);
   if (!province) throw new Error(`province not found for ${uni.university}: ${provinceName}`);
   // Tolerant code match: dataset uses bare "01", caller may pass "01" or "1".
