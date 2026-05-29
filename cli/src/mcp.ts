@@ -54,6 +54,7 @@ import {
   findXiaoceDetailBySchool
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
+import { paths as pathsFn } from "./paths.js";
 import { VERSION } from "./version.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
@@ -499,6 +500,26 @@ const TOOLS = [
       required: ["school"],
       additionalProperties: false
     }
+  },
+  {
+    name: "paths",
+    description: "志愿路径全景 — given a province + profile flags (少数民族 / 农村专项 / 服务期同意 / 体育等级 / 第一外语), aggregate ALL pathways in one call: 提前批 catalog (42 programs) + 综评 by-school + 高水平运动队 + 省级 滑档 rules. Each pathway tagged as eligible/ineligible with the precise caveat (服务期 / 户籍/学籍 / 等级证书). Single-shot parent-facing 'what can my kid apply for' summary.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (required), e.g. '广东'." },
+        score: { type: "number", description: "可选：高考总分" },
+        rank: { type: "number", description: "可选：全省位次" },
+        minority: { type: "boolean", description: "是否少数民族 (开启民族班/预科班)" },
+        rural: { type: "boolean", description: "户籍/学籍是否在 832 县 (开启国家/高校专项+农村医学)" },
+        serve: { type: "boolean", description: "是否同意签 ≥6 年服务期 (开启公费师范+优师+农村医学)" },
+        sport_tier: { type: "string", description: "可选：体育等级 ('一级运动员' 或 '运动健将'). 与 sport_name 一起使用启用 高水平运动队 推荐" },
+        sport_name: { type: "string", description: "可选：项目名 (e.g. '游泳'). 不传则匹配所有项目" },
+        language: { type: "string", description: "可选：第一外语 (非英语) — 开启 小语种提前批" }
+      },
+      required: ["province"],
+      additionalProperties: false
+    }
   }
 ];
 
@@ -849,6 +870,21 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "paths": {
+      const province = getStr(args, "province");
+      const result = pathsFn({
+        province,
+        score: args.score !== undefined ? Number(args.score) : null,
+        rank: args.rank !== undefined ? Number(args.rank) : null,
+        is_minority: args.minority === true,
+        is_rural_county: args.rural === true,
+        agree_to_serve: args.serve === true,
+        sport_tier: typeof args.sport_tier === "string" ? args.sport_tier : null,
+        sport_name: typeof args.sport_name === "string" ? args.sport_name : null,
+        small_language: typeof args.language === "string" ? args.language : null,
+      });
+      return { ok: true, ...result };
     }
     default:
       throw new Error(`unknown tool: ${name}`);

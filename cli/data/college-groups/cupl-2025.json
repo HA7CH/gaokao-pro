@@ -25,134 +25,322 @@
     "再选思政强制组: 思想政治教育/国际政治/政治学与行政学等，通常入组(02/103/207/700)；不强制思政的其他文科入(01/104/206/999)。"
   ],
   "school_min_2025": {
-    "henan": { "type": "2073", "min": 629, "track": "物理类" },
-    "jiangsu": { "type": "2073", "min": 631, "track": "物理类" },
-    "guangdong": { "type": "2073", "min": 615, "track": "物理类" },
-    "hubei": { "type": "2073", "min": 604, "track": "物理类" },
-    "fujian": { "type": "2073", "min": 617, "track": "物理类" },
-    "shandong": { "type": "3", "min": 611, "track": "综合改革" },
-    "hebei": { "type": "2073", "min": 627, "track": "物理类" }
+    "henan": {
+      "type": "2073",
+      "min": 629,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 631,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 615,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 604,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 617,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 611,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 627,
+      "track": "物理类"
+    }
   },
   "provinces": {
-    "41": {
-      "name": "河南",
+    "13": {
+      "name": "河北",
       "regime": "新高考3+1+2",
       "groups": [
         {
-          "group_code": "371795",
-          "sg_name": "（102）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 653,
-          "total_num": 12,
-          "items": [
-            { "sp_name": "法学", "num": 7, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "371794",
-          "sg_name": "（103）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选思想政治",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 632,
-          "total_num": 7,
-          "items": [
-            { "sp_name": "政治学与行政学", "num": 5, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "思想政治教育", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "371793",
-          "sg_name": "（104）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
+          "group_code": "he-14-2073",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
           "min_score": 627,
-          "total_num": 65,
+          "total_num": 43,
           "items": [
-            { "sp_name": "法学", "num": 35, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "德语", "num": 5, "tuition": 6000, "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 4, "tuition": 5000, "info_short": "创新与知产管理方向；办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 4, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "翻译", "num": 4, "tuition": 6000, "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "英语", "num": 3, "tuition": 6000, "info_short": "法律英语实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "区域国别法学特色班；办学:北京昌平" },
-            { "sp_name": "社会学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "哲学", "num": 1, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 1, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "本部主专业；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "法务会计方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北邮联合培养智慧法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "371776",
-          "sg_name": "（106）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 649,
-          "total_num": 10,
-          "items": [
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "北邮联合培养智慧法学实验班；第三学年到北邮；办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；第二学年到北理；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "371775",
-          "sg_name": "（107）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 636,
-          "total_num": 32,
-          "items": [
-            { "sp_name": "法学", "num": 15, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 4, "tuition": 5000, "info_short": "法务会计方向；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 4, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 2, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "371782",
-          "sg_name": "（301）",
+          "group_code": "he-14-2074",
+          "sg_name": null,
           "track": "历史类",
-          "subject_req": "首选历史，再选不限",
+          "subject_req": "首选历史，再选不限/思想政治",
           "batch": "本科批",
-          "zslx": "国家专项计划",
+          "zslx": "普通类",
+          "min_score": 628,
+          "total_num": 72,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 34,
+              "tuition": 5000,
+              "info_short": "本部主专业；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "新闻学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "德语",
+              "num": 3,
+              "tuition": 6000,
+              "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "社会学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "政治学与行政学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "再选含思政；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际政治",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "再选含思政；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "翻译",
+              "num": 2,
+              "tuition": 6000,
+              "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "再选含思政；办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "he-36-tq-ls",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批A段",
+          "zslx": "普通类",
           "total_num": 9,
           "items": [
-            { "sp_name": "法学", "num": 7, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 1, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 1, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" }
+            {
+              "sp_name": "侦查学",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "公安(武警)类；网络犯罪侦查方向；学校不单独组织公安类政审/体检/面试；办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "371780",
-          "sg_name": "（305）",
+          "group_code": "he-37-gj-ls",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "国家专项计划；办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "he-37-gj-wl",
+          "sg_name": null,
           "track": "物理类",
           "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
+          "batch": "本科提前批B段",
           "zslx": "国家专项计划",
-          "total_num": 13,
+          "total_num": 2,
           "items": [
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 3, "tuition": 5000, "info_short": "国家专项；创新与知产管理方向；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 2, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 1, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项计划；办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "he-86-gx-ls",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "he-86-gx-wl",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
           ]
         }
       ]
@@ -171,18 +359,78 @@
           "min_score": 631,
           "total_num": 37,
           "items": [
-            { "sp_name": "法学", "num": 16, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 3, "tuition": 5000, "info_short": "法务会计方向；办学:北京昌平" },
-            { "sp_name": "翻译", "num": 3, "tuition": 6000, "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "区域国别法学特色班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "法学+翻译双学士学位项目；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "德语", "num": 2, "tuition": 6000, "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平" },
-            { "sp_name": "哲学", "num": 1, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "哲学+法学双学士学位项目；办学:北京昌平" },
-            { "sp_name": "社会学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "法务会计方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "翻译",
+              "num": 3,
+              "tuition": 6000,
+              "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "区域国别法学特色班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "法学+翻译双学士学位项目；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "德语",
+              "num": 2,
+              "tuition": 6000,
+              "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "哲学+法学双学士学位项目；办学:北京昌平"
+            },
+            {
+              "sp_name": "社会学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -195,9 +443,24 @@
           "min_score": 642,
           "total_num": 12,
           "items": [
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            }
           ]
         },
         {
@@ -210,8 +473,18 @@
           "min_score": 628,
           "total_num": 4,
           "items": [
-            { "sp_name": "国际政治", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "政治学与行政学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "国际政治",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "政治学与行政学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -224,216 +497,78 @@
           "min_score": 631,
           "total_num": 35,
           "items": [
-            { "sp_name": "法学", "num": 10, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 4, "tuition": 5000, "info_short": "法务会计；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 4, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "金融工程+法学双学士学位项目；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 2, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "新闻学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "434458",
-          "sg_name": "（206）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 619,
-          "total_num": 80,
-          "items": [
-            { "sp_name": "法学", "num": 33, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "法学", "num": 7, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "英语", "num": 6, "tuition": 6000, "info_short": "法律英语实验班；只招英语；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 5, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "翻译", "num": 5, "tuition": 6000, "info_short": "法律翻译实验班；只招英语；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 4, "tuition": 5000, "info_short": "创新与知产管理；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "哲学", "num": 2, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "新闻学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "社会工作", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "社会学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "434457",
-          "sg_name": "（207）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选思想政治",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 618,
-          "total_num": 8,
-          "items": [
-            { "sp_name": "政治学与行政学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "国际政治", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "思想政治教育", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "434473",
-          "sg_name": "（208）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 616,
-          "total_num": 42,
-          "items": [
-            { "sp_name": "法学", "num": 18, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "法学+经济学双学士学位项目；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 4, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 2, "tuition": 5000, "info_short": "创新与知产管理；办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "258164",
-          "sg_name": "（102）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选思想政治",
-          "batch": "本科提前批",
-          "zslx": "普通类",
-          "total_num": 5,
-          "items": [
-            { "sp_name": "侦查学", "num": 5, "tuition": 5000, "info_short": "公安政法类；非军检；网络犯罪侦查方向；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "258637",
-          "sg_name": "（706）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "258686",
-          "sg_name": "（708）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "293318",
-          "sg_name": "（05）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 637,
-          "total_num": 7,
-          "items": [
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "293317",
-          "sg_name": "（06）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 619,
-          "total_num": 46,
-          "items": [
-            { "sp_name": "法学", "num": 26, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "英语", "num": 4, "tuition": 6000, "info_short": "法律英语实验班；只招英语；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "哲学双学士学位项目(法学+哲学)；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "翻译双学士学位项目(法学+翻译)；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 1, "tuition": 5000, "info_short": "创新与知产管理方向；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 1, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "德语", "num": 1, "tuition": 6000, "info_short": "法律德语实验班；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "293327",
-          "sg_name": "（07）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 3,
-          "items": [
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "新闻学", "num": 1, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "293306",
-          "sg_name": "（08）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "min_score": 604,
-          "total_num": 32,
-          "items": [
-            { "sp_name": "法学", "num": 16, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 2, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 2, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 1, "tuition": 5000, "info_short": "创新与知产管理方向；办学:北京昌平" },
-            { "sp_name": "英语", "num": 1, "tuition": 6000, "info_short": "法律英语实验班；办学:北京昌平" },
-            { "sp_name": "社会工作", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "293324",
-          "sg_name": "（09）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 5,
-          "items": [
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "国家专项；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 1, "tuition": 5000, "info_short": "国家专项；创新与知产管理方向；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法务会计；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "金融工程+法学双学士学位项目；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "新闻学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         }
       ]
@@ -452,9 +587,24 @@
           "min_score": 612,
           "total_num": 4,
           "items": [
-            { "sp_name": "国际政治", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "政治学与行政学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "思想政治教育", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "国际政治",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "政治学与行政学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -467,18 +617,78 @@
           "min_score": 615,
           "total_num": 46,
           "items": [
-            { "sp_name": "法学", "num": 21, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 3, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "区域国别法学特色班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "翻译双学士学位项目(法学+翻译)；办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "哲学", "num": 1, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "社会学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 1, "tuition": 5000, "info_short": "合规管理方向；办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 21,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "区域国别法学特色班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "翻译双学士学位项目(法学+翻译)；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "社会学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "合规管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -491,17 +701,72 @@
           "min_score": 617,
           "total_num": 32,
           "items": [
-            { "sp_name": "法学", "num": 13, "tuition": 5000, "info_short": "本部主组；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 3, "tuition": 5000, "info_short": "法务会计方向；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "北邮联合培养智慧法学实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 2, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "经济学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "法务会计方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北邮联合培养智慧法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -513,7 +778,12 @@
           "zslx": "高校专项计划",
           "total_num": 1,
           "items": [
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
           ]
         },
         {
@@ -525,7 +795,12 @@
           "zslx": "高校专项计划",
           "total_num": 1,
           "items": [
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
           ]
         }
       ]
@@ -544,32 +819,162 @@
           "min_score": 611,
           "total_num": 99,
           "items": [
-            { "sp_name": "法学", "num": 25, "tuition": 5000, "info_short": "本部主专业；办学:北京昌平" },
-            { "sp_name": "法学", "num": 10, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 7, "tuition": 5000, "info_short": "涉外法治人才培养实验班；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 6, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "北外联合培养涉外法治人才；第二学年到北外；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 4, "tuition": 5000, "info_short": "合规管理方向；办学:北京昌平" },
-            { "sp_name": "英语", "num": 4, "tuition": 6000, "info_short": "法律英语实验班；只招英语；办学:北京昌平" },
-            { "sp_name": "政治学与行政学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "国际政治", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "德语", "num": 3, "tuition": 6000, "info_short": "法律德语实验班；办学:北京昌平" },
-            { "sp_name": "哲学", "num": 2, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "北邮联合培养智慧法学实验班；第二学年到北邮；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "区域国别法学特色班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 2, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "翻译", "num": 2, "tuition": 6000, "info_short": "法律翻译实验班；只招英语；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "新闻学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "社会工作", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 25,
+              "tuition": 5000,
+              "info_short": "本部主专业；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "北外联合培养涉外法治人才；第二学年到北外；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "合规管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 4,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语；办学:北京昌平"
+            },
+            {
+              "sp_name": "政治学与行政学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "国际政治",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "德语",
+              "num": 3,
+              "tuition": 6000,
+              "info_short": "法律德语实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北邮联合培养智慧法学实验班；第二学年到北邮；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "区域国别法学特色班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "翻译",
+              "num": 2,
+              "tuition": 6000,
+              "info_short": "法律翻译实验班；只招英语；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "新闻学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "社会工作",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
@@ -581,7 +986,12 @@
           "zslx": "普通类",
           "total_num": 8,
           "items": [
-            { "sp_name": "侦查学", "num": 8, "tuition": 5000, "info_short": "公安政法类；网络犯罪侦查方向；学校不单独组织公安类政审/体检/面试；办学:北京昌平" }
+            {
+              "sp_name": "侦查学",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "公安政法类；网络犯罪侦查方向；学校不单独组织公安类政审/体检/面试；办学:北京昌平"
+            }
           ]
         },
         {
@@ -593,126 +1003,814 @@
           "zslx": "高校专项计划",
           "total_num": 2,
           "items": [
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
           ]
         }
       ]
     },
-    "13": {
-      "name": "河北",
+    "41": {
+      "name": "河南",
       "regime": "新高考3+1+2",
       "groups": [
         {
-          "group_code": "he-14-2073",
-          "sg_name": null,
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
+          "group_code": "371795",
+          "sg_name": "（102）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 653,
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "371794",
+          "sg_name": "（103）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 632,
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "政治学与行政学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "371793",
+          "sg_name": "（104）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
           "min_score": 627,
-          "total_num": 43,
+          "total_num": 65,
           "items": [
-            { "sp_name": "法学", "num": 19, "tuition": 5000, "info_short": "本部主专业；办学:北京昌平" },
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "金融工程", "num": 4, "tuition": 5000, "info_short": "成思危现代金融菁英班；办学:北京昌平" },
-            { "sp_name": "工商管理", "num": 3, "tuition": 5000, "info_short": "法务会计方向；办学:北京昌平" },
-            { "sp_name": "经济学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "北邮联合培养智慧法学实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平" },
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平" },
-            { "sp_name": "英语", "num": 2, "tuition": 6000, "info_short": "法律英语实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "信息管理与信息系统", "num": 2, "tuition": 5000, "info_short": "北理联合培养数据法学实验班；办学:北京昌平" },
-            { "sp_name": "公共事业管理", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 35,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "德语",
+              "num": 5,
+              "tuition": 6000,
+              "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "创新与知产管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "翻译",
+              "num": 4,
+              "tuition": 6000,
+              "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 3,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语语种；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "区域国别法学特色班；办学:北京昌平"
+            },
+            {
+              "sp_name": "社会学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "he-14-2074",
-          "sg_name": null,
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限/思想政治",
+          "group_code": "371776",
+          "sg_name": "（106）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
-          "min_score": 628,
-          "total_num": 72,
+          "min_score": 649,
+          "total_num": 10,
           "items": [
-            { "sp_name": "法学", "num": 34, "tuition": 5000, "info_short": "本部主专业；办学:北京昌平" },
-            { "sp_name": "法学", "num": 6, "tuition": 5000, "info_short": "法学人才培养模式改革实验班；办学:北京昌平" },
-            { "sp_name": "法学", "num": 5, "tuition": 5000, "info_short": "纪检、监察实验班；办学:北京昌平" },
-            { "sp_name": "行政管理", "num": 4, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "汉语言文学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "新闻学", "num": 3, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "德语", "num": 3, "tuition": 6000, "info_short": "法律德语实验班；只招英语/德语语种；办学:北京昌平" },
-            { "sp_name": "社会学", "num": 2, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "政治学与行政学", "num": 2, "tuition": 5000, "info_short": "再选含思政；办学:北京昌平" },
-            { "sp_name": "国际政治", "num": 2, "tuition": 5000, "info_short": "再选含思政；办学:北京昌平" },
-            { "sp_name": "国际商务", "num": 2, "tuition": 5000, "info_short": "涉外法商人才培养实验班；办学:北京昌平" },
-            { "sp_name": "英语", "num": 2, "tuition": 6000, "info_short": "法律英语实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "翻译", "num": 2, "tuition": 6000, "info_short": "法律翻译实验班；只招英语语种；办学:北京昌平" },
-            { "sp_name": "应用心理学", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" },
-            { "sp_name": "哲学", "num": 1, "tuition": 5000, "info_short": "拔尖创新人才培养实验班；办学:北京昌平" },
-            { "sp_name": "思想政治教育", "num": 1, "tuition": 5000, "info_short": "再选含思政；办学:北京昌平" },
-            { "sp_name": "网络与新媒体", "num": 1, "tuition": 5000, "info_short": "办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "北邮联合培养智慧法学实验班；第三学年到北邮；办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；第二学年到北理；办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "he-36-tq-ls",
-          "sg_name": null,
-          "track": "历史类",
-          "subject_req": "首选历史，再选思想政治",
-          "batch": "本科提前批A段",
+          "group_code": "371775",
+          "sg_name": "（107）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
           "zslx": "普通类",
+          "min_score": 636,
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 15,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法务会计方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "经济学双学士学位项目(法学+经济学)；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "371782",
+          "sg_name": "（301）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
           "total_num": 9,
           "items": [
-            { "sp_name": "侦查学", "num": 9, "tuition": 5000, "info_short": "公安(武警)类；网络犯罪侦查方向；学校不单独组织公安类政审/体检/面试；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "he-37-gj-ls",
-          "sg_name": null,
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科提前批B段",
-          "zslx": "国家专项计划",
-          "total_num": 4,
-          "items": [
-            { "sp_name": "法学", "num": 4, "tuition": 5000, "info_short": "国家专项计划；办学:北京昌平" }
-          ]
-        },
-        {
-          "group_code": "he-37-gj-wl",
-          "sg_name": null,
+          "group_code": "371780",
+          "sg_name": "（305）",
           "track": "物理类",
           "subject_req": "首选物理，再选不限",
-          "batch": "本科提前批B段",
+          "batch": "本科批",
           "zslx": "国家专项计划",
-          "total_num": 2,
+          "total_num": 13,
           "items": [
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "国家专项计划；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；创新与知产管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            }
           ]
-        },
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
         {
-          "group_code": "he-86-gx-ls",
-          "sg_name": null,
+          "group_code": "293318",
+          "sg_name": "（05）",
           "track": "历史类",
           "subject_req": "首选历史，再选不限",
-          "batch": "本科提前批C段",
-          "zslx": "高校专项计划",
-          "total_num": 2,
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 637,
+          "total_num": 7,
           "items": [
-            { "sp_name": "法学", "num": 2, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            }
           ]
         },
         {
-          "group_code": "he-86-gx-wl",
-          "sg_name": null,
+          "group_code": "293317",
+          "sg_name": "（06）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 619,
+          "total_num": 46,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 26,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 4,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "哲学双学士学位项目(法学+哲学)；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "翻译双学士学位项目(法学+翻译)；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "创新与知产管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "德语",
+              "num": 1,
+              "tuition": 6000,
+              "info_short": "法律德语实验班；办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "293327",
+          "sg_name": "（07）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "新闻学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            }
+          ],
+          "min_score": 617,
+          "min_rank": 1485
+        },
+        {
+          "group_code": "293306",
+          "sg_name": "（08）",
           "track": "物理类",
           "subject_req": "首选物理，再选不限",
-          "batch": "本科提前批C段",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 604,
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "金融双学士学位项目(法学+金融工程)；办学:北京昌平"
+            },
+            {
+              "sp_name": "国际商务",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "涉外法商人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "创新与知产管理方向；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "社会工作",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "293324",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "经济学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；创新与知产管理方向；办学:北京昌平"
+            }
+          ],
+          "min_score": 603,
+          "min_rank": 13014
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "434458",
+          "sg_name": "（206）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 619,
+          "total_num": 80,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 33,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "英语",
+              "num": 6,
+              "tuition": 6000,
+              "info_short": "法律英语实验班；只招英语；办学:北京昌平"
+            },
+            {
+              "sp_name": "行政管理",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "翻译",
+              "num": 5,
+              "tuition": 6000,
+              "info_short": "法律翻译实验班；只招英语；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "纪检、监察实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "创新与知产管理；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "哲学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "拔尖创新人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "新闻学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "社会工作",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "社会学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "434457",
+          "sg_name": "（207）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 618,
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "政治学与行政学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "国际政治",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "434473",
+          "sg_name": "（208）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "min_score": 616,
+          "total_num": 42,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "本部主组；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "法学人才培养模式改革实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法学+经济学双学士学位项目；办学:北京昌平"
+            },
+            {
+              "sp_name": "金融工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "成思危现代金融菁英班；办学:北京昌平"
+            },
+            {
+              "sp_name": "经济学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "涉外法治人才培养实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "创新与知产管理；办学:北京昌平"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "北理联合培养数据法学实验班；办学:北京昌平"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "办学:北京昌平"
+            }
+          ]
+        },
+        {
+          "group_code": "258164",
+          "sg_name": "（102）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "侦查学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "公安政法类；非军检；网络犯罪侦查方向；办学:北京昌平"
+            }
+          ],
+          "min_score": 619,
+          "min_rank": 2059
+        },
+        {
+          "group_code": "258637",
+          "sg_name": "（706）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "特殊类型招生批",
           "zslx": "高校专项计划",
           "total_num": 1,
           "items": [
-            { "sp_name": "法学", "num": 1, "tuition": 5000, "info_short": "高校专项计划；办学:北京昌平" }
-          ]
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
+          ],
+          "min_score": 635,
+          "min_rank": 743
+        },
+        {
+          "group_code": "258686",
+          "sg_name": "（708）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项计划；办学:北京昌平"
+            }
+          ],
+          "min_score": 613,
+          "min_rank": 17734
         }
       ]
     }

@@ -23,47 +23,195 @@
       "plan_total": 215,
       "plan_breakdown": "普通本科批物理类98 / 历史类25 / 国家专项35 / 高校专项12 / 中外合作办学15 / 烟台研究院30",
       "groups": [
-        { "group": "历史组", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 601, "min_rank": 5929, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学/农林经济管理等人文社科类" },
-        { "group": "物理组_不限", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 608, "min_rank": 37473, "campus": "北京(本部)+烟台研究院", "majors_summary": "机械类(15)/电子信息类(14)/经济学类/工商管理类/食品科学与工程类(9)/计算机类等" },
-        { "group": "物理组_化学", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/食品科学与工程类/环境科学与工程类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)" },
-        { "group": "中外合作组", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": null, "campus": "北京(中外合作)", "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学,15人)" }
+        {
+          "group": "历史组",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 601,
+          "min_rank": 5929,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学/农林经济管理等人文社科类"
+        },
+        {
+          "group": "物理组_不限",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 608,
+          "min_rank": 37473,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "机械类(15)/电子信息类(14)/经济学类/工商管理类/食品科学与工程类(9)/计算机类等"
+        },
+        {
+          "group": "物理组_化学",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": null,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/食品科学与工程类/环境科学与工程类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)"
+        },
+        {
+          "group": "中外合作组",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": null,
+          "campus": "北京(中外合作)",
+          "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学,15人)"
+        }
       ]
     },
     "江苏": {
       "model": "3+1+2",
       "school_code": "1019",
       "groups": [
-        { "group": "02", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 605, "min_rank": 4658, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学等人文社科类" },
-        { "group": "03", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 638, "min_rank": 19004, "campus": "北京(本部)+烟台研究院", "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类(不限再选)" },
-        { "group": "04", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)" }
+        {
+          "group": "02",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 605,
+          "min_rank": 4658,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学等人文社科类"
+        },
+        {
+          "group": "03",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 638,
+          "min_rank": 19004,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类(不限再选)"
+        },
+        {
+          "group": "04",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": 639,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)",
+          "min_rank": 8362
+        }
       ]
     },
     "广东": {
       "model": "3+1+2",
       "school_code": "10019",
       "groups": [
-        { "group": "201", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 596, "min_rank": 6000, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学/农林经济管理(历史类)" },
-        { "group": "202", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 604, "min_rank": 23636, "campus": "北京(本部)+烟台研究院", "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类" },
-        { "group": "204", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 614, "min_rank": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)" },
-        { "group": "203", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": null, "campus": "北京(中外合作)", "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学)" }
+        {
+          "group": "201",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 596,
+          "min_rank": 6000,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学/农林经济管理(历史类)"
+        },
+        {
+          "group": "202",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 604,
+          "min_rank": 23636,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类"
+        },
+        {
+          "group": "204",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": 614,
+          "min_rank": null,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)"
+        },
+        {
+          "group": "203",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": null,
+          "campus": "北京(中外合作)",
+          "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学)"
+        }
       ]
     },
     "湖北": {
       "model": "3+1+2",
       "school_code": "1019",
       "groups": [
-        { "group": "历史组", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 594, "min_rank": 4070, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学等" },
-        { "group": "物理组_不限", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 596, "min_rank": 16067, "campus": "北京(本部)+烟台研究院", "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类" },
-        { "group": "物理组_化学", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)" }
+        {
+          "group": "历史组",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 594,
+          "min_rank": 4070,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学等"
+        },
+        {
+          "group": "物理组_不限",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 596,
+          "min_rank": 16067,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类"
+        },
+        {
+          "group": "物理组_化学",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": null,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类/资源环境科学类(需选化学)"
+        }
       ]
     },
     "福建": {
       "model": "3+1+2",
       "school_code": "1019",
       "groups": [
-        { "group": "历史组", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 607, "min_rank": 1317, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学等人文社科类" },
-        { "group": "物理组_不限", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 625, "min_rank": 5813, "campus": "北京(本部)+烟台研究院", "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类" },
-        { "group": "物理组_化学", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)" }
+        {
+          "group": "历史组",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 607,
+          "min_rank": 1317,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学等人文社科类"
+        },
+        {
+          "group": "物理组_不限",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 625,
+          "min_rank": 5813,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类"
+        },
+        {
+          "group": "物理组_化学",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": null,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)"
+        }
       ]
     },
     "山东": {
@@ -71,8 +219,26 @@
       "school_code": "A019",
       "note": "山东按专业(专业类)平行志愿投档,无院校专业组,记录为综合一段最低投档分。2025共录取约35个专业(类),区间577-649。",
       "groups": [
-        { "group": "一段_普通类", "track": "综合", "first_subject": "—", "second_subject": "按专业选科要求(物理/化学/不限等)", "min_score": 577, "min_rank": 45839, "campus": "北京(本部)+烟台研究院", "majors_summary": "约35个专业,最低分573(草坪科学与工程综合段)至最高649(理科试验班类);计算机类约638、生物科学类约640" },
-        { "group": "一段_中外合作", "track": "综合", "first_subject": "—", "second_subject": "按专业选科要求(不限/物理等)", "min_score": 593, "min_rank": 30395, "campus": "北京(中外合作)", "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学)" }
+        {
+          "group": "一段_普通类",
+          "track": "综合",
+          "first_subject": "—",
+          "second_subject": "按专业选科要求(物理/化学/不限等)",
+          "min_score": 577,
+          "min_rank": 45839,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "约35个专业,最低分573(草坪科学与工程综合段)至最高649(理科试验班类);计算机类约638、生物科学类约640"
+        },
+        {
+          "group": "一段_中外合作",
+          "track": "综合",
+          "first_subject": "—",
+          "second_subject": "按专业选科要求(不限/物理等)",
+          "min_score": 593,
+          "min_rank": 30395,
+          "campus": "北京(中外合作)",
+          "majors_summary": "国际经济与贸易/传播学/农林经济管理(中外合作办学)"
+        }
       ]
     },
     "河北": {
@@ -80,10 +246,45 @@
       "school_code": "1019",
       "plan_total": 214,
       "groups": [
-        { "group": "历史组", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 615, "min_rank": 3215, "campus": "北京(本部)", "majors_summary": "工商管理类/法学/英语/传播学等人文社科类" },
-        { "group": "物理组_不限", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 599, "min_rank": 27821, "campus": "北京(本部)+烟台研究院", "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类" },
-        { "group": "物理组_化学", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": null, "campus": "北京(本部)", "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)" },
-        { "group": "国家专项_物理", "track": "物理", "first_subject": "物理", "second_subject": "不限/化学(细分)", "min_score": 621, "min_rank": null, "campus": "北京(本部)", "majors_summary": "国家专项计划(面向贫困地区,物理类)" }
+        {
+          "group": "历史组",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "min_score": 615,
+          "min_rank": 3215,
+          "campus": "北京(本部)",
+          "majors_summary": "工商管理类/法学/英语/传播学等人文社科类"
+        },
+        {
+          "group": "物理组_不限",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "min_score": 599,
+          "min_rank": 27821,
+          "campus": "北京(本部)+烟台研究院",
+          "majors_summary": "经济学类/工商管理类/计算机类/机械类/电子信息类/食品科学与工程类"
+        },
+        {
+          "group": "物理组_化学",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "min_score": null,
+          "campus": "北京(本部)",
+          "majors_summary": "生物科学类/化学类/动物科学/动物医学/植物生产类(需选化学)"
+        },
+        {
+          "group": "国家专项_物理",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限/化学(细分)",
+          "min_score": 621,
+          "min_rank": null,
+          "campus": "北京(本部)",
+          "majors_summary": "国家专项计划(面向贫困地区,物理类)"
+        }
       ]
     }
   }

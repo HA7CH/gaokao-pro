@@ -58,6 +58,739 @@
     }
   },
   "provinces": {
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0；按 batch+招生类型+选科 拆组",
+      "groups": [
+        {
+          "group_code": "13_2073_____na",
+          "sg_name": "普通类·物理+化学",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 145,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 24,
+              "tuition": 5500,
+              "info_short": "大类招生；含通信工程、电子信息工程等"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 22,
+              "tuition": 5500,
+              "info_short": "含电子科学与技术、电子信息科学等"
+            },
+            {
+              "sp_name": "电信工程及管理",
+              "num": 21,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 20,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术、网络工程等"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 19,
+              "tuition": 5500,
+              "info_short": "大类招生；含信息工程、人工智能"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 18,
+              "tuition": 5500,
+              "info_short": "大类招生；含网络空间安全等；办学:沙河校区"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 13,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "后两年学费16000元/年；部分课程英语授课"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 8,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 7,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "元班；含通信工程、电子科学与技术专业；未来学院实验班"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "元班；含计算机科学与技术等；未来学院实验班"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            },
+            {
+              "sp_name": "低空技术与工程",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_____na",
+          "sg_name": "普通类·历史",
+          "track": "历史类",
+          "subject_req": "历史必选",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "语言智能实验班；仅招英语考生；办学:沙河校区"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "数智治理实验班；一年级在沙河校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "与中国政法大学联合学位；办学:沙河校区"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:沙河校区"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073________na",
+          "sg_name": "国家专项·提前批B",
+          "track": "物理类",
+          "subject_req": "首选物理",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "电子商务",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；数智商务实验班；一年级在沙河校区"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；AI双学位；一年级在沙河校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "国家专项计划；含电子科学与技术等专业"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073________na_c",
+          "sg_name": "高校专项·提前批C",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "网络空间安全",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；大类招生；办学:沙河校区"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；办学:沙河校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；数学与信息计算；办学:沙河校区"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "425912",
+          "sg_name": "（01）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 46,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 10,
+              "tuition": 5500,
+              "info_short": "大类招生；含通信工程、电子信息工程、空间信息与数字技术"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 7,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 7,
+              "tuition": 5500,
+              "info_short": "大类招生；含信息工程、人工智能"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "大类招生；含网络空间安全、信息安全、密码科学与技术"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与集成系统"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "智能机器人；含自动化、机器人工程、机械工程(数字智能)；办学:沙河校区"
+            },
+            {
+              "sp_name": "智能交互设计",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "办学:沙河校区"
+            },
+            {
+              "sp_name": "低空技术与工程",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "第一学年沙河校区"
+            }
+          ],
+          "min_score": 647,
+          "min_rank": 5310
+        },
+        {
+          "group_code": "425911",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "信息与计算科学",
+              "num": 2,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 1,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 1,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
+            }
+          ],
+          "min_score": 626,
+          "min_rank": 15099
+        },
+        {
+          "group_code": "425910",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "电信工程及管理",
+              "num": 2,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 2,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区"
+            }
+          ],
+          "min_score": 639,
+          "min_rank": 8362
+        },
+        {
+          "group_code": "425909",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "元班；含通信工程、电子科学与技术；未来学院\"元班\"实验班"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "元班；含计算机科学与技术、网络空间安全；未来学院\"元班\"实验班"
+            }
+          ],
+          "min_score": 655,
+          "min_rank": 3081
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "392653",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 88,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 17,
+              "tuition": 5500,
+              "info_short": "大类招生；含通信工程、电子信息工程、空间信息与数字技术；办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 16,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术；办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 16,
+              "tuition": 5500,
+              "info_short": "大类招生；含信息工程、人工智能；办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 14,
+              "tuition": 5500,
+              "info_short": "大类招生；含网络空间安全、信息安全、密码科学与技术；办学:沙河校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与系统；办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 8,
+              "tuition": 5500,
+              "info_short": "智能机器人；含自动化、机器人工程、机械工程(数字智能)；办学:沙河校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "数学与信息计算；含数学与应用数学、信息与计算科学、信息与计算科学(通信双学位)；办学:沙河校区"
+            },
+            {
+              "sp_name": "智能交互设计",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "办学:沙河校区"
+            }
+          ],
+          "min_score": 641,
+          "min_rank": 2960
+        },
+        {
+          "group_code": "392651",
+          "sg_name": "（500_元班）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "元班",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "元班；含通信工程、电子科学与技术；未来学院\"元班\"实验班；办学:沙河校区(第一学年)"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "元班；含计算机科学与技术、网络空间安全；未来学院\"元班\"实验班；办学:沙河校区(第一学年)"
+            }
+          ],
+          "min_score": 655,
+          "min_rank": 1362
+        },
+        {
+          "group_code": "392649",
+          "sg_name": "（500_中外1）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作办学（1）",
+          "total_num": 16,
+          "items": [
+            {
+              "sp_name": "电信工程及管理",
+              "num": 6,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 2,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
+            }
+          ],
+          "min_score": 626,
+          "min_rank": 5610
+        },
+        {
+          "group_code": "392647",
+          "sg_name": "（500_中外2）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作办学（2）",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "信息与计算科学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
+            }
+          ],
+          "min_score": 603,
+          "min_rank": 11774
+        },
+        {
+          "group_code": "392653_h",
+          "sg_name": "（500_高校专项）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；办学:沙河校区"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "高校专项计划；大类招生；含通信工程、电子信息工程、空间信息与数字技术；办学:沙河校区"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按 batch+招生类型+选科 拆组",
+      "groups": [
+        {
+          "group_code": "37_3_____pc__pt",
+          "sg_name": "普通类·物理+化学",
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 110,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 23,
+              "tuition": 5500,
+              "info_short": "大类招生；含通信工程、电子信息工程等专业"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 18,
+              "tuition": 5500,
+              "info_short": "大类招生；含信息工程、人工智能"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 17,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 15,
+              "tuition": 5500,
+              "info_short": "大类招生；含网络空间安全等专业"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 15,
+              "tuition": 5500,
+              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与集成系统"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 10,
+              "tuition": 5500,
+              "info_short": "后两年学费16000元/年"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "元班；未来学院实验班"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "元班；未来学院实验班"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_____pc__zw",
+          "sg_name": "中外合作办学·物理+化学",
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 45,
+          "items": [
+            {
+              "sp_name": "电信工程及管理",
+              "num": 14,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 8,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "低空技术与工程",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "归列于普通类；首选物理+化学"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_____ls",
+          "sg_name": "普通类·历史(英语/法学/管理/新媒体)",
+          "track": "综合改革",
+          "subject_req": "历史必选",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 13,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "语言智能实验班；仅招英语考生"
+            },
+            {
+              "sp_name": "公共事业管理",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "数智治理实验班"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "与中国政法大学联合学位"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:沙河校区"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_____tsh",
+          "sg_name": "高校专项计划·物理+化学",
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "智能交互设计",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "高校专项计划；办学:沙河校区"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；办学:沙河校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；智能机器人方向；办学:沙河校区"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "高校专项计划；办学:沙河校区"
+            }
+          ]
+        }
+      ]
+    },
     "41": {
       "name": "河南",
       "regime": "新高考3+1+2",
@@ -321,143 +1054,269 @@
         }
       ]
     },
-    "32": {
-      "name": "江苏",
+    "42": {
+      "name": "湖北",
       "regime": "新高考3+1+2",
       "groups": [
         {
-          "group_code": "425912",
-          "sg_name": "（01）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
+          "group_code": "290741",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 46,
+          "total_num": 11,
           "items": [
             {
-              "sp_name": "通信工程",
-              "num": 10,
+              "sp_name": "英语",
+              "num": 4,
               "tuition": 5500,
-              "info_short": "大类招生；含通信工程、电子信息工程、空间信息与数字技术"
+              "info_short": "语言智能实验班；英文授课"
             },
             {
-              "sp_name": "计算机类",
-              "num": 7,
-              "tuition": 5500,
-              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术"
+              "sp_name": "公共事业管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "数智治理实验班"
             },
             {
-              "sp_name": "人工智能",
-              "num": 7,
-              "tuition": 5500,
-              "info_short": "大类招生；含信息工程、人工智能"
-            },
-            {
-              "sp_name": "网络空间安全",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "大类招生；含网络空间安全、信息安全、密码科学与技术"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与集成系统"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "智能机器人；含自动化、机器人工程、机械工程(数字智能)；办学:沙河校区"
-            },
-            {
-              "sp_name": "智能交互设计",
+              "sp_name": "法学",
               "num": 2,
-              "tuition": 5500,
+              "tuition": 5000,
+              "info_short": "与中国政法大学联合学位"
+            },
+            {
+              "sp_name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5000,
               "info_short": "办学:沙河校区"
-            },
-            {
-              "sp_name": "低空技术与工程",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "第一学年沙河校区"
             }
-          ]
+          ],
+          "min_score": 604,
+          "min_rank": 2690
         },
         {
-          "group_code": "425911",
-          "sg_name": "（02）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "信息与计算科学",
-              "num": 2,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 1,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
-            },
-            {
-              "sp_name": "智能医学工程",
-              "num": 1,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
-            }
-          ]
-        },
-        {
-          "group_code": "425910",
+          "group_code": "290719",
           "sg_name": "（03）",
           "track": "物理类",
           "subject_req": "首选物理，再选化学",
           "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 4,
+          "zslx": "普通类",
+          "total_num": 8,
           "items": [
             {
-              "sp_name": "电信工程及管理",
-              "num": 2,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区"
+              "sp_name": "电子信息类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "元班；未来学院实验班；办学:沙河校区"
             },
             {
-              "sp_name": "物联网工程",
-              "num": 2,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区"
+              "sp_name": "计算机类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "元班；未来学院实验班；办学:沙河校区"
             }
-          ]
+          ],
+          "min_score": 639,
+          "min_rank": 3202
         },
         {
-          "group_code": "425909",
+          "group_code": "290718",
           "sg_name": "（04）",
           "track": "物理类",
           "subject_req": "首选物理，再选化学",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 4,
+          "total_num": 78,
           "items": [
             {
-              "sp_name": "电子信息类",
-              "num": 2,
+              "sp_name": "通信工程",
+              "num": 17,
               "tuition": 5500,
-              "info_short": "元班；含通信工程、电子科学与技术；未来学院\"元班\"实验班"
+              "info_short": "大类招生；含通信工程等专业"
             },
             {
               "sp_name": "计算机类",
+              "num": 14,
+              "tuition": 5500,
+              "info_short": "大类招生；含计算机科学与技术等"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 12,
+              "tuition": 5500,
+              "info_short": "二三四年学费16000元/年"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 12,
+              "tuition": 5500,
+              "info_short": "大类招生；含信息工程、人工智能"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "含电子科学与技术等四个专业"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "智能机器人；含自动化、机器人工程等"
+            },
+            {
+              "sp_name": "数字媒体技术",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "办学:沙河校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "数学与信息计算"
+            }
+          ],
+          "min_score": 629,
+          "min_rank": 5179
+        },
+        {
+          "group_code": "290717",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 19,
+          "items": [
+            {
+              "sp_name": "电信工程及管理",
+              "num": 8,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
+            }
+          ],
+          "min_score": 617,
+          "min_rank": 8292
+        },
+        {
+          "group_code": "290716",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "数字媒体技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
+            },
+            {
+              "sp_name": "智能医学工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
+            },
+            {
+              "sp_name": "信息与计算科学",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
+            }
+          ],
+          "min_score": 600,
+          "min_rank": 14274
+        },
+        {
+          "group_code": "290715",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "本科预科班",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "少数民族预科班；建议非英语考生谨慎报考"
+            }
+          ],
+          "min_score": 608,
+          "min_rank": 11107
+        },
+        {
+          "group_code": "290758",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；数智科学实验班"
+            },
+            {
+              "sp_name": "金融科技",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；与对外经贸大学联合学位"
+            }
+          ],
+          "min_score": 608,
+          "min_rank": 11107
+        },
+        {
+          "group_code": "290757",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "网络空间安全",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "国家专项；大类招生；含网络空间安全等专业"
+            },
+            {
+              "sp_name": "人工智能",
               "num": 2,
               "tuition": 5500,
-              "info_short": "元班；含计算机科学与技术、网络空间安全；未来学院\"元班\"实验班"
+              "info_short": "国家专项；大类招生；含信息工程、人工智能"
             }
-          ]
+          ],
+          "min_score": 621,
+          "min_rank": 7130
         }
       ]
     },
@@ -522,7 +1381,9 @@
               "tuition": 5500,
               "info_short": "第一学年沙河校区"
             }
-          ]
+          ],
+          "min_score": 635,
+          "min_rank": 7767
         },
         {
           "group_code": "431592",
@@ -557,7 +1418,9 @@
               "tuition": 100000,
               "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区"
             }
-          ]
+          ],
+          "min_score": 620,
+          "min_rank": 13955
         },
         {
           "group_code": "431591",
@@ -580,7 +1443,9 @@
               "tuition": 5500,
               "info_short": "元班；未来学院实验班；办学:沙河校区"
             }
-          ]
+          ],
+          "min_score": 657,
+          "min_rank": 2398
         },
         {
           "group_code": "431590",
@@ -609,7 +1474,9 @@
               "tuition": 100000,
               "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南陵水黎安国际教育创新试验区"
             }
-          ]
+          ],
+          "min_score": 612,
+          "min_rank": 18564
         },
         {
           "group_code": "258679",
@@ -626,834 +1493,9 @@
               "tuition": 5500,
               "info_short": "高校专项计划；智能机器人；办学:沙河校区"
             }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "290741",
-          "sg_name": "（02）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "英语",
-              "num": 4,
-              "tuition": 5500,
-              "info_short": "语言智能实验班；英文授课"
-            },
-            {
-              "sp_name": "公共事业管理",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "数智治理实验班"
-            },
-            {
-              "sp_name": "法学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "与中国政法大学联合学位"
-            },
-            {
-              "sp_name": "网络与新媒体",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "办学:沙河校区"
-            }
-          ]
-        },
-        {
-          "group_code": "290719",
-          "sg_name": "（03）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 8,
-          "items": [
-            {
-              "sp_name": "电子信息类",
-              "num": 4,
-              "tuition": 5500,
-              "info_short": "元班；未来学院实验班；办学:沙河校区"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 4,
-              "tuition": 5500,
-              "info_short": "元班；未来学院实验班；办学:沙河校区"
-            }
-          ]
-        },
-        {
-          "group_code": "290718",
-          "sg_name": "（04）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 78,
-          "items": [
-            {
-              "sp_name": "通信工程",
-              "num": 17,
-              "tuition": 5500,
-              "info_short": "大类招生；含通信工程等专业"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 14,
-              "tuition": 5500,
-              "info_short": "大类招生；含计算机科学与技术等"
-            },
-            {
-              "sp_name": "软件工程",
-              "num": 12,
-              "tuition": 5500,
-              "info_short": "二三四年学费16000元/年"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 12,
-              "tuition": 5500,
-              "info_short": "大类招生；含信息工程、人工智能"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 11,
-              "tuition": 5500,
-              "info_short": "含电子科学与技术等四个专业"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "智能机器人；含自动化、机器人工程等"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "办学:沙河校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "数学与信息计算"
-            }
-          ]
-        },
-        {
-          "group_code": "290717",
-          "sg_name": "（05）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 19,
-          "items": [
-            {
-              "sp_name": "电信工程及管理",
-              "num": 8,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
-            },
-            {
-              "sp_name": "物联网工程",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
-            },
-            {
-              "sp_name": "智能科学与技术",
-              "num": 3,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；英语授课"
-            }
-          ]
-        },
-        {
-          "group_code": "290716",
-          "sg_name": "（06）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "数字媒体技术",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
-            },
-            {
-              "sp_name": "智能医学工程",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
-            },
-            {
-              "sp_name": "信息与计算科学",
-              "num": 3,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区"
-            }
-          ]
-        },
-        {
-          "group_code": "290715",
-          "sg_name": "（07）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "本科预科班",
-              "num": 4,
-              "tuition": 5500,
-              "info_short": "少数民族预科班；建议非英语考生谨慎报考"
-            }
-          ]
-        },
-        {
-          "group_code": "290758",
-          "sg_name": "（08）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 6,
-          "items": [
-            {
-              "sp_name": "大数据管理与应用",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "国家专项；数智科学实验班"
-            },
-            {
-              "sp_name": "金融科技",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "国家专项；与对外经贸大学联合学位"
-            }
-          ]
-        },
-        {
-          "group_code": "290757",
-          "sg_name": "（09）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 5,
-          "items": [
-            {
-              "sp_name": "网络空间安全",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "国家专项；大类招生；含网络空间安全等专业"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "国家专项；大类招生；含信息工程、人工智能"
-            }
-          ]
-        }
-      ]
-    },
-    "35": {
-      "name": "福建",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "392653",
-          "sg_name": "（500）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 88,
-          "items": [
-            {
-              "sp_name": "通信工程",
-              "num": 17,
-              "tuition": 5500,
-              "info_short": "大类招生；含通信工程、电子信息工程、空间信息与数字技术；办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 16,
-              "tuition": 5500,
-              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术；办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 16,
-              "tuition": 5500,
-              "info_short": "大类招生；含信息工程、人工智能；办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "网络空间安全",
-              "num": 14,
-              "tuition": 5500,
-              "info_short": "大类招生；含网络空间安全、信息安全、密码科学与技术；办学:沙河校区"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 11,
-              "tuition": 5500,
-              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与系统；办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 8,
-              "tuition": 5500,
-              "info_short": "智能机器人；含自动化、机器人工程、机械工程(数字智能)；办学:沙河校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 5,
-              "tuition": 5500,
-              "info_short": "数学与信息计算；含数学与应用数学、信息与计算科学、信息与计算科学(通信双学位)；办学:沙河校区"
-            },
-            {
-              "sp_name": "智能交互设计",
-              "num": 1,
-              "tuition": 5500,
-              "info_short": "办学:沙河校区"
-            }
-          ]
-        },
-        {
-          "group_code": "392651",
-          "sg_name": "（500_元班）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "元班",
-          "total_num": 6,
-          "items": [
-            {
-              "sp_name": "电子信息类",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "元班；含通信工程、电子科学与技术；未来学院\"元班\"实验班；办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "元班；含计算机科学与技术、网络空间安全；未来学院\"元班\"实验班；办学:沙河校区(第一学年)"
-            }
-          ]
-        },
-        {
-          "group_code": "392649",
-          "sg_name": "（500_中外1）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作办学（1）",
-          "total_num": 16,
-          "items": [
-            {
-              "sp_name": "电信工程及管理",
-              "num": 6,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
-            },
-            {
-              "sp_name": "物联网工程",
-              "num": 5,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 3,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
-            },
-            {
-              "sp_name": "智能科学与技术",
-              "num": 2,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:沙河校区(第一学年)；部分课程英语授课"
-            }
-          ]
-        },
-        {
-          "group_code": "392647",
-          "sg_name": "（500_中外2）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作办学（2）",
-          "total_num": 12,
-          "items": [
-            {
-              "sp_name": "信息与计算科学",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
-            },
-            {
-              "sp_name": "智能医学工程",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)；部分课程英语授课"
-            }
-          ]
-        },
-        {
-          "group_code": "392653_h",
-          "sg_name": "（500_高校专项）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "高校农村专项计划",
-          "zslx": "高校专项计划",
-          "total_num": 3,
-          "items": [
-            {
-              "sp_name": "应用物理学",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；办学:沙河校区"
-            },
-            {
-              "sp_name": "通信工程",
-              "num": 1,
-              "tuition": 5500,
-              "info_short": "高校专项计划；大类招生；含通信工程、电子信息工程、空间信息与数字技术；办学:沙河校区"
-            }
-          ]
-        }
-      ]
-    },
-    "37": {
-      "name": "山东",
-      "regime": "新高考3+3(综合改革)",
-      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按 batch+招生类型+选科 拆组",
-      "groups": [
-        {
-          "group_code": "37_3_____pc__pt",
-          "sg_name": "普通类·物理+化学",
-          "track": "综合改革",
-          "subject_req": "物理+化学",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 110,
-          "items": [
-            {
-              "sp_name": "通信工程",
-              "num": 23,
-              "tuition": 5500,
-              "info_short": "大类招生；含通信工程、电子信息工程等专业"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 18,
-              "tuition": 5500,
-              "info_short": "大类招生；含信息工程、人工智能"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 17,
-              "tuition": 5500,
-              "info_short": "含计算机科学与技术、网络工程、数据科学与大数据技术"
-            },
-            {
-              "sp_name": "网络空间安全",
-              "num": 15,
-              "tuition": 5500,
-              "info_short": "大类招生；含网络空间安全等专业"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 15,
-              "tuition": 5500,
-              "info_short": "含电子科学与技术、电子信息科学与技术、光电信息科学与工程、集成电路设计与集成系统"
-            },
-            {
-              "sp_name": "软件工程",
-              "num": 10,
-              "tuition": 5500,
-              "info_short": "后两年学费16000元/年"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "元班；未来学院实验班"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "元班；未来学院实验班"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_____pc__zw",
-          "sg_name": "中外合作办学·物理+化学",
-          "track": "综合改革",
-          "subject_req": "物理+化学",
-          "batch": "普通类一段",
-          "zslx": "中外合作办学",
-          "total_num": 45,
-          "items": [
-            {
-              "sp_name": "电信工程及管理",
-              "num": 14,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "物联网工程",
-              "num": 8,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "智能科学与技术",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            },
-            {
-              "sp_name": "智能医学工程",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            },
-            {
-              "sp_name": "信息与计算科学",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 3,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "低空技术与工程",
-              "num": 4,
-              "tuition": 5500,
-              "info_short": "归列于普通类；首选物理+化学"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_____ls",
-          "sg_name": "普通类·历史(英语/法学/管理/新媒体)",
-          "track": "综合改革",
-          "subject_req": "历史必选",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 13,
-          "items": [
-            {
-              "sp_name": "英语",
-              "num": 5,
-              "tuition": 5500,
-              "info_short": "语言智能实验班；仅招英语考生"
-            },
-            {
-              "sp_name": "公共事业管理",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "数智治理实验班"
-            },
-            {
-              "sp_name": "法学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "与中国政法大学联合学位"
-            },
-            {
-              "sp_name": "网络与新媒体",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "办学:沙河校区"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_____tsh",
-          "sg_name": "高校专项计划·物理+化学",
-          "track": "综合改革",
-          "subject_req": "物理+化学",
-          "batch": "特殊类型批",
-          "zslx": "高校专项计划",
-          "total_num": 10,
-          "items": [
-            {
-              "sp_name": "智能交互设计",
-              "num": 3,
-              "tuition": 5500,
-              "info_short": "高校专项计划；办学:沙河校区"
-            },
-            {
-              "sp_name": "应用物理学",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；办学:沙河校区"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；智能机器人方向；办学:沙河校区"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；办学:沙河校区"
-            }
-          ]
-        }
-      ]
-    },
-    "13": {
-      "name": "河北",
-      "regime": "新高考3+1+2",
-      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0；按 batch+招生类型+选科 拆组",
-      "groups": [
-        {
-          "group_code": "13_2073_____na",
-          "sg_name": "普通类·物理+化学",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 145,
-          "items": [
-            {
-              "sp_name": "通信工程",
-              "num": 24,
-              "tuition": 5500,
-              "info_short": "大类招生；含通信工程、电子信息工程等"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 22,
-              "tuition": 5500,
-              "info_short": "含电子科学与技术、电子信息科学等"
-            },
-            {
-              "sp_name": "电信工程及管理",
-              "num": 21,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 20,
-              "tuition": 5500,
-              "info_short": "含计算机科学与技术、网络工程等"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 19,
-              "tuition": 5500,
-              "info_short": "大类招生；含信息工程、人工智能"
-            },
-            {
-              "sp_name": "网络空间安全",
-              "num": 18,
-              "tuition": 5500,
-              "info_short": "大类招生；含网络空间安全等；办学:沙河校区"
-            },
-            {
-              "sp_name": "物联网工程",
-              "num": 13,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "软件工程",
-              "num": 11,
-              "tuition": 5500,
-              "info_short": "后两年学费16000元/年；部分课程英语授课"
-            },
-            {
-              "sp_name": "智能科学与技术",
-              "num": 8,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 7,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；部分课程英语授课"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "元班；含通信工程、电子科学与技术专业；未来学院实验班"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 6,
-              "tuition": 5500,
-              "info_short": "元班；含计算机科学与技术等；未来学院实验班"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 5,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            },
-            {
-              "sp_name": "智能医学工程",
-              "num": 5,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            },
-            {
-              "sp_name": "低空技术与工程",
-              "num": 5,
-              "tuition": 5500,
-              "info_short": "办学:沙河校区(第一学年)"
-            },
-            {
-              "sp_name": "信息与计算科学",
-              "num": 4,
-              "tuition": 100000,
-              "info_short": "中外合作办学；合作:英国伦敦玛丽女王大学；办学:海南校区(四年)"
-            }
-          ]
-        },
-        {
-          "group_code": "13_2074_____na",
-          "sg_name": "普通类·历史",
-          "track": "历史类",
-          "subject_req": "历史必选",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 12,
-          "items": [
-            {
-              "sp_name": "英语",
-              "num": 5,
-              "tuition": 5500,
-              "info_short": "语言智能实验班；仅招英语考生；办学:沙河校区"
-            },
-            {
-              "sp_name": "公共事业管理",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "数智治理实验班；一年级在沙河校区"
-            },
-            {
-              "sp_name": "法学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "与中国政法大学联合学位；办学:沙河校区"
-            },
-            {
-              "sp_name": "网络与新媒体",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "办学:沙河校区"
-            }
-          ]
-        },
-        {
-          "group_code": "13_2073________na",
-          "sg_name": "国家专项·提前批B",
-          "track": "物理类",
-          "subject_req": "首选物理",
-          "batch": "本科提前批B段",
-          "zslx": "国家专项计划",
-          "total_num": 8,
-          "items": [
-            {
-              "sp_name": "电子商务",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "国家专项；数智商务实验班；一年级在沙河校区"
-            },
-            {
-              "sp_name": "大数据管理与应用",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "国家专项；AI双学位；一年级在沙河校区"
-            },
-            {
-              "sp_name": "电子信息类",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "国家专项计划；含电子科学与技术等专业"
-            }
-          ]
-        },
-        {
-          "group_code": "13_2073________na_c",
-          "sg_name": "高校专项·提前批C",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科提前批C段",
-          "zslx": "高校专项计划",
-          "total_num": 6,
-          "items": [
-            {
-              "sp_name": "网络空间安全",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；大类招生；办学:沙河校区"
-            },
-            {
-              "sp_name": "数字媒体技术",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；办学:沙河校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 2,
-              "tuition": 5500,
-              "info_short": "高校专项计划；数学与信息计算；办学:沙河校区"
-            }
-          ]
+          ],
+          "min_score": 633,
+          "min_rank": 8546
         }
       ]
     }

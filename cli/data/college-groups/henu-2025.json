@@ -21,465 +21,402 @@
     "河南大学校区分布: 开封校区(主校区)、郑州龙子湖校区、漯阳工学院(与漯阳市联办)、开封大学联办(开大联办)。"
   ],
   "school_min_2025": {
-    "henan": {"type": "2073", "min": 562, "track": "物理类"},
-    "jiangsu": {"type": "2073", "min": 583, "track": "物理类"},
-    "guangdong": {"type": "2073", "min": 533, "track": "物理类"},
-    "hubei": {"type": "2073", "min": 538, "track": "物理类"},
-    "fujian": {"type": "2073", "min": 543, "track": "物理类"},
-    "shandong": {"type": "3", "min": 555, "track": "综合改革"},
-    "hebei": {"type": "2073", "min": 545, "track": "物理类"}
+    "henan": {
+      "type": "2073",
+      "min": 562,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 583,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 533,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 538,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 543,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 555,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 545,
+      "track": "物理类"
+    }
   },
   "provinces": {
-    "41": {
-      "name": "河南",
-      "regime": "新高考3+1+2 第1年",
-      "note": "2025年河南首次实行新高考3+1+2；按院校专业组(本科批 101-107/201-203/301-313/401-415 等)；含国家专项(3xx组)/地方专项(4xx组)/中外合作(2xx)/普通类(1xx)/林伯尔实验班(101特设)。",
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0；按 batch+zslx 拆组",
       "groups": [
         {
-          "group_code": "370820",
-          "sg_name": "（101）",
+          "group_code": "13_2073_normal",
+          "sg_name": "普通类(含软件类/中外合作)",
           "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "软件类",
-          "items": [
-            {"sp_name": "网络工程", "num": 345, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"},
-            {"sp_name": "软件工程", "num": 224, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370816",
-          "sg_name": "（101）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "漯阳工学院联办",
-          "items": [
-            {"sp_name": "软件工程", "num": 200, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "电子信息科学与技术", "num": 200, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "材料化学", "num": 160, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "化学工程与工艺", "num": 160, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "通信工程", "num": 160, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "网络工程", "num": 160, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "自动化", "num": 80, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "数据科学与大数据技术", "num": 80, "tuition": 5000, "level2": "工学", "info_short": "漯阳工学院联办"},
-            {"sp_name": "能源化学", "num": 80, "tuition": 5000, "level2": "理学", "info_short": "漯阳工学院联办"}
-          ]
-        },
-        {
-          "group_code": "370817",
-          "sg_name": "（101）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "开大联办",
-          "items": [
-            {"sp_name": "自动化", "num": 60, "tuition": 5000, "level2": "工学", "info_short": "与开封大学联办"},
-            {"sp_name": "土木工程", "num": 30, "tuition": 5000, "level2": "工学", "info_short": "与开封大学联办"}
-          ]
-        },
-        {
-          "group_code": "370828",
-          "sg_name": "（101）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "林伯尔实验班",
-          "items": [
-            {"sp_name": "化学", "num": 20, "tuition": 5750, "level2": "理学", "info_short": "林伯尔实验班;郑州龙子湖校区"},
-            {"sp_name": "生物科学", "num": 20, "tuition": 5750, "level2": "理学", "info_short": "林伯尔实验班;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370819",
-          "sg_name": "（102）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "软件类",
-          "items": [
-            {"sp_name": "软件工程", "num": 110, "tuition": 15000, "level2": "工学", "info_short": "科学与工程可视化;2+2育人;物理与电子学院牵头;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370827",
-          "sg_name": "（102）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选地理",
-          "batch": "本科批",
-          "zslx": "林伯尔实验班",
-          "items": [
-            {"sp_name": "地理科学", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "林伯尔实验班;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370818",
-          "sg_name": "（103）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "软件类",
-          "items": [
-            {"sp_name": "软件工程", "num": 93, "tuition": 15000, "level2": "工学", "info_short": "工程智能软件;建筑工程学院牵头;开封校区"},
-            {"sp_name": "软件工程", "num": 73, "tuition": 15000, "level2": "工学", "info_short": "数智空间;建筑工程学院牵头;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370826",
-          "sg_name": "（103）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "林伯尔实验班",
-          "items": [
-            {"sp_name": "临床医学", "num": 15, "tuition": 6320, "level2": "医学", "info_short": "林伯尔实验班;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370825",
-          "sg_name": "（104）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
+          "subject_req": "",
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "临床医学类", "num": 243, "tuition": 6320, "level2": "医学", "info_short": "含临床医学、眼视光医学;开封校区"},
-            {"sp_name": "口腔医学", "num": 60, "tuition": 5500, "level2": "医学", "info_short": "开封校区"}
+            {
+              "sp_name": "网络工程",
+              "num": 18,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "经济学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "科学与工程可视化;2+2育人;开封校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 12,
+              "tuition": 25000,
+              "level2": "工学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 10,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "工程智能软件;2+2育人;开封校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 8,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 6,
+              "tuition": 18000,
+              "level2": "工学",
+              "info_short": "中外合作(中德);开封校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 6,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "旅游管理类",
+              "num": 6,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "旅游管理/文化产业管理;开封校区"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "num": 6,
+              "tuition": 5000,
+              "level2": "农学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "教育技术学",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "教育学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 5,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 5,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "num": 5,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学;开封校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 4,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "环境科学",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "临床药学",
+              "num": 3,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "物理学",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "材料化学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "经济统计学",
+              "num": 2,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 2,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "农学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            }
           ]
         },
         {
-          "group_code": "370824",
-          "sg_name": "（105）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
+          "group_code": "13_2074_normal",
+          "sg_name": "普通类(含中外合作)",
+          "track": "历史类",
+          "subject_req": "",
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "会计学", "num": 40, "tuition": 5060, "level2": "管理学", "info_short": "大数据会计;开封校区"},
-            {"sp_name": "法学", "num": 30, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "经济学类", "num": 10, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370823",
-          "sg_name": "（106）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "计算机类", "num": 183, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学与技术;开封校区"},
-            {"sp_name": "数学类", "num": 174, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"},
-            {"sp_name": "电子信息科学与技术", "num": 120, "tuition": 5750, "level2": "工学", "info_short": "芯片设计;开封校区"},
-            {"sp_name": "自动化", "num": 107, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "人工智能", "num": 88, "tuition": 5750, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "化学类", "num": 77, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "药学", "num": 49, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "生物工程", "num": 41, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "量子信息科学", "num": 33, "tuition": 5000, "level2": "理学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "纳米材料与技术", "num": 31, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "人工智能", "num": 30, "tuition": 5750, "level2": "工学", "info_short": "智能机器人;郑州龙子湖校区"},
-            {"sp_name": "测绘工程", "num": 30, "tuition": 5000, "level2": "工学", "info_short": "智能遥感;开封校区"},
-            {"sp_name": "柔性电子学", "num": 30, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "生物医学科学", "num": 30, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "新能源科学与工程", "num": 28, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "智能建造与智慧交通", "num": 28, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "密码科学与技术", "num": 25, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "物理学", "num": 23, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "生物工程", "num": 20, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "电子信息科学与技术", "num": 20, "tuition": 5750, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "生物科学", "num": 12, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370822",
-          "sg_name": "（107）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选地理",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "地理信息科学", "num": 30, "tuition": 5750, "level2": "理学", "info_short": "空间智能;开封校区"},
-            {"sp_name": "地理科学类", "num": 12, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息/人文地理与城乡规划;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370815",
-          "sg_name": "（201）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "国际经济与贸易", "num": 25, "tuition": 25000, "level2": "经济学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"},
-            {"sp_name": "会计学", "num": 20, "tuition": 25000, "level2": "管理学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370814",
-          "sg_name": "（202）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "学前教育", "num": 35, "tuition": 18000, "level2": "教育学", "info_short": "中外合作(中芬);图尔库大学;开封校区"},
-            {"sp_name": "国际经济与贸易", "num": 18, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);安哈尔特应用技术大学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370813",
-          "sg_name": "（203）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "计算机科学与技术", "num": 65, "tuition": 25000, "level2": "工学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370821",
-          "sg_name": "（901）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选生物",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "护理学", "num": 100, "tuition": 6320, "level2": "医学", "info_short": "开封校区"}
-          ]
-        },
-        {
-          "group_code": "370862",
-          "sg_name": "（301）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "经济学类", "num": 14, "tuition": 5060, "level2": "经济学", "info_short": "国家专项;经济学/金融学/财政学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370861",
-          "sg_name": "（302）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "数学类", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "国家专项;数学/信息计算/统计/金融数学;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370860",
-          "sg_name": "（303）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "生物科学", "num": 15, "tuition": 5750, "level2": "理学", "info_short": "国家专项;师范;开封校区"},
-            {"sp_name": "生物工程", "num": 10, "tuition": 5000, "level2": "工学", "info_short": "国家专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370859",
-          "sg_name": "（304）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选地理",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "地理科学类", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "国家专项;含地理科学(师范)/地理信息/人文地理;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370857",
-          "sg_name": "（306）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "电子信息科学与技术", "num": 10, "tuition": 5750, "level2": "工学", "info_short": "国家专项;开封校区"},
-            {"sp_name": "物理学", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "国家专项;师范;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370856",
-          "sg_name": "（307）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "新闻传播学类", "num": 15, "tuition": 5060, "level2": "文学", "info_short": "国家专项;新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370855",
-          "sg_name": "（308）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "生物育种科学", "num": 15, "tuition": 5000, "level2": "农学", "info_short": "国家专项;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370854",
-          "sg_name": "（309）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "教育技术学", "num": 12, "tuition": 5060, "level2": "教育学", "info_short": "国家专项;师范;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370853",
-          "sg_name": "（311）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "土木工程", "num": 10, "tuition": 5000, "level2": "工学", "info_short": "国家专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370852",
-          "sg_name": "（312）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "化学工程与工艺", "num": 15, "tuition": 5000, "level2": "工学", "info_short": "国家专项;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370851",
-          "sg_name": "（313）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "items": [
-            {"sp_name": "英语", "num": 10, "tuition": 5060, "level2": "文学", "info_short": "国家专项;师范;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370914",
-          "sg_name": "（403）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "药学", "num": 10, "tuition": 5500, "level2": "医学", "info_short": "地方专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370913",
-          "sg_name": "（405）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "建筑学", "num": 10, "tuition": 5000, "level2": "工学", "info_short": "地方专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370912",
-          "sg_name": "（406）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "教育技术学", "num": 15, "tuition": 5060, "level2": "教育学", "info_short": "地方专项;师范;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370910",
-          "sg_name": "（408）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "测绘工程", "num": 11, "tuition": 5000, "level2": "工学", "info_short": "地方专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370909",
-          "sg_name": "（409）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "植物科学与技术", "num": 10, "tuition": 5000, "level2": "农学", "info_short": "地方专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370908",
-          "sg_name": "（410）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "电子信息科学与技术", "num": 10, "tuition": 5750, "level2": "工学", "info_short": "地方专项;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370907",
-          "sg_name": "（411）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "数学类", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "地方专项;数学/信息计算/统计/金融数学;开封校区"}
-          ]
-        },
-        {
-          "group_code": "370906",
-          "sg_name": "（412）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "新闻传播学类", "num": 13, "tuition": 5060, "level2": "文学", "info_short": "地方专项;新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370905",
-          "sg_name": "（414）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "经济学类", "num": 10, "tuition": 5060, "level2": "经济学", "info_short": "地方专项;经济学/金融学/财政学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "370904",
-          "sg_name": "（415）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选地理",
-          "batch": "本科批",
-          "zslx": "地方专项",
-          "items": [
-            {"sp_name": "地理科学类", "num": 10, "tuition": 5750, "level2": "理学", "info_short": "地方专项;地理科学(师范)/地理信息/人文地理;开封校区"}
+            {
+              "sp_name": "会计学",
+              "num": 12,
+              "tuition": 25000,
+              "level2": "管理学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 8,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);郑州龙子湖校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 8,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "行政管理/劳动与社会保障;开封校区"
+            },
+            {
+              "sp_name": "历史学类",
+              "num": 6,
+              "tuition": 5060,
+              "level2": "历史学",
+              "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 5,
+              "tuition": 4400,
+              "level2": "法学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 4,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范;汉语言文学/汉语国际教育;开封校区"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "教育学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "教育学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            }
           ]
         }
       ]
@@ -496,8 +433,16 @@
           "batch": "本科批",
           "zslx": "中外合作",
           "items": [
-            {"sp_name": "国际经济与贸易", "num": 6, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);郑州龙子湖校区"}
-          ]
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 6,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 589,
+          "min_rank": 8707
         },
         {
           "group_code": "292792",
@@ -507,9 +452,23 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "历史学类", "num": 4, "tuition": 5060, "level2": "历史学", "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"},
-            {"sp_name": "地理科学类", "num": 2, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"}
-          ]
+            {
+              "sp_name": "历史学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "历史学",
+              "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"
+            }
+          ],
+          "min_score": 566,
+          "min_rank": 16741
         },
         {
           "group_code": "292793",
@@ -519,12 +478,44 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "经济学类", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "新闻传播学类", "num": 3, "tuition": 5060, "level2": "文学", "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"},
-            {"sp_name": "公共管理类", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "行政管理/劳动与社会保障;开封校区"},
-            {"sp_name": "旅游管理类", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "旅游管理/文化产业管理;开封校区"}
-          ]
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "行政管理/劳动与社会保障;开封校区"
+            },
+            {
+              "sp_name": "旅游管理类",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "旅游管理/文化产业管理;开封校区"
+            }
+          ],
+          "min_score": 578,
+          "min_rank": 12244
         },
         {
           "group_code": "292760",
@@ -534,8 +525,16 @@
           "batch": "本科批",
           "zslx": "中外合作",
           "items": [
-            {"sp_name": "生物工程", "num": 5, "tuition": 18000, "level2": "工学", "info_short": "中外合作(中德);开封校区"}
-          ]
+            {
+              "sp_name": "生物工程",
+              "num": 5,
+              "tuition": 18000,
+              "level2": "工学",
+              "info_short": "中外合作(中德);开封校区"
+            }
+          ],
+          "min_score": 593,
+          "min_rank": 41599
         },
         {
           "group_code": "292761",
@@ -545,9 +544,23 @@
           "batch": "本科批",
           "zslx": "软件类",
           "items": [
-            {"sp_name": "软件工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"},
-            {"sp_name": "网络工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"}
-          ]
+            {
+              "sp_name": "软件工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            }
+          ],
+          "min_score": 589,
+          "min_rank": 45633
         },
         {
           "group_code": "292762",
@@ -557,16 +570,72 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "化学工程与工艺", "num": 4, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "药学", "num": 4, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "中药学", "num": 3, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "生物科学", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "数学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"},
-            {"sp_name": "化学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "计算机类", "num": 3, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学;开封校区"},
-            {"sp_name": "电子信息科学与技术", "num": 2, "tuition": 5750, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "土木工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "开封校区"}
-          ]
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 4,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 3,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学;开封校区"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            }
+          ],
+          "min_score": 591,
+          "min_rank": 43570
         },
         {
           "group_code": "292763",
@@ -576,249 +645,37 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "经济学类", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "建筑学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "学制五年;开封校区"},
-            {"sp_name": "法语", "num": 2, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "经济统计学", "num": 2, "tuition": 5060, "level2": "经济学", "info_short": "郑州龙子湖校区"}
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "433968",
-          "sg_name": "（218）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选地理",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "历史学类", "num": 8, "tuition": 5060, "level2": "历史学", "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"}
-          ]
-        },
-        {
-          "group_code": "433969",
-          "sg_name": "（217）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "国际经济与贸易", "num": 12, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "433970",
-          "sg_name": "（215）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "会计学", "num": 11, "tuition": 5060, "level2": "管理学", "info_short": "大数据会计;开封校区"},
-            {"sp_name": "公共管理类", "num": 7, "tuition": 4400, "level2": "管理学", "info_short": "行政管理/劳动与社会保障;开封校区"},
-            {"sp_name": "经济学类", "num": 5, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "中国语言文学类", "num": 5, "tuition": 5060, "level2": "文学", "info_short": "师范;汉语言文学/汉语国际教育;开封校区"},
-            {"sp_name": "法语", "num": 4, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "日语", "num": 4, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "新闻传播学类", "num": 4, "tuition": 5060, "level2": "文学", "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"},
-            {"sp_name": "德语", "num": 3, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "俄语", "num": 3, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "英语", "num": 3, "tuition": 5060, "level2": "文学", "info_short": "师范;开封校区"},
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "电子商务", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"},
-            {"sp_name": "工商管理", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"}
-          ]
-        },
-        {
-          "group_code": "433983",
-          "sg_name": "（228）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "软件类",
-          "items": [
-            {"sp_name": "网络工程", "num": 35, "tuition": 15000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "软件工程", "num": 20, "tuition": 15000, "level2": "工学", "info_short": "开封校区"}
-          ]
-        },
-        {
-          "group_code": "433984",
-          "sg_name": "（227）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "计算机科学与技术", "num": 15, "tuition": 25000, "level2": "工学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "433985",
-          "sg_name": "（226）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "生物工程", "num": 12, "tuition": 18000, "level2": "工学", "info_short": "中外合作(中德);安哈尔特;开封校区"}
-          ]
-        },
-        {
-          "group_code": "433986",
-          "sg_name": "（223）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "物理学", "num": 4, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "化学类", "num": 4, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "化学工程与工艺", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "药学", "num": 3, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "中药学", "num": 3, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "生物科学", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "数学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"},
-            {"sp_name": "计算机类", "num": 3, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学;开封校区"},
-            {"sp_name": "临床医学类", "num": 3, "tuition": 6320, "level2": "医学", "info_short": "学制五年;临床医学/眼视光医学;开封校区"},
-            {"sp_name": "材料化学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "环境科学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "临床药学", "num": 2, "tuition": 5500, "level2": "医学", "info_short": "学制五年;开封校区"},
-            {"sp_name": "土木工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "开封校区"}
-          ]
-        },
-        {
-          "group_code": "433987",
-          "sg_name": "（222）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "国际经济与贸易", "num": 15, "tuition": 25000, "level2": "经济学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"},
-            {"sp_name": "会计学", "num": 15, "tuition": 25000, "level2": "管理学", "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "433988",
-          "sg_name": "（219）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "经济学类", "num": 4, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "新闻传播学类", "num": 4, "tuition": 5060, "level2": "文学", "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"},
-            {"sp_name": "英语", "num": 3, "tuition": 5060, "level2": "文学", "info_short": "师范;开封校区"},
-            {"sp_name": "经济统计学", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "工商管理", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"},
-            {"sp_name": "建筑学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "学制五年;开封校区"},
-            {"sp_name": "电子商务", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"},
-            {"sp_name": "应用心理学", "num": 2, "tuition": 5000, "level2": "理学", "info_short": "师范;开封校区"}
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "292791_42",
-          "sg_name": "（03）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "国际经济与贸易", "num": 6, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);郑州龙子湖校区"}
-          ]
-        },
-        {
-          "group_code": "292792_42",
-          "sg_name": "（02）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选地理",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "历史学类", "num": 4, "tuition": 5060, "level2": "历史学", "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"},
-            {"sp_name": "地理科学类", "num": 2, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"}
-          ]
-        },
-        {
-          "group_code": "292793_42",
-          "sg_name": "（01）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "经济学类", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "新闻传播学类", "num": 3, "tuition": 5060, "level2": "文学", "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"},
-            {"sp_name": "公共管理类", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "行政管理/劳动与社会保障;开封校区"},
-            {"sp_name": "旅游管理类", "num": 2, "tuition": 4400, "level2": "管理学", "info_short": "旅游管理/文化产业管理;开封校区"}
-          ]
-        },
-        {
-          "group_code": "292760_42",
-          "sg_name": "（07）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "items": [
-            {"sp_name": "生物工程", "num": 5, "tuition": 18000, "level2": "工学", "info_short": "中外合作(中德);开封校区"}
-          ]
-        },
-        {
-          "group_code": "292761_42",
-          "sg_name": "（06）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "软件类",
-          "items": [
-            {"sp_name": "软件工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"},
-            {"sp_name": "网络工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"}
-          ]
-        },
-        {
-          "group_code": "292762_42",
-          "sg_name": "（05）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "化学工程与工艺", "num": 4, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "药学", "num": 4, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "中药学", "num": 3, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "生物科学", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "数学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"},
-            {"sp_name": "化学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "计算机类", "num": 3, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学;开封校区"},
-            {"sp_name": "电子信息科学与技术", "num": 2, "tuition": 5750, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "土木工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "开封校区"}
-          ]
-        },
-        {
-          "group_code": "292763_42",
-          "sg_name": "（04）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "items": [
-            {"sp_name": "经济学类", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "建筑学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "学制五年;开封校区"},
-            {"sp_name": "法语", "num": 2, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "经济统计学", "num": 2, "tuition": 5060, "level2": "经济学", "info_short": "郑州龙子湖校区"}
-          ]
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "学制五年;开封校区"
+            },
+            {
+              "sp_name": "法语",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济统计学",
+              "num": 2,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "郑州龙子湖校区"
+            }
+          ],
+          "min_score": 585,
+          "min_rank": 9942
         }
       ]
     },
@@ -834,9 +691,23 @@
           "batch": "本科批",
           "zslx": "中外合作",
           "items": [
-            {"sp_name": "国际经济与贸易", "num": 7, "tuition": 25000, "level2": "经济学", "info_short": "中外合作(中澳);郑州龙子湖校区"},
-            {"sp_name": "会计学", "num": 7, "tuition": 25000, "level2": "管理学", "info_short": "中外合作(中澳);郑州龙子湖校区"}
-          ]
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 7,
+              "tuition": 25000,
+              "level2": "经济学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 7,
+              "tuition": 25000,
+              "level2": "管理学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 537,
+          "min_rank": 8521
         },
         {
           "group_code": "395689",
@@ -846,12 +717,44 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "电子商务", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": ""},
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": ""},
-            {"sp_name": "经济学类", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "工商管理", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": ""},
-            {"sp_name": "旅游管理类", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": "旅游管理/文化产业管理"}
-          ]
+            {
+              "sp_name": "电子商务",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "旅游管理类",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "旅游管理/文化产业管理"
+            }
+          ],
+          "min_score": 560,
+          "min_rank": 5475
         },
         {
           "group_code": "395718",
@@ -861,8 +764,16 @@
           "batch": "本科批",
           "zslx": "中外合作",
           "items": [
-            {"sp_name": "国际经济与贸易", "num": 7, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);郑州龙子湖校区"}
-          ]
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 7,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 549,
+          "min_rank": 35614
         },
         {
           "group_code": "395717",
@@ -872,8 +783,16 @@
           "batch": "本科批",
           "zslx": "中外合作",
           "items": [
-            {"sp_name": "计算机科学与技术", "num": 4, "tuition": 25000, "level2": "工学", "info_short": "中外合作(中澳);郑州龙子湖校区"}
-          ]
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 25000,
+              "level2": "工学",
+              "info_short": "中外合作(中澳);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 579,
+          "min_rank": 20738
         },
         {
           "group_code": "395719",
@@ -883,13 +802,51 @@
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "电子信息科学与技术", "num": 3, "tuition": 5750, "level2": "工学", "info_short": ""},
-            {"sp_name": "生物科学", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "师范"},
-            {"sp_name": "数学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学"},
-            {"sp_name": "化学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "环境科学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": ""},
-            {"sp_name": "计算机类", "num": 2, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学"}
-          ]
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "环境科学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学"
+            }
+          ],
+          "min_score": 576,
+          "min_rank": 22059
         }
       ]
     },
@@ -906,121 +863,1862 @@
           "batch": "普通类一段",
           "zslx": "普通类(含中外合作)",
           "items": [
-            {"sp_name": "网络工程", "num": 25, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头"},
-            {"sp_name": "国际经济与贸易", "num": 15, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德)"},
-            {"sp_name": "国际经济与贸易", "num": 15, "tuition": 25000, "level2": "经济学", "info_short": "中外合作(中澳)"},
-            {"sp_name": "会计学", "num": 15, "tuition": 25000, "level2": "管理学", "info_short": "中外合作(中澳)"},
-            {"sp_name": "生物工程", "num": 15, "tuition": 18000, "level2": "工学", "info_short": "中外合作(中德)"},
-            {"sp_name": "计算机科学与技术", "num": 15, "tuition": 25000, "level2": "工学", "info_short": "中外合作(中澳)"},
-            {"sp_name": "历史学类", "num": 11, "tuition": 5060, "level2": "历史学", "info_short": "历史学(师范)/世界史"},
-            {"sp_name": "软件工程", "num": 10, "tuition": 15000, "level2": "工学", "info_short": "工程智能软件"},
-            {"sp_name": "软件工程", "num": 10, "tuition": 15000, "level2": "工学", "info_short": "科学与工程可视化"},
-            {"sp_name": "公共管理类", "num": 8, "tuition": 4400, "level2": "管理学", "info_short": "行政管理/劳动与社会保障"},
-            {"sp_name": "旅游管理类", "num": 8, "tuition": 4400, "level2": "管理学", "info_short": "旅游管理/文化产业管理"},
-            {"sp_name": "软件工程", "num": 7, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头"},
-            {"sp_name": "化学类", "num": 7, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学"},
-            {"sp_name": "生物育种科学", "num": 6, "tuition": 5000, "level2": "农学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "药学", "num": 5, "tuition": 5500, "level2": "医学", "info_short": ""},
-            {"sp_name": "会计学", "num": 5, "tuition": 5060, "level2": "管理学", "info_short": "大数据会计"},
-            {"sp_name": "教育学", "num": 5, "tuition": 5060, "level2": "教育学", "info_short": ""},
-            {"sp_name": "思想政治教育", "num": 5, "tuition": 4400, "level2": "法学", "info_short": "师范"},
-            {"sp_name": "经济学类", "num": 5, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学"},
-            {"sp_name": "地理科学类", "num": 5, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息"},
-            {"sp_name": "德语", "num": 4, "tuition": 4400, "level2": "文学", "info_short": ""},
-            {"sp_name": "生物工程", "num": 4, "tuition": 5000, "level2": "工学", "info_short": ""},
-            {"sp_name": "日语", "num": 4, "tuition": 4400, "level2": "文学", "info_short": ""},
-            {"sp_name": "中国语言文学类", "num": 4, "tuition": 5060, "level2": "文学", "info_short": "师范;汉语言文学/汉语国际教育"},
-            {"sp_name": "数学类", "num": 4, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算"},
-            {"sp_name": "计算机类", "num": 4, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学"},
-            {"sp_name": "临床医学类", "num": 4, "tuition": 6320, "level2": "医学", "info_short": "临床医学/眼视光医学"},
-            {"sp_name": "化学工程与工艺", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "英语", "num": 3, "tuition": 5060, "level2": "文学", "info_short": "师范"},
-            {"sp_name": "经济统计学", "num": 3, "tuition": 5060, "level2": "经济学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "环境科学", "num": 3, "tuition": 5000, "level2": "工学", "info_short": ""},
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": ""},
-            {"sp_name": "建筑学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": ""},
-            {"sp_name": "材料化学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "土木工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": ""},
-            {"sp_name": "人工智能", "num": 2, "tuition": 5750, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "量子信息科学", "num": 2, "tuition": 5000, "level2": "理学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "新能源科学与工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "智能建造与智慧交通", "num": 2, "tuition": 5000, "level2": "工学", "info_short": ""}
+            {
+              "sp_name": "网络工程",
+              "num": 25,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 15,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德)"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "经济学",
+              "info_short": "中外合作(中澳)"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "管理学",
+              "info_short": "中外合作(中澳)"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 15,
+              "tuition": 18000,
+              "level2": "工学",
+              "info_short": "中外合作(中德)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "工学",
+              "info_short": "中外合作(中澳)"
+            },
+            {
+              "sp_name": "历史学类",
+              "num": 11,
+              "tuition": 5060,
+              "level2": "历史学",
+              "info_short": "历史学(师范)/世界史"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 10,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "工程智能软件"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 10,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "科学与工程可视化"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 8,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "行政管理/劳动与社会保障"
+            },
+            {
+              "sp_name": "旅游管理类",
+              "num": 8,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "旅游管理/文化产业管理"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 7,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 7,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "num": 6,
+              "tuition": 5000,
+              "level2": "农学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 5,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "会计学",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "管理学",
+              "info_short": "大数据会计"
+            },
+            {
+              "sp_name": "教育学",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "教育学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "思想政治教育",
+              "num": 5,
+              "tuition": 4400,
+              "level2": "法学",
+              "info_short": "师范"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 5,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息"
+            },
+            {
+              "sp_name": "德语",
+              "num": 4,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "日语",
+              "num": 4,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范;汉语言文学/汉语国际教育"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学"
+            },
+            {
+              "sp_name": "临床医学类",
+              "num": 4,
+              "tuition": 6320,
+              "level2": "医学",
+              "info_short": "临床医学/眼视光医学"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范"
+            },
+            {
+              "sp_name": "经济统计学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "环境科学",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料化学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "智能建造与智慧交通",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": ""
+            }
           ]
         }
       ]
     },
-    "13": {
-      "name": "河北",
-      "regime": "新高考3+1+2",
-      "note": "河北 2025 在 gaokao.cn 数据中 special_group=0；按 batch+zslx 拆组",
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2 第1年",
+      "note": "2025年河南首次实行新高考3+1+2；按院校专业组(本科批 101-107/201-203/301-313/401-415 等)；含国家专项(3xx组)/地方专项(4xx组)/中外合作(2xx)/普通类(1xx)/林伯尔实验班(101特设)。",
       "groups": [
         {
-          "group_code": "13_2073_normal",
-          "sg_name": "普通类(含软件类/中外合作)",
+          "group_code": "370820",
+          "sg_name": "（101）",
           "track": "物理类",
-          "subject_req": "",
+          "subject_req": "首选物理，再选化学",
           "batch": "本科批",
-          "zslx": "普通类",
+          "zslx": "软件类",
           "items": [
-            {"sp_name": "网络工程", "num": 18, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"},
-            {"sp_name": "国际经济与贸易", "num": 15, "tuition": 25000, "level2": "经济学", "info_short": "中外合作(中澳);郑州龙子湖校区"},
-            {"sp_name": "软件工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "软件学院牵头;开封校区"},
-            {"sp_name": "软件工程", "num": 12, "tuition": 15000, "level2": "工学", "info_short": "科学与工程可视化;2+2育人;开封校区"},
-            {"sp_name": "计算机科学与技术", "num": 12, "tuition": 25000, "level2": "工学", "info_short": "中外合作(中澳);郑州龙子湖校区"},
-            {"sp_name": "软件工程", "num": 10, "tuition": 15000, "level2": "工学", "info_short": "工程智能软件;2+2育人;开封校区"},
-            {"sp_name": "药学", "num": 8, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "生物工程", "num": 6, "tuition": 18000, "level2": "工学", "info_short": "中外合作(中德);开封校区"},
-            {"sp_name": "生物科学", "num": 6, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "旅游管理类", "num": 6, "tuition": 4400, "level2": "管理学", "info_short": "旅游管理/文化产业管理;开封校区"},
-            {"sp_name": "生物育种科学", "num": 6, "tuition": 5000, "level2": "农学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "教育技术学", "num": 5, "tuition": 5060, "level2": "教育学", "info_short": "师范;开封校区"},
-            {"sp_name": "电子信息科学与技术", "num": 5, "tuition": 5750, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "化学类", "num": 5, "tuition": 5750, "level2": "理学", "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"},
-            {"sp_name": "量子信息科学", "num": 5, "tuition": 5000, "level2": "理学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "经济学类", "num": 4, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "数学类", "num": 4, "tuition": 5750, "level2": "理学", "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"},
-            {"sp_name": "计算机类", "num": 4, "tuition": 5750, "level2": "工学", "info_short": "信息安全/数据科学/计算机科学;开封校区"},
-            {"sp_name": "应用心理学", "num": 4, "tuition": 5000, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "建筑学", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "化学工程与工艺", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "环境科学", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "开封校区"},
-            {"sp_name": "自动化", "num": 3, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "临床药学", "num": 3, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "地理科学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"},
-            {"sp_name": "工商管理", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"},
-            {"sp_name": "物理学", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "师范;开封校区"},
-            {"sp_name": "人工智能", "num": 3, "tuition": 5750, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "材料化学", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "经济统计学", "num": 2, "tuition": 5060, "level2": "经济学", "info_short": "郑州龙子湖校区"},
-            {"sp_name": "中药学", "num": 2, "tuition": 5500, "level2": "医学", "info_short": "开封校区"},
-            {"sp_name": "植物科学与技术", "num": 2, "tuition": 5000, "level2": "农学", "info_short": "开封校区"},
-            {"sp_name": "法学", "num": 2, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "土木工程", "num": 2, "tuition": 5000, "level2": "工学", "info_short": "开封校区"}
+            {
+              "sp_name": "网络工程",
+              "num": 345,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 224,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            }
           ]
         },
         {
-          "group_code": "13_2074_normal",
-          "sg_name": "普通类(含中外合作)",
-          "track": "历史类",
-          "subject_req": "",
+          "group_code": "370816",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "漯阳工学院联办",
+          "items": [
+            {
+              "sp_name": "软件工程",
+              "num": 200,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 200,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "材料化学",
+              "num": 160,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 160,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 160,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 160,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 80,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "数据科学与大数据技术",
+              "num": 80,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "漯阳工学院联办"
+            },
+            {
+              "sp_name": "能源化学",
+              "num": 80,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "漯阳工学院联办"
+            }
+          ]
+        },
+        {
+          "group_code": "370817",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "开大联办",
+          "items": [
+            {
+              "sp_name": "自动化",
+              "num": 60,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "与开封大学联办"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 30,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "与开封大学联办"
+            }
+          ]
+        },
+        {
+          "group_code": "370828",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "林伯尔实验班",
+          "items": [
+            {
+              "sp_name": "化学",
+              "num": 20,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "林伯尔实验班;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 20,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "林伯尔实验班;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370819",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "软件类",
+          "items": [
+            {
+              "sp_name": "软件工程",
+              "num": 110,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "科学与工程可视化;2+2育人;物理与电子学院牵头;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370827",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx": "林伯尔实验班",
+          "items": [
+            {
+              "sp_name": "地理科学",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "林伯尔实验班;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370818",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "软件类",
+          "items": [
+            {
+              "sp_name": "软件工程",
+              "num": 93,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "工程智能软件;建筑工程学院牵头;开封校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 73,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "数智空间;建筑工程学院牵头;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370826",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "林伯尔实验班",
+          "items": [
+            {
+              "sp_name": "临床医学",
+              "num": 15,
+              "tuition": 6320,
+              "level2": "医学",
+              "info_short": "林伯尔实验班;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370825",
+          "sg_name": "（104）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
           "batch": "本科批",
           "zslx": "普通类",
           "items": [
-            {"sp_name": "会计学", "num": 12, "tuition": 25000, "level2": "管理学", "info_short": "中外合作(中澳);郑州龙子湖校区"},
-            {"sp_name": "国际经济与贸易", "num": 8, "tuition": 18000, "level2": "经济学", "info_short": "中外合作(中德);郑州龙子湖校区"},
-            {"sp_name": "公共管理类", "num": 8, "tuition": 4400, "level2": "管理学", "info_short": "行政管理/劳动与社会保障;开封校区"},
-            {"sp_name": "历史学类", "num": 6, "tuition": 5060, "level2": "历史学", "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"},
-            {"sp_name": "思想政治教育", "num": 5, "tuition": 4400, "level2": "法学", "info_short": "师范;开封校区"},
-            {"sp_name": "新闻传播学类", "num": 5, "tuition": 5060, "level2": "文学", "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"},
-            {"sp_name": "外国语言文学类", "num": 4, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "经济学类", "num": 4, "tuition": 5060, "level2": "经济学", "info_short": "经济学/金融学/财政学;郑州龙子湖校区"},
-            {"sp_name": "中国语言文学类", "num": 4, "tuition": 5060, "level2": "文学", "info_short": "师范;汉语言文学/汉语国际教育;开封校区"},
-            {"sp_name": "外国语言文学类", "num": 3, "tuition": 4400, "level2": "文学", "info_short": "开封校区"},
-            {"sp_name": "教育学", "num": 3, "tuition": 5060, "level2": "教育学", "info_short": "开封校区"},
-            {"sp_name": "法学", "num": 3, "tuition": 5060, "level2": "法学", "info_short": "开封校区"},
-            {"sp_name": "地理科学类", "num": 3, "tuition": 5750, "level2": "理学", "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"},
-            {"sp_name": "工商管理", "num": 3, "tuition": 4400, "level2": "管理学", "info_short": "开封校区"}
+            {
+              "sp_name": "临床医学类",
+              "num": 243,
+              "tuition": 6320,
+              "level2": "医学",
+              "info_short": "含临床医学、眼视光医学;开封校区"
+            },
+            {
+              "sp_name": "口腔医学",
+              "num": 60,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            }
           ]
+        },
+        {
+          "group_code": "370824",
+          "sg_name": "（105）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 40,
+              "tuition": 5060,
+              "level2": "管理学",
+              "info_short": "大数据会计;开封校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 30,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 10,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370823",
+          "sg_name": "（106）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "计算机类",
+              "num": 183,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学与技术;开封校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 174,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 120,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "芯片设计;开封校区"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 107,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 88,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 77,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 49,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 41,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "num": 33,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 31,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 30,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "智能机器人;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "测绘工程",
+              "num": 30,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "智能遥感;开封校区"
+            },
+            {
+              "sp_name": "柔性电子学",
+              "num": 30,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "生物医学科学",
+              "num": 30,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "num": 28,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "智能建造与智慧交通",
+              "num": 28,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "密码科学与技术",
+              "num": 25,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "物理学",
+              "num": 23,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 20,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 20,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 12,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370822",
+          "sg_name": "（107）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "地理信息科学",
+              "num": 30,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "空间智能;开封校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 12,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息/人文地理与城乡规划;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370815",
+          "sg_name": "（201）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 25,
+              "tuition": 25000,
+              "level2": "经济学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 20,
+              "tuition": 25000,
+              "level2": "管理学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370814",
+          "sg_name": "（202）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "学前教育",
+              "num": 35,
+              "tuition": 18000,
+              "level2": "教育学",
+              "info_short": "中外合作(中芬);图尔库大学;开封校区"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 18,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);安哈尔特应用技术大学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370813",
+          "sg_name": "（203）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 65,
+              "tuition": 25000,
+              "level2": "工学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370821",
+          "sg_name": "（901）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "护理学",
+              "num": 100,
+              "tuition": 6320,
+              "level2": "医学",
+              "info_short": "开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370862",
+          "sg_name": "（301）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "经济学类",
+              "num": 14,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "国家专项;经济学/金融学/财政学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370861",
+          "sg_name": "（302）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "数学类",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "国家专项;数学/信息计算/统计/金融数学;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370860",
+          "sg_name": "（303）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "生物科学",
+              "num": 15,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "国家专项;师范;开封校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 10,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "国家专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370859",
+          "sg_name": "（304）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "地理科学类",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "国家专项;含地理科学(师范)/地理信息/人文地理;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370857",
+          "sg_name": "（306）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "国家专项;开封校区"
+            },
+            {
+              "sp_name": "物理学",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "国家专项;师范;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370856",
+          "sg_name": "（307）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "新闻传播学类",
+              "num": 15,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "国家专项;新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370855",
+          "sg_name": "（308）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "生物育种科学",
+              "num": 15,
+              "tuition": 5000,
+              "level2": "农学",
+              "info_short": "国家专项;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370854",
+          "sg_name": "（309）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "教育技术学",
+              "num": 12,
+              "tuition": 5060,
+              "level2": "教育学",
+              "info_short": "国家专项;师范;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370853",
+          "sg_name": "（311）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "土木工程",
+              "num": 10,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "国家专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370852",
+          "sg_name": "（312）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 15,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "国家专项;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370851",
+          "sg_name": "（313）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 10,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "国家专项;师范;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370914",
+          "sg_name": "（403）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "药学",
+              "num": 10,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "地方专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370913",
+          "sg_name": "（405）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "建筑学",
+              "num": 10,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "地方专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370912",
+          "sg_name": "（406）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "教育技术学",
+              "num": 15,
+              "tuition": 5060,
+              "level2": "教育学",
+              "info_short": "地方专项;师范;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370910",
+          "sg_name": "（408）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "测绘工程",
+              "num": 11,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "地方专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370909",
+          "sg_name": "（409）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "植物科学与技术",
+              "num": 10,
+              "tuition": 5000,
+              "level2": "农学",
+              "info_short": "地方专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370908",
+          "sg_name": "（410）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "地方专项;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370907",
+          "sg_name": "（411）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "数学类",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地方专项;数学/信息计算/统计/金融数学;开封校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370906",
+          "sg_name": "（412）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "新闻传播学类",
+              "num": 13,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "地方专项;新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370905",
+          "sg_name": "（414）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "经济学类",
+              "num": 10,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "地方专项;经济学/金融学/财政学;郑州龙子湖校区"
+            }
+          ]
+        },
+        {
+          "group_code": "370904",
+          "sg_name": "（415）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx": "地方专项",
+          "items": [
+            {
+              "sp_name": "地理科学类",
+              "num": 10,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地方专项;地理科学(师范)/地理信息/人文地理;开封校区"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "292791_42",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 6,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 570,
+          "min_rank": 8641
+        },
+        {
+          "group_code": "292792_42",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "历史学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "历史学",
+              "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "地理科学(师范)/地理信息/人文地理;开封校区"
+            }
+          ],
+          "min_score": 586,
+          "min_rank": 5391
+        },
+        {
+          "group_code": "292793_42",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "行政管理/劳动与社会保障;开封校区"
+            },
+            {
+              "sp_name": "旅游管理类",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "旅游管理/文化产业管理;开封校区"
+            }
+          ],
+          "min_score": 585,
+          "min_rank": 5552
+        },
+        {
+          "group_code": "292760_42",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "生物工程",
+              "num": 5,
+              "tuition": 18000,
+              "level2": "工学",
+              "info_short": "中外合作(中德);开封校区"
+            }
+          ],
+          "min_score": 555,
+          "min_rank": 40597
+        },
+        {
+          "group_code": "292761_42",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "软件类",
+          "items": [
+            {
+              "sp_name": "软件工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 12,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "软件学院牵头;开封校区"
+            }
+          ],
+          "min_score": 579,
+          "min_rank": 24832
+        },
+        {
+          "group_code": "292762_42",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 4,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 3,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学;开封校区"
+            },
+            {
+              "sp_name": "电子信息科学与技术",
+              "num": 2,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            }
+          ],
+          "min_score": 566,
+          "min_rank": 32837
+        },
+        {
+          "group_code": "292763_42",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "经济学类",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "学制五年;开封校区"
+            },
+            {
+              "sp_name": "法语",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "经济统计学",
+              "num": 2,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "郑州龙子湖校区"
+            }
+          ],
+          "min_score": 561,
+          "min_rank": 36276
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "433968",
+          "sg_name": "（218）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "历史学类",
+              "num": 8,
+              "tuition": 5060,
+              "level2": "历史学",
+              "info_short": "历史学(师范)/世界史/考古学/文博;开封校区"
+            }
+          ],
+          "min_score": 580,
+          "min_rank": 10973
+        },
+        {
+          "group_code": "433969",
+          "sg_name": "（217）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 12,
+              "tuition": 18000,
+              "level2": "经济学",
+              "info_short": "中外合作(中德);郑州龙子湖校区"
+            }
+          ],
+          "min_score": 548,
+          "min_rank": 25080
+        },
+        {
+          "group_code": "433970",
+          "sg_name": "（215）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 11,
+              "tuition": 5060,
+              "level2": "管理学",
+              "info_short": "大数据会计;开封校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "num": 7,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "行政管理/劳动与社会保障;开封校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "num": 5,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范;汉语言文学/汉语国际教育;开封校区"
+            },
+            {
+              "sp_name": "法语",
+              "num": 4,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "日语",
+              "num": 4,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "德语",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "文学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "法学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "电子商务",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            }
+          ],
+          "min_score": 559,
+          "min_rank": 19462
+        },
+        {
+          "group_code": "433983",
+          "sg_name": "（228）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "软件类",
+          "items": [
+            {
+              "sp_name": "网络工程",
+              "num": 35,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 20,
+              "tuition": 15000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            }
+          ],
+          "min_score": 563,
+          "min_rank": 63136
+        },
+        {
+          "group_code": "433984",
+          "sg_name": "（227）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "工学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            }
+          ],
+          "min_score": 558,
+          "min_rank": 69993
+        },
+        {
+          "group_code": "433985",
+          "sg_name": "（226）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "生物工程",
+              "num": 12,
+              "tuition": 18000,
+              "level2": "工学",
+              "info_short": "中外合作(中德);安哈尔特;开封校区"
+            }
+          ],
+          "min_score": 525,
+          "min_rank": 120162
+        },
+        {
+          "group_code": "433986",
+          "sg_name": "（223）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "物理学",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "化学类",
+              "num": 4,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "化学(师范)/应用化学/能源化学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "药学",
+              "num": 3,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "中药学",
+              "num": 3,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "理学",
+              "info_short": "数学(师范)/信息计算/统计/金融数学;开封校区"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 3,
+              "tuition": 5750,
+              "level2": "工学",
+              "info_short": "信息安全/数据科学/计算机科学;开封校区"
+            },
+            {
+              "sp_name": "临床医学类",
+              "num": 3,
+              "tuition": 6320,
+              "level2": "医学",
+              "info_short": "学制五年;临床医学/眼视光医学;开封校区"
+            },
+            {
+              "sp_name": "材料化学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "环境科学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "临床药学",
+              "num": 2,
+              "tuition": 5500,
+              "level2": "医学",
+              "info_short": "学制五年;开封校区"
+            },
+            {
+              "sp_name": "土木工程",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "开封校区"
+            }
+          ],
+          "min_score": 552,
+          "min_rank": 78765
+        },
+        {
+          "group_code": "433987",
+          "sg_name": "（222）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            {
+              "sp_name": "国际经济与贸易",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "经济学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 15,
+              "tuition": 25000,
+              "level2": "管理学",
+              "info_short": "中外合作(中澳);维多利亚大学;郑州龙子湖校区"
+            }
+          ],
+          "min_score": 508,
+          "min_rank": 151144
+        },
+        {
+          "group_code": "433988",
+          "sg_name": "（219）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            {
+              "sp_name": "经济学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "经济学/金融学/财政学;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 4,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "新闻/编辑出版/广告/网络新媒体;郑州龙子湖校区"
+            },
+            {
+              "sp_name": "英语",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "文学",
+              "info_short": "师范;开封校区"
+            },
+            {
+              "sp_name": "经济统计学",
+              "num": 3,
+              "tuition": 5060,
+              "level2": "经济学",
+              "info_short": "郑州龙子湖校区"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 3,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "工学",
+              "info_short": "学制五年;开封校区"
+            },
+            {
+              "sp_name": "电子商务",
+              "num": 2,
+              "tuition": 4400,
+              "level2": "管理学",
+              "info_short": "开封校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "num": 2,
+              "tuition": 5000,
+              "level2": "理学",
+              "info_short": "师范;开封校区"
+            }
+          ],
+          "min_score": 547,
+          "min_rank": 86032
         }
       ]
     }

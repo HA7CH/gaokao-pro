@@ -174,7 +174,9 @@
               "min_section": 3232,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 652,
+          "min_rank": 3232
         },
         {
           "group_id": "438400",
@@ -215,7 +217,9 @@
               "min_section": 14438,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 619,
+          "min_rank": 14438
         },
         {
           "group_id": "258769",
@@ -327,7 +331,9 @@
               "min_section": 55626,
               "batch": "本科提前批"
             }
-          ]
+          ],
+          "min_score": 536,
+          "min_rank": 55626
         }
       ]
     },
@@ -424,7 +430,9 @@
               "min_section": 4203,
               "batch": "普通类一段"
             }
-          ]
+          ],
+          "min_score": 647,
+          "min_rank": 4203
         },
         {
           "group_id": "0",
@@ -476,7 +484,9 @@
               "min_section": 4203,
               "batch": "普通类一段"
             }
-          ]
+          ],
+          "min_score": 647,
+          "min_rank": 4203
         }
       ]
     },

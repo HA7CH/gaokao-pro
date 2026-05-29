@@ -63,1258 +63,6 @@
     }
   },
   "provinces": {
-    "41": {
-      "name": "河南",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "371738",
-          "sg_name": "（101）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "卓越工程师学院；含化工/环工/生工/制药/过程装备/自动化；不招色盲色弱；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "371737",
-          "sg_name": "（102）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 75,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 21,
-              "tuition": 5000,
-              "info_short": "先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料与器件"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 18,
-              "tuition": 5000,
-              "info_short": "化工能源与生物医药；含化工/能源化工/环工/氢能/生工/生医工/制药；不招色盲色弱"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "绿色化学；含应用化学/能源化学/资源化学；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "化工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "生工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "基础拔尖班+优培计划；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "宏德书院；含化工/高分子材料；不招色盲色弱"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "材料+大数据双学位"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化学+生工双学位(化学-生物工程)；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "生物制造高精尖班；含生物工程；不招色盲色弱"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "环工+大数据双学位；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "371736",
-          "sg_name": "（103）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 63,
-          "items": [
-            {
-              "sp_name": "理科试验班",
-              "num": 24,
-              "tuition": 5000,
-              "info_short": "数学、物理电子与管理；含信管/大数据/电科/数学与应用数学/信息与计算科学/金融数学/应用物理"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 17,
-              "tuition": 5000,
-              "info_short": "高端装备与智能制造；含机械设计制造/过程装备/安全工程/机器人工程"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 14,
-              "tuition": 5000,
-              "info_short": "含电子信息工程/人工智能/计算机科学与技术"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 8,
-              "tuition": 5000,
-              "info_short": "含自动化/测控技术与仪器"
-            }
-          ]
-        },
-        {
-          "group_code": "371735",
-          "sg_name": "（205）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 19,
-          "items": [
-            {
-              "sp_name": "化工与制药类",
-              "num": 7,
-              "tuition": 60000,
-              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；含化工/高分子材料/生工(中外合作)；不招色盲色弱"
-            },
-            {
-              "sp_name": "机械设计制造及其自动化",
-              "num": 6,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 4,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
-            },
-            {
-              "sp_name": "工业设计",
-              "num": 2,
-              "tuition": 70000,
-              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
-            }
-          ]
-        },
-        {
-          "group_code": "371745",
-          "sg_name": "（309）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "total_num": 22,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 12,
-              "tuition": 5000,
-              "info_short": "国家专项；先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 8,
-              "tuition": 5000,
-              "info_short": "国家专项；化工能源与生物医药；不招色盲色弱"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "国家专项；绿色化学；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "371763",
-          "sg_name": "（104）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 24,
-          "items": [
-            {
-              "sp_name": "工商管理类",
-              "num": 23,
-              "tuition": 5000,
-              "info_short": "新文科经管法；含财务管理/会计学/工商管理/国际经济与贸易/行政管理/公共事业管理/法学"
-            },
-            {
-              "sp_name": "法学",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "卓越实验班"
-            }
-          ]
-        }
-      ]
-    },
-    "32": {
-      "name": "江苏",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "428225",
-          "sg_name": "（01）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "工商管理类",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "新文科经管法；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "法学",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "卓越实验班；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "428244",
-          "sg_name": "（02）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 49,
-          "items": [
-            {
-              "sp_name": "计算机类",
-              "num": 19,
-              "tuition": 5000,
-              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 19,
-              "tuition": 5000,
-              "info_short": "高端装备与智能制造；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 12,
-              "tuition": 5000,
-              "info_short": "含自动化/测控技术与仪器；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 9,
-              "tuition": 5000,
-              "info_short": "数学、物理电子与管理；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "428243",
-          "sg_name": "（03）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "卓越工程师学院；不招色盲色弱；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "428242",
-          "sg_name": "（04）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 62,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 16,
-              "tuition": 5000,
-              "info_short": "化工能源与生物医药；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 15,
-              "tuition": 5000,
-              "info_short": "先进材料；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 9,
-              "tuition": 5000,
-              "info_short": "绿色化学；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "化工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "化工+法语联合学位(与北京语言大学)；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "基础拔尖；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "宏德书院；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "材料+大数据双学位；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "生工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化学+生工双学位；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "生物制造高精尖班；色觉要求；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "环工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
-            }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "434416",
-          "sg_name": "（207）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 12,
-          "items": [
-            {
-              "sp_name": "工商管理类",
-              "num": 9,
-              "tuition": 5000,
-              "info_short": "新文科经管法；办学:北京"
-            },
-            {
-              "sp_name": "英语",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "办学:北京"
-            },
-            {
-              "sp_name": "法学",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "卓越实验班；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "434454",
-          "sg_name": "（208）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 59,
-          "items": [
-            {
-              "sp_name": "理科试验班",
-              "num": 19,
-              "tuition": 5000,
-              "info_short": "数学、物理电子与管理；办学:北京"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 17,
-              "tuition": 5000,
-              "info_short": "高端装备与智能制造；办学:北京"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 16,
-              "tuition": 5000,
-              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:北京"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 7,
-              "tuition": 5000,
-              "info_short": "含自动化/测控技术与仪器；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "434453",
-          "sg_name": "（209）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 43,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "先进材料；办学:北京"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "化工能源与生物医药；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "绿色化学；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "化工+大数据双学位；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "生工+大数据双学位；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "宏德书院；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "材料+大数据双学位；办学:北京"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化学+生工双学位；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "基础拔尖；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "环工+大数据双学位；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "生物制造高精尖班；色觉要求；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "434452",
-          "sg_name": "（210）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 7,
-          "items": [
-            {
-              "sp_name": "机械设计制造及其自动化",
-              "num": 5,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学；办学:北京"
-            },
-            {
-              "sp_name": "工业设计",
-              "num": 2,
-              "tuition": 70000,
-              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "434451",
-          "sg_name": "（211）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "化工与制药类",
-              "num": 7,
-              "tuition": 60000,
-              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；色觉要求；办学:北京"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 4,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；色觉要求；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "434450",
-          "sg_name": "（212）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 10,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "卓越工程师学院；色觉要求；办学:北京"
-            }
-          ]
-        },
-        {
-          "group_code": "258678",
-          "sg_name": "（706）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项",
-          "total_num": 1,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "高校专项；化工能源与生物医药；色觉要求；办学:北京"
-            }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "293296",
-          "sg_name": "（04）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 13,
-          "items": [
-            {
-              "sp_name": "工商管理类",
-              "num": 12,
-              "tuition": 5000,
-              "info_short": "新文科经管法；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "法学",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "卓越实验班；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "293288",
-          "sg_name": "（05）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 7,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 7,
-              "tuition": 5000,
-              "info_short": "卓越工程师学院；不招色盲色弱；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "293287",
-          "sg_name": "（06）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 38,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "先进材料；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "绿色化学；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 5,
-              "tuition": 5000,
-              "info_short": "化工能源与生物医药；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "化工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "材料+大数据双学位；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "生工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化学+生工双学位；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "基础拔尖；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "宏德书院；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "环工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "生物制造高精尖班；不招色盲色弱；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "293286",
-          "sg_name": "（07）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 37,
-          "items": [
-            {
-              "sp_name": "计算机类",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "高端装备与智能制造；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "数学、物理电子与管理；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 5,
-              "tuition": 5000,
-              "info_short": "含自动化/测控技术与仪器；办学:朝阳/昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "293285",
-          "sg_name": "（08）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "化工与制药类",
-              "num": 4,
-              "tuition": 60000,
-              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
-            },
-            {
-              "sp_name": "机械设计制造及其自动化",
-              "num": 3,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 2,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
-            },
-            {
-              "sp_name": "工业设计",
-              "num": 2,
-              "tuition": 70000,
-              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
-            }
-          ]
-        },
-        {
-          "group_code": "293284",
-          "sg_name": "（09）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "少数民族预科",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "本科预科班",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "少数民族预科班；外语语种不限；办学:昌平校区"
-            }
-          ]
-        },
-        {
-          "group_code": "293299",
-          "sg_name": "（10）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "国家专项；先进材料；办学:朝阳/昌平校区"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 5,
-              "tuition": 5000,
-              "info_short": "国家专项；化工能源与生物医药；不招色盲色弱；办学:朝阳/昌平校区"
-            }
-          ]
-        }
-      ]
-    },
-    "35": {
-      "name": "福建",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "396502",
-          "sg_name": "（999）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 13,
-          "items": [
-            {
-              "sp_name": "工商管理类",
-              "num": 13,
-              "tuition": 5000,
-              "info_short": "新文科经管法；含财务管理/会计学/工商管理/国贸/行政管理/公共事业管理/法学"
-            }
-          ]
-        },
-        {
-          "group_code": "396528",
-          "sg_name": "（500/物化组1）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 8,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 8,
-              "tuition": 5000,
-              "info_short": "物化组1；卓越工程师学院；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "396527",
-          "sg_name": "（500/物化组2）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 52,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 17,
-              "tuition": 5000,
-              "info_short": "物化组2；先进材料"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 12,
-              "tuition": 5000,
-              "info_short": "物化组2；化工能源与生物医药；不招色盲色弱"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 6,
-              "tuition": 5000,
-              "info_short": "物化组2；绿色化学；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 5,
-              "tuition": 5000,
-              "info_short": "物化组2；化工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "物化组2；材料+大数据双学位"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "物化组2；生工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "物化组2；化学+生工双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "物化组2；基础拔尖；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "物化组2；宏德书院；不招色盲色弱"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "物化组2；环工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "物化组2；生物制造高精尖班；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "396526",
-          "sg_name": "（500/物化组3）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 66,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 22,
-              "tuition": 5000,
-              "info_short": "物化组3；高端装备与智能制造"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 16,
-              "tuition": 5000,
-              "info_short": "物化组3；含电子信息工程/人工智能/计算机科学与技术"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 16,
-              "tuition": 5000,
-              "info_short": "物化组3；数学、物理电子与管理"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "物化组3；含自动化/测控技术与仪器"
-            }
-          ]
-        },
-        {
-          "group_code": "396525",
-          "sg_name": "（500）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 13,
-          "items": [
-            {
-              "sp_name": "化工与制药类",
-              "num": 7,
-              "tuition": 60000,
-              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
-            },
-            {
-              "sp_name": "机械设计制造及其自动化",
-              "num": 3,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 3,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "466919",
-          "sg_name": "（500）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "高校农村专项计划",
-          "zslx": "高校专项",
-          "total_num": 2,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "高校专项；先进材料"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "高校专项；化工能源与生物医药；不招色盲色弱"
-            }
-          ]
-        }
-      ]
-    },
-    "37": {
-      "name": "山东",
-      "regime": "新高考3+3(综合改革)",
-      "groups": [
-        {
-          "group_code": "sd-1570-pt",
-          "sg_name": null,
-          "track": "综合改革",
-          "subject_req": "物理+化学(普通类一段)",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 158,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 27,
-              "tuition": 5000,
-              "info_short": "先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 18,
-              "tuition": 5000,
-              "info_short": "数学、物理电子与管理；含信管/大数据/电科/数学/金融数学/应用物理"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 18,
-              "tuition": 5000,
-              "info_short": "高端装备与智能制造；含机械设计制造/过程装备/安全工程/机器人工程"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 17,
-              "tuition": 5000,
-              "info_short": "化工能源与生物医药；不招色盲色弱"
-            },
-            {
-              "sp_name": "计算机类",
-              "num": 16,
-              "tuition": 5000,
-              "info_short": "含电子信息工程/人工智能/计算机科学与技术"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 11,
-              "tuition": 5000,
-              "info_short": "卓越工程师学院；不招色盲色弱"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "绿色化学；不招色盲色弱"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 9,
-              "tuition": 5000,
-              "info_short": "含自动化/测控技术与仪器"
-            },
-            {
-              "sp_name": "化工与制药类",
-              "num": 8,
-              "tuition": 60000,
-              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 7,
-              "tuition": 5000,
-              "info_short": "化工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "工商管理类",
-              "num": 7,
-              "tuition": 5000,
-              "info_short": "新文科经管法"
-            },
-            {
-              "sp_name": "机械设计制造及其自动化",
-              "num": 6,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 5,
-              "tuition": 70000,
-              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
-            },
-            {
-              "sp_name": "生物工程",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "生工+大数据双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "宏德书院；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "基础拔尖班+优培计划；不招色盲色弱"
-            },
-            {
-              "sp_name": "法学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "卓越实验班"
-            },
-            {
-              "sp_name": "材料科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "材料+大数据双学位"
-            },
-            {
-              "sp_name": "工业设计",
-              "num": 2,
-              "tuition": 70000,
-              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
-            },
-            {
-              "sp_name": "化学工程与工艺",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化工+法语联合学位(与北京语言大学)；不招色盲色弱"
-            },
-            {
-              "sp_name": "化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "化学+生工双学位；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "生物制造高精尖班；不招色盲色弱"
-            },
-            {
-              "sp_name": "环境工程",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "环工+大数据双学位；不招色盲色弱"
-            }
-          ]
-        },
-        {
-          "group_code": "sd-4070-gx",
-          "sg_name": null,
-          "track": "综合改革",
-          "subject_req": "物理+化学(部分不限)",
-          "batch": "特殊类型批",
-          "zslx": "高校专项",
-          "total_num": 14,
-          "items": [
-            {
-              "sp_name": "工科试验班",
-              "num": 5,
-              "tuition": 5000,
-              "info_short": "高校专项；化工能源与生物医药；不招色盲色弱"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "高校专项；先进材料"
-            },
-            {
-              "sp_name": "工商管理类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "高校专项；新文科经管法"
-            },
-            {
-              "sp_name": "理科试验班",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "高校专项；绿色化学；不招色盲色弱"
-            },
-            {
-              "sp_name": "自动化类",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "高校专项；含自动化/测控技术与仪器"
-            },
-            {
-              "sp_name": "工科试验班",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "高校专项；高端装备与智能制造"
-            }
-          ]
-        }
-      ]
-    },
     "13": {
       "name": "河北",
       "regime": "新高考3+1+2",
@@ -1548,6 +296,1304 @@
               "info_short": "高校专项；高端装备与智能制造"
             }
           ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "428225",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "新文科经管法；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卓越实验班；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 597,
+          "min_rank": 6526
+        },
+        {
+          "group_code": "428244",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 49,
+          "items": [
+            {
+              "sp_name": "计算机类",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "高端装备与智能制造；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "含自动化/测控技术与仪器；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "数学、物理电子与管理；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 617,
+          "min_rank": 21043
+        },
+        {
+          "group_code": "428243",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "卓越工程师学院；不招色盲色弱；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 625,
+          "min_rank": 15713
+        },
+        {
+          "group_code": "428242",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 62,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "化工能源与生物医药；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 15,
+              "tuition": 5000,
+              "info_short": "先进材料；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "绿色化学；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "化工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "化工+法语联合学位(与北京语言大学)；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "基础拔尖；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "宏德书院；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "材料+大数据双学位；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "生工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化学+生工双学位；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "生物制造高精尖班；色觉要求；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "环工+大数据双学位；色觉要求；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 614,
+          "min_rank": 23214
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "396502",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 13,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "新文科经管法；含财务管理/会计学/工商管理/国贸/行政管理/公共事业管理/法学"
+            }
+          ],
+          "min_score": 590,
+          "min_rank": 2495
+        },
+        {
+          "group_code": "396528",
+          "sg_name": "（500/物化组1）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "物化组1；卓越工程师学院；不招色盲色弱"
+            }
+          ],
+          "min_score": 614,
+          "min_rank": 8461
+        },
+        {
+          "group_code": "396527",
+          "sg_name": "（500/物化组2）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 52,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 17,
+              "tuition": 5000,
+              "info_short": "物化组2；先进材料"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "物化组2；化工能源与生物医药；不招色盲色弱"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "物化组2；绿色化学；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "物化组2；化工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "物化组2；材料+大数据双学位"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "物化组2；生工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "物化组2；化学+生工双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "物化组2；基础拔尖；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "物化组2；宏德书院；不招色盲色弱"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "物化组2；环工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "物化组2；生物制造高精尖班；不招色盲色弱"
+            }
+          ],
+          "min_score": 606,
+          "min_rank": 10843
+        },
+        {
+          "group_code": "396526",
+          "sg_name": "（500/物化组3）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 66,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 22,
+              "tuition": 5000,
+              "info_short": "物化组3；高端装备与智能制造"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "物化组3；含电子信息工程/人工智能/计算机科学与技术"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "物化组3；数学、物理电子与管理"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "物化组3；含自动化/测控技术与仪器"
+            }
+          ],
+          "min_score": 610,
+          "min_rank": 9599
+        },
+        {
+          "group_code": "396525",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 13,
+          "items": [
+            {
+              "sp_name": "化工与制药类",
+              "num": 7,
+              "tuition": 60000,
+              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 3,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 3,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
+            }
+          ],
+          "min_score": 583,
+          "min_rank": 19062
+        },
+        {
+          "group_code": "466919",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；先进材料"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；化工能源与生物医药；不招色盲色弱"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "groups": [
+        {
+          "group_code": "sd-1570-pt",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "物理+化学(普通类一段)",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 158,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 27,
+              "tuition": 5000,
+              "info_short": "先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "数学、物理电子与管理；含信管/大数据/电科/数学/金融数学/应用物理"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "高端装备与智能制造；含机械设计制造/过程装备/安全工程/机器人工程"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 17,
+              "tuition": 5000,
+              "info_short": "化工能源与生物医药；不招色盲色弱"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "含电子信息工程/人工智能/计算机科学与技术"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "卓越工程师学院；不招色盲色弱"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "绿色化学；不招色盲色弱"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "含自动化/测控技术与仪器"
+            },
+            {
+              "sp_name": "化工与制药类",
+              "num": 8,
+              "tuition": 60000,
+              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "化工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "新文科经管法"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 6,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 5,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "生工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "宏德书院；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "基础拔尖班+优培计划；不招色盲色弱"
+            },
+            {
+              "sp_name": "法学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "卓越实验班"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "材料+大数据双学位"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 70000,
+              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化工+法语联合学位(与北京语言大学)；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化学+生工双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "生物制造高精尖班；不招色盲色弱"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "环工+大数据双学位；不招色盲色弱"
+            }
+          ]
+        },
+        {
+          "group_code": "sd-4070-gx",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "物理+化学(部分不限)",
+          "batch": "特殊类型批",
+          "zslx": "高校专项",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "高校专项；化工能源与生物医药；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "高校专项；先进材料"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高校专项；新文科经管法"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高校专项；绿色化学；不招色盲色弱"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；含自动化/测控技术与仪器"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；高端装备与智能制造"
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "371738",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "卓越工程师学院；含化工/环工/生工/制药/过程装备/自动化；不招色盲色弱；办学:朝阳/昌平校区"
+            }
+          ]
+        },
+        {
+          "group_code": "371737",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 75,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 21,
+              "tuition": 5000,
+              "info_short": "先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料与器件"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "化工能源与生物医药；含化工/能源化工/环工/氢能/生工/生医工/制药；不招色盲色弱"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "绿色化学；含应用化学/能源化学/资源化学；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "化工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "生工+大数据双学位；不招色盲色弱"
+            },
+            {
+              "sp_name": "化学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "基础拔尖班+优培计划；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "宏德书院；含化工/高分子材料；不招色盲色弱"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "材料+大数据双学位"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化学+生工双学位(化学-生物工程)；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "生物制造高精尖班；含生物工程；不招色盲色弱"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "环工+大数据双学位；不招色盲色弱"
+            }
+          ]
+        },
+        {
+          "group_code": "371736",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 63,
+          "items": [
+            {
+              "sp_name": "理科试验班",
+              "num": 24,
+              "tuition": 5000,
+              "info_short": "数学、物理电子与管理；含信管/大数据/电科/数学与应用数学/信息与计算科学/金融数学/应用物理"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 17,
+              "tuition": 5000,
+              "info_short": "高端装备与智能制造；含机械设计制造/过程装备/安全工程/机器人工程"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 14,
+              "tuition": 5000,
+              "info_short": "含电子信息工程/人工智能/计算机科学与技术"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "含自动化/测控技术与仪器"
+            }
+          ]
+        },
+        {
+          "group_code": "371735",
+          "sg_name": "（205）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 19,
+          "items": [
+            {
+              "sp_name": "化工与制药类",
+              "num": 7,
+              "tuition": 60000,
+              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；含化工/高分子材料/生工(中外合作)；不招色盲色弱"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 6,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 70000,
+              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
+            }
+          ]
+        },
+        {
+          "group_code": "371745",
+          "sg_name": "（309）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 22,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "国家专项；先进材料；含高分子材料/材料科学与工程/功能材料/新能源材料"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "国家专项；化工能源与生物医药；不招色盲色弱"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；绿色化学；不招色盲色弱"
+            }
+          ]
+        },
+        {
+          "group_code": "371763",
+          "sg_name": "（104）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 24,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 23,
+              "tuition": 5000,
+              "info_short": "新文科经管法；含财务管理/会计学/工商管理/国际经济与贸易/行政管理/公共事业管理/法学"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卓越实验班"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "293296",
+          "sg_name": "（04）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 13,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "新文科经管法；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卓越实验班；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 594,
+          "min_rank": 4070
+        },
+        {
+          "group_code": "293288",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "卓越工程师学院；不招色盲色弱；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 605,
+          "min_rank": 12252
+        },
+        {
+          "group_code": "293287",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 38,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "先进材料；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "绿色化学；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "化工能源与生物医药；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "化工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "材料+大数据双学位；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "生工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化学+生工双学位；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "基础拔尖；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "宏德书院；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "环工+大数据双学位；不招色盲色弱；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "生物制造高精尖班；不招色盲色弱；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 602,
+          "min_rank": 13442
+        },
+        {
+          "group_code": "293286",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 37,
+          "items": [
+            {
+              "sp_name": "计算机类",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 11,
+              "tuition": 5000,
+              "info_short": "高端装备与智能制造；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "数学、物理电子与管理；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "含自动化/测控技术与仪器；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 605,
+          "min_rank": 12252
+        },
+        {
+          "group_code": "293285",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "化工与制药类",
+              "num": 4,
+              "tuition": 60000,
+              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；不招色盲色弱"
+            },
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 3,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 2,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；不招色盲色弱"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 70000,
+              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学"
+            }
+          ],
+          "min_score": 576,
+          "min_rank": 26551
+        },
+        {
+          "group_code": "293284",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "少数民族预科",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "本科预科班",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "少数民族预科班；外语语种不限；办学:昌平校区"
+            }
+          ],
+          "min_score": 582,
+          "min_rank": 23168
+        },
+        {
+          "group_code": "293299",
+          "sg_name": "（10）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "国家专项；先进材料；办学:朝阳/昌平校区"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "国家专项；化工能源与生物医药；不招色盲色弱；办学:朝阳/昌平校区"
+            }
+          ],
+          "min_score": 594,
+          "min_rank": 16966
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "434416",
+          "sg_name": "（207）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "工商管理类",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "新文科经管法；办学:北京"
+            },
+            {
+              "sp_name": "英语",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "法学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "卓越实验班；办学:北京"
+            }
+          ],
+          "min_score": 590,
+          "min_rank": 7555
+        },
+        {
+          "group_code": "434454",
+          "sg_name": "（208）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 59,
+          "items": [
+            {
+              "sp_name": "理科试验班",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "数学、物理电子与管理；办学:北京"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 17,
+              "tuition": 5000,
+              "info_short": "高端装备与智能制造；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 16,
+              "tuition": 5000,
+              "info_short": "含电子信息工程/人工智能/计算机科学与技术；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "含自动化/测控技术与仪器；办学:北京"
+            }
+          ],
+          "min_score": 609,
+          "min_rank": 20291
+        },
+        {
+          "group_code": "434453",
+          "sg_name": "（209）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 43,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "先进材料；办学:北京"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "化工能源与生物医药；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "绿色化学；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "化学工程与工艺",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "化工+大数据双学位；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "生工+大数据双学位；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "宏德书院；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "材料+大数据双学位；办学:北京"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "化学+生工双学位；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "基础拔尖；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "环工+大数据双学位；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "生物制造高精尖班；色觉要求；办学:北京"
+            }
+          ],
+          "min_score": 607,
+          "min_rank": 22003
+        },
+        {
+          "group_code": "434452",
+          "sg_name": "（210）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "机械设计制造及其自动化",
+              "num": 5,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、机器人方向；合作:美国底特律大学；办学:北京"
+            },
+            {
+              "sp_name": "工业设计",
+              "num": 2,
+              "tuition": 70000,
+              "info_short": "中外合作；中意设计双学位；合作:意大利热那亚大学；办学:北京"
+            }
+          ],
+          "min_score": 593,
+          "min_rank": 32547
+        },
+        {
+          "group_code": "434451",
+          "sg_name": "（211）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "化工与制药类",
+              "num": 7,
+              "tuition": 60000,
+              "info_short": "中外合作；中法精英工程教育试验班；合作:法国巴黎国家高等化学学校；色觉要求；办学:北京"
+            },
+            {
+              "sp_name": "生物工程",
+              "num": 4,
+              "tuition": 70000,
+              "info_short": "中外合作；中美双学位、生物过程工程；合作:美国纽约州立大学ESF分校；色觉要求；办学:北京"
+            }
+          ],
+          "min_score": 593,
+          "min_rank": 32317
+        },
+        {
+          "group_code": "434450",
+          "sg_name": "（212）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "卓越工程师学院；色觉要求；办学:北京"
+            }
+          ],
+          "min_score": 612,
+          "min_rank": 18238
+        },
+        {
+          "group_code": "258678",
+          "sg_name": "（706）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "工科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；化工能源与生物医药；色觉要求；办学:北京"
+            }
+          ],
+          "min_score": 596,
+          "min_rank": 29414
         }
       ]
     }

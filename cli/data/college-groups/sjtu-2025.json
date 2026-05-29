@@ -789,7 +789,9 @@
               "min_section": 0,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 659,
+          "min_rank": 0
         },
         {
           "group_id": "426388",
@@ -1115,7 +1117,9 @@
               "min_section": 506,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 673,
+          "min_rank": 506
         },
         {
           "group_id": "426387",
@@ -1199,7 +1203,9 @@
               "min_section": 1521,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 663,
+          "min_rank": 1521
         },
         {
           "group_id": "426386",
@@ -1239,7 +1245,9 @@
               "min_section": 0,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 686,
+          "min_rank": 0
         },
         {
           "group_id": "455637",
@@ -1279,7 +1287,9 @@
               "min_section": 958,
               "batch": "本科提前批"
             }
-          ]
+          ],
+          "min_score": 634,
+          "min_rank": 958
         }
       ]
     },
@@ -1348,7 +1358,9 @@
               "min_section": 63,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 663,
+          "min_rank": 63
         },
         {
           "group_id": "432082",
@@ -1718,7 +1730,9 @@
               "min_section": 432,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 678,
+          "min_rank": 432
         },
         {
           "group_id": "432081",
@@ -1758,7 +1772,9 @@
               "min_section": 112,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 688,
+          "min_rank": 112
         },
         {
           "group_id": "432080",
@@ -1842,7 +1858,9 @@
               "min_section": 1083,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 669,
+          "min_rank": 1083
         },
         {
           "group_id": "258701",
@@ -1904,7 +1922,9 @@
               "min_section": 5476,
               "batch": "本科提前批"
             }
-          ]
+          ],
+          "min_score": 642,
+          "min_rank": 5476
         }
       ]
     },
@@ -1973,7 +1993,9 @@
               "min_section": 1105,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 657,
+          "min_rank": 1105
         },
         {
           "group_id": "291273",
@@ -2057,7 +2079,9 @@
               "min_section": 181,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 649,
+          "min_rank": 181
         },
         {
           "group_id": "291265",
@@ -2141,7 +2165,9 @@
               "min_section": 1029,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 658,
+          "min_rank": 1029
         },
         {
           "group_id": "291250",
@@ -2181,7 +2207,9 @@
               "min_section": 56,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 663,
+          "min_rank": 56
         },
         {
           "group_id": "291216",
@@ -2221,7 +2249,9 @@
               "min_section": 101,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 682,
+          "min_rank": 101
         },
         {
           "group_id": "291215",
@@ -2547,7 +2577,9 @@
               "min_section": 302,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 672,
+          "min_rank": 302
         }
       ]
     },
@@ -2616,7 +2648,9 @@
               "min_section": 577,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 667,
+          "min_rank": 577
         },
         {
           "group_id": "393383",
@@ -3074,7 +3108,9 @@
               "min_section": 308,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 674,
+          "min_rank": 308
         },
         {
           "group_id": "393350",
@@ -3136,7 +3172,9 @@
               "min_section": 48,
               "batch": "本科批"
             }
-          ]
+          ],
+          "min_score": 658,
+          "min_rank": 48
         }
       ]
     },
@@ -3344,7 +3382,9 @@
           "batch_min_score": 654,
           "batch_max_score": 683,
           "batch_worst_section": 2788,
-          "batch_best_section": 192
+          "batch_best_section": 192,
+          "min_score": 654,
+          "min_rank": 2884
         },
         {
           "group_id": "0",
@@ -3365,7 +3405,9 @@
               "length": "四年",
               "info": "（产教融合培养班，回生源地国家电投企业工作）（仅录取有专业志愿的考生。委托单位：国家电力投资集团有限公司，考生须签署委托培养定向生合同书）（高校专项计划）"
             }
-          ]
+          ],
+          "min_score": 654,
+          "min_rank": 2884
         }
       ]
     },

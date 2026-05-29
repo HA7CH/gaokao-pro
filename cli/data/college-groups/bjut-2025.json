@@ -59,534 +59,6 @@
     }
   },
   "provinces": {
-    "41": {
-      "name": "河南",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "368054",
-          "sg_name": "（101）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 21,
-          "items": [
-            {
-              "sp_name": "环境科学与工程类",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "(包含专业：环境科学、环境工程；色盲、色弱限报)"
-            },
-            {
-              "sp_name": "土木类",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "(包含专业：土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
-            },
-            {
-              "sp_name": "材料类",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(实验班)(包含专业：材料科学与工程、纳米材料与技术、资源循环科学与工程、焊接技术与工程、新能源材料与器件；色盲限报)"
-            },
-            {
-              "sp_name": "应用化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(色盲、色弱限报)"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": ""
-            },
-            {
-              "sp_name": "计算机科学与技术",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(色盲限报)"
-            },
-            {
-              "sp_name": "交通运输类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)(包含专业：交通工程、交通设备与控制工程；色盲限报)"
-            },
-            {
-              "sp_name": "统计学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": ""
-            }
-          ]
-        },
-        {
-          "group_code": "368053",
-          "sg_name": "（201）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "电子信息工程",
-              "num": 2,
-              "tuition": 95000,
-              "info_short": "(合作方：爱尔兰国立都柏林大学；要求高考外语单科成绩不得低于110分)"
-            },
-            {
-              "sp_name": "软件工程",
-              "num": 2,
-              "tuition": 95000,
-              "info_short": "(合作方：爱尔兰国立都柏林大学；要求高考外语单科成绩不得低于110分)"
-            }
-          ]
-        },
-        {
-          "group_code": "368083",
-          "sg_name": "（301）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项",
-          "total_num": 10,
-          "items": [
-            {
-              "sp_name": "土木类",
-              "num": 10,
-              "tuition": 5000,
-              "info_short": "(包含专业：土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
-            }
-          ]
-        }
-      ]
-    },
-    "32": {
-      "name": "江苏",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "425856",
-          "sg_name": "（01）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 13,
-          "items": [
-            {
-              "sp_name": "工业设计",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(报考该专业有色觉要求，具体请查阅院校招生章程)"
-            },
-            {
-              "sp_name": "电子信息工程",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": ""
-            },
-            {
-              "sp_name": "数学类",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(数学与应用数学、信息与计算科学)"
-            },
-            {
-              "sp_name": "电子科学与技术",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)"
-            },
-            {
-              "sp_name": "人工智能",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)"
-            }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "431535",
-          "sg_name": "（205）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 11,
-          "items": [
-            {
-              "sp_name": "环境科学与工程类",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "(不招色盲色弱含环境科学、环境工程专业；办学地点：校本部)"
-            },
-            {
-              "sp_name": "自动化",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(办学地点：校本部)"
-            },
-            {
-              "sp_name": "计算机科学与技术",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)(不招色盲；办学地点：校本部)"
-            },
-            {
-              "sp_name": "数学类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(含数学与应用数学、信息与计算科学专业；办学地点：校本部)"
-            }
-          ]
-        },
-        {
-          "group_code": "258674",
-          "sg_name": "（702）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            {
-              "sp_name": "材料类",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "(特殊类型招生)(实验班)(包含专业：080401.材料科学与工程+080413.纳米材料与技术+081303.资源循环科学与工程+080411.焊接技术与工程+080414.新能源材料与器件)(住宿费：待定)(办学地点：校本部)(招生种类：高校专项计划)(不招色盲)"
-            }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "290618",
-          "sg_name": "（02）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 7,
-          "items": [
-            {
-              "sp_name": "自动化",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": ""
-            },
-            {
-              "sp_name": "通信工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": ""
-            },
-            {
-              "sp_name": "光电信息科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": ""
-            }
-          ]
-        },
-        {
-          "group_code": "290617",
-          "sg_name": "（03）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 5,
-          "items": [
-            {
-              "sp_name": "金融学",
-              "num": 5,
-              "tuition": 95000,
-              "info_short": "(学费9.5万元/学年、外语单科高考成绩不得低于110分)"
-            }
-          ]
-        },
-        {
-          "group_code": "290665",
-          "sg_name": "（04）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "环境科学与工程类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(环境科学、环境工程；色盲、色弱限报)"
-            },
-            {
-              "sp_name": "土木类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
-            }
-          ]
-        }
-      ]
-    },
-    "35": {
-      "name": "福建",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "392592",
-          "sg_name": "（500）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 6,
-          "items": [
-            {
-              "sp_name": "信息安全",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)(色盲限报)"
-            },
-            {
-              "sp_name": "数学类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(含数学与应用数学、信息与计算科学)"
-            },
-            {
-              "sp_name": "机械类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(含机械工程、智能制造工程)"
-            }
-          ]
-        },
-        {
-          "group_code": "392590",
-          "sg_name": "（999）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "金融学",
-              "num": 4,
-              "tuition": 95000,
-              "info_short": "(学费9.5万元/学年、外语单科高考成绩不得低于110分)"
-            }
-          ]
-        },
-        {
-          "group_code": "392592",
-          "sg_name": "（500）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "高校农村专项计划",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            {
-              "sp_name": "交通运输类",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "(实验班)(含：交通工程、交通设备与控制工程。色盲限报。)(高校专项计划)"
-            }
-          ]
-        }
-      ]
-    },
-    "37": {
-      "name": "山东",
-      "regime": "新高考3+3(综合改革)",
-      "groups": [
-        {
-          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
-          "sg_name": "普通类·物理+化学(必)+任选",
-          "track": "综合改革",
-          "subject_req": "物理+化学(必)+任选",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 20,
-          "items": [
-            {
-              "sp_name": "土木类",
-              "num": 4,
-              "tuition": 5000,
-              "info_short": "(土木工程、给排水科学与工程、建筑环境与能源应用工程)(不招色盲考生)"
-            },
-            {
-              "sp_name": "建筑学",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(不招色盲、色弱考生)"
-            },
-            {
-              "sp_name": "机器人工程",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": ""
-            },
-            {
-              "sp_name": "应用化学",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(不招色盲、色弱考生)"
-            },
-            {
-              "sp_name": "建筑环境与能源应用工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(建环和信计双学士学位)(不招色盲考生)"
-            },
-            {
-              "sp_name": "能源动力类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(能源与动力工程、新能源科学与工程)"
-            },
-            {
-              "sp_name": "机械类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(机械工程、智能制造工程)"
-            },
-            {
-              "sp_name": "微电子科学与工程",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(实验班)"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
-          "sg_name": "普通类·物理(必)+任选",
-          "track": "综合改革",
-          "subject_req": "物理(必)+任选",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 5,
-          "items": [
-            {
-              "sp_name": "经济统计学",
-              "num": 3,
-              "tuition": 5000,
-              "info_short": "(第一年在通州校区，第二年迁回校本部)"
-            },
-            {
-              "sp_name": "工商管理",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(第一年在通州校区，第二年迁回校本部)"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
-          "sg_name": "普通类·不限",
-          "track": "综合改革",
-          "subject_req": "不限",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 2,
-          "items": [
-            {
-              "sp_name": "社会学类",
-              "num": 2,
-              "tuition": 5000,
-              "info_short": "(社会学、社会工作)(第一年在通州校区，第二年迁回校本部)"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_特殊类型批_高校专项计划_禁限xuanke",
-          "sg_name": "高校专项计划·物理+化学(必)+任选",
-          "track": "综合改革",
-          "subject_req": "物理+化学(必)+任选",
-          "batch": "特殊类型批",
-          "zslx": "高校专项计划",
-          "total_num": 2,
-          "items": [
-            {
-              "sp_name": "材料类",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "(实验班)(材料科学与工程、纳米材料与技术、资源循环科学与工程、焊接技术与工程、新能源材料与器件)(不招色盲考生)(高校专项计划)"
-            },
-            {
-              "sp_name": "机械类",
-              "num": 1,
-              "tuition": 5000,
-              "info_short": "(机械工程、智能制造工程)(高校专项计划)"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_普通类一段_中外合作办学_禁限xuanke",
-          "sg_name": "中外合作办学·物理+化学(必)+任选",
-          "track": "综合改革",
-          "subject_req": "物理+化学(必)+任选",
-          "batch": "普通类一段",
-          "zslx": "中外合作办学",
-          "total_num": 6,
-          "items": [
-            {
-              "sp_name": "电子信息工程",
-              "num": 2,
-              "tuition": 95000,
-              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
-            },
-            {
-              "sp_name": "物联网工程",
-              "num": 2,
-              "tuition": 95000,
-              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
-            },
-            {
-              "sp_name": "软件工程",
-              "num": 2,
-              "tuition": 95000,
-              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
-            }
-          ]
-        },
-        {
-          "group_code": "37_3_普通类一段_中外合作办学_禁限xuanke",
-          "sg_name": "中外合作办学·物理(必)+任选",
-          "track": "综合改革",
-          "subject_req": "物理(必)+任选",
-          "batch": "普通类一段",
-          "zslx": "中外合作办学",
-          "total_num": 4,
-          "items": [
-            {
-              "sp_name": "金融学",
-              "num": 4,
-              "tuition": 95000,
-              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
-            }
-          ]
-        }
-      ]
-    },
     "13": {
       "name": "河北",
       "regime": "新高考3+1+2",
@@ -779,6 +251,552 @@
               "info_short": "(含机械工程、智能制造工程专业)(高校专项计划)"
             }
           ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "425856",
+          "sg_name": "（01）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 13,
+          "items": [
+            {
+              "sp_name": "工业设计",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(报考该专业有色觉要求，具体请查阅院校招生章程)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(数学与应用数学、信息与计算科学)"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)"
+            }
+          ],
+          "min_score": 633,
+          "min_rank": 11248
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "392592",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "信息安全",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)(色盲限报)"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(含数学与应用数学、信息与计算科学)"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(含机械工程、智能制造工程)"
+            }
+          ],
+          "min_score": 620,
+          "min_rank": 6942
+        },
+        {
+          "group_code": "392590",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "金融学",
+              "num": 4,
+              "tuition": 95000,
+              "info_short": "(学费9.5万元/学年、外语单科高考成绩不得低于110分)"
+            }
+          ],
+          "min_score": 579,
+          "min_rank": 20738
+        },
+        {
+          "group_code": "392592",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "交通运输类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "(实验班)(含：交通工程、交通设备与控制工程。色盲限报。)(高校专项计划)"
+            }
+          ],
+          "min_score": 620,
+          "min_rank": 6942
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "groups": [
+        {
+          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
+          "sg_name": "普通类·物理+化学(必)+任选",
+          "track": "综合改革",
+          "subject_req": "物理+化学(必)+任选",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 20,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "(土木工程、给排水科学与工程、建筑环境与能源应用工程)(不招色盲考生)"
+            },
+            {
+              "sp_name": "建筑学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(不招色盲、色弱考生)"
+            },
+            {
+              "sp_name": "机器人工程",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(不招色盲、色弱考生)"
+            },
+            {
+              "sp_name": "建筑环境与能源应用工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(建环和信计双学士学位)(不招色盲考生)"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(能源与动力工程、新能源科学与工程)"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(机械工程、智能制造工程)"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
+          "sg_name": "普通类·物理(必)+任选",
+          "track": "综合改革",
+          "subject_req": "物理(必)+任选",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "经济统计学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(第一年在通州校区，第二年迁回校本部)"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(第一年在通州校区，第二年迁回校本部)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_普通类_禁限xuanke",
+          "sg_name": "普通类·不限",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "社会学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(社会学、社会工作)(第一年在通州校区，第二年迁回校本部)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_特殊类型批_高校专项计划_禁限xuanke",
+          "sg_name": "高校专项计划·物理+化学(必)+任选",
+          "track": "综合改革",
+          "subject_req": "物理+化学(必)+任选",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "材料类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "(实验班)(材料科学与工程、纳米材料与技术、资源循环科学与工程、焊接技术与工程、新能源材料与器件)(不招色盲考生)(高校专项计划)"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "(机械工程、智能制造工程)(高校专项计划)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_中外合作办学_禁限xuanke",
+          "sg_name": "中外合作办学·物理+化学(必)+任选",
+          "track": "综合改革",
+          "subject_req": "物理+化学(必)+任选",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 95000,
+              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 2,
+              "tuition": 95000,
+              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 2,
+              "tuition": 95000,
+              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_普通类一段_中外合作办学_禁限xuanke",
+          "sg_name": "中外合作办学·物理(必)+任选",
+          "track": "综合改革",
+          "subject_req": "物理(必)+任选",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "金融学",
+              "num": 4,
+              "tuition": 95000,
+              "info_short": "(与爱尔兰国立都柏林大学合作办学，学费9.5万元/学年、外语单科成绩不得低于110分)"
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "368054",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 21,
+          "items": [
+            {
+              "sp_name": "环境科学与工程类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "(包含专业：环境科学、环境工程；色盲、色弱限报)"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "(包含专业：土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
+            },
+            {
+              "sp_name": "材料类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(实验班)(包含专业：材料科学与工程、纳米材料与技术、资源循环科学与工程、焊接技术与工程、新能源材料与器件；色盲限报)"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(色盲、色弱限报)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(色盲限报)"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)(包含专业：交通工程、交通设备与控制工程；色盲限报)"
+            },
+            {
+              "sp_name": "统计学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "group_code": "368053",
+          "sg_name": "（201）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "tuition": 95000,
+              "info_short": "(合作方：爱尔兰国立都柏林大学；要求高考外语单科成绩不得低于110分)"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 2,
+              "tuition": 95000,
+              "info_short": "(合作方：爱尔兰国立都柏林大学；要求高考外语单科成绩不得低于110分)"
+            }
+          ]
+        },
+        {
+          "group_code": "368083",
+          "sg_name": "（301）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "(包含专业：土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "290618",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "自动化",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": ""
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": ""
+            }
+          ],
+          "min_score": 615,
+          "min_rank": 8880
+        },
+        {
+          "group_code": "290617",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "金融学",
+              "num": 5,
+              "tuition": 95000,
+              "info_short": "(学费9.5万元/学年、外语单科高考成绩不得低于110分)"
+            }
+          ],
+          "min_score": 579,
+          "min_rank": 24832
+        },
+        {
+          "group_code": "290665",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "环境科学与工程类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(环境科学、环境工程；色盲、色弱限报)"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(土木工程、给排水科学与工程、建筑环境与能源应用工程；色盲限报)"
+            }
+          ],
+          "min_score": 572,
+          "min_rank": 28957
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "431535",
+          "sg_name": "（205）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "环境科学与工程类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "(不招色盲色弱含环境科学、环境工程专业；办学地点：校本部)"
+            },
+            {
+              "sp_name": "自动化",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "(办学地点：校本部)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(实验班)(不招色盲；办学地点：校本部)"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "(含数学与应用数学、信息与计算科学专业；办学地点：校本部)"
+            }
+          ],
+          "min_score": 603,
+          "min_rank": 24588
+        },
+        {
+          "group_code": "258674",
+          "sg_name": "（702）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "材料类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "(特殊类型招生)(实验班)(包含专业：080401.材料科学与工程+080413.纳米材料与技术+081303.资源循环科学与工程+080411.焊接技术与工程+080414.新能源材料与器件)(住宿费：待定)(办学地点：校本部)(招生种类：高校专项计划)(不招色盲)"
+            }
+          ],
+          "min_score": 571,
+          "min_rank": 53356
         }
       ]
     }

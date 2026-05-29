@@ -23,2114 +23,6 @@
     "majors 数组的 plan 字段为计划人数, sp_name 为专业类名, info_short 为该专业的方向/办学说明。"
   ],
   "provinces": {
-    "41": {
-      "province_id": 41,
-      "province_name": "河南",
-      "group_count": 9,
-      "total_plan": 72,
-      "majors_total": 25,
-      "groups": [
-        {
-          "group": "（230）",
-          "special_group_id": "368032",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "中外合作",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060105T",
-              "sp_name": "文物保护技术",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "48000",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（中外合作办学）（合作方：意大利萨兰托大学）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（229）",
-          "special_group_id": "368033",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "中外合作",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080714T",
-              "sp_name": "电子信息科学与技术",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "50000",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（中外合作办学）（合作方：英国埃塞克斯大学）"
-            }
-          ],
-          "total_plan": 6
-        },
-        {
-          "group": "（105）",
-          "special_group_id": "368034",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+地理",
-          "xuanke_full": "首选物理，再选地理",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0705",
-              "sp_name": "地理科学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地理科学类",
-              "info_short": "（包含专业：自然地理与资源环境、人文地理与城乡规划、地理信息科学）"
-            }
-          ],
-          "total_plan": 4
-        },
-        {
-          "group": "（104）",
-          "special_group_id": "368035",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（包含专业：通信工程、电子信息工程、电子科学与技术，微电子科学与工程、智能科学与技术）"
-            },
-            {
-              "spcode": "0813",
-              "sp_name": "化工与制药类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "化工与制药类",
-              "info_short": "（包含专业：化学工程与工艺、制药工程、能源化学工程）"
-            },
-            {
-              "spcode": "0702",
-              "sp_name": "物理学类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "物理学类",
-              "info_short": "（包含专业：物理学、应用物理学、材料物理、光电信息科学与工程）"
-            },
-            {
-              "spcode": "0701",
-              "sp_name": "数学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（包含专业：数学与应用数学、应用统计学）"
-            },
-            {
-              "spcode": "083001",
-              "sp_name": "生物工程",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "生物工程类",
-              "info_short": ""
-            },
-            {
-              "spcode": "071001",
-              "sp_name": "生物科学",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "生物科学类",
-              "info_short": "（办学地点：太白校区；华大创新班）"
-            },
-            {
-              "spcode": "082701",
-              "sp_name": "食品科学与工程",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "食品科学与工程类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "080206",
-              "sp_name": "过程装备与控制工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "机械类",
-              "info_short": ""
-            },
-            {
-              "spcode": "070301",
-              "sp_name": "化学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5250",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（国家拔尖学生培养基地）"
-            },
-            {
-              "spcode": "070901",
-              "sp_name": "地质学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地质学类",
-              "info_short": "（办学地点：太白校区；国家拔尖学生培养基地）"
-            }
-          ],
-          "total_plan": 36
-        },
-        {
-          "group": "（103）",
-          "special_group_id": "368036",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "100103T",
-              "sp_name": "生物医学科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "医学",
-              "subcategory": "基础医学类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "100201K",
-              "sp_name": "临床医学",
-              "plan": 2,
-              "length": "五年",
-              "tuition": "7150",
-              "category": "医学",
-              "subcategory": "临床医学类",
-              "info_short": "（办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 4
-        },
-        {
-          "group": "（102）",
-          "special_group_id": "368037",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+不限",
-          "xuanke_full": "首选物理，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "120102",
-              "sp_name": "信息管理与信息系统",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "管理科学与工程类",
-              "info_short": "（办学地点：太白校区；数据科学与智能管理方向）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（501）",
-          "special_group_id": "368099",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "130305",
-              "sp_name": "广播电视编导",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "15400",
-              "category": "艺术学",
-              "subcategory": "戏剧与影视学类",
-              "info_short": "（办学地点：太白校区；要求高考文化成绩不低于历史类特殊类型录取控制分数线）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（102）",
-          "special_group_id": "368100",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "020401",
-              "sp_name": "国际经济与贸易",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济与贸易类",
-              "info_short": "（办学地点：太白校区；全球丝路合作发展方向）"
-            },
-            {
-              "spcode": "060101",
-              "sp_name": "历史学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（侯外庐班）"
-            },
-            {
-              "spcode": "030101K",
-              "sp_name": "法学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "法学类",
-              "info_short": "（办学地点：太白校区；涉外法治实验班）"
-            },
-            {
-              "spcode": "010101",
-              "sp_name": "哲学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "哲学",
-              "subcategory": "哲学类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "0503",
-              "sp_name": "新闻传播学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "新闻传播学类",
-              "info_short": "（包含专业：新闻学、网络与新媒体；办学地点：太白校区）"
-            },
-            {
-              "spcode": "020101",
-              "sp_name": "经济学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（办学地点：太白校区；基地班）"
-            },
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（包含专业：汉语言文学、汉语国际教育；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 15
-        },
-        {
-          "group": "（101）",
-          "special_group_id": "368101",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060103",
-              "sp_name": "考古学",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": ""
-            }
-          ],
-          "total_plan": 1
-        }
-      ],
-      "min_admission_2025": {
-        "物理类": 622,
-        "历史类": 610
-      }
-    },
-    "32": {
-      "province_id": 32,
-      "province_name": "江苏",
-      "group_count": 8,
-      "total_plan": 60,
-      "majors_total": 23,
-      "groups": [
-        {
-          "group": "（02）",
-          "special_group_id": "425814",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060103",
-              "sp_name": "考古学",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（长安校区）"
-            }
-          ],
-          "total_plan": 1
-        },
-        {
-          "group": "（01）",
-          "special_group_id": "425815",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（汉语言文学、汉语国际教育）（在太白校区学习）"
-            },
-            {
-              "spcode": "060101",
-              "sp_name": "历史学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（基地班）（长安校区）"
-            },
-            {
-              "spcode": "030101K",
-              "sp_name": "法学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "法学类",
-              "info_short": "（在太白校区学习）"
-            },
-            {
-              "spcode": "0503",
-              "sp_name": "新闻传播学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "新闻传播学类",
-              "info_short": "（新闻学、网络与新媒体）（在太白校区学习）"
-            },
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": "（行政管理、人力资源管理、劳动与社会保障）（在太白校区学习）"
-            },
-            {
-              "spcode": "020101",
-              "sp_name": "经济学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（基地班）（在太白校区学习）"
-            }
-          ],
-          "total_plan": 13
-        },
-        {
-          "group": "（08）",
-          "special_group_id": "425832",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+地理",
-          "xuanke_full": "首选物理，再选地理",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0705",
-              "sp_name": "地理科学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地理科学类",
-              "info_short": "（自然地理与资源环境、人文地理与城乡规划、地理信息科学）（长安校区）"
-            }
-          ],
-          "total_plan": 4
-        },
-        {
-          "group": "（07）",
-          "special_group_id": "425833",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060105T",
-              "sp_name": "文物保护技术",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "48000",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（长安校区）（中外合作办学）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（06）",
-          "special_group_id": "425834",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080907T",
-              "sp_name": "智能科学与技术",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "70000",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（长安校区）（中外合作办学）"
-            }
-          ],
-          "total_plan": 5
-        },
-        {
-          "group": "（05）",
-          "special_group_id": "425835",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "100201K",
-              "sp_name": "临床医学",
-              "plan": 2,
-              "length": "五年",
-              "tuition": "7150",
-              "category": "医学",
-              "subcategory": "临床医学类",
-              "info_short": "（太白校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（04）",
-          "special_group_id": "425836",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0813",
-              "sp_name": "化工与制药类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "化工与制药类",
-              "info_short": "（化学工程与工艺、制药工程、能源化学工程）（在长安校区学习）"
-            },
-            {
-              "spcode": "0703",
-              "sp_name": "化学类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（化学、应用化学、化学生物学、材料化学）（在长安校区学习）"
-            },
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术）（在长安校区学习）"
-            },
-            {
-              "spcode": "070102",
-              "sp_name": "信息与计算科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（网络安全实验班）（在长安校区学习）"
-            },
-            {
-              "spcode": "083001",
-              "sp_name": "生物工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "生物工程类",
-              "info_short": "（在长安校区学习）"
-            },
-            {
-              "spcode": "071001",
-              "sp_name": "生物科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "生物科学类",
-              "info_short": "（基地班）（太白校区）"
-            },
-            {
-              "spcode": "082701",
-              "sp_name": "食品科学与工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "食品科学与工程类",
-              "info_short": "（太白校区）"
-            },
-            {
-              "spcode": "070301",
-              "sp_name": "化学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5250",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（拔尖学生培养基地）（在长安校区学习）"
-            },
-            {
-              "spcode": "0702",
-              "sp_name": "物理学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "物理学类",
-              "info_short": "（物理学、应用物理学、材料物理、光电信息科学与工程）（在长安校区学习）"
-            },
-            {
-              "spcode": "070901",
-              "sp_name": "地质学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地质学类",
-              "info_short": "（基地班）（太白校区）"
-            }
-          ],
-          "total_plan": 29
-        },
-        {
-          "group": "（03）",
-          "special_group_id": "425837",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+不限",
-          "xuanke_full": "首选物理，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "120102",
-              "sp_name": "信息管理与信息系统",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "管理科学与工程类",
-              "info_short": "（数据科学与智能管理）（太白校区）"
-            },
-            {
-              "spcode": "120111T",
-              "sp_name": "应急管理",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "管理科学与工程类",
-              "info_short": "（太白校区）"
-            }
-          ],
-          "total_plan": 4
-        }
-      ],
-      "min_admission_2025": {
-        "历史类": 604,
-        "物理类": 603
-      }
-    },
-    "44": {
-      "province_id": 44,
-      "province_name": "广东",
-      "group_count": 9,
-      "total_plan": 40,
-      "majors_total": 14,
-      "groups": [
-        {
-          "group": "（208）",
-          "special_group_id": "431473",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060103",
-              "sp_name": "考古学",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（特征要求：不招色盲色弱；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 1
-        },
-        {
-          "group": "（207）",
-          "special_group_id": "431474",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "030101K",
-              "sp_name": "法学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "法学类",
-              "info_short": "（涉外法治实验班J；办学地点：太白校区）"
-            },
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": "（含行政管理、人力资源管理、劳动与社会保障专业具体专业分流情况请查看学校网站；办学地点：太白校区）"
-            },
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（DG-XH含汉语言文学、汉语国际教育专业具体专业分流情况请查看学校网站；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 6
-        },
-        {
-          "group": "（213）",
-          "special_group_id": "431499",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080907T",
-              "sp_name": "智能科学与技术",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "70000",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（中外合作办学）（与英国埃塞克斯大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 5
-        },
-        {
-          "group": "（212）",
-          "special_group_id": "431500",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060105T",
-              "sp_name": "文物保护技术",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "48000",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（中外合作办学）（与意大利萨兰托大学联合成立的中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（211）",
-          "special_group_id": "431501",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "071001",
-              "sp_name": "生物科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "生物科学类",
-              "info_short": "（华大创新班；特征要求：不招色盲色弱；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（210）",
-          "special_group_id": "431502",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0809",
-              "sp_name": "计算机类",
-              "plan": 8,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（含计算机科学与技术、物联网工程、软件工程专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
-            },
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（含通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
-            },
-            {
-              "spcode": "0701",
-              "sp_name": "数学类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（含数学与应用数学、应用统计学专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
-            },
-            {
-              "spcode": "080901",
-              "sp_name": "计算机科学与技术",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（人工智能实验班；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 20
-        },
-        {
-          "group": "（209）",
-          "special_group_id": "431503",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+不限",
-          "xuanke_full": "首选物理，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "020301K",
-              "sp_name": "金融学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "金融学类",
-              "info_short": "（开源证券智能金融实验班；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（703）",
-          "special_group_id": "258660",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "高校专项计划",
-          "batch": "特殊类型招生批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": "（特殊类型招生）（包含专业：120402.行政管理+120206.人力资源管理+120403.劳动与社会保障）（住宿费：待定）（办学地点：太白校区）（招生种类：高校专项计划）"
-            }
-          ],
-          "total_plan": 1
-        },
-        {
-          "group": "（704）",
-          "special_group_id": "258760",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "高校专项计划",
-          "batch": "特殊类型招生批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0809",
-              "sp_name": "计算机类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（特殊类型招生）（包含专业：080901.计算机科学与技术+080905.物联网工程+080902.软件工程）（住宿费：待定）（办学地点：太白校区）（招生种类：高校专项计划）"
-            }
-          ],
-          "total_plan": 1
-        }
-      ],
-      "min_admission_2025": {
-        "历史类": 599,
-        "物理类": 587
-      }
-    },
-    "42": {
-      "province_id": 42,
-      "province_name": "湖北",
-      "group_count": 6,
-      "total_plan": 50,
-      "majors_total": 16,
-      "groups": [
-        {
-          "group": "（08）",
-          "special_group_id": "290600",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "中外合作",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080714T",
-              "sp_name": "电子信息科学与技术",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "50000",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（中外合作办学）（办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 5
-        },
-        {
-          "group": "（07）",
-          "special_group_id": "290601",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+地理",
-          "xuanke_full": "首选物理，再选地理",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0705",
-              "sp_name": "地理科学类",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地理科学类",
-              "info_short": "（自然地理与资源环境、人文地理与城乡规划、地理信息科学；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 3
-        },
-        {
-          "group": "（06）",
-          "special_group_id": "290602",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0813",
-              "sp_name": "化工与制药类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "化工与制药类",
-              "info_short": "（化学工程与工艺、制药工程、能源化学工程；办学地点：长安校区）"
-            },
-            {
-              "spcode": "0702",
-              "sp_name": "物理学类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "物理学类",
-              "info_short": "（物理学、应用物理学、材料物理、光电信息科学与工程；办学地点：长安校区）"
-            },
-            {
-              "spcode": "0809",
-              "sp_name": "计算机类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（计算机科学与技术、物联网工程、软件工程；办学地点：长安校区）"
-            },
-            {
-              "spcode": "0814",
-              "sp_name": "地质类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "地质类",
-              "info_short": "（地质工程、资源勘查工程；办学地点：太白校区）"
-            },
-            {
-              "spcode": "082701",
-              "sp_name": "食品科学与工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "食品科学与工程类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "070301",
-              "sp_name": "化学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5250",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（基地班；办学地点：长安校区）"
-            }
-          ],
-          "total_plan": 24
-        },
-        {
-          "group": "（05）",
-          "special_group_id": "290603",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "100103T",
-              "sp_name": "生物医学科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "医学",
-              "subcategory": "基础医学类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "100201K",
-              "sp_name": "临床医学",
-              "plan": 2,
-              "length": "五年",
-              "tuition": "7150",
-              "category": "医学",
-              "subcategory": "临床医学类",
-              "info_short": "（办学地点：太白校区；学制：五年）"
-            }
-          ],
-          "total_plan": 4
-        },
-        {
-          "group": "（04）",
-          "special_group_id": "290626",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "130304",
-              "sp_name": "戏剧影视文学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "12100",
-              "category": "艺术学",
-              "subcategory": "戏剧与影视学类",
-              "info_short": "（高考文化课成绩不低于该省同科类本科特殊招生线；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（03）",
-          "special_group_id": "290627",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（汉语言文学、汉语国际教育；办学地点：太白校区）"
-            },
-            {
-              "spcode": "060104",
-              "sp_name": "文物与博物馆学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（办学地点：长安校区）"
-            },
-            {
-              "spcode": "010101",
-              "sp_name": "哲学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "哲学",
-              "subcategory": "哲学类",
-              "info_short": "（办学地点：太白校区）"
-            },
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": "（行政管理、人力资源管理、劳动与社会保障；办学地点：太白校区）"
-            },
-            {
-              "spcode": "020101",
-              "sp_name": "经济学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（国家拔尖学生培养基地；办学地点：太白校区）"
-            }
-          ],
-          "total_plan": 12
-        }
-      ],
-      "min_admission_2025": {
-        "历史类": 592,
-        "物理类": 588
-      }
-    },
-    "35": {
-      "province_id": 35,
-      "province_name": "山东",
-      "group_count": 5,
-      "total_plan": 51,
-      "majors_total": 20,
-      "groups": [
-        {
-          "group": "（999）",
-          "special_group_id": "392505",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060104",
-              "sp_name": "文物与博物馆学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": ""
-            },
-            {
-              "spcode": "030302",
-              "sp_name": "社会工作",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "社会学类",
-              "info_short": ""
-            },
-            {
-              "spcode": "030101K",
-              "sp_name": "法学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "法学类",
-              "info_short": "（涉外法治实验班）"
-            },
-            {
-              "spcode": "0503",
-              "sp_name": "新闻传播学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "新闻传播学类",
-              "info_short": "（含新闻学、网络与新媒体）"
-            },
-            {
-              "spcode": "020101",
-              "sp_name": "经济学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（基地班）"
-            },
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（含汉语言文学、汉语国际教育）"
-            },
-            {
-              "spcode": "030302",
-              "sp_name": "社会工作",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "社会学类",
-              "info_short": "（高校专项计划）"
-            }
-          ],
-          "total_plan": 13
-        },
-        {
-          "group": "（500）",
-          "special_group_id": "392528",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "中外合作",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080907T",
-              "sp_name": "智能科学与技术",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "70000",
-              "category": "工学",
-              "subcategory": "计算机类",
-              "info_short": "（中外合作办学）"
-            }
-          ],
-          "total_plan": 5
-        },
-        {
-          "group": "（500）",
-          "special_group_id": "392530",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "口腔医学",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "100301K",
-              "sp_name": "口腔医学",
-              "plan": 2,
-              "length": "五年",
-              "tuition": "7150",
-              "category": "医学",
-              "subcategory": "口腔医学类",
-              "info_short": "（口腔医学）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（500）",
-          "special_group_id": "392532",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 5,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（含通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术）"
-            },
-            {
-              "spcode": "0703",
-              "sp_name": "化学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（含化学、应用化学、化学生物学、材料化学）"
-            },
-            {
-              "spcode": "0813",
-              "sp_name": "化工与制药类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "化工与制药类",
-              "info_short": "（含化学工程与工艺、制药工程、能源化学工程）"
-            },
-            {
-              "spcode": "0814",
-              "sp_name": "地质类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "地质类",
-              "info_short": "（含地质工程、资源勘查工程）"
-            },
-            {
-              "spcode": "070301",
-              "sp_name": "化学",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "5250",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（基地班）"
-            },
-            {
-              "spcode": "070102",
-              "sp_name": "信息与计算科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（网络安全实验班）"
-            },
-            {
-              "spcode": "083001",
-              "sp_name": "生物工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "生物工程类",
-              "info_short": ""
-            },
-            {
-              "spcode": "082701",
-              "sp_name": "食品科学与工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "食品科学与工程类",
-              "info_short": ""
-            },
-            {
-              "spcode": "0825",
-              "sp_name": "环境科学与工程类",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "环境科学与工程类",
-              "info_short": "（含环境科学、环境工程）"
-            },
-            {
-              "spcode": "0702",
-              "sp_name": "物理学类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "物理学类",
-              "info_short": "（含：物理学、应用物理学、材料物理、光电信息科学与工程。）（高校专项计划）"
-            }
-          ],
-          "total_plan": 29
-        },
-        {
-          "group": "（999）",
-          "special_group_id": "392534",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+不限",
-          "xuanke_full": "首选物理，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "120102",
-              "sp_name": "信息管理与信息系统",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "管理科学与工程类",
-              "info_short": "（数据科学与智能管理方向）"
-            }
-          ],
-          "total_plan": 2
-        }
-      ],
-      "min_admission_2025": {
-        "物理类": 595,
-        "历史类": 590
-      }
-    },
-    "14": {
-      "province_id": 14,
-      "province_name": "福建",
-      "group_count": 9,
-      "total_plan": 104,
-      "majors_total": 36,
-      "groups": [
-        {
-          "group": "（305）",
-          "special_group_id": "391578",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+地理",
-          "xuanke_full": "首选物理，再选地理",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0705",
-              "sp_name": "地理科学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地理科学类",
-              "info_short": "（包含专业：自然地理与资源环境、人文地理与城乡规划、地理信息科学；办学地点长安校区）"
-            }
-          ],
-          "total_plan": 4
-        },
-        {
-          "group": "（304）",
-          "special_group_id": "391579",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "中外合作",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080714T",
-              "sp_name": "电子信息科学与技术",
-              "plan": 12,
-              "length": "四年",
-              "tuition": "50000",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（中外合作办学）（办学地点长安校区）"
-            }
-          ],
-          "total_plan": 12
-        },
-        {
-          "group": "（303）",
-          "special_group_id": "391580",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "100301K",
-              "sp_name": "口腔医学",
-              "plan": 2,
-              "length": "五年",
-              "tuition": "7150",
-              "category": "医学",
-              "subcategory": "口腔医学类",
-              "info_short": "（办学地点太白校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（302）",
-          "special_group_id": "391581",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "0703",
-              "sp_name": "化学类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（包含专业：化学、应用化学、化学生物学、材料化学；办学地点长安校区）"
-            },
-            {
-              "spcode": "0702",
-              "sp_name": "物理学类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "物理学类",
-              "info_short": "（包含专业：物理学、应用物理学、材料物理、光电信息科学与工程；办学地点长安校区）"
-            },
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": "（包含专业：通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术；办学地点长安校区）"
-            },
-            {
-              "spcode": "0813",
-              "sp_name": "化工与制药类",
-              "plan": 6,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "化工与制药类",
-              "info_short": "（包含专业：化学工程与工艺、制药工程、能源化学工程；办学地点长安校区）"
-            },
-            {
-              "spcode": "083001",
-              "sp_name": "生物工程",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "生物工程类",
-              "info_short": "（办学地点长安校区）"
-            },
-            {
-              "spcode": "060105T",
-              "sp_name": "文物保护技术",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（办学地点长安校区）"
-            },
-            {
-              "spcode": "0701",
-              "sp_name": "数学类",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（包含专业：数学与应用数学、应用统计学；办学地点长安校区）"
-            },
-            {
-              "spcode": "070901",
-              "sp_name": "地质学",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地质学类",
-              "info_short": "（办学地点太白校区；基地班）"
-            },
-            {
-              "spcode": "070102",
-              "sp_name": "信息与计算科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "数学类",
-              "info_short": "（办学地点长安校区；网络安全实验班）"
-            },
-            {
-              "spcode": "071001",
-              "sp_name": "生物科学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "生物科学类",
-              "info_short": "（办学地点太白校区基地班）"
-            },
-            {
-              "spcode": "080206",
-              "sp_name": "过程装备与控制工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "机械类",
-              "info_short": "（办学地点长安校区）"
-            },
-            {
-              "spcode": "082701",
-              "sp_name": "食品科学与工程",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "食品科学与工程类",
-              "info_short": "（办学地点太白校区）"
-            },
-            {
-              "spcode": "070301",
-              "sp_name": "化学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5250",
-              "category": "理学",
-              "subcategory": "化学类",
-              "info_short": "（办学地点长安校区；国家拔尖学生培养基地）"
-            },
-            {
-              "spcode": "070903T",
-              "sp_name": "地球信息科学与技术",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "理学",
-              "subcategory": "地质学类",
-              "info_short": "（办学地点太白校区）"
-            }
-          ],
-          "total_plan": 48
-        },
-        {
-          "group": "（301）",
-          "special_group_id": "391582",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+不限",
-          "xuanke_full": "首选物理，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "082802",
-              "sp_name": "城乡规划",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "建筑类",
-              "info_short": "（办学地点长安校区国土空间规划方向）"
-            },
-            {
-              "spcode": "020102",
-              "sp_name": "经济统计学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（办学地点太白校区；数据技术应用实验班）"
-            },
-            {
-              "spcode": "020301K",
-              "sp_name": "金融学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "金融学类",
-              "info_short": "（办学地点太白校区开源证券智能金融实验班）"
-            },
-            {
-              "spcode": "020101",
-              "sp_name": "经济学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济学类",
-              "info_short": "（办学地点太白校区数理经济实验班）"
-            },
-            {
-              "spcode": "120111T",
-              "sp_name": "应急管理",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "管理科学与工程类",
-              "info_short": "（办学地点太白校区）"
-            }
-          ],
-          "total_plan": 10
-        },
-        {
-          "group": "（002）",
-          "special_group_id": "391620",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": "（包含专业：行政管理、人力资源管理、劳动与社会保障；办学地点太白校区）"
-            },
-            {
-              "spcode": "0501",
-              "sp_name": "中国语言文学类",
-              "plan": 4,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "中国语言文学类",
-              "info_short": "（包含专业：汉语言文学、汉语国际教育；办学地点太白校区）"
-            },
-            {
-              "spcode": "0503",
-              "sp_name": "新闻传播学类",
-              "plan": 3,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "新闻传播学类",
-              "info_short": "（包含专业：新闻学、网络与新媒体；办学地点太白校区）"
-            },
-            {
-              "spcode": "060101",
-              "sp_name": "历史学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（办学地点长安校区侯外庐班）"
-            },
-            {
-              "spcode": "120502",
-              "sp_name": "档案学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "图书情报与档案管理类",
-              "info_short": "（办学地点太白校区）"
-            },
-            {
-              "spcode": "050201",
-              "sp_name": "英语",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "文学",
-              "subcategory": "外国语言文学类",
-              "info_short": "（办学地点长安校区；区域国别实验班）"
-            },
-            {
-              "spcode": "020401",
-              "sp_name": "国际经济与贸易",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "经济学",
-              "subcategory": "经济与贸易类",
-              "info_short": "（办学地点太白校区全球丝路合作发展方向）"
-            },
-            {
-              "spcode": "010101",
-              "sp_name": "哲学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "哲学",
-              "subcategory": "哲学类",
-              "info_short": "（办学地点太白校区）"
-            }
-          ],
-          "total_plan": 21
-        },
-        {
-          "group": "（001）",
-          "special_group_id": "391621",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "060103",
-              "sp_name": "考古学",
-              "plan": 2,
-              "length": "四年",
-              "tuition": "4250",
-              "category": "历史学",
-              "subcategory": "历史学类",
-              "info_short": "（办学地点长安校区）"
-            }
-          ],
-          "total_plan": 2
-        },
-        {
-          "group": "（900）",
-          "special_group_id": "468578",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "xuanke_full": "首选物理，再选化学",
-          "type_name": "高校专项计划",
-          "batch": "本科提前批A段",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "080206",
-              "sp_name": "过程装备与控制工程",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "机械类",
-              "info_short": ""
-            },
-            {
-              "spcode": "0807",
-              "sp_name": "电子信息类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "工学",
-              "subcategory": "电子信息类",
-              "info_short": ""
-            },
-            {
-              "spcode": "1007",
-              "sp_name": "药学类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "6600",
-              "category": "医学",
-              "subcategory": "药学类",
-              "info_short": ""
-            }
-          ],
-          "total_plan": 3
-        },
-        {
-          "group": "（800）",
-          "special_group_id": "468926",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "xuanke_full": "首选历史，再选不限",
-          "type_name": "高校专项计划",
-          "batch": "本科提前批A段",
-          "min_score": null,
-          "min_rank": null,
-          "majors": [
-            {
-              "spcode": "030302",
-              "sp_name": "社会工作",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "法学",
-              "subcategory": "社会学类",
-              "info_short": ""
-            },
-            {
-              "spcode": "1204",
-              "sp_name": "公共管理类",
-              "plan": 1,
-              "length": "四年",
-              "tuition": "5500",
-              "category": "管理学",
-              "subcategory": "公共管理类",
-              "info_short": ""
-            }
-          ],
-          "total_plan": 2
-        }
-      ],
-      "min_admission_2025": {
-        "历史类": 604,
-        "物理类": 589
-      }
-    },
     "13": {
       "province_id": 13,
       "province_name": "河北",
@@ -2562,6 +454,2114 @@
       "min_admission_2025": {
         "物理类": 599,
         "历史类": 596
+      }
+    },
+    "14": {
+      "province_id": 14,
+      "province_name": "福建",
+      "group_count": 9,
+      "total_plan": 104,
+      "majors_total": 36,
+      "groups": [
+        {
+          "group": "（305）",
+          "special_group_id": "391578",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+地理",
+          "xuanke_full": "首选物理，再选地理",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 585,
+          "min_rank": 15115,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地理科学类",
+              "info_short": "（包含专业：自然地理与资源环境、人文地理与城乡规划、地理信息科学；办学地点长安校区）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group": "（304）",
+          "special_group_id": "391579",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "中外合作",
+          "batch": "本科批",
+          "min_score": 584,
+          "min_rank": 15465,
+          "majors": [
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "plan": 12,
+              "length": "四年",
+              "tuition": "50000",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（中外合作办学）（办学地点长安校区）"
+            }
+          ],
+          "total_plan": 12
+        },
+        {
+          "group": "（303）",
+          "special_group_id": "391580",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 608,
+          "min_rank": 8374,
+          "majors": [
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7150",
+              "category": "医学",
+              "subcategory": "口腔医学类",
+              "info_short": "（办学地点太白校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（302）",
+          "special_group_id": "391581",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 589,
+          "min_rank": 13739,
+          "majors": [
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（包含专业：化学、应用化学、化学生物学、材料化学；办学地点长安校区）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info_short": "（包含专业：物理学、应用物理学、材料物理、光电信息科学与工程；办学地点长安校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（包含专业：通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术；办学地点长安校区）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info_short": "（包含专业：化学工程与工艺、制药工程、能源化学工程；办学地点长安校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info_short": "（办学地点长安校区）"
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（办学地点长安校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（包含专业：数学与应用数学、应用统计学；办学地点长安校区）"
+            },
+            {
+              "spcode": "070901",
+              "sp_name": "地质学",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地质学类",
+              "info_short": "（办学地点太白校区；基地班）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（办学地点长安校区；网络安全实验班）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info_short": "（办学地点太白校区基地班）"
+            },
+            {
+              "spcode": "080206",
+              "sp_name": "过程装备与控制工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info_short": "（办学地点长安校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info_short": "（办学地点太白校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5250",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（办学地点长安校区；国家拔尖学生培养基地）"
+            },
+            {
+              "spcode": "070903T",
+              "sp_name": "地球信息科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地质学类",
+              "info_short": "（办学地点太白校区）"
+            }
+          ],
+          "total_plan": 48
+        },
+        {
+          "group": "（301）",
+          "special_group_id": "391582",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+不限",
+          "xuanke_full": "首选物理，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 581,
+          "min_rank": 16578,
+          "majors": [
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info_short": "（办学地点长安校区国土空间规划方向）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（办学地点太白校区；数据技术应用实验班）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info_short": "（办学地点太白校区开源证券智能金融实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（办学地点太白校区数理经济实验班）"
+            },
+            {
+              "spcode": "120111T",
+              "sp_name": "应急管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info_short": "（办学地点太白校区）"
+            }
+          ],
+          "total_plan": 10
+        },
+        {
+          "group": "（002）",
+          "special_group_id": "391620",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 597,
+          "min_rank": 2164,
+          "majors": [
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": "（包含专业：行政管理、人力资源管理、劳动与社会保障；办学地点太白校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（包含专业：汉语言文学、汉语国际教育；办学地点太白校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info_short": "（包含专业：新闻学、网络与新媒体；办学地点太白校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（办学地点长安校区侯外庐班）"
+            },
+            {
+              "spcode": "120502",
+              "sp_name": "档案学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "图书情报与档案管理类",
+              "info_short": "（办学地点太白校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info_short": "（办学地点长安校区；区域国别实验班）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济与贸易类",
+              "info_short": "（办学地点太白校区全球丝路合作发展方向）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info_short": "（办学地点太白校区）"
+            }
+          ],
+          "total_plan": 21
+        },
+        {
+          "group": "（001）",
+          "special_group_id": "391621",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 611,
+          "min_rank": 1216,
+          "majors": [
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（办学地点长安校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（900）",
+          "special_group_id": "468578",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "高校专项计划",
+          "batch": "本科提前批A段",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080206",
+              "sp_name": "过程装备与控制工程",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info_short": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": ""
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info_short": ""
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group": "（800）",
+          "special_group_id": "468926",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "高校专项计划",
+          "batch": "本科提前批A段",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info_short": ""
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": ""
+            }
+          ],
+          "total_plan": 2
+        }
+      ],
+      "min_admission_2025": {
+        "历史类": 604,
+        "物理类": 589
+      }
+    },
+    "32": {
+      "province_id": 32,
+      "province_name": "江苏",
+      "group_count": 8,
+      "total_plan": 60,
+      "majors_total": 23,
+      "groups": [
+        {
+          "group": "（02）",
+          "special_group_id": "425814",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 614,
+          "min_rank": 3092,
+          "majors": [
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（长安校区）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group": "（01）",
+          "special_group_id": "425815",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 594,
+          "min_rank": 7287,
+          "majors": [
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（汉语言文学、汉语国际教育）（在太白校区学习）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（基地班）（长安校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info_short": "（在太白校区学习）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info_short": "（新闻学、网络与新媒体）（在太白校区学习）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": "（行政管理、人力资源管理、劳动与社会保障）（在太白校区学习）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（基地班）（在太白校区学习）"
+            }
+          ],
+          "total_plan": 13
+        },
+        {
+          "group": "（08）",
+          "special_group_id": "425832",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+地理",
+          "xuanke_full": "首选物理，再选地理",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 604,
+          "min_rank": 31362,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地理科学类",
+              "info_short": "（自然地理与资源环境、人文地理与城乡规划、地理信息科学）（长安校区）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group": "（07）",
+          "special_group_id": "425833",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 594,
+          "min_rank": 40639,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "48000",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（长安校区）（中外合作办学）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（06）",
+          "special_group_id": "425834",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 601,
+          "min_rank": 33985,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "70000",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（长安校区）（中外合作办学）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group": "（05）",
+          "special_group_id": "425835",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 613,
+          "min_rank": 23947,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7150",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info_short": "（太白校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（04）",
+          "special_group_id": "425836",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 603,
+          "min_rank": 32190,
+          "majors": [
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info_short": "（化学工程与工艺、制药工程、能源化学工程）（在长安校区学习）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（化学、应用化学、化学生物学、材料化学）（在长安校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术）（在长安校区学习）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（网络安全实验班）（在长安校区学习）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info_short": "（在长安校区学习）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info_short": "（基地班）（太白校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info_short": "（太白校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5250",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（拔尖学生培养基地）（在长安校区学习）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info_short": "（物理学、应用物理学、材料物理、光电信息科学与工程）（在长安校区学习）"
+            },
+            {
+              "spcode": "070901",
+              "sp_name": "地质学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地质学类",
+              "info_short": "（基地班）（太白校区）"
+            }
+          ],
+          "total_plan": 29
+        },
+        {
+          "group": "（03）",
+          "special_group_id": "425837",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+不限",
+          "xuanke_full": "首选物理，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 602,
+          "min_rank": 33069,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info_short": "（数据科学与智能管理）（太白校区）"
+            },
+            {
+              "spcode": "120111T",
+              "sp_name": "应急管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info_short": "（太白校区）"
+            }
+          ],
+          "total_plan": 4
+        }
+      ],
+      "min_admission_2025": {
+        "历史类": 604,
+        "物理类": 603
+      }
+    },
+    "35": {
+      "province_id": 35,
+      "province_name": "山东",
+      "group_count": 5,
+      "total_plan": 51,
+      "majors_total": 20,
+      "groups": [
+        {
+          "group": "（999）",
+          "special_group_id": "392505",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 590,
+          "min_rank": 2495,
+          "majors": [
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info_short": "（涉外法治实验班）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info_short": "（含新闻学、网络与新媒体）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（基地班）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（含汉语言文学、汉语国际教育）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info_short": "（高校专项计划）"
+            }
+          ],
+          "total_plan": 13
+        },
+        {
+          "group": "（500）",
+          "special_group_id": "392528",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "中外合作",
+          "batch": "本科批",
+          "min_score": 583,
+          "min_rank": 19062,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "70000",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（中外合作办学）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group": "（500）",
+          "special_group_id": "392530",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "口腔医学",
+          "batch": "本科批",
+          "min_score": 606,
+          "min_rank": 10843,
+          "majors": [
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7150",
+              "category": "医学",
+              "subcategory": "口腔医学类",
+              "info_short": "（口腔医学）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（500）",
+          "special_group_id": "392532",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 588,
+          "min_rank": 17024,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（含通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（含化学、应用化学、化学生物学、材料化学）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info_short": "（含化学工程与工艺、制药工程、能源化学工程）"
+            },
+            {
+              "spcode": "0814",
+              "sp_name": "地质类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "地质类",
+              "info_short": "（含地质工程、资源勘查工程）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "5250",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（基地班）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（网络安全实验班）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info_short": ""
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info_short": "（含环境科学、环境工程）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info_short": "（含：物理学、应用物理学、材料物理、光电信息科学与工程。）（高校专项计划）"
+            }
+          ],
+          "total_plan": 29
+        },
+        {
+          "group": "（999）",
+          "special_group_id": "392534",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+不限",
+          "xuanke_full": "首选物理，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 601,
+          "min_rank": 12436,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info_short": "（数据科学与智能管理方向）"
+            }
+          ],
+          "total_plan": 2
+        }
+      ],
+      "min_admission_2025": {
+        "物理类": 595,
+        "历史类": 590
+      }
+    },
+    "41": {
+      "province_id": 41,
+      "province_name": "河南",
+      "group_count": 9,
+      "total_plan": 72,
+      "majors_total": 25,
+      "groups": [
+        {
+          "group": "（230）",
+          "special_group_id": "368032",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "中外合作",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "48000",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（中外合作办学）（合作方：意大利萨兰托大学）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（229）",
+          "special_group_id": "368033",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "中外合作",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "50000",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（中外合作办学）（合作方：英国埃塞克斯大学）"
+            }
+          ],
+          "total_plan": 6
+        },
+        {
+          "group": "（105）",
+          "special_group_id": "368034",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+地理",
+          "xuanke_full": "首选物理，再选地理",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地理科学类",
+              "info_short": "（包含专业：自然地理与资源环境、人文地理与城乡规划、地理信息科学）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group": "（104）",
+          "special_group_id": "368035",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（包含专业：通信工程、电子信息工程、电子科学与技术，微电子科学与工程、智能科学与技术）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info_short": "（包含专业：化学工程与工艺、制药工程、能源化学工程）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info_short": "（包含专业：物理学、应用物理学、材料物理、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（包含专业：数学与应用数学、应用统计学）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info_short": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info_short": "（办学地点：太白校区；华大创新班）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "080206",
+              "sp_name": "过程装备与控制工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5250",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（国家拔尖学生培养基地）"
+            },
+            {
+              "spcode": "070901",
+              "sp_name": "地质学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地质学类",
+              "info_short": "（办学地点：太白校区；国家拔尖学生培养基地）"
+            }
+          ],
+          "total_plan": 36
+        },
+        {
+          "group": "（103）",
+          "special_group_id": "368036",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "医学",
+              "subcategory": "基础医学类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7150",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info_short": "（办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group": "（102）",
+          "special_group_id": "368037",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+不限",
+          "xuanke_full": "首选物理，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info_short": "（办学地点：太白校区；数据科学与智能管理方向）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（501）",
+          "special_group_id": "368099",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "15400",
+              "category": "艺术学",
+              "subcategory": "戏剧与影视学类",
+              "info_short": "（办学地点：太白校区；要求高考文化成绩不低于历史类特殊类型录取控制分数线）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（102）",
+          "special_group_id": "368100",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济与贸易类",
+              "info_short": "（办学地点：太白校区；全球丝路合作发展方向）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（侯外庐班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info_short": "（办学地点：太白校区；涉外法治实验班）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info_short": "（包含专业：新闻学、网络与新媒体；办学地点：太白校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（办学地点：太白校区；基地班）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（包含专业：汉语言文学、汉语国际教育；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 15
+        },
+        {
+          "group": "（101）",
+          "special_group_id": "368101",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": ""
+            }
+          ],
+          "total_plan": 1
+        }
+      ],
+      "min_admission_2025": {
+        "物理类": 622,
+        "历史类": 610
+      }
+    },
+    "42": {
+      "province_id": 42,
+      "province_name": "湖北",
+      "group_count": 6,
+      "total_plan": 50,
+      "majors_total": 16,
+      "groups": [
+        {
+          "group": "（08）",
+          "special_group_id": "290600",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "中外合作",
+          "batch": "本科批",
+          "min_score": 584,
+          "min_rank": 22070,
+          "majors": [
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "50000",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（中外合作办学）（办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group": "（07）",
+          "special_group_id": "290601",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+地理",
+          "xuanke_full": "首选物理，再选地理",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 586,
+          "min_rank": 20901,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "地理科学类",
+              "info_short": "（自然地理与资源环境、人文地理与城乡规划、地理信息科学；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group": "（06）",
+          "special_group_id": "290602",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 592,
+          "min_rank": 17921,
+          "majors": [
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info_short": "（化学工程与工艺、制药工程、能源化学工程；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info_short": "（物理学、应用物理学、材料物理、光电信息科学与工程；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（计算机科学与技术、物联网工程、软件工程；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0814",
+              "sp_name": "地质类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "地质类",
+              "info_short": "（地质工程、资源勘查工程；办学地点：太白校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5250",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info_short": "（基地班；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 24
+        },
+        {
+          "group": "（05）",
+          "special_group_id": "290603",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 590,
+          "min_rank": 18888,
+          "majors": [
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "医学",
+              "subcategory": "基础医学类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7150",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info_short": "（办学地点：太白校区；学制：五年）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group": "（04）",
+          "special_group_id": "290626",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 587,
+          "min_rank": 5213,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "12100",
+              "category": "艺术学",
+              "subcategory": "戏剧与影视学类",
+              "info_short": "（高考文化课成绩不低于该省同科类本科特殊招生线；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（03）",
+          "special_group_id": "290627",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 596,
+          "min_rank": 3769,
+          "majors": [
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（汉语言文学、汉语国际教育；办学地点：太白校区）"
+            },
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info_short": "（办学地点：太白校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": "（行政管理、人力资源管理、劳动与社会保障；办学地点：太白校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info_short": "（国家拔尖学生培养基地；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 12
+        }
+      ],
+      "min_admission_2025": {
+        "历史类": 592,
+        "物理类": 588
+      }
+    },
+    "44": {
+      "province_id": 44,
+      "province_name": "广东",
+      "group_count": 9,
+      "total_plan": 40,
+      "majors_total": 14,
+      "groups": [
+        {
+          "group": "（208）",
+          "special_group_id": "431473",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 620,
+          "min_rank": 1898,
+          "majors": [
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "4250",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（特征要求：不招色盲色弱；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group": "（207）",
+          "special_group_id": "431474",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 597,
+          "min_rank": 5933,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info_short": "（涉外法治实验班J；办学地点：太白校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": "（含行政管理、人力资源管理、劳动与社会保障专业具体专业分流情况请查看学校网站；办学地点：太白校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info_short": "（DG-XH含汉语言文学、汉语国际教育专业具体专业分流情况请查看学校网站；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 6
+        },
+        {
+          "group": "（213）",
+          "special_group_id": "431499",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 593,
+          "min_rank": 31805,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "70000",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（中外合作办学）（与英国埃塞克斯大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group": "（212）",
+          "special_group_id": "431500",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 578,
+          "min_rank": 46187,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "48000",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info_short": "（中外合作办学）（与意大利萨兰托大学联合成立的中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（211）",
+          "special_group_id": "431501",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 608,
+          "min_rank": 20981,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info_short": "（华大创新班；特征要求：不招色盲色弱；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（210）",
+          "special_group_id": "431502",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 606,
+          "min_rank": 22085,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 8,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（含计算机科学与技术、物联网工程、软件工程专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info_short": "（含通信工程、电子信息工程、电子科学与技术、微电子科学与工程、智能科学与技术专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info_short": "（含数学与应用数学、应用统计学专业具体专业分流情况请查看学校网站；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（人工智能实验班；办学地点：长安校区）"
+            }
+          ],
+          "total_plan": 20
+        },
+        {
+          "group": "（209）",
+          "special_group_id": "431503",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+不限",
+          "xuanke_full": "首选物理，再选不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 596,
+          "min_rank": 30011,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info_short": "（开源证券智能金融实验班；办学地点：太白校区）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group": "（703）",
+          "special_group_id": "258660",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "xuanke_full": "首选历史，再选不限",
+          "type_name": "高校专项计划",
+          "batch": "特殊类型招生批",
+          "min_score": 579,
+          "min_rank": 11580,
+          "majors": [
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info_short": "（特殊类型招生）（包含专业：120402.行政管理+120206.人力资源管理+120403.劳动与社会保障）（住宿费：待定）（办学地点：太白校区）（招生种类：高校专项计划）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group": "（704）",
+          "special_group_id": "258760",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "xuanke_full": "首选物理，再选化学",
+          "type_name": "高校专项计划",
+          "batch": "特殊类型招生批",
+          "min_score": 541,
+          "min_rank": 93744,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6600",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info_short": "（特殊类型招生）（包含专业：080901.计算机科学与技术+080905.物联网工程+080902.软件工程）（住宿费：待定）（办学地点：太白校区）（招生种类：高校专项计划）"
+            }
+          ],
+          "total_plan": 1
+        }
+      ],
+      "min_admission_2025": {
+        "历史类": 599,
+        "物理类": 587
       }
     }
   },

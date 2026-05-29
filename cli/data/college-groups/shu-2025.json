@@ -32,14 +32,46 @@
           "min": null,
           "note": "物理组主力组（电类/理科类）",
           "majors": [
-            { "sp_name": "电子信息类", "plan": 50, "info_short": "含电子信息工程/通信/微电子/光电/AI/计算机等" },
-            { "sp_name": "电气类", "plan": 47, "info_short": "含信息与计算科学/机械/智能制造/测控/新能源等" },
-            { "sp_name": "材料类", "plan": 25, "info_short": "含应用化学/冶金/材料/化工/生物工程等" },
-            { "sp_name": "理科试验班类", "plan": 15, "info_short": "数学/应物/理论与应用力学，按类招生" },
-            { "sp_name": "理科试验班", "plan": 14, "info_short": "钱伟长学院（国家试点学院）" },
-            { "sp_name": "电子信息类（未来技术学院）", "plan": 7, "info_short": "未来智能无人系统领军计划" },
-            { "sp_name": "通信工程（卓越工程师班）", "plan": 4, "info_short": "卓越班，不招色盲" },
-            { "sp_name": "电子信息工程（卓越工程师班）", "plan": 4, "info_short": "卓越班，不招色盲" }
+            {
+              "sp_name": "电子信息类",
+              "plan": 50,
+              "info_short": "含电子信息工程/通信/微电子/光电/AI/计算机等"
+            },
+            {
+              "sp_name": "电气类",
+              "plan": 47,
+              "info_short": "含信息与计算科学/机械/智能制造/测控/新能源等"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 25,
+              "info_short": "含应用化学/冶金/材料/化工/生物工程等"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 15,
+              "info_short": "数学/应物/理论与应用力学，按类招生"
+            },
+            {
+              "sp_name": "理科试验班",
+              "plan": 14,
+              "info_short": "钱伟长学院（国家试点学院）"
+            },
+            {
+              "sp_name": "电子信息类（未来技术学院）",
+              "plan": 7,
+              "info_short": "未来智能无人系统领军计划"
+            },
+            {
+              "sp_name": "通信工程（卓越工程师班）",
+              "plan": 4,
+              "info_short": "卓越班，不招色盲"
+            },
+            {
+              "sp_name": "电子信息工程（卓越工程师班）",
+              "plan": 4,
+              "info_short": "卓越班，不招色盲"
+            }
           ]
         },
         {
@@ -50,7 +82,11 @@
           "type": "普通类",
           "min": null,
           "majors": [
-            { "sp_name": "经济学类", "plan": 17, "info_short": "含经济/金融/国贸/工商/会计/档案/信息管理等" }
+            {
+              "sp_name": "经济学类",
+              "plan": 17,
+              "info_short": "含经济/金融/国贸/工商/会计/档案/信息管理等"
+            }
           ]
         },
         {
@@ -62,12 +98,36 @@
           "min": null,
           "note": "中外合作工科组（法国/葡萄牙合作方）",
           "majors": [
-            { "sp_name": "信息工程", "plan": 10, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "机械工程", "plan": 5, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "材料科学与工程", "plan": 5, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "电气工程及其自动化", "plan": 4, "info_short": "中葡（里斯本大学）合作，¥30000" },
-            { "sp_name": "土木工程", "plan": 4, "info_short": "中葡合作，¥30000" },
-            { "sp_name": "环境工程", "plan": 4, "info_short": "中葡合作，¥30000，不招色盲色弱" }
+            {
+              "sp_name": "信息工程",
+              "plan": 10,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "机械工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 4,
+              "info_short": "中葡（里斯本大学）合作，¥30000"
+            },
+            {
+              "sp_name": "土木工程",
+              "plan": 4,
+              "info_short": "中葡合作，¥30000"
+            },
+            {
+              "sp_name": "环境工程",
+              "plan": 4,
+              "info_short": "中葡合作，¥30000，不招色盲色弱"
+            }
           ]
         },
         {
@@ -79,9 +139,21 @@
           "min": null,
           "note": "嘉定校区·悉尼科技大学合作",
           "majors": [
-            { "sp_name": "信息管理与信息系统", "plan": 6, "info_short": "中外合作，¥40000" },
-            { "sp_name": "国际经济与贸易", "plan": 5, "info_short": "中外合作，¥40000" },
-            { "sp_name": "金融学", "plan": 4, "info_short": "中外合作，¥40000" }
+            {
+              "sp_name": "信息管理与信息系统",
+              "plan": 6,
+              "info_short": "中外合作，¥40000"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "info_short": "中外合作，¥40000"
+            },
+            {
+              "sp_name": "金融学",
+              "plan": 4,
+              "info_short": "中外合作，¥40000"
+            }
           ]
         },
         {
@@ -92,7 +164,11 @@
           "type": "国家专项",
           "min": null,
           "majors": [
-            { "sp_name": "电子信息类", "plan": 17, "info_short": "国家专项，含通信/微电子/AI/计算机等" }
+            {
+              "sp_name": "电子信息类",
+              "plan": 17,
+              "info_short": "国家专项，含通信/微电子/AI/计算机等"
+            }
           ]
         },
         {
@@ -103,7 +179,11 @@
           "type": "普通类",
           "min": null,
           "majors": [
-            { "sp_name": "人文科学试验班", "plan": 5, "info_short": "含社会学/社工/法学/网新/历史，按类招生" }
+            {
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "info_short": "含社会学/社工/法学/网新/历史，按类招生"
+            }
           ]
         },
         {
@@ -114,7 +194,11 @@
           "type": "中外合作办学",
           "min": null,
           "majors": [
-            { "sp_name": "工商管理", "plan": 5, "info_short": "中外合作（悉尼科技大学），¥40000" }
+            {
+              "sp_name": "工商管理",
+              "plan": 5,
+              "info_short": "中外合作（悉尼科技大学），¥40000"
+            }
           ]
         },
         {
@@ -126,8 +210,16 @@
           "min": null,
           "note": "艺术学学位授予",
           "majors": [
-            { "sp_name": "广播电视编导", "plan": 3, "info_short": "延长校区，授艺术学学士" },
-            { "sp_name": "艺术管理", "plan": 1, "info_short": "授艺术学学士" }
+            {
+              "sp_name": "广播电视编导",
+              "plan": 3,
+              "info_short": "延长校区，授艺术学学士"
+            },
+            {
+              "sp_name": "艺术管理",
+              "plan": 1,
+              "info_short": "授艺术学学士"
+            }
           ]
         }
       ]
@@ -143,13 +235,26 @@
           "shou": "历史",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 607,
           "note": "历史类外语/人文组",
           "majors": [
-            { "sp_name": "英语", "plan": 4, "info_short": "只招英语考生，英语≥115" },
-            { "sp_name": "日语", "plan": 3, "info_short": "外语≥115，宝山校区" },
-            { "sp_name": "人文科学试验班", "plan": 3, "info_short": "社会学/社工/法学/网新/历史" }
-          ]
+            {
+              "sp_name": "英语",
+              "plan": 4,
+              "info_short": "只招英语考生，英语≥115"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 3,
+              "info_short": "外语≥115，宝山校区"
+            },
+            {
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "info_short": "社会学/社工/法学/网新/历史"
+            }
+          ],
+          "min_rank": 4269
         },
         {
           "code": "02",
@@ -157,12 +262,25 @@
           "shou": "历史",
           "zai": "不限",
           "type": "普通类（艺文）",
-          "min": null,
+          "min": 596,
           "majors": [
-            { "sp_name": "广播电视编导", "plan": 3, "info_short": "延长校区，授艺术学学士" },
-            { "sp_name": "戏剧影视文学", "plan": 3, "info_short": "延长校区，授艺术学学士" },
-            { "sp_name": "艺术管理", "plan": 2, "info_short": "宝山校区，授艺术学学士" }
-          ]
+            {
+              "sp_name": "广播电视编导",
+              "plan": 3,
+              "info_short": "延长校区，授艺术学学士"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 3,
+              "info_short": "延长校区，授艺术学学士"
+            },
+            {
+              "sp_name": "艺术管理",
+              "plan": 2,
+              "info_short": "宝山校区，授艺术学学士"
+            }
+          ],
+          "min_rank": 6765
         },
         {
           "code": "03",
@@ -170,13 +288,26 @@
           "shou": "物理",
           "zai": "不限",
           "type": "中外合作办学",
-          "min": null,
+          "min": 607,
           "note": "嘉定校区·悉尼科技大学合作",
           "majors": [
-            { "sp_name": "信息管理与信息系统", "plan": 8, "info_short": "中外合作，¥40000(拟)" },
-            { "sp_name": "国际经济与贸易", "plan": 5, "info_short": "中外合作，¥40000(拟)" },
-            { "sp_name": "金融学", "plan": 4, "info_short": "中外合作，¥40000(拟)" }
-          ]
+            {
+              "sp_name": "信息管理与信息系统",
+              "plan": 8,
+              "info_short": "中外合作，¥40000(拟)"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "info_short": "中外合作，¥40000(拟)"
+            },
+            {
+              "sp_name": "金融学",
+              "plan": 4,
+              "info_short": "中外合作，¥40000(拟)"
+            }
+          ],
+          "min_rank": 28841
         },
         {
           "code": "04",
@@ -184,10 +315,15 @@
           "shou": "物理",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 629,
           "majors": [
-            { "sp_name": "经济学类", "plan": 5, "info_short": "含经济/金融/国贸/工商/会计等，宝山校区" }
-          ]
+            {
+              "sp_name": "经济学类",
+              "plan": 5,
+              "info_short": "含经济/金融/国贸/工商/会计等，宝山校区"
+            }
+          ],
+          "min_rank": 13359
         },
         {
           "code": "05",
@@ -195,16 +331,41 @@
           "shou": "物理",
           "zai": "化学",
           "type": "普通类",
-          "min": null,
+          "min": 634,
           "note": "物理类理工主组",
           "majors": [
-            { "sp_name": "电气类", "plan": 7, "info_short": "含机械/智能制造/测控/新能源等" },
-            { "sp_name": "材料类", "plan": 6, "info_short": "应化/冶金/材料/化工/生物工程" },
-            { "sp_name": "电子信息类", "plan": 5, "info_short": "含通信/微电子/AI/计算机等" },
-            { "sp_name": "理科试验班", "plan": 3, "info_short": "钱伟长学院" },
-            { "sp_name": "电子信息类（未来技术学院）", "plan": 3, "info_short": "未来智能无人系统领军计划" },
-            { "sp_name": "理科试验班类", "plan": 3, "info_short": "数学/应物/力学" }
-          ]
+            {
+              "sp_name": "电气类",
+              "plan": 7,
+              "info_short": "含机械/智能制造/测控/新能源等"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 6,
+              "info_short": "应化/冶金/材料/化工/生物工程"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "info_short": "含通信/微电子/AI/计算机等"
+            },
+            {
+              "sp_name": "理科试验班",
+              "plan": 3,
+              "info_short": "钱伟长学院"
+            },
+            {
+              "sp_name": "电子信息类（未来技术学院）",
+              "plan": 3,
+              "info_short": "未来智能无人系统领军计划"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "info_short": "数学/应物/力学"
+            }
+          ],
+          "min_rank": 10750
         },
         {
           "code": "06",
@@ -212,15 +373,36 @@
           "shou": "物理",
           "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 609,
           "note": "中法/中葡合作工科组",
           "majors": [
-            { "sp_name": "信息工程", "plan": 10, "info_short": "中法合作，¥35000(拟)" },
-            { "sp_name": "机械工程", "plan": 5, "info_short": "中法合作，¥35000(拟)" },
-            { "sp_name": "电气工程及其自动化", "plan": 3, "info_short": "中葡合作，¥30000" },
-            { "sp_name": "土木工程", "plan": 3, "info_short": "中葡合作，¥30000" },
-            { "sp_name": "环境工程", "plan": 3, "info_short": "中葡合作，¥30000" }
-          ]
+            {
+              "sp_name": "信息工程",
+              "plan": 10,
+              "info_short": "中法合作，¥35000(拟)"
+            },
+            {
+              "sp_name": "机械工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000(拟)"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "info_short": "中葡合作，¥30000"
+            },
+            {
+              "sp_name": "土木工程",
+              "plan": 3,
+              "info_short": "中葡合作，¥30000"
+            },
+            {
+              "sp_name": "环境工程",
+              "plan": 3,
+              "info_short": "中葡合作，¥30000"
+            }
+          ],
+          "min_rank": 27150
         }
       ]
     },
@@ -234,11 +416,16 @@
           "shou": "物理",
           "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 608,
           "note": "广东仅投放中法合作 1 个专业 (信息工程)；其余普通类专业历年未在粤投放",
           "majors": [
-            { "sp_name": "信息工程", "plan": 9, "info_short": "中法中欧工程技术学院，¥35000，不招色盲，宝山校区" }
-          ]
+            {
+              "sp_name": "信息工程",
+              "plan": 9,
+              "info_short": "中法中欧工程技术学院，¥35000，不招色盲，宝山校区"
+            }
+          ],
+          "min_rank": 21189
         }
       ]
     },
@@ -252,10 +439,15 @@
           "shou": "物理",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 609,
           "majors": [
-            { "sp_name": "经济学类", "plan": 3, "info_short": "含经济/金融/国贸/工商/会计等" }
-          ]
+            {
+              "sp_name": "经济学类",
+              "plan": 3,
+              "info_short": "含经济/金融/国贸/工商/会计等"
+            }
+          ],
+          "min_rank": 10764
         },
         {
           "code": "04",
@@ -263,14 +455,31 @@
           "shou": "物理",
           "zai": "化学",
           "type": "普通类",
-          "min": null,
+          "min": 614,
           "note": "物理类理工主组",
           "majors": [
-            { "sp_name": "电气类", "plan": 10, "info_short": "含机械/智能制造/测控/新能源等" },
-            { "sp_name": "电子信息类", "plan": 6, "info_short": "含通信/微电子/AI/计算机等" },
-            { "sp_name": "理科试验班", "plan": 5, "info_short": "钱伟长学院" },
-            { "sp_name": "电子信息类（未来技术学院）", "plan": 2, "info_short": "未来智能无人系统领军计划" }
-          ]
+            {
+              "sp_name": "电气类",
+              "plan": 10,
+              "info_short": "含机械/智能制造/测控/新能源等"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "info_short": "含通信/微电子/AI/计算机等"
+            },
+            {
+              "sp_name": "理科试验班",
+              "plan": 5,
+              "info_short": "钱伟长学院"
+            },
+            {
+              "sp_name": "电子信息类（未来技术学院）",
+              "plan": 2,
+              "info_short": "未来智能无人系统领军计划"
+            }
+          ],
+          "min_rank": 9153
         },
         {
           "code": "05",
@@ -278,13 +487,26 @@
           "shou": "物理",
           "zai": "不限",
           "type": "中外合作办学",
-          "min": null,
+          "min": 576,
           "note": "嘉定·悉尼科技大学",
           "majors": [
-            { "sp_name": "工商管理", "plan": 8, "info_short": "中外合作，¥40000" },
-            { "sp_name": "国际经济与贸易", "plan": 5, "info_short": "中外合作，¥40000" },
-            { "sp_name": "信息管理与信息系统", "plan": 4, "info_short": "中外合作，¥40000" }
-          ]
+            {
+              "sp_name": "工商管理",
+              "plan": 8,
+              "info_short": "中外合作，¥40000"
+            },
+            {
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "info_short": "中外合作，¥40000"
+            },
+            {
+              "sp_name": "信息管理与信息系统",
+              "plan": 4,
+              "info_short": "中外合作，¥40000"
+            }
+          ],
+          "min_rank": 26551
         },
         {
           "code": "06",
@@ -292,15 +514,36 @@
           "shou": "物理",
           "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 582,
           "note": "中法/中葡工科合作组",
           "majors": [
-            { "sp_name": "信息工程", "plan": 8, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "机械工程", "plan": 5, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "电气工程及其自动化", "plan": 2, "info_short": "中葡合作，¥30000，不招色盲" },
-            { "sp_name": "土木工程", "plan": 2, "info_short": "中葡合作，¥30000" },
-            { "sp_name": "环境工程", "plan": 2, "info_short": "中葡合作，¥30000，不招色盲色弱" }
-          ]
+            {
+              "sp_name": "信息工程",
+              "plan": 8,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "机械工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，不招色盲"
+            },
+            {
+              "sp_name": "土木工程",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000"
+            },
+            {
+              "sp_name": "环境工程",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，不招色盲色弱"
+            }
+          ],
+          "min_rank": 23168
         },
         {
           "code": "07",
@@ -308,10 +551,15 @@
           "shou": "物理",
           "zai": "化学",
           "type": "国家专项计划",
-          "min": null,
+          "min": 601,
           "majors": [
-            { "sp_name": "电子信息类", "plan": 17, "info_short": "国家专项" }
-          ]
+            {
+              "sp_name": "电子信息类",
+              "plan": 17,
+              "info_short": "国家专项"
+            }
+          ],
+          "min_rank": 13848
         },
         {
           "code": "02",
@@ -319,10 +567,15 @@
           "shou": "历史",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 605,
           "majors": [
-            { "sp_name": "文科试验班类", "plan": 3, "info_short": "含哲学/汉语言/新闻/广告/考古等" }
-          ]
+            {
+              "sp_name": "文科试验班类",
+              "plan": 3,
+              "info_short": "含哲学/汉语言/新闻/广告/考古等"
+            }
+          ],
+          "min_rank": 2569
         }
       ]
     },
@@ -336,11 +589,16 @@
           "shou": "物理",
           "zai": "化学",
           "type": "普通类",
-          "min": null,
+          "min": 626,
           "note": "物理化学组（普通类）",
           "majors": [
-            { "sp_name": "电子信息类", "plan": 5, "info_short": "含通信/微电子/AI/计算机/数据科学等" }
-          ]
+            {
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "info_short": "含通信/微电子/AI/计算机/数据科学等"
+            }
+          ],
+          "min_rank": 5610
         },
         {
           "code": "500",
@@ -348,15 +606,36 @@
           "shou": "物理",
           "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 594,
           "note": "中法/中葡工科合作组",
           "majors": [
-            { "sp_name": "机械工程", "plan": 5, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "信息工程", "plan": 5, "info_short": "中法合作，¥35000，不招色盲" },
-            { "sp_name": "电气工程及其自动化", "plan": 2, "info_short": "中葡合作，¥30000，不招色盲" },
-            { "sp_name": "土木工程", "plan": 2, "info_short": "中葡合作，¥30000" },
-            { "sp_name": "环境工程", "plan": 2, "info_short": "中葡合作，¥30000，不招色盲色弱" }
-          ]
+            {
+              "sp_name": "机械工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "信息工程",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，不招色盲"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，不招色盲"
+            },
+            {
+              "sp_name": "土木工程",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000"
+            },
+            {
+              "sp_name": "环境工程",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，不招色盲色弱"
+            }
+          ],
+          "min_rank": 14801
         },
         {
           "code": "999",
@@ -364,10 +643,15 @@
           "shou": "物理",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 619,
           "majors": [
-            { "sp_name": "经济学类", "plan": 3, "info_short": "含经济/金融/国贸/工商/会计等" }
-          ]
+            {
+              "sp_name": "经济学类",
+              "plan": 3,
+              "info_short": "含经济/金融/国贸/工商/会计等"
+            }
+          ],
+          "min_rank": 7186
         },
         {
           "code": "999",
@@ -375,11 +659,20 @@
           "shou": "历史",
           "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 600,
           "majors": [
-            { "sp_name": "英语", "plan": 3, "info_short": "只招英语，单科≥115" },
-            { "sp_name": "文科试验班类", "plan": 3, "info_short": "哲学/汉语言/新闻/考古等" }
-          ]
+            {
+              "sp_name": "英语",
+              "plan": 3,
+              "info_short": "只招英语，单科≥115"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "plan": 3,
+              "info_short": "哲学/汉语言/新闻/考古等"
+            }
+          ],
+          "min_rank": 1756
         },
         {
           "code": "999",
@@ -387,10 +680,15 @@
           "shou": "历史",
           "zai": "不限",
           "type": "艺术类（普通批中编导）",
-          "min": null,
+          "min": 588,
           "majors": [
-            { "sp_name": "广播电视编导", "plan": 2, "info_short": "授艺术学学士" }
-          ]
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "授艺术学学士"
+            }
+          ],
+          "min_rank": 2672
         },
         {
           "code": "500-高校专项",
@@ -400,7 +698,11 @@
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "sp_name": "材料类", "plan": 3, "info_short": "高校专项，含应化/冶金/材料/化工/生物工程" }
+            {
+              "sp_name": "材料类",
+              "plan": 3,
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+            }
           ]
         }
       ]
@@ -419,22 +721,86 @@
           "min": null,
           "note": "上大在鲁普通类一段全部专业(类) 聚合",
           "majors": [
-            { "sp_name": "理科试验班", "plan": 10, "info_short": "钱伟长学院，物理+化学" },
-            { "sp_name": "电气类", "plan": 7, "info_short": "物理+化学" },
-            { "sp_name": "电子信息类", "plan": 6, "info_short": "物理+化学" },
-            { "sp_name": "国际经济与贸易（中外合作）", "plan": 5, "info_short": "嘉定·悉尼科大，¥40000，不限选" },
-            { "sp_name": "机械工程（中外合作）", "plan": 5, "info_short": "中法合作，¥35000，物化" },
-            { "sp_name": "信息工程（中外合作）", "plan": 5, "info_short": "中法合作，¥35000，物化" },
-            { "sp_name": "材料科学与工程（中外合作）", "plan": 5, "info_short": "中法合作，¥35000，物化" },
-            { "sp_name": "广播电视编导", "plan": 4, "info_short": "延长校区，授艺术学学士，不限选" },
-            { "sp_name": "理科试验班类", "plan": 4, "info_short": "数学/应物/力学，物化" },
-            { "sp_name": "经济学类", "plan": 3, "info_short": "物理必选" },
-            { "sp_name": "戏剧影视文学", "plan": 3, "info_short": "延长校区，授艺术学学士" },
-            { "sp_name": "文科试验班类", "plan": 3, "info_short": "哲学/汉语言/新闻/考古等，不限选" },
-            { "sp_name": "信息管理与信息系统（中外合作）", "plan": 2, "info_short": "嘉定·悉尼科大，¥40000，物理必选" },
-            { "sp_name": "电气工程及其自动化（中外合作）", "plan": 2, "info_short": "中葡合作，¥30000，物化" },
-            { "sp_name": "土木工程（中外合作）", "plan": 2, "info_short": "中葡合作，¥30000，物化" },
-            { "sp_name": "环境工程（中外合作）", "plan": 2, "info_short": "中葡合作，¥30000，物化" }
+            {
+              "sp_name": "理科试验班",
+              "plan": 10,
+              "info_short": "钱伟长学院，物理+化学"
+            },
+            {
+              "sp_name": "电气类",
+              "plan": 7,
+              "info_short": "物理+化学"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "info_short": "物理+化学"
+            },
+            {
+              "sp_name": "国际经济与贸易（中外合作）",
+              "plan": 5,
+              "info_short": "嘉定·悉尼科大，¥40000，不限选"
+            },
+            {
+              "sp_name": "机械工程（中外合作）",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，物化"
+            },
+            {
+              "sp_name": "信息工程（中外合作）",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，物化"
+            },
+            {
+              "sp_name": "材料科学与工程（中外合作）",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，物化"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "延长校区，授艺术学学士，不限选"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "info_short": "数学/应物/力学，物化"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 3,
+              "info_short": "物理必选"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 3,
+              "info_short": "延长校区，授艺术学学士"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "plan": 3,
+              "info_short": "哲学/汉语言/新闻/考古等，不限选"
+            },
+            {
+              "sp_name": "信息管理与信息系统（中外合作）",
+              "plan": 2,
+              "info_short": "嘉定·悉尼科大，¥40000，物理必选"
+            },
+            {
+              "sp_name": "电气工程及其自动化（中外合作）",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，物化"
+            },
+            {
+              "sp_name": "土木工程（中外合作）",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，物化"
+            },
+            {
+              "sp_name": "环境工程（中外合作）",
+              "plan": 2,
+              "info_short": "中葡合作，¥30000，物化"
+            }
           ]
         },
         {
@@ -445,7 +811,11 @@
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "sp_name": "材料类", "plan": 11, "info_short": "高校专项，含应化/冶金/材料/化工/生物工程" }
+            {
+              "sp_name": "材料类",
+              "plan": 11,
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+            }
           ]
         }
       ]
@@ -464,15 +834,51 @@
           "min": null,
           "note": "上大在冀普通类物理方向全部专业(类) 聚合",
           "majors": [
-            { "sp_name": "理科试验班", "plan": 12, "info_short": "钱伟长学院，物化" },
-            { "sp_name": "电气类", "plan": 12, "info_short": "物化" },
-            { "sp_name": "信息工程（中外合作）", "plan": 10, "info_short": "中法合作，¥35000，物化，不招色盲" },
-            { "sp_name": "理科试验班类", "plan": 6, "info_short": "数学/应物/力学，物化" },
-            { "sp_name": "机械工程（中外合作）", "plan": 5, "info_short": "中法合作，¥35000，物化" },
-            { "sp_name": "通信工程（卓越工程师班）", "plan": 5, "info_short": "卓越班，物化" },
-            { "sp_name": "材料科学与工程（中外合作）", "plan": 5, "info_short": "中法合作，¥35000，物化" },
-            { "sp_name": "经济学类", "plan": 5, "info_short": "物理不限再选" },
-            { "sp_name": "电子信息工程（卓越工程师班）", "plan": 4, "info_short": "卓越班，物化" }
+            {
+              "sp_name": "理科试验班",
+              "plan": 12,
+              "info_short": "钱伟长学院，物化"
+            },
+            {
+              "sp_name": "电气类",
+              "plan": 12,
+              "info_short": "物化"
+            },
+            {
+              "sp_name": "信息工程（中外合作）",
+              "plan": 10,
+              "info_short": "中法合作，¥35000，物化，不招色盲"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "info_short": "数学/应物/力学，物化"
+            },
+            {
+              "sp_name": "机械工程（中外合作）",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，物化"
+            },
+            {
+              "sp_name": "通信工程（卓越工程师班）",
+              "plan": 5,
+              "info_short": "卓越班，物化"
+            },
+            {
+              "sp_name": "材料科学与工程（中外合作）",
+              "plan": 5,
+              "info_short": "中法合作，¥35000，物化"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 5,
+              "info_short": "物理不限再选"
+            },
+            {
+              "sp_name": "电子信息工程（卓越工程师班）",
+              "plan": 4,
+              "info_short": "卓越班，物化"
+            }
           ]
         },
         {
@@ -483,9 +889,21 @@
           "type": "普通类（历史类）",
           "min": null,
           "majors": [
-            { "sp_name": "人文科学试验班", "plan": 3, "info_short": "社会学/社工/法学/网新/历史" },
-            { "sp_name": "英语", "plan": 2, "info_short": "只招英语，外语≥115" },
-            { "sp_name": "思想政治教育", "plan": 2, "info_short": "" }
+            {
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "info_short": "社会学/社工/法学/网新/历史"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 2,
+              "info_short": "只招英语，外语≥115"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": ""
+            }
           ]
         },
         {
@@ -496,7 +914,11 @@
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "sp_name": "材料类", "plan": 11, "info_short": "高校专项，含应化/冶金/材料/化工/生物工程" }
+            {
+              "sp_name": "材料类",
+              "plan": 11,
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+            }
           ]
         }
       ]

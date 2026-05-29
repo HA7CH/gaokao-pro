@@ -60,7 +60,10 @@
           "min_score_2025": null,
           "min_rank_2025": null,
           "note": "中外合作办学(物流管理/统计学等)，公开数据未单列河南分数",
-          "majors_representative": ["物流管理(中外合作办学)", "统计学(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)",
+            "统计学(中外合作办学)"
+          ]
         },
         {
           "group_code": "提前批(公费师范-物理)",
@@ -131,7 +134,9 @@
           "min_score_2025": null,
           "min_rank_2025": null,
           "note": "面向贫困地区定向；2025河南普通本科批合并后保留专项类别，分数线以省考试院官方公告为准",
-          "majors_representative": ["与本科批主组专业一致(物理/历史均设)"]
+          "majors_representative": [
+            "与本科批主组专业一致(物理/历史均设)"
+          ]
         }
       ]
     },
@@ -149,7 +154,11 @@
           "batch": "本科批(中外合作办学)",
           "min_score_2025": 531,
           "min_rank_2025": null,
-          "majors_representative": ["物流管理(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)"
+          ],
+          "min_score": 531,
+          "min_rank": 119385
         },
         {
           "group_code": "06",
@@ -159,7 +168,11 @@
           "batch": "本科批(中外合作办学)",
           "min_score_2025": 539,
           "min_rank_2025": null,
-          "majors_representative": ["统计学(中外合作办学)"]
+          "majors_representative": [
+            "统计学(中外合作办学)"
+          ],
+          "min_score": 539,
+          "min_rank": 108073
         },
         {
           "group_code": "07",
@@ -170,7 +183,11 @@
           "min_score_2025": 579,
           "min_rank_2025": null,
           "note": "PDF文本中此组带(中外合作办学)标注但分数明显高于真中外组，疑为普通组排版误差；以省考试院PDF为准",
-          "majors_representative": ["不限选科组(数学/经济/管理等)"]
+          "majors_representative": [
+            "不限选科组(数学/经济/管理等)"
+          ],
+          "min_score": 579,
+          "min_rank": 56445
         },
         {
           "group_code": "08",
@@ -188,7 +205,9 @@
             "生物技术",
             "地理科学",
             "地理信息科学"
-          ]
+          ],
+          "min_score": 613,
+          "min_rank": 23947
         },
         {
           "group_code": "01",
@@ -198,7 +217,11 @@
           "batch": "本科批(中外合作办学)",
           "min_score_2025": 569,
           "min_rank_2025": null,
-          "majors_representative": ["物流管理(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)"
+          ],
+          "min_score": 569,
+          "min_rank": 15613
         },
         {
           "group_code": "02",
@@ -208,7 +231,11 @@
           "batch": "本科批(中外合作办学)",
           "min_score_2025": 590,
           "min_rank_2025": null,
-          "majors_representative": ["统计学相关(中外合作办学)"]
+          "majors_representative": [
+            "统计学相关(中外合作办学)"
+          ],
+          "min_score": 590,
+          "min_rank": 8399
         },
         {
           "group_code": "03",
@@ -228,7 +255,9 @@
             "新闻学",
             "经济学类",
             "工商管理类"
-          ]
+          ],
+          "min_score": 610,
+          "min_rank": 3741
         },
         {
           "group_code": "04",
@@ -243,7 +272,9 @@
             "马克思主义理论类",
             "政治学与行政学",
             "社会学"
-          ]
+          ],
+          "min_score": 601,
+          "min_rank": 5558
         }
       ]
     },
@@ -262,7 +293,11 @@
           "plan_count": 3,
           "min_score_2025": 538,
           "min_rank_2025": 99337,
-          "majors_representative": ["物流管理(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)"
+          ],
+          "min_score": 538,
+          "min_rank": 99337
         },
         {
           "group_code": "220",
@@ -273,7 +308,11 @@
           "plan_count": 3,
           "min_score_2025": 554,
           "min_rank_2025": 75671,
-          "majors_representative": ["统计学(中外合作办学)"]
+          "majors_representative": [
+            "统计学(中外合作办学)"
+          ],
+          "min_score": 554,
+          "min_rank": 75671
         },
         {
           "group_code": "221",
@@ -292,7 +331,9 @@
             "经济学类",
             "工商管理类",
             "心理学"
-          ]
+          ],
+          "min_score": 589,
+          "min_rank": 35747
         },
         {
           "group_code": "222",
@@ -310,7 +351,9 @@
             "生物技术",
             "环境科学",
             "地理科学"
-          ]
+          ],
+          "min_score": 598,
+          "min_rank": 28343
         },
         {
           "group_code": "214",
@@ -321,7 +364,13 @@
           "plan_count": 2,
           "min_score_2025": 598,
           "min_rank_2025": 5612,
-          "majors_representative": ["汉语言文学", "英语", "历史学"]
+          "majors_representative": [
+            "汉语言文学",
+            "英语",
+            "历史学"
+          ],
+          "min_score": 598,
+          "min_rank": 5612
         },
         {
           "group_code": "215",
@@ -341,7 +390,9 @@
             "哲学",
             "经济学类",
             "工商管理类"
-          ]
+          ],
+          "min_score": 597,
+          "min_rank": 5924
         },
         {
           "group_code": "216",
@@ -352,7 +403,11 @@
           "plan_count": 4,
           "min_score_2025": 544,
           "min_rank_2025": 27590,
-          "majors_representative": ["物流管理(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)"
+          ],
+          "min_score": 544,
+          "min_rank": 27590
         },
         {
           "group_code": "217",
@@ -363,7 +418,11 @@
           "plan_count": 3,
           "min_score_2025": 561,
           "min_rank_2025": 18691,
-          "majors_representative": ["统计学相关(中外合作办学)"]
+          "majors_representative": [
+            "统计学相关(中外合作办学)"
+          ],
+          "min_score": 561,
+          "min_rank": 18691
         },
         {
           "group_code": "218",
@@ -374,7 +433,13 @@
           "plan_count": 3,
           "min_score_2025": 596,
           "min_rank_2025": 5998,
-          "majors_representative": ["思想政治教育", "教育学类", "学前教育"]
+          "majors_representative": [
+            "思想政治教育",
+            "教育学类",
+            "学前教育"
+          ],
+          "min_score": 596,
+          "min_rank": 5998
         }
       ]
     },
@@ -414,7 +479,10 @@
           "batch": "本科批(中外合作办学)",
           "min_score_2025": 523,
           "min_rank_2025": null,
-          "majors_representative": ["物流管理(中外)", "统计学(中外)"]
+          "majors_representative": [
+            "物流管理(中外)",
+            "统计学(中外)"
+          ]
         },
         {
           "group_code": "提前批(公费师范-物理)",
@@ -505,7 +573,12 @@
           "min_score_2025": null,
           "min_rank_2025": null,
           "note": "化学限选组，分数线公开数据未明确披露",
-          "majors_representative": ["化学", "生物科学", "环境科学", "地理科学"]
+          "majors_representative": [
+            "化学",
+            "生物科学",
+            "环境科学",
+            "地理科学"
+          ]
         },
         {
           "group_code": "中外合作(物理)",
@@ -516,7 +589,10 @@
           "min_score_2025": null,
           "min_rank_2025": null,
           "note": "福建中外合作组分数公开数据未单列",
-          "majors_representative": ["物流管理(中外)", "统计学(中外)"]
+          "majors_representative": [
+            "物流管理(中外)",
+            "统计学(中外)"
+          ]
         },
         {
           "group_code": "999(历史-不限)",
@@ -587,7 +663,10 @@
           "batch": "普通类一段",
           "min_score_2025": 558,
           "min_rank_2025": 70316,
-          "majors_representative": ["物流管理(中外合作办学)(560)", "统计学(中外合作办学)"]
+          "majors_representative": [
+            "物流管理(中外合作办学)(560)",
+            "统计学(中外合作办学)"
+          ]
         }
       ]
     },
@@ -628,7 +707,11 @@
           "min_score_2025": 557,
           "min_rank_2025": null,
           "note": "市场营销(中外)559最低",
-          "majors_representative": ["物流管理(中外)", "市场营销(中外)", "统计学(中外)"]
+          "majors_representative": [
+            "物流管理(中外)",
+            "市场营销(中外)",
+            "统计学(中外)"
+          ]
         },
         {
           "group_code": "提前批B(物理-公费师范)",
@@ -654,7 +737,10 @@
           "batch": "本科提前批B段",
           "min_score_2025": 606,
           "min_rank_2025": 22695,
-          "majors_representative": ["地理科学(公费师范)", "心理学(公费师范)"]
+          "majors_representative": [
+            "地理科学(公费师范)",
+            "心理学(公费师范)"
+          ]
         },
         {
           "group_code": "本科批(历史-主组)",

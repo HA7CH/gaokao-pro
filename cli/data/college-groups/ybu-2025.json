@@ -1,0 +1,4017 @@
+{
+  "_kind": "延边大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "延边大学",
+  "code": null,
+  "zs_code": "10184",
+  "school_id_gaokao_cn": 129,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/129/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/129/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=129; zs_code=10184.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424738",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 15084,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（吉林延吉）（不招色盲、色弱、单色识别能力异常）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（吉林延吉）（不招色盲、色弱、单色识别能力异常）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（吉林延吉）（不招色盲、色弱、单色识别能力异常）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（吉林延吉）（不招色盲、色弱、单色识别能力异常）"
+            }
+          ]
+        },
+        {
+          "group_id": "424739",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 23796,
+          "majors": [
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（吉林延吉）（只招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（吉林延吉）（只招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（吉林延吉）（只招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（吉林延吉）（只招汉语答卷非朝鲜族考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 594,
+          "min_rank": 7453,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6160",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、统计学专业；数学与应用数学含师范、非师范，第一学年末分流）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 8,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、统计学专业；数学与应用数学含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（中外合作办学）（与韩国全北大学合作办学）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国全北大学合作办学）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（含药学、药物制剂专业；第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（含药学、药物制剂专业；第三学期末分流）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与韩国湖西大学合作办学）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国湖西大学合作办学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（含化学、应用化学专业；第一学年末分流。化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含化学、应用化学专业；第一学年末分流。化学专业为师范）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学专业；第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学专业；第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才。宜英语考生报考。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才。宜英语考生报考。在珲春校区办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易专业；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易专业；第一学年末分流。在珲春校区办学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语、日语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语、日语语种考生）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（含汉语国际教育、汉语言、汉语言文学专业；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（含汉语国际教育、汉语言、汉语言文学专业；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（含师范、非师范。第一学年末分流）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生；含师范、非师范,第一学年末分流）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语语种考生；含师范、非师范,第一学年末分流）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学专业；第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学专业；第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才。宜英语考生报考。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才。宜英语考生报考。在珲春校区办学）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（只招英语语种考生；零起点）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语语种考生；零起点）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易专业；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易专业；第一学年末分流。在珲春校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423113",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 27085,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "423138",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 492,
+          "min_rank": 26498,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426325",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 576,
+          "min_rank": 12977,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（延吉）（珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（珲春校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（延吉）（在延吉校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（延吉）（报考该专业须查阅院校招生章程）（在延吉校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（延吉）（报考该专业须查阅院校招生章程）（在延吉校区学习）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（延吉）（珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（珲春校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（延吉）（在延吉校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（延吉）（报考该专业须查阅院校招生章程）（在延吉校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（延吉）（报考该专业须查阅院校招生章程）（在延吉校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "426353",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 591,
+          "min_rank": 43570,
+          "majors": [
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（延吉）（在延吉校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（在延吉校区学习）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学（延吉）（在延吉校区学习）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（延吉）（在延吉校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "426354",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 52996,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（延吉）（珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（珲春校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（延吉）（珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（珲春校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 589,
+          "min_rank": 64234,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（延吉）（珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（珲春校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（延吉）（珲春校区。含经济学、国际经济与贸易专业。第一学年末专业分流）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（延吉）（珲春校区。含经济学、国际经济与贸易专业。第一学年末专业分流）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（延吉）（延吉校区。含药学、药物制剂专业。第三学期末专业分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（延吉）（延吉校区。含药学、药物制剂专业。第三学期末专业分流）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（延吉）（延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（延吉）（延吉校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（延吉）（延吉校区。含汉语国际教育、汉语言、汉语言文学专业。第一学年末专业分流）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（延吉）（延吉校区。含汉语国际教育、汉语言、汉语言文学专业。第一学年末专业分流）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（延吉）（延吉校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（延吉）（延吉校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（延吉）（延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（延吉）（延吉校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学（延吉）（延吉校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（延吉）（延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（延吉）（延吉校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（延吉）（延吉校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393344",
+          "sg_name": "（900）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 4392,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "393346",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 5970,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：英语。零起点）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（语种：英语。零起点）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（含汉语国际教育、汉语言、汉语言文学。第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（含汉语国际教育、汉语言、汉语言文学。第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：英语。零起点）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（语种：英语。零起点）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（含汉语国际教育、汉语言、汉语言文学。第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（含汉语国际教育、汉语言、汉语言文学。第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "393377",
+          "sg_name": "（900）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 25776,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含地理科学、地理信息科学。第一学年末分流。地理科学专业为师范。在珲春校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "393378",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 25291,
+          "majors": [
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、统计学。数学与应用数学含师范、非师范，第一学年末分流）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、统计学。数学与应用数学含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（含化学、应用化学。第一学年末分流。化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含化学、应用化学。第一学年末分流。化学专业为师范）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（含药学、药物制剂。第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（含药学、药物制剂。第三学期末分流）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、统计学。数学与应用数学含师范、非师范，第一学年末分流）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、统计学。数学与应用数学含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（含化学、应用化学。第一学年末分流。化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含化学、应用化学。第一学年末分流。化学专业为师范）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（含药学、药物制剂。第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（含药学、药物制剂。第三学期末分流）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "393379",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 24364,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含经济学、国际经济与贸易。第一学年末分流。在珲春校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "中外合作办学",
+          "min_score": 557,
+          "min_rank": 71861,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（中外合作办学）（与韩国全北大学合作办学）（中外合作办学）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 10,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国全北大学合作办学）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6160",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（地理科学、地理信息科学）（第一学年末分流，地理科学专业为师范，在珲春校区办学）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地理科学、地理信息科学）（第一学年末分流，地理科学专业为师范，在珲春校区办学）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才，宜英语语种考生报考，在珲春校区办学）（中外合作办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 8,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国崇实大学合作办学，培养金融学方向专业人才，宜英语语种考生报考，在珲春校区办学）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范类、非师范类；第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范类、非师范类；第一学年末分流）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（外语语种为英语，日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（外语语种为英语，日语）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、国际经济与贸易）（第一学年末分流，在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（经济学、国际经济与贸易）（第一学年末分流，在珲春校区办学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（化学、应用化学）（第一学年末分流；化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 6,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（化学、应用化学）（第一学年末分流；化学专业为师范）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与韩国湖西大学合作办学）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国湖西大学合作办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（外语语种为英语，零起点）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（外语语种为英语，零起点）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "spname": "麻醉学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（药学、药物制剂）（第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（药学、药物制剂）（第三学期末分流）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语，含师范、非师范，第一学年末分流）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（外语语种为英语，含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（汉语国际教育、汉语言、汉语言文学）（第一学年末分流；汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（汉语国际教育、汉语言、汉语言文学）（第一学年末分流；汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "368784",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）（中外合作）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）（中外合作）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "368785",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6160",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "6160",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "368786",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：数学与应用数学、统计学；数学与应用数学含师范、非师范，第一学年末分流）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：数学与应用数学、统计学；数学与应用数学含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（包含专业：药学、药物制剂；第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（包含专业：药学、药物制剂；第三学期末分流）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（包含专业：化学、应用化学；第一学年末分流。化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：化学、应用化学；第一学年末分流。化学专业为师范）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：数学与应用数学、统计学；数学与应用数学含师范、非师范，第一学年末分流）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：数学与应用数学、统计学；数学与应用数学含师范、非师范，第一学年末分流）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（包含专业：药学、药物制剂；第三学期末分流）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（包含专业：药学、药物制剂；第三学期末分流）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（包含专业：化学、应用化学；第一学年末分流。化学专业为师范）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：化学、应用化学；第一学年末分流。化学专业为师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "368787",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）"
+            }
+          ]
+        },
+        {
+          "group_id": "368849",
+          "sg_name": "（301）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（国家专项）（包含专业：地理科学、地理信息科学；办学地点：延边大学珲春校区；第一学年末分流。地理科学专业为师范）（国家专项）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：地理科学、地理信息科学；办学地点：延边大学珲春校区；第一学年末分流。地理科学专业为师范）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（国家专项）（包含专业：地理科学、地理信息科学；办学地点：延边大学珲春校区；第一学年末分流。地理科学专业为师范）（国家专项）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：地理科学、地理信息科学；办学地点：延边大学珲春校区；第一学年末分流。地理科学专业为师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "368871",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：延边大学珲春校区；合作方：韩国崇实大学；培养金融学方向专业人才。宜英语考生报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "368872",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语，日语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语，日语语种的考生）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学（师范）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（包含专业：汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（包含专业：汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范。第一学年末分流；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语，日语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语，日语语种的考生）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学（师范）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（包含专业：汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（包含专业：汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：延边大学珲春校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范。第一学年末分流；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：经济学、国际经济与贸易；办学地点：延边大学珲春校区；第一学年末分流）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291174",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 540,
+          "min_rank": 52382,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（中外合作办学）（与韩国全北大学合作办学；办学地点：延吉校区）（中外合作）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 7,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国全北大学合作办学；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（中外合作办学）（与韩国全北大学合作办学；办学地点：延吉校区）（中外合作）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 7,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国全北大学合作办学；办学地点：延吉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291175",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 24832,
+          "majors": [
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（办学地点：延吉校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（办学地点：延吉校区；学制：五年）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（办学地点：延吉校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（办学地点：延吉校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "291176",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 28957,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：延吉校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（办学地点：延吉校区；学制：五年）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（药学、药物制剂；第三学期末分流；办学地点：延吉校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（药学、药物制剂；第三学期末分流；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：延吉校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（办学地点：延吉校区；学制：五年）"
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（药学、药物制剂；第三学期末分流；办学地点：延吉校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（药学、药物制剂；第三学期末分流；办学地点：延吉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291177",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 30202,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "291240",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 7128,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点；外语语种：英语；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点；外语语种：英语；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范，第一学年末分流；外语语种：英语；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范，第一学年末分流；外语语种：英语；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点；外语语种：英语；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点；外语语种：英语；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（汉语国际教育、汉语言、汉语言文学；第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范，第一学年末分流；外语语种：英语；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范，第一学年末分流；外语语种：英语；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生；办学地点：延吉校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（经济学、国际经济与贸易；第一学年末分流。在珲春校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "291257",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 553,
+          "min_rank": 42136,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（地理科学、地理信息科学；第一学年末分流。地理科学专业为师范；办学地点：珲春校区）（国家专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地理科学、地理信息科学；第一学年末分流。地理科学专业为师范；办学地点：珲春校区）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（地理科学、地理信息科学；第一学年末分流。地理科学专业为师范；办学地点：珲春校区）（国家专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地理科学、地理信息科学；第一学年末分流。地理科学专业为师范；办学地点：珲春校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291258",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 560,
+          "min_rank": 36984,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流；办学地点：延吉校区）（国家专项计划）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流；办学地点：延吉校区）（国家专项计划）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流；办学地点：延吉校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318286",
+          "sg_name": "（304）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 536,
+          "min_rank": 55823,
+          "majors": [
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（第一学年末分流。地理科学专业为师范。在珲春校区办学。包含专业:地理科学、地理信息科学）（延边大学珲春校区）（国家专项）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（第一学年末分流。地理科学专业为师范。在珲春校区办学。包含专业:地理科学、地理信息科学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "0705",
+              "sp_name": "地理科学类",
+              "spname": "地理科学类（第一学年末分流。地理科学专业为师范。在珲春校区办学。包含专业:地理科学、地理信息科学）（延边大学珲春校区）（国家专项）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（第一学年末分流。地理科学专业为师范。在珲春校区办学。包含专业:地理科学、地理信息科学）（延边大学珲春校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318287",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 44253,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学含师范、非师范，第一学年末分流。包含专业:数学与应用数学、统计学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（数学与应用数学含师范、非师范，第一学年末分流。包含专业:数学与应用数学、统计学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（第一学年末分流。化学专业为师范。包含专业:化学、应用化学）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（第一学年末分流。化学专业为师范。包含专业:化学、应用化学）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（第三学期末分流。包含专业:药学、药物制剂）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（第三学期末分流。包含专业:药学、药物制剂）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（含师范、非师范。第一学年末分流）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学含师范、非师范，第一学年末分流。包含专业:数学与应用数学、统计学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（数学与应用数学含师范、非师范，第一学年末分流。包含专业:数学与应用数学、统计学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "spname": "化学类（第一学年末分流。化学专业为师范。包含专业:化学、应用化学）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（第一学年末分流。化学专业为师范。包含专业:化学、应用化学）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "1007",
+              "sp_name": "药学类",
+              "spname": "药学类（第三学期末分流。包含专业:药学、药物制剂）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5600",
+              "length": "四年",
+              "info": "（第三学期末分流。包含专业:药学、药物制剂）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "318288",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 43519,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318319",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 9204,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点）（外语要求:英语）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（含师范、非师范。第一学年末分流）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范。包含专业:汉语国际教育、汉语言、汉语言文学）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范。包含专业:汉语国际教育、汉语言、汉语言文学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范,第一学年末分流）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范,第一学年末分流）（外语要求:英语）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（零起点）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（零起点）（外语要求:英语）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（含师范、非师范。第一学年末分流）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范。第一学年末分流）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范。包含专业:汉语国际教育、汉语言、汉语言文学）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（第一学年末分流。汉语言文学专业只招汉语答卷考生。含师范、非师范。包含专业:汉语国际教育、汉语言、汉语言文学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（含师范、非师范,第一学年末分流）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（含师范、非师范,第一学年末分流）（外语要求:英语）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在珲春校区办学）（延边大学珲春校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（在珲春校区办学）（延边大学珲春校区）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（第一学年末分流。在珲春校区办学。包含专业:经济学、国际经济与贸易）（延边大学珲春校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432042",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 20856,
+          "majors": [
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（办学地点：延吉校区；招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（办学地点：延吉校区；招汉语答卷非朝鲜族考生）"
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（办学地点：延吉校区；招汉语答卷非朝鲜族考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（办学地点：延吉校区；招汉语答卷非朝鲜族考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "432091",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 54370,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求；不招单色识别不全者；办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（特征要求；不招单色识别不全者；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求；不招单色识别不全者；办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（特征要求；不招单色识别不全者；办学地点：延吉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432092",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 559,
+          "min_rank": 69273,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（特征要求：不招色盲色弱；办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：延吉校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（特征要求：不招色盲色弱；办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：延吉校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：延吉校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：延吉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432093",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 567,
+          "min_rank": 58797,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：延吉校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：延吉校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

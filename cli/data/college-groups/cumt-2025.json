@@ -7,7 +7,15 @@
   "_code_eolcn": 10290,
   "_school_id_eolcn": 110,
   "_year": 2025,
-  "_provinces_covered": ["河南", "江苏", "广东", "湖北", "福建", "山东", "河北"],
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
+  ],
   "_sources": [
     "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/110/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
     "https://static-data.gaokao.cn/www/2.0/school/110/info.json (pro_type_min — 2025 投档最低分)",
@@ -31,27 +39,56 @@
       "province_id": 41,
       "mode": "新高考3+1+2 (2025首年)",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 603, "历史类": 602 },
+      "min_admission_2025": {
+        "物理类": 603,
+        "历史类": 602
+      },
       "groups": [
         {
           "code": "101",
           "special_group_id": "368729",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "孙越崎特色班",
           "min": null,
           "majors": [
-            { "spcode": "0814", "name": "地质类", "num": 2, "tuition": 5800, "note": "孙越崎班" },
-            { "spcode": "0815", "name": "矿业类", "num": 2, "tuition": 5200, "note": "孙越崎班" },
-            { "spcode": "0829", "name": "安全科学与工程类", "num": 2, "tuition": 5800, "note": "孙越崎班" },
-            { "spcode": "0805", "name": "能源动力类", "num": 3, "tuition": 5800, "note": "孙越崎班" }
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 2,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 2,
+              "tuition": 5200,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 2,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类",
+              "num": 3,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            }
           ]
         },
         {
           "code": "102",
           "special_group_id": "368728",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类",
           "min": null,
           "note": "主物理组, 26 个专业 (类), 计划 288",
@@ -61,45 +98,91 @@
           "code": "103",
           "special_group_id": "368727",
           "track": "物理类",
-          "shou": "物理", "zai": "不限",
+          "shou": "物理",
+          "zai": "不限",
           "type": "普通类(文管)",
           "min": null,
           "majors": [
-            { "spcode": "1202", "name": "工商管理类", "num": 5, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 3, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 },
-            { "spcode": "120111T", "name": "应急管理", "num": 4, "tuition": 5200 },
-            { "spcode": "120108T", "name": "大数据管理与应用", "num": 5, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 2, "tuition": 5200 }
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5200
+            }
           ]
         },
         {
           "code": "201",
           "special_group_id": "368726",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
           "min": null,
           "majors": [
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 6, "tuition": 26400, "note": "与澳大利亚 Griffith 联合培养" }
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 6,
+              "tuition": 26400,
+              "note": "与澳大利亚 Griffith 联合培养"
+            }
           ]
         },
         {
           "code": "202",
           "special_group_id": "368725",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
           "min": null,
           "majors": [
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 6, "tuition": 26400, "note": "与澳大利亚 RMIT 联合培养" }
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 6,
+              "tuition": 26400,
+              "note": "与澳大利亚 RMIT 联合培养"
+            }
           ]
         },
         {
           "code": "301",
           "special_group_id": "368754",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "国家专项计划",
           "min": null,
           "majors_summary": "土木类/材料科学与工程/化工与制药类/矿业类/建筑学(五年)/地质类/环境工程/地球物理学/水文与水资源工程"
@@ -108,13 +191,29 @@
           "code": "302",
           "special_group_id": "368753",
           "track": "物理类",
-          "shou": "物理", "zai": "不限",
+          "shou": "物理",
+          "zai": "不限",
           "type": "国家专项计划",
           "min": null,
           "majors": [
-            { "spcode": "1202", "name": "工商管理类", "num": 3, "tuition": 5200 },
-            { "spcode": "120801", "name": "电子商务", "num": 3, "tuition": 5200 },
-            { "spcode": "120111T", "name": "应急管理", "num": 2, "tuition": 5200 }
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120801",
+              "name": "电子商务",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 2,
+              "tuition": 5200
+            }
           ]
         }
       ]
@@ -124,87 +223,211 @@
       "province_id": 32,
       "mode": "新高考3+1+2 (本省, 校本部所在地)",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 596, "历史类": 600 },
+      "min_admission_2025": {
+        "物理类": 596,
+        "历史类": 600
+      },
       "groups": [
         {
           "code": "01",
           "special_group_id": "426228",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 596,
           "majors": [
-            { "spcode": "0502", "name": "外国语言文学类", "num": 13, "tuition": 5200, "note": "英语/德语" },
-            { "spcode": "050101", "name": "汉语言文学", "num": 13, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 6, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "030101K", "name": "法学", "num": 4, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 3, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 }
-          ]
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 13,
+              "tuition": 5200,
+              "note": "英语/德语"
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 13,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 6,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 6765
         },
         {
           "code": "02 (主物理)",
           "special_group_id": "426274",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类",
-          "min": null,
+          "min": 615,
           "note": "主物理化学组, 27 个专业 (类)",
-          "majors_summary": "电气工程及其自动化(67)/计算机类(62)/能源动力类(34)/机械类(31)/数学类(30)/自动化(29)/电子信息工程(28)/安全科学与工程类(24)/人工智能(22)/土木类(19)/机器人工程(16)/矿业类(15)/测绘类(11)/物理学类(10)/遥感科学与技术(10)/化工与制药类(9)/工程力学(7)/材料科学与工程(7)/环境工程(7)/工业设计(6)/过程装备与控制工程(5)/地球物理学(4)/地质类(4)/新能源材料与器件(4)/地球信息科学与技术(4)/集成电路设计与集成系统(4)/水文与水资源工程(3)"
+          "majors_summary": "电气工程及其自动化(67)/计算机类(62)/能源动力类(34)/机械类(31)/数学类(30)/自动化(29)/电子信息工程(28)/安全科学与工程类(24)/人工智能(22)/土木类(19)/机器人工程(16)/矿业类(15)/测绘类(11)/物理学类(10)/遥感科学与技术(10)/化工与制药类(9)/工程力学(7)/材料科学与工程(7)/环境工程(7)/工业设计(6)/过程装备与控制工程(5)/地球物理学(4)/地质类(4)/新能源材料与器件(4)/地球信息科学与技术(4)/集成电路设计与集成系统(4)/水文与水资源工程(3)",
+          "min_rank": 22495
         },
         {
           "code": "03 (物理+不限)",
           "special_group_id": "426276",
           "track": "物理类",
-          "shou": "物理", "zai": "不限",
+          "shou": "物理",
+          "zai": "不限",
           "type": "普通类(文管)",
-          "min": null,
+          "min": 607,
           "majors": [
-            { "spcode": "120108T", "name": "大数据管理与应用", "num": 12, "tuition": 5200 },
-            { "spcode": "120111T", "name": "应急管理", "num": 7, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 5, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 4, "tuition": 5200 }
-          ]
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 12,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 7,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 4,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 28841
         },
         {
           "code": "04 (孙越崎)",
           "special_group_id": "426275",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "孙越崎特色班",
-          "min": null,
+          "min": 613,
           "majors": [
-            { "spcode": "0812", "name": "测绘类", "num": 2, "tuition": 5500, "note": "孙越崎班" },
-            { "spcode": "0815", "name": "矿业类", "num": 2, "tuition": 5200, "note": "孙越崎班" },
-            { "spcode": "0829", "name": "安全科学与工程类", "num": 2, "tuition": 5800, "note": "孙越崎班" },
-            { "spcode": "0810", "name": "土木类", "num": 2, "tuition": 5200, "note": "孙越崎班" },
-            { "spcode": "0805", "name": "能源动力类", "num": 2, "tuition": 5800, "note": "孙越崎班" },
-            { "spcode": "0814", "name": "地质类", "num": 1, "tuition": 5800, "note": "孙越崎班" }
-          ]
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 2,
+              "tuition": 5500,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 2,
+              "tuition": 5200,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 2,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 2,
+              "tuition": 5200,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类",
+              "num": 2,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 1,
+              "tuition": 5800,
+              "note": "孙越崎班"
+            }
+          ],
+          "min_rank": 23947
         },
         {
           "code": "05 (中外-土木)",
           "special_group_id": "426273",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 580,
           "majors": [
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 13, "tuition": 26400, "note": "Griffith" }
-          ]
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 13,
+              "tuition": 26400,
+              "note": "Griffith"
+            }
+          ],
+          "min_rank": 55261
         },
         {
           "code": "06 (中外-建环)",
           "special_group_id": "426272",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 587,
           "majors": [
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 12, "tuition": 26400, "note": "RMIT" }
-          ]
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 12,
+              "tuition": 26400,
+              "note": "RMIT"
+            }
+          ],
+          "min_rank": 47686
         }
       ]
     },
@@ -213,72 +436,160 @@
       "province_id": 44,
       "mode": "新高考3+1+2",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 588, "历史类": 569 },
+      "min_admission_2025": {
+        "物理类": 588,
+        "历史类": 569
+      },
       "groups": [
         {
           "code": "201",
           "special_group_id": "431991",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 588,
           "majors": [
-            { "spcode": "0502", "name": "外国语言文学类", "num": 5, "tuition": 5200 },
-            { "spcode": "050101", "name": "汉语言文学", "num": 5, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 2, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 },
-            { "spcode": "030101K", "name": "法学", "num": 2, "tuition": 5200 }
-          ]
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 2,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 8181
         },
         {
           "code": "202",
           "special_group_id": "432018",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类",
-          "min": null,
+          "min": 589,
           "majors": [
-            { "spcode": "0809", "name": "计算机类", "num": 15, "tuition": 5800 },
-            { "spcode": "0802", "name": "机械类", "num": 10, "tuition": 5800 },
-            { "spcode": "080601", "name": "电气工程及其自动化", "num": 8, "tuition": 5800 },
-            { "spcode": "0701", "name": "数学类", "num": 6, "tuition": 5500 },
-            { "spcode": "0810", "name": "土木类", "num": 2, "tuition": 5200 }
-          ]
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 15,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 10,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 8,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 6,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 2,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 35818
         },
         {
           "code": "203",
           "special_group_id": "432019",
           "track": "物理类",
-          "shou": "物理", "zai": "不限",
+          "shou": "物理",
+          "zai": "不限",
           "type": "普通类(文管)",
-          "min": null,
+          "min": 587,
           "majors": [
-            { "spcode": "1202", "name": "工商管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 2, "tuition": 5200 }
-          ]
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 2,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 37557
         },
         {
           "code": "204",
           "special_group_id": "432016",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 554,
           "majors": [
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 6, "tuition": 26400 }
-          ]
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 6,
+              "tuition": 26400
+            }
+          ],
+          "min_rank": 75511
         },
         {
           "code": "205",
           "special_group_id": "432017",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 545,
           "majors": [
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 6, "tuition": 26400 }
-          ]
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 6,
+              "tuition": 26400
+            }
+          ],
+          "min_rank": 88533
         }
       ]
     },
@@ -287,126 +598,347 @@
       "province_id": 42,
       "mode": "新高考3+1+2",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 593, "历史类": 581 },
+      "min_admission_2025": {
+        "物理类": 593,
+        "历史类": 581
+      },
       "groups": [
         {
           "code": "02",
           "special_group_id": "291150",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "普通类",
-          "min": null,
+          "min": 593,
           "majors": [
-            { "spcode": "050101", "name": "汉语言文学", "num": 4, "tuition": 5200 },
-            { "spcode": "0502", "name": "外国语言文学类", "num": 3, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 3, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 2, "tuition": 5200 },
-            { "spcode": "030101K", "name": "法学", "num": 2, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 1, "tuition": 5200 }
-          ]
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 4222
         },
         {
           "code": "03",
           "special_group_id": "291136",
           "track": "物理类",
-          "shou": "物理", "zai": "不限",
+          "shou": "物理",
+          "zai": "不限",
           "type": "普通类(文管)",
-          "min": null,
+          "min": 585,
           "majors": [
-            { "spcode": "120108T", "name": "大数据管理与应用", "num": 5, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 3, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 2, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 },
-            { "spcode": "120111T", "name": "应急管理", "num": 2, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 2, "tuition": 5200 }
-          ]
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 2,
+              "tuition": 5200
+            }
+          ],
+          "min_rank": 21489
         },
         {
           "code": "04",
           "special_group_id": "291135",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类(电类)",
-          "min": null,
+          "min": 605,
           "majors": [
-            { "spcode": "080601", "name": "电气工程及其自动化", "num": 6, "tuition": 5800 },
-            { "spcode": "080701", "name": "电子信息工程", "num": 5, "tuition": 5800 },
-            { "spcode": "080801", "name": "自动化", "num": 5, "tuition": 5800 },
-            { "spcode": "080717T", "name": "人工智能", "num": 5, "tuition": 5800 },
-            { "spcode": "080803T", "name": "机器人工程", "num": 3, "tuition": 5800 },
-            { "spcode": "080710T", "name": "集成电路设计与集成系统", "num": 2, "tuition": 5800 }
-          ]
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 6,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "num": 5,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 5,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 5,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "num": 2,
+              "tuition": 5800
+            }
+          ],
+          "min_rank": 12252
         },
         {
           "code": "05",
           "special_group_id": "291134",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类(主物化)",
-          "min": null,
+          "min": 587,
           "majors": [
-            { "spcode": "0809", "name": "计算机类", "num": 12, "tuition": 5800 },
-            { "spcode": "0802", "name": "机械类", "num": 12, "tuition": 5800 },
-            { "spcode": "0701", "name": "数学类", "num": 11, "tuition": 5500 },
-            { "spcode": "0815", "name": "矿业类", "num": 7, "tuition": 5200 },
-            { "spcode": "0805", "name": "能源动力类", "num": 5, "tuition": 5800 },
-            { "spcode": "0702", "name": "物理学类", "num": 4, "tuition": 5500 },
-            { "spcode": "0829", "name": "安全科学与工程类", "num": 4, "tuition": 5800 },
-            { "spcode": "0810", "name": "土木类", "num": 4, "tuition": 5200 },
-            { "spcode": "081202", "name": "遥感科学与技术", "num": 4, "tuition": 5800 },
-            { "spcode": "080102", "name": "工程力学", "num": 3, "tuition": 5800 },
-            { "spcode": "080414T", "name": "新能源材料与器件", "num": 3, "tuition": 5800 },
-            { "spcode": "080205", "name": "工业设计", "num": 2, "tuition": 5800 },
-            { "spcode": "070903T", "name": "地球信息科学与技术", "num": 2, "tuition": 5800 }
-          ]
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 12,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 12,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 11,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 7,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类",
+              "num": 5,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "num": 4,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 4,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "081202",
+              "name": "遥感科学与技术",
+              "num": 4,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "num": 2,
+              "tuition": 5800
+            },
+            {
+              "spcode": "070903T",
+              "name": "地球信息科学与技术",
+              "num": 2,
+              "tuition": 5800
+            }
+          ],
+          "min_rank": 20410
         },
         {
           "code": "06",
           "special_group_id": "291133",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 565,
           "majors": [
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 4, "tuition": 26400 }
-          ]
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 4,
+              "tuition": 26400
+            }
+          ],
+          "min_rank": 33488
         },
         {
           "code": "07",
           "special_group_id": "291132",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
-          "min": null,
+          "min": 575,
           "majors": [
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 4, "tuition": 26400 }
-          ]
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 4,
+              "tuition": 26400
+            }
+          ],
+          "min_rank": 27123
         },
         {
           "code": "08",
           "special_group_id": "291166",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "国家专项计划",
-          "min": null,
+          "min": 580,
           "majors": [
-            { "spcode": "120801", "name": "电子商务", "num": 2, "tuition": 5200, "note": "国家专项" }
-          ]
+            {
+              "spcode": "120801",
+              "name": "电子商务",
+              "num": 2,
+              "tuition": 5200,
+              "note": "国家专项"
+            }
+          ],
+          "min_rank": 24295
         },
         {
           "code": "09",
           "special_group_id": "291165",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "国家专项计划",
-          "min": null,
+          "min": 568,
           "majors": [
-            { "spcode": "082801", "name": "建筑学", "num": 3, "tuition": 5800, "length": "五年", "note": "国家专项" },
-            { "spcode": "0813", "name": "化工与制药类", "num": 2, "tuition": 5500, "note": "国家专项" },
-            { "spcode": "0812", "name": "测绘类", "num": 2, "tuition": 5500, "note": "国家专项" },
-            { "spcode": "0810", "name": "土木类", "num": 2, "tuition": 5200, "note": "国家专项" },
-            { "spcode": "082502", "name": "环境工程", "num": 2, "tuition": 5800, "note": "国家专项" }
-          ]
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "num": 3,
+              "tuition": 5800,
+              "length": "五年",
+              "note": "国家专项"
+            },
+            {
+              "spcode": "0813",
+              "name": "化工与制药类",
+              "num": 2,
+              "tuition": 5500,
+              "note": "国家专项"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 2,
+              "tuition": 5500,
+              "note": "国家专项"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 2,
+              "tuition": 5200,
+              "note": "国家专项"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "num": 2,
+              "tuition": 5800,
+              "note": "国家专项"
+            }
+          ],
+          "min_rank": 31498
         }
       ]
     },
@@ -415,28 +947,68 @@
       "province_id": 35,
       "mode": "新高考3+1+2",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 586, "历史类": 582 },
+      "min_admission_2025": {
+        "物理类": 586,
+        "历史类": 582
+      },
       "groups": [
         {
           "code": "500",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "普通类",
           "min": null,
           "majors": [
-            { "spcode": "1204", "name": "公共管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 4, "tuition": 5200 },
-            { "spcode": "050101", "name": "汉语言文学", "num": 4, "tuition": 5200 },
-            { "spcode": "0502", "name": "外国语言文学类", "num": 2, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 },
-            { "spcode": "030101K", "name": "法学", "num": 2, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 1, "tuition": 5200 }
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 1,
+              "tuition": 5200
+            }
           ]
         },
         {
           "code": "999",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类(主物化)",
           "min": null,
           "note": "物理主组, 23 个专业方向",
@@ -445,22 +1017,42 @@
         {
           "code": "888",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "中外合作办学",
           "min": null,
           "majors": [
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 4, "tuition": 26400, "note": "Griffith" },
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 4, "tuition": 26400, "note": "RMIT" }
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 4,
+              "tuition": 26400,
+              "note": "Griffith"
+            },
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 4,
+              "tuition": 26400,
+              "note": "RMIT"
+            }
           ]
         },
         {
           "code": "GX",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "spcode": "081102", "name": "水文与水资源工程", "num": 2, "tuition": 5800, "note": "高校专项" }
+            {
+              "spcode": "081102",
+              "name": "水文与水资源工程",
+              "num": 2,
+              "tuition": 5800,
+              "note": "高校专项"
+            }
           ]
         }
       ]
@@ -470,7 +1062,9 @@
       "province_id": 37,
       "mode": "新高考3+3 (综合改革, 无传统院校专业组, 按专业(类)+院校投档)",
       "uses_college_groups": false,
-      "min_admission_2025": { "综合": 590 },
+      "min_admission_2025": {
+        "综合": 590
+      },
       "groups": [
         {
           "code": "1570-普通类一段",
@@ -479,44 +1073,272 @@
           "min": 590,
           "note": "山东无院校专业组; 此处以批次代号 1570 汇总; 共 38 个专业(类)单元",
           "majors": [
-            { "spcode": "0809", "name": "计算机类", "num": 54, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080601", "name": "电气工程及其自动化", "num": 51, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0701", "name": "数学类", "num": 36, "tuition": 5500, "xuanke": "物理+化学" },
-            { "spcode": "0802", "name": "机械类", "num": 30, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080701", "name": "电子信息工程", "num": 28, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080801", "name": "自动化", "num": 28, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "1202", "name": "工商管理类", "num": 26, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "0829", "name": "安全科学与工程类", "num": 24, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0805", "name": "能源动力类", "num": 20, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080717T", "name": "人工智能", "num": 18, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0702", "name": "物理学类", "num": 17, "tuition": 5500, "xuanke": "物理+化学" },
-            { "spcode": "0815", "name": "矿业类", "num": 14, "tuition": 5200, "xuanke": "物理+化学" },
-            { "spcode": "1204", "name": "公共管理类", "num": 12, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "080803T", "name": "机器人工程", "num": 12, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080102", "name": "工程力学", "num": 10, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0502", "name": "外国语言文学类", "num": 10, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 10, "tuition": 26400, "xuanke": "物理+化学" },
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 10, "tuition": 26400, "xuanke": "物理+化学" },
-            { "spcode": "080414T", "name": "新能源材料与器件", "num": 10, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "081202", "name": "遥感科学与技术", "num": 10, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "050101", "name": "汉语言文学", "num": 10, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "030101K", "name": "法学", "num": 8, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "0813", "name": "化工与制药类", "num": 6, "tuition": 5500, "xuanke": "物理+化学" },
-            { "spcode": "080401", "name": "材料科学与工程", "num": 6, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 6, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 5, "tuition": 5200, "xuanke": "不限" },
-            { "spcode": "0812", "name": "测绘类", "num": 5, "tuition": 5500, "xuanke": "物理+化学" },
-            { "spcode": "080206", "name": "过程装备与控制工程", "num": 5, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "120108T", "name": "大数据管理与应用", "num": 5, "tuition": 5200, "xuanke": "物理必选" },
-            { "spcode": "070801", "name": "地球物理学", "num": 4, "tuition": 5500, "xuanke": "物理+化学" },
-            { "spcode": "0814", "name": "地质类", "num": 4, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080205", "name": "工业设计", "num": 4, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "070903T", "name": "地球信息科学与技术", "num": 4, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "080710T", "name": "集成电路设计与集成系统", "num": 4, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0802", "name": "机械类(孙越崎特色班)", "num": 2, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0815", "name": "矿业类(孙越崎特色班)", "num": 2, "tuition": 5200, "xuanke": "物理+化学" },
-            { "spcode": "0829", "name": "安全科学与工程类(孙越崎特色班)", "num": 2, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0805", "name": "能源动力类(孙越崎特色班)", "num": 1, "tuition": 5800, "xuanke": "物理+化学" }
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 54,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 51,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 36,
+              "tuition": 5500,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 30,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "num": 28,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 28,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 26,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 24,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类",
+              "num": 20,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 18,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "num": 17,
+              "tuition": 5500,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 14,
+              "tuition": 5200,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 12,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 12,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 10,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 10,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 10,
+              "tuition": 26400,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 10,
+              "tuition": 26400,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 10,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "081202",
+              "name": "遥感科学与技术",
+              "num": 10,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 10,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 8,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "0813",
+              "name": "化工与制药类",
+              "num": 6,
+              "tuition": 5500,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 6,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 6,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 5,
+              "tuition": 5200,
+              "xuanke": "不限"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 5,
+              "tuition": 5500,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080206",
+              "name": "过程装备与控制工程",
+              "num": 5,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5200,
+              "xuanke": "物理必选"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 4,
+              "tuition": 5500,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 4,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "num": 4,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "070903T",
+              "name": "地球信息科学与技术",
+              "num": 4,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "num": 4,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类(孙越崎特色班)",
+              "num": 2,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类(孙越崎特色班)",
+              "num": 2,
+              "tuition": 5200,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类(孙越崎特色班)",
+              "num": 2,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类(孙越崎特色班)",
+              "num": 1,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            }
           ]
         },
         {
@@ -525,12 +1347,50 @@
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "spcode": "0810", "name": "土木类", "num": 6, "tuition": 5200, "xuanke": "物理+化学" },
-            { "spcode": "082801", "name": "建筑学", "num": 4, "tuition": 5800, "length": "五年", "xuanke": "物理+化学" },
-            { "spcode": "082502", "name": "环境工程", "num": 4, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "0815", "name": "矿业类", "num": 3, "tuition": 5200, "xuanke": "物理+化学" },
-            { "spcode": "081102", "name": "水文与水资源工程", "num": 2, "tuition": 5800, "xuanke": "物理+化学" },
-            { "spcode": "082802", "name": "城乡规划", "num": 2, "tuition": 5800, "length": "五年", "xuanke": "物理+化学" }
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 6,
+              "tuition": 5200,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "num": 4,
+              "tuition": 5800,
+              "length": "五年",
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "num": 4,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 3,
+              "tuition": 5200,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "081102",
+              "name": "水文与水资源工程",
+              "num": 2,
+              "tuition": 5800,
+              "xuanke": "物理+化学"
+            },
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "num": 2,
+              "tuition": 5800,
+              "length": "五年",
+              "xuanke": "物理+化学"
+            }
           ]
         }
       ]
@@ -540,91 +1400,339 @@
       "province_id": 13,
       "mode": "新高考3+1+2",
       "uses_college_groups": true,
-      "min_admission_2025": { "物理类": 610, "历史类": 605 },
+      "min_admission_2025": {
+        "物理类": 610,
+        "历史类": 605
+      },
       "groups": [
         {
           "code": "14-2073",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "普通类 (聚合记录)",
           "min": null,
           "note": "河北 eol 仅提供聚合 special_group=0; 全省物理类 26 个专业单元归一组投档",
           "majors": [
-            { "spcode": "0809", "name": "计算机类", "num": 28, "tuition": 5800 },
-            { "spcode": "080601", "name": "电气工程及其自动化", "num": 23, "tuition": 5800 },
-            { "spcode": "0802", "name": "机械类", "num": 19, "tuition": 5800 },
-            { "spcode": "0805", "name": "能源动力类", "num": 19, "tuition": 5800 },
-            { "spcode": "0701", "name": "数学类", "num": 17, "tuition": 5500 },
-            { "spcode": "080701", "name": "电子信息工程", "num": 15, "tuition": 5800 },
-            { "spcode": "080801", "name": "自动化", "num": 14, "tuition": 5800 },
-            { "spcode": "080717T", "name": "人工智能", "num": 14, "tuition": 5800 },
-            { "spcode": "0812", "name": "测绘类", "num": 10, "tuition": 5500 },
-            { "spcode": "0829", "name": "安全科学与工程类", "num": 10, "tuition": 5800 },
-            { "spcode": "080803T", "name": "机器人工程", "num": 9, "tuition": 5800 },
-            { "spcode": "081001", "name": "土木工程(中外合作办学)", "num": 8, "tuition": 26400 },
-            { "spcode": "081002", "name": "建筑环境与能源应用工程(中外合作办学)", "num": 7, "tuition": 26400 },
-            { "spcode": "081202", "name": "遥感科学与技术", "num": 7, "tuition": 5800 },
-            { "spcode": "0702", "name": "物理学类", "num": 6, "tuition": 5500 },
-            { "spcode": "0813", "name": "化工与制药类", "num": 6, "tuition": 5500 },
-            { "spcode": "0815", "name": "矿业类", "num": 6, "tuition": 5200 },
-            { "spcode": "080414T", "name": "新能源材料与器件", "num": 5, "tuition": 5800 },
-            { "spcode": "120108T", "name": "大数据管理与应用", "num": 5, "tuition": 5200 },
-            { "spcode": "080205", "name": "工业设计", "num": 4, "tuition": 5800 },
-            { "spcode": "080710T", "name": "集成电路设计与集成系统", "num": 4, "tuition": 5800 },
-            { "spcode": "080206", "name": "过程装备与控制工程", "num": 3, "tuition": 5800 },
-            { "spcode": "070903T", "name": "地球信息科学与技术", "num": 3, "tuition": 5800 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 3, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 2, "tuition": 5200 }
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 28,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 23,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 19,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0805",
+              "name": "能源动力类",
+              "num": 19,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 17,
+              "tuition": 5500
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "num": 15,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 14,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 14,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 10,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 10,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 9,
+              "tuition": 5800
+            },
+            {
+              "spcode": "081001",
+              "name": "土木工程(中外合作办学)",
+              "num": 8,
+              "tuition": 26400
+            },
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程(中外合作办学)",
+              "num": 7,
+              "tuition": 26400
+            },
+            {
+              "spcode": "081202",
+              "name": "遥感科学与技术",
+              "num": 7,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "num": 6,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0813",
+              "name": "化工与制药类",
+              "num": 6,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 6,
+              "tuition": 5200
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 5,
+              "tuition": 5800
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5200
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "num": 4,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "num": 4,
+              "tuition": 5800
+            },
+            {
+              "spcode": "080206",
+              "name": "过程装备与控制工程",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "070903T",
+              "name": "地球信息科学与技术",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 2,
+              "tuition": 5200
+            }
           ]
         },
         {
           "code": "14-2074",
           "track": "历史类",
-          "shou": "历史", "zai": "不限",
+          "shou": "历史",
+          "zai": "不限",
           "type": "普通类 (聚合记录)",
           "min": null,
           "majors": [
-            { "spcode": "0502", "name": "外国语言文学类", "num": 12, "tuition": 5200 },
-            { "spcode": "050101", "name": "汉语言文学", "num": 10, "tuition": 5200 },
-            { "spcode": "1204", "name": "公共管理类", "num": 6, "tuition": 5200 },
-            { "spcode": "1202", "name": "工商管理类", "num": 6, "tuition": 5200 },
-            { "spcode": "030101K", "name": "法学", "num": 4, "tuition": 5200 },
-            { "spcode": "050306T", "name": "网络与新媒体", "num": 3, "tuition": 5200 },
-            { "spcode": "0204", "name": "经济与贸易类", "num": 2, "tuition": 5200 }
+            {
+              "spcode": "0502",
+              "name": "外国语言文学类",
+              "num": 12,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "num": 10,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1204",
+              "name": "公共管理类",
+              "num": 6,
+              "tuition": 5200
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 6,
+              "tuition": 5200
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0204",
+              "name": "经济与贸易类",
+              "num": 2,
+              "tuition": 5200
+            }
           ]
         },
         {
           "code": "37-国家专项",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "国家专项计划",
           "min": null,
           "majors": [
-            { "spcode": "120801", "name": "电子商务", "num": 4, "tuition": 5200 },
-            { "spcode": "082801", "name": "建筑学", "num": 3, "tuition": 5800, "length": "五年" },
-            { "spcode": "1202", "name": "工商管理类", "num": 3, "tuition": 5200 },
-            { "spcode": "0814", "name": "地质类", "num": 3, "tuition": 5800 },
-            { "spcode": "0810", "name": "土木类", "num": 3, "tuition": 5200 },
-            { "spcode": "070801", "name": "地球物理学", "num": 2, "tuition": 5500 },
-            { "spcode": "0815", "name": "矿业类", "num": 2, "tuition": 5200 },
-            { "spcode": "080401", "name": "材料科学与工程", "num": 2, "tuition": 5800 },
-            { "spcode": "082502", "name": "环境工程", "num": 2, "tuition": 5800 }
+            {
+              "spcode": "120801",
+              "name": "电子商务",
+              "num": 4,
+              "tuition": 5200
+            },
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "num": 3,
+              "tuition": 5800,
+              "length": "五年"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 3,
+              "tuition": 5800
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 2,
+              "tuition": 5500
+            },
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5800
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "num": 2,
+              "tuition": 5800
+            }
           ]
         },
         {
           "code": "86-高校专项",
           "track": "物理类",
-          "shou": "物理", "zai": "化学",
+          "shou": "物理",
+          "zai": "化学",
           "type": "高校专项计划",
           "min": null,
           "majors": [
-            { "spcode": "0815", "name": "矿业类", "num": 3, "tuition": 5200 },
-            { "spcode": "0810", "name": "土木类", "num": 3, "tuition": 5200 },
-            { "spcode": "070801", "name": "地球物理学", "num": 2, "tuition": 5500 },
-            { "spcode": "1202", "name": "工商管理类", "num": 2, "tuition": 5200 },
-            { "spcode": "120111T", "name": "应急管理", "num": 2, "tuition": 5200 },
-            { "spcode": "0814", "name": "地质类", "num": 1, "tuition": 5800 }
+            {
+              "spcode": "0815",
+              "name": "矿业类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 3,
+              "tuition": 5200
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 2,
+              "tuition": 5500
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 2,
+              "tuition": 5200
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 1,
+              "tuition": 5800
+            }
           ]
         }
       ]

@@ -378,7 +378,9 @@
             }
           ],
           "plan_total": 3,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 640,
+          "min_rank": 7928
         },
         {
           "group_code": "05",
@@ -765,7 +767,9 @@
             }
           ],
           "plan_total": 603,
-          "major_count": 17
+          "major_count": 17,
+          "min_score": 661,
+          "min_rank": 1835
         },
         {
           "group_code": "08",
@@ -814,7 +818,9 @@
             }
           ],
           "plan_total": 40,
-          "major_count": 3
+          "major_count": 3,
+          "min_score": 658,
+          "min_rank": 2414
         },
         {
           "group_code": "09",
@@ -839,7 +845,9 @@
             }
           ],
           "plan_total": 30,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 645,
+          "min_rank": 5985
         },
         {
           "group_code": "01",
@@ -864,7 +872,9 @@
             }
           ],
           "plan_total": 11,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 632,
+          "min_rank": 1111
         },
         {
           "group_code": "02",
@@ -889,7 +899,9 @@
             }
           ],
           "plan_total": 2,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 642,
+          "min_rank": 540
         },
         {
           "group_code": "03",
@@ -986,7 +998,9 @@
             }
           ],
           "plan_total": 233,
-          "major_count": 7
+          "major_count": 7,
+          "min_score": 643,
+          "min_rank": 497
         }
       ]
     },
@@ -1223,7 +1237,9 @@
             }
           ],
           "plan_total": 58,
-          "major_count": 18
+          "major_count": 18,
+          "min_score": 668,
+          "min_rank": 531
         },
         {
           "group_code": "999",
@@ -1320,7 +1336,9 @@
             }
           ],
           "plan_total": 20,
-          "major_count": 7
+          "major_count": 7,
+          "min_score": 641,
+          "min_rank": 203
         },
         {
           "group_code": "500",
@@ -1345,7 +1363,9 @@
             }
           ],
           "plan_total": 6,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 641,
+          "min_rank": 2960
         },
         {
           "group_code": "500",
@@ -1418,7 +1438,9 @@
             }
           ],
           "plan_total": 8,
-          "major_count": 5
+          "major_count": 5,
+          "min_score": 668,
+          "min_rank": 531
         }
       ]
     },
@@ -2403,7 +2425,9 @@
             }
           ],
           "plan_total": 24,
-          "major_count": 6
+          "major_count": 6,
+          "min_score": 666,
+          "min_rank": 525
         },
         {
           "group_code": "05",
@@ -2488,7 +2512,9 @@
             }
           ],
           "plan_total": 27,
-          "major_count": 6
+          "major_count": 6,
+          "min_score": 663,
+          "min_rank": 685
         },
         {
           "group_code": "02",
@@ -2573,7 +2599,9 @@
             }
           ],
           "plan_total": 25,
-          "major_count": 6
+          "major_count": 6,
+          "min_score": 646,
+          "min_rank": 223
         },
         {
           "group_code": "06",
@@ -2634,7 +2662,9 @@
             }
           ],
           "plan_total": 5,
-          "major_count": 4
+          "major_count": 4,
+          "min_score": 637,
+          "min_rank": 3538
         },
         {
           "group_code": "03",
@@ -2695,7 +2725,9 @@
             }
           ],
           "plan_total": 8,
-          "major_count": 4
+          "major_count": 4,
+          "min_score": 641,
+          "min_rank": 338
         }
       ]
     },
@@ -2884,7 +2916,9 @@
             }
           ],
           "plan_total": 93,
-          "major_count": 14
+          "major_count": 14,
+          "min_score": 674,
+          "min_rank": 716
         },
         {
           "group_code": "206",
@@ -2909,7 +2943,9 @@
             }
           ],
           "plan_total": 6,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 646,
+          "min_rank": 4611
         },
         {
           "group_code": "103",
@@ -2934,7 +2970,9 @@
             }
           ],
           "plan_total": 2,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 643,
+          "min_rank": 412
         },
         {
           "group_code": "104",
@@ -2959,7 +2997,9 @@
             }
           ],
           "plan_total": 3,
-          "major_count": 1
+          "major_count": 1,
+          "min_score": 645,
+          "min_rank": 335
         },
         {
           "group_code": "204",
@@ -3044,7 +3084,9 @@
             }
           ],
           "plan_total": 25,
-          "major_count": 6
+          "major_count": 6,
+          "min_score": 649,
+          "min_rank": 223
         },
         {
           "group_code": "702",
@@ -3105,7 +3147,9 @@
             }
           ],
           "plan_total": 5,
-          "major_count": 4
+          "major_count": 4,
+          "min_score": 644,
+          "min_rank": 4950
         }
       ]
     }

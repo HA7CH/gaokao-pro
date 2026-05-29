@@ -61,32 +61,266 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 50, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "含飞行器设计与工程、飞行器环境与生命保障工程、飞行器动力工程、飞行器制造工程、航空航天工程、飞行器控制与信息工程；将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 12, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程；一二年级常州天目湖校区，三四年级南京将军路校区"},
-            {"spcode": "080201", "name": "机械工程", "num": 9, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "080801", "name": "自动化", "num": 8, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 8, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080904K", "name": "信息安全", "num": 6, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "082103", "name": "探测制导与控制技术", "num": 5, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "兵器类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080902", "name": "软件工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "将军路校区"},
-            {"spcode": "082601", "name": "生物医学工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "生物医学工程类", "info": "只招有专业志愿考生；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080717T", "name": "人工智能", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "将军路校区"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"},
-            {"spcode": "080905", "name": "物联网工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 2, "length": "四年", "tuition": "6050", "category": "理学", "subcategory": "数学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 2, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "信息与计算科学+人工智能双学士学位；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长拔尖创新班；将军路校区"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长班；将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"}
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 50,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "含飞行器设计与工程、飞行器环境与生命保障工程、飞行器动力工程、飞行器制造工程、航空航天工程、飞行器控制与信息工程；将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程；一二年级常州天目湖校区，三四年级南京将军路校区"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "082103",
+              "name": "探测制导与控制技术",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "兵器类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "只招有专业志愿考生；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "信息与计算科学+人工智能双学士学位；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长拔尖创新班；将军路校区"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长班；将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "拔尖创新班；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"
+            }
           ]
         },
         {
@@ -99,13 +333,76 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081801", "name": "交通运输", "num": 7, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "0822", "name": "核工程类", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "核工程类", "info": "含核工程与核技术、辐射防护与核安全；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080414T", "name": "新能源材料与器件", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080504T", "name": "储能科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "将军路校区"}
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "0822",
+              "name": "核工程类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "核工程类",
+              "info": "含核工程与核技术、辐射防护与核安全；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080504T",
+              "name": "储能科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "将军路校区"
+            }
           ]
         },
         {
@@ -118,8 +415,26 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "120701", "name": "工业工程", "num": 2, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"}
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；合作方英国伦敦大学；学费拟定75000/年；将军路校区"
+            }
           ]
         },
         {
@@ -132,22 +447,166 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080401", "name": "材料科学与工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "国家专项；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080205", "name": "工业设计", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "国家专项；将军路校区"},
-            {"spcode": "070302", "name": "应用化学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "化学类", "info": "国家专项；能源方向；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "081801", "name": "交通运输", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "国家专项；一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080904K", "name": "信息安全", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "国家专项"},
-            {"spcode": "120701", "name": "工业工程", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "工业工程类", "info": "国家专项；智能制造与管理"},
-            {"spcode": "080801", "name": "自动化", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "国家专项"},
-            {"spcode": "081001", "name": "土木工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "土木类", "info": "国家专项"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "国家专项；将军路校区"},
-            {"spcode": "080905", "name": "物联网工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "国家专项"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "国家专项"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "国家专项"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "国家专项；天目湖校区"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "国家专项；含飞行器设计与工程等六个专业；将军路校区"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "国家专项；将军路校区"},
-            {"spcode": "082601", "name": "生物医学工程", "num": 1, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "生物医学工程类", "info": "国家专项"}
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "国家专项；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "国家专项；将军路校区"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "国家专项；能源方向；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "国家专项；一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "国家专项；智能制造与管理"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "081001",
+              "name": "土木工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "土木类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "国家专项；将军路校区"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "国家专项；天目湖校区"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "国家专项；含飞行器设计与工程等六个专业；将军路校区"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "国家专项；将军路校区"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "国家专项"
+            }
           ]
         }
       ]
@@ -178,17 +637,109 @@
           "xuanke": "首选历史，再选不限",
           "xuanke_detail": "历史 + 任一再选",
           "majors": [
-            {"spcode": "030101K", "name": "法学", "num": 44, "length": "四年", "tuition": "5200", "category": "法学", "subcategory": "法学类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "120203K", "name": "会计学", "num": 35, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "020301K", "name": "金融学", "num": 30, "length": "四年", "tuition": "5200", "category": "经济学", "subcategory": "金融学类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "050201", "name": "英语", "num": 15, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "国际组织/涉外法律/人工智能复合创新班，仅招英语考生"},
-            {"spcode": "120402", "name": "行政管理", "num": 13, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "公共管理类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "120203K", "name": "会计学", "num": 10, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "新文科复合创新班"},
-            {"spcode": "120201K", "name": "工商管理", "num": 10, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "商务分析与数智管理"},
-            {"spcode": "050201", "name": "英语", "num": 6, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "民航业务、国际贸易；仅招英语考生"},
-            {"spcode": "120402", "name": "行政管理", "num": 5, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "公共管理类", "info": "人工智能/航空管理复合创新班"},
-            {"spcode": "050302", "name": "广播电视学", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "新闻传播学类", "info": "前两年常州天目湖校区，后两年南京将军路校区"}
-          ]
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 44,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "num": 35,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "num": 30,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 15,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "国际组织/涉外法律/人工智能复合创新班，仅招英语考生"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 13,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "新文科复合创新班"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "商务分析与数智管理"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "民航业务、国际贸易；仅招英语考生"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "人工智能/航空管理复合创新班"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            }
+          ],
+          "min_score": 614,
+          "min_rank": 3092
         },
         {
           "group_code": "(06)",
@@ -200,37 +751,309 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 76, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "0820", "name": "航空航天类", "num": 46, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "AI复合创新班；南京将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 36, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 26, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080801", "name": "自动化", "num": 16, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080717T", "name": "人工智能", "num": 16, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 6, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 6, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "双学士学位培养项目"},
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080201", "name": "机械工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "南京将军路校区"},
-            {"spcode": "081801", "name": "交通运输", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "双学士学位项目"},
-            {"spcode": "120102", "name": "信息管理与信息系统", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080904K", "name": "信息安全", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080905", "name": "物联网工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080902", "name": "软件工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "南京将军路校区"},
-            {"spcode": "080501", "name": "能源与动力工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "南京将军路校区"},
-            {"spcode": "071202", "name": "应用统计学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "统计学类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "AI智造班；南京将军路校区"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "常州天目湖校区"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080418T", "name": "光电信息材料与器件", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "常州天目湖校区"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "南京将军路校区"},
-            {"spcode": "080207", "name": "车辆工程", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "南京将军路校区"},
-            {"spcode": "080102", "name": "工程力学", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长班；南京将军路校区"},
-            {"spcode": "080414T", "name": "新能源材料与器件", "num": 1, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "材料类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 1, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "前两年常州天目湖校区，后两年南京将军路校区"},
-            {"spcode": "080504T", "name": "储能科学与工程", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "南京将军路校区"},
-            {"spcode": "080217T", "name": "增材制造工程", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "前两年常州天目湖校区，后两年南京将军路校区"}
-          ]
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 76,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 46,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "AI复合创新班；南京将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 36,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 26,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 16,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 16,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "双学士学位培养项目"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "双学士学位项目"
+            },
+            {
+              "spcode": "120102",
+              "name": "信息管理与信息系统",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "071202",
+              "name": "应用统计学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "统计学类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "AI智造班；南京将军路校区"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "常州天目湖校区"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080418T",
+              "name": "光电信息材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "常州天目湖校区"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长班；南京将军路校区"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            },
+            {
+              "spcode": "080504T",
+              "name": "储能科学与工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "南京将军路校区"
+            },
+            {
+              "spcode": "080217T",
+              "name": "增材制造工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "前两年常州天目湖校区，后两年南京将军路校区"
+            }
+          ],
+          "min_score": 645,
+          "min_rank": 5985
         },
         {
           "group_code": "(07)",
@@ -242,9 +1065,29 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080717T", "name": "人工智能", "num": 56, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；学费约75000/年；合作方英国伦敦大学"},
-            {"spcode": "120701", "name": "工业工程", "num": 46, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；学费约75000/年；合作方英国伦敦大学"}
-          ]
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 56,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；学费约75000/年；合作方英国伦敦大学"
+            },
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 46,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；学费约75000/年；合作方英国伦敦大学"
+            }
+          ],
+          "min_score": 615,
+          "min_rank": 22495
         },
         {
           "group_code": "(08)",
@@ -256,8 +1099,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080801", "name": "自动化", "num": 54, "length": "四年", "tuition": "26400", "category": "工学", "subcategory": "自动化类", "info": "航空电子与控制；中外合作办学"}
-          ]
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 54,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "航空电子与控制；中外合作办学"
+            }
+          ],
+          "min_score": 620,
+          "min_rank": 19004
         },
         {
           "group_code": "(05)",
@@ -269,13 +1123,69 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 15, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "拔尖创新班；第一年常州，三四年南京"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 15, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "拔尖创新班；第一年常州，三四年南京"},
-            {"spcode": "0807", "name": "电子信息类", "num": 15, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "拔尖创新班；含电子信息科学与技术、信息工程"},
-            {"spcode": "080102", "name": "工程力学", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长拔尖班；南京将军路校区"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 5, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "拔尖班；第一年常州，三四年南京"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "物理学类", "info": "双学士学位项目"}
-          ]
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "拔尖创新班；第一年常州，三四年南京"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "拔尖创新班；第一年常州，三四年南京"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "拔尖创新班；含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长拔尖班；南京将军路校区"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "拔尖班；第一年常州，三四年南京"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "双学士学位项目"
+            }
+          ],
+          "min_score": 649,
+          "min_rank": 4675
         },
         {
           "group_code": "(04)",
@@ -287,8 +1197,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空创新班；南京将军路校区"}
-          ]
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空创新班；南京将军路校区"
+            }
+          ],
+          "min_score": 654,
+          "min_rank": 3281
         }
       ]
     },
@@ -318,9 +1239,29 @@
           "xuanke": "首选历史，再选不限",
           "xuanke_detail": "历史 + 任一再选",
           "majors": [
-            {"spcode": "050302", "name": "广播电视学", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "新闻传播学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "050201", "name": "英语", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "外语语种英语；民航业务/国际贸易方向"}
-          ]
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "外语语种英语；民航业务/国际贸易方向"
+            }
+          ],
+          "min_score": 603,
+          "min_rank": 4461
         },
         {
           "group_code": "(W普)",
@@ -332,29 +1273,229 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081801", "name": "交通运输", "num": 12, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "0820", "name": "航空航天类", "num": 7, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "含飞行器设计与工程等六个专业；将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计"},
-            {"spcode": "070202", "name": "应用物理学", "num": 3, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080801", "name": "自动化", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080201", "name": "机械工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "120102", "name": "信息管理与信息系统", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080904K", "name": "信息安全", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080207", "name": "车辆工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "082601", "name": "生物医学工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "生物医学工程类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "0822", "name": "核工程类", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "核工程类", "info": "含核工程与核技术、辐射防护与核安全"},
-            {"spcode": "080414T", "name": "新能源材料与器件", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "将军路校区"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "天目湖校区"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "将军路校区"}
-          ]
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "含飞行器设计与工程等六个专业；将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "120102",
+              "name": "信息管理与信息系统",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "0822",
+              "name": "核工程类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "核工程类",
+              "info": "含核工程与核技术、辐射防护与核安全"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "将军路校区"
+            }
+          ],
+          "min_score": 623,
+          "min_rank": 12716
         },
         {
           "group_code": "(W中外)",
@@ -366,9 +1507,29 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "120701", "name": "工业工程", "num": 8, "length": "四年", "tuition": "75000", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；合作方英国伦敦大学伯贝克学院"},
-            {"spcode": "080717T", "name": "人工智能", "num": 4, "length": "四年", "tuition": "75000", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；合作方英国伦敦大学伯贝克学院"}
-          ]
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；合作方英国伦敦大学伯贝克学院"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 4,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；合作方英国伦敦大学伯贝克学院"
+            }
+          ],
+          "min_score": 612,
+          "min_rank": 18767
         },
         {
           "group_code": "(W长空)",
@@ -380,8 +1541,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空创新班；含六个航空航天专业；将军路校区"}
-          ]
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空创新班；含六个航空航天专业；将军路校区"
+            }
+          ],
+          "min_score": 643,
+          "min_rank": 5243
         },
         {
           "group_code": "(提前)",
@@ -393,8 +1565,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081805K", "name": "飞行技术", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "军检院校(含公安)；仅招男生；政审面试合格；英语≥100；国航委培养"}
-          ]
+            {
+              "spcode": "081805K",
+              "name": "飞行技术",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "军检院校(含公安)；仅招男生；政审面试合格；英语≥100；国航委培养"
+            }
+          ],
+          "min_score": 575,
+          "min_rank": 49301
         },
         {
           "group_code": "(高校专项)",
@@ -406,9 +1589,29 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081801", "name": "交通运输", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "高校专项计划"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 1, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "高校专项计划"}
-          ]
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "高校专项计划"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "高校专项计划"
+            }
+          ],
+          "min_score": 599,
+          "min_rank": 27270
         }
       ]
     },
@@ -438,32 +1641,259 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 32, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "含飞行器设计与工程等六个专业；将军路校区"},
-            {"spcode": "080801", "name": "自动化", "num": 7, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 6, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "081801", "name": "交通运输", "num": 5, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "080401", "name": "材料科学与工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "将军路校区"},
-            {"spcode": "0822", "name": "核工程类", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "核工程类", "info": "含核工程与核技术、辐射防护与核安全"},
-            {"spcode": "070202", "name": "应用物理学", "num": 3, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080414T", "name": "新能源材料与器件", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080217T", "name": "增材制造工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "081801", "name": "交通运输", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "双学士学位项目"},
-            {"spcode": "080904K", "name": "信息安全", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080905", "name": "物联网工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080902", "name": "软件工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 2, "length": "四年", "tuition": "6050", "category": "理学", "subcategory": "数学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 2, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "信息与计算科学+人工智能双学士学位"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "物理学类", "info": "双学士学位项目"},
-            {"spcode": "080501", "name": "能源与动力工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "将军路校区"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长班；将军路校区"},
-            {"spcode": "082601", "name": "生物医学工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "生物医学工程类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "天目湖校区"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "将军路校区"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "将军路校区"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"}
-          ]
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 32,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "含飞行器设计与工程等六个专业；将军路校区"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "0822",
+              "name": "核工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "核工程类",
+              "info": "含核工程与核技术、辐射防护与核安全"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080217T",
+              "name": "增材制造工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "双学士学位项目"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "信息与计算科学+人工智能双学士学位"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "双学士学位项目"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长班；将军路校区"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物医学工程类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            }
+          ],
+          "min_score": 623,
+          "min_rank": 6590
         },
         {
           "group_code": "(06)",
@@ -475,9 +1905,29 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "120701", "name": "工业工程", "num": 5, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；学费约75000/年"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；学费约75000/年"}
-          ]
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；学费约75000/年"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；学费约75000/年"
+            }
+          ],
+          "min_score": 604,
+          "min_rank": 12636
         },
         {
           "group_code": "(07)",
@@ -489,8 +1939,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0", "name": "本科预科班", "num": 4, "length": "一年", "tuition": "5200", "category": "", "subcategory": "", "info": "少数民族预科；天目湖校区"}
-          ]
+            {
+              "spcode": "0",
+              "name": "本科预科班",
+              "num": 4,
+              "length": "一年",
+              "tuition": "5200",
+              "category": "",
+              "subcategory": "",
+              "info": "少数民族预科；天目湖校区"
+            }
+          ],
+          "min_score": 604,
+          "min_rank": 12636
         },
         {
           "group_code": "(04)",
@@ -502,8 +1963,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空创新班；将军路校区"}
-          ]
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空创新班；将军路校区"
+            }
+          ],
+          "min_score": 634,
+          "min_rank": 4125
         },
         {
           "group_code": "(08)",
@@ -515,16 +1987,99 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081801", "name": "交通运输", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "国家专项"},
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "国家专项"},
-            {"spcode": "070302", "name": "应用化学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "化学类", "info": "国家专项；能源方向"},
-            {"spcode": "120701", "name": "工业工程", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "工业工程类", "info": "国家专项；智能制造与管理"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "国家专项"},
-            {"spcode": "0822", "name": "核工程类", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "核工程类", "info": "国家专项"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "国家专项"},
-            {"spcode": "081008T", "name": "智能建造", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "土木类", "info": "国家专项"},
-            {"spcode": "080418T", "name": "光电信息材料与器件", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "国家专项"}
-          ]
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "国家专项；能源方向"
+            },
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "国家专项；智能制造与管理"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "0822",
+              "name": "核工程类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "核工程类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "081008T",
+              "name": "智能建造",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "土木类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "080418T",
+              "name": "光电信息材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "国家专项"
+            }
+          ],
+          "min_score": 606,
+          "min_rank": 11838
         }
       ]
     },
@@ -554,34 +2109,279 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 27, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "含飞行器设计与工程等六个专业；将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 11, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 5, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "081801", "name": "交通运输", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080905", "name": "物联网工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080801", "name": "自动化", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "080904K", "name": "信息安全", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080902", "name": "软件工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 3, "length": "四年", "tuition": "6050", "category": "理学", "subcategory": "数学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 3, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "信息与计算科学+人工智能双学士学位"},
-            {"spcode": "080717T", "name": "人工智能", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 3, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "将军路校区"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "将军路校区"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"},
-            {"spcode": "080201", "name": "机械工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "将军路校区"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080501", "name": "能源与动力工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "将军路校区"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长拔尖创新班；将军路校区"},
-            {"spcode": "082103", "name": "探测制导与控制技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "兵器类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "080414T", "name": "新能源材料与器件", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "材料类", "info": "一二年级天目湖校区，三四年级将军路校区"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "拔尖创新班"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空创新班；将军路校区"},
-            {"spcode": "080504T", "name": "储能科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "将军路校区"}
-          ]
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 27,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "含飞行器设计与工程等六个专业；将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "信息与计算科学+人工智能双学士学位"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "将军路校区"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长拔尖创新班；将军路校区"
+            },
+            {
+              "spcode": "082103",
+              "name": "探测制导与控制技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "兵器类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "一二年级天目湖校区，三四年级将军路校区"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "拔尖创新班"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空创新班；将军路校区"
+            },
+            {
+              "spcode": "080504T",
+              "name": "储能科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "将军路校区"
+            }
+          ],
+          "min_score": 629,
+          "min_rank": 5008
         },
         {
           "group_code": "(500中外)",
@@ -593,8 +2393,19 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "120701", "name": "工业工程", "num": 2, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；学费待定约75000/年"}
-          ]
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；学费待定约75000/年"
+            }
+          ],
+          "min_score": 612,
+          "min_rank": 9021
         },
         {
           "group_code": "(999)",
@@ -606,13 +2417,69 @@
           "xuanke": "首选历史，再选不限",
           "xuanke_detail": "历史 + 任一再选",
           "majors": [
-            {"spcode": "050201", "name": "英语", "num": 4, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "民航业务、国际贸易；仅招英语"},
-            {"spcode": "050302", "name": "广播电视学", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "新闻传播学类", "info": "—"},
-            {"spcode": "050207", "name": "日语", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "民航业务、人工智能；仅招外语英语/日语"},
-            {"spcode": "120203K", "name": "会计学", "num": 2, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "—"},
-            {"spcode": "020301K", "name": "金融学", "num": 2, "length": "四年", "tuition": "5200", "category": "经济学", "subcategory": "金融学类", "info": "—"},
-            {"spcode": "120402", "name": "行政管理", "num": 2, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "公共管理类", "info": "—"}
-          ]
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "民航业务、国际贸易；仅招英语"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "—"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "民航业务、人工智能；仅招外语英语/日语"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "—"
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "—"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "—"
+            }
+          ],
+          "min_score": 593,
+          "min_rank": 2250
         },
         {
           "group_code": "(高校专项)",
@@ -624,9 +2491,29 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081801", "name": "交通运输", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "航空智能运维工程；高校专项"},
-            {"spcode": "080207", "name": "车辆工程", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "高校专项"}
-          ]
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "航空智能运维工程；高校专项"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "高校专项"
+            }
+          ],
+          "min_score": 629,
+          "min_rank": 5008
         }
       ]
     },
@@ -654,44 +2541,386 @@
           "xuanke": "3+3 综合改革",
           "xuanke_detail": "首选物化任一；再选化/生/地/政之一",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 52, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "飞行器设计与工程等六个专业；将军路校区"},
-            {"spcode": "0807", "name": "电子信息类", "num": 15, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "080801", "name": "自动化", "num": 12, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "一二年级常州，三四年级南京"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "一二年级常州，三四年级南京"},
-            {"spcode": "080201", "name": "机械工程", "num": 8, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "—"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 8, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计；一二年级常州，三四年级南京"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 8, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "—"},
-            {"spcode": "080902", "name": "软件工程", "num": 6, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 6, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "—"},
-            {"spcode": "120701", "name": "工业工程", "num": 5, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；学费约75000/年"},
-            {"spcode": "080904K", "name": "信息安全", "num": 5, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "—"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "—"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 5, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "天目湖校区"},
-            {"spcode": "070202", "name": "应用物理学", "num": 4, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "物理学类", "info": "物理与信息技术双学位"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 4, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "拔尖创新班"},
-            {"spcode": "080717T", "name": "人工智能", "num": 4, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；学费约75000/年"},
-            {"spcode": "080905", "name": "物联网工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 3, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "计算科学与人工智能双学位"},
-            {"spcode": "080501", "name": "能源与动力工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "—"},
-            {"spcode": "080102", "name": "工程力学", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长班"},
-            {"spcode": "082103", "name": "探测制导与控制技术", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "兵器类", "info": "—"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "—"},
-            {"spcode": "080418T", "name": "光电信息材料与器件", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "—"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"},
-            {"spcode": "030101K", "name": "法学", "num": 2, "length": "四年", "tuition": "5200", "category": "法学", "subcategory": "法学类", "info": "—"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "拔尖创新班"},
-            {"spcode": "080207", "name": "车辆工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "—"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长拔尖创新班"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "拔尖创新班"},
-            {"spcode": "0807", "name": "电子信息类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "拔尖创新班"},
-            {"spcode": "071202", "name": "应用统计学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "统计学类", "info": "—"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "—"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空创新班"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "—"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "—"},
-            {"spcode": "080504T", "name": "储能科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "—"}
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 52,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "飞行器设计与工程等六个专业；将军路校区"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 15,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "一二年级常州，三四年级南京"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "一二年级常州，三四年级南京"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "—"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计；一二年级常州，三四年级南京"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "—"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "—"
+            },
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；学费约75000/年"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "—"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "—"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "物理与信息技术双学位"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "拔尖创新班"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 4,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；学费约75000/年"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "计算科学与人工智能双学位"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "—"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长班"
+            },
+            {
+              "spcode": "082103",
+              "name": "探测制导与控制技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "兵器类",
+              "info": "—"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "—"
+            },
+            {
+              "spcode": "080418T",
+              "name": "光电信息材料与器件",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "—"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "—"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "拔尖创新班"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "—"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长拔尖创新班"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "拔尖创新班"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "拔尖创新班"
+            },
+            {
+              "spcode": "071202",
+              "name": "应用统计学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "统计学类",
+              "info": "—"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "—"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空创新班"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "—"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "—"
+            },
+            {
+              "spcode": "080504T",
+              "name": "储能科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "—"
+            }
           ]
         },
         {
@@ -704,10 +2933,46 @@
           "xuanke": "3+3 综合改革",
           "xuanke_detail": "首选物化任一；再选化/生/地/政之一",
           "majors": [
-            {"spcode": "080418T", "name": "光电信息材料与器件", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "高校专项；一二年级常州，三四年级南京"},
-            {"spcode": "081801", "name": "交通运输", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "高校专项"},
-            {"spcode": "082103", "name": "探测制导与控制技术", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "兵器类", "info": "高校专项"},
-            {"spcode": "0822", "name": "核工程类", "num": 1, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "核工程类", "info": "高校专项；含核工程与核技术、辐射防护与核安全"}
+            {
+              "spcode": "080418T",
+              "name": "光电信息材料与器件",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "高校专项；一二年级常州，三四年级南京"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "高校专项"
+            },
+            {
+              "spcode": "082103",
+              "name": "探测制导与控制技术",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "兵器类",
+              "info": "高校专项"
+            },
+            {
+              "spcode": "0822",
+              "name": "核工程类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "核工程类",
+              "info": "高校专项；含核工程与核技术、辐射防护与核安全"
+            }
           ]
         }
       ]
@@ -738,39 +3003,336 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "0820", "name": "航空航天类", "num": 38, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "含飞行器设计与工程等六个专业"},
-            {"spcode": "0807", "name": "电子信息类", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "含电子信息科学与技术、信息工程"},
-            {"spcode": "080201", "name": "机械工程", "num": 8, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "机械类", "info": "—"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 8, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "—"},
-            {"spcode": "080801", "name": "自动化", "num": 7, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "—"},
-            {"spcode": "080704", "name": "微电子科学与工程", "num": 6, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "集成电路设计"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "—"},
-            {"spcode": "080213T", "name": "智能制造工程", "num": 5, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "机械类", "info": "—"},
-            {"spcode": "080902", "name": "软件工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 4, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "自动化类", "info": "—"},
-            {"spcode": "080803T", "name": "机器人工程", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "自动化类", "info": "AI智造班"},
-            {"spcode": "082010T", "name": "智能飞行器技术", "num": 4, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "—"},
-            {"spcode": "080904K", "name": "信息安全", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "080905", "name": "物联网工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "—"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 3, "length": "四年", "tuition": "6050", "category": "理学", "subcategory": "数学类", "info": "—"},
-            {"spcode": "070202", "name": "应用物理学", "num": 3, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "物理学类", "info": "双学士学位项目"},
-            {"spcode": "082009T", "name": "无人驾驶航空器系统工程", "num": 3, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "天目湖校区"},
-            {"spcode": "120102", "name": "信息管理与信息系统", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "—"},
-            {"spcode": "080901", "name": "计算机科学与技术", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "计算机类", "info": "拔尖班"},
-            {"spcode": "080705", "name": "光电信息科学与工程", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "电子信息类", "info": "—"},
-            {"spcode": "070102", "name": "信息与计算科学", "num": 2, "length": "四年", "tuition": "6380", "category": "理学", "subcategory": "数学类", "info": "信息与计算科学+人工智能双学士学位"},
-            {"spcode": "080501", "name": "能源与动力工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "—"},
-            {"spcode": "080102", "name": "工程力学", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "力学类", "info": "钱伟长班"},
-            {"spcode": "080601", "name": "电气工程及其自动化", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电气类", "info": "拔尖班"},
-            {"spcode": "080301", "name": "测控技术与仪器", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "仪器类", "info": "—"},
-            {"spcode": "0807", "name": "电子信息类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "拔尖班"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "—"},
-            {"spcode": "120108T", "name": "大数据管理与应用", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "拔尖班"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "长空班；含六个专业"},
-            {"spcode": "080717T", "name": "人工智能", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "电子信息类", "info": "—"},
-            {"spcode": "080504T", "name": "储能科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "能源动力类", "info": "—"},
-            {"spcode": "083203TK", "name": "低空技术与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交叉工程类", "info": "天目湖校区"}
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 38,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "含飞行器设计与工程等六个专业"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "含电子信息科学与技术、信息工程"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "—"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "—"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "—"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "集成电路设计"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "—"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "—"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "—"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "AI智造班"
+            },
+            {
+              "spcode": "082010T",
+              "name": "智能飞行器技术",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "—"
+            },
+            {
+              "spcode": "080904K",
+              "name": "信息安全",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "—"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "—"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "双学士学位项目"
+            },
+            {
+              "spcode": "082009T",
+              "name": "无人驾驶航空器系统工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "天目湖校区"
+            },
+            {
+              "spcode": "120102",
+              "name": "信息管理与信息系统",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "—"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "拔尖班"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "—"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "信息与计算科学+人工智能双学士学位"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "—"
+            },
+            {
+              "spcode": "080102",
+              "name": "工程力学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "力学类",
+              "info": "钱伟长班"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "拔尖班"
+            },
+            {
+              "spcode": "080301",
+              "name": "测控技术与仪器",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "仪器类",
+              "info": "—"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "拔尖班"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "—"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "拔尖班"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "长空班；含六个专业"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "—"
+            },
+            {
+              "spcode": "080504T",
+              "name": "储能科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": "—"
+            },
+            {
+              "spcode": "083203TK",
+              "name": "低空技术与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交叉工程类",
+              "info": "天目湖校区"
+            }
           ]
         },
         {
@@ -783,8 +3345,26 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "120701", "name": "工业工程", "num": 5, "length": "四年", "tuition": "", "category": "管理学", "subcategory": "工业工程类", "info": "中外合作办学；学费约75000/年"},
-            {"spcode": "080717T", "name": "人工智能", "num": 4, "length": "四年", "tuition": "", "category": "工学", "subcategory": "电子信息类", "info": "中外合作办学；学费约75000/年"}
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "中外合作办学；学费约75000/年"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "num": 4,
+              "length": "四年",
+              "tuition": "",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "中外合作办学；学费约75000/年"
+            }
           ]
         },
         {
@@ -797,7 +3377,16 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "081805K", "name": "飞行技术", "num": 10, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "提前批A；仅招男生"}
+            {
+              "spcode": "081805K",
+              "name": "飞行技术",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "提前批A；仅招男生"
+            }
           ]
         },
         {
@@ -810,13 +3399,76 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "国家专项"},
-            {"spcode": "081801", "name": "交通运输", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "交通运输类", "info": "国家专项"},
-            {"spcode": "120102", "name": "信息管理与信息系统", "num": 2, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "管理科学与工程类", "info": "国家专项"},
-            {"spcode": "070202", "name": "应用物理学", "num": 2, "length": "四年", "tuition": "5500", "category": "理学", "subcategory": "物理学类", "info": "国家专项"},
-            {"spcode": "082007T", "name": "飞行器适航技术", "num": 2, "length": "四年", "tuition": "5800", "category": "工学", "subcategory": "航空航天类", "info": "国家专项"},
-            {"spcode": "0820", "name": "航空航天类", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "航空航天类", "info": "国家专项"},
-            {"spcode": "120701", "name": "工业工程", "num": 1, "length": "四年", "tuition": "5720", "category": "管理学", "subcategory": "工业工程类", "info": "国家专项"}
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "081801",
+              "name": "交通运输",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "交通运输类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "120102",
+              "name": "信息管理与信息系统",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "070202",
+              "name": "应用物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "082007T",
+              "name": "飞行器适航技术",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "0820",
+              "name": "航空航天类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "国家专项"
+            },
+            {
+              "spcode": "120701",
+              "name": "工业工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工业工程类",
+              "info": "国家专项"
+            }
           ]
         },
         {
@@ -829,8 +3481,26 @@
           "xuanke": "首选物理，再选化学",
           "xuanke_detail": "物+化 或 物+化+生 或 物+化+地",
           "majors": [
-            {"spcode": "080401", "name": "材料科学与工程", "num": 2, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "材料类", "info": "高校专项"},
-            {"spcode": "082103", "name": "探测制导与控制技术", "num": 1, "length": "四年", "tuition": "6380", "category": "工学", "subcategory": "兵器类", "info": "高校专项"}
+            {
+              "spcode": "080401",
+              "name": "材料科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "高校专项"
+            },
+            {
+              "spcode": "082103",
+              "name": "探测制导与控制技术",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "兵器类",
+              "info": "高校专项"
+            }
           ]
         },
         {
@@ -843,11 +3513,56 @@
           "xuanke": "首选历史，再选不限",
           "xuanke_detail": "历史 + 任一再选",
           "majors": [
-            {"spcode": "050201", "name": "英语", "num": 4, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "外国语言文学类", "info": "民航业务/国际贸易；仅招英语"},
-            {"spcode": "120201K", "name": "工商管理", "num": 3, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "商务分析与数智管理"},
-            {"spcode": "120402", "name": "行政管理", "num": 3, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "公共管理类", "info": "—"},
-            {"spcode": "050302", "name": "广播电视学", "num": 2, "length": "四年", "tuition": "5200", "category": "文学", "subcategory": "新闻传播学类", "info": "—"},
-            {"spcode": "120203K", "name": "会计学", "num": 2, "length": "四年", "tuition": "5200", "category": "管理学", "subcategory": "工商管理类", "info": "—"}
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "民航业务/国际贸易；仅招英语"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "商务分析与数智管理"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "—"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "—"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "—"
+            }
           ]
         }
       ]

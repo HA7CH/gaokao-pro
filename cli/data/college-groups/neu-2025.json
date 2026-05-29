@@ -20,142 +20,380 @@
     "school_min_2025 来自 info.json 的 province_score_min（统招批最低投档分；不区分专业组）。"
   ],
   "school_min_2025": {
-    "henan": { "type": 2073, "min": 627, "track": "物理类" },
-    "henan_history": { "type": 2074, "min": 621, "track": "历史类" },
-    "jiangsu": { "type": 2073, "min": 629, "track": "物理类" },
-    "jiangsu_history": { "type": 2074, "min": 613, "track": "历史类" },
-    "guangdong": { "type": 2073, "min": 610, "track": "物理类" },
-    "hubei": { "type": 2073, "min": 605, "track": "物理类" },
-    "hubei_history": { "type": 2074, "min": 601, "track": "历史类" },
-    "fujian": { "type": 2073, "min": 608, "track": "物理类" },
-    "fujian_history": { "type": 2074, "min": 599, "track": "历史类" },
-    "shandong": { "type": 3, "min": 602, "track": "综合改革" },
-    "hebei": { "type": 2073, "min": 617, "track": "物理类" },
-    "hebei_history": { "type": 2074, "min": 620, "track": "历史类" }
+    "henan": {
+      "type": 2073,
+      "min": 627,
+      "track": "物理类"
+    },
+    "henan_history": {
+      "type": 2074,
+      "min": 621,
+      "track": "历史类"
+    },
+    "jiangsu": {
+      "type": 2073,
+      "min": 629,
+      "track": "物理类"
+    },
+    "jiangsu_history": {
+      "type": 2074,
+      "min": 613,
+      "track": "历史类"
+    },
+    "guangdong": {
+      "type": 2073,
+      "min": 610,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": 2073,
+      "min": 605,
+      "track": "物理类"
+    },
+    "hubei_history": {
+      "type": 2074,
+      "min": 601,
+      "track": "历史类"
+    },
+    "fujian": {
+      "type": 2073,
+      "min": 608,
+      "track": "物理类"
+    },
+    "fujian_history": {
+      "type": 2074,
+      "min": 599,
+      "track": "历史类"
+    },
+    "shandong": {
+      "type": 3,
+      "min": 602,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": 2073,
+      "min": 617,
+      "track": "物理类"
+    },
+    "hebei_history": {
+      "type": 2074,
+      "min": 620,
+      "track": "历史类"
+    }
   },
   "provinces": {
-    "41": {
-      "name": "河南",
+    "13": {
+      "name": "河北",
       "regime": "新高考3+1+2",
+      "note": "河北 2025 院校专业组层在 gaokao.cn 数据中 special_group=0，本表按 track+招生类型+批次维度组织",
       "groups": [
         {
-          "group_code": "368910",
-          "sg_name": "(101)",
+          "group_code": "13_2073_pt",
+          "sg_name": "首选物理+再选化学·普通类",
           "track": "物理类",
-          "subject_req": "首选物理，再选化学",
+          "subject_req": "首选物理，再选化学(部分专业不限再选)",
           "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 92,
+          "zslx": "普通类+中外合作",
+          "total_num": 174,
           "items": [
-            { "sp_name": "材料类", "spcode": "0804", "num": 16, "tuition": 6240, "info_short": "材料科学与工程/材料成型及控制工程/材料物理" },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 13, "tuition": 6240, "info_short": "自动化/电气工程及其自动化/测控技术与仪器/电子科学与技术/工业智能" },
-            { "sp_name": "机械类", "spcode": "0802", "num": 12, "tuition": 6240, "info_short": "机械工程/过程装备与控制工程/车辆工程/工业设计" },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 12, "tuition": 6240 },
-            { "sp_name": "计算机类", "spcode": "0809", "num": 8, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术；大一大二 5200" },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 7, "tuition": 6240 },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 6, "tuition": 6240 },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 5, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 5, "tuition": 6240, "info_short": "电子信息工程/通信工程" },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 4, "tuition": 6240 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 4, "tuition": 6240 },
-            { "sp_name": "智能医学工程", "spcode": "101011T", "num": 3, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 2, "tuition": 16000, "info_short": "大一大二 5200" },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240, "info_short": "数学与应用数学/信息与计算科学" },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "生物工程类", "spcode": "0830", "num": 2, "tuition": 6240, "info_short": "生物工程/生物制药" },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 6240 }
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 30,
+              "tuition": 6240,
+              "info_short": "机械工程/过程装备/车辆/工业设计"
+            },
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 21,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术"
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 21,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 18,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "经济管理试验班",
+              "num": 17,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 16,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料科学与工程(中外合作)",
+              "spcode": "080401",
+              "num": 14,
+              "tuition": 30000,
+              "info_short": "法国图卢兹第三大学"
+            },
+            {
+              "sp_name": "生物医学工程(中外合作)",
+              "spcode": "082601",
+              "num": 11,
+              "tuition": 45000,
+              "info_short": "英国邓迪大学"
+            },
+            {
+              "sp_name": "工科试验班(1)",
+              "num": 10,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(2)",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "建筑类",
+              "spcode": "0828",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 4,
+              "tuition": 16000
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类",
+              "spcode": "0830",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 2,
+              "tuition": 6240
+            }
           ]
         },
         {
-          "group_code": "368909",
-          "sg_name": "(102)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 32,
-          "items": [
-            { "sp_name": "经济管理试验班", "num": 28, "tuition": 6240, "info_short": "工商管理/市场营销/会计学/工业工程/信息管理与信息系统/金融学/经济学" },
-            { "sp_name": "建筑类", "spcode": "0828", "num": 4, "tuition": 6240, "info_short": "建筑学/城乡规划" }
-          ]
-        },
-        {
-          "group_code": "368908",
-          "sg_name": "(106)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 53,
-          "items": [
-            { "sp_name": "工科试验班(1)", "num": 27, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "工科试验班(2)", "num": 16, "tuition": 6240, "info_short": "矿物加工工程/测绘工程/资源勘查工程/环境工程/安全工程/土木工程" },
-            { "sp_name": "化学类", "spcode": "0703", "num": 8, "tuition": 6240, "info_short": "化学/应用化学" },
-            { "sp_name": "智能采矿工程", "spcode": "081507T", "num": 2, "tuition": 6240 }
-          ]
-        },
-        {
-          "group_code": "368907",
-          "sg_name": "(205)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 14,
-          "items": [
-            { "sp_name": "材料科学与工程(中外合作)", "spcode": "080401", "num": 10, "tuition": 30000, "info_short": "法国图卢兹第三大学；国外学费4148欧元/年" },
-            { "sp_name": "生物医学工程(中外合作)", "spcode": "082601", "num": 4, "tuition": 45000, "info_short": "英国邓迪大学；第四年学费按邓迪标准约28941英镑/年" }
-          ]
-        },
-        {
-          "group_code": "368927",
-          "sg_name": "(301)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 60,
-          "items": [
-            { "sp_name": "工科试验班(国家专项)(2)", "num": 21, "tuition": 6240, "info_short": "矿物加工工程/测绘工程/资源勘查工程/环境工程/安全工程/土木工程" },
-            { "sp_name": "工科试验班(国家专项)(1)", "num": 14, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "化学类(国家专项)", "spcode": "0703", "num": 10, "tuition": 6240 },
-            { "sp_name": "材料类(国家专项)", "spcode": "0804", "num": 3, "tuition": 6240 },
-            { "sp_name": "生物工程类(国家专项)", "spcode": "0830", "num": 3, "tuition": 6240 },
-            { "sp_name": "智能采矿工程(国家专项)", "spcode": "081507T", "num": 3, "tuition": 6240 },
-            { "sp_name": "电子信息类(国家专项)", "spcode": "0807", "num": 1, "tuition": 6240 },
-            { "sp_name": "自动化类(国家专项)", "spcode": "0808", "num": 1, "tuition": 6240 },
-            { "sp_name": "机械类(国家专项)", "spcode": "0802", "num": 1, "tuition": 6240 },
-            { "sp_name": "数学类(国家专项)", "spcode": "0701", "num": 1, "tuition": 6240 },
-            { "sp_name": "计算机科学与技术(国家专项)", "spcode": "080901", "num": 1, "tuition": 6240 },
-            { "sp_name": "应用物理学(国家专项)", "spcode": "070202", "num": 1, "tuition": 6240 }
-          ]
-        },
-        {
-          "group_code": "368951",
-          "sg_name": "(103)",
+          "group_code": "13_2074_pt",
+          "sg_name": "首选历史·普通类",
           "track": "历史类",
           "subject_req": "首选历史，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 37,
+          "total_num": 35,
           "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 22, "tuition": 6240, "info_short": "英语/日语/俄语/德语；只招英语语种" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 15, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" }
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 15,
+              "tuition": 6240,
+              "info_short": "英/日/俄/德；只招英语"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 14,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            },
+            {
+              "sp_name": "人文科学试验班",
+              "num": 6,
+              "tuition": 5760,
+              "info_short": "思想政治教育/哲学"
+            }
           ]
         },
         {
-          "group_code": "368950",
-          "sg_name": "(104)",
-          "track": "历史类",
-          "subject_req": "首选历史，再选思想政治",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 5,
+          "group_code": "13_2073_gjzx",
+          "sg_name": "国家专项·物化",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 14,
           "items": [
-            { "sp_name": "人文科学试验班", "num": 5, "tuition": 5760, "info_short": "思想政治教育/哲学" }
+            {
+              "sp_name": "工科试验班(国家专项)(2)",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "智能采矿工程(国家专项)",
+              "spcode": "081507T",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(国家专项)(1)",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "机械类(国家专项)",
+              "spcode": "0802",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类(国家专项)",
+              "spcode": "0804",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类(国家专项)",
+              "spcode": "0701",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类(国家专项)",
+              "spcode": "0703",
+              "num": 1,
+              "tuition": 6240
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_gxzx",
+          "sg_name": "高校专项·物化",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 12,
+          "items": [
+            {
+              "sp_name": "建筑类(高校专项)",
+              "spcode": "0828",
+              "num": 3,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            },
+            {
+              "sp_name": "工科试验班(2)(高校专项)",
+              "num": 3,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "经济管理试验班(高校专项)",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机械类(高校专项)",
+              "spcode": "0802",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类(高校专项)",
+              "spcode": "0804",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(1)(高校专项)",
+              "num": 1,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "物联网工程(高校专项)",
+              "spcode": "080905",
+              "num": 1,
+              "tuition": 6240
+            }
           ]
         }
       ]
@@ -173,9 +411,23 @@
           "zslx": "普通类",
           "total_num": 7,
           "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 4, "tuition": 6240, "info_short": "英/日/俄/德；只招英语" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 3, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" }
-          ]
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "英/日/俄/德；只招英语"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 3,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            }
+          ],
+          "min_score": 613,
+          "min_rank": 3261
         },
         {
           "group_code": "426407",
@@ -186,9 +438,22 @@
           "zslx": "普通类",
           "total_num": 7,
           "items": [
-            { "sp_name": "经济管理试验班", "num": 5, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" },
-            { "sp_name": "建筑类", "spcode": "0828", "num": 2, "tuition": 6240, "info_short": "建筑学/城乡规划" }
-          ]
+            {
+              "sp_name": "经济管理试验班",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            },
+            {
+              "sp_name": "建筑类",
+              "spcode": "0828",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            }
+          ],
+          "min_score": 624,
+          "min_rank": 16379
         },
         {
           "group_code": "426406",
@@ -199,265 +464,140 @@
           "zslx": "普通类",
           "total_num": 84,
           "items": [
-            { "sp_name": "计算机类", "spcode": "0809", "num": 13, "tuition": 5200, "info_short": "软件工程/信息安全/数字媒体技术；大三大四 16000" },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 8, "tuition": 6240 },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 8, "tuition": 6240, "info_short": "自动化/电气/测控/电子/工业智能" },
-            { "sp_name": "机械类", "spcode": "0802", "num": 8, "tuition": 6240, "info_short": "机械工程/过程装备/车辆/工业设计" },
-            { "sp_name": "材料类", "spcode": "0804", "num": 8, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 5, "tuition": 6240, "info_short": "电子信息工程/通信工程" },
-            { "sp_name": "工科试验班", "num": 4, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 4, "tuition": 6240 },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 3, "tuition": 5200, "info_short": "大三大四 16000" },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 3, "tuition": 6240 },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 3, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 2, "tuition": 6240 },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 2, "tuition": 6240 },
-            { "sp_name": "化学类", "spcode": "0703", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 6240 },
-            { "sp_name": "智能采矿工程", "spcode": "081507T", "num": 2, "tuition": 6240 }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "432140",
-          "sg_name": "(216)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 14,
-          "items": [
-            { "sp_name": "计算机类", "spcode": "0809", "num": 12, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术" },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 2, "tuition": 16000 }
-          ]
-        },
-        {
-          "group_code": "432141",
-          "sg_name": "(215)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 5,
-          "items": [
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 5, "tuition": 6240, "info_short": "不招单色识别不全者" }
-          ]
-        },
-        {
-          "group_code": "432142",
-          "sg_name": "(214)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 18,
-          "items": [
-            { "sp_name": "生物医学工程(中外合作)", "spcode": "082601", "num": 18, "tuition": 45000, "info_short": "英国邓迪大学" }
-          ]
-        },
-        {
-          "group_code": "432143",
-          "sg_name": "(213)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 17,
-          "items": [
-            { "sp_name": "材料科学与工程(中外合作)", "spcode": "080401", "num": 17, "tuition": 30000, "info_short": "法国图卢兹第三大学" }
-          ]
-        },
-        {
-          "group_code": "432144",
-          "sg_name": "(212)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 5,
-          "items": [
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 5, "tuition": 6240, "info_short": "不招色盲/单色识别不全" }
-          ]
-        },
-        {
-          "group_code": "432145",
-          "sg_name": "(211)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 6,
-          "items": [
-            { "sp_name": "智能医学工程", "spcode": "101011T", "num": 2, "tuition": 6240, "info_short": "不招色盲色弱" },
-            { "sp_name": "生物工程类", "spcode": "0830", "num": 2, "tuition": 6240, "info_short": "生物工程/生物制药" },
-            { "sp_name": "化学类", "spcode": "0703", "num": 2, "tuition": 6240, "info_short": "化学/应用化学" }
-          ]
-        },
-        {
-          "group_code": "432146",
-          "sg_name": "(210)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 74,
-          "items": [
-            { "sp_name": "机械类", "spcode": "0802", "num": 13, "tuition": 6240, "info_short": "机械工程/过程装备/车辆/工业设计" },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 10, "tuition": 6240 },
-            { "sp_name": "材料类", "spcode": "0804", "num": 9, "tuition": 6240 },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 8, "tuition": 6240 },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 6, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 5, "tuition": 6240 },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 5, "tuition": 6240 },
-            { "sp_name": "工科试验班", "num": 4, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 6240 }
-          ]
-        },
-        {
-          "group_code": "432147",
-          "sg_name": "(209)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 8,
-          "items": [
-            { "sp_name": "经济管理试验班", "num": 8, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" }
-          ]
-        },
-        {
-          "group_code": "432148",
-          "sg_name": "(208)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 2,
-          "items": [
-            { "sp_name": "建筑类", "spcode": "0828", "num": 2, "tuition": 6240, "info_short": "建筑学/城乡规划" }
-          ]
-        },
-        {
-          "group_code": "258692",
-          "sg_name": "(702)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            { "sp_name": "经济管理试验班(高校专项)", "num": 1, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "name": "湖北",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "291309",
-          "sg_name": "(02)",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 9,
-          "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 6, "tuition": 6240, "info_short": "英/日/俄/德；只招英语" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 3, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" }
-          ]
-        },
-        {
-          "group_code": "291293",
-          "sg_name": "(03)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 8,
-          "items": [
-            { "sp_name": "经济管理试验班", "num": 8, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" }
-          ]
-        },
-        {
-          "group_code": "291292",
-          "sg_name": "(04)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 74,
-          "items": [
-            { "sp_name": "机械类", "spcode": "0802", "num": 9, "tuition": 6240, "info_short": "机械工程/过程装备/车辆/工业设计" },
-            { "sp_name": "计算机类", "spcode": "0809", "num": 9, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术" },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 6, "tuition": 6240 },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 6, "tuition": 6240 },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 6, "tuition": 6240 },
-            { "sp_name": "材料类", "spcode": "0804", "num": 5, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 4, "tuition": 6240 },
-            { "sp_name": "工科试验班", "num": 4, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "智能采矿工程", "spcode": "081507T", "num": 4, "tuition": 6240 },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 3, "tuition": 6240 },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 3, "tuition": 6240 },
-            { "sp_name": "智能医学工程", "spcode": "101011T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 2, "tuition": 16000 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240 },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 2, "tuition": 6240 },
-            { "sp_name": "生物工程类", "spcode": "0830", "num": 2, "tuition": 6240 },
-            { "sp_name": "化学类", "spcode": "0703", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 6240 }
-          ]
-        },
-        {
-          "group_code": "291291",
-          "sg_name": "(05)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "中外合作",
-          "total_num": 7,
-          "items": [
-            { "sp_name": "材料科学与工程(中外合作)", "spcode": "080401", "num": 7, "tuition": 30000, "info_short": "法国图卢兹第三大学" }
-          ]
-        },
-        {
-          "group_code": "291319",
-          "sg_name": "(06)",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "国家专项计划",
-          "total_num": 21,
-          "items": [
-            { "sp_name": "工科试验班(国家专项)(2)", "num": 7, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程；须达到特控线" },
-            { "sp_name": "工科试验班(国家专项)(1)", "num": 6, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "智能采矿工程(国家专项)", "spcode": "081507T", "num": 3, "tuition": 6240 },
-            { "sp_name": "材料类(国家专项)", "spcode": "0804", "num": 2, "tuition": 6240 },
-            { "sp_name": "电子信息类(国家专项)", "spcode": "0807", "num": 1, "tuition": 6240 },
-            { "sp_name": "机械类(国家专项)", "spcode": "0802", "num": 1, "tuition": 6240 },
-            { "sp_name": "生物工程类(国家专项)", "spcode": "0830", "num": 1, "tuition": 6240 }
-          ]
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 13,
+              "tuition": 5200,
+              "info_short": "软件工程/信息安全/数字媒体技术；大三大四 16000"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 8,
+              "tuition": 6240,
+              "info_short": "自动化/电气/测控/电子/工业智能"
+            },
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 8,
+              "tuition": 6240,
+              "info_short": "机械工程/过程装备/车辆/工业设计"
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "电子信息工程/通信工程"
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 3,
+              "tuition": 5200,
+              "info_short": "大三大四 16000"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能采矿工程",
+              "spcode": "081507T",
+              "num": 2,
+              "tuition": 6240
+            }
+          ],
+          "min_score": 634,
+          "min_rank": 10750
         }
       ]
     },
@@ -474,9 +614,23 @@
           "zslx": "普通类",
           "total_num": 9,
           "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 6, "tuition": 6240, "info_short": "英/日/俄/德；只招英语" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 3, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" }
-          ]
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 6,
+              "tuition": 6240,
+              "info_short": "英/日/俄/德；只招英语"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 3,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            }
+          ],
+          "min_score": 599,
+          "min_rank": 1821
         },
         {
           "group_code": "393481",
@@ -487,8 +641,15 @@
           "zslx": "普通类",
           "total_num": 13,
           "items": [
-            { "sp_name": "经济管理试验班", "num": 13, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" }
-          ]
+            {
+              "sp_name": "经济管理试验班",
+              "num": 13,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            }
+          ],
+          "min_score": 614,
+          "min_rank": 8461
         },
         {
           "group_code": "393479",
@@ -499,28 +660,136 @@
           "zslx": "普通类",
           "total_num": 99,
           "items": [
-            { "sp_name": "计算机类", "spcode": "0809", "num": 15, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术" },
-            { "sp_name": "机械类", "spcode": "0802", "num": 12, "tuition": 6240 },
-            { "sp_name": "材料类", "spcode": "0804", "num": 10, "tuition": 6240 },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 9, "tuition": 6240 },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 8, "tuition": 6240 },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 8, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 4, "tuition": 6240 },
-            { "sp_name": "工科试验班(1)", "num": 4, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 4, "tuition": 6240 },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 3, "tuition": 6240 },
-            { "sp_name": "智能医学工程", "spcode": "101011T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 2, "tuition": 16000 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 2, "tuition": 6240 },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 2, "tuition": 6240 },
-            { "sp_name": "化学类", "spcode": "0703", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 6240 }
-          ]
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 15,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术"
+            },
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 12,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 10,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 9,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(1)",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 2,
+              "tuition": 16000
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 2,
+              "tuition": 6240
+            }
+          ],
+          "min_score": 621,
+          "min_rank": 6705
         },
         {
           "group_code": "393479_gxzx",
@@ -531,9 +800,23 @@
           "zslx": "高校专项计划",
           "total_num": 3,
           "items": [
-            { "sp_name": "经济管理试验班(高校专项)", "num": 1, "tuition": 6240 },
-            { "sp_name": "工科试验班(1类)(高校专项)", "num": 1, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "工科试验班(2类)(高校专项)", "num": 1, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程" }
+            {
+              "sp_name": "经济管理试验班(高校专项)",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(1类)(高校专项)",
+              "num": 1,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "工科试验班(2类)(高校专项)",
+              "num": 1,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程"
+            }
           ]
         }
       ]
@@ -552,35 +835,185 @@
           "zslx": "普通类+中外合作办学",
           "total_num": 196,
           "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 20, "tuition": 6240, "info_short": "英/日/俄/德；只招英语" },
-            { "sp_name": "机械类", "spcode": "0802", "num": 18, "tuition": 6240 },
-            { "sp_name": "计算机类", "spcode": "0809", "num": 16, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术" },
-            { "sp_name": "材料类", "spcode": "0804", "num": 14, "tuition": 6240 },
-            { "sp_name": "经济管理试验班", "num": 13, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 11, "tuition": 6240 },
-            { "sp_name": "材料科学与工程(中外合作)", "spcode": "080401", "num": 11, "tuition": 30000, "info_short": "法国图卢兹第三大学" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 10, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" },
-            { "sp_name": "工科试验班(1)", "num": 10, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 10, "tuition": 6240 },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 8, "tuition": 6240 },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 7, "tuition": 6240 },
-            { "sp_name": "人文科学试验班", "num": 7, "tuition": 5760, "info_short": "思想政治教育/哲学" },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 6, "tuition": 6240 },
-            { "sp_name": "化学类", "spcode": "0703", "num": 6, "tuition": 6240 },
-            { "sp_name": "智能采矿工程", "spcode": "081507T", "num": 6, "tuition": 6240 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 5, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 4, "tuition": 6240 },
-            { "sp_name": "智能医学工程", "spcode": "101011T", "num": 4, "tuition": 6240 },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 4, "tuition": 6240 },
-            { "sp_name": "生物医学工程(中外合作)", "spcode": "082601", "num": 4, "tuition": 45000, "info_short": "英国邓迪大学" },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 4, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 3, "tuition": 6240 },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 3, "tuition": 16000 },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 3, "tuition": 6240 },
-            { "sp_name": "生物工程类", "spcode": "0830", "num": 3, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 3, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 }
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 20,
+              "tuition": 6240,
+              "info_short": "英/日/俄/德；只招英语"
+            },
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 18,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 16,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术"
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 14,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "经济管理试验班",
+              "num": 13,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 11,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料科学与工程(中外合作)",
+              "spcode": "080401",
+              "num": 11,
+              "tuition": 30000,
+              "info_short": "法国图卢兹第三大学"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 10,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            },
+            {
+              "sp_name": "工科试验班(1)",
+              "num": 10,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 10,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 7,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人文科学试验班",
+              "num": 7,
+              "tuition": 5760,
+              "info_short": "思想政治教育/哲学"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能采矿工程",
+              "spcode": "081507T",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物医学工程(中外合作)",
+              "spcode": "082601",
+              "num": 4,
+              "tuition": 45000,
+              "info_short": "英国邓迪大学"
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 3,
+              "tuition": 16000
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类",
+              "spcode": "0830",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            }
           ]
         },
         {
@@ -592,110 +1025,998 @@
           "zslx": "高校专项计划",
           "total_num": 19,
           "items": [
-            { "sp_name": "工科试验班(2)(高校专项)", "num": 5, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程" },
-            { "sp_name": "建筑类(高校专项)", "spcode": "0828", "num": 3, "tuition": 6240, "info_short": "建筑学/城乡规划" },
-            { "sp_name": "经济管理试验班(高校专项)", "num": 3, "tuition": 6240 },
-            { "sp_name": "智能采矿工程(高校专项)", "spcode": "081507T", "num": 3, "tuition": 6240 },
-            { "sp_name": "机械类(高校专项)", "spcode": "0802", "num": 1, "tuition": 6240 },
-            { "sp_name": "材料类(高校专项)", "spcode": "0804", "num": 1, "tuition": 6240 },
-            { "sp_name": "工科试验班(1)(高校专项)", "num": 1, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "能源与动力工程(高校专项)", "spcode": "080501", "num": 1, "tuition": 6240 },
-            { "sp_name": "计算机科学与技术(高校专项)", "spcode": "080901", "num": 1, "tuition": 6240 }
+            {
+              "sp_name": "工科试验班(2)(高校专项)",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "建筑类(高校专项)",
+              "spcode": "0828",
+              "num": 3,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            },
+            {
+              "sp_name": "经济管理试验班(高校专项)",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能采矿工程(高校专项)",
+              "spcode": "081507T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机械类(高校专项)",
+              "spcode": "0802",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类(高校专项)",
+              "spcode": "0804",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班(1)(高校专项)",
+              "num": 1,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "能源与动力工程(高校专项)",
+              "spcode": "080501",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机科学与技术(高校专项)",
+              "spcode": "080901",
+              "num": 1,
+              "tuition": 6240
+            }
           ]
         }
       ]
     },
-    "13": {
-      "name": "河北",
+    "41": {
+      "name": "河南",
       "regime": "新高考3+1+2",
-      "note": "河北 2025 院校专业组层在 gaokao.cn 数据中 special_group=0，本表按 track+招生类型+批次维度组织",
       "groups": [
         {
-          "group_code": "13_2073_pt",
-          "sg_name": "首选物理+再选化学·普通类",
+          "group_code": "368910",
+          "sg_name": "(101)",
           "track": "物理类",
-          "subject_req": "首选物理，再选化学(部分专业不限再选)",
+          "subject_req": "首选物理，再选化学",
           "batch": "本科批",
-          "zslx": "普通类+中外合作",
-          "total_num": 174,
+          "zslx": "普通类",
+          "total_num": 92,
           "items": [
-            { "sp_name": "机械类", "spcode": "0802", "num": 30, "tuition": 6240, "info_short": "机械工程/过程装备/车辆/工业设计" },
-            { "sp_name": "计算机类", "spcode": "0809", "num": 21, "tuition": 16000, "info_short": "软件工程/信息安全/数字媒体技术" },
-            { "sp_name": "材料类", "spcode": "0804", "num": 21, "tuition": 6240 },
-            { "sp_name": "自动化类", "spcode": "0808", "num": 18, "tuition": 6240 },
-            { "sp_name": "经济管理试验班", "num": 17, "tuition": 6240, "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学" },
-            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 16, "tuition": 6240 },
-            { "sp_name": "材料科学与工程(中外合作)", "spcode": "080401", "num": 14, "tuition": 30000, "info_short": "法国图卢兹第三大学" },
-            { "sp_name": "生物医学工程(中外合作)", "spcode": "082601", "num": 11, "tuition": 45000, "info_short": "英国邓迪大学" },
-            { "sp_name": "工科试验班(1)", "num": 10, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "计算机科学与技术", "spcode": "080901", "num": 8, "tuition": 6240 },
-            { "sp_name": "机器人工程", "spcode": "080803T", "num": 6, "tuition": 6240 },
-            { "sp_name": "能源与动力工程", "spcode": "080501", "num": 6, "tuition": 6240 },
-            { "sp_name": "电子信息类", "spcode": "0807", "num": 5, "tuition": 6240 },
-            { "sp_name": "工科试验班(2)", "num": 5, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程" },
-            { "sp_name": "应用物理学", "spcode": "070202", "num": 5, "tuition": 6240 },
-            { "sp_name": "建筑类", "spcode": "0828", "num": 4, "tuition": 6240, "info_short": "建筑学/城乡规划" },
-            { "sp_name": "软件工程(特色班)", "spcode": "080902", "num": 4, "tuition": 16000 },
-            { "sp_name": "工程力学", "spcode": "080102", "num": 4, "tuition": 6240 },
-            { "sp_name": "人工智能(未来技术学院)", "spcode": "080717T", "num": 3, "tuition": 6240 },
-            { "sp_name": "生物工程类", "spcode": "0830", "num": 3, "tuition": 6240 },
-            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 3, "tuition": 6240 },
-            { "sp_name": "人工智能", "spcode": "080717T", "num": 2, "tuition": 6240 },
-            { "sp_name": "数学类", "spcode": "0701", "num": 2, "tuition": 6240 },
-            { "sp_name": "新能源科学与工程", "spcode": "080503T", "num": 2, "tuition": 6240 },
-            { "sp_name": "物联网工程", "spcode": "080905", "num": 2, "tuition": 6240 },
-            { "sp_name": "化学类", "spcode": "0703", "num": 2, "tuition": 6240 }
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 16,
+              "tuition": 6240,
+              "info_short": "材料科学与工程/材料成型及控制工程/材料物理"
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 13,
+              "tuition": 6240,
+              "info_short": "自动化/电气工程及其自动化/测控技术与仪器/电子科学与技术/工业智能"
+            },
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 12,
+              "tuition": 6240,
+              "info_short": "机械工程/过程装备与控制工程/车辆工程/工业设计"
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 12,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 8,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术；大一大二 5200"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 7,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "电子信息工程/通信工程"
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 2,
+              "tuition": 16000,
+              "info_short": "大一大二 5200"
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "数学与应用数学/信息与计算科学"
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类",
+              "spcode": "0830",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "生物工程/生物制药"
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 2,
+              "tuition": 6240
+            }
           ]
         },
         {
-          "group_code": "13_2074_pt",
-          "sg_name": "首选历史·普通类",
+          "group_code": "368909",
+          "sg_name": "(102)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "经济管理试验班",
+              "num": 28,
+              "tuition": 6240,
+              "info_short": "工商管理/市场营销/会计学/工业工程/信息管理与信息系统/金融学/经济学"
+            },
+            {
+              "sp_name": "建筑类",
+              "spcode": "0828",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            }
+          ]
+        },
+        {
+          "group_code": "368908",
+          "sg_name": "(106)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 53,
+          "items": [
+            {
+              "sp_name": "工科试验班(1)",
+              "num": 27,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "工科试验班(2)",
+              "num": 16,
+              "tuition": 6240,
+              "info_short": "矿物加工工程/测绘工程/资源勘查工程/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 8,
+              "tuition": 6240,
+              "info_short": "化学/应用化学"
+            },
+            {
+              "sp_name": "智能采矿工程",
+              "spcode": "081507T",
+              "num": 2,
+              "tuition": 6240
+            }
+          ]
+        },
+        {
+          "group_code": "368907",
+          "sg_name": "(205)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "材料科学与工程(中外合作)",
+              "spcode": "080401",
+              "num": 10,
+              "tuition": 30000,
+              "info_short": "法国图卢兹第三大学；国外学费4148欧元/年"
+            },
+            {
+              "sp_name": "生物医学工程(中外合作)",
+              "spcode": "082601",
+              "num": 4,
+              "tuition": 45000,
+              "info_short": "英国邓迪大学；第四年学费按邓迪标准约28941英镑/年"
+            }
+          ]
+        },
+        {
+          "group_code": "368927",
+          "sg_name": "(301)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "total_num": 60,
+          "items": [
+            {
+              "sp_name": "工科试验班(国家专项)(2)",
+              "num": 21,
+              "tuition": 6240,
+              "info_short": "矿物加工工程/测绘工程/资源勘查工程/环境工程/安全工程/土木工程"
+            },
+            {
+              "sp_name": "工科试验班(国家专项)(1)",
+              "num": 14,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "化学类(国家专项)",
+              "spcode": "0703",
+              "num": 10,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类(国家专项)",
+              "spcode": "0804",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类(国家专项)",
+              "spcode": "0830",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能采矿工程(国家专项)",
+              "spcode": "081507T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类(国家专项)",
+              "spcode": "0807",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "自动化类(国家专项)",
+              "spcode": "0808",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机械类(国家专项)",
+              "spcode": "0802",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类(国家专项)",
+              "spcode": "0701",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机科学与技术(国家专项)",
+              "spcode": "080901",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "应用物理学(国家专项)",
+              "spcode": "070202",
+              "num": 1,
+              "tuition": 6240
+            }
+          ]
+        },
+        {
+          "group_code": "368951",
+          "sg_name": "(103)",
           "track": "历史类",
           "subject_req": "首选历史，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 35,
+          "total_num": 37,
           "items": [
-            { "sp_name": "外国语言文学类", "spcode": "0502", "num": 15, "tuition": 6240, "info_short": "英/日/俄/德；只招英语" },
-            { "sp_name": "公共管理类", "spcode": "1204", "num": 14, "tuition": 5760, "info_short": "法学/公共事业管理/行政管理/土地资源管理" },
-            { "sp_name": "人文科学试验班", "num": 6, "tuition": 5760, "info_short": "思想政治教育/哲学" }
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 22,
+              "tuition": 6240,
+              "info_short": "英语/日语/俄语/德语；只招英语语种"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 15,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            }
           ]
         },
         {
-          "group_code": "13_2073_gjzx",
-          "sg_name": "国家专项·物化",
+          "group_code": "368950",
+          "sg_name": "(104)",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "人文科学试验班",
+              "num": 5,
+              "tuition": 5760,
+              "info_short": "思想政治教育/哲学"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "291309",
+          "sg_name": "(02)",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 9,
+          "items": [
+            {
+              "sp_name": "外国语言文学类",
+              "spcode": "0502",
+              "num": 6,
+              "tuition": 6240,
+              "info_short": "英/日/俄/德；只招英语"
+            },
+            {
+              "sp_name": "公共管理类",
+              "spcode": "1204",
+              "num": 3,
+              "tuition": 5760,
+              "info_short": "法学/公共事业管理/行政管理/土地资源管理"
+            }
+          ],
+          "min_score": 601,
+          "min_rank": 3040
+        },
+        {
+          "group_code": "291293",
+          "sg_name": "(03)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "经济管理试验班",
+              "num": 8,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            }
+          ],
+          "min_score": 607,
+          "min_rank": 11457
+        },
+        {
+          "group_code": "291292",
+          "sg_name": "(04)",
           "track": "物理类",
           "subject_req": "首选物理，再选化学",
-          "batch": "本科提前批B段",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 74,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 9,
+              "tuition": 6240,
+              "info_short": "机械工程/过程装备/车辆/工业设计"
+            },
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 9,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术"
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "智能采矿工程",
+              "spcode": "081507T",
+              "num": 4,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 2,
+              "tuition": 16000
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类",
+              "spcode": "0830",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 2,
+              "tuition": 6240
+            }
+          ],
+          "min_score": 615,
+          "min_rank": 8880
+        },
+        {
+          "group_code": "291291",
+          "sg_name": "(05)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "材料科学与工程(中外合作)",
+              "spcode": "080401",
+              "num": 7,
+              "tuition": 30000,
+              "info_short": "法国图卢兹第三大学"
+            }
+          ],
+          "min_score": 601,
+          "min_rank": 13848
+        },
+        {
+          "group_code": "291319",
+          "sg_name": "(06)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
           "zslx": "国家专项计划",
+          "total_num": 21,
+          "items": [
+            {
+              "sp_name": "工科试验班(国家专项)(2)",
+              "num": 7,
+              "tuition": 6240,
+              "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程；须达到特控线"
+            },
+            {
+              "sp_name": "工科试验班(国家专项)(1)",
+              "num": 6,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "智能采矿工程(国家专项)",
+              "spcode": "081507T",
+              "num": 3,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类(国家专项)",
+              "spcode": "0804",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类(国家专项)",
+              "spcode": "0807",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机械类(国家专项)",
+              "spcode": "0802",
+              "num": 1,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "生物工程类(国家专项)",
+              "spcode": "0830",
+              "num": 1,
+              "tuition": 6240
+            }
+          ],
+          "min_score": 597,
+          "min_rank": 15562
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "432140",
+          "sg_name": "(216)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
           "total_num": 14,
           "items": [
-            { "sp_name": "工科试验班(国家专项)(2)", "num": 5, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程" },
-            { "sp_name": "智能采矿工程(国家专项)", "spcode": "081507T", "num": 4, "tuition": 6240 },
-            { "sp_name": "工科试验班(国家专项)(1)", "num": 2, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "机械类(国家专项)", "spcode": "0802", "num": 1, "tuition": 6240 },
-            { "sp_name": "材料类(国家专项)", "spcode": "0804", "num": 1, "tuition": 6240 },
-            { "sp_name": "数学类(国家专项)", "spcode": "0701", "num": 1, "tuition": 6240 },
-            { "sp_name": "化学类(国家专项)", "spcode": "0703", "num": 1, "tuition": 6240 }
-          ]
+            {
+              "sp_name": "计算机类",
+              "spcode": "0809",
+              "num": 12,
+              "tuition": 16000,
+              "info_short": "软件工程/信息安全/数字媒体技术"
+            },
+            {
+              "sp_name": "软件工程(特色班)",
+              "spcode": "080902",
+              "num": 2,
+              "tuition": 16000
+            }
+          ],
+          "min_score": 624,
+          "min_rank": 12305
         },
         {
-          "group_code": "13_2073_gxzx",
-          "sg_name": "高校专项·物化",
+          "group_code": "432141",
+          "sg_name": "(215)",
           "track": "物理类",
           "subject_req": "首选物理，再选化学",
-          "batch": "本科提前批C段",
-          "zslx": "高校专项计划",
-          "total_num": 12,
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
           "items": [
-            { "sp_name": "建筑类(高校专项)", "spcode": "0828", "num": 3, "tuition": 6240, "info_short": "建筑学/城乡规划" },
-            { "sp_name": "工科试验班(2)(高校专项)", "num": 3, "tuition": 6240, "info_short": "矿物加工/测绘/资源勘查/环境工程/安全工程/土木工程" },
-            { "sp_name": "经济管理试验班(高校专项)", "num": 2, "tuition": 6240 },
-            { "sp_name": "机械类(高校专项)", "spcode": "0802", "num": 1, "tuition": 6240 },
-            { "sp_name": "材料类(高校专项)", "spcode": "0804", "num": 1, "tuition": 6240 },
-            { "sp_name": "工科试验班(1)(高校专项)", "num": 1, "tuition": 6240, "info_short": "冶金工程/环境科学/资源循环科学与工程" },
-            { "sp_name": "物联网工程(高校专项)", "spcode": "080905", "num": 1, "tuition": 6240 }
-          ]
+            {
+              "sp_name": "计算机科学与技术",
+              "spcode": "080901",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "不招单色识别不全者"
+            }
+          ],
+          "min_score": 631,
+          "min_rank": 9361
+        },
+        {
+          "group_code": "432142",
+          "sg_name": "(214)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 18,
+          "items": [
+            {
+              "sp_name": "生物医学工程(中外合作)",
+              "spcode": "082601",
+              "num": 18,
+              "tuition": 45000,
+              "info_short": "英国邓迪大学"
+            }
+          ],
+          "min_score": 605,
+          "min_rank": 23281
+        },
+        {
+          "group_code": "432143",
+          "sg_name": "(213)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 17,
+          "items": [
+            {
+              "sp_name": "材料科学与工程(中外合作)",
+              "spcode": "080401",
+              "num": 17,
+              "tuition": 30000,
+              "info_short": "法国图卢兹第三大学"
+            }
+          ],
+          "min_score": 602,
+          "min_rank": 24886
+        },
+        {
+          "group_code": "432144",
+          "sg_name": "(212)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "应用物理学",
+              "spcode": "070202",
+              "num": 5,
+              "tuition": 6240,
+              "info_short": "不招色盲/单色识别不全"
+            }
+          ],
+          "min_score": 616,
+          "min_rank": 16060
+        },
+        {
+          "group_code": "432145",
+          "sg_name": "(211)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "智能医学工程",
+              "spcode": "101011T",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "不招色盲色弱"
+            },
+            {
+              "sp_name": "生物工程类",
+              "spcode": "0830",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "生物工程/生物制药"
+            },
+            {
+              "sp_name": "化学类",
+              "spcode": "0703",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "化学/应用化学"
+            }
+          ],
+          "min_score": 614,
+          "min_rank": 17181
+        },
+        {
+          "group_code": "432146",
+          "sg_name": "(210)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 74,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "spcode": "0802",
+              "num": 13,
+              "tuition": 6240,
+              "info_short": "机械工程/过程装备/车辆/工业设计"
+            },
+            {
+              "sp_name": "自动化类",
+              "spcode": "0808",
+              "num": 10,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "材料类",
+              "spcode": "0804",
+              "num": 9,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "机器人工程",
+              "spcode": "080803T",
+              "num": 8,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "智能制造工程",
+              "spcode": "080213T",
+              "num": 6,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "电子信息类",
+              "spcode": "0807",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "能源与动力工程",
+              "spcode": "080501",
+              "num": 5,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工科试验班",
+              "num": 4,
+              "tuition": 6240,
+              "info_short": "冶金工程/环境科学/资源循环科学与工程"
+            },
+            {
+              "sp_name": "人工智能(未来技术学院)",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "人工智能",
+              "spcode": "080717T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "数学类",
+              "spcode": "0701",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源科学与工程",
+              "spcode": "080503T",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "物联网工程",
+              "spcode": "080905",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "工程力学",
+              "spcode": "080102",
+              "num": 2,
+              "tuition": 6240
+            },
+            {
+              "sp_name": "新能源材料与器件",
+              "spcode": "080414T",
+              "num": 2,
+              "tuition": 6240
+            }
+          ],
+          "min_score": 616,
+          "min_rank": 16407
+        },
+        {
+          "group_code": "432147",
+          "sg_name": "(209)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "经济管理试验班",
+              "num": 8,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            }
+          ],
+          "min_score": 607,
+          "min_rank": 21595
+        },
+        {
+          "group_code": "432148",
+          "sg_name": "(208)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "spcode": "0828",
+              "num": 2,
+              "tuition": 6240,
+              "info_short": "建筑学/城乡规划"
+            }
+          ],
+          "min_score": 606,
+          "min_rank": 22070
+        },
+        {
+          "group_code": "258692",
+          "sg_name": "(702)",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "经济管理试验班(高校专项)",
+              "num": 1,
+              "tuition": 6240,
+              "info_short": "工商/市场营销/会计/工业工程/信管/金融/经济学"
+            }
+          ],
+          "min_score": 575,
+          "min_rank": 49363
         }
       ]
     }

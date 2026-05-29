@@ -1,0 +1,3800 @@
+{
+  "_kind": "西藏大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西藏大学",
+  "code": null,
+  "zs_code": "10694",
+  "school_id_gaokao_cn": 364,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/364/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/364/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=364; zs_code=10694.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 19979,
+          "majors": [
+            {
+              "spcode": "130204",
+              "sp_name": "舞蹈表演",
+              "spname": "舞蹈表演",
+              "level2": "艺术学",
+              "level3": "音乐与舞蹈学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（拉萨市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（拉萨市）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（拉萨市）（师范类；单科成绩要求：数学>=90）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类；单科成绩要求：数学>=90）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（拉萨市）（师范类；单科成绩要求：数学>=90）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类；单科成绩要求：数学>=90）（学费：免费）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（拉萨市）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 4,
+              "tuition": "2800",
+              "length": "五年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（拉萨市）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（拉萨市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（拉萨市）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（拉萨市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（拉萨市）（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（拉萨市）（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（拉萨市）（农林类）（学费：免费）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（农林类）（学费：免费）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（拉萨市）（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学（拉萨市）（农林类）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（农林类）（学费：免费）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（拉萨市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（拉萨市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（拉萨市）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（拉萨市）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（拉萨市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（拉萨市）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（拉萨市）（只招英语语种考生；单科成绩要求：外语>=90）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）（只招英语语种考生；单科成绩要求：外语>=90）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（拉萨市）（农林类）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（农林类）（学费：免费）"
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "spname": "财政学（拉萨市）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（拉萨市）（师范类；只招英语语种考生；单科成绩要求：外语>=90）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类；只招英语语种考生；单科成绩要求：外语>=90）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（拉萨市）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "五年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（拉萨市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（拉萨市）（师范类；单科成绩要求：语文>=90）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类；单科成绩要求：语文>=90）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（拉萨市）（单科成绩要求：语文>=90）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）（单科成绩要求：语文>=90）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（拉萨市）（师范类）（学费：免费）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（拉萨市）（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（拉萨市）（师范类）（学费：免费）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（拉萨市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "spname": "财政学（拉萨市）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学（拉萨市）",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（拉萨市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（拉萨市）（英汉翻译）（只招英语语种考生；单科成绩要求：语文>=90，外语>=90）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）（英汉翻译）（只招英语语种考生；单科成绩要求：语文>=90，外语>=90）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（拉萨市）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（拉萨市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（拉萨市）（师范类；只招英语语种考生；单科成绩要求：外语>=90）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（拉萨市）（师范类；只招英语语种考生；单科成绩要求：外语>=90）（学费：免费）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "spname": "税收学（拉萨市）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（拉萨市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423644",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 485,
+          "min_rank": 28531,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（语文单科成绩不低于90分）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（语文单科成绩不低于90分）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（语文单科成绩不低于90分）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（语文单科成绩不低于90分）"
+            }
+          ]
+        },
+        {
+          "group_id": "423649",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 455,
+          "min_rank": 36838,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "423650",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "历史、思想政治(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 470,
+          "min_rank": 32768,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "423651",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 434,
+          "min_rank": 42167,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类。数学单科成绩不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类。数学单科成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类。数学单科成绩不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类。数学单科成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "423652",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "物、化、生(3科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 469,
+          "min_rank": 33044,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427478",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 575,
+          "min_rank": 13339,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（河坝林校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（河坝林校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427497",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 583,
+          "min_rank": 51945,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（纳金校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（纳金校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427498",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 86192,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427499",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 79711,
+          "majors": [
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（纳金校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经学院校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经学院校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（纳金校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经学院校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经学院校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": 544,
+          "min_rank": 119492,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（师范）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130502",
+              "sp_name": "视觉传达设计",
+              "spname": "视觉传达设计",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（纳金校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）（河坝林校区）（学费：免费）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（河坝林校区）（学费：免费）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（纳金校区。要求高考数学成绩不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（纳金校区。要求高考数学成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（纳金校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（纳金校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（河坝林校区）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394995",
+          "sg_name": "（700）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 5475,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "395005",
+          "sg_name": "（516）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 545,
+          "min_rank": 37957,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "395006",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 541,
+          "min_rank": 40511,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类。数学90分及以上）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类。数学90分及以上）（学费：免费）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类。数学90分及以上）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类。数学90分及以上）（学费：免费）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "395007",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 541,
+          "min_rank": 40511,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 121771,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（师范）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130202",
+              "sp_name": "音乐学",
+              "spname": "音乐学（师范）",
+              "level2": "艺术学",
+              "level3": "音乐与舞蹈学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130502",
+              "sp_name": "视觉传达设计",
+              "spname": "视觉传达设计",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            },
+            {
+              "spcode": "130204",
+              "sp_name": "舞蹈表演",
+              "spname": "舞蹈表演",
+              "level2": "艺术学",
+              "level3": "音乐与舞蹈学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类）（语文成绩不低于90分）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（语文成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类）（数学成绩不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（数学成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类）（数学成绩不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（数学成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（数学成绩不低于80分）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数学成绩不低于80分）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类）（外语语种为英语，英语成绩不低于90分）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（外语语种为英语，英语成绩不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范类）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "spname": "财政学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）（学费：免费）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（语文成绩不低于90分）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（语文成绩不低于90分）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语，英语成绩不低于90分）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（外语语种为英语，英语成绩不低于90分）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（英汉翻译）（外语语种为英语，英语、语文成绩均须不低于90分）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英汉翻译）（外语语种为英语，英语、语文成绩均须不低于90分）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "spname": "税收学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "333340",
+          "sg_name": "（W艺术类）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（师范）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130502",
+              "sp_name": "视觉传达设计",
+              "spname": "视觉传达设计",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（师范）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130502",
+              "sp_name": "视觉传达设计",
+              "spname": "视觉传达设计",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292222",
+          "sg_name": "（16）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 43643,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范类；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范类；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292223",
+          "sg_name": "（15）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 46757,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：纳金校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（办学地点：纳金校区；学制：五年）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：纳金校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（办学地点：纳金校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292224",
+          "sg_name": "（14）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 31498,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292225",
+          "sg_name": "（13）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 34890,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292226",
+          "sg_name": "（12）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 533,
+          "min_rank": 58100,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292227",
+          "sg_name": "（11）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 545,
+          "min_rank": 48355,
+          "majors": [
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（农林类；办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（农林类；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（农林类；办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（农林类；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292228",
+          "sg_name": "（10）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 42868,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292229",
+          "sg_name": "（09）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 545,
+          "min_rank": 48355,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292230",
+          "sg_name": "（08）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 546,
+          "min_rank": 47563,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类；数学大于90分及以上；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；数学大于90分及以上；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类；数学大于90分及以上；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；数学大于90分及以上；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292231",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 45990,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292232",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 39850,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（英语大于90分及以上；外语语种：英语；办学地点：河坝林校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英语大于90分及以上；外语语种：英语；办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（英语大于90分及以上；外语语种：英语；办学地点：河坝林校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英语大于90分及以上；外语语种：英语；办学地点：河坝林校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292233",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 45178,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：纳金校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：纳金校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292248",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 8641,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类；办学地点：河坝林校区）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；办学地点：河坝林校区）（学费：免费）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类；办学地点：河坝林校区）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；办学地点：河坝林校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292249",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 7759,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292250",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 8865,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292251",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 8422,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；语文大于90分及以上；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；语文大于90分及以上；办学地点：河坝林校区）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；语文大于90分及以上；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范类；语文大于90分及以上；办学地点：河坝林校区）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319505",
+          "sg_name": "（110）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 57535,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319506",
+          "sg_name": "（108）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 75982,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319507",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 70142,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（数学不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（数学不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（数学不低于90分）（纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（数学不低于90分）（纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（数学不低于90分）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（数学不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（数学不低于90分）（纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（数学不低于90分）（纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319508",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 56712,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范）（学费：免费）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "五年",
+              "info": null
+            }
+          ]
+        },
+        {
+          "group_id": "319509",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 68225,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "五年",
+              "info": null
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319524",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治、地理(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 10822,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）（学费：免费）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）（学费：免费）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319525",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 10343,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "四年",
+              "info": null
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319526",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 11547,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（罗布林卡财经校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（罗布林卡财经校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319527",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 12598,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（英语不低于90分）（外语要求:英语）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（英语不低于90分）（外语要求:英语）（学费：免费）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（英语不低于90分）（外语要求:英语）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（英语不低于90分）（外语要求:英语）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "319528",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 9878,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（语文不低于90分）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（语文不低于90分）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（语文不低于90分）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（语文不低于90分）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "333337",
+          "sg_name": "（W艺术类）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130202",
+              "sp_name": "音乐学",
+              "spname": "音乐学（师范）",
+              "level2": "艺术学",
+              "level3": "音乐与舞蹈学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "130202",
+              "sp_name": "音乐学",
+              "spname": "音乐学（师范）",
+              "level2": "艺术学",
+              "level3": "音乐与舞蹈学类",
+              "num": 1,
+              "tuition": null,
+              "length": "4",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "433512",
+          "sg_name": "（220）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 30547,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学（办学地点：河坝林校区）",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：河坝林校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433513",
+          "sg_name": "（219）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 15079,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433514",
+          "sg_name": "（218）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 35869,
+          "majors": [
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（英汉翻译）（成绩要求：语文≥90分，外语≥90分；外语语种：英语；办学地点：河坝林校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英汉翻译）（成绩要求：语文≥90分，外语≥90分；外语语种：英语；办学地点：河坝林校区）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（英汉翻译）（成绩要求：语文≥90分，外语≥90分；外语语种：英语；办学地点：河坝林校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英汉翻译）（成绩要求：语文≥90分，外语≥90分；外语语种：英语；办学地点：河坝林校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433515",
+          "sg_name": "（217）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 18598,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（成绩要求：语文≥90分；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：语文≥90分；办学地点：河坝林校区）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（成绩要求：语文≥90分；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：语文≥90分；办学地点：河坝林校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433516",
+          "sg_name": "（216）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 553,
+          "min_rank": 22506,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "spname": "税收学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "spname": "税收学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433517",
+          "sg_name": "（215）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 19116,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（成绩要求：外语≥90分；外语语种：英语；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：外语≥90分；外语语种：英语；办学地点：河坝林校区）（学费：免费）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（成绩要求：外语≥90分；外语语种：英语；办学地点：河坝林校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：外语≥90分；外语语种：英语；办学地点：河坝林校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433539",
+          "sg_name": "（227）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 105971,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433540",
+          "sg_name": "（226）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 105805,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "spname": "资源勘查工程（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "地质类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433541",
+          "sg_name": "（225）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 533,
+          "min_rank": 106565,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（成绩要求：数学≥90分；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：数学≥90分；办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（成绩要求：数学≥90分；办学地点：纳金校区）（学费：免费）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（成绩要求：数学≥90分；办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433542",
+          "sg_name": "（224）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 546,
+          "min_rank": 86869,
+          "majors": [
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（成绩要求：数学≥80分；办学地点：纳金校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（成绩要求：数学≥80分；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（成绩要求：数学≥80分；办学地点：纳金校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（成绩要求：数学≥80分；办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433543",
+          "sg_name": "（223）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 544,
+          "min_rank": 89284,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（办学地点：纳金校区）（学费：免费）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（办学地点：纳金校区）（学费：免费）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 1,
+              "tuition": null,
+              "length": "四年",
+              "info": "（办学地点：纳金校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "433544",
+          "sg_name": "（222）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 117301,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（特征要求：不招色盲色弱；办学地点：纳金校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：纳金校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433545",
+          "sg_name": "（221）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 116258,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（学费：免费）（办学地点：河坝林校）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）（办学地点：河坝林校）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "spname": "财政学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（学费：免费）（办学地点：河坝林校）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": null,
+              "length": "四年",
+              "info": "（师范）（学费：免费）（办学地点：河坝林校）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（办学地点：纳金校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：纳金校区）"
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "spname": "财政学（办学地点：罗布林卡财经校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "2800",
+              "length": "四年",
+              "info": "（办学地点：罗布林卡财经校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

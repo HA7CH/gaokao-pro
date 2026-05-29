@@ -41,6 +41,7 @@ import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo } from "./groups.js";
+import { paths as pathsFn, type ProfileLite } from "./paths.js";
 import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
@@ -269,6 +270,17 @@ Usage:
       对家长决定 "投入强基/综评备考性价比" 极有用。
       e.g. gaokao-pro xiaoce 清华
            gaokao-pro xiaoce 浙江大学 --json
+
+  gaokao-pro paths <省份> [--score N] [--rank N] [--minority] [--rural]
+                         [--serve] [--sport <名>] [--sport-tier <级>]
+                         [--language <非英语>] [--json]
+      志愿路径全景 — 给定省份 + 家长侧 profile flags，单次列出所有可走路径：
+      提前批 catalog (公费师范/优师/综评/三位一体/中外合作/专项/公安/军校/
+      农村订单医学/航海/小语种/民族班/预科) + 综评 by-school +
+      高水平运动队 + 省级 滑档 规则。每条带 ✓/✗ + 中文 caveat (服务期/户籍/
+      等级证书) 说明为何 (不) 合格。一句话告诉家长 "我家孩子能走哪些路径"。
+      e.g. gaokao-pro paths 广东 --score 620 --minority
+           gaokao-pro paths 北京 --rural --serve --sport-tier 一级运动员 --sport 游泳
 
   gaokao-pro xuanke <raw>
       Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
@@ -977,6 +989,54 @@ const VERBS: Record<string, Verb> = {
       lines.push("");
     }
     if (!schools.length) lines.push("(该省无 2026 综评数据)");
+    process.stdout.write(lines.join("\n"));
+  },
+
+  async paths(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) throw new Error("usage: gaokao-pro paths <省份> [--score N] [--rank N] [--minority] [--rural] [--serve] [--sport <项目>] [--sport-tier <一级|健将>] [--language <非英语>] [--json]");
+    const profile: ProfileLite = {
+      province,
+      score: (typeof flags.score === "string" || typeof flags.score === "number") ? Number(flags.score) : null,
+      rank: (typeof flags.rank === "string" || typeof flags.rank === "number") ? Number(flags.rank) : null,
+      is_minority: flags.minority === true,
+      is_rural_county: flags.rural === true,
+      agree_to_serve: flags.serve === true,
+      sport_tier: typeof flags["sport-tier"] === "string" ? flags["sport-tier"] : null,
+      sport_name: typeof flags.sport === "string" ? flags.sport : null,
+      small_language: typeof flags.language === "string" ? flags.language : null,
+    };
+    const result = pathsFn(profile);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...result });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`志愿路径全景 — ${province} · 分=${profile.score ?? "?"} · 位次=${profile.rank ?? "?"}`);
+    lines.push(`profile: 少数民族=${profile.is_minority ? "是" : "否"} · 农村专项=${profile.is_rural_county ? "是" : "否"} · 服务期=${profile.agree_to_serve ? "是" : "否"} · 体育=${profile.sport_tier ?? "无"}${profile.sport_name ? "/" + profile.sport_name : ""} · 小语种=${profile.small_language ?? "否"}`);
+    lines.push("");
+    lines.push(`【${province} 省调剂规则】单位=${result.province_rules.unit ?? "-"} · 调剂=${result.province_rules.has_tiaoji === null ? "?" : (result.province_rules.has_tiaoji ? "有" : "⚠️无")}${result.province_rules.strategy ? " · 策略=" + result.province_rules.strategy : ""}`);
+    if (result.province_rules.slip_warning) lines.push(`  风险: ${result.province_rules.slip_warning}`);
+    lines.push("");
+    lines.push(`总结 — 合格路径 ${result.total_eligible} 条 · 有约束/服务期 ${result.total_caveat} 条`);
+    for (const [cat, s] of Object.entries(result.summary_by_category)) {
+      lines.push(`  ${cat}: ${s.eligible} 合格 / ${s.caveat} 有约束`);
+    }
+    lines.push("");
+    const byCat: Record<string, typeof result.pathways> = {};
+    for (const p of result.pathways) {
+      if (!byCat[p.category]) byCat[p.category] = [];
+      byCat[p.category].push(p);
+    }
+    for (const [cat, list] of Object.entries(byCat)) {
+      lines.push(`【${cat}】`);
+      for (const p of list) {
+        const status = p.eligible ? "✓" : "✗";
+        lines.push(`  ${status} ${p.program_type ? `[${p.program_type}] ` : ""}${p.school}${p.caveat ? ` — ${p.caveat}` : ""}`);
+      }
+      lines.push("");
+    }
     process.stdout.write(lines.join("\n"));
   },
 

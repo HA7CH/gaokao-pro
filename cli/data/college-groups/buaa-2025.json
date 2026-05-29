@@ -27,80 +27,121 @@
     "majors arrays populated from gaokao.cn schoolspecialplan API 2025 (sp_name / plan / info_short); 山东 is school-level so all majors listed under a single null group."
   ],
   "provinces": {
-    "41": {
-      "province_name": "河南",
+    "13": {
+      "province_name": "河北",
       "groups": [
         {
-          "group": "第101组",
-          "special_group_id": "368130",
+          "group": null,
           "track": "2073",
           "track_name": "物理类",
           "xuanke": "物理+化学",
           "type_name": "普通类",
           "batch": "本科批",
-          "min_score": 679,
-          "min_rank": 1277,
+          "min_score": 669,
+          "min_rank": 788,
           "majors": [
-            { "sp_name": "工科试验班类（航空航天类）", "plan": 44, "info_short": "智能飞行器技术、空天智能电推进技术等，沙河校区" },
-            { "sp_name": "工科试验班类（信息科学与技术类）", "plan": 25, "info_short": "电子信息工程、通信工程等专业，学院路校区" },
-            { "sp_name": "工科试验班类（计算与智能科学类）", "plan": 21, "info_short": "计算机科学与技术、虚拟现实技术等，学院路校区" }
+            {
+              "sp_name": "工科试验班类",
+              "plan": 40,
+              "info_short": "信息科学与技术类"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 39,
+              "info_short": "航空航天类"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 31,
+              "info_short": "计算与智能科学类"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 8,
+              "info_short": "中外合作办学（中法未来科技试验班）"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 8,
+              "info_short": "中外合作办学（中法航空试验班）"
+            },
+            {
+              "sp_name": "飞行器动力工程",
+              "plan": 5,
+              "info_short": "中外合作 2+2 联合培养（俄罗斯）"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 5,
+              "info_short": "未来工程师项目制育人试验班"
+            },
+            {
+              "sp_name": "飞行器动力工程",
+              "plan": 3,
+              "info_short": "卓越人才培养试验班"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "info_short": "中法工程师学院"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 2,
+              "info_short": "医工交叉试验班"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 2,
+              "info_short": "未来空天领军计划"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 2,
+              "info_short": "量子科技先锋计划"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班"
+            }
           ]
         },
         {
-          "group": "第311组",
-          "special_group_id": "368168",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "国家专项",
-          "batch": "本科批",
-          "min_score": 671,
-          "min_rank": 2395,
-          "majors": [
-            { "sp_name": "工科试验班类（国家专项）（航空航天类）", "plan": 20, "info_short": "智能飞行器技术等专业，沙河校区，国家专项计划" }
-          ]
-        },
-        {
-          "group": "第201组",
-          "special_group_id": "368129",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "中外合作办学",
-          "batch": "本科批",
-          "min_score": 659,
-          "min_rank": 5147,
-          "majors": [
-            { "sp_name": "工科试验班类（中外合作办学,中法未来科技试验班）", "plan": 8, "info_short": "计算机科学与技术、航空航天工程等专业，杭州办学" },
-            { "sp_name": "工科试验班类（中外合作办学,中法航空试验班）", "plan": 7, "info_short": "交通运输、飞行器适航技术等专业，杭州办学" }
-          ]
-        },
-        {
-          "group": "第102组",
-          "special_group_id": "368194",
+          "group": null,
           "track": "2074",
           "track_name": "历史类",
           "xuanke": "历史+不限",
           "type_name": "普通类",
           "batch": "本科批",
-          "min_score": 647,
-          "min_rank": 549,
+          "min_score": 650,
+          "min_rank": 409,
           "majors": [
-            { "sp_name": "社会科学试验班", "plan": 4, "info_short": "经济学、行政管理、法学等专业，学院路校区" }
-          ]
-        },
-        {
-          "group": "第312组",
-          "special_group_id": "368185",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "type_name": "国家专项",
-          "batch": "本科批",
-          "min_score": 640,
-          "min_rank": 874,
-          "majors": [
-            { "sp_name": "社会科学试验班（国家专项计划）", "plan": 3, "info_short": "经济学、行政管理、法学专业，学院路校区" }
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 9,
+              "info_short": "学院路校区，含经济学、行政管理、法学等"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 2,
+              "info_short": "外语交叉学科人才培养试验班"
+            }
           ]
         }
       ]
@@ -119,11 +160,31 @@
           "min_score": 659,
           "min_rank": 2209,
           "majors": [
-            { "sp_name": "工科试验班类（航空航天类）", "plan": 16, "info_short": "智能飞行器技术等专业，沙河校区" },
-            { "sp_name": "工科试验班类（信息科学与技术类）", "plan": 14, "info_short": "电子信息工程、通信工程等，学院路校区" },
-            { "sp_name": "工科试验班类（计算与智能科学类）", "plan": 12, "info_short": "计算机、人工智能等专业，学院路校区" },
-            { "sp_name": "理科试验班类", "plan": 8, "info_short": "数学与应用数学等专业，沙河校区" },
-            { "sp_name": "工科试验班类（医工交叉试验班）", "plan": 3, "info_short": "生物医学工程、智能医学工程" }
+            {
+              "sp_name": "工科试验班类（航空航天类）",
+              "plan": 16,
+              "info_short": "智能飞行器技术等专业，沙河校区"
+            },
+            {
+              "sp_name": "工科试验班类（信息科学与技术类）",
+              "plan": 14,
+              "info_short": "电子信息工程、通信工程等，学院路校区"
+            },
+            {
+              "sp_name": "工科试验班类（计算与智能科学类）",
+              "plan": 12,
+              "info_short": "计算机、人工智能等专业，学院路校区"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 8,
+              "info_short": "数学与应用数学等专业，沙河校区"
+            },
+            {
+              "sp_name": "工科试验班类（医工交叉试验班）",
+              "plan": 3,
+              "info_short": "生物医学工程、智能医学工程"
+            }
           ]
         },
         {
@@ -137,8 +198,16 @@
           "min_score": 646,
           "min_rank": 5633,
           "majors": [
-            { "sp_name": "工科试验班类（中法未来科技试验班）", "plan": 15, "info_short": "中外合作办学，杭州办学，学费约5万/年" },
-            { "sp_name": "工科试验班类（中法航空试验班）", "plan": 11, "info_short": "中外合作办学，杭州办学，学费约4万/年" }
+            {
+              "sp_name": "工科试验班类（中法未来科技试验班）",
+              "plan": 15,
+              "info_short": "中外合作办学，杭州办学，学费约5万/年"
+            },
+            {
+              "sp_name": "工科试验班类（中法航空试验班）",
+              "plan": 11,
+              "info_short": "中外合作办学，杭州办学，学费约4万/年"
+            }
           ]
         },
         {
@@ -152,159 +221,11 @@
           "min_score": 634,
           "min_rank": 958,
           "majors": [
-            { "sp_name": "社会科学试验班", "plan": 5, "info_short": "学院路校区，含经济学、行政管理、法学等" }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "province_name": "广东",
-      "groups": [
-        {
-          "group": "207组",
-          "special_group_id": "431595",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": 668,
-          "min_rank": 1173,
-          "majors": [
-            { "sp_name": "工科试验班类", "plan": 31, "info_short": "航空航天类，含智能飞行器技术等专业" },
-            { "sp_name": "工科试验班类", "plan": 22, "info_short": "信息科学与技术类，含电子信息工程等" },
-            { "sp_name": "工科试验班类", "plan": 13, "info_short": "计算与智能科学类，含计算机、软件工程" },
-            { "sp_name": "理科试验班类", "plan": 13, "info_short": "沙河校区，含数学与应用数学等专业" },
-            { "sp_name": "理科试验班类", "plan": 10, "info_short": "中法工程师学院，含数学、信息与计算科学" },
-            { "sp_name": "工科试验班类", "plan": 5, "info_short": "医工交叉试验班，含生物医学工程等" },
-            { "sp_name": "工科试验班类", "plan": 3, "info_short": "未来工程师项目试验班，沙河校区" },
-            { "sp_name": "数学与应用数学", "plan": 2, "info_short": "拔尖学生培养计划，沙河校区" },
-            { "sp_name": "工程力学", "plan": 2, "info_short": "拔尖学生培养计划，沙河校区" },
-            { "sp_name": "工科试验班类", "plan": 2, "info_short": "未来空天领军计划，含多个工程专业" },
-            { "sp_name": "微电子科学与工程", "plan": 2, "info_short": "卓越人才培养试验班，学院路校区" },
-            { "sp_name": "工科试验班类", "plan": 1, "info_short": "量子科技先锋计划，含计算机等专业" },
-            { "sp_name": "人工智能", "plan": 1, "info_short": "卓越人才培养试验班，学院路校区" }
-          ]
-        },
-        {
-          "group": "210组",
-          "special_group_id": "431594",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "中外合作办学",
-          "batch": "本科批",
-          "min_score": 646,
-          "min_rank": 4469,
-          "majors": [
-            { "sp_name": "工科试验班类", "plan": 6, "info_short": "中外合作办学，中法航空试验班" },
-            { "sp_name": "工科试验班类", "plan": 6, "info_short": "中外合作办学，中法未来科技试验班" }
-          ]
-        },
-        {
-          "group": "206组",
-          "special_group_id": "431554",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": 641,
-          "min_rank": 493,
-          "majors": [
-            { "sp_name": "社会科学试验班", "plan": 4, "info_short": "含经济学、行政管理、法学专业含双学位项目" },
-            { "sp_name": "社会科学试验班", "plan": 2, "info_short": "外语交叉学科人才培养试验班，含英语、翻译专业" }
-          ]
-        }
-      ]
-    },
-    "42": {
-      "province_name": "湖北",
-      "groups": [
-        {
-          "group": "第06组",
-          "special_group_id": "290722",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": 653,
-          "min_rank": 1446,
-          "majors": [
-            { "sp_name": "工科试验班类（航空航天类）", "plan": 38, "info_short": "航空航天类；含智能飞行器技术等专业" },
-            { "sp_name": "工科试验班类（信息科学与技术类）", "plan": 27, "info_short": "信息科学与技术类；电子信息工程、通信工程等" },
-            { "sp_name": "工科试验班类（计算与智能科学类）", "plan": 20, "info_short": "计算与智能科学类；计算机科学与技术等" },
-            { "sp_name": "理科试验班类", "plan": 13, "info_short": "含数学与应用数学、信息与计算科学等专业" },
-            { "sp_name": "工科试验班类（医工交叉试验班）", "plan": 6, "info_short": "生物医学工程、智能医学工程；不招色盲色弱" },
-            { "sp_name": "工科试验班类（未来工程师项目制育人试验班）", "plan": 4, "info_short": "人工智能、自动化、低空技术与工程等" },
-            { "sp_name": "理科试验班类（中法工程师学院）", "plan": 4, "info_short": "数学与应用数学、信息与计算科学等" },
-            { "sp_name": "物理学（拔尖学生培养计划）", "plan": 4, "info_short": "拔尖学生培养；含物理学-微电子科学与工程双学位" },
-            { "sp_name": "计算机科学与技术（拔尖学生培养计划）", "plan": 2, "info_short": "拔尖学生培养；对色彩辨识有要求" },
-            { "sp_name": "工科试验班类（未来空天领军计划）", "plan": 2, "info_short": "智能飞行器技术等六个专业" },
-            { "sp_name": "微电子科学与工程（卓越人才培养试验班）", "plan": 2, "info_short": "卓越人才培养试验班；学院路校区" },
-            { "sp_name": "人工智能（卓越人才培养试验班）", "plan": 2, "info_short": "卓越人才培养试验班；学院路校区" },
-            { "sp_name": "工科试验班类（量子科技先锋计划）", "plan": 1, "info_short": "计算机科学与技术、软件工程等五个专业" }
-          ]
-        },
-        {
-          "group": "第09组",
-          "special_group_id": "290762",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "国家专项",
-          "batch": "本科批",
-          "min_score": 635,
-          "min_rank": 3916,
-          "majors": [
-            { "sp_name": "工科试验班类（国家专项计划）", "plan": 9, "info_short": "航空航天类；国家专项计划；沙河校区" },
-            { "sp_name": "理科试验班类（国家专项计划）", "plan": 3, "info_short": "国家专项计划；沙河校区" }
-          ]
-        },
-        {
-          "group": "第08组",
-          "special_group_id": "290720",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "民族班",
-          "batch": "本科批",
-          "min_score": 634,
-          "min_rank": 4125,
-          "majors": [
-            { "sp_name": "工科试验班类（民族班；航空航天类）", "plan": 8, "info_short": "民族班；航空航天类；含智能飞行器技术等专业" },
-            { "sp_name": "理科试验班类（民族班）", "plan": 2, "info_short": "民族班；含数学与应用数学、信息与计算科学等" }
-          ]
-        },
-        {
-          "group": "第07组",
-          "special_group_id": "290721",
-          "track": "2073",
-          "track_name": "物理类",
-          "xuanke": "物理+化学",
-          "type_name": "中外合作办学",
-          "batch": "本科批",
-          "min_score": 630,
-          "min_rank": 4962,
-          "majors": [
-            { "sp_name": "工科试验班类（中外合作办学，中法航空试验班）", "plan": 6, "info_short": "中外合作，交通运输、飞行器适航技术等" },
-            { "sp_name": "工科试验班类（中外合作办学，中法未来科技试验班）", "plan": 6, "info_short": "中外合作，计算机科学与技术等五个专业" }
-          ]
-        },
-        {
-          "group": "第05组",
-          "special_group_id": "290742",
-          "track": "2074",
-          "track_name": "历史类",
-          "xuanke": "历史+不限",
-          "type_name": "普通类",
-          "batch": "本科批",
-          "min_score": 630,
-          "min_rank": 696,
-          "majors": [
-            { "sp_name": "社会科学试验班（经济学、行政管理、法学）", "plan": 4, "info_short": "含人工智能-行政管理等双学士学位项目" },
-            { "sp_name": "社会科学试验班（外语交叉学科人才培养试验班）", "plan": 2, "info_short": "英语、翻译；含英语-金融学等双学位项目" }
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "info_short": "学院路校区，含经济学、行政管理、法学等"
+            }
           ]
         }
       ]
@@ -323,8 +244,16 @@
           "min_score": 661,
           "min_rank": 891,
           "majors": [
-            { "sp_name": "工科试验班类", "plan": 85, "info_short": "航空航天类、信息科学与技术类、计算与智能科学类等" },
-            { "sp_name": "理科试验班类", "plan": 12, "info_short": "数学与应用数学、信息与计算科学等专业" }
+            {
+              "sp_name": "工科试验班类",
+              "plan": 85,
+              "info_short": "航空航天类、信息科学与技术类、计算与智能科学类等"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 12,
+              "info_short": "数学与应用数学、信息与计算科学等专业"
+            }
           ]
         },
         {
@@ -335,10 +264,14 @@
           "xuanke": "物理+化学",
           "type_name": "中外合作办学",
           "batch": "本科批",
-          "min_score": null,
-          "min_rank": null,
+          "min_score": 642,
+          "min_rank": 2817,
           "majors": [
-            { "sp_name": "工科试验班类", "plan": 8, "info_short": "中外合作办学，与法国国立民航大学联合培养" }
+            {
+              "sp_name": "工科试验班类",
+              "plan": 8,
+              "info_short": "中外合作办学，与法国国立民航大学联合培养"
+            }
           ]
         },
         {
@@ -352,7 +285,11 @@
           "min_score": 624,
           "min_rank": 598,
           "majors": [
-            { "sp_name": "社会科学试验班", "plan": 7, "info_short": "含经济学、行政管理、法学等专业" }
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 7,
+              "info_short": "含经济学、行政管理、法学等专业"
+            }
           ]
         }
       ]
@@ -371,23 +308,91 @@
           "min_score": 645,
           "min_rank": 4602,
           "majors": [
-            { "sp_name": "工科试验班类", "plan": 43, "info_short": "航空航天类专业" },
-            { "sp_name": "工科试验班类", "plan": 37, "info_short": "计算与智能科学类专业" },
-            { "sp_name": "工科试验班类", "plan": 36, "info_short": "信息科学与技术类专业" },
-            { "sp_name": "工科试验班类", "plan": 7, "info_short": "中外合作办学项目（中法未来）" },
-            { "sp_name": "工科试验班类", "plan": 7, "info_short": "中外合作办学项目（中法航空）" },
-            { "sp_name": "工科试验班类", "plan": 5, "info_short": "未来工程师项目制育人试验班" },
-            { "sp_name": "工科试验班类", "plan": 3, "info_short": "医工交叉试验班" },
-            { "sp_name": "工科试验班类", "plan": 3, "info_short": "未来空天领军计划" },
-            { "sp_name": "理科试验班类", "plan": 3, "info_short": "中法工程师学院" },
-            { "sp_name": "计算机科学与技术", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "工程力学", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "工科试验班类", "plan": 2, "info_short": "量子科技先锋计划" },
-            { "sp_name": "物理学", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "微电子科学与工程", "plan": 2, "info_short": "卓越人才培养试验班" },
-            { "sp_name": "网络空间安全", "plan": 2, "info_short": "卓越人才培养试验班" },
-            { "sp_name": "数学与应用数学", "plan": 1, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "人工智能", "plan": 1, "info_short": "卓越人才培养试验班" }
+            {
+              "sp_name": "工科试验班类",
+              "plan": 43,
+              "info_short": "航空航天类专业"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 37,
+              "info_short": "计算与智能科学类专业"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 36,
+              "info_short": "信息科学与技术类专业"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 7,
+              "info_short": "中外合作办学项目（中法未来）"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 7,
+              "info_short": "中外合作办学项目（中法航空）"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 5,
+              "info_short": "未来工程师项目制育人试验班"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 3,
+              "info_short": "医工交叉试验班"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 3,
+              "info_short": "未来空天领军计划"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "info_short": "中法工程师学院"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "工程力学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 2,
+              "info_short": "量子科技先锋计划"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "info_short": "拔尖学生培养计划"
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 1,
+              "info_short": "卓越人才培养试验班"
+            }
           ]
         },
         {
@@ -400,55 +405,430 @@
           "min_score": 645,
           "min_rank": 4657,
           "majors": [
-            { "sp_name": "社会科学试验班", "plan": 6, "info_short": "经济学、行政管理、法学专业" },
-            { "sp_name": "社会科学试验班", "plan": 2, "info_short": "外语交叉学科人才培养试验班" }
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 6,
+              "info_short": "经济学、行政管理、法学专业"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 2,
+              "info_short": "外语交叉学科人才培养试验班"
+            }
           ]
         }
       ]
     },
-    "13": {
-      "province_name": "河北",
+    "41": {
+      "province_name": "河南",
       "groups": [
         {
-          "group": null,
+          "group": "第101组",
+          "special_group_id": "368130",
           "track": "2073",
           "track_name": "物理类",
           "xuanke": "物理+化学",
           "type_name": "普通类",
           "batch": "本科批",
-          "min_score": 669,
-          "min_rank": 788,
+          "min_score": 679,
+          "min_rank": 1277,
           "majors": [
-            { "sp_name": "工科试验班类", "plan": 40, "info_short": "信息科学与技术类" },
-            { "sp_name": "工科试验班类", "plan": 39, "info_short": "航空航天类" },
-            { "sp_name": "工科试验班类", "plan": 31, "info_short": "计算与智能科学类" },
-            { "sp_name": "工科试验班类", "plan": 8, "info_short": "中外合作办学（中法未来科技试验班）" },
-            { "sp_name": "工科试验班类", "plan": 8, "info_short": "中外合作办学（中法航空试验班）" },
-            { "sp_name": "飞行器动力工程", "plan": 5, "info_short": "中外合作 2+2 联合培养（俄罗斯）" },
-            { "sp_name": "工科试验班类", "plan": 5, "info_short": "未来工程师项目制育人试验班" },
-            { "sp_name": "飞行器动力工程", "plan": 3, "info_short": "卓越人才培养试验班" },
-            { "sp_name": "理科试验班类", "plan": 3, "info_short": "中法工程师学院" },
-            { "sp_name": "数学与应用数学", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "计算机科学与技术", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "工科试验班类", "plan": 2, "info_short": "医工交叉试验班" },
-            { "sp_name": "工科试验班类", "plan": 2, "info_short": "未来空天领军计划" },
-            { "sp_name": "工科试验班类", "plan": 2, "info_short": "量子科技先锋计划" },
-            { "sp_name": "物理学", "plan": 2, "info_short": "拔尖学生培养计划" },
-            { "sp_name": "人工智能", "plan": 2, "info_short": "卓越人才培养试验班" }
+            {
+              "sp_name": "工科试验班类（航空航天类）",
+              "plan": 44,
+              "info_short": "智能飞行器技术、空天智能电推进技术等，沙河校区"
+            },
+            {
+              "sp_name": "工科试验班类（信息科学与技术类）",
+              "plan": 25,
+              "info_short": "电子信息工程、通信工程等专业，学院路校区"
+            },
+            {
+              "sp_name": "工科试验班类（计算与智能科学类）",
+              "plan": 21,
+              "info_short": "计算机科学与技术、虚拟现实技术等，学院路校区"
+            }
           ]
         },
         {
-          "group": null,
+          "group": "第311组",
+          "special_group_id": "368168",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 671,
+          "min_rank": 2395,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（国家专项）（航空航天类）",
+              "plan": 20,
+              "info_short": "智能飞行器技术等专业，沙河校区，国家专项计划"
+            }
+          ]
+        },
+        {
+          "group": "第201组",
+          "special_group_id": "368129",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 659,
+          "min_rank": 5147,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（中外合作办学,中法未来科技试验班）",
+              "plan": 8,
+              "info_short": "计算机科学与技术、航空航天工程等专业，杭州办学"
+            },
+            {
+              "sp_name": "工科试验班类（中外合作办学,中法航空试验班）",
+              "plan": 7,
+              "info_short": "交通运输、飞行器适航技术等专业，杭州办学"
+            }
+          ]
+        },
+        {
+          "group": "第102组",
+          "special_group_id": "368194",
           "track": "2074",
           "track_name": "历史类",
           "xuanke": "历史+不限",
           "type_name": "普通类",
           "batch": "本科批",
-          "min_score": 650,
-          "min_rank": 409,
+          "min_score": 647,
+          "min_rank": 549,
           "majors": [
-            { "sp_name": "社会科学试验班", "plan": 9, "info_short": "学院路校区，含经济学、行政管理、法学等" },
-            { "sp_name": "社会科学试验班", "plan": 2, "info_short": "外语交叉学科人才培养试验班" }
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "info_short": "经济学、行政管理、法学等专业，学院路校区"
+            }
+          ]
+        },
+        {
+          "group": "第312组",
+          "special_group_id": "368185",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 640,
+          "min_rank": 874,
+          "majors": [
+            {
+              "sp_name": "社会科学试验班（国家专项计划）",
+              "plan": 3,
+              "info_short": "经济学、行政管理、法学专业，学院路校区"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "province_name": "湖北",
+      "groups": [
+        {
+          "group": "第06组",
+          "special_group_id": "290722",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 653,
+          "min_rank": 1446,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（航空航天类）",
+              "plan": 38,
+              "info_short": "航空航天类；含智能飞行器技术等专业"
+            },
+            {
+              "sp_name": "工科试验班类（信息科学与技术类）",
+              "plan": 27,
+              "info_short": "信息科学与技术类；电子信息工程、通信工程等"
+            },
+            {
+              "sp_name": "工科试验班类（计算与智能科学类）",
+              "plan": 20,
+              "info_short": "计算与智能科学类；计算机科学与技术等"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 13,
+              "info_short": "含数学与应用数学、信息与计算科学等专业"
+            },
+            {
+              "sp_name": "工科试验班类（医工交叉试验班）",
+              "plan": 6,
+              "info_short": "生物医学工程、智能医学工程；不招色盲色弱"
+            },
+            {
+              "sp_name": "工科试验班类（未来工程师项目制育人试验班）",
+              "plan": 4,
+              "info_short": "人工智能、自动化、低空技术与工程等"
+            },
+            {
+              "sp_name": "理科试验班类（中法工程师学院）",
+              "plan": 4,
+              "info_short": "数学与应用数学、信息与计算科学等"
+            },
+            {
+              "sp_name": "物理学（拔尖学生培养计划）",
+              "plan": 4,
+              "info_short": "拔尖学生培养；含物理学-微电子科学与工程双学位"
+            },
+            {
+              "sp_name": "计算机科学与技术（拔尖学生培养计划）",
+              "plan": 2,
+              "info_short": "拔尖学生培养；对色彩辨识有要求"
+            },
+            {
+              "sp_name": "工科试验班类（未来空天领军计划）",
+              "plan": 2,
+              "info_short": "智能飞行器技术等六个专业"
+            },
+            {
+              "sp_name": "微电子科学与工程（卓越人才培养试验班）",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班；学院路校区"
+            },
+            {
+              "sp_name": "人工智能（卓越人才培养试验班）",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班；学院路校区"
+            },
+            {
+              "sp_name": "工科试验班类（量子科技先锋计划）",
+              "plan": 1,
+              "info_short": "计算机科学与技术、软件工程等五个专业"
+            }
+          ]
+        },
+        {
+          "group": "第09组",
+          "special_group_id": "290762",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "国家专项",
+          "batch": "本科批",
+          "min_score": 635,
+          "min_rank": 3916,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（国家专项计划）",
+              "plan": 9,
+              "info_short": "航空航天类；国家专项计划；沙河校区"
+            },
+            {
+              "sp_name": "理科试验班类（国家专项计划）",
+              "plan": 3,
+              "info_short": "国家专项计划；沙河校区"
+            }
+          ]
+        },
+        {
+          "group": "第08组",
+          "special_group_id": "290720",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "民族班",
+          "batch": "本科批",
+          "min_score": 634,
+          "min_rank": 4125,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（民族班；航空航天类）",
+              "plan": 8,
+              "info_short": "民族班；航空航天类；含智能飞行器技术等专业"
+            },
+            {
+              "sp_name": "理科试验班类（民族班）",
+              "plan": 2,
+              "info_short": "民族班；含数学与应用数学、信息与计算科学等"
+            }
+          ]
+        },
+        {
+          "group": "第07组",
+          "special_group_id": "290721",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 630,
+          "min_rank": 4962,
+          "majors": [
+            {
+              "sp_name": "工科试验班类（中外合作办学，中法航空试验班）",
+              "plan": 6,
+              "info_short": "中外合作，交通运输、飞行器适航技术等"
+            },
+            {
+              "sp_name": "工科试验班类（中外合作办学，中法未来科技试验班）",
+              "plan": 6,
+              "info_short": "中外合作，计算机科学与技术等五个专业"
+            }
+          ]
+        },
+        {
+          "group": "第05组",
+          "special_group_id": "290742",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 630,
+          "min_rank": 696,
+          "majors": [
+            {
+              "sp_name": "社会科学试验班（经济学、行政管理、法学）",
+              "plan": 4,
+              "info_short": "含人工智能-行政管理等双学士学位项目"
+            },
+            {
+              "sp_name": "社会科学试验班（外语交叉学科人才培养试验班）",
+              "plan": 2,
+              "info_short": "英语、翻译；含英语-金融学等双学位项目"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "province_name": "广东",
+      "groups": [
+        {
+          "group": "207组",
+          "special_group_id": "431595",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 668,
+          "min_rank": 1173,
+          "majors": [
+            {
+              "sp_name": "工科试验班类",
+              "plan": 31,
+              "info_short": "航空航天类，含智能飞行器技术等专业"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 22,
+              "info_short": "信息科学与技术类，含电子信息工程等"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 13,
+              "info_short": "计算与智能科学类，含计算机、软件工程"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 13,
+              "info_short": "沙河校区，含数学与应用数学等专业"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "plan": 10,
+              "info_short": "中法工程师学院，含数学、信息与计算科学"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 5,
+              "info_short": "医工交叉试验班，含生物医学工程等"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 3,
+              "info_short": "未来工程师项目试验班，沙河校区"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划，沙河校区"
+            },
+            {
+              "sp_name": "工程力学",
+              "plan": 2,
+              "info_short": "拔尖学生培养计划，沙河校区"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 2,
+              "info_short": "未来空天领军计划，含多个工程专业"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "info_short": "卓越人才培养试验班，学院路校区"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 1,
+              "info_short": "量子科技先锋计划，含计算机等专业"
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 1,
+              "info_short": "卓越人才培养试验班，学院路校区"
+            }
+          ]
+        },
+        {
+          "group": "210组",
+          "special_group_id": "431594",
+          "track": "2073",
+          "track_name": "物理类",
+          "xuanke": "物理+化学",
+          "type_name": "中外合作办学",
+          "batch": "本科批",
+          "min_score": 646,
+          "min_rank": 4469,
+          "majors": [
+            {
+              "sp_name": "工科试验班类",
+              "plan": 6,
+              "info_short": "中外合作办学，中法航空试验班"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "plan": 6,
+              "info_short": "中外合作办学，中法未来科技试验班"
+            }
+          ]
+        },
+        {
+          "group": "206组",
+          "special_group_id": "431554",
+          "track": "2074",
+          "track_name": "历史类",
+          "xuanke": "历史+不限",
+          "type_name": "普通类",
+          "batch": "本科批",
+          "min_score": 641,
+          "min_rank": 493,
+          "majors": [
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "info_short": "含经济学、行政管理、法学专业含双学位项目"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "plan": 2,
+              "info_short": "外语交叉学科人才培养试验班，含英语、翻译专业"
+            }
           ]
         }
       ]

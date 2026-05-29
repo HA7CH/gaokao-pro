@@ -62,6 +62,727 @@
     }
   },
   "provinces": {
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "note": "河北不分院校专业组（gaokao.cn special_group=0），按 batch+招生类型+选科 合成组",
+      "groups": [
+        {
+          "group_code": "13_2073_14_pt",
+          "sg_name": "本科批·物理+化学·普通类",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 232,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 28,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 25,
+              "tuition": 5000,
+              "info_short": "能源与动力、新能源、环境工程"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "大一后分流至多个材料专业"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "自动化、测控、智能感知"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 19,
+              "tuition": 5000,
+              "info_short": "计算机、信息安全、物联网"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 17,
+              "tuition": 5000,
+              "info_short": "数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "num": 15,
+              "tuition": 5000,
+              "info_short": "卓越工程人才"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "大数据与金融试验班"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 12,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 11,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "大一后可分流至电子科学与技术"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "拔尖人才计划"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "低碳智慧冶金"
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "高精尖班"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "前沿材料与未来技术"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "纳米科学与工程试验班"
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_14_pt",
+          "sg_name": "本科批·历史·普通类",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 26,
+          "items": [
+            {
+              "sp_name": "社会科学试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "数智管理试验班"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_37_gj",
+          "sg_name": "提前批B段·国家专项",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "total_num": 14,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "国家专项；未来城市建设"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "国家专项；低碳智慧冶金"
+            },
+            {
+              "sp_name": "矿业类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；智能采矿"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_86_zx",
+          "sg_name": "提前批C段·高校专项",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "total_num": 19,
+          "items": [
+            {
+              "sp_name": "矿业类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "高校专项；智能采矿"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "426425",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 15,
+          "items": [
+            {
+              "sp_name": "社会科学试验班",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语；仅招英语考生"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "数智管理试验班；工商管理、会计学"
+            }
+          ],
+          "min_score": 608,
+          "min_rank": 4104
+        },
+        {
+          "group_code": "426444",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 27,
+          "items": [
+            {
+              "sp_name": "工科试验班类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "卓越工程人才；含 8 个专业方向"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 6,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "数学与应用数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高精尖班"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "前沿材料与未来技术"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "纳米科学与工程试验班"
+            }
+          ],
+          "min_score": 637,
+          "min_rank": 9279
+        },
+        {
+          "group_code": "426445",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 53,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "大一后分流至多个材料专业"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "计算机科学与技术、信息安全、物联网工程"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "能源与动力工程、新能源、环境工程"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 6,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "低碳智慧冶金、战略金属提取"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 3,
+              "tuition": 5000
+            }
+          ],
+          "min_score": 634,
+          "min_rank": 10750
+        },
+        {
+          "group_code": "426446",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "大数据与金融试验班；大一后分流"
+            }
+          ],
+          "min_score": 634,
+          "min_rank": 10750
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "393544",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "外国语言文学类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语；可参与英语+人工智能双学位"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "数智管理试验班；工商管理、会计学"
+            }
+          ],
+          "min_score": 598,
+          "min_rank": 1883
+        },
+        {
+          "group_code": "393558",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 39,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "大一后分流至多个材料专业"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "能源与动力、新能源、环境工程"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "计算机、信息安全、物联网"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 3,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 2,
+              "tuition": 5000
+            }
+          ],
+          "min_score": 622,
+          "min_rank": 6483
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按 batch+招生类型+选科 拆组",
+      "groups": [
+        {
+          "group_code": "37_3_1570_pt_phy_chem",
+          "sg_name": "普通类·物理+化学",
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 175,
+          "items": [
+            {
+              "sp_name": "机械类",
+              "num": 22,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "大一后分流至多个材料专业"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 14,
+              "tuition": 5000,
+              "info_short": "能源与动力、新能源、环境工程"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "自动化、测控、智能感知"
+            },
+            {
+              "sp_name": "工科试验班类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "卓越工程人才；含 8 个专业方向"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "大数据与金融试验班"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 11,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "计算机、信息安全、物联网"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 7,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "拔尖人才计划"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "低碳智慧冶金"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "数智管理试验班"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "大一后可分流至电子科学与技术"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高精尖班；精英项目"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "前沿材料与未来技术"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "纳米科学与工程试验班"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语"
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_4070_zx_phy_chem",
+          "sg_name": "高校专项·物理+化学",
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "矿业类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "高校专项；采矿、智能采矿、矿物加工"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；未来城市建设"
+            }
+          ]
+        }
+      ]
+    },
     "41": {
       "name": "河南",
       "regime": "新高考3+1+2",
@@ -92,14 +813,52 @@
           "zslx": "普通类",
           "total_num": 97,
           "items": [
-            { "sp_name": "机械类", "num": 23, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计" },
-            { "sp_name": "能源动力类", "num": 18, "tuition": 5000, "info_short": "能源与动力工程、新能源科学与工程、环境工程" },
-            { "sp_name": "材料科学与工程", "num": 13, "tuition": 5000, "info_short": "大一后可分流至多个材料专业" },
-            { "sp_name": "自动化类", "num": 13, "tuition": 5000, "info_short": "自动化、测控技术与仪器、智能感知工程" },
-            { "sp_name": "计算机类", "num": 13, "tuition": 5000, "info_short": "计算机科学与技术、信息安全、物联网工程" },
-            { "sp_name": "储能科学与工程", "num": 7, "tuition": 5000 },
-            { "sp_name": "通信工程", "num": 5, "tuition": 5000 },
-            { "sp_name": "安全工程", "num": 5, "tuition": 5000, "info_short": "大一后可分流至安全工程、职业卫生工程" }
+            {
+              "sp_name": "机械类",
+              "num": 23,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 18,
+              "tuition": 5000,
+              "info_short": "能源与动力工程、新能源科学与工程、环境工程"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "大一后可分流至多个材料专业"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "自动化、测控技术与仪器、智能感知工程"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "计算机科学与技术、信息安全、物联网工程"
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 7,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 5,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "大一后可分流至安全工程、职业卫生工程"
+            }
           ]
         },
         {
@@ -111,16 +870,62 @@
           "zslx": "普通类",
           "total_num": 53,
           "items": [
-            { "sp_name": "工科试验班类", "num": 12, "tuition": 5000, "info_short": "卓越工程人才；含 8 个专业方向" },
-            { "sp_name": "人工智能", "num": 8, "tuition": 5000 },
-            { "sp_name": "数学类", "num": 7, "tuition": 5000, "info_short": "数学与应用数学、信息与计算科学、统计学" },
-            { "sp_name": "理科试验班", "num": 7, "tuition": 5000, "info_short": "拔尖人才计划" },
-            { "sp_name": "应用物理学", "num": 6, "tuition": 5000, "info_short": "大一后可分流至应用物理学、电子科学与技术" },
-            { "sp_name": "生物技术", "num": 4, "tuition": 5000 },
-            { "sp_name": "应用化学", "num": 3, "tuition": 5000 },
-            { "sp_name": "材料科学与工程", "num": 2, "tuition": 5000, "info_short": "高精尖班；精英人才项目" },
-            { "sp_name": "纳米材料与技术", "num": 2, "tuition": 5000, "info_short": "前沿材料与未来技术" },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000 }
+            {
+              "sp_name": "工科试验班类",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "卓越工程人才；含 8 个专业方向"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 8,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "数学类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "数学与应用数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "拔尖人才计划"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "大一后可分流至应用物理学、电子科学与技术"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 4,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 3,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "高精尖班；精英人才项目"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "前沿材料与未来技术"
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000
+            }
           ]
         },
         {
@@ -132,11 +937,36 @@
           "zslx": "国家专项计划",
           "total_num": 32,
           "items": [
-            { "sp_name": "土木类", "num": 12, "tuition": 5000, "info_short": "国家专项；未来城市建设；智能建造方向" },
-            { "sp_name": "矿业类", "num": 10, "tuition": 5000, "info_short": "国家专项；智能采矿方向" },
-            { "sp_name": "冶金工程", "num": 8, "tuition": 5000, "info_short": "国家专项；低碳智慧冶金" },
-            { "sp_name": "应用化学", "num": 1, "tuition": 5000, "info_short": "国家专项" },
-            { "sp_name": "生物技术", "num": 1, "tuition": 5000, "info_short": "国家专项" }
+            {
+              "sp_name": "土木类",
+              "num": 12,
+              "tuition": 5000,
+              "info_short": "国家专项；未来城市建设；智能建造方向"
+            },
+            {
+              "sp_name": "矿业类",
+              "num": 10,
+              "tuition": 5000,
+              "info_short": "国家专项；智能采矿方向"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "国家专项；低碳智慧冶金"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            }
           ]
         },
         {
@@ -148,163 +978,24 @@
           "zslx": "普通类",
           "total_num": 20,
           "items": [
-            { "sp_name": "社会科学试验班", "num": 9, "tuition": 5000, "info_short": "法学、社会工作、行政管理" },
-            { "sp_name": "外国语言文学类", "num": 6, "tuition": 5000, "info_short": "英语、日语、德语；可参与英语+人工智能双学位" },
-            { "sp_name": "工商管理类", "num": 5, "tuition": 5000, "info_short": "数智管理试验班；工商管理、会计学" }
-          ]
-        }
-      ]
-    },
-    "32": {
-      "name": "江苏",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "426425",
-          "sg_name": "（01）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 15,
-          "items": [
-            { "sp_name": "社会科学试验班", "num": 7, "tuition": 5000, "info_short": "法学、社会工作、行政管理" },
-            { "sp_name": "外国语言文学类", "num": 6, "tuition": 5000, "info_short": "英语、日语、德语；仅招英语考生" },
-            { "sp_name": "工商管理类", "num": 2, "tuition": 5000, "info_short": "数智管理试验班；工商管理、会计学" }
-          ]
-        },
-        {
-          "group_code": "426444",
-          "sg_name": "（04）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 27,
-          "items": [
-            { "sp_name": "工科试验班类", "num": 8, "tuition": 5000, "info_short": "卓越工程人才；含 8 个专业方向" },
-            { "sp_name": "人工智能", "num": 6, "tuition": 5000 },
-            { "sp_name": "数学类", "num": 3, "tuition": 5000, "info_short": "数学与应用数学、信息与计算科学、统计学" },
-            { "sp_name": "应用物理学", "num": 2, "tuition": 5000 },
-            { "sp_name": "材料科学与工程", "num": 2, "tuition": 5000, "info_short": "高精尖班" },
-            { "sp_name": "应用化学", "num": 2, "tuition": 5000 },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000 },
-            { "sp_name": "纳米材料与技术", "num": 1, "tuition": 5000, "info_short": "前沿材料与未来技术" },
-            { "sp_name": "理科试验班", "num": 1, "tuition": 5000, "info_short": "纳米科学与工程试验班" }
-          ]
-        },
-        {
-          "group_code": "426445",
-          "sg_name": "（03）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 53,
-          "items": [
-            { "sp_name": "机械类", "num": 12, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计" },
-            { "sp_name": "材料科学与工程", "num": 8, "tuition": 5000, "info_short": "大一后分流至多个材料专业" },
-            { "sp_name": "计算机类", "num": 8, "tuition": 5000, "info_short": "计算机科学与技术、信息安全、物联网工程" },
-            { "sp_name": "能源动力类", "num": 7, "tuition": 5000, "info_short": "能源与动力工程、新能源、环境工程" },
-            { "sp_name": "自动化类", "num": 6, "tuition": 5000 },
-            { "sp_name": "储能科学与工程", "num": 5, "tuition": 5000 },
-            { "sp_name": "冶金工程", "num": 4, "tuition": 5000, "info_short": "低碳智慧冶金、战略金属提取" },
-            { "sp_name": "通信工程", "num": 3, "tuition": 5000 }
-          ]
-        },
-        {
-          "group_code": "426446",
-          "sg_name": "（02）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 5,
-          "items": [
-            { "sp_name": "大数据管理与应用", "num": 5, "tuition": 5000, "info_short": "大数据与金融试验班；大一后分流" }
-          ]
-        }
-      ]
-    },
-    "44": {
-      "name": "广东",
-      "regime": "新高考3+1+2",
-      "groups": [
-        {
-          "group_code": "432161",
-          "sg_name": "（209）",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 9,
-          "items": [
-            { "sp_name": "外国语言文学类", "num": 5, "tuition": 5000, "info_short": "英语、日语、德语；仅招英语考生" },
-            { "sp_name": "工商管理类", "num": 2, "tuition": 5000, "info_short": "数智管理试验班" },
-            { "sp_name": "社会科学试验班", "num": 2, "tuition": 5000, "info_short": "法学、社会工作、行政管理" }
-          ]
-        },
-        {
-          "group_code": "432172",
-          "sg_name": "（214）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 37,
-          "items": [
-            { "sp_name": "材料科学与工程", "num": 6, "tuition": 5000, "info_short": "不招色盲；大一后分流" },
-            { "sp_name": "自动化类", "num": 6, "tuition": 5000, "info_short": "不招色盲" },
-            { "sp_name": "机械类", "num": 6, "tuition": 5000, "info_short": "机器人、智能制造、车辆" },
-            { "sp_name": "计算机类", "num": 5, "tuition": 5000, "info_short": "不招单色盲；计算机、信息安全" },
-            { "sp_name": "能源动力类", "num": 4, "tuition": 5000, "info_short": "新能源、环境工程方向" },
-            { "sp_name": "储能科学与工程", "num": 4, "tuition": 5000, "info_short": "不招色盲" },
-            { "sp_name": "通信工程", "num": 3, "tuition": 5000, "info_short": "不招色盲" },
-            { "sp_name": "土木类", "num": 3, "tuition": 5000, "info_short": "未来城市建设；智能建造方向" }
-          ]
-        },
-        {
-          "group_code": "432173",
-          "sg_name": "（213）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 22,
-          "items": [
-            { "sp_name": "工科试验班类", "num": 5, "tuition": 5000, "info_short": "卓越工程人才；含 8 个专业方向" },
-            { "sp_name": "生物技术", "num": 3, "tuition": 5000, "info_short": "不招色盲色弱" },
-            { "sp_name": "人工智能", "num": 3, "tuition": 5000, "info_short": "不招色盲" },
-            { "sp_name": "应用物理学", "num": 2, "tuition": 5000, "info_short": "不招色盲；含应物、电子科学" },
-            { "sp_name": "应用化学", "num": 2, "tuition": 5000, "info_short": "不招色盲色弱" },
-            { "sp_name": "数学类", "num": 2, "tuition": 5000, "info_short": "数学、信息与计算科学、统计学" },
-            { "sp_name": "理科试验班", "num": 2, "tuition": 5000, "info_short": "拔尖人才计划" },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000, "info_short": "不招色盲" },
-            { "sp_name": "材料科学与工程", "num": 1, "tuition": 5000, "info_short": "高精尖班；不招色盲" }
-          ]
-        },
-        {
-          "group_code": "432174",
-          "sg_name": "（212）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 6,
-          "items": [
-            { "sp_name": "大数据管理与应用", "num": 6, "tuition": 5000, "info_short": "大数据与金融试验班" }
-          ]
-        },
-        {
-          "group_code": "258677",
-          "sg_name": "（706）",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "特殊类型招生批",
-          "zslx": "高校专项计划",
-          "total_num": 1,
-          "items": [
-            { "sp_name": "材料科学与工程", "num": 1, "tuition": 5000, "info_short": "高校专项；不招单色盲；大一后分流" }
+            {
+              "sp_name": "社会科学试验班",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语；可参与英语+人工智能双学位"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "数智管理试验班；工商管理、会计学"
+            }
           ]
         }
       ]
@@ -322,15 +1013,55 @@
           "zslx": "普通类",
           "total_num": 56,
           "items": [
-            { "sp_name": "机械类", "num": 13, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计" },
-            { "sp_name": "材料科学与工程", "num": 9, "tuition": 5000, "info_short": "大一后分流至多个材料专业" },
-            { "sp_name": "计算机类", "num": 9, "tuition": 5000, "info_short": "计算机、信息安全、物联网工程" },
-            { "sp_name": "能源动力类", "num": 9, "tuition": 5000, "info_short": "能源与动力工程、新能源、环境工程" },
-            { "sp_name": "自动化类", "num": 8, "tuition": 5000, "info_short": "自动化、测控、智能感知" },
-            { "sp_name": "通信工程", "num": 4, "tuition": 5000 },
-            { "sp_name": "安全工程", "num": 2, "tuition": 5000, "info_short": "大一后可分流至职业卫生工程" },
-            { "sp_name": "储能科学与工程", "num": 2, "tuition": 5000 }
-          ]
+            {
+              "sp_name": "机械类",
+              "num": 13,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "大一后分流至多个材料专业"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "计算机、信息安全、物联网工程"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 9,
+              "tuition": 5000,
+              "info_short": "能源与动力工程、新能源、环境工程"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "自动化、测控、智能感知"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 4,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "大一后可分流至职业卫生工程"
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 2,
+              "tuition": 5000
+            }
+          ],
+          "min_score": 616,
+          "min_rank": 8567
         },
         {
           "group_code": "291337",
@@ -341,18 +1072,71 @@
           "zslx": "普通类",
           "total_num": 30,
           "items": [
-            { "sp_name": "工科试验班类", "num": 7, "tuition": 5000, "info_short": "卓越工程人才；含 8 个专业方向" },
-            { "sp_name": "人工智能", "num": 4, "tuition": 5000 },
-            { "sp_name": "应用物理学", "num": 3, "tuition": 5000, "info_short": "大一后可分流至电子科学与技术" },
-            { "sp_name": "应用化学", "num": 3, "tuition": 5000 },
-            { "sp_name": "数学类", "num": 3, "tuition": 5000, "info_short": "数学、信息与计算科学、统计学" },
-            { "sp_name": "生物技术", "num": 2, "tuition": 5000 },
-            { "sp_name": "理科试验班", "num": 2, "tuition": 5000, "info_short": "拔尖人才计划" },
-            { "sp_name": "理科试验班", "num": 2, "tuition": 5000, "info_short": "纳米科学与工程试验班" },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000 },
-            { "sp_name": "材料科学与工程", "num": 1, "tuition": 5000, "info_short": "高精尖班" },
-            { "sp_name": "纳米材料与技术", "num": 1, "tuition": 5000, "info_short": "前沿材料与未来技术" }
-          ]
+            {
+              "sp_name": "工科试验班类",
+              "num": 7,
+              "tuition": 5000,
+              "info_short": "卓越工程人才；含 8 个专业方向"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 4,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "大一后可分流至电子科学与技术"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 3,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "数学类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "拔尖人才计划"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "纳米科学与工程试验班"
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高精尖班"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "前沿材料与未来技术"
+            }
+          ],
+          "min_score": 615,
+          "min_rank": 8880
         },
         {
           "group_code": "291338",
@@ -363,8 +1147,15 @@
           "zslx": "普通类",
           "total_num": 6,
           "items": [
-            { "sp_name": "大数据管理与应用", "num": 6, "tuition": 5000, "info_short": "大数据与金融试验班" }
-          ]
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "大数据与金融试验班"
+            }
+          ],
+          "min_score": 616,
+          "min_rank": 8567
         },
         {
           "group_code": "291346",
@@ -375,10 +1166,27 @@
           "zslx": "普通类",
           "total_num": 11,
           "items": [
-            { "sp_name": "外国语言文学类", "num": 6, "tuition": 5000, "info_short": "英语、日语、德语" },
-            { "sp_name": "社会科学试验班", "num": 4, "tuition": 5000, "info_short": "法学、社工、行政管理" },
-            { "sp_name": "工商管理类", "num": 1, "tuition": 5000, "info_short": "数智管理试验班" }
-          ]
+            {
+              "sp_name": "外国语言文学类",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "法学、社工、行政管理"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "数智管理试验班"
+            }
+          ],
+          "min_score": 601,
+          "min_rank": 3040
         },
         {
           "group_code": "291351",
@@ -389,196 +1197,248 @@
           "zslx": "国家专项计划",
           "total_num": 11,
           "items": [
-            { "sp_name": "土木类", "num": 3, "tuition": 5000, "info_short": "国家专项；未来城市建设" },
-            { "sp_name": "矿业类", "num": 3, "tuition": 5000, "info_short": "国家专项；智能采矿" },
-            { "sp_name": "冶金工程", "num": 2, "tuition": 5000, "info_short": "国家专项；低碳智慧冶金" },
-            { "sp_name": "应用化学", "num": 1, "tuition": 5000, "info_short": "国家专项" },
-            { "sp_name": "生物技术", "num": 1, "tuition": 5000, "info_short": "国家专项" },
-            { "sp_name": "安全工程", "num": 1, "tuition": 5000, "info_short": "国家专项；大一后可分流至职业卫生工程" }
-          ]
+            {
+              "sp_name": "土木类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；未来城市建设"
+            },
+            {
+              "sp_name": "矿业类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；智能采矿"
+            },
+            {
+              "sp_name": "冶金工程",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "国家专项；低碳智慧冶金"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项"
+            },
+            {
+              "sp_name": "安全工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "国家专项；大一后可分流至职业卫生工程"
+            }
+          ],
+          "min_score": 583,
+          "min_rank": 22609
         }
       ]
     },
-    "35": {
-      "name": "福建",
+    "44": {
+      "name": "广东",
       "regime": "新高考3+1+2",
       "groups": [
         {
-          "group_code": "393544",
-          "sg_name": "（999）",
+          "group_code": "432161",
+          "sg_name": "（209）",
           "track": "历史类",
           "subject_req": "首选历史，再选不限",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 7,
+          "total_num": 9,
           "items": [
-            { "sp_name": "外国语言文学类", "num": 4, "tuition": 5000, "info_short": "英语、日语、德语；可参与英语+人工智能双学位" },
-            { "sp_name": "社会科学试验班", "num": 2, "tuition": 5000, "info_short": "法学、社会工作、行政管理" },
-            { "sp_name": "工商管理类", "num": 1, "tuition": 5000, "info_short": "数智管理试验班；工商管理、会计学" }
-          ]
+            {
+              "sp_name": "外国语言文学类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "英语、日语、德语；仅招英语考生"
+            },
+            {
+              "sp_name": "工商管理类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "数智管理试验班"
+            },
+            {
+              "sp_name": "社会科学试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "法学、社会工作、行政管理"
+            }
+          ],
+          "min_score": 603,
+          "min_rank": 4596
         },
         {
-          "group_code": "393558",
-          "sg_name": "（500）",
+          "group_code": "432172",
+          "sg_name": "（214）",
           "track": "物理类",
           "subject_req": "首选物理，再选化学",
           "batch": "本科批",
           "zslx": "普通类",
-          "total_num": 39,
+          "total_num": 37,
           "items": [
-            { "sp_name": "机械类", "num": 10, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计" },
-            { "sp_name": "材料科学与工程", "num": 8, "tuition": 5000, "info_short": "大一后分流至多个材料专业" },
-            { "sp_name": "自动化类", "num": 5, "tuition": 5000 },
-            { "sp_name": "能源动力类", "num": 5, "tuition": 5000, "info_short": "能源与动力、新能源、环境工程" },
-            { "sp_name": "计算机类", "num": 4, "tuition": 5000, "info_short": "计算机、信息安全、物联网" },
-            { "sp_name": "通信工程", "num": 3, "tuition": 5000 },
-            { "sp_name": "安全工程", "num": 2, "tuition": 5000 },
-            { "sp_name": "储能科学与工程", "num": 2, "tuition": 5000 }
-          ]
-        }
-      ]
-    },
-    "37": {
-      "name": "山东",
-      "regime": "新高考3+3(综合改革)",
-      "note": "山东不分院校专业组，按专业(组合)报志愿；此处按 batch+招生类型+选科 拆组",
-      "groups": [
-        {
-          "group_code": "37_3_1570_pt_phy_chem",
-          "sg_name": "普通类·物理+化学",
-          "track": "综合改革",
-          "subject_req": "物理+化学",
-          "batch": "普通类一段",
-          "zslx": "普通类",
-          "total_num": 175,
-          "items": [
-            { "sp_name": "机械类", "num": 22, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程、工业设计" },
-            { "sp_name": "材料科学与工程", "num": 18, "tuition": 5000, "info_short": "大一后分流至多个材料专业" },
-            { "sp_name": "能源动力类", "num": 14, "tuition": 5000, "info_short": "能源与动力、新能源、环境工程" },
-            { "sp_name": "自动化类", "num": 13, "tuition": 5000, "info_short": "自动化、测控、智能感知" },
-            { "sp_name": "工科试验班类", "num": 13, "tuition": 5000, "info_short": "卓越工程人才；含 8 个专业方向" },
-            { "sp_name": "大数据管理与应用", "num": 12, "tuition": 5000, "info_short": "大数据与金融试验班" },
-            { "sp_name": "人工智能", "num": 11, "tuition": 5000 },
-            { "sp_name": "社会科学试验班", "num": 10, "tuition": 5000, "info_short": "法学、社会工作、行政管理" },
-            { "sp_name": "计算机类", "num": 8, "tuition": 5000, "info_short": "计算机、信息安全、物联网" },
-            { "sp_name": "通信工程", "num": 7, "tuition": 5000 },
-            { "sp_name": "理科试验班", "num": 6, "tuition": 5000, "info_short": "拔尖人才计划" },
-            { "sp_name": "冶金工程", "num": 5, "tuition": 5000, "info_short": "低碳智慧冶金" },
-            { "sp_name": "安全工程", "num": 5, "tuition": 5000 },
-            { "sp_name": "工商管理类", "num": 5, "tuition": 5000, "info_short": "数智管理试验班" },
-            { "sp_name": "数学类", "num": 5, "tuition": 5000, "info_short": "数学、信息与计算科学、统计学" },
-            { "sp_name": "储能科学与工程", "num": 5, "tuition": 5000 },
-            { "sp_name": "应用物理学", "num": 3, "tuition": 5000, "info_short": "大一后可分流至电子科学与技术" },
-            { "sp_name": "材料科学与工程", "num": 2, "tuition": 5000, "info_short": "高精尖班；精英项目" },
-            { "sp_name": "纳米材料与技术", "num": 2, "tuition": 5000, "info_short": "前沿材料与未来技术" },
-            { "sp_name": "应用化学", "num": 2, "tuition": 5000 },
-            { "sp_name": "生物技术", "num": 2, "tuition": 5000 },
-            { "sp_name": "理科试验班", "num": 2, "tuition": 5000, "info_short": "纳米科学与工程试验班" },
-            { "sp_name": "外国语言文学类", "num": 2, "tuition": 5000, "info_short": "英语、日语、德语" },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000 }
-          ]
+            {
+              "sp_name": "材料科学与工程",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "不招色盲；大一后分流"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "不招色盲"
+            },
+            {
+              "sp_name": "机械类",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "机器人、智能制造、车辆"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "不招单色盲；计算机、信息安全"
+            },
+            {
+              "sp_name": "能源动力类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "新能源、环境工程方向"
+            },
+            {
+              "sp_name": "储能科学与工程",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "不招色盲"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "不招色盲"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "未来城市建设；智能建造方向"
+            }
+          ],
+          "min_score": 616,
+          "min_rank": 16299
         },
         {
-          "group_code": "37_3_4070_zx_phy_chem",
-          "sg_name": "高校专项·物理+化学",
-          "track": "综合改革",
-          "subject_req": "物理+化学",
-          "batch": "特殊类型批",
+          "group_code": "432173",
+          "sg_name": "（213）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 22,
+          "items": [
+            {
+              "sp_name": "工科试验班类",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "卓越工程人才；含 8 个专业方向"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "不招色盲色弱"
+            },
+            {
+              "sp_name": "人工智能",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "不招色盲"
+            },
+            {
+              "sp_name": "应用物理学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "不招色盲；含应物、电子科学"
+            },
+            {
+              "sp_name": "应用化学",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "不招色盲色弱"
+            },
+            {
+              "sp_name": "数学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "数学、信息与计算科学、统计学"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "拔尖人才计划"
+            },
+            {
+              "sp_name": "材料智能技术",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "不招色盲"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高精尖班；不招色盲"
+            }
+          ],
+          "min_score": 619,
+          "min_rank": 14686
+        },
+        {
+          "group_code": "432174",
+          "sg_name": "（212）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 6,
+              "tuition": 5000,
+              "info_short": "大数据与金融试验班"
+            }
+          ],
+          "min_score": 620,
+          "min_rank": 14161
+        },
+        {
+          "group_code": "258677",
+          "sg_name": "（706）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "特殊类型招生批",
           "zslx": "高校专项计划",
-          "total_num": 7,
+          "total_num": 1,
           "items": [
-            { "sp_name": "矿业类", "num": 3, "tuition": 5000, "info_short": "高校专项；采矿、智能采矿、矿物加工" },
-            { "sp_name": "冶金工程", "num": 1, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "应用化学", "num": 1, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "生物技术", "num": 1, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "土木类", "num": 1, "tuition": 5000, "info_short": "高校专项；未来城市建设" }
-          ]
-        }
-      ]
-    },
-    "13": {
-      "name": "河北",
-      "regime": "新高考3+1+2",
-      "note": "河北不分院校专业组（gaokao.cn special_group=0），按 batch+招生类型+选科 合成组",
-      "groups": [
-        {
-          "group_code": "13_2073_14_pt",
-          "sg_name": "本科批·物理+化学·普通类",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 232,
-          "items": [
-            { "sp_name": "机械类", "num": 28, "tuition": 5000, "info_short": "机器人、智能制造、机械、车辆、物流工程" },
-            { "sp_name": "能源动力类", "num": 25, "tuition": 5000, "info_short": "能源与动力、新能源、环境工程" },
-            { "sp_name": "材料科学与工程", "num": 19, "tuition": 5000, "info_short": "大一后分流至多个材料专业" },
-            { "sp_name": "自动化类", "num": 19, "tuition": 5000, "info_short": "自动化、测控、智能感知" },
-            { "sp_name": "计算机类", "num": 19, "tuition": 5000, "info_short": "计算机、信息安全、物联网" },
-            { "sp_name": "数学类", "num": 17, "tuition": 5000, "info_short": "数学、信息与计算科学、统计学" },
-            { "sp_name": "工科试验班类", "num": 15, "tuition": 5000, "info_short": "卓越工程人才" },
-            { "sp_name": "大数据管理与应用", "num": 13, "tuition": 5000, "info_short": "大数据与金融试验班" },
-            { "sp_name": "通信工程", "num": 12, "tuition": 5000 },
-            { "sp_name": "人工智能", "num": 11, "tuition": 5000 },
-            { "sp_name": "应用物理学", "num": 7, "tuition": 5000, "info_short": "大一后可分流至电子科学与技术" },
-            { "sp_name": "理科试验班", "num": 7, "tuition": 5000, "info_short": "拔尖人才计划" },
-            { "sp_name": "冶金工程", "num": 5, "tuition": 5000, "info_short": "低碳智慧冶金" },
-            { "sp_name": "储能科学与工程", "num": 5, "tuition": 5000 },
-            { "sp_name": "材料科学与工程", "num": 3, "tuition": 5000, "info_short": "高精尖班" },
-            { "sp_name": "纳米材料与技术", "num": 2, "tuition": 5000, "info_short": "前沿材料与未来技术" },
-            { "sp_name": "应用化学", "num": 2, "tuition": 5000 },
-            { "sp_name": "生物技术", "num": 2, "tuition": 5000 },
-            { "sp_name": "安全工程", "num": 2, "tuition": 5000 },
-            { "sp_name": "理科试验班", "num": 2, "tuition": 5000, "info_short": "纳米科学与工程试验班" },
-            { "sp_name": "材料智能技术", "num": 2, "tuition": 5000 }
-          ]
-        },
-        {
-          "group_code": "13_2074_14_pt",
-          "sg_name": "本科批·历史·普通类",
-          "track": "历史类",
-          "subject_req": "首选历史，再选不限",
-          "batch": "本科批",
-          "zslx": "普通类",
-          "total_num": 26,
-          "items": [
-            { "sp_name": "社会科学试验班", "num": 10, "tuition": 5000, "info_short": "法学、社会工作、行政管理" },
-            { "sp_name": "工商管理类", "num": 8, "tuition": 5000, "info_short": "数智管理试验班" },
-            { "sp_name": "外国语言文学类", "num": 8, "tuition": 5000, "info_short": "英语、日语、德语" }
-          ]
-        },
-        {
-          "group_code": "13_2073_37_gj",
-          "sg_name": "提前批B段·国家专项",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科提前批B段",
-          "zslx": "国家专项计划",
-          "total_num": 14,
-          "items": [
-            { "sp_name": "土木类", "num": 5, "tuition": 5000, "info_short": "国家专项；未来城市建设" },
-            { "sp_name": "冶金工程", "num": 4, "tuition": 5000, "info_short": "国家专项；低碳智慧冶金" },
-            { "sp_name": "矿业类", "num": 3, "tuition": 5000, "info_short": "国家专项；智能采矿" },
-            { "sp_name": "应用化学", "num": 1, "tuition": 5000, "info_short": "国家专项" },
-            { "sp_name": "生物技术", "num": 1, "tuition": 5000, "info_short": "国家专项" }
-          ]
-        },
-        {
-          "group_code": "13_2073_86_zx",
-          "sg_name": "提前批C段·高校专项",
-          "track": "物理类",
-          "subject_req": "首选物理，再选化学",
-          "batch": "本科提前批C段",
-          "zslx": "高校专项计划",
-          "total_num": 19,
-          "items": [
-            { "sp_name": "矿业类", "num": 7, "tuition": 5000, "info_short": "高校专项；智能采矿" },
-            { "sp_name": "冶金工程", "num": 5, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "土木类", "num": 4, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "材料科学与工程", "num": 1, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "应用化学", "num": 1, "tuition": 5000, "info_short": "高校专项" },
-            { "sp_name": "生物技术", "num": 1, "tuition": 5000, "info_short": "高校专项" }
-          ]
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "tuition": 5000,
+              "info_short": "高校专项；不招单色盲；大一后分流"
+            }
+          ],
+          "min_score": 557,
+          "min_rank": 70969
         }
       ]
     }
