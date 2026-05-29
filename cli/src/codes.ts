@@ -30,7 +30,7 @@ export const PROVINCES = {
   62: { name: "甘肃", pinyin: "gansu", reform: "3+1+2" },
   63: { name: "青海", pinyin: "qinghai", reform: "3+1+2" },
   64: { name: "宁夏", pinyin: "ningxia", reform: "3+1+2" },
-  65: { name: "新疆", pinyin: "xinjiang", reform: "3+1+2" },
+  65: { name: "新疆", pinyin: "xinjiang", reform: "old" },  // 2025 仍是老高考；3+1+2 改革将在 2027 首届实施
   // GB/T 2260 港澳台 — 不在普通高考体系内，走全国联招 / 居住证高考 / 港澳台高校通道
   // 注：港中大(深圳)、港科大(广州)、港大(深圳)是内地办学法人，归入广东 44，不归 81
   71: { name: "台湾", pinyin: "taiwan", reform: "special" },

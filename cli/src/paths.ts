@@ -63,8 +63,42 @@ export type PathsResult = {
 
 // ---- Eligibility helpers ----
 
+// Approximate "score-floor" for high-bar programs. Used to filter "你这分能不能报"
+// — return { ok: true } if no score provided (let caller see all);
+// otherwise check candidate.score >= floor for the program type.
+// Floors are conservative: 强基 needs at least 一本线 (~530 物理/520 历史 most provinces);
+// 港校综评 / 中外合作综评 / 综评 all need ≥ 特控线 (~545-560).
+// Better to under-warn than over-filter, but parents with 450 should not see 清华强基 as "✓".
+function scoreFloorFor(programType: string | null): number | null {
+  if (!programType) return null;
+  // 强基计划 — 教育部规定高考 ≥ 一本线/特控线
+  if (programType === "强基计划") return 535;
+  // 综评/三位一体 — 高考 ≥ 特控线
+  if (programType === "综评提前批" || programType === "三位一体") return 545;
+  // 中外合作综评 + 港校综评 — 特控线 + 经济负担
+  if (programType === "中外合作综评" || programType === "港校综评") return 545;
+  // 公安院校/军校 — ≥ 一本线
+  if (programType === "公安院校") return 520;
+  if (programType === "军校") return 530;
+  // 航海类 — 二本线
+  if (programType === "航海类") return 460;
+  // 公费师范生 / 优师 — 提前批, 实际录取分一般 ≥ 一本线
+  if (programType === "公费师范生" || programType === "优师计划") return 540;
+  // 国家专项 / 高校专项 — ≥ 一本线
+  if (programType === "国家专项" || programType === "高校专项" || programType === "地方专项") return 510;
+  // 民族班/预科 / 小语种 — 一般门槛较低
+  return null;
+}
+
 function tiqianEligible(p: TiqianProgram, profile: ProfileLite): { eligible: boolean; caveat: string | null } {
   const t = p.program_type;
+  // Score-floor check (only when candidate has a score)
+  if (typeof profile.score === "number") {
+    const floor = scoreFloorFor(t);
+    if (floor !== null && profile.score < floor) {
+      return { eligible: false, caveat: `分数门槛 ~${floor}+，你 ${profile.score} 分暂不达标` };
+    }
+  }
   if (t === "公费师范生" || t === "优师计划") {
     if (!profile.agree_to_serve) return { eligible: false, caveat: "需签 ≥6 年服务期 (本档关闭)" };
     return { eligible: true, caveat: "服务期 ≥6 年；违约金=学费+生活费+50%" };

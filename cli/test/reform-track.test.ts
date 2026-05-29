@@ -160,6 +160,8 @@ test("inferTrack emits only the numeric code vocabulary across all regimes", () 
   // one representative subject set per province (skips 3+1+2 throw case)
   for (const idStr of Object.keys(PROVINCES)) {
     const id = Number(idStr) as ProvinceId;
+    // 港澳台 (71/81/82) — reform="special", throws by design (用 qatw verb 走特殊招生通道)
+    if (PROVINCES[id].reform === "special") continue;
     const subjects = PROVINCES[id].reform === "3+1+2"
       ? (["物理", "化学", "生物"] as const)
       : (["物理", "化学", "生物"] as const);
@@ -169,10 +171,27 @@ test("inferTrack emits only the numeric code vocabulary across all regimes", () 
   }
 });
 
+test("inferTrack throws for 港澳台 (71/81/82) special-region provinces", () => {
+  for (const id of [71, 81, 82] as const) {
+    let threw = false;
+    try {
+      inferTrack(id, ["物理", "化学", "生物"]);
+    } catch (e) {
+      threw = true;
+      const msg = e instanceof Error ? e.message : String(e);
+      assert(msg.includes("qatw"), `port-au-tai throw must mention qatw verb, got: ${msg}`);
+    }
+    assert(threw, `inferTrack(${id}) should throw for 港澳台 special region`);
+  }
+});
+
 test("inferDefaultTrack emits only the word vocabulary, never numeric codes", () => {
   const wordKeys = new Set(["combined", "physics", "science"]);
   for (const idStr of Object.keys(PROVINCES)) {
     const id = Number(idStr) as ProvinceId;
+    // 港澳台 special — inferDefaultTrack should return a sensible default ("combined")
+    // since 港澳台 联招 uses 文科/理科 split similar to 老高考
+    if (PROVINCES[id].reform === "special") continue;
     const t = inferDefaultTrack(id);
     assert(wordKeys.has(t), `${PROVINCES[id].name}: inferDefaultTrack returned "${t}"`);
   }

@@ -617,13 +617,36 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
   }
   const province = uni.provinces.find(p => p.province === provinceName);
   if (!province) throw new Error(`province not found for ${uni.university}: ${provinceName}`);
-  // Tolerant code match: dataset uses bare "01", caller may pass "01" or "1".
-  const trimmedCode = String(groupCode).trim();
-  const group = province.groups.find(g => g.group_code === trimmedCode)
-    ?? province.groups.find(g => g.group_code.replace(/^0+/, "") === trimmedCode.replace(/^0+/, ""));
+  // Tolerant code match — five forms:
+  //   1) exact
+  //   2) leading-zero strip ("01" == "1")
+  //   3) bracket normalization (（01） ↔ (01) ↔ 01)
+  //   4) empty groupCode → 山东/浙江-style 专业+学校 (no 专业组 concept); pick
+  //      the group with min_score data, fall back to first group
+  //   5) "auto" / "default" sentinel
+  const normalize = (s: string) =>
+    s.trim()
+      .replace(/[（）]/g, m => (m === "（" ? "(" : ")"))  // fullwidth → halfwidth
+      .replace(/[()]/g, "")                                // strip brackets entirely
+      .replace(/^0+/, "");                                 // strip leading zeros
+  const wantCode = String(groupCode).trim();
+  const wantNorm = normalize(wantCode);
+  let group: Group | undefined;
+  if (wantCode === "" || wantCode === "auto" || wantCode === "default" || wantCode === "_") {
+    // No-group-concept provinces (山东/浙江 普通批 专业平行): use the group with
+    // group_min_score if any, else the first group. Surface a hint in reasons.
+    group = province.groups.find(g => typeof g.group_min_score === "number") ?? province.groups[0];
+  } else {
+    group = province.groups.find(g => g.group_code === wantCode)
+      ?? province.groups.find(g => normalize(g.group_code) === wantNorm)
+      ?? province.groups.find(g => g.group_code.replace(/^0+/, "") === wantCode.replace(/^0+/, ""));
+  }
   if (!group) {
-    const known = province.groups.map(g => g.group_code).join(", ") || "(none)";
-    throw new Error(`group not found for ${uni.university}/${provinceName}: ${groupCode} (known: ${known})`);
+    const known = province.groups
+      .map(g => g.group_code || "(空-自动选)")
+      .slice(0, 12)
+      .join(", ") || "(none)";
+    throw new Error(`找不到「${uni.university} / ${provinceName} / 组${groupCode}」；本省可用组: ${known}${province.groups.length > 12 ? "..." : ""}。山东/浙江 等专业平行省可传空 "" 或 "auto" 自动选`);
   }
 
   const score_gap = group.group_min_score === null ? null : candidateScore - group.group_min_score;

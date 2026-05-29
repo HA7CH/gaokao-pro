@@ -136,6 +136,10 @@ export type RecommendOutput = {
 // callers that need a rank-table file key translate via chart-check.ts.
 export function inferTrack(provinceId: ProvinceId, subjects: Subject[]): string {
   const reform = PROVINCES[provinceId].reform;
+  // 港澳台 (71/81/82) — special channels (联招/DSE/学测), not mainland 普通批
+  if (reform === "special") {
+    throw new Error(`${PROVINCES[provinceId].name} 是港澳台特殊招生区域，不走内地普通批 recommend 流程。请用 \`gaokao-pro qatw ${provinceId}\` 查 联招/DSE/学测/独立招生 等通道。`);
+  }
   if (reform === "3+3") return "3"; // 综合改革 — no 文/理 distinction
   if (reform === "3+1+2") {
     if (subjects.includes("物理")) return "2073"; // 物理类

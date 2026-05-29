@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.3.3 — 2026-05-29
+
+### Fix — 100-persona red-team 系统性修补
+
+**Round 1 — 整省/整 verb 断链 critical bugs**:
+- `slip-risk` 接受空 group_code / `auto` / 半角 `(01)` / 全角 `（01）` → **浙江/山东 整省现在能跑滑档评估** (此前 group_code="" 完全打不通)
+- `inferTrack()` 对 港澳台 (71/81/82) 抛友好错误指向 `qatw` verb → recommend/paths/rank 不再 silent fail
+- `paths()` 按候选分数 floor 过滤 强基/综评/港校/军校 (450 分不再"合格"清华强基)
+- `国家专项` 从单条全国占位 → 23 实施省份分别注册 (`paths --rural` 在河南/四川/贵州/云南等省正确显示)
+- `新疆 reform = "3+1+2"` → `"old"` (2025 仍是老高考, 3+1+2 改革2027 首届) → recommend/roadmap 整省不再返回 0 校
+
+**Round 2 — 数据矛盾**:
+- 浙大三位一体比例 `85:10:5` → `50:30:20` (浙大公开真实比例)
+- 河北 huadang 4 个 case `112 志愿` → `96 志愿` (河北 2024+ 本科批是 96, 112 是辽宁)
+- 内蒙古 calendar `2026 起平行替代动态投档` → `2024 起已替代` (real 政策时间)
+- 云南 2025 艺术 `culture_control_line: {historical:345}` 与 `extras: no provincial control line` 自相矛盾 → 9 records 的 `culture_control_line` 置 null + 新增 notes 说明政策
+
+**Round 3 — UX cleanup**:
+- `tiqian <省>` 接受中文名 ("浙江" / "广东") 不再只认 pinyin
+- `tiqian-pi --type` 支持模糊匹配 (`公费师范` 命中 `公费师范生`, `国家专项计划` 命中 `国家专项`)
+- `minzu` 接受位置参数 (`minzu 河南`) 与其他 verb 一致
+- `roadmap` 在无调剂省 (浙江/山东/河北/重庆/辽宁/贵州/青海) 把"⚠️ 调剂雷"改写"ℹ️ 组内冷门" (不再说"勾服从可能掉到冷门"——这些省没有勾服从这一步)
+- `slip-risk` 错误信息中文化 + 列已知组提示
+
+### Tests
+- `reform-track.test.ts` 新增 港澳台 special-region throw 测试
+- 全部 300+ 单元+smoke 测试通过
+
 ## 0.3.2 — 2026-05-29
 
 ### Merge — LAWTED issue #5 (worktree-ralph-loop-special-admissions)

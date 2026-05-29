@@ -25,10 +25,10 @@
       "data_quality": "verified",
       "tiqian": {
         "types": ["强基计划", "三位一体综合评价", "高校专项", "地方专项"],
-        "rules": "三位一体: 浙大 980 人, 综合成绩 = 高考85% + 校测10% + 学考5%, 初审 1:6 入围。地方专项覆盖 29 县, 23 校 800 名。"
+        "rules": "三位一体: 浙大 980 人, 综合成绩 = 高考50% + 校测30% + 学考20%, 初审 1:6 入围。地方专项覆盖 29 县, 23 校 800 名。"
       },
       "qiangji_implementing": ["浙江大学", "北京大学", "清华大学"],
-      "zonghepingjia_implementing": ["浙江大学(980人,85:10:5)", "复旦大学(205人)", "上海交通大学(295人)", "中国科学院大学(39人,90:10)"],
+      "zonghepingjia_implementing": ["浙江大学(980人,50:30:20)", "复旦大学(205人)", "上海交通大学(295人)", "中国科学院大学(39人,90:10)"],
       "guojia_zhuanxiang": false,
       "gaoxiao_zhuanxiang": true,
       "difang_zhuanxiang": true,

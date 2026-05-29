@@ -726,8 +726,22 @@ const VERBS: Record<string, Verb> = {
       printJson({ ok: true, cross_province_programs: getCrossProvincePrograms() });
       return;
     }
-    const data = findProvinceSpecialty(province);
-    if (!data) throw new Error(`no specialty plan ingested for ${province}. Available: ${listProvinceKeys().join(", ")}`);
+    // 接受中文省名或拼音; 用 resolveProvince 统一标准化
+    const id = resolveProvince(province);
+    let data = findProvinceSpecialty(province);
+    if (!data && id) {
+      // 中文名传入 → 转拼音再查
+      const pinyin = PROVINCES[id].pinyin;
+      data = findProvinceSpecialty(pinyin);
+    }
+    if (!data) {
+      const friendly = listProvinceKeys().map(k => {
+        // Show both pinyin + Chinese for each ingested province
+        const matchId = (Object.entries(PROVINCES) as [string, {pinyin: string; name: string}][]).find(([, v]) => v.pinyin === k);
+        return matchId ? `${k}/${matchId[1].name}` : k;
+      }).join(", ");
+      throw new Error(`「${province}」未 ingest 完整提前批数据。已 ingest: ${friendly}。其它省份可用 \`tiqian-pi <省份>\` 查 提前批 catalog (151 项目)。`);
+    }
     printJson({ ok: true, ...data });
   },
 
@@ -1074,9 +1088,11 @@ const VERBS: Record<string, Verb> = {
     const { positional, flags } = parseFlags(args);
     const uni = positional[0] ?? (typeof flags.university === "string" ? flags.university : null);
     const province = positional[1] ?? (typeof flags.province === "string" ? flags.province : null);
-    const groupCode = positional[2] ?? (typeof flags.group === "string" ? flags.group : null);
-    if (!uni || !province || !groupCode) {
-      throw new Error("usage: gaokao-pro slip-risk <university> <province> <groupCode> --score <n> [--rank <n>] [--year <year>] [--must …] [--ok …] [--reject …] [--json]");
+    // groupCode: 山东/浙江 等专业平行省可传 "auto" 或省略 (auto-pick best group)
+    let groupCode = positional[2] ?? (typeof flags.group === "string" ? flags.group : null);
+    if (groupCode === undefined || groupCode === null) groupCode = "auto";
+    if (!uni || !province) {
+      throw new Error("usage: gaokao-pro slip-risk <学校> <省份> [<组号|auto>] --score <n> [--rank <n>] [--year <year>] [--must …] [--ok …] [--reject …] [--json]\n  组号留空或写 auto 时, 工具自动选最有数据的组 (适用 山东/浙江 专业平行省)");
     }
     const scoreRaw = flags.score;
     if (typeof scoreRaw !== "string" && typeof scoreRaw !== "number") {
@@ -1279,7 +1295,8 @@ const VERBS: Record<string, Verb> = {
           const riskStr = risk ? ` ${verdictEmoji[risk.verdict] ?? ""}` : "";
           md.push(`- ${c.name}${tagStr} (基线 ${c.baselineMinScore}, 差 ${c.delta >= 0 ? "+" : ""}${c.delta})${riskStr}`);
           if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
-            md.push(`  ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 3).join("、")}`);
+            const tjLabel = result.province_rules.has_tiaoji === false ? "组内冷门" : "调剂雷";
+            md.push(`  ⚠️ ${tjLabel}: ${risk.trap_majors.slice(0, 3).join("、")}`);
           }
           // 📋 policy basis (compact; up to 2 per pick in chat mode)
           if (c.reasoning && c.reasoning.policy_basis.length > 0) {
@@ -1333,9 +1350,16 @@ const VERBS: Record<string, Verb> = {
           if (risk.precedent_count > 0) riskStr += ` ·有${risk.precedent_count}个历史案例`;
         }
         lines.push(`  · ${c.name}${tagStr} delta=${c.delta >= 0 ? "+" : ""}${c.delta} (${c.baselineYear}基线${c.baselineMinScore}) · ${c.city} ${dataset}${riskStr}`);
-        // 调剂雷区 提示 (热门 + 冷门同组)
+        // 调剂雷区 提示 (热门 + 冷门同组) — 仅在有"服从调剂"机制的省份显示
+        // 浙江/山东/河北/重庆/辽宁/贵州/青海 等无调剂省份不应该提"勾服从可能掉到冷门"
         if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
-          lines.push(`    ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 4).join("、")}${risk.trap_majors.length > 4 ? "等" : ""} (同组热门 ${risk.hot_majors_sample.slice(0, 2).join("、")} — 勾服从可能掉到冷门)`);
+          const hasTiaoji = result.province_rules.has_tiaoji;
+          if (hasTiaoji === true) {
+            lines.push(`    ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 4).join("、")}${risk.trap_majors.length > 4 ? "等" : ""} (同组热门 ${risk.hot_majors_sample.slice(0, 2).join("、")} — 勾服从可能掉到冷门)`);
+          } else {
+            // 无调剂省 = 专业平行, 调剂雷转换为"组内冷门提示"
+            lines.push(`    ℹ️ 组内冷门: ${risk.trap_majors.slice(0, 3).join("、")}${risk.trap_majors.length > 3 ? "等" : ""} (${result.province_rules.unit ?? "专业平行"}, 没有勾服从这一步)`);
+          }
         }
         // 三层标签 — 推荐依据透明化
         if (c.reasoning && c.reasoning.policy_basis.length > 0) {
@@ -1995,9 +2019,10 @@ const VERBS: Record<string, Verb> = {
   },
 
   async minzu(args) {
-    const { flags } = parseFlags(args);
-    const pa = flags.province;
-    if (typeof pa !== "string") throw new Error("--province <name|id> is required");
+    const { positional, flags } = parseFlags(args);
+    // Accept either positional or --province (consistent with paths/dossier/etc.)
+    const pa = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!pa) throw new Error("usage: gaokao-pro minzu <省份>  |  gaokao-pro minzu --province <name|id>");
     const id = resolveProvince(pa);
     if (!id) throw new Error(`unknown province: ${pa}`);
     const year = parseSAYear(flags.year);

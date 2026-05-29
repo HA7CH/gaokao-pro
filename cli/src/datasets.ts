@@ -446,9 +446,16 @@ export function verbWarning(verbName: string): string | null {
 }
 
 // Lists 提前批 programs of a given type (e.g. "公费师范生", "综评提前批").
+// Fuzzy match: "公费师范" → "公费师范生", "国家专项计划" → "国家专项", etc.
 export function listTiqianProgramsByType(programType: string): TiqianProgram[] {
   const file = loadTiqianPrograms();
-  return file.programs.filter((p) => p.program_type === programType);
+  const q = String(programType).trim();
+  // 1) exact
+  let hits = file.programs.filter((p) => p.program_type === q);
+  if (hits.length > 0) return hits;
+  // 2) fuzzy: q is a substring of program_type, or program_type is substring of q
+  hits = file.programs.filter((p) => p.program_type.includes(q) || q.includes(p.program_type));
+  return hits;
 }
 
 // Lists distinct program_type values present in the dataset.
