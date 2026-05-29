@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=537; zs_code=10424.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for sdust: 天津/山西/内蒙古/辽宁/吉林/黑龙江/安徽/江西/广西/海南/重庆/四川/贵州/云南/西藏/陕西/甘肃/青海/宁夏/新疆"
   ],
   "provinces": [
     {
@@ -4694,6 +4695,6078 @@
               "tuition": "6325",
               "length": "四年",
               "info": "（办学地点：青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "260651",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "571",
+          "min_rank": "20134",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080718T",
+              "sp_name": "海洋信息工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院；青岛校区）"
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院；青岛校区）"
+            },
+            {
+              "spcode": "080718T",
+              "sp_name": "海洋信息工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院；青岛校区）"
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院；青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "395742",
+          "group_code": "（302）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "544",
+          "min_rank": "32969",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "395744",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "527",
+          "min_rank": "42482",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点青岛校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "449588",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "562",
+          "min_rank": "13604",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）（就读地点泰安）（泰安校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080219T",
+              "sp_name": "应急装备技术与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）（就读地点泰安）（泰安校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）（就读地点泰安）（泰安校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080219T",
+              "sp_name": "应急装备技术与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）（就读地点泰安）（泰安校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "449589",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "527",
+          "min_rank": "22165",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "449590",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "599",
+          "min_rank": "1612",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（青岛校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "533",
+          "min_rank": "40615",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚塔斯马尼亚大学合作，就读地点济南，只提供英语教学）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "55000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚斯威本科技大学合作，就读地点济南，只提供英语教学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚塔斯马尼亚大学合作，就读地点济南，只提供英语教学）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080718T",
+              "sp_name": "海洋信息工程",
+              "plan": 3,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安就读）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "541",
+          "min_rank": "8249",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": "（招收英语考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "239591",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "239592",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "239593",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "239594",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": "（外语语种须为英语）（只招英语考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": "（外语语种须为英语）（只招英语考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "264048",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "504",
+          "min_rank": "7638",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": "（招英语考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": "（招英语考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "264081",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "467",
+          "min_rank": "43784",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "264082",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "545",
+          "min_rank": "18106",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "264083",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "555",
+          "min_rank": "15503",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点为泰安）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点为泰安）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "343734",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "589",
+          "min_rank": "34481",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "343737",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "589",
+          "min_rank": "34481",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "42000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与英国伍斯特大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "42000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与英国伍斯特大学合作，只提供英语教学；济南校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "343735",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "589",
+          "min_rank": "34481",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "55000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚斯威本科技大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚塔斯马尼亚大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 5,
+              "tuition": "55000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚斯威本科技大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "55000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚斯威本科技大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚塔斯马尼亚大学合作，只提供英语教学；济南校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 5,
+              "tuition": "55000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与澳大利亚斯威本科技大学合作，只提供英语教学；济南校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "343738",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "565",
+          "min_rank": "54954",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "343736",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "575",
+          "min_rank": "46097",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）（青岛校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（青岛校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（青岛校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 3,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）（青岛校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（青岛校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（青岛校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "343776",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "584",
+          "min_rank": "5717",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "405220",
+          "group_code": "（504）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "540",
+          "min_rank": "42635",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405222",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "530",
+          "min_rank": "50944",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405223",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "532",
+          "min_rank": "49554",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405221",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "567",
+          "min_rank": "23682",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安就读）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安就读）"
+            }
+          ]
+        },
+        {
+          "special_group": "405238",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "569",
+          "min_rank": "7144",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（外语语种要求：英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "460184",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "525",
+          "min_rank": "39224",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460186",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "515",
+          "min_rank": "45653",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（在青岛校区办学）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（在青岛校区办学）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460185",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "495",
+          "min_rank": "59660",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（在青岛校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "351235",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "555",
+          "min_rank": "22214",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080718T",
+              "sp_name": "海洋信息工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080718T",
+              "sp_name": "海洋信息工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "513",
+          "min_rank": "53788",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "441835",
+          "group_code": "（105）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "441886",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            }
+          ]
+        },
+        {
+          "special_group": "441884",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区就读）（青岛校区就读）"
+            }
+          ]
+        },
+        {
+          "special_group": "441883",
+          "group_code": "（104）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安校区就读）（泰安校区就读）"
+            },
+            {
+              "spcode": "070803T",
+              "sp_name": "防灾减灾科学与工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区就读）（泰安校区就读）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安校区就读）（泰安校区就读）"
+            },
+            {
+              "spcode": "070803T",
+              "sp_name": "防灾减灾科学与工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区就读）（泰安校区就读）"
+            }
+          ]
+        },
+        {
+          "special_group": "441885",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "441886",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批A段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。青岛校区就读。）（时空信息未来技术学院）（国家专项）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。青岛校区就读。）（国家专项）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。青岛校区就读。）（时空信息未来技术学院）（国家专项）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。青岛校区就读。）（国家专项）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "487",
+          "min_rank": "62507",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 15,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 8,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 7,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点:青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "363687",
+          "group_code": "（05）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "363689",
+          "group_code": "（03）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 9,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 8,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（就读地点泰安）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 9,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 8,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）（就读地点泰安）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "363690",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "363688",
+          "group_code": "（04）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070803T",
+              "sp_name": "防灾减灾科学与工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            },
+            {
+              "spcode": "070803T",
+              "sp_name": "防灾减灾科学与工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安校区；就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "363691",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 5,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。）"
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。免补专业。）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "国家专项计划本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。）"
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（办学地点：青岛校区。免补专业。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "306718",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "306747",
+          "group_code": "（104）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "306748",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082903T",
+              "sp_name": "职业卫生工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 6,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081005T",
+              "sp_name": "城市地下空间工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（具身智能系统未来技术学院）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082903T",
+              "sp_name": "职业卫生工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "306749",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "418831",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "492",
+          "min_rank": "31985",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 12,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 12,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "special_group": "418862",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "509",
+          "min_rank": "25071",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 10,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 10,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "418864",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "480",
+          "min_rank": "37267",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "418861",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "512",
+          "min_rank": "23940",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080219T",
+              "sp_name": "应急装备技术与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            },
+            {
+              "spcode": "080219T",
+              "sp_name": "应急装备技术与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（就读地点泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "418863",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "490",
+          "min_rank": "32829",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "province_pinyin": "qinghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "083002T",
+              "sp_name": "生物制药",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（青岛校区;办学地点:山东省青岛市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "province_pinyin": "ningxia",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "234018",
+          "group_code": "（905）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "479",
+          "min_rank": "9765",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "234020",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "456",
+          "min_rank": "13372",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "083002T",
+              "sp_name": "生物制药",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082903T",
+              "sp_name": "职业卫生工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "plan": 8,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "plan": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080405",
+              "sp_name": "金属材料工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "083002T",
+              "sp_name": "生物制药",
+              "plan": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081811T",
+              "sp_name": "智慧交通",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "plan": 4,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081102",
+              "sp_name": "水文与水资源工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081403K",
+              "sp_name": "资源勘查工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081501",
+              "sp_name": "采矿工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（山东能源卓越工程师学院）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082903T",
+              "sp_name": "职业卫生工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "234019",
+          "group_code": "（504）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "498",
+          "min_rank": "7385",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": "（泰安）"
+            }
+          ]
+        },
+        {
+          "special_group": "234022",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "422",
+          "min_rank": "19930",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "234021",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "472",
+          "min_rank": "10789",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安）（就读地点泰安）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（泰安）（就读地点泰安）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "483",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "403",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": "（时空信息未来技术学院）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "plan": 4,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081401",
+              "sp_name": "地质工程",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（在泰安校区就读）"
+            },
+            {
+              "spcode": "081507T",
+              "sp_name": "智能采矿工程",
+              "plan": 2,
+              "tuition": "6325",
+              "length": "四年",
+              "info_short": ""
             }
           ]
         }

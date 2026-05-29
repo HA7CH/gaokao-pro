@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=570; zs_code=10011.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for btbu: 天津/山西/内蒙古/辽宁/吉林/黑龙江/安徽/江西/广西/海南/重庆/四川/贵州/云南/西藏/陕西/甘肃/青海/宁夏/新疆"
   ],
   "provinces": [
     {
@@ -3771,6 +3772,2694 @@
               "tuition": "4200",
               "length": "四年",
               "info": "（培养注册会计师人才；办学地点：阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "260748",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "606",
+          "min_rank": "11588",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与爱尔兰考克大学联合培养，四年学费生活费等费用合计人民币60万元左右；建议英语语种考生报考；阜成路校区）（学费：待定）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与爱尔兰考克大学联合培养，四年学费生活费等费用合计人民币60万元左右；建议英语语种考生报考；阜成路校区）（学费：待定）"
+            }
+          ]
+        },
+        {
+          "special_group": "260750",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "600",
+          "min_rank": "12965",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（全英语教学实验班；阜成路校区）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（物流管理（智慧物流方向）、供应链管理（数字化供应链方向）；阜成路校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班；阜成路校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（全英语教学实验班；阜成路校区）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（物流管理（智慧物流方向）、供应链管理（数字化供应链方向）；阜成路校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班；阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "260749",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "606",
+          "min_rank": "11588",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "396174",
+          "group_code": "（303）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "565",
+          "min_rank": "22830",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（求真书院实验班）（办学地点阜成路校区；不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（求真书院实验班）（办学地点阜成路校区；不招色盲、色弱、单色识别能力异常考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "396178",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "565",
+          "min_rank": "22830",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（实验班）（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "120110T",
+              "sp_name": "计算金融",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（实验班）（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "120110T",
+              "sp_name": "计算金融",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "396198",
+          "group_code": "（305）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "573",
+          "min_rank": "19575",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（环境友好高分子、新型智能高分子）（办学地点阜成路校区；不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（环境友好高分子、新型智能高分子）（办学地点阜成路校区；不招色盲、色弱、单色识别能力异常考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "396176",
+          "group_code": "（302）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "573",
+          "min_rank": "19575",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（智能电气技术方向）（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（智能电气技术方向）（办学地点阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "396199",
+          "group_code": "（304）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "573",
+          "min_rank": "19575",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（办学地点阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "396197",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "577",
+          "min_rank": "4245",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（包含专业：新闻学、广告学（数字广告与智能传播方向）；办学地点阜成路校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（包含专业：新闻学、广告学（数字广告与智能传播方向）；办学地点阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "449728",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "530",
+          "min_rank": "21342",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与爱尔兰考克大学联合培养，四年学费生活费等费用合计人民币60万元左右。建议英语语种考生报考。）（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与爱尔兰考克大学联合培养，四年学费生活费等费用合计人民币60万元左右。建议英语语种考生报考。）（阜成路校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "449730",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "576",
+          "min_rank": "10580",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "449729",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "570",
+          "min_rank": "11823",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "550",
+          "min_rank": "32746",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（日化方向）（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康（营养健康科学、数字营销管理双学士学位））（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（碳中和实验班、数智环境技术）（不招收色盲、色弱、单色识别能力异常考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "239781",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程）"
+            }
+          ]
+        },
+        {
+          "special_group": "239783",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）"
+            }
+          ]
+        },
+        {
+          "special_group": "239785",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "264206",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "568",
+          "min_rank": "12290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "264207",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "14206",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字财税方向）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020201K",
+              "sp_name": "财政学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字财税方向）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "343937",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "592",
+          "min_rank": "32046",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（生物智造方向）（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（生物智造方向）（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            }
+          ]
+        },
+        {
+          "special_group": "343938",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "581",
+          "min_rank": "40555",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（精算师方向）"
+            },
+            {
+              "spcode": "020402",
+              "sp_name": "贸易经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字贸易方向）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（精算师方向）"
+            },
+            {
+              "spcode": "020402",
+              "sp_name": "贸易经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字贸易方向）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班）"
+            }
+          ]
+        },
+        {
+          "special_group": "343947",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "590",
+          "min_rank": "4729",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "405374",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "563",
+          "min_rank": "26120",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（创新书院实验班）"
+            },
+            {
+              "spcode": "081705T",
+              "sp_name": "化妆品技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（智能电气技术方向）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（创新书院实验班）"
+            },
+            {
+              "spcode": "081705T",
+              "sp_name": "化妆品技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（智能电气技术方向）"
+            }
+          ]
+        },
+        {
+          "special_group": "405375",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "28114",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405380",
+          "group_code": "（561）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "563",
+          "min_rank": "26120",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）"
+            }
+          ]
+        },
+        {
+          "special_group": "405379",
+          "group_code": "（562）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "563",
+          "min_rank": "26120",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405389",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "569",
+          "min_rank": "7047",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "plan": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info_short": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "plan": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info_short": "（外语语种要求：英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "460427",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "551",
+          "min_rank": "24557",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081705T",
+              "sp_name": "化妆品技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划，在阜成路校区办学，不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划，在阜成路校区办学）"
+            },
+            {
+              "spcode": "081705T",
+              "sp_name": "化妆品技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划，在阜成路校区办学，不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划，在阜成路校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460429",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "543",
+          "min_rank": "28751",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（在阜成路校区办学）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（在阜成路校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460428",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "551",
+          "min_rank": "24557",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080412T",
+              "sp_name": "功能材料",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（先进新材料、高端电子材料）（在阜成路校区办学，不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学，包含专业：计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学）"
+            },
+            {
+              "spcode": "080412T",
+              "sp_name": "功能材料",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（先进新材料、高端电子材料）（在阜成路校区办学，不招色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学，包含专业：计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460438",
+          "group_code": "（103）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "4884",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学，包含专业：新闻学、广告学（数字广告与智能传播方向））"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（在阜成路校区办学，包含专业：新闻学、广告学（数字广告与智能传播方向））"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "351302",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "627",
+          "min_rank": "7840",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            }
+          ]
+        },
+        {
+          "special_group": "351303",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70000",
+          "min_score": "630",
+          "min_rank": "7443",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "351304",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "661",
+          "min_rank": "4151",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "549",
+          "min_rank": "32804",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（全英语教学实验班）（办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（精算师方向）（办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（色弱、色盲、单色识别不全考生限报；包含专业：食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康（营养健康科学、数字营销管理双学士学位项目）；办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程；办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "120110T",
+              "sp_name": "计算金融",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点：阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "549",
+          "min_rank": "32804",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项）（办学地点：阜成路校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项）（办学地点：阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "442036",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "plan": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info_short": "（阜成路校区）（招收英语语种考生）（外语口试）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "plan": 5,
+              "tuition": "5000",
+              "length": "四年",
+              "info_short": "（阜成路校区）（招收英语语种考生）（外语口试）"
+            }
+          ]
+        },
+        {
+          "special_group": "442037",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（含：新闻学、广告学）（数字广告与智能传播方向）（阜成路校区就读）（阜成路校区就读）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区就读）（阜成路校区就读）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（含：新闻学、广告学）（数字广告与智能传播方向）（阜成路校区就读）（阜成路校区就读）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区就读）（阜成路校区就读）"
+            }
+          ]
+        },
+        {
+          "special_group": "442046",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080412T",
+              "sp_name": "功能材料",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（先进新材料、高端电子材料）（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（创新书院实验班））阜成路校区就读。）"
+            },
+            {
+              "spcode": "082705",
+              "sp_name": "酿酒工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含：食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康）（营养健康科学、数字营销管理双学士学位项目）（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术、软件工程））阜成路校区就读。）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区就读。）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区就读。）"
+            },
+            {
+              "spcode": "080412T",
+              "sp_name": "功能材料",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（先进新材料、高端电子材料）（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（创新书院实验班））阜成路校区就读。）"
+            },
+            {
+              "spcode": "082705",
+              "sp_name": "酿酒工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含：食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康）（营养健康科学、数字营销管理双学士学位项目）（不招收色盲、色弱、单色识别能力异常考生））阜成路校区就读。）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术、软件工程））阜成路校区就读。）"
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区就读。）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区就读。）"
+            }
+          ]
+        },
+        {
+          "special_group": "442047",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（实验班））阜成路校区就读。）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向））阜成路校区就读。）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班））阜成路校区就读。）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（实验班））阜成路校区就读。）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（CFA特许金融分析师方向））阜成路校区就读。）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数智会计精英班））阜成路校区就读。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "519",
+          "min_rank": "39573",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（包含物流管理（智慧物流方向）、供应链管理（数字化供应链方向）;办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "082705",
+              "sp_name": "酿酒工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱、单色识别能力异常考生;办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（包含计算机科学与技术、软件工程;办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（碳中和实验班、数智环境技术）（不招收色盲、色弱、单色识别能力异常考生;办学地点:阜成路校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（办学地点:阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "363854",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            },
+            {
+              "spcode": "081704T",
+              "sp_name": "香料香精技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            },
+            {
+              "spcode": "081704T",
+              "sp_name": "香料香精技术与工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "363855",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（阜成路校区）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区；包含专业：物流管理（智慧物流方向）、供应链管理（数字化供应链方向））"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（阜成路校区）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区；包含专业：物流管理（智慧物流方向）、供应链管理（数字化供应链方向））"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（阜成路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（办学地点：阜成路校区。）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（含新闻学、广告学（数字广告与智能传播方向）专业。办学地点：阜成路校区。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "306891",
+          "group_code": "（201）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（数字智能技术方向）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "306893",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（精算师方向）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（精算师方向）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "306892",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "418991",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "525",
+          "min_rank": "19364",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "special_group": "419004",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "508",
+          "min_rank": "25459",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020402",
+              "sp_name": "贸易经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字贸易方向）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（物流管理（智慧物流方向）供应链管理（数字化供应链方向））"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020402",
+              "sp_name": "贸易经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字贸易方向）"
+            },
+            {
+              "spcode": "1206",
+              "sp_name": "物流管理与工程类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（物流管理（智慧物流方向）供应链管理（数字化供应链方向））"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "418992",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "508",
+          "min_rank": "25459",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（国家专项计划）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（数字化管理方向）（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "special_group": "419003",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "522",
+          "min_rank": "20406",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康（营养健康科学、数字营销管理双学士学位项目））（不招收色盲、色弱、单色识别能力异常考生）"
+            },
+            {
+              "spcode": "0827",
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（食品科学与工程、食品质量与安全、食品营养与健康、食品营养与健康（营养健康科学、数字营销管理双学士学位项目））（不招收色盲、色弱、单色识别能力异常考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "province_pinyin": "qinghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（包含专业新闻学、广告学（数字广告与智能传播方向）;阜成路校区;办学地点:北京市市辖区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "province_pinyin": "ningxia",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "236314",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "516",
+          "min_rank": "1842",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "510",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "526",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科一批次",
+          "zslx_name": "南疆单列",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "526",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info_short": "（南疆单列计划）"
             }
           ]
         }

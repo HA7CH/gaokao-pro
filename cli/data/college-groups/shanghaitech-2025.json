@@ -16,7 +16,8 @@
     "static-data.gaokao.cn 仅暴露 5 省份（豫/苏/鄂/闽/鲁）的招生计划；粤(44)/冀(13) 接口无数据，因此未纳入。",
     "豫(41) 接口 zslx_name=综合评价，sg_name 为空，按招生类型 + 选科聚合为单组；苏(32)/鄂(42) 按 special_group(471226/471877) 给出 sg_name=（01）；闽(35) 组号 sg_name=（500）。",
     "鄂(42) 组级 最低分 + 最低位次 取自 schoolprovincescore（type=2073 物理）；其余省份组级最低分未在 gaokao.cn 静态接口暴露。",
-    "鲁(37) 接口未给出院校组字段（special_group=0），按 招生批次（提前批A类）+ 招生类型 聚合为单组。"
+    "鲁(37) 接口未给出院校组字段（special_group=0），按 招生批次（提前批A类）+ 招生类型 聚合为单组。",
+    "round-11 added provinces for shanghaitech: 北京/天津/辽宁/上海/浙江/安徽/江西/湖南/重庆/四川/贵州/云南/陕西/甘肃"
   ],
   "provinces": [
     {
@@ -725,6 +726,2238 @@
               "tuition": "6500",
               "length": "四年",
               "info": "（其他类（含消防救援等））（学校满足被录取考生的第一专业志愿）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 11,
+      "province": "北京",
+      "province_pinyin": "beijing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "457492",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "654",
+          "min_rank": "2767",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线；采用基于高考的综合评价录取模式;学校满足被录取考生的第一专业志愿）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "467026",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿；校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一  专业志愿）（综合评价招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "province_pinyin": "shanghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "453040",
+          "group_code": "（06）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 19,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 19,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招生省份：上海）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "province_pinyin": "zhejiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "普通类提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "347909",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "654",
+          "min_rank": "3074",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足所有被录取考生的第一专业志愿）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "467890",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一 专业志愿。（综合评价）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "province_pinyin": "hunan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价录取）（学校满足被录取考生的第一专业志愿）（不口试）（外语要求：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "645",
+          "min_rank": "2224",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（以上所有专业备注：执行特殊类型资格线。学校满足被录取考生的第一专业志愿）（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "453203",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（综合评价招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "619",
+          "min_rank": "3666",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "471587",
+          "group_code": "（W99）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批C段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "-",
+              "info_short": "（综合评价,学校满足被录取考生的第一专业志愿）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "469384",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            },
+            {
+              "spcode": "060106T",
+              "sp_name": "外国语言与外国历史",
+              "plan": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "467232",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 1,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（学校满足被录取考生的第一专业志愿）（综合评价）"
             }
           ]
         }

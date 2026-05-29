@@ -28,7 +28,8 @@
     "min_admission_2025 来自 pro_type_min, 对应各省该 track 投档最低分(主投档组); 分组明细投档线请以省考试院公告为准。",
     "华南师范大学为'双一流'、211 师范类高校。本表含普通类/中外合作/汕尾校区(代码 73674)/地方专项/国家专项等分组(以省/年度计划为准)。",
     "山东省采用'专业(类)+学校'平行志愿, 不存在传统院校专业组; 数据以聚合记录列出。",
-    "河北 / 山东仅有聚合记录, group_code 为 null; 江苏、湖北分组数据不完整(仅 1 组 / 轨)。"
+    "河北 / 山东仅有聚合记录, group_code 为 null; 江苏、湖北分组数据不完整(仅 1 组 / 轨)。",
+    "round-11 added provinces for scnu: 北京/天津/山西/内蒙古/辽宁/吉林/黑龙江/上海/浙江/安徽/江西/湖南/广西/海南/重庆/四川/贵州/云南/陕西/甘肃/青海/宁夏/新疆"
   ],
   "_extracted_at": "2026-05-26",
   "provinces": [
@@ -3832,6 +3833,4926 @@
             }
           ],
           "_note": "aggregated record only — group code not published by eol.cn API; bucketed by 选科组合"
+        }
+      ]
+    },
+    {
+      "province_id": 11,
+      "province": "北京",
+      "province_pinyin": "beijing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "424636",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "592",
+          "min_rank": "13650",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（办学地点：石牌校区；）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（专业办学地点：大学城校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（办学地点：石牌校区；）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（办学地点：石牌校区；）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（专业办学地点：大学城校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广东广州）（办学地点：石牌校区；）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "259464",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70000",
+          "min_score": "624",
+          "min_rank": "7725",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱；广州校区石牌校园）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱；广州校区石牌校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "259465",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "635",
+          "min_rank": "5689",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "391989",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "588",
+          "min_rank": "14075",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区大学城校园；不招色盲）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招单色识别不全者）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区大学城校园；不招色盲）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招单色识别不全者）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区石牌校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "392019",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "594",
+          "min_rank": "2414",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点广州校区大学城校园）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点广州校区石牌校园）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点广州校区石牌校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "447828",
+          "group_code": "（200）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": "605",
+          "min_rank": "1353",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "447831",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "603",
+          "min_rank": "1434",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "447829",
+          "group_code": "（100）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "599",
+          "min_rank": "6532",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "447830",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "598",
+          "min_rank": "6667",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "577",
+          "min_rank": "3914",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "582",
+          "min_rank": "19804",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "237097",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲色弱）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲色弱）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）"
+            }
+          ]
+        },
+        {
+          "special_group": "237098",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            }
+          ]
+        },
+        {
+          "special_group": "237099",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "262134",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "572",
+          "min_rank": "2045",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "262146",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "566",
+          "min_rank": "12723",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "262147",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "568",
+          "min_rank": "12290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "466373",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "568",
+          "min_rank": "12290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040202K",
+              "sp_name": "运动训练",
+              "plan": 0,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（高水平运动队）"
+            },
+            {
+              "spcode": "040202K",
+              "sp_name": "运动训练",
+              "plan": 0,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（高水平运动队）"
+            }
+          ]
+        },
+        {
+          "special_group": "466422",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "572",
+          "min_rank": "2045",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040202K",
+              "sp_name": "运动训练",
+              "plan": 0,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（高水平运动队）"
+            },
+            {
+              "spcode": "040202K",
+              "sp_name": "运动训练",
+              "plan": 0,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（高水平运动队）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "province_pinyin": "shanghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "423041",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "536",
+          "min_rank": "14128",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "423045",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70000",
+          "min_score": "558",
+          "min_rank": "8579",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "province_pinyin": "zhejiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "619",
+          "min_rank": "32401",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区石牌校园）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "341627",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "603",
+          "min_rank": "25030",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲色弱）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲色弱）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "341628",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "604",
+          "min_rank": "24035",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            }
+          ]
+        },
+        {
+          "special_group": "341640",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": "609",
+          "min_rank": "2357",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "341641",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "602",
+          "min_rank": "3083",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "402815",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "601",
+          "min_rank": "8431",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（基地班）（不招色盲）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（基地班）（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "402817",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "584",
+          "min_rank": "15045",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            }
+          ]
+        },
+        {
+          "special_group": "402816",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "585",
+          "min_rank": "14526",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "402830",
+          "group_code": "（103）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": "601",
+          "min_rank": "2042",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "402832",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "594",
+          "min_rank": "2861",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "402831",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": "601",
+          "min_rank": "2066",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "province_pinyin": "hunan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "318051",
+          "group_code": "（109）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "602",
+          "min_rank": "15016",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "318052",
+          "group_code": "（108）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "601",
+          "min_rank": "15422",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            }
+          ]
+        },
+        {
+          "special_group": "318070",
+          "group_code": "（107）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": "601",
+          "min_rank": "2273",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "318072",
+          "group_code": "（105）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "596",
+          "min_rank": "2747",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 6,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 6,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "318071",
+          "group_code": "（106）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": "597",
+          "min_rank": "2650",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "457948",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "595",
+          "min_rank": "7692",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "040102",
+              "sp_name": "科学教育",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "040102",
+              "sp_name": "科学教育",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（在广州校区大学城校园办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "457949",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "578",
+          "min_rank": "12990",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招单色识别不全者）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学，不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "special_group": "457974",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "592",
+          "min_rank": "1826",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区石牌校园办学）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类，在广州校区石牌校园办学）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区大学城校园办学）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（在广州校区石牌校园办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350195",
+          "group_code": "（08）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70002",
+          "min_score": "703",
+          "min_rank": "1641",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "350198",
+          "group_code": "（05）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "655",
+          "min_rank": "4681",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲、色弱）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招单色识别不全者）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲、色弱）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "special_group": "350196",
+          "group_code": "（07）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70004^70000_70002_70004^70000_70003_70004^70000_70004_70005^70000_70004_70006^70001_70002_70004^70001_70003_70004^70001_70004_70005^70001_70004_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70004",
+          "min_score": "705",
+          "min_rank": "1562",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            }
+          ]
+        },
+        {
+          "special_group": "350200",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "693",
+          "min_rank": "2076",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "350197",
+          "group_code": "（06）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70003^70000_70002_70003^70000_70003_70004^70000_70003_70005^70000_70003_70006^70001_70002_70003^70001_70003_70004^70001_70003_70005^70001_70003_70006^70002_70003_70004^70002_70003_70005^70002_70003_70006^70003_70004_70005^70003_70004_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70003",
+          "min_score": "713",
+          "min_rank": "1292",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            }
+          ]
+        },
+        {
+          "special_group": "350199",
+          "group_code": "（04）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70000",
+          "min_score": "680",
+          "min_rank": "2774",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（师范类）（不招色盲、色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "572",
+          "min_rank": "4019",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（办学地点：广州校区大学城校园）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点：广州校区大学城校园）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点：广州校区石牌校园）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点：广州校区石牌校园）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（办学地点：广州校区石牌校园）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "574",
+          "min_rank": "21006",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（色弱、色盲考生限报；办学地点：广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（色弱、色盲考生限报；办学地点：广州校区大学城校园）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（色弱、色盲考生限报；办学地点：广州校区石牌校园）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（色弱、色盲考生限报；办学地点：广州校区大学城校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "439364",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲考生）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "439365",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "439383",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全的考生）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生。）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生。）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲、考生。）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全的考生）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生。）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生。）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲、考生。）（广州校区大学城校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "439384",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲、色弱考生）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招收色盲、色弱考生）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招收色盲、色弱考生）（不招收色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "592",
+          "min_rank": "2787",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点:大学城校园）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点:大学城校园）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:石牌校园）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:石牌校园）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类;不招色盲;办学地点:石牌校园）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（办学地点:大学城校园）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "573",
+          "min_rank": "14519",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）（办学地点:广州校区石牌校园）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱;办学地点:广州校区大学城校园）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱;办学地点:广州校区大学城校园）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱;办学地点:广州校区石牌校园）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（办学地点:广州校区石牌校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类;不招色盲;办学地点:广州校区大学城校园）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类;不招色盲色弱;办学地点:广州校区石牌校园）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者;办学地点:广州校区石牌校园）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "361360",
+          "group_code": "（03）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园；不招色盲）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园；不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "361362",
+          "group_code": "（01）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 6,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 6,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区大学城校园）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（广州校区大学城校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "361361",
+          "group_code": "（02）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "361388",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲，广州校区大学城校园）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲、色弱，广州校区大学城校园）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者，广州校区大学城校园）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者，广州校区石牌校园）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲，广州校区大学城校园）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（不招色盲、色弱，广州校区大学城校园）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者，广州校区大学城校园）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者，广州校区石牌校园）"
+            }
+          ]
+        },
+        {
+          "special_group": "361389",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园；不招色盲、色弱）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园；不招色盲、色弱）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（广州校区石牌校园；不招色盲、色弱）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范类）（广州校区石牌校园；不招色盲、色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "304880",
+          "group_code": "（104）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            }
+          ]
+        },
+        {
+          "special_group": "304882",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            }
+          ]
+        },
+        {
+          "special_group": "304881",
+          "group_code": "（103）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "304899",
+          "group_code": "（106）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲；教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱；教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲色弱）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲；教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "080403",
+              "sp_name": "材料化学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱；教学地点：广东省广州市番禺区广州大学城外环西路378号）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（不招色盲色弱）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "special_group": "304900",
+          "group_code": "（105）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "416620",
+          "group_code": "（003）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70004_70005^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70005",
+          "min_score": "581",
+          "min_rank": "1240",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "416621",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "544",
+          "min_rank": "3331",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 5,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "416642",
+          "group_code": "（006）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "571",
+          "min_rank": "7626",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "416643",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "549",
+          "min_rank": "12400",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
+        },
+        {
+          "special_group": "416644",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "550",
+          "min_rank": "12163",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（智能教育创新班）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "province_pinyin": "qinghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）（师范类;广州校区大学城校园;办学地点:广东省广州市）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者，广州校区大学城校园;办学地点:广东省广州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "province_pinyin": "ningxia",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "232952",
+          "group_code": "（703）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70003",
+          "min_score": "541",
+          "min_rank": "1069",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "232953",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "542",
+          "min_rank": "1039",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "232954",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "559",
+          "min_rank": "637",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "232951",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "521",
+          "min_rank": "4947",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "232950",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "543",
+          "min_rank": "3199",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "预科",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "497",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "plan": 12,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（包含专业：思想政治教育（师范）、汉语言文学（师范）、历史学（师范）；师范类，在本校预科一年，预科阶段学费6060元/年）（单列类）（学费待定）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "497",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 2,
+              "tuition": "6060",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "预科",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "512",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "plan": 13,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（包含专业：心理学（师范）、教育技术学（师范）、生物科学（师范）、地理科学（师范）；师范类，在本校预科一年）（单列类）（学费待定）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "512",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "plan": 4,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "6850",
+              "length": "四年",
+              "info_short": "（师范）"
+            }
+          ]
         }
       ]
     }

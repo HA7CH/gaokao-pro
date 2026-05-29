@@ -18,7 +18,8 @@
     "鄂(42)：单设志愿（综合评价口径），物理类 min=536/位次55626（参照特殊类型控制线录取）。",
     "鲁(37)：分两批 — 普通类一段 4 人（人工智能，min=647/位次4203），提前批A类 91 人（中外合作办学+综合评价，物理学/生物医学科学/生物医学工程）。",
     "豫(41)/苏(32)/闽(35)/冀(13)：组级最低分未在 gaokao.cn 静态接口暴露；均要求首选物理+再选化学，南科大综合评价校测合格方可投档。",
-    "中外合作办学专业（生物医学科学 100103T / 生物医学工程 082601）学费 13.5 万/年，与英国伦敦国王学院联合培养；普通综合评价专业学费 6000/年。"
+    "中外合作办学专业（生物医学科学 100103T / 生物医学工程 082601）学费 13.5 万/年，与英国伦敦国王学院联合培养；普通综合评价专业学费 6000/年。",
+    "round-11 added provinces for sustech: 北京/山西/内蒙古/辽宁/吉林/上海/浙江/安徽/江西/湖南/广西/海南/重庆/四川/贵州/云南/陕西"
   ],
   "provinces": [
     {
@@ -513,6 +514,846 @@
               "tuition": "6000",
               "length": "四年",
               "info": "首选物理，再选化学"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 11,
+      "province": "北京",
+      "province_pinyin": "beijing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "457522",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批A段",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "84.87",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线;采用基于高考的综合评价录取模式,择优录取考生;入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（以上专业要求文化课总成绩达到特殊类型招生控制分数线;采用基于高考的综合评价录取模式,择优录取考生;入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "468629",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 33,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 33,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "247383",
+          "group_code": "（000）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 22,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划。）（外语语种:不限）（办学地：校本部）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 22,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划。）（外语语种:不限）（办学地：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 30,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；人学时不分  专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校  专业设置的实际情况，自主选择  专业（中外合作办学  专业除外）；特优考生可进入卓越计划（综合评价招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "466036",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 18,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（参照特殊类型控制线执行;按照综合评价招生模式择优录取考生;入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外;特优考生可进入卓越计划）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 18,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（参照特殊类型控制线执行;按照综合评价招生模式择优录取考生;入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外;特优考生可进入卓越计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "province_pinyin": "shanghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "453030",
+          "group_code": "（06）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（入学时不分专业,在大学一、二年级按照学校专业设置的实际情况,自主选择专业(中外合作办学专业除外)）（招生省份：外地）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（入学时不分专业,在大学一、二年级按照学校专业设置的实际情况,自主选择专业(中外合作办学专业除外)）（招生省份：外地）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "province_pinyin": "zhejiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "660",
+          "min_rank": "6753",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（入学时不分专业。在第一、二学年自主选择专业（中外合作办学专业除外））"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "普通类提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "660",
+          "min_rank": "6753",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 54,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。入学时不分专业,一、二学年时自主选择专业（中外合作办学专业除外））"
+            },
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）[只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。大一升学大二需满足雅思总分6.5（小分6）。只录取有专业志愿的考生"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）[只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。大一升学大二需满足雅思总分6.5（小分6）。只录取有专业志愿的考生"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "456749",
+          "group_code": "（W001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "639",
+          "min_rank": "7382",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 70,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（参照特殊类型控制线执行;按照综合评价招生模式择优录取考生;入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 70,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（参照特殊类型控制线执行;按照综合评价招生模式择优录取考生;入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）（综合评价）"
+            }
+          ]
+        },
+        {
+          "special_group": "456750",
+          "group_code": "（W002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "639",
+          "min_rank": "7382",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（学费13.5万;无需出国；符合条件者可获学校本科毕业证、学位证及英国伦敦国王学院学士学位证书;大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（学费13.5万;无需出国;符合条件者可获学校本科毕业证、学位证及英国伦敦国王学院学士学位证书;大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求〉，才能每年按计划升学，否则不能升学）（综合评价）"
+            },
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（学费13.5万;无需出国；符合条件者可获学校本科毕业证、学位证及英国伦敦国王学院学士学位证书;大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）（综合评价）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（学费13.5万;无需出国;符合条件者可获学校本科毕业证、学位证及英国伦敦国王学院学士学位证书;大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求〉，才能每年按计划升学，否则不能升学）（综合评价）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "467945",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 58,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；人学时不分 专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校 专业设置的实际情况,自主选择 专业（中外合作办学 专业除外）；特优考生可进入卓越计划。（综合评价）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 58,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；人学时不分 专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校 专业设置的实际情况,自主选择 专业（中外合作办学 专业除外）；特优考生可进入卓越计划。（综合评价）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "province_pinyin": "hunan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学，综合评价",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 80,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（执行特殊类型招生录取控制分数线；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划。）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（中外合作办学）（只录取有专业志愿的考生；执行特殊类型招生录取控制分数线；按照综合评价招生模式择优录取考生；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合评价录取）（中外合作办学）（只录取有专业志愿的考生；执行特殊类型招生录取控制分数线；按照综合评价招生模式择优录取考生；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求）（不口试）（外语要求：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "465568",
+          "group_code": "（600）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 47,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（其他三类）（综合评价,4年,6000元/年,参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 47,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（其他三类）（综合评价,4年,6000元/年,参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "456635",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70001,70000",
+          "min_score": "728",
+          "min_rank": "873",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "85",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 27,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型资格线。参照特殊类型控制线执行;按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "453206",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 55,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分，专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校，专业设置的实际情况,自主选择，专业（中外合作办学专业除外）特优考生可进入卓越计划）（综合评价招生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 55,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分，专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校，专业设置的实际情况,自主选择，专业（中外合作办学专业除外）特优考生可进入卓越计划）（综合评价招生）"
+            }
+          ]
+        },
+        {
+          "special_group": "453207",
+          "group_code": "（W102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 4,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（中外合作办学）（四年制,学费13.5万元/年；在南科大校内办学,无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）；需满足，专业规定的进阶方案（修读课程要求）,才能每年按计划升学,否则不能升学）（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 4,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（中外合作办学）（四年制,学费13.5万元/年；在南科大校内办学,无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）；需满足，专业规定的进阶方案（修读课程要求）,才能每年按计划升学,否则不能升学）（综合评价招生）"
+            },
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 4,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（中外合作办学）（四年制,学费13.5万元/年；在南科大校内办学,无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）；需满足，专业规定的进阶方案（修读课程要求）,才能每年按计划升学,否则不能升学）（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 4,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（综合考核试点）（执行部委属和外省属高校少数民族地区加分办法1。）（中外合作办学）（四年制,学费13.5万元/年；在南科大校内办学,无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）；需满足，专业规定的进阶方案（修读课程要求）,才能每年按计划升学,否则不能升学）（综合评价招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "621",
+          "min_rank": "3403",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 28,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "471601",
+          "group_code": "（W99）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批C段",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 42,
+              "tuition": "6000",
+              "length": "-",
+              "info_short": "（综合评价,参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 42,
+              "tuition": "6000",
+              "length": "-",
+              "info_short": "（综合评价,参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业,在大学一、二年级根据自己的兴趣和能力,结合国家发展和社会进步对人才的需求,按照学校专业设置的实际情况,自主选择专业（中外合作办学专业除外）；特优考生可进入卓越计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "469388",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "综合评价",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 45,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生。参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外））"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 45,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（综合评价）（执行特殊类型录取控制分数线,综合评价招生。参照特殊类型控制线执行；按照综合评价招生模式择优录取考生；入学时不分专业，在大学一、二年级根据自己的兴趣和能力，结合国家发展和社会进步对人才的需求，按照学校专业设置的实际情况，自主选择专业（中外合作办学专业除外））"
+            }
+          ]
+        },
+        {
+          "special_group": "469389",
+          "group_code": "（W501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "中外合作办学",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（执行特殊类型录取控制分数线,综合评价招生。四年制，学费13.5万/年；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（执行特殊类型录取控制分数线,综合评价招生。四年制，学费13.5万/年；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）"
+            },
+            {
+              "spcode": "100103T",
+              "sp_name": "生物医学科学",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（执行特殊类型录取控制分数线,综合评价招生。四年制，学费13.5万/年；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "135000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（执行特殊类型录取控制分数线,综合评价招生。四年制，学费13.5万/年；在南科大校内办学，无需出国；符合条件者可获我校本科毕业证、学位证及英国伦敦国王学院学士学位证书。大一升学大二需满足雅思总分6.5（小分6）;需满足专业规定的进阶方案（修读课程要求），才能每年按计划升学，否则不能升学）"
             }
           ]
         }

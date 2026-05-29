@@ -1,0 +1,3502 @@
+{
+  "_kind": "北京物资学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "北京物资学院",
+  "code": 10037,
+  "zs_code": "10037",
+  "school_id_gaokao_cn": 586,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/586/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/586/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=586; zs_code=10037.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425375",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（中外合作办学）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 67,
+              "tuition": "70000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "425377",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 40167,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 122,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 92,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 84,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 69,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）（合作院校：美国威斯康星大学苏必利尔分校）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 67,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作院校：美国威斯康星大学苏必利尔分校）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（中外合作办学）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 67,
+              "tuition": "70000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 65,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 59,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（数智化管理实验班）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 59,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（数智化管理实验班）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 57,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 55,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 54,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120603T",
+              "sp_name": "采购管理",
+              "spname": "采购管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 36,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 35,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 34,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 33,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 33,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（数字化营销）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（数字化营销）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 31,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 30,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 27,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语考生）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 23,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（京东科技实验班）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 23,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（京东科技实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 21,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120703T",
+              "sp_name": "质量管理工程",
+              "spname": "质量管理工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 21,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 122,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 69,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 46,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "425376",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）（合作院校：美国威斯康星大学苏必利尔分校）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 67,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作院校：美国威斯康星大学苏必利尔分校）"
+            }
+          ]
+        },
+        {
+          "group_id": "425378",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 496,
+          "min_rank": 38621,
+          "majors": [
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 84,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（数智化管理实验班）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 59,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（数智化管理实验班）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 34,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（京东科技实验班）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 23,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（京东科技实验班）"
+            },
+            {
+              "spcode": "120703T",
+              "sp_name": "质量管理工程",
+              "spname": "质量管理工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 21,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "425379",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 36716,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 92,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 57,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 55,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 54,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120603T",
+              "sp_name": "采购管理",
+              "spname": "采购管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 36,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 35,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 33,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（数字化营销）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（数字化营销）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 30,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 23,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "425380",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 37822,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 69,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 65,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 59,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 33,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 31,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 27,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语考生）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 21,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "464878",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科提前批B段",
+          "zslx_name": "双培计划",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（以上专业双培计划，与北京交通大学联合培养,3+1模式,前三年在北京交通大学,第四年在北京物资学院;各区名额分配：东城区3人，西城区5人，朝阳区4人丰台区2人，海淀区5人，房山区1人，通州区2人,顺义区1人,昌平区1人，大兴区2人，怀柔区1人，平谷区1人，密云区1人，延庆区1人）（双培计划）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（以上专业双培计划，与北京交通大学联合培养,3+1模式,前三年在北京交通大学,第四年在北京物资学院;各区名额分配：东城区3人，西城区5人，朝阳区4人丰台区2人，海淀区5人，房山区1人，通州区2人,顺义区1人,昌平区1人，大兴区2人，怀柔区1人，平谷区1人，密云区1人，延庆区1人）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（以上专业双培计划，与北京交通大学联合培养,3+1模式,前三年在北京交通大学,第四年在北京物资学院;各区名额分配：东城区3人，西城区5人，朝阳区4人丰台区2人，海淀区5人，房山区1人，通州区2人,顺义区1人,昌平区1人，大兴区2人，怀柔区1人，平谷区1人，密云区1人，延庆区1人）（双培计划）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（以上专业双培计划，与北京交通大学联合培养,3+1模式,前三年在北京交通大学,第四年在北京物资学院;各区名额分配：东城区3人，西城区5人，朝阳区4人丰台区2人，海淀区5人，房山区1人，通州区2人,顺义区1人,昌平区1人，大兴区2人，怀柔区1人，平谷区1人，密云区1人，延庆区1人）"
+            }
+          ]
+        },
+        {
+          "group_id": "464878",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 32440,
+          "majors": []
+        },
+        {
+          "group_id": "425376",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 480,
+          "min_rank": 42782,
+          "majors": []
+        },
+        {
+          "group_id": "425375",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 473,
+          "min_rank": 44606,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423944",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423946",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 465,
+          "min_rank": 34206,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423944",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 425,
+          "min_rank": 44325,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 576,
+          "min_rank": 49142,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（京东科技实验班）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（京东科技实验班）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语语种考生；须口试合格）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语语种考生；须口试合格）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "min_score": 576,
+          "min_rank": 49142,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（国家专项计划）（数智化管理实验班）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（国家专项计划）（数智化管理实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（国家专项计划）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家专项计划）（国家专项计划）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "428309",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 19224,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "428312",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 79711,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "428314",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 74582,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "428313",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "428313",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 530,
+          "min_rank": 120767,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 106718,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396626",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 533,
+          "min_rank": 9118,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "396630",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 36213,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "中外合作办学",
+          "min_score": 504,
+          "min_rank": 177744,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（中外合作办学）（与美国纽黑文大学合作）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "70000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学合作）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）（与美国威斯康星大学苏必利尔分校合作）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国威斯康星大学苏必利尔分校合作）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 136718,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371835",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（国家专项）（数智化管理实验班）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（国家专项）（数智化管理实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071203T",
+              "sp_name": "数据科学",
+              "spname": "数据科学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（实验班）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家专项）（国家专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "371836",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371837",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371845",
+          "sg_name": "（302）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（国家专项）（数智化管理实验班）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（国家专项）（数智化管理实验班）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "371846",
+          "sg_name": "（301）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家专项）（国家专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "371854",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（实验班）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（实验班）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "293352",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "",
+              "length": "一年",
+              "info": "（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "",
+              "length": "一年",
+              "info": "（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "293353",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 40597,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "293354",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 38372,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "293355",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 45990,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "293356",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 55626,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（期货与证券实验班）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（期货与证券实验班）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "293364",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "",
+              "length": "一年",
+              "info": "（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "",
+              "length": "一年",
+              "info": "（少数民族预科班；外语语种：不限；学制：一年）（学费：待定）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "293365",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 9108,
+          "majors": [
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（实验班）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "293352",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 500,
+          "min_rank": 86678,
+          "majors": []
+        },
+        {
+          "group_id": "293364",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 563,
+          "min_rank": 10316,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "321241",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 545,
+          "min_rank": 48625,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "321242",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 39957,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（智能会计）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（智能会计）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（注册会计师）"
+            }
+          ]
+        },
+        {
+          "group_id": "321252",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 11547,
+          "majors": [
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "321253",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 9656,
+          "majors": [
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434504",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 19068,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（培养注册会计师人才；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（培养注册会计师人才；办学地点：校本部）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（培养注册会计师人才；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（培养注册会计师人才；办学地点：校本部）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "434507",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 81321,
+          "majors": [
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（办学地点：校本部）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "434508",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）（与美国威斯康星大学苏必利尔分校合作的供应链管理中外合作办学项目，国内学习期间65000元/学年，在国外学习期间须另缴纳国外合作高校学费（按照该校当年的收费标准缴纳），具体培养模式和学习费用请查看学校网站；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国威斯康星大学苏必利尔分校合作的供应链管理中外合作办学项目，国内学习期间65000元/学年，在国外学习期间须另缴纳国外合作高校学费（按照该校当年的收费标准缴纳），具体培养模式和学习费用请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（办学地点：校本部）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（中外合作办学）（与美国威斯康星大学苏必利尔分校合作的供应链管理中外合作办学项目，国内学习期间65000元/学年，在国外学习期间须另缴纳国外合作高校学费（按照该校当年的收费标准缴纳），具体培养模式和学习费用请查看学校网站；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国威斯康星大学苏必利尔分校合作的供应链管理中外合作办学项目，国内学习期间65000元/学年，在国外学习期间须另缴纳国外合作高校学费（按照该校当年的收费标准缴纳），具体培养模式和学习费用请查看学校网站；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "434508",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 537,
+          "min_rank": 100622,
+          "majors": []
+        }
+      ]
+    }
+  ]
+}

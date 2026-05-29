@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=646; zs_code=11113.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for szpt: 辽宁/吉林/黑龙江/安徽/江西/广西/重庆/四川/贵州/云南/西藏/甘肃/新疆"
   ],
   "provinces": [
     {
@@ -8304,6 +8305,2278 @@
               "tuition": "6000",
               "length": "三年",
               "info": "（只招收深圳市户籍的考生；住宿费：1200~1500元/学年；办学地点：西丽校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "458",
+          "min_rank": "77738",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460101",
+              "sp_name": "机械设计与制造",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510211",
+              "sp_name": "工业互联网技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "530502",
+              "sp_name": "国际商务",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "465",
+          "min_rank": "21324",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "570208",
+              "sp_name": "应用外语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（韩语）"
+            },
+            {
+              "spcode": "530605",
+              "sp_name": "市场营销",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "240021",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510207",
+              "sp_name": "信息安全技术应用",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460702",
+              "sp_name": "新能源汽车技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "500606",
+              "sp_name": "城市轨道交通运营管理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "440406",
+              "sp_name": "建筑消防技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460101",
+              "sp_name": "机械设计与制造",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510207",
+              "sp_name": "信息安全技术应用",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460702",
+              "sp_name": "新能源汽车技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "500606",
+              "sp_name": "城市轨道交通运营管理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "440406",
+              "sp_name": "建筑消防技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460101",
+              "sp_name": "机械设计与制造",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "264336",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "399",
+          "min_rank": "70212",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "560101",
+              "sp_name": "数字图文信息处理技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "440404",
+              "sp_name": "建筑智能化工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510205",
+              "sp_name": "大数据技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "490103",
+              "sp_name": "食品营养与健康",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510301",
+              "sp_name": "现代通信技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "560101",
+              "sp_name": "数字图文信息处理技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "440404",
+              "sp_name": "建筑智能化工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510205",
+              "sp_name": "大数据技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "490103",
+              "sp_name": "食品营养与健康",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510301",
+              "sp_name": "现代通信技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "344109",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "487",
+          "min_rank": "152864",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510205",
+              "sp_name": "大数据技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510202",
+              "sp_name": "计算机网络技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "440101",
+              "sp_name": "建筑设计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲者）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510205",
+              "sp_name": "大数据技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510202",
+              "sp_name": "计算机网络技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "440101",
+              "sp_name": "建筑设计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲者）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "344115",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "497",
+          "min_rank": "34445",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "530601",
+              "sp_name": "工商企业管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "530202",
+              "sp_name": "金融科技应用",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "580401",
+              "sp_name": "法律事务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲者）"
+            },
+            {
+              "spcode": "590302",
+              "sp_name": "智慧健康养老服务与管理",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "530601",
+              "sp_name": "工商企业管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "530202",
+              "sp_name": "金融科技应用",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "580401",
+              "sp_name": "法律事务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲者）"
+            },
+            {
+              "spcode": "590302",
+              "sp_name": "智慧健康养老服务与管理",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "405540",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "472",
+          "min_rank": "120301",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "560202",
+              "sp_name": "广播影视节目制作",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "460305",
+              "sp_name": "工业机器人技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510101",
+              "sp_name": "电子信息工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510212",
+              "sp_name": "区块链技术应用",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "560202",
+              "sp_name": "广播影视节目制作",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "460305",
+              "sp_name": "工业机器人技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510101",
+              "sp_name": "电子信息工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510212",
+              "sp_name": "区块链技术应用",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            }
+          ]
+        },
+        {
+          "special_group": "405542",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "563",
+          "min_rank": "26209",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "230602",
+              "sp_name": "新材料与应用技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310401",
+              "sp_name": "集成电路工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "320301",
+              "sp_name": "药学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310207",
+              "sp_name": "信息安全与管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310205",
+              "sp_name": "大数据工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "280301",
+              "sp_name": "数字印刷工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "230602",
+              "sp_name": "新材料与应用技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310401",
+              "sp_name": "集成电路工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "320301",
+              "sp_name": "药学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310207",
+              "sp_name": "信息安全与管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "310205",
+              "sp_name": "大数据工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "280301",
+              "sp_name": "数字印刷工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "405550",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "511",
+          "min_rank": "30941",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "590104",
+              "sp_name": "社区管理与服务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570102K",
+              "sp_name": "学前教育",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "480202",
+              "sp_name": "包装策划与设计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "590104",
+              "sp_name": "社区管理与服务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570102K",
+              "sp_name": "学前教育",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "460560",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "20247",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260703",
+              "sp_name": "智能网联汽车工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "310209",
+              "sp_name": "人工智能工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260102",
+              "sp_name": "智能制造工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "320301",
+              "sp_name": "药学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260301",
+              "sp_name": "机械电子工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "230602",
+              "sp_name": "新材料与应用技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260703",
+              "sp_name": "智能网联汽车工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "310209",
+              "sp_name": "人工智能工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260102",
+              "sp_name": "智能制造工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "320301",
+              "sp_name": "药学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "260301",
+              "sp_name": "机械电子工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "230602",
+              "sp_name": "新材料与应用技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在西丽校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460569",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "440",
+          "min_rank": "36677",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "530502",
+              "sp_name": "国际商务",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "560202",
+              "sp_name": "广播影视节目制作",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招色盲考生）"
+            },
+            {
+              "spcode": "530605",
+              "sp_name": "市场营销",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "590202",
+              "sp_name": "人力资源管理",
+              "plan": 4,
+              "tuition": "5000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "590104",
+              "sp_name": "社区管理与服务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "530702",
+              "sp_name": "跨境电子商务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "530502",
+              "sp_name": "国际商务",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "560202",
+              "sp_name": "广播影视节目制作",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招色盲考生）"
+            },
+            {
+              "spcode": "530605",
+              "sp_name": "市场营销",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "590202",
+              "sp_name": "人力资源管理",
+              "plan": 4,
+              "tuition": "5000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "590104",
+              "sp_name": "社区管理与服务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "530702",
+              "sp_name": "跨境电子商务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "460579",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "455",
+          "min_rank": "92202",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510201",
+              "sp_name": "计算机应用技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招单色识别不全者）"
+            },
+            {
+              "spcode": "530802",
+              "sp_name": "现代物流管理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "470102",
+              "sp_name": "药品生物技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招色盲考生；请转氨酶异常的考生慎重报考）"
+            },
+            {
+              "spcode": "460609",
+              "sp_name": "无人机应用技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招单色识别不全者）"
+            },
+            {
+              "spcode": "530702",
+              "sp_name": "跨境电子商务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "440202",
+              "sp_name": "智慧城市管理技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "510201",
+              "sp_name": "计算机应用技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招单色识别不全者）"
+            },
+            {
+              "spcode": "530802",
+              "sp_name": "现代物流管理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "470102",
+              "sp_name": "药品生物技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招色盲考生；请转氨酶异常的考生慎重报考）"
+            },
+            {
+              "spcode": "460609",
+              "sp_name": "无人机应用技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学，不招单色识别不全者）"
+            },
+            {
+              "spcode": "530702",
+              "sp_name": "跨境电子商务",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            },
+            {
+              "spcode": "440202",
+              "sp_name": "智慧城市管理技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（在西丽校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "478",
+          "min_rank": "75574",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510102",
+              "sp_name": "物联网应用技术",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（单色识别不全考生限报；办学地点：西丽校区）"
+            },
+            {
+              "spcode": "440404",
+              "sp_name": "建筑智能化工程技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（单色识别不全考生限报；办学地点：西丽校区）"
+            },
+            {
+              "spcode": "510106",
+              "sp_name": "移动互联应用技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（单色识别不全考生限报；办学地点：西丽校区）"
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点：西丽校区）"
+            },
+            {
+              "spcode": "530202",
+              "sp_name": "金融科技应用",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点：西丽校区）"
+            },
+            {
+              "spcode": "440406",
+              "sp_name": "建筑消防技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（单色识别不全考生限报；办学地点：西丽校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "442203",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "550401",
+              "sp_name": "文化创意与策划",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "530605",
+              "sp_name": "市场营销",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "560105",
+              "sp_name": "数字出版",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "580401",
+              "sp_name": "法律事务",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "550401",
+              "sp_name": "文化创意与策划",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "530605",
+              "sp_name": "市场营销",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "540106",
+              "sp_name": "酒店管理与数字化运营",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "560105",
+              "sp_name": "数字出版",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "580401",
+              "sp_name": "法律事务",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "442208",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "490102",
+              "sp_name": "食品质量与安全",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；转氨酶异常的考生慎重报考）"
+            },
+            {
+              "spcode": "510203",
+              "sp_name": "软件技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460703",
+              "sp_name": "汽车电子技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510102",
+              "sp_name": "物联网应用技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "460609",
+              "sp_name": "无人机应用技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "490102",
+              "sp_name": "食品质量与安全",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；转氨酶异常的考生慎重报考）"
+            },
+            {
+              "spcode": "510203",
+              "sp_name": "软件技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460703",
+              "sp_name": "汽车电子技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510102",
+              "sp_name": "物联网应用技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "530302",
+              "sp_name": "大数据与会计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "570201",
+              "sp_name": "商务英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "460609",
+              "sp_name": "无人机应用技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "special_group": "442208",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "310401",
+              "sp_name": "集成电路工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "280301",
+              "sp_name": "数字印刷工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "310101",
+              "sp_name": "电子信息工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "310401",
+              "sp_name": "集成电路工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "280301",
+              "sp_name": "数字印刷工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "310101",
+              "sp_name": "电子信息工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            },
+            {
+              "spcode": "220801",
+              "sp_name": "生态环境工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（本科层次职业教育。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "525",
+          "min_rank": "36001",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460305",
+              "sp_name": "工业机器人技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "460306",
+              "sp_name": "电气自动化技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "470203",
+              "sp_name": "精细化工技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "440501",
+              "sp_name": "工程造价",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "510401",
+              "sp_name": "集成电路技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "490103",
+              "sp_name": "食品营养与健康",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；因用人单位可能对考生身体素质有要求，请转氨酶异常的考生慎重报考;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "440105",
+              "sp_name": "风景园林设计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "510201",
+              "sp_name": "计算机应用技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "460301",
+              "sp_name": "机电一体化技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "530802",
+              "sp_name": "现代物流管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "510207",
+              "sp_name": "信息安全技术应用",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者;办学地点:西丽校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "525",
+          "min_rank": "36001",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "310203",
+              "sp_name": "软件工程技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "310301",
+              "sp_name": "现代通信工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "290201",
+              "sp_name": "制药工程技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:西丽校区）"
+            },
+            {
+              "spcode": "280301",
+              "sp_name": "数字印刷工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:西丽校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "363983",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510101",
+              "sp_name": "电子信息工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区）"
+            },
+            {
+              "spcode": "520504",
+              "sp_name": "口腔医学技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招色盲）"
+            },
+            {
+              "spcode": "460303",
+              "sp_name": "智能控制技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "500606",
+              "sp_name": "城市轨道交通运营管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "510202",
+              "sp_name": "计算机网络技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "510101",
+              "sp_name": "电子信息工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "440602",
+              "sp_name": "给排水工程技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区）"
+            },
+            {
+              "spcode": "520504",
+              "sp_name": "口腔医学技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招色盲）"
+            },
+            {
+              "spcode": "460303",
+              "sp_name": "智能控制技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "500606",
+              "sp_name": "城市轨道交通运营管理",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            },
+            {
+              "spcode": "510202",
+              "sp_name": "计算机网络技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（西丽校区；不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460703",
+              "sp_name": "汽车电子技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者。办学地点：西丽校区。）"
+            },
+            {
+              "spcode": "510208",
+              "sp_name": "虚拟现实技术应用",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者。办学地点：西丽校区。）"
+            },
+            {
+              "spcode": "520601",
+              "sp_name": "康复治疗技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（因用人单位可能对考生身体素质有要求，请男生身高＜160cm、女生身高＜150cm的考生慎重报考。办学地点：西丽校区。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "419149",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "专科批F段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "510102",
+              "sp_name": "物联网应用技术",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "440105",
+              "sp_name": "风景园林设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "440404",
+              "sp_name": "建筑智能化工程技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "520201",
+              "sp_name": "护理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "460702",
+              "sp_name": "新能源汽车技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "470203",
+              "sp_name": "精细化工技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "460301",
+              "sp_name": "机电一体化技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "470208",
+              "sp_name": "分析检验技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510211",
+              "sp_name": "工业互联网技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "510102",
+              "sp_name": "物联网应用技术",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "440105",
+              "sp_name": "风景园林设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲）"
+            },
+            {
+              "spcode": "440404",
+              "sp_name": "建筑智能化工程技术",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "520201",
+              "sp_name": "护理",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招色盲；因用人单位可能对考生身体素质有要求，请男生身高<168cm、女生身高<158cm的考生慎重报考）"
+            },
+            {
+              "spcode": "460702",
+              "sp_name": "新能源汽车技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "470203",
+              "sp_name": "精细化工技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "460301",
+              "sp_name": "机电一体化技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "460704",
+              "sp_name": "智能网联汽车技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            },
+            {
+              "spcode": "470208",
+              "sp_name": "分析检验技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510211",
+              "sp_name": "工业互联网技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（不招单色识别不全者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "专科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "317",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460301",
+              "sp_name": "机电一体化技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "520901",
+              "sp_name": "眼视光技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "470208",
+              "sp_name": "分析检验技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            },
+            {
+              "spcode": "510401",
+              "sp_name": "集成电路技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "440202",
+              "sp_name": "智慧城市管理技术",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "专科批",
+          "zslx_name": "单列",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "317",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "460301",
+              "sp_name": "机电一体化技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（录取条件见院校招生章程）（单列类）"
+            },
+            {
+              "spcode": "560215",
+              "sp_name": "传播与策划",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "三年",
+              "info_short": "（录取条件见院校招生章程）（单列类）"
             }
           ]
         }

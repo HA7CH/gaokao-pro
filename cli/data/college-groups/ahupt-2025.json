@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=72; zs_code=10366.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for ahupt: 天津/山西/内蒙古/辽宁/黑龙江/安徽/江西/广西/海南/重庆/四川/云南/西藏/陕西/新疆"
   ],
   "provinces": [
     {
@@ -2079,6 +2080,4206 @@
               "tuition": "4900",
               "length": "四年",
               "info": "（办学地点：新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "259338",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "623",
+          "min_rank": "7919",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；新医科中心）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；新医科中心）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "391850",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "569",
+          "min_rank": "21165",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（办学地点新医科中心；不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "447719",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "519",
+          "min_rank": "24426",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）（新医科中心）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "590",
+          "min_rank": "16970",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考牛）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "262036",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "555",
+          "min_rank": "15503",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "310155",
+          "group_code": "（L002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "12895",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "310202",
+          "group_code": "（W004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "310203",
+          "group_code": "（W005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 15,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 5,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 5,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 15,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 10,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 5,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 5,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 3,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "310521",
+          "group_code": "（W002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 5,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 5,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "310522",
+          "group_code": "（W003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 27,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 18,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 18,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 9,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 9,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 9,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 6,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 27,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 18,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 18,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 18,
+              "tuition": "5500",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 9,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 9,
+              "tuition": "5500",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "5",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 9,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 6,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "310636",
+          "group_code": "（L001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "12895",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 6,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 6,
+              "tuition": "4900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "tuition": "5200",
+              "length": "4",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341455",
+          "group_code": "（014）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "526",
+          "min_rank": "98092",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 349,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101102TK",
+              "sp_name": "助产学",
+              "plan": 30,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "plan": 349,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101102TK",
+              "sp_name": "助产学",
+              "plan": 30,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341459",
+          "group_code": "（010）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "593",
+          "min_rank": "31694",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 619,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（阜外生活方式医学班，与中国医学科学院阜外医院联合培养；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 619,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（阜外生活方式医学班，与中国医学科学院阜外医院联合培养；不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341457",
+          "group_code": "（012）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "579",
+          "min_rank": "41895",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 201,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 90,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "plan": 60,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100202TK",
+              "sp_name": "麻醉学",
+              "plan": 201,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "plan": 90,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "plan": 60,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341456",
+          "group_code": "（013）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "535",
+          "min_rank": "86735",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 172,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 129,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 128,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 106,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 95,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "plan": 91,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 88,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "plan": 83,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 79,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "plan": 61,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "plan": 61,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "plan": 60,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "plan": 60,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "plan": 60,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "plan": 58,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 46,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "plan": 31,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 172,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "plan": 129,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 128,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 106,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 95,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "plan": 91,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 88,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "plan": 83,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 79,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "plan": 61,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "plan": 61,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "plan": 60,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "plan": 60,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "plan": 60,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "plan": 58,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 46,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "plan": 31,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341461",
+          "group_code": "（008）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 150,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（5+3一体化）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 150,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（5+3一体化）（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341458",
+          "group_code": "（011）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "606",
+          "min_rank": "23187",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 96,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 96,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341463",
+          "group_code": "（006）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "531",
+          "min_rank": "92262",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 47,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 45,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 39,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "plan": 37,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 30,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 20,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 18,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 10,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 47,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 45,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 39,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "plan": 37,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 30,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 20,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 18,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 10,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "341460",
+          "group_code": "（009）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "622",
+          "min_rank": "14105",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（5+3一体化）（儿科学方向；毕业证不标注“儿科学方向”；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 30,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（5+3一体化）（儿科学方向；毕业证不标注“儿科学方向”；不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "341462",
+          "group_code": "（007）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 25,
+              "tuition": "21000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国阿肯色州立大学合作办学）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 25,
+              "tuition": "21000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国阿肯色州立大学合作办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "341497",
+          "group_code": "（004）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "12895",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 18,
+              "tuition": "21000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国阿肯色州立大学合作办学）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 18,
+              "tuition": "21000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（与美国阿肯色州立大学合作办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "341498",
+          "group_code": "（003）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "12895",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 93,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 25,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 24,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "plan": 22,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 20,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 15,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 11,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 93,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "plan": 25,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 24,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "plan": 22,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 20,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 15,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "plan": 11,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "456848",
+          "group_code": "（W001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "农村订单定向医学生免费培养计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "626",
+          "min_rank": "12174",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 8,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为寿县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 6,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为庐江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 5,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为寿县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为临泉县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为广德市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为涡阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为东至县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为涡阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为蒙城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市裕安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宁国市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为舒城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太湖县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宣城市宣州区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为巢湖市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为枞阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为毫州市谯城区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为滩溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为砀山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为肥西县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为长丰县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜南县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为临泉县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市金安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为利辛县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为天长市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太湖县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为定远县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿州市埔桥区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿松县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为广德市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为怀宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为旌德县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为无为市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为望江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为枞阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为灵璧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为界首市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为砀山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市鸠江区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为郎溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为长丰县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜南县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颖泉区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍邱县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为颖上县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为休宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为全椒县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市金安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为南陵县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为含：山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为和县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为天长市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太和县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宁国市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市宜秀区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市经济技术开发区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市高新技术产业开发区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为定远县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿州市诵桥区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿松县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为当涂县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为怀宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为旌德县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为无为市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为明光市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为望江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为桐城市定向培养）（不招色盲、色弱考生））（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为款县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为池州市贵池区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为泾县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市杜集区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市烈山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市相山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为滁州市南谯区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为潜山市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为灵璧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为石台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为绩溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为肥东县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为舒城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市湾沚区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市繁昌区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市鸠江区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为萧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为金寨县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颍泉区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颖东区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍邱县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为马鞍山市博望区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为马鞍山市雨山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为黟县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 8,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为寿县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 6,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为庐江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 5,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为寿县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为临泉县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为广德市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为涡阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为东至县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为涡阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为蒙城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市裕安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宁国市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为舒城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太湖县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宣城市宣州区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为巢湖市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为枞阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为毫州市谯城区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为滩溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为砀山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为肥西县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为长丰县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜南县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为临泉县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市金安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为利辛县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为天长市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太湖县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为定远县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿州市埔桥区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿松县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为广德市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为怀宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为旌德县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为无为市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为望江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为枞阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为灵璧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为界首市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为砀山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市鸠江区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为郎溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为长丰县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜南县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颖泉区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍邱县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为颖上县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为休宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为全椒县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为六安市金安区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为凤阳县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为南陵县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为含：山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为和县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为天长市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为太和县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宁国市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市宜秀区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市经济技术开发区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为安庆市高新技术产业开发区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为定远县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿州市诵桥区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为宿松县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为当涂县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为怀宁县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为旌德县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为无为市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为明光市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为望江县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为桐城市定向培养）（不招色盲、色弱考生））（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为款县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为池州市贵池区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为泾县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市杜集区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市烈山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为淮北市相山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为滁州市南谯区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为潜山市定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为灵璧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为石台县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为绩溪县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为肥东县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为舒城县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市湾沚区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市繁昌区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为芜湖市鸠江区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为萧县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为金寨县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颍泉区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为阜阳市颖东区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍山县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为霍邱县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为马鞍山市博望区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为马鞍山市雨山区定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "",
+              "length": "五年",
+              "info_short": "（为黟县定向培养）（不招色盲、色弱考生）（农村订单定向医学生培养计划）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "402672",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "566",
+          "min_rank": "24300",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "457808",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "593",
+          "min_rank": "8199",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（在新医科中心办学，不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（在新医科中心办学，不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350136",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "595",
+          "min_rank": "13116",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱）"
+            }
+          ]
+        },
+        {
+          "special_group": "350138",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "591",
+          "min_rank": "13911",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "plan": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "plan": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "350137",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70000",
+          "min_score": "596",
+          "min_rank": "12911",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "538",
+          "min_rank": "38835",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（色弱、色盲考生限报；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（色弱、色盲考生限报；办学地点：铜陵路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "439244",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 6,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（新医科中心）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 6,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（新医科中心）（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "special_group": "439245",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（新医科中心）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "plan": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": "（新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "361248",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（新医科中心；不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱。办学地点：新医科中心。）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱。办学地点：新医科中心。）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱。办学地点：新医科中心。）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱。办学地点：新医科中心。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "304789",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；教学地点：安徽省合肥市肥西县杭埠河大道2227号）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生；教学地点：安徽省合肥市合肥新站高新技术产业开发区唐河路与铜陵北路交口）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（不招色盲、色弱考生；教学地点：安徽省合肥市肥西县杭埠河大道2227号）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（不招色盲、色弱考生；教学地点：安徽省合肥市合肥新站高新技术产业开发区唐河路与铜陵北路交口）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "510",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（录取条件见院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（录取条件见院校招生章程）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "单列",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "510",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（录取条件见院校招生章程）（单列类）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（录取条件见院校招生章程）（单列类）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info_short": "（录取条件见院校招生章程）（单列类）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科一批次",
+          "zslx_name": "对口援疆",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "510",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 15,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（对口援疆计划,面向和田地区招生,录取条件见院校招生章程）（定向）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科一批次",
+          "zslx_name": "南疆单列",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "510",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "五年",
+              "info_short": "（录取条件见院校招生章程）（南疆单列计划）"
             }
           ]
         }

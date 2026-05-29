@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=324; zs_code=10277.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for sus: 天津/山西/黑龙江/安徽/江西/广西/海南/四川/贵州/云南/西藏/甘肃"
   ],
   "provinces": [
     {
@@ -1433,6 +1434,1950 @@
               "tuition": "7400",
               "length": "四年",
               "info": "（含运动人体科学、运动康复、运动与公共健康、康复治疗学专业；办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "260047",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "600",
+          "min_rank": "12965",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        },
+        {
+          "special_group": "260049",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "604",
+          "min_rank": "12046",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        },
+        {
+          "special_group": "260048",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "596",
+          "min_rank": "13904",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学；校本部）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学；校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "393919",
+          "group_code": "（303）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "531",
+          "min_rank": "40170",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 13,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 13,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "393921",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "526",
+          "min_rank": "43091",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "393920",
+          "group_code": "（302）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "553",
+          "min_rank": "28419",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "393931",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "6593",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "393932",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "562",
+          "min_rank": "6303",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "263051",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "548",
+          "min_rank": "17306",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 3,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 3,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "342773",
+          "group_code": "（053）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "555",
+          "min_rank": "65096",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 40,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（含运动人体科学、运动康复，运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 40,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（含运动人体科学、运动康复，运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "342774",
+          "group_code": "（052）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "584",
+          "min_rank": "38383",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342775",
+          "group_code": "（051）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "555",
+          "min_rank": "64442",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 4,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 4,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342777",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "571",
+          "min_rank": "49636",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "342776",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "563",
+          "min_rank": "56616",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342792",
+          "group_code": "（052）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "570",
+          "min_rank": "8565",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（英语单科成绩不得低于110分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（英语单科成绩不得低于110分）"
+            }
+          ]
+        },
+        {
+          "special_group": "342794",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "575",
+          "min_rank": "7615",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342793",
+          "group_code": "（051）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "569",
+          "min_rank": "8798",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含市场营销、体育经济与管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "404179",
+          "group_code": "（505）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "548",
+          "min_rank": "36499",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "404181",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "557",
+          "min_rank": "30193",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 3,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 3,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "404183",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "32634",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "404182",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "581",
+          "min_rank": "16536",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "404180",
+          "group_code": "（504）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "555",
+          "min_rank": "31354",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "404194",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "574",
+          "min_rank": "5919",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "404195",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "575",
+          "min_rank": "5787",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "459053",
+          "group_code": "（107）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "517",
+          "min_rank": "44350",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "459055",
+          "group_code": "（105）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "531",
+          "min_rank": "35554",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 11,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 11,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "459056",
+          "group_code": "（104）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "549",
+          "min_rank": "25556",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "459057",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "525",
+          "min_rank": "39224",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "459054",
+          "group_code": "（106）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "539",
+          "min_rank": "30952",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "459067",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "553",
+          "min_rank": "5863",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "459068",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "567",
+          "min_rank": "4063",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350721",
+          "group_code": "（80）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "610",
+          "min_rank": "10420",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "350723",
+          "group_code": "（05）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "637",
+          "min_rank": "6580",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "350722",
+          "group_code": "（06）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "620",
+          "min_rank": "8822",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "440739",
+          "group_code": "（103）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "440741",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "440740",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招收英语语种考生）（英语单科成绩不得低于110分（满分150分））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（招收英语语种考生）（英语单科成绩不得低于110分（满分150分））"
+            }
+          ]
+        },
+        {
+          "special_group": "440755",
+          "group_code": "（105）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 4,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 4,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "440757",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 19,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（含：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 19,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（含：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "440758",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "440759",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（含：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "440756",
+          "group_code": "（104）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "560",
+          "min_rank": "6773",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "498",
+          "min_rank": "53365",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 19,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（包含运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（包含市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "362476",
+          "group_code": "（02）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "362477",
+          "group_code": "（01）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        },
+        {
+          "special_group": "362497",
+          "group_code": "（05）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "040213T",
+              "sp_name": "运动能力开发",
+              "plan": 2,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        },
+        {
+          "special_group": "362499",
+          "group_code": "（03）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 10,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 10,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "362500",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "plan": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        },
+        {
+          "special_group": "362501",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "362498",
+          "group_code": "（04）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info_short": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "提前批艺体类本科",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040201",
+              "sp_name": "体育教育",
+              "plan": 3,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": "（认可区内体育统考成绩。）"
+            },
+            {
+              "spcode": "130309",
+              "sp_name": "播音与主持艺术",
+              "plan": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info_short": "（播音）（认可区内播音与主持类专业统考成绩。）"
+            },
+            {
+              "spcode": "130206",
+              "sp_name": "舞蹈编导",
+              "plan": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info_short": "（舞蹈）（认可区内舞蹈类专业统考成绩。）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "提前批艺体类本科",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040201",
+              "sp_name": "体育教育",
+              "plan": 3,
+              "tuition": "7700",
+              "length": "四年",
+              "info_short": "（认可区内体育统考成绩。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "417631",
+          "group_code": "（005）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "531",
+          "min_rank": "4488",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            }
+          ]
+        },
+        {
+          "special_group": "417632",
+          "group_code": "（004）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "539",
+          "min_rank": "3763",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "417648",
+          "group_code": "（007）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "533",
+          "min_rank": "16799",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            },
+            {
+              "spcode": "1010",
+              "sp_name": "医学技术类",
+              "plan": 2,
+              "tuition": "7400",
+              "length": "四年",
+              "info_short": "（运动人体科学、运动康复、运动与公共健康、康复治疗学）"
+            }
+          ]
+        },
+        {
+          "special_group": "417649",
+          "group_code": "（006）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "511",
+          "min_rank": "24342",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info_short": "（市场营销、体育经济与管理）"
             }
           ]
         }

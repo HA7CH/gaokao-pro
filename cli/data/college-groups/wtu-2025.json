@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=432; zs_code=10495.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-11 added provinces for wtu: 山西/内蒙古/辽宁/吉林/黑龙江/安徽/江西/广西/海南/重庆/四川/贵州/云南/西藏/陕西/甘肃/青海/宁夏/新疆"
   ],
   "provinces": [
     {
@@ -4200,6 +4201,3238 @@
               "tuition": "5850",
               "length": "四年",
               "info": "（办学地点：阳光校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "394861",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "529",
+          "min_rank": "41318",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、智能制造工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 7,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向）；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：纺织工程、非织造材料与工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（包含专业：环境工程、环境科学；办学地点阳光校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：应用化学、化妆品技术与工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "081601",
+              "sp_name": "纺织工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（柔性电子与智能穿戴方向）（办学地点阳光校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、智能制造工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 7,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向）；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：纺织工程、非织造材料与工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点阳光校区）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（包含专业：环境工程、环境科学；办学地点阳光校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：应用化学、化妆品技术与工程；办学地点阳光校区）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "081601",
+              "sp_name": "纺织工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（柔性电子与智能穿戴方向）（办学地点阳光校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "394886",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "564",
+          "min_rank": "6026",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含智能财务方向）（办学地点阳光校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班）（办学地点阳光校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（办学地点阳光校区另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含智能财务方向）（办学地点阳光校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班）（办学地点阳光校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（办学地点阳光校区另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点阳光校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "449033",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "536",
+          "min_rank": "19815",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）（阳光校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含:应用化学、化妆品技术与工程）（阳光校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）（阳光校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含:应用化学、化妆品技术与工程）（阳光校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "552",
+          "min_rank": "31888",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "557",
+          "min_rank": "6100",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "239006",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            }
+          ]
+        },
+        {
+          "special_group": "239007",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "263592",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "536",
+          "min_rank": "4510",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "263608",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "505",
+          "min_rank": "30478",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含应用化学、化妆品技术与工程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "343296",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "552",
+          "min_rank": "68248",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 10,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含环境工程、环境科学）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 9,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 10,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含环境工程、环境科学）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 9,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "343316",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "547",
+          "min_rank": "14820",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（ACCA方向）（英语单科成绩不低于110分；另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（ACCA方向）（英语单科成绩不低于110分；另外单独收取课程培训费10000元/年）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "404716",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "547",
+          "min_rank": "37288",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0808",
+              "sp_name": "自动化类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（自动化、机器人工程）"
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0808",
+              "sp_name": "自动化类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（自动化、机器人工程）"
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "459580",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "520",
+          "min_rank": "42427",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 10,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：环境工程、环境科学）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在南湖校区办学）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 10,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：环境工程、环境科学）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在南湖校区办学）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，包含专业：机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "459592",
+          "group_code": "（100）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "530",
+          "min_rank": "9781",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班）（在阳光校区办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，要求外语语种为英语）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（CFA方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（在阳光校区办学）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班）（在阳光校区办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（在阳光校区办学，要求外语语种为英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350988",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "559",
+          "min_rank": "21189",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 14,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 14,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081303T",
+              "sp_name": "资源循环科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "531",
+          "min_rank": "42889",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向）；办学地点：阳光校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点：南湖校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：纺织工程、非织造材料与工程；办学地点：阳光校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、智能制造工程；办学地点：阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：阳光校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "441322",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区就读。）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班））阳光校区就读。）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区就读。）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班））阳光校区就读。）"
+            }
+          ]
+        },
+        {
+          "special_group": "441344",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：高分子材料与工程、复合材料与工程、材料科学与工程）（新能源材料方向）（阳光校区）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含：环境工程、环境科学）（阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）（阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：纺织工程、非织造材料与工程）（阳光校区）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：应用化学、化妆品技术与工程）（阳光校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）（阳光校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（南湖校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：机械设计制造及其自动化、智能制造工程）（阳光校区）"
+            },
+            {
+              "spcode": "0808",
+              "sp_name": "自动化类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：自动化、机器人工程）（阳光校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（拔尖英才班）（阳光校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：高分子材料与工程、复合材料与工程、材料科学与工程）（新能源材料方向）（阳光校区）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含：环境工程、环境科学）（阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）（阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：纺织工程、非织造材料与工程）（阳光校区）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：应用化学、化妆品技术与工程）（阳光校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）（阳光校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（南湖校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：机械设计制造及其自动化、智能制造工程）（阳光校区）"
+            },
+            {
+              "spcode": "0808",
+              "sp_name": "自动化类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（含：自动化、机器人工程）（阳光校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（拔尖英才班）（阳光校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "542",
+          "min_rank": "9908",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（另外单独收取课程培训费5000元/年;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "491",
+          "min_rank": "59293",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 9,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（包含环境工程、环境科学;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含纺织工程、非织造材料与工程;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（包含数学与应用数学、信息与计算科学;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含应用化学、化妆品技术与工程;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（另外单独收取课程培训费5000元/年;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向）;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含机械设计制造及其自动化、智能制造工程;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "0808",
+              "sp_name": "自动化类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含自动化、机器人工程;办学地点:阳光校区）"
+            },
+            {
+              "spcode": "081701",
+              "sp_name": "轻化工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "081601",
+              "sp_name": "纺织工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（柔性电子与智能穿戴方向）（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（数字贸易创新实验班）（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）（外语语种为英语）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（办学地点:阳光校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "363181",
+          "group_code": "（01）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（阳光校区；另外单独收取课程培训费5000元/年）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（CMA方向）（阳光校区；另外单独收取课程培训费5000元/年）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "363198",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：环境工程、环境科学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "081601",
+              "sp_name": "纺织工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（柔性电子与智能穿戴方向）（阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）（阳光校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 8,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：环境工程、环境科学）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "081601",
+              "sp_name": "纺织工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（柔性电子与智能穿戴方向）（阳光校区）"
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）（阳光校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（阳光校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（阳光校区；包含专业：数学与应用数学、信息与计算科学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点：阳光校区。）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "plan": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含智能财务方向）（办学地点：阳光校区。）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（含广告学、网络与新媒体专业。办学地点：南湖校区。）"
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（办学地点：阳光校区。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "306353",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（嵌入式方向）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（嵌入式方向）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "418135",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "497",
+          "min_rank": "29833",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（环境工程、环境科学）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": "（环境工程、环境科学）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 6,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（纺织工程、非织造材料与工程）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "plan": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、智能制造工程）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（应用化学、化妆品技术与工程）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智能感知方向）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "province_pinyin": "qinghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术;阳光校区;办学地点:湖北省武汉市）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业机械设计制造及其自动化、智能制造工程;阳光校区;办学地点:湖北省武汉市）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业应用化学、化妆品技术与工程;阳光校区;办学地点:湖北省武汉市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "province_pinyin": "ningxia",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "233785",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "506",
+          "min_rank": "2254",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "plan": 2,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020202",
+              "sp_name": "税收学",
+              "plan": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "436",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、智能制造工程）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科二批次",
+          "zslx_name": "对口援疆",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "411",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081602",
+              "sp_name": "服装设计与工程",
+              "plan": 3,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（对口援疆计划,面向博州招生）（定向）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科二批次",
+          "zslx_name": "对口援疆",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "436",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "plan": 5,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（智慧诊疗方向）（对口援疆计划,面向博州招生）（定向）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（高分子材料与工程、复合材料与工程、材料科学与工程（新能源材料方向））（对口援疆计划,面向博州招生）（定向）"
+            },
+            {
+              "spcode": "0816",
+              "sp_name": "纺织类",
+              "plan": 4,
+              "tuition": "5850",
+              "length": "四年",
+              "info_short": "（纺织工程、非织造材料与工程）（对口援疆计划,面向博州招生）（定向）"
             }
           ]
         }

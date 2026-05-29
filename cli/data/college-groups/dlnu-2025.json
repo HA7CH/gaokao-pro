@@ -1,0 +1,3451 @@
+{
+  "_kind": "大连民族大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "大连民族大学",
+  "code": 12026,
+  "zs_code": "12026",
+  "school_id_gaokao_cn": 208,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/208/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/208/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=208; zs_code=12026.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424869",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 484,
+          "min_rank": 41799,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（辽宁）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（辽宁）（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424870",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 38082,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（辽宁）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424871",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 38082,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（辽宁）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（辽宁）（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）（新文科实验班）（办学地点：金石滩校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423323",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 440,
+          "min_rank": 40711,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 110872,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 19,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（新工科实验班）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（新工科实验班）（不招色盲色弱考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 11,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 11,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 11,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 11,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（新工科实验班）（不招色盲色弱考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（不招色盲色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（新工科实验班）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（不招色盲色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（不招色盲色弱考生）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082504",
+              "sp_name": "环境生态工程",
+              "spname": "环境生态工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（理科实验班）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（新工科实验班）（不招色盲色弱考生）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招色盲色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲色弱考生）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（新文科实验班）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新文科实验班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "min_score": 575,
+          "min_rank": 50224,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家专项计划）（新文科实验班）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）（新文科实验班）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426907",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 28888,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426915",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 553,
+          "min_rank": 88855,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426916",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 86192,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）（金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 115329,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393936",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 9730,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393946",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 46183,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            }
+          ]
+        },
+        {
+          "group_id": "393947",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 521,
+          "min_rank": 53711,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 187310,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050209",
+              "sp_name": "朝鲜语",
+              "spname": "朝鲜语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新文科实验班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（新文科实验班）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（新工科实验班）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（新工科实验班）（不招色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（新工科实验班）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招色盲、色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369304",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（新工科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "369305",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（新工科实验班）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：金石滩校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（理科实验班）（办学地点：金石滩校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（新工科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（国家专项）（办学地点：开发区校区；不招收色盲、色弱考生）（国家专项）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（办学地点：开发区校区；不招收色盲、色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区；不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（新工科实验班）（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：金石滩校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（理科实验班）（办学地点：金石滩校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（办学地点：开发区校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "369306",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "369309",
+          "sg_name": "（308）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（国家专项）（办学地点：开发区校区；不招收色盲、色弱考生）（国家专项）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（办学地点：开发区校区；不招收色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "369310",
+          "sg_name": "（305）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "369324",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：开发区校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（新文科实验班）（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：开发区校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291579",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 507,
+          "min_rank": 80494,
+          "majors": [
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招收色盲、色弱考生；办学地点：开发区校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生；办学地点：开发区校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291580",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 69316,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班；办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班；办学地点：开发区校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（办学地点：金石滩校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（办学地点：金石滩校区；学制：五年）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招收色盲、色弱考生；办学地点：开发区校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生；办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（不招收色盲、色弱考生；办学地点：开发区校区）（国家专项计划）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生；办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班；办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班；办学地点：开发区校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：开发区校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：开发区校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291581",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 507,
+          "min_rank": 80494,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划（办学地点：金石滩校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（办学地点：金石滩校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "291587",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 501,
+          "min_rank": 85801,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（不招收色盲、色弱考生；办学地点：开发区校区）（国家专项计划）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生；办学地点：开发区校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291585",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 14446,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：金石滩校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318664",
+          "sg_name": "（305）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国家专项）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318666",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 102293,
+          "majors": [
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 14,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 14,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（理科实验班）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招收色盲、色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国家专项）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（新工科实验班）（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（新工科实验班）（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 14,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080421T",
+              "sp_name": "电子信息材料",
+              "spname": "电子信息材料（新工科实验班）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 14,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 9,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（理科实验班）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318665",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 121969,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（理科实验班）（不招收色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（理科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "090504T",
+              "sp_name": "经济林",
+              "spname": "经济林（不招收色盲、色弱考生）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（新工科实验班）（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（新工科实验班）（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新工科实验班）（不招收色盲、色弱考生）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（不招收色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招收色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "318686",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 14799,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新文科实验班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（新文科实验班）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新文科实验班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（新文科实验班）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318664",
+          "sg_name": "（305）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 470,
+          "min_rank": 127104,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432445",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 31869,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432450",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 115742,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432451",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 156040,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：金石滩校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：金石滩校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（新文科实验班；办学地点：金石滩校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新文科实验班；办学地点：金石滩校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

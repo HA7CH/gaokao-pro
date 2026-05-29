@@ -1,0 +1,524 @@
+{
+  "_kind": "山东艺术学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "山东艺术学院",
+  "code": 10458,
+  "zs_code": "10458",
+  "school_id_gaokao_cn": 549,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/549/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/549/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=549; zs_code=10458.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425256",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 36194,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（济南市）（按高考文化课成绩录取的艺术类专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（济南市）（按高考文化课成绩录取的艺术类专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "艺术类",
+          "min_score": 542,
+          "min_rank": 26359,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "428194",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 33554,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（长清校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（长清校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 89941,
+          "majors": []
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396425",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 485,
+          "min_rank": 17700,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "12000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "12000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 187310,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 81,
+              "tuition": "12000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 40,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 40,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 40,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 40,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 40,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏曲文化传播方向）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 36,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（戏曲文化传播方向）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 30,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130303",
+              "sp_name": "电影学",
+              "spname": "电影学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 20,
+              "tuition": "12000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 10,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371666",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371667",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "321119",
+          "sg_name": "（Y24）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "艺术专业",
+          "min_score": 494,
+          "min_rank": 29645,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434358",
+          "sg_name": "（209）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 41077,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：长清校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
