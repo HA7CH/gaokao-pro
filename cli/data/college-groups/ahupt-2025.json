@@ -1,0 +1,2088 @@
+{
+  "_kind": "安徽医科大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "安徽医科大学",
+  "code": 366,
+  "zs_code": "10366",
+  "school_id_gaokao_cn": 72,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/72/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/72/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=72; zs_code=10366.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424570",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 16019,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常；办学地点：新医科中心）"
+            }
+          ]
+        },
+        {
+          "group_id": "424571",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 526,
+          "min_rank": 30546,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（合肥市）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（合肥市）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（合肥市）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "spname": "化学生物学（合肥市）（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（合肥市）（不招色盲、色弱考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "422975",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 486,
+          "min_rank": 28229,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（无色盲、色弱）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（无色盲、色弱）"
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "spname": "养老服务管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（无色盲、色弱）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（无色盲、色弱）"
+            },
+            {
+              "spcode": "120414T",
+              "sp_name": "养老服务管理",
+              "spname": "养老服务管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "422985",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 10002,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6050",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426013",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            }
+          ]
+        },
+        {
+          "group_id": "426035",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 7,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（铜陵路校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "spname": "化学生物学（铜陵路校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 7,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（铜陵路校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（在新医科中心学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "spname": "化学生物学（铜陵路校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "426037",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（报考该专业有色觉要求，具体请查阅院校招生章程）（在新医科中心学习）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在新医科中心学习）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（在新医科中心学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（在新医科中心学习）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（在新医科中心学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（在新医科中心学习）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（报考该专业有色觉要求，具体请查阅院校招生章程）（在新医科中心学习）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在新医科中心学习）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（在新医科中心学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（在新医科中心学习）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（在新医科中心学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（在新医科中心学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "426036",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（新医科中心）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（新医科中心）（中外合作办学）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（新医科中心）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（新医科中心）（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 126641,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（铜陵路校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（铜陵路校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（铜陵路校区）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "392929",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "392930",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 86251,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生，新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生，新医科中心）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱考生，新医科中心）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生，新医科中心）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（不招色盲、色弱考生，新医科中心）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生，新医科中心）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（中外合作办学）（与美国阿肯色州立大学合作办学，新医科中心）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国阿肯色州立大学合作办学，新医科中心）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱考生，铜陵路校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生，铜陵路校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程（不招色盲、色弱考生，铜陵路校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生，铜陵路校区）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "070303T",
+              "sp_name": "化学生物学",
+              "spname": "化学生物学（不招色盲、色弱考生，铜陵路校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生，铜陵路校区）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险（新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "368387",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）（中外合作）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）（中外合作）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）"
+            }
+          ]
+        },
+        {
+          "group_id": "368389",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（办学地点：铜陵路校区；不招色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：铜陵路校区；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程（办学地点：铜陵路校区；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：铜陵路校区；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（办学地点：铜陵路校区；不招色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：铜陵路校区；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（办学地点：新医科中心；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（办学地点：新医科中心；不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程（办学地点：铜陵路校区；不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：铜陵路校区；不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "368388",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（办学地点：新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（办学地点：新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            }
+          ]
+        },
+        {
+          "group_id": "368438",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：新医科中心；合作方：美国阿肯色州立大学）"
+            }
+          ]
+        },
+        {
+          "group_id": "368439",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：新医科中心）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "290883",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲、色弱考生；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲、色弱考生；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生；办学地点：新医科中心；学制：五年）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "317912",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "spname": "医学影像技术（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "100403TK",
+              "sp_name": "妇幼保健医学",
+              "spname": "妇幼保健医学（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "spname": "医学影像技术（不招色盲、色弱考生）（新医科中心）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）（新医科中心）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "431716",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "101102TK",
+              "sp_name": "助产学",
+              "spname": "助产学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6050",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            },
+            {
+              "spcode": "101102TK",
+              "sp_name": "助产学",
+              "spname": "助产学（特征要求：不招色盲色弱；办学地点：新医科中心）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：新医科中心）"
+            }
+          ]
+        },
+        {
+          "group_id": "431717",
+          "sg_name": "（203）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（办学地点：新医科中心）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险（办学地点：新医科中心）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：新医科中心）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

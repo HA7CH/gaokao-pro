@@ -1,0 +1,4866 @@
+{
+  "_kind": "西安邮电大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西安邮电大学",
+  "code": 11664,
+  "zs_code": "11664",
+  "school_id_gaokao_cn": 363,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/363/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/363/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=363; zs_code=11664.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425057",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 583,
+          "min_rank": 15792,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（陕西）（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（陕西）（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（陕西）（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（陕西）（办学地点：长安校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（4+0模式）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080706",
+              "sp_name": "信息工程",
+              "spname": "信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（边防军人子女预科班）（只招通过边防子女资格审查的考生，其他事宜向院校咨询。在长安校区培养）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（边防军人子女预科班）（只招通过边防子女资格审查的考生，其他事宜向院校咨询。在长安校区培养）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（边防军人子女预科班）（只招通过边防子女资格审查的考生，其他事宜向院校咨询。在长安校区培养）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（边防军人子女预科班）（只招通过边防子女资格审查的考生，其他事宜向院校咨询。在长安校区培养）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423646",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 15514,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427476",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "-",
+              "info": "（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "-",
+              "info": "（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "427490",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（长安校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（长安校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（长安校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（长安校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（长安校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（长安校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（长安校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（长安校区）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "427491",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（在长安校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（在长安校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（在长安校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在长安校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（在长安校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（在长安校区学习）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在长安校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427492",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（雁塔校区）（只招收具有边防军人子女预科班报考资格的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "427493",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（雁塔校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 53226,
+          "majors": [
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（长安校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（长安校区。4+0）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（长安校区。4+0）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（长安校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（长安校区。4+0）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（长安校区。4+0）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（长安校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（长安校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394996",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "395008",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "395010",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082108T",
+              "sp_name": "智能无人系统技术",
+              "spname": "智能无人系统技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082108T",
+              "sp_name": "智能无人系统技术",
+              "spname": "智能无人系统技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "395012",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx_name": "中外合作办学",
+          "min_score": 561,
+          "min_rank": 65979,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式，与美国纽黑文大学合作）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式，与美国纽黑文大学合作）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式，与美国纽黑文大学合作）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式，与美国纽黑文大学合作）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（4+0模式，与美国纽黑文大学合作）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式，与美国纽黑文大学合作）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（招收边防军人子女）（学费：待定）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 4,
+              "tuition": "",
+              "length": "一年",
+              "info": "（招收边防军人子女）（学费：待定）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "370252",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：美国纽黑文大学；4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "370253",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（办学地点：长安校区；合作方：英国斯泰福厦大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：英国斯泰福厦大学；4+0模式）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（办学地点：长安校区；合作方：英国斯泰福厦大学；4+0模式）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：长安校区；合作方：英国斯泰福厦大学；4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "370255",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080722T",
+              "sp_name": "智能视听工程",
+              "spname": "智能视听工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080804T",
+              "sp_name": "邮政工程",
+              "spname": "邮政工程（办学地点：雁塔校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080722T",
+              "sp_name": "智能视听工程",
+              "spname": "智能视听工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080804T",
+              "sp_name": "邮政工程",
+              "spname": "邮政工程（办学地点：雁塔校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "370254",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "370274",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（办学地点：雁塔校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "5000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（办学地点：雁塔校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "5000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）（办学地点：雁塔校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "370272",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（办学地点：雁塔校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：长安校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（办学地点：雁塔校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：长安校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "370273",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（办学地点：雁塔校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "5000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（办学地点：雁塔校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "5000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）（办学地点：雁塔校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292208",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292210",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080804T",
+              "sp_name": "邮政工程",
+              "spname": "邮政工程（办学地点：雁塔校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080804T",
+              "sp_name": "邮政工程",
+              "spname": "邮政工程（办学地点：雁塔校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292209",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式；办学地点：长安校区）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式；办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292211",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292240",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：雁塔校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：雁塔校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319496",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "319497",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "319498",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082108T",
+              "sp_name": "智能无人系统技术",
+              "spname": "智能无人系统技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082108T",
+              "sp_name": "智能无人系统技术",
+              "spname": "智能无人系统技术",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319499",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319520",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433505",
+          "sg_name": "（212）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "预科",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433506",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：长安校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：长安校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433507",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：雁塔校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：雁塔校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：雁塔校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433520",
+          "sg_name": "（213）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "预科",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "5000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433522",
+          "sg_name": "（210）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "65000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国纽黑文大学“4+0”中外合作办学项目；办学地点：长安校区；备注：具体培养模式和学习费用请查看学校网站）"
+            }
+          ]
+        },
+        {
+          "group_id": "433521",
+          "sg_name": "（211）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（与英国斯泰福厦大学“4+0”中外合作办学项目，具体培养模式和学习费用请查看学校网站具体培养模式和学习费用请查看学校网站；办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯泰福厦大学“4+0”中外合作办学项目，具体培养模式和学习费用请查看学校网站具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（中外合作办学）（与英国斯泰福厦大学“4+0”中外合作办学项目，具体培养模式和学习费用请查看学校网站具体培养模式和学习费用请查看学校网站；办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "40000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯泰福厦大学“4+0”中外合作办学项目，具体培养模式和学习费用请查看学校网站具体培养模式和学习费用请查看学校网站；办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433523",
+          "sg_name": "（209）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080722T",
+              "sp_name": "智能视听工程",
+              "spname": "智能视听工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080722T",
+              "sp_name": "智能视听工程",
+              "spname": "智能视听工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080715T",
+              "sp_name": "电信工程及管理",
+              "spname": "电信工程及管理（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080303T",
+              "sp_name": "智能感知工程",
+              "spname": "智能感知工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：长安校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080712T",
+              "sp_name": "电磁场与无线技术",
+              "spname": "电磁场与无线技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "082107",
+              "sp_name": "信息对抗技术",
+              "spname": "信息对抗技术（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "兵器类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：长安校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6480",
+              "length": "四年",
+              "info": "（办学地点：长安校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433524",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：雁塔校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：雁塔校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：雁塔校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

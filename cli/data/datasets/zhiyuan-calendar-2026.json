@@ -1,0 +1,1168 @@
+{
+  "_kind": "2026 高考 投档/录取/征集 时间日历 by-province",
+  "_year": 2026,
+  "_compiled": "2026-05-28",
+  "_source": [
+    "https://www.eol.cn/e_html/gk/2026/zsks/index.shtml (中国教育在线 2026 高考时间汇总)",
+    "https://gaokao.chsi.com.cn/ 阳光高考",
+    "https://www.bjeea.cn/ 北京教育考试院",
+    "http://www.zhaokao.net/ 天津招考资讯网",
+    "https://www.shmeea.edu.cn/ 上海教育考试院",
+    "https://www.zjzs.net/ 浙江教育考试院",
+    "https://www.sdzk.cn/ 山东教育招生考试院",
+    "https://www.hngaokao.com/ 河南省教育考试院 / 河南阳光高考",
+    "http://gaokao.hebeea.edu.cn/ 河北省教育考试院",
+    "http://www.sxkszx.cn/ 山西招生考试网",
+    "http://www.nm.zsks.cn/ 内蒙古招生考试信息网",
+    "http://www.lnzsks.com/ 辽宁招生考试之窗",
+    "http://www.jleea.com.cn/ 吉林教育考试院",
+    "https://www.lzk.hl.cn/ 黑龙江招生考试信息港",
+    "https://www.jseea.cn/ 江苏教育考试院",
+    "http://cx.ahzsks.cn/ 安徽教育招生考试院",
+    "https://www.eeafj.cn/ 福建教育考试院",
+    "http://www.jxeea.cn/ 江西教育考试院",
+    "http://www.hbea.edu.cn/ 湖北教育考试院",
+    "https://www.hneao.edu.cn/ 湖南教育考试院",
+    "https://eea.gd.gov.cn/ 广东教育考试院",
+    "http://www.gxeea.cn/ 广西招生考试院",
+    "http://ea.hainan.gov.cn/ 海南考试局",
+    "https://www.cqksy.cn/ 重庆教育考试院",
+    "https://www.sceea.cn/ 四川教育考试院",
+    "http://www.eaagz.org.cn/ 贵州省招生考试院",
+    "https://www.ynzs.cn/ 云南招考频道",
+    "http://zsb.utibet.edu.cn/ 西藏招生考试院",
+    "http://www.sneac.com/ 陕西招生考试信息网",
+    "https://www.ganseea.cn/ 甘肃教育考试院",
+    "http://www.qhjyks.com/ 青海招考信息网",
+    "https://www.nxjyks.cn/ 宁夏教育考试院",
+    "http://www.xjzk.gov.cn/ 新疆招生网"
+  ],
+  "_notes": [
+    "本数据为各省 2026 拟定时间窗。截至 2026-05-28，部分省 (上海/广西/青海) 已发布 2026 正式日历；其余省份多沿用 2025 框架，标注 tentative=true 等省考试院最终公告。",
+    "提前批 含 强基计划 / 综评 / 公费师范 / 军校 / 公安 / 农村订单医学 / 航海类 等，各省对应批次名可能不同 (e.g. 河南本科提前批 ≠ 江苏提前批 ≠ 浙江段-内提前段)。",
+    "浙江/山东/海南 为 3+3，浙江采用'段'而非'批'，山东称'常规批'，海南独立 投档分 转换公式不影响日历。",
+    "新疆/西藏 为 老高考，志愿数与平行省差异较大；时间表沿用 2025。",
+    "exam_dates 全国统考 2026 年 6 月 7-8 日；江苏/海南 6/7-6/9 (含选考科目)。",
+    "score_release 多数省 6/23-6/25 之间；具体时点以省考试院最终公告为准。",
+    "时间表持续更新中，请以最新省考试院公告为准。"
+  ],
+  "provinces": [
+    {
+      "province": "北京",
+      "exam_dates": "6/7-6/10",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 08:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/6",
+          "release_date": "2026/7/10",
+          "supplementary_fill": "2026/7/11 (征集志愿)",
+          "supplementary_release": "2026/7/13",
+          "notes": "含 军校/公安/小语种/双培外培/农村专项, 6 院校×1专业(顺序)+8组×6专业(平行)"
+        },
+        {
+          "name": "本科普通批",
+          "fill_start": "2026/6/27 08:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/15",
+          "release_date": "2026/7/21",
+          "supplementary_fill": "2026/7/22",
+          "supplementary_release": "2026/7/26",
+          "notes": "30 院校专业组 × 6 专业, 调剂"
+        },
+        {
+          "name": "专科批",
+          "fill_start": "2026/7/21 08:00",
+          "fill_end": "2026/7/22 17:00",
+          "dispatch_date": "2026/7/27",
+          "release_date": "2026/7/30",
+          "notes": "20 专业组 × 6 专业"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名 (阳光高考平台)"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测 (清北复交浙等)"},
+        {"date": "2026/7/3", "event": "强基计划 录取结果公布"}
+      ]
+    },
+    {
+      "province": "天津",
+      "exam_dates": "6/7-6/10",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/6/30 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/12",
+          "supplementary_release": "2026/7/14",
+          "notes": "军校/公安/航海/公费师范/综评 等"
+        },
+        {
+          "name": "本科批 A 段",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/6/30 17:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/23",
+          "supplementary_fill": "2026/7/24",
+          "supplementary_release": "2026/7/26",
+          "notes": "50 院校专业组 × 6 专业, 调剂"
+        },
+        {
+          "name": "本科批 B 段",
+          "fill_start": "2026/7/27 09:00",
+          "fill_end": "2026/7/28 17:00",
+          "dispatch_date": "2026/7/30",
+          "release_date": "2026/8/2",
+          "notes": "25 组 × 6 专业"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15-6/17", "event": "南开/天大 综评 校测"},
+        {"date": "2026/6/26 起", "event": "阳光志愿智能参考系统开放"}
+      ]
+    },
+    {
+      "province": "河北",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批 A",
+          "fill_start": "2026/6/28 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "军校/公安/公费师范 顺序志愿"
+        },
+        {
+          "name": "本科提前批 B/C",
+          "fill_start": "2026/6/28 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/10",
+          "release_date": "2026/7/13",
+          "notes": "高校专项/地方专项/小语种 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/28 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/23",
+          "supplementary_fill": "2026/7/24-7/25",
+          "supplementary_release": "2026/7/27",
+          "notes": "96 专业平行志愿, 无调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "山西",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 08:00",
+          "fill_end": "2026/7/2 18:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/12",
+          "notes": "军校/公安/公费师范 顺序"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/26 08:00",
+          "fill_end": "2026/7/2 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/25",
+          "supplementary_release": "2026/7/28",
+          "notes": "45 院校专业组 × 6 专业, 调剂 (3+1+2 第 2 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "内蒙古",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批 A",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "军校/公安/航海 等"
+        },
+        {
+          "name": "本科提前批 B/C",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/11",
+          "release_date": "2026/7/15",
+          "notes": "国家专项/地方专项/高校专项"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/16",
+          "release_date": "2026/7/22",
+          "supplementary_fill": "2026/7/23",
+          "supplementary_release": "2026/7/26",
+          "notes": "45 院校专业组 × 12 专业, 调剂 (2026 起平行志愿替代动态投档)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "辽宁",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批 A",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "军校/公安/公费师范 (与 B 段可兼报)"
+        },
+        {
+          "name": "本科提前批 B",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/11",
+          "release_date": "2026/7/14",
+          "notes": "综评/航海/小语种 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26-7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "112 专业平行志愿, 无调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "吉林",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/22",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "军校/公安/公费师范 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "40 院校专业组 × 6 专业, 调剂 (3+1+2 第 3 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "黑龙江",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/7/1 12:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "军校/公安/公费师范 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/7/1 12:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 物理/历史禁兼报"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"},
+        {"date": "2026/6/25 起", "event": "人脸+短信双因子登录启用"}
+      ]
+    },
+    {
+      "province": "上海",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2026,
+      "tentative": false,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 10:00",
+          "fill_end": "2026/6/29 10:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/12",
+          "supplementary_release": "2026/7/14",
+          "notes": "军校/公安/航海/综评 (复旦交大同济华师大上财上外) 含校测"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/30 10:00",
+          "fill_end": "2026/7/2 10:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/28",
+          "notes": "24 院校专业组 × 4 专业, 调剂; 满分 660"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/13-6/14", "event": "综评 校测 (复旦/交大/同济/华师大/上财/上外/华东理工)"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"},
+        {"date": "2026/4/2", "event": "上海 2026 招生工作办法正式发布"}
+      ]
+    },
+    {
+      "province": "江苏",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/12",
+          "supplementary_fill": "2026/7/13",
+          "supplementary_release": "2026/7/15",
+          "notes": "军校/公安/航海/综评/公费师范"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/29",
+          "notes": "40 院校专业组 × 6 专业, 调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15-6/16", "event": "南大/东南综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "浙江",
+      "exam_dates": "6/7-6/10",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "普通类提前段",
+          "fill_start": "2026/6/29 08:00",
+          "fill_end": "2026/6/30 17:30",
+          "dispatch_date": "2026/7/9",
+          "release_date": "2026/7/12",
+          "notes": "三位一体/军校/公安/公费师范 (含浙大三位一体)"
+        },
+        {
+          "name": "普通类第一段",
+          "fill_start": "2026/7/16 08:00",
+          "fill_end": "2026/7/18 17:30",
+          "dispatch_date": "2026/7/22",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/26 (征求志愿)",
+          "supplementary_release": "2026/7/28",
+          "notes": "80 专业+院校平行, 无调剂; 一段线≈本科线上 20%"
+        },
+        {
+          "name": "普通类第二段",
+          "fill_start": "2026/7/30 08:00",
+          "fill_end": "2026/8/1 17:30",
+          "dispatch_date": "2026/8/3",
+          "release_date": "2026/8/5",
+          "notes": "二段未录考生再次填报 80 个"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/13-6/14", "event": "三位一体 综评 校测 (浙大/中科大/上科大 等)"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "安徽",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/28 09:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "军校/公安/公费师范/航海/中科大少创班 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/28 09:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 2024 合并本一本二 (3+1+2 第 3 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15", "event": "中科大少创班 测试"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "福建",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/30 08:00",
+          "fill_end": "2026/7/2 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/12",
+          "supplementary_release": "2026/7/14",
+          "notes": "军校/公安/航海/公费师范/厦大马来分校 等"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/30 08:00",
+          "fill_end": "2026/7/2 18:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/23",
+          "supplementary_fill": "2026/7/25 (2 轮 × 20)",
+          "supplementary_release": "2026/7/28",
+          "notes": "40 院校专业组 × 6 专业, 调剂; 一档一投, 退档只能征集"
+        },
+        {
+          "name": "专科批",
+          "fill_start": "2026/8/3 08:00",
+          "fill_end": "2026/8/5 18:00",
+          "dispatch_date": "2026/8/10",
+          "release_date": "2026/8/14",
+          "notes": "40 专业+院校平行志愿, 无调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14", "event": "厦大综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "江西",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/6/27 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/12",
+          "notes": "军校/公安/公费师范/航海"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/29 09:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/26",
+          "supplementary_fill": "2026/7/28 (2 次 × 20)",
+          "supplementary_release": "2026/7/31",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 2024 合并本一本二"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "山东",
+      "exam_dates": "6/7-6/10",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "提前批",
+          "fill_start": "2026/6/29 09:30",
+          "fill_end": "2026/7/2 18:00",
+          "dispatch_date": "2026/7/5",
+          "release_date": "2026/7/8",
+          "notes": "军校/公安/航海/公费师范/综评"
+        },
+        {
+          "name": "特殊类型批",
+          "fill_start": "2026/7/5 09:30",
+          "fill_end": "2026/7/7 18:00",
+          "dispatch_date": "2026/7/13",
+          "release_date": "2026/7/16",
+          "notes": "强基/高校专项/高水平运动队 等"
+        },
+        {
+          "name": "常规批 第 1 次",
+          "fill_start": "2026/7/5 09:30",
+          "fill_end": "2026/7/7 18:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/22",
+          "notes": "96 专业+学校平行, 无调剂"
+        },
+        {
+          "name": "常规批 第 2 次",
+          "fill_start": "2026/7/27 09:30",
+          "fill_end": "2026/7/29 18:00",
+          "dispatch_date": "2026/8/1",
+          "release_date": "2026/8/4",
+          "notes": "未录考生再次填报"
+        },
+        {
+          "name": "常规批 第 3 次",
+          "fill_start": "2026/8/10 09:30",
+          "fill_end": "2026/8/11 18:00",
+          "dispatch_date": "2026/8/13",
+          "release_date": "2026/8/15",
+          "notes": "征集 + 服从调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/13-6/15", "event": "山大/中海/中石 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "河南",
+      "exam_dates": "6/7-6/8",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 08:00",
+          "fill_end": "2026/6/28 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/13 (征集志愿)",
+          "supplementary_release": "2026/7/15",
+          "notes": "强基/军校/公安/公费师范/农村订单医学/航海 (64 专业+学校平行, 无调剂)"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/30 08:00",
+          "fill_end": "2026/7/4 18:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/28",
+          "notes": "48 院校专业组 × 6 专业, 调剂 (3+1+2 第 2 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "湖北",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/29 08:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "20 组, 含 军队招飞/综合评价/农村订单医学/荆楚优师"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/29 08:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/26",
+          "supplementary_fill": "2026/7/28",
+          "supplementary_release": "2026/7/31",
+          "notes": "45 院校专业组 × 6 专业, 调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14-6/16", "event": "华科/武大/华农 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "湖南",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 08:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "军校/公安/公费师范/航海"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/26 08:00",
+          "fill_end": "2026/7/1 17:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "45 院校专业组 × 6 专业 + 1 特殊志愿, 调剂; ks.hneao.cn 2026 上线"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15", "event": "中南/湖大 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "广东",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/29 19:00",
+          "fill_end": "2026/7/4 16:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/13",
+          "supplementary_release": "2026/7/15",
+          "notes": "军校/公安/公费师范/教师专项/卫健专项"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/29 19:00",
+          "fill_end": "2026/7/4 16:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 投档 1:1"
+        },
+        {
+          "name": "专科批",
+          "fill_start": "2026/8/4 09:00",
+          "fill_end": "2026/8/6 16:00",
+          "dispatch_date": "2026/8/10",
+          "release_date": "2026/8/15",
+          "notes": "45 院校专业组"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14-6/16", "event": "中山/华工/暨大/华师/南科大/港中深 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "广西",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2026,
+      "tentative": false,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/24 10:00",
+          "fill_end": "2026/6/28 17:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "supplementary_fill": "2026/7/13",
+          "supplementary_release": "2026/7/15",
+          "notes": "军校/公安/公费师范/航海"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/29 10:00",
+          "fill_end": "2026/7/2 17:00",
+          "dispatch_date": "2026/7/17",
+          "release_date": "2026/7/23",
+          "supplementary_fill": "2026/7/25",
+          "supplementary_release": "2026/7/28",
+          "notes": "40 院校专业组 × 20 专业, 调剂 (2026-05-15 细则发布)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/5/15", "event": "广西 2026 招生工作通知发布"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "海南",
+      "exam_dates": "6/7-6/10",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 08:00",
+          "fill_end": "2026/6/30 17:30",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/12",
+          "notes": "军校/公安/公费师范/航海"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/7/1 08:00",
+          "fill_end": "2026/7/3 17:30",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "30 院校专业组 × 6 专业, 调剂; 标准分 900"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14", "event": "海大/海师 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "重庆",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "军校/公安 (公安改专业平行) /公费师范/航海"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "96 专业+院校平行, 无调剂"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14", "event": "重大综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "四川",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批 A",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/6/30 17:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/11",
+          "notes": "20 个, 含 国家专项/地方专项 (≤120%)"
+        },
+        {
+          "name": "本科提前批 B",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/6/30 17:00",
+          "dispatch_date": "2026/7/13",
+          "release_date": "2026/7/17",
+          "notes": "军校/公安/公费师范"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/25 09:00",
+          "fill_end": "2026/6/30 17:00",
+          "dispatch_date": "2026/7/20",
+          "release_date": "2026/7/26",
+          "supplementary_fill": "2026/7/28",
+          "supplementary_release": "2026/7/31",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 2024 合并本一本二"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15", "event": "川大/电子科大综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "贵州",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2026,
+      "tentative": false,
+      "batches": [
+        {
+          "name": "提前批 A/B (顺序)",
+          "fill_start": "2026/6/27 00:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "1 个院校 × 6 专业, 调剂; 含军校/公安"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/27 00:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "96 专业+院校平行, 无调剂 (3+1+2 第 3 年, 细则 2026-04-14 发布)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/4/14", "event": "贵州 2026 招生工作细则发布"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "云南",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "国家专项 (本科批 A 段)",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "顺序志愿"
+        },
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/11",
+          "release_date": "2026/7/14",
+          "notes": "军校/公安/公费师范"
+        },
+        {
+          "name": "本科批 B",
+          "fill_start": "2026/6/27 09:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "40 院校专业组 × 10 专业, 调剂 (3+1+2 第 2 年; 2024 起专业 6→10)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "西藏",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/12",
+          "notes": "军校/公安/公费师范/航海 (3 院校 × 4 专业 顺序)"
+        },
+        {
+          "name": "本科批 平行段",
+          "fill_start": "2026/6/26 09:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "10 院校 × 4 专业 平行; 仅专业服从, 不设院校服从"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "陕西",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/27 08:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "军校/公安/公费师范/航海 (注: 2026 起国家/地方/高校专项 统一进本科批)"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/27 08:00",
+          "fill_end": "2026/7/1 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "45 院校专业组 × 6 专业, 调剂; 最多 270 专业; 2026 含专项 (3+1+2 第 2 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/14-6/15", "event": "西交/西工大 综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "甘肃",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "提前批 A 段 (顺序)",
+          "fill_start": "2026/6/25 20:00",
+          "fill_end": "2026/6/27 18:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/10",
+          "notes": "1 个院校 + 平行军公 30 × 6 专业"
+        },
+        {
+          "name": "本科 C 段",
+          "fill_start": "2026/6/29 20:00",
+          "fill_end": "2026/7/3 18:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/25",
+          "supplementary_fill": "2026/7/27",
+          "supplementary_release": "2026/7/30",
+          "notes": "45 院校专业组 × 6 专业, 调剂 (3+1+2 第 3 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/15", "event": "兰大综评 校测"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "青海",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/25",
+      "based_on_year": 2026,
+      "tentative": false,
+      "batches": [
+        {
+          "name": "提前批",
+          "fill_start": "2026/6/26 12:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/8",
+          "release_date": "2026/7/11",
+          "notes": "60 个志愿; 含军校/公安/公费师范/农村订单医学"
+        },
+        {
+          "name": "本科批",
+          "fill_start": "2026/6/26 12:00",
+          "fill_end": "2026/6/30 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "96 专业+院校平行, 无调剂 (3+1+2 第 2 年)"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/26", "event": "青海 2026 填报系统正式开放"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "宁夏",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/23",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "提前 A 段 (顺序)",
+          "fill_start": "2026/6/24 00:00",
+          "fill_end": "2026/6/27 18:00",
+          "dispatch_date": "2026/7/7",
+          "release_date": "2026/7/11",
+          "notes": "顺序志愿 ≤120%; 含军校/公安"
+        },
+        {
+          "name": "本科批 A 段",
+          "fill_start": "2026/6/24 00:00",
+          "fill_end": "2026/6/27 18:00",
+          "dispatch_date": "2026/7/18",
+          "release_date": "2026/7/24",
+          "supplementary_fill": "2026/7/26",
+          "supplementary_release": "2026/7/29",
+          "notes": "45 院校专业组 × 6 专业, 调剂 (≤105%)"
+        },
+        {
+          "name": "本科批 B 段",
+          "fill_start": "2026/6/24 00:00",
+          "fill_end": "2026/6/27 18:00",
+          "dispatch_date": "2026/7/28",
+          "release_date": "2026/7/31",
+          "notes": "45 院校专业组 × 6 专业"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"}
+      ]
+    },
+    {
+      "province": "新疆",
+      "exam_dates": "6/7-6/9",
+      "score_release": "2026/6/24",
+      "based_on_year": 2025,
+      "tentative": true,
+      "batches": [
+        {
+          "name": "本科提前批",
+          "fill_start": "2026/6/28 12:00",
+          "fill_end": "2026/7/3 18:00",
+          "dispatch_date": "2026/7/9",
+          "release_date": "2026/7/13",
+          "notes": "军校/公安/公费师范/南疆单列"
+        },
+        {
+          "name": "本科一批",
+          "fill_start": "2026/6/28 12:00",
+          "fill_end": "2026/7/3 18:00",
+          "dispatch_date": "2026/7/19",
+          "release_date": "2026/7/26",
+          "supplementary_fill": "2026/7/28",
+          "supplementary_release": "2026/7/31",
+          "notes": "18 个志愿 (老高考; 2025 从 9 扩至 18)"
+        },
+        {
+          "name": "本科二批",
+          "fill_start": "2026/6/28 12:00",
+          "fill_end": "2026/7/3 18:00",
+          "dispatch_date": "2026/8/3",
+          "release_date": "2026/8/8",
+          "notes": "18 个志愿"
+        }
+      ],
+      "key_milestones": [
+        {"date": "2026/4/10-4/30", "event": "强基计划 报名"},
+        {"date": "2026/6/28-6/30", "event": "强基计划 校测"},
+        {"date": "2026/5", "event": "新疆 2026 本一志愿数沿用 2025 的 18 个 (近两年最大变化)"}
+      ]
+    }
+  ]
+}

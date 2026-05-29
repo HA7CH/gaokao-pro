@@ -519,3 +519,65 @@ export function findCasesByCategory(cat: string): HuadangCase[] {
   const q = cat.trim();
   return file.cases.filter((c) => c.category === q);
 }
+
+// ---- 投档/录取/征集 时间日历 (2026) ----
+// Per-province batch-timing calendar. The zhiyuan-rules-2026 dataset answers
+// WHAT each batch is (院校专业组 vs 专业平行, 调剂 on/off, 志愿数, etc.);
+// this one answers WHEN — fill window open/close, dispatch (投档) date,
+// release (录取) date, and 征集志愿 supplementary windows. Missing a 提前批
+// 投档 date is a lost-batch event for the candidate, so this calendar is
+// parent-critical for the Aug/Sep timing chats.
+export type Milestone = {
+  date: string;
+  event: string;
+};
+export type BatchTiming = {
+  name: string;
+  fill_start: string | null;
+  fill_end: string | null;
+  dispatch_date: string | null;
+  release_date: string | null;
+  supplementary_fill?: string | null;
+  supplementary_release?: string | null;
+  notes?: string | null;
+};
+export type ProvinceCalendar = {
+  province: string;
+  exam_dates: string;
+  score_release: string;
+  based_on_year?: number;
+  tentative?: boolean;
+  batches: BatchTiming[];
+  key_milestones: Milestone[];
+};
+export type ZhiyuanCalendarFile = {
+  _kind: string;
+  _year: number;
+  _compiled: string;
+  _source: string[];
+  _notes?: string[];
+  provinces: ProvinceCalendar[];
+};
+
+let zhiyuanCalendarCache: ZhiyuanCalendarFile | null = null;
+
+export function loadZhiyuanCalendar2026(): ZhiyuanCalendarFile {
+  if (zhiyuanCalendarCache) return zhiyuanCalendarCache;
+  const data = load<ZhiyuanCalendarFile>("zhiyuan-calendar-2026.json");
+  if (!data) throw missingDataset("zhiyuan-calendar-2026.json");
+  if (!Array.isArray(data.provinces)) {
+    throw new Error("zhiyuan-calendar-2026.json is missing its `provinces` array — file is malformed.");
+  }
+  zhiyuanCalendarCache = data;
+  return data;
+}
+
+// Substring-match against province name (e.g. "河南", "北京"). Returns the
+// per-province calendar entry or null if the province isn't in the dataset.
+export function findCalendarByProvince(name: string): ProvinceCalendar | null {
+  const file = loadZhiyuanCalendar2026();
+  const q = name.trim();
+  const exact = file.provinces.find((p) => p.province === q);
+  if (exact) return exact;
+  return file.provinces.find((p) => p.province.includes(q) || q.includes(p.province)) ?? null;
+}

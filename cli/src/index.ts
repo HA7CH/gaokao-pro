@@ -37,7 +37,9 @@ import {
   findXiaoceDetailBySchool,
   findCasesByProvince,
   findCasesByCategory,
-  loadHuadangCases
+  loadHuadangCases,
+  findCalendarByProvince,
+  loadZhiyuanCalendar2026
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -46,6 +48,7 @@ import { findManifest, listManifestProvinces, manifestStats } from "./manifest.j
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo } from "./groups.js";
 import { paths as pathsFn, type ProfileLite } from "./paths.js";
 import { dossier as dossierFn } from "./dossier.js";
+import { roadmap as roadmapFn } from "./roadmap.js";
 import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
@@ -275,6 +278,25 @@ Usage:
       对家长决定 "投入强基/综评备考性价比" 极有用。
       e.g. gaokao-pro xiaoce 清华
            gaokao-pro xiaoce 浙江大学 --json
+
+  gaokao-pro calendar <省份> [--json]  |  gaokao-pro calendar --list
+      2026 投档时间日历 (31 省): 考试日期 / 出分时间 / 各批次填报-投档-
+      录取-征集时间窗 + 关键节点 (强基报名/综评校测/军检etc). 4 省官方
+      确认 (上海/贵州/广西/青海), 27 省基于 2025 tentative (明示标记)。
+      e.g. gaokao-pro calendar 河南
+           gaokao-pro calendar --list
+
+  gaokao-pro roadmap <省> --score N --subjects <list> [--rank N]
+                          [--minority --rural --serve --sport <名>
+                           --sport-tier <级> --language <非英>
+                           --per-bucket N] [--json]
+      完整志愿规划 — 一次串起 recommend + per-pick slip-risk + paths:
+      · 冲/稳/保 三档 picks (每档默认 5 校)
+      · 每 pick 标注 in_groups_dataset + 代表组 slip-risk verdict
+        (🔴HIGH/🟡MOD/🟢LOW/✅OK) + 历史案例数
+      · 全部 提前批/综评/运动队 可选路径 + summary
+      · 关键提醒: 无调剂兜底省 / 缺位次 / 新高考首届 etc.
+      e.g. gaokao-pro roadmap 河南 --score 660 --subjects 物理,化学,生物 --rank 4500
 
   gaokao-pro dossier <学校名> [--json]
       院校 dossier 一站式聚合：招生网+contact+program flags + 院校专业组
@@ -1022,6 +1044,124 @@ const VERBS: Record<string, Verb> = {
     }
     if (!schools.length) lines.push("(该省无 2026 综评数据)");
     process.stdout.write(lines.join("\n"));
+  },
+
+  async roadmap(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) throw new Error("usage: gaokao-pro roadmap <省> --score N --subjects <list> [--rank N] [--minority --rural --serve --sport --sport-tier --language] [--per-bucket N] [--json]");
+    const score = Number(flags.score);
+    if (!Number.isFinite(score)) throw new Error("--score N is required");
+    if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
+    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
+    const rank = (typeof flags.rank === "string" || typeof flags.rank === "number") ? Number(flags.rank) : null;
+    const result = roadmapFn({
+      province,
+      score,
+      rank,
+      subjects,
+      per_bucket: flags["per-bucket"] !== undefined ? Number(flags["per-bucket"]) : 5,
+      minority: flags.minority === true,
+      rural: flags.rural === true,
+      serve: flags.serve === true,
+      sport_tier: typeof flags["sport-tier"] === "string" ? flags["sport-tier"] : null,
+      sport_name: typeof flags.sport === "string" ? flags.sport : null,
+      language: typeof flags.language === "string" ? flags.language : null,
+    });
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...result });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`志愿规划 roadmap — ${province} · 分=${score}${rank !== null ? ` · 位次=${rank}` : ""} · 选科=${subjects.join("/")}`);
+    lines.push("");
+    lines.push(`【${province} 省调剂规则】单位=${result.province_rules.unit ?? "-"} · 调剂=${result.province_rules.has_tiaoji === null ? "?" : (result.province_rules.has_tiaoji ? "有" : "⚠️无")}${result.province_rules.strategy ? " · 策略=" + result.province_rules.strategy : ""}`);
+    lines.push("");
+    for (const [bucket, label] of [["冲", "REACH"], ["稳", "MATCH"], ["保", "SAFETY"]] as const) {
+      const items = result.buckets[bucket];
+      if (!items.length) continue;
+      lines.push(`【${bucket}  ${label}】 ${items.length} 校`);
+      for (const c of items) {
+        const tags: string[] = [];
+        if (c.is985) tags.push("985");
+        else if (c.is211) tags.push("211");
+        else if (c.dualClass === "双一流") tags.push("双一流");
+        const tagStr = tags.length ? ` [${tags.join("/")}]` : "";
+        const dataset = c.in_groups_dataset ? `(组数据:${c.groups_in_province ?? "?"})` : "(未在组数据集)";
+        const risk = c.representative_slip_risk;
+        let riskStr = "";
+        if (risk) {
+          const verdictLabel: Record<string, string> = {
+            high_risk: "🔴HIGH", moderate_risk: "🟡MOD", low_risk: "🟢LOW", comfortable: "✅OK"
+          };
+          riskStr = ` · 代表组${risk.group_code}: ${verdictLabel[risk.verdict] ?? risk.verdict} (gap ${risk.score_gap === null ? "?" : (risk.score_gap >= 0 ? "+" : "") + risk.score_gap})`;
+          if (risk.precedent_count > 0) riskStr += ` ·有${risk.precedent_count}个历史案例`;
+        }
+        lines.push(`  · ${c.name}${tagStr} delta=${c.delta >= 0 ? "+" : ""}${c.delta} (${c.baselineYear}基线${c.baselineMinScore}) · ${c.city} ${dataset}${riskStr}`);
+      }
+      lines.push("");
+    }
+    lines.push(`【提前批/综评/运动队 可选路径】合格 ${result.paths_summary.total_eligible} 条`);
+    for (const [cat, n] of Object.entries(result.paths_summary.by_category)) {
+      lines.push(`  ${cat}: ${n} 校/项目`);
+    }
+    if (result.paths_summary.top_eligible.length) {
+      lines.push("  Top 路径 (按数据集顺序):");
+      for (const p of result.paths_summary.top_eligible) {
+        lines.push(`    ✓ [${p.program_type}] ${p.school}${p.caveat ? " — " + p.caveat : ""}`);
+      }
+    }
+    lines.push("");
+    if (result.caveats.length) {
+      lines.push("【关键提醒】");
+      for (const c of result.caveats) lines.push(`  ⚠️ ${c}`);
+    }
+    process.stdout.write(lines.join("\n") + "\n");
+  },
+
+  async calendar(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) {
+      if (flags.list === true) {
+        const file = loadZhiyuanCalendar2026();
+        const provinces = file.provinces.map(p => p.province);
+        if (flags.json === true || flags.format === "json") { printJson({ ok: true, count: provinces.length, provinces }); return; }
+        process.stdout.write("2026 投档时间日历 — 覆盖省份:\n" + provinces.map(p => "  - " + p).join("\n") + "\n");
+        return;
+      }
+      throw new Error("usage: gaokao-pro calendar <省份> [--json]  |  gaokao-pro calendar --list");
+    }
+    const cal = findCalendarByProvince(province);
+    if (!cal) {
+      throw new Error(`no 2026 calendar found for ${province}. Try 'gaokao-pro calendar --list'.`);
+    }
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...cal });
+      return;
+    }
+    const lines: string[] = [];
+    const tentative = (cal as { tentative?: boolean; based_on_year?: number }).tentative;
+    const basedYear = (cal as { based_on_year?: number }).based_on_year;
+    lines.push(`2026 投档时间日历 — ${cal.province}${tentative ? ` ⚠️ tentative (基于 ${basedYear ?? "?"} 年)` : ""}`);
+    if (cal.exam_dates) lines.push(`  考试: ${cal.exam_dates}`);
+    if (cal.score_release) lines.push(`  出分: ${cal.score_release}`);
+    lines.push("");
+    for (const b of cal.batches || []) {
+      lines.push(`【${b.name}】`);
+      if (b.fill_start) lines.push(`  填报: ${b.fill_start}${b.fill_end ? " → " + b.fill_end : ""}`);
+      if (b.dispatch_date) lines.push(`  投档: ${b.dispatch_date}`);
+      if (b.release_date) lines.push(`  录取查询: ${b.release_date}`);
+      if (b.supplementary_fill) lines.push(`  征集填报: ${b.supplementary_fill}`);
+      if (b.supplementary_release) lines.push(`  征集查询: ${b.supplementary_release}`);
+      if (b.notes) lines.push(`  备注: ${b.notes}`);
+      lines.push("");
+    }
+    if (cal.key_milestones?.length) {
+      lines.push("【关键节点】");
+      for (const m of cal.key_milestones) lines.push(`  ${m.date}: ${m.event}`);
+    }
+    process.stdout.write(lines.join("\n") + "\n");
   },
 
   async dossier(args) {

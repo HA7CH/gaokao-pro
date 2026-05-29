@@ -1,0 +1,3129 @@
+{
+  "_kind": "山东中医药大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "山东中医药大学",
+  "code": 441,
+  "zs_code": "10441",
+  "school_id_gaokao_cn": 1142,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/1142/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/1142/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=1142; zs_code=10441.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425599",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 521,
+          "min_rank": 31900,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：长清校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱、单色识别能力异常）（专业办学地点：国际医学中心校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（济南市）（不招色盲色弱）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（济南市）（不招色盲色弱）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "100510TK",
+              "sp_name": "中医康复学",
+              "spname": "中医康复学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（济南市）（不招色盲色弱）"
+            },
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（济南市）（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（济南市）（不招色盲色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "424136",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 22797,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "429169",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（国际医学中心校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在长清校区学习，报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（国际医学中心校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（国际医学中心校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 124498,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（长清校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（国际医学中心校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（长清校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（长清校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（长清校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（长清校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（国际医学中心校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "398141",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "398145",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 4,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 4,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲、色弱）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 4,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 4,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲、色弱）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱）"
+            }
+          ]
+        },
+        {
+          "group_id": "398146",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            },
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（不招色盲、色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 192147,
+          "majors": [
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 248,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 229,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 225,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 164,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 137,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（5+3—体化）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 120,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（5+3—体化）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 110,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 110,
+              "tuition": "6600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 110,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 100,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 95,
+              "tuition": "6600",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 89,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100510TK",
+              "sp_name": "中医康复学",
+              "spname": "中医康复学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 85,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 80,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 78,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 75,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 71,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 68,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 60,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲、色弱考生）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 57,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 55,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（不招色盲、色弱考生）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 52,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（不招色盲、色弱考生）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 52,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 46,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 35,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 34,
+              "tuition": "6300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 34,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（5+3—体化，儿科方向）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 30,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（5+3—体化，儿科方向）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（5+3一体化，针推方向）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 30,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（5+3一体化，针推方向）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 30,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "6600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100513TK",
+              "sp_name": "中医骨伤科学",
+              "spname": "中医骨伤科学（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 30,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100709TK",
+              "sp_name": "药物经济与管理",
+              "spname": "药物经济与管理（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 30,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100802",
+              "sp_name": "中药资源与开发",
+              "spname": "中药资源与开发（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 28,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（拔尖学生基地班）（不招色盲、色弱考生）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 20,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（拔尖学生基地班）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 20,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 15,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 15,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 15,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 15,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 10,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 10,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 10,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100802",
+              "sp_name": "中药资源与开发",
+              "spname": "中药资源与开发（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 10,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 10,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（地方专项计划）（地方专项计划）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 10,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（地方专项计划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "6600",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（地方专项计划）（地方专项计划）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（地方专项计划）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 5,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 5,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100510TK",
+              "sp_name": "中医康复学",
+              "spname": "中医康复学（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 5,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（地方专项计划）（不招色盲、色弱考生）（地方专项计划）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（地方专项计划）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向日照市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向日照市就业）（不招色盲、色弱考生）（免学费）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向滨州市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向滨州市就业）（不招色盲、色弱考生）（免学费）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向枣庄市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向枣庄市就业）（不招色盲、色弱考生）（免学费）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向菏泽市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向菏泽市就业）（不招色盲、色弱考生）（免学费）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向东营市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向东营市就业）（不招色盲、色弱考生）（免学费）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（省属公费医学生，面向淄博市就业）（不招色盲、色弱考生）（免学费）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "",
+              "length": "五年",
+              "info": "（省属公费医学生，面向淄博市就业）（不招色盲、色弱考生）（免学费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "373354",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "373355",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（办学地点：国际医学中心校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（办学地点：国际医学中心校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（办学地点：国际医学中心校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：国际医学中心校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（办学地点：国际医学中心校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（办学地点：国际医学中心校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（办学地点：长清校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（办学地点：长清校区；不招色盲色弱）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（办学地点：国际医学中心校区；不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（办学地点：国际医学中心校区；不招色盲色弱）"
+            }
+          ]
+        },
+        {
+          "group_id": "373374",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：长清校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：长清校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "294484",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 7,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 6,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 5,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲色弱；办学地点：长清校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲色弱；办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲色弱；办学地点：国际医学中心校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区；学制：五年）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱；办学地点：国际医学中心校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100802",
+              "sp_name": "中药资源与开发",
+              "spname": "中药资源与开发（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 7,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 6,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 5,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲色弱；办学地点：长清校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（不招色盲色弱；办学地点：国际医学中心校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100402",
+              "sp_name": "食品卫生与营养学",
+              "spname": "食品卫生与营养学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲色弱；办学地点：国际医学中心校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区；学制：五年）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（不招色盲色弱；办学地点：国际医学中心校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 2,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：国际医学中心校区）"
+            },
+            {
+              "spcode": "100802",
+              "sp_name": "中药资源与开发",
+              "spname": "中药资源与开发（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂（不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱；办学地点：长清校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "294485",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 7,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 7,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "294486",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 5,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "100510TK",
+              "sp_name": "中医康复学",
+              "spname": "中医康复学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 4,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "100511TK",
+              "sp_name": "中医养生学",
+              "spname": "中医养生学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 5,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            },
+            {
+              "spcode": "100510TK",
+              "sp_name": "中医康复学",
+              "spname": "中医康复学（不招色盲色弱；办学地点：长清校区；学制：五年）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 4,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱；办学地点：长清校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "294495",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：长清校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：长清校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：长清校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "322308",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲色弱）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（不招色盲色弱）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（不招色盲色弱）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（不招色盲色弱）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（不招色盲色弱）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "436208",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（办学地点：国际医学中心校区；特征要求：不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（办学地点：国际医学中心校区；特征要求：不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（办学地点：国际医学中心校区；特征要求：不招色盲色弱）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：国际医学中心校区；特征要求：不招色盲色弱）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100601K",
+              "sp_name": "中西医临床医学",
+              "spname": "中西医临床医学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中西医结合类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100501K",
+              "sp_name": "中医学",
+              "spname": "中医学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 3,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100502K",
+              "sp_name": "针灸推拿学",
+              "spname": "针灸推拿学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中医学类",
+              "num": 2,
+              "tuition": "7900",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学（办学地点：国际医学中心校区；特征要求：不招色盲色弱）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "五年",
+              "info": "（办学地点：国际医学中心校区；特征要求：不招色盲色弱）"
+            },
+            {
+              "spcode": "100801",
+              "sp_name": "中药学",
+              "spname": "中药学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（办学地点：国际医学中心校区；特征要求：不招色盲色弱）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 1,
+              "tuition": "6300",
+              "length": "四年",
+              "info": "（办学地点：国际医学中心校区；特征要求：不招色盲色弱）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 1,
+              "tuition": "7900",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            },
+            {
+              "spcode": "101010T",
+              "sp_name": "康复作业治疗",
+              "spname": "康复作业治疗（特征要求：不招色盲色弱；办学地点：长清校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 1,
+              "tuition": "6600",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：长清校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

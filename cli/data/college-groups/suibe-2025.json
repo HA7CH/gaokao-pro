@@ -1,0 +1,4295 @@
+{
+  "_kind": "上海对外经贸大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "上海对外经贸大学",
+  "code": 273,
+  "zs_code": "10273",
+  "school_id_gaokao_cn": 318,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/318/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/318/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=318; zs_code=10273.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425006",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 576,
+          "min_rank": 17506,
+          "majors": [
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（办学地点：松江校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020403T",
+              "sp_name": "国际经济发展合作",
+              "spname": "国际经济发展合作（办学地点：松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（办学地点：松江校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020403T",
+              "sp_name": "国际经济发展合作",
+              "spname": "国际经济发展合作（办学地点：松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（只招英语语种考生；4+0模式）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（只招英语语种考生；4+0模式）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（双学士学位，金融学、应用统计）（金融学-应用统计学双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（双学士学位，金融学、应用统计）（金融学-应用统计学双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（只招英语、日语语种考生；入学后教学外语语种为日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（只招英语、日语语种考生；入学后教学外语语种为日语）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作）（4+0模式）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作）（4+0模式）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "030202",
+              "sp_name": "国际政治",
+              "spname": "国际政治",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（只招英语、日语语种考生；入学后教学外语语种为日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（只招英语、日语语种考生；入学后教学外语语种为日语）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家专项计划）（国家专项计划）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（国家专项计划）（国家专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（国家专项计划）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423519",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 17799,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 110,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 83,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 82,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 71,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国际投资方向）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 47,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际投资方向）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 26,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 17,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020403T",
+              "sp_name": "国际经济发展合作",
+              "spname": "国际经济发展合作",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 8,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 110,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 83,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 82,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 71,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国际投资方向）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 47,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际投资方向）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 31,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 26,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 17,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020403T",
+              "sp_name": "国际经济发展合作",
+              "spname": "国际经济发展合作",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 8,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423522",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 525,
+          "min_rank": 17222,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 94,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 81,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 75,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 94,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 81,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 75,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423559",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 13049,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（专业代码：01）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 62,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（专业代码：01）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（双学士学位）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 61,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（双学士学位）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（专业代码：01）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 62,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（专业代码：01）"
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（双学士学位）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 61,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（双学士学位）"
+            }
+          ]
+        },
+        {
+          "group_id": "423539",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 17799,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 42,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 25,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 42,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 25,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423557",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 20273,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 37,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 33,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 29,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 14,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 14,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 37,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 33,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 29,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 14,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 14,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作）"
+            }
+          ]
+        },
+        {
+          "group_id": "423549",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 19710,
+          "majors": [
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（国际营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 28,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际营销方向）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 26,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国际企业管理方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 19,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际企业管理方向）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（商法方向）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 17,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商法方向）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（外语语种为英语、日语。入学后教学外语语种为日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（外语语种为英语、日语。入学后教学外语语种为日语）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（商务法语方向）（外语语种为英语、法语。入学后教学外语语种为法语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务法语方向）（外语语种为英语、法语。入学后教学外语语种为法语）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 11,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（商务汉语方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 10,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务汉语方向）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 6,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（国际营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 28,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际营销方向）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 26,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国际企业管理方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 19,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际企业管理方向）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（商法方向）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 17,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商法方向）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（外语语种为英语、日语。入学后教学外语语种为日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（外语语种为英语、日语。入学后教学外语语种为日语）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（商务法语方向）（外语语种为英语、法语。入学后教学外语语种为法语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务法语方向）（外语语种为英语、法语。入学后教学外语语种为法语）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 11,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（商务汉语方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 10,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务汉语方向）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 6,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427288",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（松江校区）（中外合作办学）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（只招英语考生）（松江校区）（中外合作办学）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（松江校区）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（松江校区）（中外合作办学）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（松江校区）（中外合作办学）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（只招英语考生）（松江校区）（中外合作办学）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（松江校区）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（松江校区）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "427289",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语考生）（在松江校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语考生）（在松江校区学习）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（在松江校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计）（在松江校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计）（在松江校区学习）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语考生）（在松江校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语考生）（在松江校区学习）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（在松江校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计）（在松江校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计）（在松江校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427308",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（在松江校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在松江校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（在松江校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（在松江校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在松江校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（在松江校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427310",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（在松江校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（在松江校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在松江校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在松江校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427309",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在松江校区学习）（中外合作办学）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在松江校区学习）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（在松江校区学习）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在松江校区学习）（中外合作办学）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在松江校区学习）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（在松江校区学习）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（在松江校区学习）（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 620,
+          "min_rank": 31630,
+          "majors": [
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（松江校区。4+0）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（松江校区。4+0）"
+            },
+            {
+              "spcode": "030202",
+              "sp_name": "国际政治",
+              "spname": "国际政治（松江校区）",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学（松江校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（松江校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020403T",
+              "sp_name": "国际经济发展合作",
+              "spname": "国际经济发展合作（松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（松江校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（松江校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（松江校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（松江校区。4+0）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（松江校区。4+0）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（松江校区。国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（松江校区。国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（松江校区。4+0）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（松江校区。4+0）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（松江校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（松江校区。金融学-应用统计学双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（松江校区。金融学-应用统计学双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）（松江校区。4+0）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（松江校区。4+0）"
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估（松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则（松江校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（松江校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）（松江校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）（松江校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）（松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）（松江校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国际投资方向）（松江校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际投资方向）（松江校区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）（松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）（松江校区）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（商务法语方向）（松江校区。教学外语语种为法语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务法语方向）（松江校区。教学外语语种为法语）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（松江校区。4+0）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（松江校区。4+0）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394705",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（语种：英语。4+0模式）（中外合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（语种：英语。4+0模式）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4十0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4十0模式）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（语种：英语。4+0模式）（中外合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（语种：英语。4+0模式）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4十0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4十0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "394707",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）"
+            }
+          ]
+        },
+        {
+          "group_id": "394727",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（4十0模式）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（4十0模式）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4十0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4十0模式）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（4十0模式）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（4十0模式）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4十0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4十0模式）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "394729",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 52899,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点，与加拿大道格拉斯学院合作）（中外合作办学）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点，与加拿大道格拉斯学院合作）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点，与澳大利亚皇家墨尔本理工大学合作）（中外合作办学）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点，与澳大利亚皇家墨尔本理工大学合作）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030202",
+              "sp_name": "国际政治",
+              "spname": "国际政治",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）（国家级一流本科专业建设点）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369987",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作,中澳合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）（中外合作,中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作）（合作方：德国奥斯纳布吕克应用技术大学；4+0模式，国家级一流本科专业建设点）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作）（合作方：德国奥斯纳布吕克应用技术大学；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）（中外合作,中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）（中外合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作）（合作方：德国奥斯纳布吕克应用技术大学；4+0模式，国家级一流本科专业建设点）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作）（合作方：德国奥斯纳布吕克应用技术大学；4+0模式，国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "369988",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家级一流本科专业建设点）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家级一流本科专业建设点）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "369989",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国际投资方向）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际投资方向）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济与贸易-数据科学与大数据技术双学士学位）（国际经济与贸易-数据科学与大数据技术双学士学位复合型人才培养项目，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（注册会计师方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（注册会计师方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120208",
+              "sp_name": "资产评估",
+              "spname": "资产评估",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国际投资方向）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际投资方向）"
+            }
+          ]
+        },
+        {
+          "group_id": "369994",
+          "sg_name": "（301）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项）（国际会计方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际会计方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项）（商法方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（商法方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项）（国际投资方向）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际投资方向）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国家专项）（国际企业管理方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际企业管理方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项）（国际会计方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际会计方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项）（商法方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（商法方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项）（国际投资方向）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际投资方向）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国家专项）（国际企业管理方向）（国家级一流本科专业建设点）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家专项）（国际企业管理方向）（国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "370005",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（合作方：英国中央兰开夏大学；4+0模式，国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（合作方：加拿大道格拉斯学院；4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（合作方：澳大利亚皇家墨尔本理工大学；4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "370006",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（国家级一流本科专业建设点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）（国家级一流本科专业建设点）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（入学后教学外语语种为日语；只招英语，日语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（入学后教学外语语种为日语；只招英语，日语语种的考生）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（商务法语方向）（入学后教学外语语种为法语；只招英语，法语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务法语方向）（入学后教学外语语种为法语；只招英语，法语语种的考生）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（国际营销方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际营销方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（国家级一流本科专业建设点；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点；只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国际经济法方向）（国家级一流本科专业建设点）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际经济法方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "030105T",
+              "sp_name": "国际经贸规则",
+              "spname": "国际经贸规则",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向）（入学后教学外语语种为日语；只招英语，日语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向）（入学后教学外语语种为日语；只招英语，日语语种的考生）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（商务法语方向）（入学后教学外语语种为法语；只招英语，法语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务法语方向）（入学后教学外语语种为法语；只招英语，法语语种的考生）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（国际营销方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际营销方向）（国家级一流本科专业建设点）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292028",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作,中澳合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）（中外合作,中澳合作）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作；4+0模式；办学地点：松江校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292053",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（商法方向；办学地点：松江校区）（国家专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商法方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国际企业管理方向；办学地点：松江校区）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际企业管理方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学（办学地点：松江校区）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（商法方向；办学地点：松江校区）（国家专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商法方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（国际企业管理方向；办学地点：松江校区）（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际企业管理方向；办学地点：松江校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292029",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：松江校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：松江校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292045",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作,中德合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作；4+0模式；外语语种：英语；办学地点：松江校区）（中外合作,中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作；4+0模式；外语语种：英语；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）（中外合作,中德合作）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中德合作；4+0模式；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作；4+0模式；外语语种：英语；办学地点：松江校区）（中外合作,中英合作）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作；4+0模式；外语语种：英语；办学地点：松江校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292046",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向；外语语种：英语，日语；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向；外语语种：英语，日语；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向；办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（商务方向；外语语种：英语，日语；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（商务方向；外语语种：英语，日语；办学地点：松江校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向；办学地点：松江校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向；办学地点：松江校区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（经济新闻报道方向；办学地点：松江校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（经济新闻报道方向；办学地点：松江校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319278",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中加合作）（4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "319280",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）（松江校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）（松江校区）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）（松江校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（金融学-应用统计学双学士学位）（金融学-应用统计学双学士学位复合型人才培养项目，国家级一流本科专业建设点）（松江校区）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "319279",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家级一流本科专业建设点）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071202",
+              "sp_name": "应用统计学",
+              "spname": "应用统计学（国家级一流本科专业建设点）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            }
+          ]
+        },
+        {
+          "group_id": "319295",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（4+0模式，国家级一流本科专业建设点）（外语要求:英语）（中外合作办学或国际项目）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（4+0模式，国家级一流本科专业建设点）（外语要求:英语）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（中外合作办学）（中英合作）（4+0模式，国家级一流本科专业建设点）（外语要求:英语）（中外合作办学或国际项目）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中英合作）（4+0模式，国家级一流本科专业建设点）（外语要求:英语）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式，国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务（中外合作办学）（中澳合作）（4+0模式）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "19500",
+              "length": "四年",
+              "info": "（中外合作办学）（中澳合作）（4+0模式）"
+            }
+          ]
+        },
+        {
+          "group_id": "319296",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（国家级一流本科专业建设点）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国家级一流本科专业建设点）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际会计方向）（国家级一流本科专业建设点）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国际会计方向）（国家级一流本科专业建设点）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -54,11 +54,14 @@ import {
   findXiaoceDetailBySchool,
   findCasesByProvince,
   findCasesByCategory,
-  loadHuadangCases
+  loadHuadangCases,
+  findCalendarByProvince,
+  loadZhiyuanCalendar2026
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { paths as pathsFn } from "./paths.js";
 import { dossier as dossierFn } from "./dossier.js";
+import { roadmap as roadmapFn } from "./roadmap.js";
 import { VERSION } from "./version.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
@@ -506,6 +509,40 @@ const TOOLS = [
     }
   },
   {
+    name: "calendar",
+    description: "2026 投档时间日历 by-province — exam dates, score release, batch fill/dispatch/release/supplementary windows, key milestones (e.g. 强基报名/综评校测). 31 provinces; 4 confirmed for 2026 (上海/贵州/广西/青海), 27 tentative-based-on-2025 (clearly flagged). Pass list=true to enumerate covered provinces.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (required unless list=true)" },
+        list: { type: "boolean", description: "若 true 返回所有已覆盖省份列表" }
+      },
+      additionalProperties: false
+    }
+  },
+  {
+    name: "roadmap",
+    description: "完整志愿规划 — one-call composite that combines recommend (冲/稳/保 picks) + per-pick slip-risk verdict (with historical precedents) + paths summary (提前批/综评/运动队 alternatives) + province 滑档 rules. Each recommend pick is enriched with whether it's in the college-groups dataset, its representative group's slip-risk verdict + score_gap, and the count of historical 滑档 precedents that match the pattern. Replaces juggling recommend / slip-risk / paths manually. Parents see picks + risk + alternatives in one place.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (required)" },
+        score: { type: "number", description: "高考总分 (required)" },
+        rank: { type: "number", description: "可选: 全省位次" },
+        subjects: { type: "array", items: { type: "string" }, description: "选科 list (required), e.g. ['物理', '化学', '生物']" },
+        per_bucket: { type: "number", description: "每个 bucket (冲/稳/保) 返回多少校 (默认 5)" },
+        minority: { type: "boolean" },
+        rural: { type: "boolean" },
+        serve: { type: "boolean" },
+        sport_tier: { type: "string" },
+        sport_name: { type: "string" },
+        language: { type: "string" }
+      },
+      required: ["province", "score", "subjects"],
+      additionalProperties: false
+    }
+  },
+  {
     name: "dossier",
     description: "院校 dossier — one-call aggregation across 7 datasets for a single school: 招生网 adapter (URL+contact+program flags) + 院校专业组 summary + 强基/综评 校测 detail (xiaoce) + 综评 by-school (zongping) + 高水平运动队 (gaoshui) + 提前批 programs catalog hits + 涉及该校的滑档历史 (huadang). Each section is independently nullable with a `_status: \"not_in_dataset\"` marker so parents can see 'we tried, no data' instead of guessing. Replaces 6-7 separate verb calls.",
     inputSchema: {
@@ -900,6 +937,35 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "calendar": {
+      if (args.list === true) {
+        const file = loadZhiyuanCalendar2026();
+        return { ok: true, count: file.provinces.length, provinces: file.provinces.map((p) => p.province) };
+      }
+      const province = getStr(args, "province");
+      const cal = findCalendarByProvince(province);
+      if (!cal) return { ok: false, error: `no 2026 calendar found for ${province}` };
+      return { ok: true, ...cal };
+    }
+    case "roadmap": {
+      const province = getStr(args, "province");
+      const score = getNum(args, "score");
+      const subjects = getSubjects(args);
+      const result = roadmapFn({
+        province,
+        score,
+        rank: args.rank !== undefined ? Number(args.rank) : null,
+        subjects,
+        per_bucket: args.per_bucket !== undefined ? Number(args.per_bucket) : 5,
+        minority: args.minority === true,
+        rural: args.rural === true,
+        serve: args.serve === true,
+        sport_tier: typeof args.sport_tier === "string" ? args.sport_tier : null,
+        sport_name: typeof args.sport_name === "string" ? args.sport_name : null,
+        language: typeof args.language === "string" ? args.language : null,
+      });
+      return { ok: true, ...result };
     }
     case "dossier": {
       const school = getStr(args, "school");
