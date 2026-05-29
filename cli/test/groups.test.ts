@@ -23,7 +23,7 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 298 recovered universities", () => {
+test("datasetStats reports 313 recovered universities", () => {
   const s = datasetStats();
   // 198 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
@@ -65,9 +65,9 @@ test("datasetStats reports 298 recovered universities", () => {
   // snpu/swust/qust, 师范 cqnu/hytc/jlnu/scun, 农 gsau, 体育 tjpe,
   // 艺术 sias (校考主导 — 本批仅含统考普通批), 山东综合 wfu/lyu.
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 298 means new data files were
+  // silently lost schools again. A jump above 313 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 298, "recovered university count");
+  assertEqual(s.universities, 313, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -141,7 +141,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 298, "all 298 schools have a name surfaced");
+  assertEqual(names.length, 313, "all 313 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }
