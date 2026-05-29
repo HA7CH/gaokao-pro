@@ -1,0 +1,2994 @@
+{
+  "schema_version": "1.0.0",
+  "category": "qiangji-quota",
+  "year": 2025,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "school": {
+        "zs_code": "10002",
+        "name_zh": "中国人民大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10052",
+        "name_zh": "中央民族大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "quota": 87,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10027",
+        "name_zh": "北京师范大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10007",
+        "name_zh": "北京理工大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn",
+        "zs.buaa.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 11,
+      "year": 2025,
+      "quota": 90,
+      "ruwei_line": {
+        "physical": 670
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 12,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "low",
+      "notes": "39 校面向天津招生(在津 ~28 所);具体分校名额/入围线参见 docs/special-admissions-3year/tianjin.md。本 stub 仅占位避免 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 20,
+      "ruwei_line": {
+        "physical": 677
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 18,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 18,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 20,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 21,
+      "ruwei_line": {
+        "physical": 680
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 13,
+      "year": 2025,
+      "quota": 26,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 14,
+      "year": 2025,
+      "quota": 10,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10487",
+        "name_zh": "华中科技大学"
+      },
+      "region_id": 14,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 14,
+      "year": 2025,
+      "quota": 21,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 15,
+      "year": 2025,
+      "quota": 7,
+      "ruwei_line": {
+        "li": 678
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "nm.zsks.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 15,
+      "year": 2025,
+      "quota": 17,
+      "ruwei_line": {
+        "li": 683
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "nm.zsks.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "zsb.seu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10002",
+        "name_zh": "中国人民大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10358",
+        "name_zh": "中国科学技术大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10052",
+        "name_zh": "中央民族大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_line": {
+        "historical": 595
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "gk100.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10730",
+        "name_zh": "兰州大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "zsb.lzu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10284",
+        "name_zh": "南京大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10055",
+        "name_zh": "南开大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 734.5
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "gk100.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10384",
+        "name_zh": "厦门大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "ao.fudan.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 575
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com",
+        "bkzs.sdu.edu.cn",
+        "gk100.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 21,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 22,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 673
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jleea.com.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10183",
+        "name_zh": "吉林大学"
+      },
+      "region_id": 22,
+      "year": 2025,
+      "quota": 35,
+      "ruwei_ratio": 6,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jleea.com.cn",
+        "zsb.jlu.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 22,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 671
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jleea.com.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 23,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 672
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hlj.gov.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10213",
+        "name_zh": "哈尔滨工业大学"
+      },
+      "region_id": 23,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 679.8
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hlj.gov.cn",
+        "zsb.hit.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 23,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 668
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hlj.gov.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "quota": 35,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn",
+        "admissions.sjtu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 606
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10269",
+        "name_zh": "华东师范大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "quota": 20,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "quota": 20,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "quota": 35,
+      "ruwei_line": {
+        "unified": 604
+      },
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn",
+        "ao.fudan.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 31,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 604
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学"
+      },
+      "region_id": 32,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jseea.cn",
+        "zsb.seu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10284",
+        "name_zh": "南京大学"
+      },
+      "region_id": 32,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 33,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 684
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "zjzs.net",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 33,
+      "year": 2025,
+      "quota": 22,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "zjzs.net",
+        "zdzsc.zju.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 33,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 684
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "zjzs.net",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10699",
+        "name_zh": "西北工业大学"
+      },
+      "region_id": 33,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 654
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10019",
+        "name_zh": "中国农业大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 621
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10358",
+        "name_zh": "中国科学技术大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "all",
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn",
+        "zsb.ustc.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 682
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 681
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10699",
+        "name_zh": "西北工业大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 650
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10611",
+        "name_zh": "重庆大学"
+      },
+      "region_id": 34,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 630
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 19,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10007",
+        "name_zh": "北京理工大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 11,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 7,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10384",
+        "name_zh": "厦门大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 43,
+      "ruwei_ratio": 3,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn",
+        "zs.xmu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10056",
+        "name_zh": "天津大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 12,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 35,
+      "year": 2025,
+      "quota": 19,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eeafj.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 36,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 611
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jxeea.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 37,
+      "year": 2025,
+      "quota": 110,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sdzk.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 37,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 679
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sdzk.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "quota": 17,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "all",
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "admissions.sjtu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10002",
+        "name_zh": "中国人民大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10358",
+        "name_zh": "中国科学技术大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "quota": 17,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "all",
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "zsb.ustc.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "quota": 12,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10027",
+        "name_zh": "北京师范大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "quota": 12,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "zs.buaa.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10284",
+        "name_zh": "南京大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10384",
+        "name_zh": "厦门大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "zs.xmu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "90002",
+        "name_zh": "国防科技大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 635
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "nudt.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "ao.fudan.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_line": {
+        "historical": 596
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "quota": 32,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "all",
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "jyt.henan.gov.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10699",
+        "name_zh": "西北工业大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 657
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10611",
+        "name_zh": "重庆大学"
+      },
+      "region_id": 41,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 645
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "zhaosheng.cqu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10487",
+        "name_zh": "华中科技大学"
+      },
+      "region_id": 42,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10486",
+        "name_zh": "武汉大学"
+      },
+      "region_id": 42,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10533",
+        "name_zh": "中南大学"
+      },
+      "region_id": 43,
+      "year": 2025,
+      "ruwei_ratio": 5,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jyt.hunan.gov.cn",
+        "zhaosheng.csu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "90002",
+        "name_zh": "国防科技大学"
+      },
+      "region_id": 43,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 625
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jyt.hunan.gov.cn",
+        "nudt.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10532",
+        "name_zh": "湖南大学"
+      },
+      "region_id": 43,
+      "year": 2025,
+      "ruwei_ratio": 5,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10558",
+        "name_zh": "中山大学"
+      },
+      "region_id": 44,
+      "year": 2025,
+      "quota": 44,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 44,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 681
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eea.gd.gov.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学"
+      },
+      "region_id": 44,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eea.gd.gov.cn",
+        "admission.scut.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 44,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 570
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eea.gd.gov.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 44,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 683
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eea.gd.gov.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学"
+      },
+      "region_id": 45,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "added",
+      "data_source": [
+        "gxeea.cn",
+        "xxgk.scut.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10533",
+        "name_zh": "中南大学"
+      },
+      "region_id": 46,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "added",
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 46,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 807
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ea.hainan.gov.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10007",
+        "name_zh": "北京理工大学"
+      },
+      "region_id": 46,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 760.2
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 46,
+      "year": 2025,
+      "ruwei_line": {
+        "unified": 616
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ea.hainan.gov.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 50,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "low",
+      "notes": "39 校面向重庆招生;重大本地(数学/物理/储能,物化必选,入围比 5→4 倍 2025 收紧);具体见 docs/special-admissions-3year/chongqing.md。"
+    },
+    {
+      "school": {
+        "zs_code": "10610",
+        "name_zh": "四川大学"
+      },
+      "region_id": 51,
+      "year": 2025,
+      "ruwei_ratio": 4,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sceea.cn",
+        "sichuan.scol.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10618",
+        "name_zh": "电子科技大学"
+      },
+      "region_id": 51,
+      "year": 2025,
+      "ruwei_ratio": 5,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sceea.cn",
+        "zs.uestc.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10019",
+        "name_zh": "中国农业大学"
+      },
+      "region_id": 52,
+      "year": 2025,
+      "ruwei_ratio": 4,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "added",
+      "data_source": [
+        "eduzs.org.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 52,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 595
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "eduzs.org.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10019",
+        "name_zh": "中国农业大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 606
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10423",
+        "name_zh": "中国海洋大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 604
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10558",
+        "name_zh": "中山大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 598,
+        "historical": 609
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10027",
+        "name_zh": "北京师范大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 620,
+        "historical": 611
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10007",
+        "name_zh": "北京理工大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 643
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 599
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10055",
+        "name_zh": "南开大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 697.5
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10213",
+        "name_zh": "哈尔滨工业大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 684.6
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10610",
+        "name_zh": "四川大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 601,
+        "historical": 610
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10141",
+        "name_zh": "大连理工大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 587
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 539
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 677
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10712",
+        "name_zh": "西北农林科技大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 629
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10611",
+        "name_zh": "重庆大学"
+      },
+      "region_id": 53,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 629
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 54,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/"
+      ],
+      "confidence": "low",
+      "notes": "39 校均可投放但在藏总量极小(全区考生 ~3 万,逐校 N/A)。考试科目要求:理=物+化,文=不限。"
+    },
+    {
+      "school": {
+        "zs_code": "10712",
+        "name_zh": "西北农林科技大学"
+      },
+      "region_id": 61,
+      "year": 2025,
+      "ruwei_ratio": 5,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10699",
+        "name_zh": "西北工业大学"
+      },
+      "region_id": 61,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 61,
+      "year": 2025,
+      "ruwei_ratio": 5,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10002",
+        "name_zh": "中国人民大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "status": "removed",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10019",
+        "name_zh": "中国农业大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 593
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10358",
+        "name_zh": "中国科学技术大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10730",
+        "name_zh": "兰州大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "zsb.lzu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 674
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10027",
+        "name_zh": "北京师范大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "status": "removed",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10269",
+        "name_zh": "华东师范大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "status": "removed",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10284",
+        "name_zh": "南京大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10055",
+        "name_zh": "南开大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 688.5
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10384",
+        "name_zh": "厦门大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "90002",
+        "name_zh": "国防科技大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 595
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "ao.fudan.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 561
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 672
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_ratio": "all",
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10611",
+        "name_zh": "重庆大学"
+      },
+      "region_id": 62,
+      "year": 2025,
+      "ruwei_line": {
+        "physical": 591
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "zhaosheng.cqu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学"
+      },
+      "region_id": 63,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "added",
+      "data_source": [
+        "qhjyks.com",
+        "zsb.seu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 64,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "jyt.nx.gov.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10007",
+        "name_zh": "北京理工大学"
+      },
+      "region_id": 64,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10006",
+        "name_zh": "北京航空航天大学"
+      },
+      "region_id": 64,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "ruwei_ratio": "all",
+      "status": "unchanged",
+      "data_source": [
+        "jyt.nx.gov.cn",
+        "zs.buaa.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 64,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "jyt.nx.gov.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10019",
+        "name_zh": "中国农业大学"
+      },
+      "region_id": 65,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "added",
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 65,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "xjzk.gov.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 65,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "xjzk.gov.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10712",
+        "name_zh": "西北农林科技大学"
+      },
+      "region_id": 65,
+      "year": 2025,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "added",
+      "data_source": [
+        "xjzk.gov.cn",
+        "bm.chsi.com.cn/jcxkzs/sch/10712"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 71,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地强基计划。如查 台湾 → 内地高校通道,请用 qatw 台湾 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 81,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地强基计划。如查 香港 → 内地高校通道,请用 qatw 香港 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 82,
+      "year": 2025,
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地强基计划。如查 澳门 → 内地高校通道,请用 qatw 澳门 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    }
+  ]
+}

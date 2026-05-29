@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.3.2 — 2026-05-29
+
+### Merge — LAWTED issue #5 (worktree-ralph-loop-special-admissions)
+集成 LAWTED v0.2.0 分支的特殊招生模块 (34 区域 × 3 年 × 6 类 = 1,497 条记录):
+
+- **6 数据集** (`cli/data/datasets/special-admissions/`):
+  - `art-formula-{2023,2024,2025}.json` — 艺术统考 6 大类公式 + 合格线
+  - `sports-formula-{...}.json` — 体育统招 5 种 SportsFormulaKind
+  - `qiangji-quota-{...}.json` — 39 强基校 × 31 省入围线
+  - `zongping-{...}.json` — 浙江三位一体 / 苏沪鲁粤综评
+  - `minzu-policy-{...}.json` — 加分梯度 + 民族班/预科 + 退坡时间表
+  - `qatw-channel-{...}.json` — 港澳台 8 通道 (联招/居住证/保送/DSE/独立招生等)
+- **3 区域** (GB/T 2260): 71 台湾 / 81 香港 / 82 澳门 (reform: "special")
+- **7 新 verbs**: art-tongkao / sports-tongzhao / qiangji-line / zonghe / minzu / qatw / special-coverage
+- **7 新 MCP tools** (38 → 46 总数 = 包含 outlook 共增 8)
+- **34 source markdowns** + family-quickstart + coverage tracker
+- **2 新测试套**: test:special (smoke 15/15) + test:validate (18 files all valid)
+
+### Audit caveats (from parallel scan)
+- ~94 zongping `confidence: low` 记录缺 `notes` 字段 (透明记数据稀疏，不是编造)
+- qatw-channel-2025 dropped `admission_rate` vs 2023/24 (schema drift, 已记)
+- 湖北艺术 2024/25 `formula=None, confidence=high` 但无 notes — 待 LAWTED 确认是否 2024 政策真实改动
+- minzu-policy 51 (四川) 一条 `bonus: 50` 实为 民族预科 降分 (字段命名歧义，不影响数据)
+- 强基入围线填充率: 2023 4.5% / 2024 35% / 2025 38% — 985 大校多 null 但 confidence:high (上游不公开)
+- Loader 不复用 main 的 `load<T>` helper (技术债，下一轮统一)
+
 ## 0.3.1 — 2026-05-29
 
 ### Add — 透明倾向：📊 / 📋 / 💭 三层标签

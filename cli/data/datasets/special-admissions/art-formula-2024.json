@@ -1,0 +1,4825 @@
+{
+  "schema_version": "1.0.0",
+  "category": "art-formula",
+  "year": 2024,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 220,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 217
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 217
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 217
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 11,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 326
+      },
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.8,
+        "pro_factor": 2.5,
+        "pro_pct": 0.2
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 12,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 120
+      },
+      "culture_control_line": {
+        "unified": 346
+      },
+      "data_source": [
+        "zhaokao.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 13,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 235
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 230
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 202
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 217
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 208
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 245
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 14,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 229
+      },
+      "culture_control_line": {
+        "arts_wen": 335,
+        "arts_li": 314
+      },
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 183
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 198
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 172
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 175
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 183
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 188
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 15,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 162
+      },
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 21,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "percentile re-weighted (×100 then ×pct)"
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "lnzsks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 140
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 140
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 22,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "jleea.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.8,
+        "pro_factor": 2.5,
+        "pro_pct": 0.2
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "hlj.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 160
+      },
+      "data_source": [
+        "hlj.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "hlj.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 140
+      },
+      "data_source": [
+        "hlj.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 23,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 140
+      },
+      "data_source": [
+        "hlj.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "unified": 302
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "unified": 302
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 165
+      },
+      "culture_control_line": {
+        "unified": 302
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "unified": 220
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "unified": 302
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 31,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.2,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "unified": 302
+      },
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 135
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 32,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 135
+      },
+      "data_source": [
+        "jseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 165
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.8,
+        "pro_factor": 2.5,
+        "pro_pct": 0.2
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 140
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 165
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 33,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 165
+      },
+      "data_source": [
+        "zjzs.net"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 188
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 141
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 191
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 150
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 175
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 34,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "ahzsks.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 35,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195,
+        "zhuanke": 180
+      },
+      "data_source": [
+        "eeafj.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 36,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "jxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 37,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "sdzk.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 41,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5,
+        "extras": "5-formula choice; default ⑤ 0.5/1.25"
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "haeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": null,
+      "qualifying_score": {
+        "benke": 211
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": null,
+      "qualifying_score": {
+        "benke": 213
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 228
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": null,
+      "qualifying_score": {
+        "benke": 235
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1,
+        "pro_pct": 0.7,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 211
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 196
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 1,
+        "pro_pct": 0.7,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 231
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 227
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 227
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 227
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 42,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.4,
+        "pro_factor": 1,
+        "pro_pct": 0.6,
+        "extras": "×2 to 750 scale",
+        "multiplier": 2
+      },
+      "qualifying_score": {
+        "benke": 227
+      },
+      "data_source": [
+        "jyt.hubei.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": null,
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 43,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.3,
+        "pro_factor": 2.5,
+        "pro_pct": 0.7
+      },
+      "qualifying_score": {
+        "benke": 155
+      },
+      "data_source": [
+        "jyt.hunan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 223
+      },
+      "culture_control_line": {
+        "historical": 350,
+        "physical": 350
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 210
+      },
+      "culture_control_line": {
+        "historical": 350,
+        "physical": 350
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.6,
+        "pro_factor": 2.5,
+        "pro_pct": 0.4
+      },
+      "qualifying_score": {
+        "benke": 205
+      },
+      "culture_control_line": {
+        "historical": 330,
+        "physical": 330
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "culture_control_line": {
+        "historical": 320,
+        "physical": 320
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "culture_control_line": {
+        "historical": 300,
+        "physical": 300
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "culture_control_line": {
+        "historical": 315,
+        "physical": 315
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 44,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "culture_control_line": {
+        "historical": 315,
+        "physical": 315
+      },
+      "data_source": [
+        "eea.gd.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 45,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "gxeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.55,
+        "pro_factor": 1,
+        "pro_pct": 0.45,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "播音与主持",
+      "formula": null,
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.55,
+        "pro_factor": 1,
+        "pro_pct": 0.45,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.55,
+        "pro_factor": 1,
+        "pro_pct": 0.45,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.55,
+        "pro_factor": 1,
+        "pro_pct": 0.45,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 46,
+      "year": 2024,
+      "reform": "3+3",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 1,
+        "pro_pct": 0.5,
+        "extras": "900 standard score"
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 50,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 185
+      },
+      "data_source": [
+        "cqksy.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "culture_control_line": {
+        "arts_wen": 345,
+        "arts_li": 345
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "culture_control_line": {
+        "arts_wen": 380,
+        "arts_li": 380
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "culture_control_line": {
+        "arts_wen": 345,
+        "arts_li": 345
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "culture_control_line": {
+        "arts_wen": 295,
+        "arts_li": 295
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 240
+      },
+      "culture_control_line": {
+        "arts_wen": 345,
+        "arts_li": 345
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 51,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 240
+      },
+      "culture_control_line": {
+        "arts_wen": 345,
+        "arts_li": 345
+      },
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 52,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "culture_control_line": {
+        "historical": 375,
+        "physical": 323
+      },
+      "data_source": [
+        "eduzs.org.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 52,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "culture_control_line": {
+        "historical": 353,
+        "physical": 304
+      },
+      "data_source": [
+        "eduzs.org.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 52,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "culture_control_line": {
+        "historical": 331,
+        "physical": 285
+      },
+      "data_source": [
+        "eduzs.org.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 52,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "culture_control_line": {
+        "historical": 331,
+        "physical": 285
+      },
+      "data_source": [
+        "eduzs.org.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 53,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "ynzs.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 54,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {},
+      "data_source": [
+        "xizang.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 61,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 150
+      },
+      "culture_control_line": {
+        "arts_wen": 298,
+        "arts_li": 279
+      },
+      "data_source": [
+        "sneea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 195
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 62,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "ganseea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 63,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "qhjyks.com"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 200
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 198
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.7,
+        "pro_factor": 2.5,
+        "pro_pct": 0.3
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 219
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 214
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 64,
+      "year": 2024,
+      "reform": "3+1+2",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "jyt.nx.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "书法",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视导演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "戏剧影视表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 190
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "播音与主持",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "服装表演",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "美术与设计",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 180,
+        "zhuanke": 175
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "舞蹈",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 105
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐教育-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-器乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 65,
+      "year": 2024,
+      "reform": "old",
+      "category": "音乐表演-声乐",
+      "formula": {
+        "culture_pct": 0.5,
+        "pro_factor": 2.5,
+        "pro_pct": 0.5
+      },
+      "qualifying_score": {
+        "benke": 170
+      },
+      "data_source": [
+        "xjzk.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "region_id": 71,
+      "year": 2024,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "extras": "台湾 不参与内地艺术统考。如查 台湾 → 内地艺术招生通道,请用 qatw 台湾 --channel 全国联招 / 港校招内地生 等。"
+    },
+    {
+      "region_id": 81,
+      "year": 2024,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "extras": "香港 不参与内地艺术统考。如查 香港 → 内地艺术招生通道,请用 qatw 香港 --channel 全国联招 / 港校招内地生 等。"
+    },
+    {
+      "region_id": 82,
+      "year": 2024,
+      "reform": "special",
+      "category": "美术与设计",
+      "formula": null,
+      "qualifying_score": {},
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "extras": "澳门 不参与内地艺术统考。如查 澳门 → 内地艺术招生通道,请用 qatw 澳门 --channel 全国联招 / 港校招内地生 等。"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "schema_version": "1.0.0",
+  "category": "qiangji-quota",
+  "year": 2023,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 11,
+      "year": 2023,
+      "quota": 430,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "bjeea.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 12,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/tianjin.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 13,
+      "year": 2023,
+      "quota": 310,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "hebeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 14,
+      "year": 2023,
+      "quota": 8,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 14,
+      "year": 2023,
+      "quota": 8,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 14,
+      "year": 2023,
+      "quota": 159,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 14,
+      "year": 2023,
+      "quota": 18,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10698",
+        "name_zh": "西安交通大学"
+      },
+      "region_id": 14,
+      "year": 2023,
+      "quota": 10,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sxkszx.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 15,
+      "year": 2023,
+      "quota": 7,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "nm.zsks.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 15,
+      "year": 2023,
+      "quota": 70,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "nm.zsks.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10003",
+        "name_zh": "清华大学"
+      },
+      "region_id": 15,
+      "year": 2023,
+      "quota": 16,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "nm.zsks.cn",
+        "join-tsinghua.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 21,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/liaoning.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 22,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/jilin.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 23,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/heilongjiang.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学"
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10269",
+        "name_zh": "华东师范大学"
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学"
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学"
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "shmeea.edu.cn",
+        "ao.fudan.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学"
+      },
+      "region_id": 32,
+      "year": 2023,
+      "ruwei_line": {
+        "historical": 607,
+        "physical": 613
+      },
+      "ruwei_ratio": 6,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "jseea.cn",
+        "zsb.seu.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学"
+      },
+      "region_id": 33,
+      "year": 2023,
+      "quota": 15,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "zjzs.net",
+        "zdzsc.zju.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 34,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/anhui.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 35,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/fujian.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 36,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/jiangxi.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学"
+      },
+      "region_id": 37,
+      "year": 2023,
+      "quota": 300,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sdzk.cn",
+        "bkzs.sdu.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 41,
+      "year": 2023,
+      "quota": 335,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "haeea.cn",
+        "jyt.henan.gov.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 42,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hubei.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 43,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 44,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 45,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/guangxi.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 46,
+      "year": 2023,
+      "quota": 26,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "ea.hainan.gov.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 50,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/chongqing.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "10610",
+        "name_zh": "四川大学"
+      },
+      "region_id": 51,
+      "year": 2023,
+      "quota": 180,
+      "ruwei_ratio": 6,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sceea.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "强基总盘"
+      },
+      "region_id": 51,
+      "year": 2023,
+      "quota": 341,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "status": "unchanged",
+      "data_source": [
+        "sceea.cn",
+        "sichuan.scol.com.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 52,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/guizhou.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 53,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/yunnan.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 54,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/xizang.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 61,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/shaanxi.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "10001",
+        "name_zh": "北京大学"
+      },
+      "region_id": 62,
+      "year": 2023,
+      "ruwei_line": {
+        "li": 653
+      },
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "west_75pct_threshold": true,
+      "status": "unchanged",
+      "data_source": [
+        "ganseea.cn",
+        "gotopku.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 63,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/qinghai.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 64,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/ningxia.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "全 39 校(stub)"
+      },
+      "region_id": 65,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/xinjiang.md"
+      ],
+      "confidence": "low",
+      "notes": "2023 39 校面向本省招生;具体分校名额/入围线 markdown 仅含部分(详见同省 markdown)。本 stub 仅占位避免 query 返回 null 歧义。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 71,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地强基计划。如查 台湾 → 内地高校通道,请用 qatw 台湾 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 81,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地强基计划。如查 香港 → 内地高校通道,请用 qatw 香港 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    },
+    {
+      "school": {
+        "zs_code": "",
+        "name_zh": "(不适用)"
+      },
+      "region_id": 82,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地强基计划。如查 澳门 → 内地高校通道,请用 qatw 澳门 --channel 港校招内地生 / 澳校招内地生 / 学测申请陆校 等。"
+    }
+  ]
+}

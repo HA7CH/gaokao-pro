@@ -1,0 +1,1776 @@
+{
+  "schema_version": "1.0.0",
+  "category": "zongping",
+  "year": 2023,
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_markdown_dir": "docs/special-admissions-3year",
+  "records": [
+    {
+      "school": {
+        "zs_code": "16402",
+        "name_zh": "上海科技大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "上海纽约大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "校园日 + 高考综评"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "14430",
+        "name_zh": "中国科学院大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10030",
+        "name_zh": "北京外国语大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "7:3"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "昆山杜克大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 50,
+        "xiaoce_pct": 40,
+        "xueke_pct": 10,
+        "extras": "高考 50% + 自主 40% + 学考 10%"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "深圳北理莫斯科大学",
+        "is_local": false
+      },
+      "region_id": 11,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/beijing.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "在津外省综评 5 校",
+        "is_local": false
+      },
+      "region_id": 12,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "北外 (高考 50% + 校测 30% + 学考 20%) / 上科大 / 上纽 / 昆杜 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/tianjin.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": false
+      },
+      "region_id": 13,
+      "year": 2023,
+      "enrolled": 44,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (物化必选)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hebei.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "在晋外省综评",
+        "is_local": false
+      },
+      "region_id": 14,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "南科大 / 北外 / 上纽 (深北莫 2025 才入晋)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/shanxi.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在蒙外省综评 5 校",
+        "is_local": false
+      },
+      "region_id": 15,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "北外 / 南科大 (631) / 上纽 / 昆杜 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/neimenggu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "16402",
+        "name_zh": "上海科技大学",
+        "is_local": false
+      },
+      "region_id": 21,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "校园开放日综评"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/liaoning.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": false
+      },
+      "region_id": 21,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (本科提前批)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/liaoning.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "在吉外省综评 3 校",
+        "is_local": false
+      },
+      "region_id": 22,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "南科大 / 北外 / 国科大 (上科大不在吉)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jilin.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在黑外省综评",
+        "is_local": false
+      },
+      "region_id": 23,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "北京电子科技 / 央司法警官 / 新疆警察 / 港中文 / 港城市 / 北外 / 深北莫 / 昆杜 / 上纽"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/heilongjiang.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "上海中医药大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10271",
+        "name_zh": "上海外国语大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "上海大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10272",
+        "name_zh": "上海财经大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "东华大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10269",
+        "name_zh": "华东师范大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10251",
+        "name_zh": "华东理工大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10247",
+        "name_zh": "同济大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学",
+        "is_local": true
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "校测满分 150"
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学(海宁国际校区)",
+        "is_local": false
+      },
+      "region_id": 31,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:1.5",
+      "data_source": [
+        "docs/special-admissions-3year/shanghai.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "16402",
+        "name_zh": "上海科技大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "上海纽约大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "校园日 + 高考 (参考) (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "10286",
+        "name_zh": "东南大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "100 分制 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "zs_code": "14430",
+        "name_zh": "中国科学院大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "X 高考 + Y 校测 + Z 学考 三项折算 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10030",
+        "name_zh": "北京外国语大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "A 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "A 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "南京中医药大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "南京信息工程大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 25,
+        "xueke_pct": 5,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "南京医科大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 40,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10284",
+        "name_zh": "南京大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "enrolled": 230,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "100 分制 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "南京工业大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "B 类 (高考 750 制)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10319",
+        "name_zh": "南京师范大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "B 类: 高考 (投档)/750 × 70 + 面试 × 30"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "南京林业大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "B 类: 高考/750 × 70 + 校考/满 × 30"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "南京邮电大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 75,
+        "xiaoce_pct": 20,
+        "xueke_pct": 5,
+        "extras": "B 类: 高考/750 × 75 + 面试 20% + 学考 5%"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 7,
+        "extras": "高考 60% + 能力测试 30% (机试 25 + 面试 5) + 学考 7% + 综素 3% (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "南通大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "B 类 (典型)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "扬州大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "昆山杜克大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 50,
+        "xiaoce_pct": 40,
+        "xueke_pct": 10,
+        "extras": "高考 50% + 自主 40% + 学考 10% (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "江苏大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "江苏师范大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30,
+        "extras": "B 类"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (A 类,2025 退出江苏)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "深圳北理莫斯科大学",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "西交利物浦大学",
+        "is_local": true
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 40,
+        "extras": "B 类 (中外合作)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "香港中文大学(深圳)",
+        "is_local": false
+      },
+      "region_id": 32,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 (A 类)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangsu.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10248",
+        "name_zh": "上海交通大学",
+        "is_local": false
+      },
+      "region_id": 33,
+      "year": 2023,
+      "enrolled": 295,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 模式"
+      },
+      "ruwei_lines": [
+        {
+          "program_group": "三位一体",
+          "score": 397
+        }
+      ],
+      "is_sanweiyiti": true,
+      "data_source": [
+        "docs/special-admissions-3year/zhejiang.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "14430",
+        "name_zh": "中国科学院大学",
+        "is_local": false
+      },
+      "region_id": 33,
+      "year": 2023,
+      "enrolled": 39,
+      "ruwei_lines": [
+        {
+          "program_group": "三位一体",
+          "score": 405
+        }
+      ],
+      "is_sanweiyiti": true,
+      "data_source": [
+        "docs/special-admissions-3year/zhejiang.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10246",
+        "name_zh": "复旦大学",
+        "is_local": false
+      },
+      "region_id": 33,
+      "year": 2023,
+      "enrolled": 205,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631 模式 (浙江三位一体高水平 5 校)"
+      },
+      "ruwei_lines": [
+        {
+          "program_group": "三位一体",
+          "score": 409
+        }
+      ],
+      "is_sanweiyiti": true,
+      "data_source": [
+        "docs/special-admissions-3year/zhejiang.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学",
+        "is_local": true
+      },
+      "region_id": 33,
+      "year": 2023,
+      "enrolled": 980,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 10,
+        "xueke_pct": 5,
+        "extras": "三位一体: 高考 85% + 面试 10% + 学考 5% (10 科, A=10/B=9/C=8/D=6)"
+      },
+      "ruwei_lines": [
+        {
+          "program_group": "本部",
+          "score": 390
+        },
+        {
+          "program_group": "人工智能荣誉项目",
+          "score": 433
+        }
+      ],
+      "is_sanweiyiti": true,
+      "data_source": [
+        "docs/special-admissions-3year/zhejiang.md",
+        "zdzsc.zju.edu.cn"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "在皖外省综评 4 校",
+        "is_local": false
+      },
+      "region_id": 34,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "南科大 / 深北莫 / 北外 / (上科大/国科大不投皖)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/anhui.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在闽外省综评 7 校",
+        "is_local": false
+      },
+      "region_id": 35,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "南科大 / 上科大 / 港中深 / 北外 / 上纽 / 昆杜 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/fujian.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在赣外省综评 7 校",
+        "is_local": false
+      },
+      "region_id": 36,
+      "year": 2023,
+      "enrolled": 98,
+      "composite_formula": {
+        "extras": "南科大 / 上科大 / 北外 / 上纽 / 深北莫 / 昆杜 / 国科大"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/jiangxi.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10423",
+        "name_zh": "中国海洋大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 50,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10425",
+        "name_zh": "中国石油大学(华东)",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 120,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学",
+        "is_local": false
+      },
+      "region_id": 37,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "19025",
+        "name_zh": "哈尔滨工业大学(威海)",
+        "is_local": false
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 130,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10422",
+        "name_zh": "山东大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 300,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "综合 = 高考/750 × 100 × 85% + 校测 × 15% (100 制)"
+      },
+      "ruwei_ratio": "1:6",
+      "ruwei_lines": [
+        {
+          "program_group": "综合最低",
+          "score": 78.817
+        }
+      ],
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "山东师范大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 460,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "山东科技大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 180,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "山东财经大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "10335",
+        "name_zh": "浙江大学",
+        "is_local": false
+      },
+      "region_id": 37,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15,
+        "extras": "中外合作"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "青岛大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 260,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "青岛科技大学",
+        "is_local": true
+      },
+      "region_id": 37,
+      "year": 2023,
+      "enrolled": 170,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "ruwei_ratio": "1:6",
+      "data_source": [
+        "docs/special-admissions-3year/shandong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "在豫外省综评 6 校",
+        "is_local": false
+      },
+      "region_id": 41,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "南科大 / 上科大 / 北外 / 上纽 / 昆杜 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/henan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在鄂外省综评",
+        "is_local": false
+      },
+      "region_id": 42,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hubei.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "16402",
+        "name_zh": "上海科技大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "上海纽约大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "中南大学",
+        "is_local": true
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "高考 + 面试 (A+~D 等级,A+=19/A=18/.../D=10)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "14430",
+        "name_zh": "中国科学院大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "10030",
+        "name_zh": "北京外国语大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 70,
+        "xiaoce_pct": 30
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "昆山杜克大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 50,
+        "xiaoce_pct": 40,
+        "xueke_pct": 10
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "深圳北理莫斯科大学",
+        "is_local": false
+      },
+      "region_id": 43,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/hunan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "zs_code": "10558",
+        "name_zh": "中山大学",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 85,
+        "xiaoce_pct": 15
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "北京师范大学-香港浸会大学联合国际学院 (UIC)",
+        "is_local": false
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "extras": "高考 60% + 校测 (满 225) + 学考"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md",
+        "admission.uic.edu.cn"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10561",
+        "name_zh": "华南理工大学",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "14625",
+        "name_zh": "南方科技大学",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "广东综评汇总 11 校",
+        "is_local": false
+      },
+      "region_id": 44,
+      "year": 2023,
+      "enrolled": 2780,
+      "composite_formula": {
+        "extras": "11 校 (UIC/中大/港中深/南科大/华工/深北莫/深大/西交利物浦/暨大/中大珠海/北师珠海)"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "school": {
+        "name_zh": "深圳北理莫斯科大学",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 30,
+        "xueke_pct": 10,
+        "extras": "631"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "zs_code": "10590",
+        "name_zh": "深圳大学",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "中外合作 / 特色班综评通道"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "西交利物浦大学",
+        "is_local": false
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "gaokao_pct": 60,
+        "xiaoce_pct": 40,
+        "extras": "综评通道"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "香港中文大学(深圳)",
+        "is_local": true
+      },
+      "region_id": 44,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "高考 + 校测 + 学考"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/guangdong.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 45,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/guangxi.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 46,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hainan.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "在渝外省综评 6 校",
+        "is_local": false
+      },
+      "region_id": 50,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "北外 / 上科大 / 南科大 / 昆杜 / 上纽 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/chongqing.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "在川外省综评 7 校",
+        "is_local": false
+      },
+      "region_id": 51,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "国科大 / 南科大 / 上科大 / 北外 / 上纽 / 昆杜 / 深北莫"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/sichuan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 52,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/guizhou.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "在滇外省综评 5 校",
+        "is_local": false
+      },
+      "region_id": 53,
+      "year": 2023,
+      "composite_formula": {
+        "extras": "上科大 / 南科大 / 北外 / 上纽 / 中南大学"
+      },
+      "data_source": [
+        "docs/special-admissions-3year/yunnan.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 54,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/xizang.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 61,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/shaanxi.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 62,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/gansu.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 63,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/qinghai.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 64,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/ningxia.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "外省综评校(stub)",
+        "is_local": false
+      },
+      "region_id": 65,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/xinjiang.md"
+      ],
+      "confidence": "low",
+      "composite_formula": {
+        "extras": "通常 631 模式(高考60+校测30+学考10)"
+      },
+      "notes": "本省无本地综评校;少量外省校(如南科大/上科大/北外/上纽/昆杜/深北莫 等)在本省投放综评招生。本 stub 占位,详见 markdown。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 71,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/taiwan.md"
+      ],
+      "confidence": "high",
+      "notes": "台湾 不参与内地综合评价。如查 台湾 → 内地高校通道,请用 qatw 台湾。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 81,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/hongkong.md"
+      ],
+      "confidence": "high",
+      "notes": "香港 不参与内地综合评价。如查 香港 → 内地高校通道,请用 qatw 香港。"
+    },
+    {
+      "school": {
+        "name_zh": "(不适用)",
+        "is_local": false
+      },
+      "region_id": 82,
+      "year": 2023,
+      "data_source": [
+        "docs/special-admissions-3year/macau.md"
+      ],
+      "confidence": "high",
+      "notes": "澳门 不参与内地综合评价。如查 澳门 → 内地高校通道,请用 qatw 澳门。"
+    }
+  ]
+}

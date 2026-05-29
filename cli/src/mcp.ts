@@ -67,6 +67,32 @@ import { dossier as dossierFn } from "./dossier.js";
 import { roadmap as roadmapFn } from "./roadmap.js";
 import { provinceOverview as provinceOverviewFn } from "./province-overview.js";
 import { VERSION } from "./version.js";
+// LAWTED v0.2.0 — 特殊招生 (艺术/体育/强基/综评/民族/港澳台)
+import {
+  findArtFormula,
+  listArtFormulasForRegion,
+  findSportsFormula,
+  listQiangjiForRegion,
+  findQiangjiQuota,
+  listQiangjiForSchool,
+  listZongPingForRegion,
+  findZongPing,
+  findMinzuPolicy,
+  listQATWForRegion,
+  findQATWChannel,
+  coverageReport as saCoverageReport,
+  validateArtCategory,
+  validateQATWChannel
+} from "./special-admissions.js";
+import type { Year as SAYear } from "./types/special-admissions.js";
+
+function saYearFrom(args: Record<string, unknown>, fallback: SAYear = 2025): SAYear {
+  const y = args.year;
+  if (y === undefined || y === null) return fallback;
+  const n = typeof y === "string" ? Number(y) : (typeof y === "number" ? y : NaN);
+  if (n === 2023 || n === 2024 || n === 2025 || n === 2026) return n as SAYear;
+  throw new Error(`year must be 2023/2024/2025/2026, got: ${String(y)}`);
+}
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -625,6 +651,79 @@ export const TOOLS = [
       required: ["province"],
       additionalProperties: false
     }
+  },
+  // ---- LAWTED v0.2.0 — 特殊招生 7 tools ----
+  {
+    name: "art_tongkao",
+    description: "Art unified exam (艺术统考) formula + 合格线 for a province × category × year. Covers 6 大类(美术与设计/音乐/舞蹈/表(导)演/播音/书法). Without category, returns all categories. Province quirks (河南 5 选 1、云南 2025 取消省线、湖北 ×2 还原、辽宁百分制再加权) in formula.extras.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "Name/pinyin/id (11..65). 港澳台 not applicable." },
+        category: { type: "string", description: "Optional. 美术与设计/音乐表演-声乐/音乐表演-器乐/音乐教育-声乐/音乐教育-器乐/舞蹈/戏剧影视表演/戏剧影视导演/服装表演/播音与主持/书法/戏曲" },
+        year: { type: "number", description: "2023/2024/2025/2026. Default 2025." }
+      },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "sports_tongzhao",
+    description: "Sports unified admission (体育统招) formula + 合格线 for a province × year. SportsFormulaKind: weighted (大部分省) / additive (湘青直接相加) / professional_first (陕甘按专业课) / gaokao_only (海南按高考总分) / merged_specline (重庆 25 本专合一).",
+    inputSchema: {
+      type: "object",
+      properties: { province: { type: "string" }, year: { type: "number" } },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "qiangji_line",
+    description: "Qiangji (强基计划) 入围线 + quota for a school × province × year. Filter by school, province, or both. 39 校 × 31 省覆盖, 含 复交南'报名即入围' 12 校 + 甘青宁新 75% 文化门槛.",
+    inputSchema: {
+      type: "object",
+      properties: { school: { type: "string" }, province: { type: "string" }, year: { type: "number" } },
+      additionalProperties: false
+    }
+  },
+  {
+    name: "zonghe",
+    description: "综合评价 records for a province × year. 浙江三位一体 / 江苏 23 校 A·B 类 / 沪鲁粤 11 校 / 京闽外省校. Optional `school` for a single record.",
+    inputSchema: {
+      type: "object",
+      properties: { province: { type: "string" }, school: { type: "string" }, year: { type: "number" } },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "minzu",
+    description: "民族班/民族政策加分 for a province × year. 加分梯度(甘肃 +20 / 新疆 +15 / 西藏双联户 +10 / 进藏干部 +1/年)、民族班/预科、退坡时间表.",
+    inputSchema: {
+      type: "object",
+      properties: { province: { type: "string" }, year: { type: "number" } },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "qatw",
+    description: "港澳台招生通道 (71台湾 / 81香港 / 82澳门). 8 channels: 联招 / 居住证高考 / 保送 / DSE / 港校独立 / 澳校独立 / 学测 / 陆生. 2025 联招分数线暴涨 +65/+70.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        region: { type: "string", description: "71/81/82 (或 台湾/香港/澳门)." },
+        channel: { type: "string", description: "Optional. 联招/居住证高考/保送/DSE/港校独立/澳校独立/学测/陆生." },
+        year: { type: "number" }
+      },
+      required: ["region"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "special_coverage",
+    description: "Coverage report for 特殊招生 dataset (6 categories × 3 years × 34 regions). Returns per-(category,year) record count + per-region record count + 18 schema-valid files.",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
   }
 ];
 
@@ -1074,6 +1173,89 @@ export async function dispatch(name: string, args: Record<string, unknown>): Pro
         school_filter: typeof args.school === "string" ? args.school : null,
       });
       return { ok: true, ...result };
+    }
+    // ---- LAWTED v0.2.0 — 特殊招生 7 dispatchers ----
+    case "art_tongkao": {
+      const province = getStr(args, "province");
+      const id = resolveProvince(province);
+      if (!id) throw new Error(`unknown province: ${province}`);
+      const year = saYearFrom(args);
+      const category = typeof args.category === "string" ? validateArtCategory(args.category) : undefined;
+      if (category) {
+        const rec = findArtFormula(id, category, year);
+        return { ok: true, query: { region: id, name: PROVINCES[id].name, category, year }, record: rec };
+      }
+      const list = listArtFormulasForRegion(id, year);
+      return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list };
+    }
+    case "sports_tongzhao": {
+      const province = getStr(args, "province");
+      const id = resolveProvince(province);
+      if (!id) throw new Error(`unknown province: ${province}`);
+      const year = saYearFrom(args);
+      const rec = findSportsFormula(id, year);
+      return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, record: rec };
+    }
+    case "qiangji_line": {
+      const year = saYearFrom(args);
+      const school = typeof args.school === "string" ? args.school : undefined;
+      const province = typeof args.province === "string" ? args.province : undefined;
+      if (school && province) {
+        const id = resolveProvince(province);
+        if (!id) throw new Error(`unknown province: ${province}`);
+        const rec = findQiangjiQuota(school, id, year);
+        return { ok: true, query: { school, region: id, name: PROVINCES[id].name, year }, record: rec };
+      }
+      if (province) {
+        const id = resolveProvince(province);
+        if (!id) throw new Error(`unknown province: ${province}`);
+        const list = listQiangjiForRegion(id, year);
+        return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list };
+      }
+      if (school) {
+        const list = listQiangjiForSchool(school, year);
+        return { ok: true, query: { school, year }, count: list.length, records: list };
+      }
+      throw new Error("qiangji_line requires school and/or province");
+    }
+    case "zonghe": {
+      const province = getStr(args, "province");
+      const id = resolveProvince(province);
+      if (!id) throw new Error(`unknown province: ${province}`);
+      const year = saYearFrom(args);
+      const school = typeof args.school === "string" ? args.school : undefined;
+      if (school) {
+        const rec = findZongPing(school, id, year);
+        return { ok: true, query: { region: id, name: PROVINCES[id].name, school, year }, record: rec };
+      }
+      const list = listZongPingForRegion(id, year);
+      return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list };
+    }
+    case "minzu": {
+      const province = getStr(args, "province");
+      const id = resolveProvince(province);
+      if (!id) throw new Error(`unknown province: ${province}`);
+      const year = saYearFrom(args);
+      const rec = findMinzuPolicy(id, year);
+      return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, record: rec };
+    }
+    case "qatw": {
+      const region = getStr(args, "region");
+      const id = resolveProvince(region);
+      if (!id || (id !== 71 && id !== 81 && id !== 82)) {
+        throw new Error(`qatw requires 71 台湾 / 81 香港 / 82 澳门, got: ${region}`);
+      }
+      const year = saYearFrom(args);
+      const channel = typeof args.channel === "string" ? validateQATWChannel(args.channel) : undefined;
+      if (channel) {
+        const rec = findQATWChannel(id, channel, year);
+        return { ok: true, query: { region: id, name: PROVINCES[id].name, channel, year }, record: rec };
+      }
+      const list = listQATWForRegion(id, year);
+      return { ok: true, query: { region: id, name: PROVINCES[id].name, year }, count: list.length, records: list };
+    }
+    case "special_coverage": {
+      return { ok: true, coverage: saCoverageReport() };
     }
     default:
       throw new Error(`unknown tool: ${name}`);

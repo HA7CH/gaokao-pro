@@ -1,6 +1,6 @@
 {
   "name": "gaokao-pro",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "中国高考志愿规划 CLI · 用 Claude Code / Codex / Cursor 帮你查招生数据、出冲稳保。",
   "type": "module",
   "bin": {
@@ -20,7 +20,9 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test:unit": "tsx test/run.ts",
     "test:smoke": "tsx test/smoke.ts",
-    "test": "tsx test/run.ts && tsx test/smoke.ts",
+    "test:special": "tsx test/special-admissions.smoke.ts",
+    "test:validate": "tsx test/special-admissions.validate.ts",
+    "test": "tsx test/run.ts && tsx test/smoke.ts && tsx test/special-admissions.smoke.ts && tsx test/special-admissions.validate.ts",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
