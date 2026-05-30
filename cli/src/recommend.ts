@@ -147,7 +147,8 @@ export function inferTrack(provinceId: ProvinceId, subjects: Subject[]): string 
     throw new Error("3+1+2 provinces require either 物理 or 历史 in --subjects");
   }
   // Old-reform (文/理) provinces: 山西/内蒙古 moved to 3+1+2, leaving 西藏 (54)
-  // as the remaining 老高考 region in this dataset. The decisive subject is
+  // 和 新疆 (65) as the remaining 老高考 regions in this dataset (新疆 改革
+  // 延期至 2027 首届). The decisive subject is
   // 物理 (理/science, type code "1") vs 历史 (文/liberal, type code "2"):
   // a 老高考 candidate takes 文综 OR 理综 as a fixed bundle, so 物理⇒理科,
   // 历史⇒文科. We do NOT count individual science vs liberal subjects (the old
