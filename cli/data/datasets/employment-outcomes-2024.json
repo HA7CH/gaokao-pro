@@ -947,7 +947,7 @@
       "zs_code": "10108",
       "tier_label": "双一流",
       "city": "太原",
-      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 35, "abroad_pct": 5, "direct_employment_pct": 50, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 28},
+      "rates": {"baoyan_rate_pct": 14, "domestic_grad_school_pct": 38, "abroad_pct": 5, "direct_employment_pct": 46, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 28},
       "specialty_strength": "物理/化学/历史 双一流; 山西体制内 主输送",
       "notable_employers": ["山西体制内", "国家电网", "华为", "晋能控股", "山西焦煤", "字节跳动", "中国移动", "工商银行"],
       "confidence_level": "medium"
@@ -957,7 +957,7 @@
       "zs_code": "10112",
       "tier_label": "211/双一流",
       "city": "太原",
-      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 38, "abroad_pct": 4, "direct_employment_pct": 48, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "rates": {"baoyan_rate_pct": 14, "domestic_grad_school_pct": 40, "abroad_pct": 4, "direct_employment_pct": 46, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
       "specialty_strength": "机械/采矿/化工; 山西煤炭+能源 行业垄断输送",
       "notable_employers": ["晋能控股", "山西焦煤", "国家电网", "华为", "中铁集团", "字节跳动", "中信证券", "中国电科"],
       "confidence_level": "medium"
@@ -1868,7 +1868,7 @@
       "tier_label": "省重点",
       "city": "太原",
       "rates": {"baoyan_rate_pct": 8, "domestic_grad_school_pct": 30, "abroad_pct": 3, "direct_employment_pct": 59, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 22},
-      "specialty_strength": "兵器/电子/机械 (国防七子); 中国兵器/航天 输送",
+      "specialty_strength": "兵器/电子/机械 (兵工七子); 中国兵器/航天 输送",
       "notable_employers": ["中国兵器", "中国航天", "中国电科", "国家电网", "字节跳动", "华为", "中航工业", "山西体制内"],
       "confidence_level": "medium"
     },

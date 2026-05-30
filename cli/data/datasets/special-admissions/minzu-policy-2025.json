@@ -58,7 +58,17 @@
     {
       "region_id": 15,
       "year": 2025,
-      "bonus_tiers": [],
+      "bonus_tiers": [
+        {
+          "scope": "蒙古族/达斡尔族/鄂温克族/鄂伦春族/俄罗斯族",
+          "bonus": 5,
+          "requirements": "民族成份核验; 2024 起从 +10 降至 +5; 不适用于艺术校考/高水平运动队/高校专项",
+          "scope_universities": "all",
+          "rollback_schedule": {
+            "2026": "A 类 36 旗县 (三统一: 户籍+学籍+实际就读) 保留 +5; B 类 67 旗县取消"
+          }
+        }
+      ],
       "minzu_ban_discount": -40,
       "minzu_yuke_discount": -80,
       "host_schools": [
