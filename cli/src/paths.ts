@@ -110,7 +110,10 @@ function tiqianEligible(p: TiqianProgram, profile: ProfileLite): { eligible: boo
   }
   if (t === "民族班" || t === "预科班") {
     if (!profile.is_minority) return { eligible: false, caveat: "限少数民族身份" };
-    return { eligible: true, caveat: t === "预科班" ? "1 年预科后分流" : "毕业证与普通班一致" };
+    // 显式 surface 投档分 discount — 重要因为 候选 raw score + discount = 实际可冲档分
+    return { eligible: true, caveat: t === "预科班"
+      ? "投档分 ≤ 校线 -80 (1 年预科 + 4 年本科 = 5 年; 预科后看校内分流; 多数 民族院校/双一流 综合校 都开)"
+      : "投档分 ≤ 校线 -40 (毕业证 + 学位证 与普通班完全一致; 直读 4 年本科 不预科)" };
   }
   if (t === "小语种提前批") {
     if (!profile.small_language) return { eligible: false, caveat: "限非英语第一外语考生" };
