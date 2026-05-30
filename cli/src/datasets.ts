@@ -775,16 +775,35 @@ const CITY_TO_PROVINCE_FALLBACK: Record<string, string> = {
   "桂林": "广西", "柳州": "广西",
   "三亚": "海南",
   "遵义": "贵州",
-  "大理": "云南"
+  "大理": "云南",
+  "芜湖": "安徽",
+  "泰安": "山东",
+  "临汾": "山西",
+  "咸阳": "陕西"
+};
+
+// School-name overrides for schools whose physical city ≠ administrative province
+// (e.g. 河北工业大学 in 天津, 西藏民族大学 in 咸阳, 华北电力(保定) etc).
+const SCHOOL_PROVINCE_OVERRIDE: Record<string, string> = {
+  "河北工业大学": "河北",
+  "西藏民族大学": "西藏",
+  "华北电力大学(保定)": "河北",
+  "中国海洋大学": "山东",
+  "山东大学(威海)": "山东",
+  "哈尔滨工业大学(威海)": "山东",
+  "哈尔滨工业大学(深圳)": "广东",
+  "北京师范大学(珠海校区)": "广东",
+  "中山大学珠海校区": "广东"
 };
 
 export function employmentCoverageByProvince(): Record<string, { covered: number; schools: string[] }> {
   const f = loadEmploymentOutcomes();
   const out: Record<string, { covered: number; schools: string[] }> = {};
   for (const s of (f.schools || [])) {
+    const override = SCHOOL_PROVINCE_OVERRIDE[s.school];
     const city = s.city;
     const cityRec = (loadCityTier().cities || []).find((c: any) => c.city === city);
-    const prov = cityRec?.province ?? CITY_TO_PROVINCE_FALLBACK[city] ?? city ?? "未知";
+    const prov = override ?? cityRec?.province ?? CITY_TO_PROVINCE_FALLBACK[city] ?? city ?? "未知";
     if (!out[prov]) out[prov] = { covered: 0, schools: [] };
     out[prov].covered++;
     out[prov].schools.push(s.school);
