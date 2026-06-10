@@ -5,6 +5,7 @@
     "教育部中外合作办学监管工作信息平台 https://www.crs.jsj.edu.cn/",
     "各校招生办官网"
   ],
+  "_note": "2026-06 复核: 港科广/港中深/昆山杜克/上纽/北师香港浸会大学等条目学费已按 2025 级招生章程或官网更新, 详见各条 note; 其余条目仍为 2024 口径。",
   "programs": [
     {"school":"北京理工大学","partner":"俄罗斯莫斯科国立鲍曼技术大学","major":"航空航天工程","tuition_yuan":57000,"location":"北京","note":"4+0 双学位"},
     {"school":"北京理工大学","partner":"英国瑞丁大学","major":"会计学","tuition_yuan":78000,"location":"北京"},
@@ -23,14 +24,14 @@
     {"school":"山东大学","partner":null,"major":"金融学","tuition_yuan":35000,"location":"济南"},
     {"school":"上海交通大学","partner":"法国巴黎高等电子学院","major":"机械工程","tuition_yuan":65000,"location":"上海"},
     {"school":"南开大学","partner":"法国诺欧商学院","major":"电子商务","tuition_yuan":null,"location":"天津"},
-    {"school":"香港中文大学(深圳)","partner":"香港中文大学","major":"多专业","tuition_yuan":115000,"location":"深圳","note":"独立法人"},
+    {"school":"香港中文大学(深圳)","partner":"香港中文大学","major":"多专业","tuition_yuan":140000,"location":"深圳","note":"独立法人; 2025年及之后入学14万元/学年 (校招生网 admissions.cuhk.edu.cn), 2024级及以前11.5万"},
     {"school":"宁波诺丁汉大学","partner":"英国诺丁汉大学","major":"多专业","tuition_yuan":100000,"location":"宁波","note":"独立机构"},
-    {"school":"昆山杜克大学","partner":"美国杜克大学","major":"多专业","tuition_yuan":170000,"location":"昆山","note":"独立机构"},
+    {"school":"昆山杜克大学","partner":"美国杜克大学","major":"多专业","tuition_yuan":190000,"location":"昆山","note":"独立机构; 2025级19万元/学年 (本科招生官网 admissions.dukekunshan.edu.cn)"},
     {"school":"西交利物浦大学","partner":"英国利物浦大学","major":"多专业","tuition_yuan":93000,"location":"苏州","note":"独立机构"},
-    {"school":"上海纽约大学","partner":"美国纽约大学","major":"多专业","tuition_yuan":200000,"location":"上海","note":"独立机构"},
+    {"school":"上海纽约大学","partner":"美国纽约大学","major":"多专业","tuition_yuan":200000,"location":"上海","note":"独立机构; 第1-2学年20万、第3-4学年23万元/学年 (校招生网 2025)"},
     {"school":"深圳北理莫斯科大学","partner":"俄罗斯莫斯科国立大学","major":"多专业","tuition_yuan":40000,"location":"深圳","note":"独立机构"},
-    {"school":"北师港浸大(UIC)","partner":"香港浸会大学","major":"多专业","tuition_yuan":110000,"location":"珠海","note":"独立机构"},
+    {"school":"北师香港浸会大学","partner":"香港浸会大学","major":"多专业","tuition_yuan":110000,"location":"珠海","note":"独立机构; 2025年3月经教育部批准由'北京师范大学-香港浸会大学联合国际学院(北师港浸大/UIC)'更名; 2025-2026学年普通类11万元/学年 (校财务处)","alias":["北师港浸大(UIC)","北京师范大学-香港浸会大学联合国际学院"]},
     {"school":"温州肯恩大学","partner":"美国肯恩大学","major":"多专业","tuition_yuan":68000,"location":"温州","note":"独立机构"},
-    {"school":"香港科技大学(广州)","partner":"香港科技大学","major":"多专业","tuition_yuan":45000,"location":"广州","note":"独立机构"}
+    {"school":"香港科技大学(广州)","partner":"香港科技大学","major":"多专业","tuition_yuan":100000,"location":"广州","note":"独立机构; 2025年招生章程: 本科学费5万(人工智能专业)–10万元/学年, 多数专业10万; 住宿费5800-6300元/学年"}
   ]
 }
