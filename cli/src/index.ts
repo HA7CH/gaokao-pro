@@ -123,6 +123,18 @@ function parseFlags(args: string[]): { positional: string[]; flags: Record<strin
   return { positional, flags };
 }
 
+// Shared --limit parsing: `--limit abc` used to become NaN, which slipped past
+// `limit && limit > 0` checks and silently returned EVERY row (thousands of
+// lines into an AI context); a bare `--limit` became Number(true)=1.
+function parseLimit(v: string | boolean | undefined, fallback: number | undefined): number | undefined {
+  if (v === undefined) return fallback;
+  const n = Number(v);
+  if (!Number.isFinite(n) || n < 1) {
+    throw new Error(`--limit must be a positive integer, got: ${String(v)}`);
+  }
+  return Math.floor(n);
+}
+
 function printJson(value: unknown): void {
   process.stdout.write(JSON.stringify(value, null, 2) + "\n");
 }
@@ -594,6 +606,12 @@ const VERBS: Record<string, Verb> = {
     };
     if (hasScore) {
       const score = Number(flags.score);
+      // NaN guard first: `--score abc` (or a bare `--score`) must error clearly
+      // instead of falling through every comparison below and printing
+      // "分数 NaN 低于该表覆盖范围".
+      if (!Number.isFinite(score)) {
+        throw new Error(`--score must be a number, got: ${String(flags.score)}`);
+      }
       // Province-specific score-scale guard: 海南 900满分, 上海 660满分, 其他 750满分.
       // Without this, callers can pass 700 to 上海 (max 660) or 800 to 750-scale
       // provinces and silently saturate at the top of the table.
@@ -609,6 +627,9 @@ const VERBS: Record<string, Verb> = {
         : `分数 ${score} 低于该表覆盖范围`;
     } else {
       const rank = Number(flags.rank);
+      if (!Number.isFinite(rank) || rank < 1) {
+        throw new Error(`--rank must be a positive number, got: ${String(flags.rank)}`);
+      }
       const score = rankToScore(table, rank);
       result.rank = rank;
       result.score = score;
@@ -642,7 +663,7 @@ const VERBS: Record<string, Verb> = {
     if (!provinceId) throw new Error(`unknown province: ${p.province}`);
     if (!Array.isArray(p.subjects)) throw new Error("profile.subjects must be array");
     const subjects = validateSubjects(p.subjects);
-    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const limit = parseLimit(flags.limit, 20);
     const out = match({
       score: p.score,
       province: provinceId,
@@ -664,10 +685,10 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects is required");
-    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
+    const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
     const year = Number(flags.year);
     if (!Number.isFinite(year)) throw new Error("--year is required");
-    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const limit = parseLimit(flags.limit, 20);
     const filter = {
       ...buildLabelFilter(flags),
       belong: typeof flags.belong === "string" ? flags.belong : undefined
@@ -994,12 +1015,12 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required (comma-separated, e.g. 物理,化学,生物)");
-    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
+    const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
     const schoolIds = typeof flags.schools === "string"
       ? flags.schools.split(",").map((s) => s.trim()).filter(Boolean)
       : undefined;
     const rank = flags.rank !== undefined ? Number(flags.rank) : undefined;
-    const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
+    const limit = parseLimit(flags.limit, undefined);
     const filter = {
       ...buildLabelFilter(flags),
       level: typeof flags.level === "string" ? flags.level : undefined,
@@ -1022,8 +1043,8 @@ const VERBS: Record<string, Verb> = {
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
-    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
-    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
+    const limit = parseLimit(flags.limit, 20);
     const filter = buildLabelFilter(flags);
     const out = top({ score, provinceId, subjects, limit, filter });
     // --enrich: fetch each top school's real admission data in ONE parallel pass
@@ -1195,7 +1216,7 @@ const VERBS: Record<string, Verb> = {
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     const year = Number(flags.year);
     if (!Number.isFinite(year)) throw new Error("--year <year> is required");
-    const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
+    const limit = parseLimit(flags.limit, undefined);
     const filter = {
       ...buildLabelFilter(flags),
       belong: typeof flags.belong === "string" ? flags.belong : undefined
@@ -1473,7 +1494,7 @@ const VERBS: Record<string, Verb> = {
     const score = Number(flags.score);
     if (!Number.isFinite(score)) throw new Error("--score N is required");
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
-    const subjects = validateSubjects(flags.subjects.split(",").map((s) => s.trim()));
+    const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
     const rank = (typeof flags.rank === "string" || typeof flags.rank === "number") ? Number(flags.rank) : null;
     const result = roadmapFn({
       province,
@@ -2394,7 +2415,7 @@ const VERBS: Record<string, Verb> = {
       printJson({ ok: true, major: m });
       return;
     }
-    const limit = typeof flags.limit === "string" ? Number(flags.limit) : 20;
+    const limit = parseLimit(flags.limit, 20);
     printJson({
       ok: true,
       query: { limit },
@@ -2421,7 +2442,7 @@ const VERBS: Record<string, Verb> = {
         throw new Error(`--sort must be one of: ${valid.join(", ")}`);
       }
       const sorted = [...(f.schools || [])].sort((a, b) => (b.rates?.[key] ?? 0) - (a.rates?.[key] ?? 0));
-      const limit = typeof flags.limit === "string" ? Number(flags.limit) : 20;
+      const limit = parseLimit(flags.limit, 20);
       printJson({
         ok: true,
         query: { sort_by: key, limit },

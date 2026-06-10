@@ -36,6 +36,13 @@ require() {
 require git
 require node
 
+# package.json engines requires node >= 18 — fail early with a clear message
+# instead of a cryptic tsc/runtime syntax error later.
+if ! node -e 'process.exit(Number(process.versions.node.split(".")[0]) >= 18 ? 0 : 1)'; then
+  red "gaokao-pro needs Node.js >= 18 (found $(node --version)). Upgrade Node and re-run."
+  exit 1
+fi
+
 # Pick a package manager — pnpm preferred, npm fallback.
 if command -v pnpm >/dev/null 2>&1; then
   PM=pnpm
@@ -51,7 +58,12 @@ cyan "==> Installing gaokao-pro to $DIR (via $PM)"
 if [ -d "$DIR/.git" ]; then
   cyan "==> Updating existing checkout"
   STEP="updating checkout (git pull --ff-only in $DIR)"
-  git -C "$DIR" pull --ff-only
+  if ! git -C "$DIR" pull --ff-only; then
+    red "could not fast-forward $DIR (local changes or diverged history)."
+    red "either remove it and re-run:  rm -rf \"$DIR\""
+    red "or install elsewhere:         GAOKAO_PRO_DIR=~/gaokao-pro-fresh bash install.sh"
+    exit 1
+  fi
 else
   cyan "==> Cloning $REPO"
   STEP="cloning $REPO into $DIR"

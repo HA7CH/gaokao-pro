@@ -75,10 +75,12 @@ export function scoreToRank(table: RankTable, score: number): number | null {
 
 /** rank → score lookup (returns lowest score whose cumulative ≥ input rank). */
 export function rankToScore(table: RankTable, rank: number): number | null {
-  let best: number | null = null;
+  // rows descend by score, cumulative ascends — the FIRST row whose cumulative
+  // covers the rank is the answer. (The old loop kept overwriting `best` all
+  // the way to the table floor, returning the lowest score for nearly any
+  // rank; matches rank-table.ts now.)
   for (const row of table.rows) {
-    if (row.cumulative >= rank) best = row.score;
-    else break;
+    if (row.cumulative >= rank) return row.score;
   }
-  return best;
+  return null;
 }
