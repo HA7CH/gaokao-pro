@@ -14,7 +14,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "cli:build": "pnpm -C cli build",
     "cli:test": "pnpm -C cli test",
     "cli:probe": "pnpm -C cli probe"

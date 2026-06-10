@@ -32,8 +32,11 @@ jobs:
       - name: CLI offline unit tests
         run: pnpm -C cli run test:unit
 
-      - name: Web lint
-        run: pnpm run lint
+      # `next lint` was removed in Next 16 and the repo has no ESLint config —
+      # the old "Web lint" step failed on every push since 0.3.12. A real
+      # build is the meaningful gate for the landing page.
+      - name: Web build
+        run: pnpm run build
 
   # The smoke test (cli test:smoke) hits the live gaokao.cn API and can flake
   # on upstream outages, so it is kept out of the blocking gate above.
