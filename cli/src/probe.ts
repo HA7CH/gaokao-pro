@@ -1,7 +1,7 @@
 // Probe static-data.gaokao.cn to map gaokao.cn school_id → 教育部 zs_code (5-digit).
 // Walks ids in a range and writes a JSON index to docs/school-index.json.
 // Run with: pnpm probe -- --start 1 --end 100
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, renameSync } from "node:fs";
 import { gzipSync } from "node:zlib";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -24,7 +24,10 @@ function parseRange(): { start: number; end: number; concurrency: number } {
   };
   return {
     start: get("--start", 1),
-    end: get("--end", 3000),
+    // The live index already contains ids above 3000 — a 3000 default would
+    // silently rebuild a smaller index (~700 schools dropped). 6000 covers the
+    // observed id space with margin; misses are cheap 404s.
+    end: get("--end", 6000),
     concurrency: get("--concurrency", 25)
   };
 }
@@ -95,6 +98,7 @@ async function main() {
   // rate-limiting), every worker waits a bit before its next id so we back off
   // instead of hammering. Stays at 0 on a healthy run, so the default path is fast.
   let cooldownMs = 0;
+  let transientFailures = 0;
   const workers = Array.from({ length: concurrency }, async () => {
     // Light per-worker startup jitter so 25 workers don't fire in lockstep.
     await sleep(Math.floor(Math.random() * 100));
@@ -112,6 +116,7 @@ async function main() {
         process.stderr.write(`  ${id.toString().padStart(5)} → ${row.zs_code} ${row.name}\n`);
       } else if (transient) {
         // Timeout / network blip (possible rate-limiting): ramp cooldown, cap 2s.
+        transientFailures++;
         cooldownMs = Math.min(2000, cooldownMs + 200);
       }
       // Plain 404 miss: leave cooldown untouched (a sparse range stays fast).
@@ -119,11 +124,30 @@ async function main() {
   });
   await Promise.all(workers);
 
+  // Refuse to overwrite a good index with a partial one: transient failures
+  // mean ids were silently dropped (rate-limit / network trouble), and a
+  // truncated index would degrade every offline verb for every user.
+  const rangeSize = end - start + 1;
+  if (transientFailures > Math.max(50, rangeSize * 0.05)) {
+    process.stderr.write(
+      `\nABORT: ${transientFailures} transient failures (timeouts/network) out of ${rangeSize} ids — ` +
+        `the index would be missing schools. Not writing. Re-run when upstream is healthy.\n`
+    );
+    process.exit(1);
+  }
+  if (transientFailures > 0) {
+    process.stderr.write(`\nwarning: ${transientFailures} ids failed transiently and were skipped\n`);
+  }
+
   rows.sort((a, b) => a.gaokao_cn_id - b.gaokao_cn_id);
   const payload = JSON.stringify({ generated_at: new Date().toISOString(), rows });
   const outPath = resolve(CLI_ROOT, "data", "school-index.json.gz");
   mkdirSync(dirname(outPath), { recursive: true });
-  writeFileSync(outPath, gzipSync(Buffer.from(payload, "utf8")));
+  // Atomic replace: write tmp then rename, so an interrupted run can't leave a
+  // truncated .gz behind (which would break loadIndex for every verb).
+  const tmpPath = `${outPath}.tmp`;
+  writeFileSync(tmpPath, gzipSync(Buffer.from(payload, "utf8")));
+  renameSync(tmpPath, outPath);
   process.stderr.write(`\nwrote ${rows.length} schools → ${outPath}\n`);
 }
 

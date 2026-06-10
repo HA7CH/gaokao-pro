@@ -135,7 +135,7 @@ export const TOOLS = [
         f211: { type: "boolean", description: "Filter to 211 universities only." },
         dualClass: { type: "boolean", description: "Filter to 双一流 universities only." },
         belong: { type: "string", description: "Filter by 隶属 (e.g. '教育部', '工信部')." },
-        limit: { type: "number", description: "Cap results per bucket (冲/稳/保/out). Default unlimited." }
+        limit: { type: "number", description: "Cap results per bucket (冲/稳/保/out). Default 20." }
       },
       required: ["score", "province", "subjects"],
       additionalProperties: false
@@ -770,13 +770,16 @@ function getFilter(args: Record<string, unknown>) {
 export async function dispatch(name: string, args: Record<string, unknown>): Promise<unknown> {
   switch (name) {
     case "recommend": {
+      // Default limit 20/bucket: an unlimited run over a big province returns
+      // ~600KB (≈200k tokens) and gets rejected by MCP clients' output caps —
+      // the model would see nothing at all. 20/bucket keeps it readable.
       return recommend({
         score: getNum(args, "score"),
         provinceId: getProvinceId(args),
         subjects: getSubjects(args),
         rank: args.rank !== undefined ? Number(args.rank) : undefined,
         filter: getFilter(args),
-        limit: args.limit !== undefined ? Number(args.limit) : undefined
+        limit: args.limit !== undefined ? Number(args.limit) : 20
       });
     }
     case "top": {
@@ -794,7 +797,7 @@ export async function dispatch(name: string, args: Record<string, unknown>): Pro
         provinceId: getProvinceId(args),
         year: getNum(args, "year"),
         filter: getFilter(args),
-        limit: args.limit !== undefined ? Number(args.limit) : undefined
+        limit: args.limit !== undefined ? Number(args.limit) : 50
       });
     }
     case "school": {
@@ -1264,8 +1267,27 @@ export async function dispatch(name: string, args: Record<string, unknown>): Pro
 
 // ---- Server loop ----
 
+// Hard cap on a single tool result's serialized size. Claude Code rejects MCP
+// tool outputs over ~25k tokens wholesale (the model then sees NOTHING), so we
+// truncate with an explicit notice instead — partial data + a retry hint beats
+// a rejected response. 60KB ≈ 15k tokens leaves headroom.
+const MAX_TOOL_TEXT_BYTES = 60_000;
+
+function clampToolText(text: string): string {
+  if (Buffer.byteLength(text, "utf8") <= MAX_TOOL_TEXT_BYTES) return text;
+  let cut = text.slice(0, MAX_TOOL_TEXT_BYTES);
+  // Don't split a surrogate pair / multi-byte char at the boundary.
+  while (Buffer.byteLength(cut, "utf8") > MAX_TOOL_TEXT_BYTES) cut = cut.slice(0, -1);
+  return cut + `\n…[输出被截断：完整结果 ${Buffer.byteLength(text, "utf8")} 字节超过单次工具输出上限。请加 limit / 筛选参数（如 --985、--limit 20）缩小范围后重查。]`;
+}
+
 async function handle(req: JsonRpc): Promise<JsonRpc | null> {
   const { id, method, params = {} } = req;
+  // JSON-RPC 2.0: a message without an id is a notification — the server MUST
+  // NOT reply (not even with an error). Claude Code routinely sends
+  // notifications/cancelled when the user interrupts a slow tool call; replying
+  // with id:null error objects pollutes the protocol stream.
+  if (id === undefined) return null;
   try {
     switch (method) {
       case "initialize":
@@ -1282,10 +1304,25 @@ async function handle(req: JsonRpc): Promise<JsonRpc | null> {
       case "tools/call": {
         const name = params.name as string;
         const args = (params.arguments ?? {}) as Record<string, unknown>;
-        const result = await dispatch(name, args);
-        return rpcOk(id, {
-          content: [{ type: "text", text: JSON.stringify(result, null, 2) }]
-        });
+        // Unknown tool = caller error → protocol error -32602 (invalid params).
+        if (!TOOLS.some((t) => t.name === name)) {
+          return rpcErr(id, -32602, `unknown tool: ${name}`);
+        }
+        // Execution failures (upstream down, bad args, no data) go back as an
+        // isError tool RESULT, not a protocol error — per MCP spec this keeps
+        // the message visible to the LLM so it can self-correct.
+        try {
+          const result = await dispatch(name, args);
+          return rpcOk(id, {
+            content: [{ type: "text", text: clampToolText(JSON.stringify(result, null, 2)) }]
+          });
+        } catch (err) {
+          const msg = err instanceof Error ? err.message : String(err);
+          return rpcOk(id, {
+            content: [{ type: "text", text: `Error: ${msg}` }],
+            isError: true
+          });
+        }
       }
       case "ping":
         return rpcOk(id, {});
@@ -1310,9 +1347,15 @@ export async function runMcpServer(): Promise<void> {
       process.stdout.write(JSON.stringify(rpcErr(null, -32700, "Parse error")) + "\n");
       continue;
     }
-    const res = await handle(req);
-    if (res !== null) {
-      process.stdout.write(JSON.stringify(res) + "\n");
-    }
+    // Dispatch concurrently instead of awaiting inline: a slow network-backed
+    // tool call (find can take tens of seconds) must not block ping/cancel or
+    // queued requests behind it. JSON-RPC over stdio allows out-of-order
+    // responses (matched by id), and each write() enqueues one whole chunk so
+    // response lines never interleave.
+    void handle(req).then((res) => {
+      if (res !== null) {
+        process.stdout.write(JSON.stringify(res) + "\n");
+      }
+    });
   }
 }

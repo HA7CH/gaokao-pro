@@ -8,7 +8,7 @@
 ```
 跑 `npx gaokao-pro@latest help` 把命令摸清楚，然后帮我规划 2026 年的高考志愿。
 
-先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，先跑 rank-tables 确认该省收录的年份科类，参考 2024-2025 历年一分一段做粗估位次并向我说明数据年份；等高考真实分数出来、且 2026 当年一分一段已收录后再精算。
 
 每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。
 
@@ -48,7 +48,7 @@ Tools Claude can call (via Bash or MCP):
 | `actual`    | Backward-looking actual admissions: 最高/最低/平均分 + 最低位次              |
 | `batch`     | Scan many schools' actual data in one parallel call (fast 冲稳保 triage)    |
 | `scores`    | Historical min-score time series for a (school, province) pair            |
-| `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
+| `rank`      | score ↔ 全省位次 via official 一分一段表 (30 省 2024+2025 双年份)        |
 | `provinces` | List 31 provinces with their 新高考 reform mode                            |
 | `cache`     | Inspect/clear the gaokao.cn response cache (24h TTL; repeat calls instant) |
 | `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
@@ -58,7 +58,7 @@ Data sources:
   no auth, no sign, no rate limit. Powers `school` / `plan` / `actual` /
   `scores` / `find` / the offline index for `recommend` / `top`.
 - **`cli/data/yifenyiduan/`** — extracted 一分一段表 JSON, per province per
-  year per track. Beijing 2023-2025 ingested. Roadmap: 31 provinces.
+  year per track. 30 省 2024+2025 双年份已收录（西藏官方不发布逐分表）。
 
 ## Repo
 
@@ -78,8 +78,8 @@ gaokao-pro/
 │   │   ├── codes.ts                # 31 province codes + 新高考 reform map
 │   │   └── provinces/              # province-bureau fallback adapters
 │   ├── data/
-│   │   ├── school-index.json.gz    # 2,422-school corpus (1 MB gzipped)
-│   │   └── yifenyiduan/            # 一分一段 (beijing 2023/24/25 today)
+│   │   ├── school-index.json.gz    # 3,145-school corpus (gzipped)
+│   │   └── yifenyiduan/            # 一分一段 (30 省 × 2024/2025)
 │   └── test/smoke.ts               # live API smoke (10 checks)
 ├── src/                            # gaokao.ha7ch.com landing page
 └── docs/                           # data-sources scan + schema notes

@@ -7,7 +7,7 @@
 ```
 跑 `npx gaokao-pro@latest help` 把命令摸清楚，然后帮我规划 2026 年的高考志愿。
 
-先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
+先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，先跑 rank-tables 确认该省收录的年份科类，参考 2024-2025 历年一分一段做粗估位次并向我说明数据年份；等高考真实分数出来、且 2026 当年一分一段已收录后再精算。
 
 每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。
 ```
@@ -55,7 +55,7 @@ local index (1 MB gzipped) so `recommend` and `top` run fully offline.
 | `plan`      | Forward-looking admission plan per (school, year, province)               |
 | `actual`    | Backward-looking actual admissions: 最低分 / 平均分 / 最低位次              |
 | `scores`    | Historical min-score time series for a (school, province) pair            |
-| `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
+| `rank`      | score ↔ 全省位次 via official 一分一段表 (30 省 2024+2025 双年份)        |
 | `provinces` | List supported provinces with 新高考 reform regime                          |
 | `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
 | `groups`    | 院校专业组 lookup (121 schools × 11 provinces × ~5450 groups × ~30,000 majors)  |
@@ -99,7 +99,7 @@ The deltas are surfaced in every result so you can override the cutoffs.
 ## Refreshing the index
 
 The bundled `data/school-index.json.gz` was probed against
-`static-data.gaokao.cn` on **2026-05-22** (2,422 schools, includes 2023-2025
+`static-data.gaokao.cn` on **2026-05-22** (3,145 schools, includes 2023-2025
 historical min scores). To rebuild against the latest upstream:
 
 ```bash

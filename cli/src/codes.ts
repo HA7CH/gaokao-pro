@@ -58,8 +58,11 @@ export function resolveProvince(input: string | number): ProvinceId | null {
   if (Number.isFinite(numeric) && numeric in PROVINCES) {
     return numeric as ProvinceId;
   }
+  // Accept full administrative names too — parents type 河南省 / 北京市 /
+  // 广西壮族自治区, not the bare registry key.
+  const stripped = trimmed.replace(/(省|市|壮族自治区|回族自治区|维吾尔自治区|自治区|特别行政区)$/, "");
   for (const [id, p] of Object.entries(PROVINCES)) {
-    if (p.name === trimmed || p.pinyin === trimmed) {
+    if (p.name === trimmed || p.pinyin === trimmed || p.name === stripped) {
       return Number(id) as ProvinceId;
     }
   }
