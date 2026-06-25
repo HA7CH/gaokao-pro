@@ -118,6 +118,48 @@ def extract_rows_trust_cumulative(htmltext: str):
     return rows
 
 
+def extract_rows_multi_block_cumulative(htmltext: str):
+    """For 'newspaper-style' cumulative-only tables that pack MANY (分数段, 累计人数)
+    pairs side-by-side across a single <tr> (e.g. 宁夏 2026: each row holds ~6 blocks
+    'NNN分 | cum | (spacer) | NNN分 | cum | ...'). We can't use fixed column indices
+    because the pairs repeat horizontally and rows wrap by column-block, not by score.
+
+    Strategy: scan EVERY cell of EVERY row across ALL tables; whenever a cell looks
+    like a score ('NNN分', not the '分数段 累计人数' header) take the NEXT non-empty
+    cell as that score's cumulative (位次). Collect into a score→cumulative map (last
+    write wins; duplicates are identical), then sort by descending score and DERIVE
+    count = cum[i] - cum[i-1]. The cumulative column is taken verbatim from the page;
+    only the unused per-segment count is synthesized so the file is self-consistent.
+    The running-sum + strictly-descending gates in validate() still apply, so a
+    mis-paired cell or a non-monotonic cumulative fails the gate rather than shipping."""
+    score_re = re.compile(r"\d+\s*分")
+    pairs = {}  # score -> cumulative
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            i = 0
+            while i < len(cells):
+                c = cells[i]
+                if score_re.search(c) and "分数段" not in c:
+                    score = parse_score(c)
+                    j = i + 1
+                    while j < len(cells) and cells[j].strip() == "":
+                        j += 1
+                    if j < len(cells):
+                        cum = parse_int(cells[j])
+                        if score is not None and cum is not None:
+                            pairs[score] = cum
+                            i = j
+                i += 1
+    rows = []
+    prev_cum = 0
+    for score in sorted(pairs, reverse=True):
+        cum = pairs[score]
+        rows.append({"score": score, "count": cum - prev_cum, "cumulative": cum})
+        prev_cum = cum
+    return rows
+
+
 def extract_rows_rank_range(htmltext: str):
     """For 3-col tables laid out as [分数, 位次区间, 同分人数] — e.g.
     '706~750 | 1~14 | 14' — where the cumulative (累计位次) is NOT its own
@@ -146,14 +188,22 @@ def extract_rows_rank_range(htmltext: str):
     return best
 
 
-def extract_rows_cols(htmltext: str, score_i: int, count_i: int, cum_i: int):
+def extract_rows_cols(htmltext: str, score_i: int, count_i: int, cum_i: int, trust_cum: bool = False):
     """For tables whose 分数/人数/累计 live at FIXED (non-leading) column indices —
     e.g. 青海's [科类, 投档类型, 总分, 人数, 累计数] (cols 2,3,4) or 河北's side-by-side
     [分数, 物理人数, 物理累计, 历史人数, 历史累计] where physics=cols 0,1,2 and
     history=cols 0,3,4. Takes those three columns verbatim; rows whose selected cells
     don't parse (headers / notes / the empty other-track cells) are skipped. The
     running-sum gate in validate() independently re-derives sum(count)==cumulative,
-    so a wrong column pick fails the gate rather than shipping bad data."""
+    so a wrong column pick fails the gate rather than shipping bad data.
+
+    With trust_cum=True (--cols + --trust-cumulative), the CUM column is taken
+    verbatim as the canonical 位次 and the per-segment count is DERIVED as
+    cum[i]-cum[i-1] instead of read from count_i. This handles side-by-side
+    official tables (e.g. 山东's [分数段, 全体本段人数, 全体累计, ...选考各科...])
+    whose TOP bucket merges '≥X' so its printed 本段人数 < its 累计 — the cumulative
+    is still exact, only the unused count column is synthesized so the file is
+    self-consistent. Rows are kept in served order; count uses the running diff."""
     need = max(score_i, count_i, cum_i)
     best = []
     for table in re.findall(r"<table.*?</table>", htmltext, re.S):
@@ -163,13 +213,25 @@ def extract_rows_cols(htmltext: str, score_i: int, count_i: int, cum_i: int):
             if len(cells) <= need:
                 continue
             score = parse_score(cells[score_i])
-            count = parse_int(cells[count_i])
             cum = parse_int(cells[cum_i])
-            if score is None or count is None or cum is None:
-                continue  # header / note / empty other-track row
-            parsed.append({"score": score, "count": count, "cumulative": cum})
+            if trust_cum:
+                if score is None or cum is None:
+                    continue  # header / note / empty other-track row
+                parsed.append({"score": score, "cumulative": cum})
+            else:
+                count = parse_int(cells[count_i])
+                if score is None or count is None or cum is None:
+                    continue  # header / note / empty other-track row
+                parsed.append({"score": score, "count": count, "cumulative": cum})
         if len(parsed) > len(best):
             best = parsed
+    if trust_cum:
+        rows = []
+        prev_cum = 0
+        for r in best:
+            rows.append({"score": r["score"], "count": r["cumulative"] - prev_cum, "cumulative": r["cumulative"]})
+            prev_cum = r["cumulative"]
+        return rows
     return best
 
 
@@ -217,6 +279,11 @@ def main():
                     help="for [分数, 位次区间, 同分人数] tables: cumulative = END of the "
                          "位次区间 range, count = 同分人数. Both columns taken verbatim; "
                          "running-sum gate re-checks them (see extract_rows_rank_range).")
+    ap.add_argument("--multi-block-cumulative", action="store_true",
+                    help="for newspaper-style cumulative-only tables packing many "
+                         "(分数段, 累计人数) pairs side-by-side per row (e.g. 宁夏 2026): "
+                         "scan all cells for 'NNN分'→next cumulative, sort desc, derive "
+                         "count (see extract_rows_multi_block_cumulative).")
     ap.add_argument("--cols",
                     help="comma-separated 0-based column indices SCORE,COUNT,CUM for tables "
                          "where these aren't the first 3 cells — e.g. 青海 '2,3,4' (投档类型 "
@@ -253,7 +320,9 @@ def main():
         if len(idx) != 3:
             print(f"ARG-FAIL {a.province}-{a.year}-{a.track}: --cols needs 3 indices SCORE,COUNT,CUM", file=sys.stderr)
             sys.exit(4)
-        rows = extract_rows_cols(htmltext, idx[0], idx[1], idx[2])
+        rows = extract_rows_cols(htmltext, idx[0], idx[1], idx[2], trust_cum=a.trust_cumulative)
+    elif a.multi_block_cumulative:
+        rows = extract_rows_multi_block_cumulative(htmltext)
     elif a.rank_range:
         rows = extract_rows_rank_range(htmltext)
     elif a.trust_cumulative:
@@ -292,6 +361,7 @@ def main():
         "note": (a.source_note
                  + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")
                  + ("；cumulative 取自官方[位次区间]右端，count 取自[同分人数]列" if a.rank_range else "")
+                 + ("；官方表为横向多分段块累计制，按分数降序提取(分数段,累计人数)对、count 由 cumulative 反推" if a.multi_block_cumulative else "")
                  + (f"；分数/人数/累计取自官方表第 {a.cols} 列（含投档类型前缀/并排双轨版式）" if a.cols else "")).lstrip("；"),
         "count": n,
         "rows": rows,
