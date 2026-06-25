@@ -57,8 +57,17 @@ def parse_int(s: str):
 def parse_score(s: str):
     """A score cell is either '653' or a range like '699-750' / '750以上' / '200及以下'.
     We store the FLOOR of the bucket so that scoreToRank ('first row whose
-    score <= input') maps every score in the bucket to the bucket's cumulative."""
+    score <= input') maps every score in the bucket to the bucket's cumulative.
+
+    Special case: '以下' (below/less-than) bottom-bucket labels like '100以下' or
+    '200及以下' represent a catch-all range [0, X-1].  The floor is 0 so that
+    scoreToRank will correctly match any user score that falls in the bucket.
+    (Without this, '100以下' would parse as 100, colliding with the explicit
+    score=100 row above it and failing the strictly-descending validation gate.)"""
     s = s.replace("－", "-").replace("—", "-").strip()
+    if "以下" in s:
+        # Bottom catch-all bucket: floor is 0 (covers all scores from 0 to X-1)
+        return 0
     nums = [int(x) for x in re.findall(r"\d+", s)]
     if not nums:
         return None
@@ -113,6 +122,48 @@ def extract_rows_trust_cumulative(htmltext: str):
     rows = []
     prev_cum = 0
     for score, cum in best:
+        rows.append({"score": score, "count": cum - prev_cum, "cumulative": cum})
+        prev_cum = cum
+    return rows
+
+
+def extract_rows_multi_col_trust_cumulative(htmltext: str):
+    """For multi-column newspaper-style 一分一段表 (e.g. 宁夏 2026) where each HTML
+    row contains N pairs of (分数段, 累计人数) — the table is typeset in several
+    side-by-side column groups so that all score levels fit on one printed page.
+    Strategy: scan every <tr> in every <table>, walk cell-by-cell; whenever a
+    cell matches the pattern 'NNN分' and the next non-empty cell is a plain
+    integer, record (score, cumulative). Merge all (score, cumulative) pairs
+    across all tables, deduplicate by score, sort descending, then derive
+    count = cum[i] - cum[i-1] (same semantics as extract_rows_trust_cumulative).
+    The running-sum gate in validate() holds by construction."""
+    all_pairs: list[tuple[int, int]] = []
+    seen_scores: set[int] = set()
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            i = 0
+            while i < len(cells):
+                # A score cell looks like '658分' after cell_text cleanup
+                score = parse_score(cells[i])
+                if score is not None and "分" in cells[i] and score not in seen_scores:
+                    # find next non-empty cell → cumulative
+                    j = i + 1
+                    while j < len(cells) and not cells[j]:
+                        j += 1
+                    if j < len(cells):
+                        cum = parse_int(cells[j])
+                        if cum is not None and cum > 0:
+                            all_pairs.append((score, cum))
+                            seen_scores.add(score)
+                            i = j + 1
+                            continue
+                i += 1
+    # sort descending; derive counts from cumulative differences
+    all_pairs.sort(key=lambda x: -x[0])
+    rows = []
+    prev_cum = 0
+    for score, cum in all_pairs:
         rows.append({"score": score, "count": cum - prev_cum, "cumulative": cum})
         prev_cum = cum
     return rows
@@ -173,6 +224,36 @@ def extract_rows_cols(htmltext: str, score_i: int, count_i: int, cum_i: int):
     return best
 
 
+def extract_rows_cols_trust_cumulative(htmltext: str, score_i: int, cum_i: int):
+    """Combined --cols + --trust-cumulative mode: for wide multi-track tables
+    (e.g. 山东 3+3 全体 columns) where the cumulative column at a fixed index is
+    authoritative but the count column may be offset (top-suppressed rows, or
+    multiple-ranking cumulatives). Takes score_i and cum_i; derives count from
+    successive cumulative differences (same semantics as extract_rows_trust_cumulative).
+    Running-sum holds by construction; only the cumulative column is published."""
+    need = max(score_i, cum_i)
+    best_parsed = []
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        parsed = []
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            if len(cells) <= need:
+                continue
+            score = parse_score(cells[score_i])
+            cum = parse_int(cells[cum_i])
+            if score is None or cum is None:
+                continue  # header / note / empty row
+            parsed.append((score, cum))
+        if len(parsed) > len(best_parsed):
+            best_parsed = parsed
+    rows = []
+    prev_cum = 0
+    for score, cum in best_parsed:
+        rows.append({"score": score, "count": cum - prev_cum, "cumulative": cum})
+        prev_cum = cum
+    return rows
+
+
 def validate(rows):
     """Raise ValueError on any integrity violation. Returns (n, top, bottom)."""
     if len(rows) < 20:
@@ -212,11 +293,21 @@ def main():
     ap.add_argument("--trust-cumulative", action="store_true",
                     help="for cumulative-only / top-suppressed official tables: take "
                          "cumulative verbatim and derive count from it (see "
-                         "extract_rows_trust_cumulative). Running-sum holds by construction.")
+                         "extract_rows_trust_cumulative). Running-sum holds by construction. "
+                         "When combined with --cols, uses extract_rows_cols_trust_cumulative: "
+                         "fixed score/cum col indices from --cols (count index ignored), "
+                         "derives count from cumulative differences — for wide multi-track "
+                         "tables where the cumulative column is authoritative (e.g. 山东 3+3).")
     ap.add_argument("--rank-range", action="store_true",
                     help="for [分数, 位次区间, 同分人数] tables: cumulative = END of the "
                          "位次区间 range, count = 同分人数. Both columns taken verbatim; "
                          "running-sum gate re-checks them (see extract_rows_rank_range).")
+    ap.add_argument("--multi-col", action="store_true",
+                    help="for multi-column newspaper-style tables (e.g. 宁夏 2026) where "
+                         "each HTML row contains N (分数段, 累计人数) pairs laid out in "
+                         "several side-by-side column groups. Extracts all pairs from all "
+                         "tables, merges, sorts descending, derives count from cumulative "
+                         "differences (see extract_rows_multi_col_trust_cumulative).")
     ap.add_argument("--cols",
                     help="comma-separated 0-based column indices SCORE,COUNT,CUM for tables "
                          "where these aren't the first 3 cells — e.g. 青海 '2,3,4' (投档类型 "
@@ -253,7 +344,14 @@ def main():
         if len(idx) != 3:
             print(f"ARG-FAIL {a.province}-{a.year}-{a.track}: --cols needs 3 indices SCORE,COUNT,CUM", file=sys.stderr)
             sys.exit(4)
-        rows = extract_rows_cols(htmltext, idx[0], idx[1], idx[2])
+        if a.trust_cumulative:
+            # Combined mode: use fixed col indices but derive count from cumulative differences.
+            # The COUNT index (idx[1]) is ignored; only SCORE (idx[0]) and CUM (idx[2]) are used.
+            rows = extract_rows_cols_trust_cumulative(htmltext, idx[0], idx[2])
+        else:
+            rows = extract_rows_cols(htmltext, idx[0], idx[1], idx[2])
+    elif a.multi_col:
+        rows = extract_rows_multi_col_trust_cumulative(htmltext)
     elif a.rank_range:
         rows = extract_rows_rank_range(htmltext)
     elif a.trust_cumulative:
@@ -292,7 +390,8 @@ def main():
         "note": (a.source_note
                  + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")
                  + ("；cumulative 取自官方[位次区间]右端，count 取自[同分人数]列" if a.rank_range else "")
-                 + (f"；分数/人数/累计取自官方表第 {a.cols} 列（含投档类型前缀/并排双轨版式）" if a.cols else "")).lstrip("；"),
+                 + (f"；分数/人数/累计取自官方表第 {a.cols} 列（含投档类型前缀/并排双轨版式）" if a.cols else "")
+                 + ("；多栏并排版式（宁夏式）：跨表合并所有(分数,累计)对，count 由累计差反推" if a.multi_col else "")).lstrip("；"),
         "count": n,
         "rows": rows,
     }
