@@ -1,7 +1,69 @@
 # 一分一段表 ingest sources (per province × year)
 
 URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
-62 records). The full source URLs are still listed below for the OCR backlog.
+93 records incl. all 31 provinces × 2026). The full source URLs are listed below.
+
+> **复查指引**：每个已入库省份的 JSON(`cli/data/yifenyiduan/<省>-<年>-<轨>.json`)的
+> `source_url` 字段即真实表来源；下方 2026 清单把每省的官方源 + eol/学信网 转载 + 状态都列齐，
+> 便于人工或 AI 技能回原网站核对。**未入库省份也给了官方复查入口**（图片版需 OCR / 待发布）。
+
+## 2026 来源清单（出分季实时维护）
+
+### 全国聚合页（持续更新，复查首选）
+
+| 聚合页 | URL | 说明 |
+|---|---|---|
+| **学信网·阳光高考**（教育部官方） | <https://gaokao.chsi.com.cn/gkxx/ss/202606/20260624/2293845984.html> | 《2026年部分省市高考分数段统计汇总（一分一段）（陆续发布）》。各省发布后**陆续加入**，直链官方源或 chsi 自托管页。**复查首选**。 |
+| 中国教育在线 eol.cn | <https://www.eol.cn/e_html/gk/gkfsd/index.shtml> | 各省 eol 转载入口。某省仅占位锚点（无 202606 链接）= 该省 2026 未发布。slug：陕西=`shan_xi_sheng`、山西=`shan_xi`。 |
+
+### 各省状态与来源（截至 2026-06-25 出分主战日，16 省已入库）
+
+✅ 已入库（程序化抓取 + running-sum 不变式 + 独立复核通过）：
+
+| 省 | 轨 | 来源（source_url） | 格式 |
+|---|---|---|---|
+| 北京 | combined | bjeea.cn `/html/gkgz/tzgg/2026/0624/88238.html`（+官方 PDF 文本层） | pdf_textlayer |
+| 天津 | combined | zhaokao.net `/gkck/doc/003/000/115/00300011511_809a8ff0.pdf` | pdf_textlayer |
+| 山东 | combined | sdzk.cn `NewsInfo.aspx?NewsID=7258`（夏季文化）/ eol `shan_dong/...2749145` | html_table |
+| 辽宁 | 物/历 | lnzsks.com `/lnzkbfiles/2026/lns2026gkcjtjb0624clhptll01.pdf`(物)`...lw02.pdf`(历) | pdf_textlayer |
+| 吉林 | 物/历 | jleea.com.cn 官方 PDF `/u/cms/www/2026/06/25/...pdf` | pdf_textlayer |
+| 安徽 | 物/历 | ahzsks.cn `/ggl/8996.htm` → PDF `/pic/file/20260625/...335.pdf` | pdf_textlayer |
+| 广西 | 物/历 | gxeea.cn `/2026yfyd/yifenyidang/2026_yifenyidang_wuli_qg.html`(物)`...lishi_qg.html`(历) | html_table |
+| 陕西 | 物/历 | eol `shan_xi_sheng/...2749139`(物)`...2749134`(历) | html_table |
+| 宁夏 | 物/历 | eol `ning_xia/...2749206`(物)`...2749197`(历)（横向多块累计制） | html_table |
+| 重庆 | 物/历 | eol `chong_qing/...2748895`(物)`...2748900`(历) / 官方 cqksy.cn `.../yfd/fdb.htm` | html_table |
+| 河北 | 物/历 | eol `he_bei/...2748920`（物理/历史并排） | html_table |
+| 黑龙江 | 物/历 | eol `hei_long_jiang/...2748724`(物)`...2748730`(历) | html_table |
+| 河南 | 物/历 | hfplg.com `/yfyd/373103q377.html`(物)`/yfyd/37w3102313.html`(历) / 官方 haeea.cn | html_table |
+| 内蒙古 | 物/历 | eol `nei_meng/...2748908`(物)`...2748907`(历) / 官方 nm.zsks.cn `/fzlm/26gktj/` | html_table |
+| 青海 | 物/历 | eol `qing_hai/...2749055`(物)`...2749052`(历)（投档类型前缀列） | html_table |
+| 上海 | combined | shmeea.edu.cn `/download/20260623/2/0.pdf`（高分段不公布） | pdf_textlayer |
+
+🖼️ 已发布但**仅图片版**（数据已存在，需 OCR；本批未入库）：
+
+| 省 | 官方源 / 复查入口 | 图片说明 |
+|---|---|---|
+| 江苏 | jseea.cn `/webfile/index/index_zkxx/2026-06-24/7475494421979467776.html`；eol `jiang_su/...2748904` | 第一阶段逐分段统计表，官方仅 JPG（物 `...3208191910823240.jpg` / 历 `...3205871556923388.jpg`） |
+| 福建 | eol `fu_jian/...2748961`(物)`...2748952`(历)；chsi `...2293847630`/`...2293847635` | 成绩分布（物理/历史科目组），全网仅 PNG（每轨 4 张） |
+| 湖北 | hbea.edu.cn `/html/2026-06/15962.html`；eol `hu_bei/dongtai/`；chsi `...2293847748` | 总分一分一段（首选物理/历史），官方仅 PNG `/files/2026-06/1-10.png`（4 列块并排） |
+
+⏳ **6/25 当日仅出分数线、一分一段表尚未发布**（给官方复查入口；预计 6/26–7 初）：
+
+| 省 | 官方复查入口 | eol 频道 | 备注 |
+|---|---|---|---|
+| 海南 | ea.hainan.gov.cn `/ywdt/ptgkyjszsb/` | `hai_nan/dontai/` | 标准分制；2025 是 7/2 发 |
+| 浙江 | zjzs.net `/col/col45/index.html`（复查 id>12449） | `zhe_jiang/dongtai/` | 总分分数段表多为 PDF |
+| 江西 | jxeea.cn `/ptgk49/list.html` | `jiang_xi/dongtai/` | 预计 6/26 左右 |
+| 湖南 | jyt.hunan.gov.cn | `hu_nan/dongtai/` | **双口径，取含全国性加分列** |
+| 广东 | eea.gd.gov.cn `/zwgk/sjfb/tjsj/` | `guang_dong/dongtai/` | 分数段走官方 ZIP 附件，需解压 |
+| 四川 | yfyd.sceeic.cn（查询平台，"系统更新中"）/ sceea.cn | `si_chuan/dongtai/` | 2025 是 7/2 发 |
+| 云南 | ynzs.cn | `yun_nan/dongtai/` | 官方仅图片发分数线 |
+| 甘肃 | ganseea.cn | `gan_su/dongtai/` | 2025 是 7/2 发 |
+| 山西 | sxkszx.cn | `shan_xi/dongtai/`（slug=shan_xi） | — |
+| 贵州 | eaagz.org.cn | `gui_zhou/dongtai/` | 2025 为 PDF/图片 |
+| 新疆 | xjzk.gov.cn `/gkgz/ptgk/tzgg/` | `xin_jiang/dongtai/` | 老高考文/理；随志愿填报发 |
+
+> 西藏：官方不发布逐分一分一段表，仅发各批次最低控制分数线，`rank` 列保持"不支持"。
 
 ## Ingest pipeline (built 2026-05-26)
 
