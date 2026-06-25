@@ -98,3 +98,46 @@ export function inferDefaultTrack(provinceId: ProvinceId): string {
   if (reform === "3+1+2") return "physics";
   return "science"; // old-reform 文/理 default to 理 (science) bucket
 }
+
+/**
+ * Resolve the rank-table track key from a province + the student's subjects.
+ * 3+3 → "combined"; 3+1+2 → "physics"/"history" by subject; 老高考 →
+ * "science"/"liberal". Falls back to inferDefaultTrack when subjects are silent.
+ */
+export function resolveRankTrack(provinceId: ProvinceId, subjects: string[]): string {
+  const reform = PROVINCES[provinceId].reform;
+  if (reform === "3+3") return "combined";
+  const has = (k: string) => subjects.some((s) => s.includes(k));
+  if (reform === "3+1+2") return has("物理") ? "physics" : has("历史") ? "history" : inferDefaultTrack(provinceId);
+  return has("物理") || has("理") ? "science" : has("历史") || has("文") ? "liberal" : inferDefaultTrack(provinceId);
+}
+
+/** Newest year for which we hold a rank table for (province, track), or null. */
+export function newestRankTableYear(provinceId: ProvinceId, track: string): number | null {
+  const pin = pinyinFor(provinceId);
+  const years = listRankTables()
+    .filter((t) => t.province === pin && t.track === track)
+    .map((t) => t.year);
+  return years.length ? Math.max(...years) : null;
+}
+
+/**
+ * Derive an equivalent 分数 from a student-supplied 全省位次 (rank), using the
+ * newest available 一分一段 table for (province, track inferred from subjects).
+ * Lets a student who only knows their 位次 still run recommend/top. Returns null
+ * when we have no table for that province or the rank is out of the table's range.
+ */
+export function deriveScoreFromRank(
+  provinceId: ProvinceId,
+  subjects: string[],
+  rank: number
+): { score: number; year: number; track: string } | null {
+  const track = resolveRankTrack(provinceId, subjects);
+  const year = newestRankTableYear(provinceId, track);
+  if (year === null) return null;
+  const table = loadRankTable(provinceId, year, track);
+  if (!table) return null;
+  const score = rankToScore(table, rank);
+  if (score === null) return null;
+  return { score, year, track };
+}
