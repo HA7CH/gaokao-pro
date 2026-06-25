@@ -118,6 +118,34 @@ def extract_rows_trust_cumulative(htmltext: str):
     return rows
 
 
+def extract_rows_rank_range(htmltext: str):
+    """For 3-col tables laid out as [分数, 位次区间, 同分人数] — e.g.
+    '706~750 | 1~14 | 14' — where the cumulative (累计位次) is NOT its own
+    column but the END of the 位次区间 (rank range), and the per-score count is
+    the 同分人数 column. Take BOTH published columns verbatim: cumulative = the
+    end of the rank range, count = 同分人数. Nothing is synthesized — the
+    running-sum gate in validate() independently re-derives that
+    sum(count)==cumulative, so a mis-paired column would fail the gate."""
+    best = []
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        parsed = []
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            if len(cells) != 3:
+                continue
+            score = parse_score(cells[0])
+            # rank range: 'start~end' (also -, －, —, ～ separators) → cumulative = end
+            rng = re.findall(r"\d+", cells[1].replace("，", "").replace(",", ""))
+            count = parse_int(cells[2])
+            if score is None or not rng or count is None:
+                continue  # header / footnote / non-data row
+            cum = int(rng[-1])
+            parsed.append({"score": score, "count": count, "cumulative": cum})
+        if len(parsed) > len(best):
+            best = parsed
+    return best
+
+
 def validate(rows):
     """Raise ValueError on any integrity violation. Returns (n, top, bottom)."""
     if len(rows) < 20:
@@ -158,6 +186,10 @@ def main():
                     help="for cumulative-only / top-suppressed official tables: take "
                          "cumulative verbatim and derive count from it (see "
                          "extract_rows_trust_cumulative). Running-sum holds by construction.")
+    ap.add_argument("--rank-range", action="store_true",
+                    help="for [分数, 位次区间, 同分人数] tables: cumulative = END of the "
+                         "位次区间 range, count = 同分人数. Both columns taken verbatim; "
+                         "running-sum gate re-checks them (see extract_rows_rank_range).")
     ap.add_argument("--out")
     ap.add_argument("--write", action="store_true")
     a = ap.parse_args()
@@ -184,7 +216,12 @@ def main():
         )
         sys.exit(5)
 
-    rows = extract_rows_trust_cumulative(htmltext) if a.trust_cumulative else extract_rows(htmltext)
+    if a.rank_range:
+        rows = extract_rows_rank_range(htmltext)
+    elif a.trust_cumulative:
+        rows = extract_rows_trust_cumulative(htmltext)
+    else:
+        rows = extract_rows(htmltext)
     try:
         n, top, bottom = validate(rows)
     except ValueError as e:
@@ -214,7 +251,9 @@ def main():
         "track_cn": a.track_cn,
         "source": "省考试院 / eol.cn (一分一段表全表)",
         "source_url": a.url,
-        "note": (a.source_note + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")).lstrip("；"),
+        "note": (a.source_note
+                 + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")
+                 + ("；cumulative 取自官方[位次区间]右端，count 取自[同分人数]列" if a.rank_range else "")).lstrip("；"),
         "count": n,
         "rows": rows,
     }
