@@ -914,7 +914,7 @@
    "source_org": "北京教育考试院 bjeea.cn",
    "year_verified_from": "title+url",
    "format": "pdf_textlayer",
-   "notes": "官方 PDF 有文本层，pdftotext 抽 313 行。",
+   "notes": "官方 PDF 有文本层，pdftotext 抽 313 行。（已入库,见 cli/data/yifenyiduan/）",
    "source_pdf_url": "https://www.bjeea.cn/uploads/soft/260625/2026年北京市高考考生分数分布.pdf",
    "chsi_url": "https://www.bjeea.cn/html/gkgz/tzgg/2026/0624/88238.html"
   },
@@ -929,8 +929,8 @@
    "source_url": "http://www.zhaokao.net/gkck/doc/003/000/115/00300011511_809a8ff0.pdf",
    "source_org": "天津招考资讯网 zhaokao.net",
    "year_verified_from": "title+url",
-   "format": "pdf_textlayer",
-   "notes": "总成绩分数档(含政策加分) PDF 文本层，381 行。zhaokao.net 仅 http 可达。",
+   "format": "html_table",
+   "notes": "总成绩分数档(含政策加分) PDF 文本层，381 行。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293845980.html"
   },
   {
@@ -945,7 +945,7 @@
    "source_org": "山东省教育招生考试院 sdzk.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "夏季高考文化成绩一分一段表(全体列)，并排版式取 0,1,2 列+trust_cum，548 行。",
+   "notes": "夏季高考文化成绩一分一段表(全体列)，并排版式取 0,1,2 列+trust_cum，548 行。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.sdzk.cn/NewsInfo.aspx?NewsID=7258",
    "eol_url": "https://gaokao.eol.cn/shan_dong/dongtai/202606/t20260625_2749145.shtml"
   },
@@ -958,11 +958,11 @@
     "历史类"
    ],
    "status": "ingested",
-   "source_url": "https://www.lnzsks.com/lnzkbfiles/2026/lns2026gkcjtjb0624clhptll01.pdf",
+   "source_url": "https://www.lnzsks.com/lnzkbfiles/2026/lns2026gkcjtjb0624clhptlw02.pdf",
    "source_org": "辽宁招生考试之窗 lnzsks.com",
    "year_verified_from": "title+url",
    "format": "pdf_textlayer",
-   "notes": "成绩统计表 官方 PDF 文本层。物理 558 行 / 历史 518 行。历史 PDF: lns2026gkcjtjb0624clhptlw02.pdf。",
+   "notes": "成绩统计表 官方 PDF 文本层。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847495.html"
   },
   {
@@ -974,11 +974,11 @@
     "历史类"
    ],
    "status": "ingested",
-   "source_url": "https://www.jleea.com.cn/u/cms/www/2026/06/25/2069968590488035329.pdf",
+   "source_url": "https://www.jleea.com.cn/u/cms/www/2026/06/25/2069968368907149314.pdf",
    "source_org": "吉林省教育考试院 jleea.com.cn",
    "year_verified_from": "title+url",
-   "format": "pdf_textlayer",
-   "notes": "普通1分段表(含照顾分) 官方 PDF。物理 708 行(至0分) / 历史 679 行。历史 PDF: ...2069968368907149314.pdf。",
+   "format": "html_table",
+   "notes": "普通1分段表(含照顾分) 官方 PDF。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.jleea.com.cn/site1/xiangqingye/202730/"
   },
   {
@@ -994,7 +994,7 @@
    "source_org": "安徽省教育招生考试院 ahzsks.cn",
    "year_verified_from": "title+url",
    "format": "pdf_textlayer",
-   "notes": "成绩分档表(含加分) 官方 PDF 文本层(加密但可抽)。物理 505 行 / 历史 471 行。PDF: /pic/file/20260625/20260625153758_335.pdf。专用脚本 ingest-anhui-2026-pdf.py。",
+   "notes": "成绩分档表(含加分) 官方 PDF 文本层(加密但可抽)。（已入库,见 cli/data/yifenyiduan/）",
    "source_pdf_url": "https://www.ahzsks.cn/pic/file/20260625/20260625153758_335.pdf",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847718.html"
   },
@@ -1011,7 +1011,7 @@
    "source_org": "广西招生考试院 gxeea.cn",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "官方一分一档系统(全国性加分)。物理 519 行 / 历史 519... 历史 URL: 2026_yifenyidang_lishi_qg.html。",
+   "notes": "官方一分一档系统(全国性加分)。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.gxeea.cn/2026yfyd/index.html"
   },
   {
@@ -1027,7 +1027,7 @@
    "source_org": "陕西省教育考试院 sneea.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "一分一段表。物理 606 行 / 历史 557 行。历史 eol: ...t20260625_2749134.shtml。eol slug=shan_xi_sheng。",
+   "notes": "一分一段表。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/shan_xi_sheng/dongtai/202606/t20260625_2749134.shtml"
   },
   {
@@ -1039,11 +1039,11 @@
     "历史类"
    ],
    "status": "ingested",
-   "source_url": "https://gaokao.eol.cn/ning_xia/dongtai/202606/t20260625_2749206.shtml",
+   "source_url": "https://gaokao.eol.cn/ning_xia/dongtai/202606/t20260625_2749197.shtml",
    "source_org": "宁夏教育考试院 nxjyks.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "一分一段表(横向多分段块累计制，--multi-block-cumulative)。物理 491 行 / 历史 469 行。历史 eol: ...t20260625_2749197.shtml。",
+   "notes": "一分一段表(横向多分段块累计制，--multi-block-cumulative)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/ning_xia/dongtai/202606/t20260625_2749197.shtml",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847211.html"
   },
@@ -1060,7 +1060,7 @@
    "source_org": "重庆市教育考试院 cqksy.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "各类考生分数段表。物理 eol _2748895 / 历史 eol _2748900。官方: cqksy.cn 分段表 fdb.htm。",
+   "notes": "各类考生分数段表。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.cqksy.cn/uploadFile/infopub/2026/ptgk/yfd/fdb.htm"
   },
   {
@@ -1076,7 +1076,7 @@
    "source_org": "河北省教育考试院 hebeea.edu.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "成绩统计表(物理/历史并排，--cols)。物理/历史同一 eol 页。",
+   "notes": "成绩统计表(物理/历史并排，--cols)。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847629.html"
   },
   {
@@ -1092,7 +1092,7 @@
    "source_org": "黑龙江省招生考试院 lzk.hl.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "成绩一分段统计表。物理 eol _2748724 / 历史 eol _2748730。",
+   "notes": "成绩一分段统计表。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847511.html"
   },
   {
@@ -1108,7 +1108,7 @@
    "source_org": "河南省教育考试院 haeea.cn / hfplg 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "分数段统计表(位次区间制)。物理 hfplg ...377 / 历史 hfplg /yfyd/37w3102313.html。官方: haeea.cn/a/202606/43717_14a087d2.shtml。",
+   "notes": "分数段统计表(位次区间制)。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.haeea.cn/a/202606/43717_14a087d2.shtml"
   },
   {
@@ -1120,11 +1120,11 @@
     "历史类"
    ],
    "status": "ingested",
-   "source_url": "https://gaokao.eol.cn/nei_meng/dongtai/202606/t20260625_2748908.shtml",
+   "source_url": "https://gaokao.eol.cn/nei_meng/dongtai/202606/t20260625_2748907.shtml",
    "source_org": "内蒙古教育招生考试中心 nm.zsks.cn / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "各科类各分数段人数统计表。物理 eol _2748908 / 历史 eol _2748907。官方: nm.zsks.cn/fzlm/26gktj/。",
+   "notes": "各科类各分数段人数统计表。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://www.nm.zsks.cn/fzlm/26gktj/"
   },
   {
@@ -1136,11 +1136,11 @@
     "历史类"
    ],
    "status": "ingested",
-   "source_url": "https://gaokao.eol.cn/qing_hai/dongtai/202606/t20260625_2749055.shtml",
+   "source_url": "https://gaokao.eol.cn/qing_hai/dongtai/202606/t20260625_2749052.shtml",
    "source_org": "青海省教育考试院 qhjyks.com / eol 转载",
    "year_verified_from": "title+url",
    "format": "html_table",
-   "notes": "排序成绩一分一段统计表(投档类型前缀，--cols 2,3,4)。物理 eol _2749055 / 历史 eol _2749052。",
+   "notes": "排序成绩一分一段统计表(投档类型前缀，--cols 2,3,4)。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847238.html"
   },
   {
@@ -1154,8 +1154,8 @@
    "source_url": "https://www.shmeea.edu.cn/download/20260623/2/0.pdf",
    "source_org": "上海市教育考试院 shmeea.edu.cn",
    "year_verified_from": "title+url",
-   "format": "pdf_textlayer",
-   "notes": "本科阶段成绩分布表(高分段不公布)，214 行(616→). PDF 文本层。",
+   "format": "html_table",
+   "notes": "本科阶段成绩分布表(高分段不公布)，214 行(616→). PDF 文本层。（已入库,见 cli/data/yifenyiduan/）",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844300.html"
   },
   {
@@ -1166,12 +1166,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "image_only",
-   "source_url": "https://www.jseea.cn/webfile/index/index_zkxx/2026-06-24/7475494421979467776.html",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/jiang_su/dongtai/202606/t20260625_2748904.shtml",
    "source_org": "江苏省教育考试院 jseea.cn",
    "year_verified_from": "title+url",
-   "format": "image_jpg",
-   "notes": "第一阶段逐分段统计表，官方仅 JPG 附件(jseea.cn 本环境 TLS 拦)。物理图 .../18-24-3208191910823240.jpg，历史图 .../18-24-3205871556923388.jpg。eol/chsi 转载亦为图片。需 OCR。",
+   "format": "ocr_tesseract",
+   "notes": "第一阶段逐分段统计表，官方仅 JPG 附件(jseea.cn 本环境 TLS 拦)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/jiang_su/dongtai/202606/t20260625_2748904.shtml"
   },
   {
@@ -1182,12 +1182,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "image_only",
-   "source_url": "https://gaokao.eol.cn/fu_jian/dongtai/202606/t20260625_2748961.shtml",
+   "status": "ingested",
+   "source_url": "http://www.eeafj.cn/gkptgkgsgg/20260625/14698.html",
    "source_org": "福建省教育考试院 eeafj.cn / eol+chsi 转载",
    "year_verified_from": "title+url",
-   "format": "image_png",
-   "notes": "成绩分布(物理/历史科目组)，全网仅 PNG 图片(每轨4张)。物理 eol _2748961，历史 eol _2748952。chsi 物理 2293847630 / 历史 2293847635 亦为图片。需 OCR。",
+   "format": "ocr_vision",
+   "notes": "成绩分布(物理/历史科目组)，全网仅 PNG 图片(每轨4张)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/fu_jian/dongtai/202606/t20260625_2748952.shtml",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847630.html"
   },
@@ -1199,12 +1199,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "image_only",
-   "source_url": "http://www.hbea.edu.cn/html/2026-06/15962.html",
+   "status": "ingested",
+   "source_url": "https://www.hbea.edu.cn/html/2026-06/15962.html",
    "source_org": "湖北省教育考试院 hbea.edu.cn",
    "year_verified_from": "title+url",
-   "format": "image_png",
-   "notes": "总分一分一段统计表(首选物理/首选历史)，官方仅 PNG(/files/2026-06/1-10.png)。eol 物理 _2749185/历史 _2749188/总表 _2749140 亦图片。需 OCR(4列块并排版式)。",
+   "format": "ocr_vision",
+   "notes": "总分一分一段统计表(首选物理/首选历史)，官方仅 PNG(/files/2026-06/1-10.png)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/hu_bei/dongtai/",
    "chsi_url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847748.html"
   },
@@ -1215,12 +1215,12 @@
    "tracks": [
     "综合改革"
    ],
-   "status": "not_published",
-   "source_url": "https://ea.hainan.gov.cn/ywdt/ptgkyjszsb/",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/news/202606/t20260625_2749368.shtml",
    "source_org": "海南省考试局 ea.hainan.gov.cn",
    "year_verified_from": "title+url",
-   "format": "pending",
-   "notes": "6/25 仅出分数线；标准分制(~100-900)。2025 表 7/2 才发(eol t20250702_2678468)。预计~7/1后复查官方 ptgkyjszsb 频道。",
+   "format": "html_table",
+   "notes": "6/25 仅出分数线；标准分制(~100-900)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/hai_nan/dongtai/"
   },
   {
@@ -1246,12 +1246,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "http://www.jxeea.cn/ptgk49/list.html",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/jiang_xi/dongtai/202606/t20260625_2749328.shtml",
    "source_org": "江西省教育考试院 jxeea.cn",
    "year_verified_from": "title+url",
-   "format": "pending",
-   "notes": "6/25 仅出录取控制线；一分一段预计 6/26 左右(gk100/hfplg 标注)。复查 eol jiang_xi 频道。",
+   "format": "html_table",
+   "notes": "6/25 仅出录取控制线；一分一段预计 6/26 左右(gk100/hfplg 标注)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/jiang_xi/dongtai/"
   },
   {
@@ -1262,12 +1262,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "https://gaokao.eol.cn/hu_nan/dongtai/",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/hu_nan/dongtai/202606/t20260625_2749349.shtml",
    "source_org": "湖南省教育考试院 jyt.hunan.gov.cn / eol",
    "year_verified_from": "title+url",
    "format": "pending",
-   "notes": "6/25 仅出分数线；总分1分段统计表待发。**双口径，取含全国性加分列**。软核对锚点:600分以上 物理18876/历史2139人。",
+   "notes": "6/25 仅出分数线；总分1分段统计表待发。（已入库,见 cli/data/yifenyiduan/）",
    "official_url": "https://jyt.hunan.gov.cn/"
   },
   {
@@ -1343,12 +1343,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "http://www.sxkszx.cn/",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/shan_xi/dongtai/202606/t20260625_2749364.shtml",
    "source_org": "山西省招生考试管理中心 sxkszx.cn",
    "year_verified_from": "title+url",
    "format": "pending",
-   "notes": "6/25 一分一段表待发。复查 sxkszx.cn 与 eol shan_xi 频道(注意 slug=shan_xi)。",
+   "notes": "6/25 一分一段表待发。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/shan_xi/dongtai/"
   },
   {
@@ -1359,12 +1359,12 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "https://www.eaagz.org.cn/",
+   "status": "ingested",
+   "source_url": "http://zsksy.guizhou.gov.cn/tzgg/202606/t20260625_90557425.html",
    "source_org": "贵州省招生考试院 eaagz.org.cn",
    "year_verified_from": "title+url",
    "format": "pending",
-   "notes": "6/25 一分一段表待发(2025 为 PDF/图片)。复查 eaagz.org.cn 与 eol gui_zhou 频道。",
+   "notes": "6/25 一分一段表待发(2025 为 PDF/图片)。（已入库,见 cli/data/yifenyiduan/）",
    "eol_url": "https://gaokao.eol.cn/gui_zhou/dongtai/"
   },
   {

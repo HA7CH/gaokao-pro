@@ -7,7 +7,7 @@ import { top, type TopRow } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
 import { runMcpServer } from "./mcp.js";
 import { runHttpServer } from "./http-server.js";
-import { loadRankTable, listRankTables, scoreToRank, rankToScore, inferDefaultTrack } from "./rank-table.js";
+import { loadRankTable, listRankTables, scoreToRank, rankToScore, inferDefaultTrack, deriveScoreFromRank } from "./rank-table.js";
 import { decodeXuanke } from "./xuanke.js";
 import {
   loadMemory,
@@ -211,27 +211,31 @@ Usage:
   gaokao-pro scores <schoolId> --province <name|id>
       Historical min scores for a (school, province) pair across all years/tracks.
 
-  gaokao-pro recommend --score <n> --province <name|id> --subjects <list>
+  gaokao-pro recommend (--score <n> | --rank <n>) --province <name|id> --subjects <list>
                        [--schools <id1,id2,...>] [--985] [--211] [--dual-class]
                        [--level <本科|专科>] [--type <综合类|理工类|...>]
-                       [--belong <教育部|工信部|...>] [--limit <n>] [--rank <n>]
+                       [--belong <教育部|工信部|...>] [--limit <n>]
                        [--explain] [--format table|json]
       Bucket schools into 冲 / 稳 / 保 based on the user's score vs each
       school's most-recent matching-track minimum. Without --schools, scans
       the full index (~2400 schools). All evaluation is local — no network.
+      Pass --rank <全省位次> instead of --score if the student only knows their
+      位次 (成绩单/查询系统给的) — we convert it via the newest 一分一段 table.
       e.g. gaokao-pro recommend --score 660 --province henan \\
                                 --subjects 物理,化学,生物 --985 --limit 10 --explain
+           gaokao-pro recommend --rank 12000 --province henan --subjects 物理,化学,生物
 
-  gaokao-pro top --score <n> --province <name|id> --subjects <list>
+  gaokao-pro top (--score <n> | --rank <n>) --province <name|id> --subjects <list>
                  [--985] [--211] [--dual-class] [--limit <n>]
                  [--enrich --year <year>] [--format table|json]
       Best schools within reach of this score in this province, ranked by
-      historical baseline desc. Like recommend, but flat top-N list.
+      historical baseline desc. Like recommend, but flat top-N list. Accepts
+      --rank <全省位次> in place of --score (converted via 一分一段).
       --enrich --year <y> attaches each school's real 录取 min/最低位次 by
       fetching them in ONE parallel pass (implies JSON) — the fast way to get a
       ranked candidate list WITH real admission data in a single call.
       e.g. gaokao-pro top --score 650 --province henan --subjects 物理 --limit 15
-           gaokao-pro top --score 650 --province henan --subjects 物理 --enrich --year 2024
+           gaokao-pro top --rank 8000 --province henan --subjects 物理 --limit 15
 
   gaokao-pro actual <schoolId> --year <year> --province <name|id>
       Per-major actual admission outcomes (vs forward-looking 'plan'):
@@ -1009,17 +1013,31 @@ const VERBS: Record<string, Verb> = {
 
   async recommend(args) {
     const { flags } = parseFlags(args);
-    const score = Number(flags.score);
-    if (!Number.isFinite(score)) throw new Error("--score <n> is required");
     if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required (comma-separated, e.g. 物理,化学,生物)");
     const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
+    // Accept either --score, or --rank alone: a student who only knows their 全省位次
+    // gets an equivalent score from the newest 一分一段 table for this province+track.
+    const rank = flags.rank !== undefined ? Number(flags.rank) : undefined;
+    let score: number;
+    let rankNote: string | undefined;
+    if (flags.score !== undefined) {
+      score = Number(flags.score);
+      if (!Number.isFinite(score)) throw new Error(`--score must be a number, got: ${String(flags.score)}`);
+    } else if (rank !== undefined) {
+      if (!Number.isFinite(rank) || rank < 1) throw new Error(`--rank must be a positive number, got: ${String(flags.rank)}`);
+      const d = deriveScoreFromRank(provinceId, subjects, rank);
+      if (!d) throw new Error(`位次 ${flags.rank} 无法换算成分数：缺 ${PROVINCES[provinceId].name} 一分一段表，或位次超出表范围。请改用 --score，或先跑 \`gaokao-pro rank-tables\` 看有哪些表。`);
+      score = d.score;
+      rankNote = `位次 ${rank} → 约 ${d.score} 分（按 ${PROVINCES[provinceId].name} ${d.year} ${d.track} 一分一段换算；冲稳保按此分数估算）`;
+    } else {
+      throw new Error("--score <n> 或 --rank <n> 必填其一");
+    }
     const schoolIds = typeof flags.schools === "string"
       ? flags.schools.split(",").map((s) => s.trim()).filter(Boolean)
       : undefined;
-    const rank = flags.rank !== undefined ? Number(flags.rank) : undefined;
     const limit = parseLimit(flags.limit, undefined);
     const filter = {
       ...buildLabelFilter(flags),
@@ -1029,21 +1047,37 @@ const VERBS: Record<string, Verb> = {
     };
     const out = recommend({ score, provinceId, subjects, rank, schoolIds, filter, limit });
     if (shouldTable(flags)) {
+      if (rankNote) process.stdout.write(rankNote + "\n");
       process.stdout.write(formatRecommend(out, { explain: flags.explain === true }) + "\n");
     } else {
-      printJson({ ok: true, ...out });
+      printJson({ ok: true, ...(rankNote ? { rankNote } : {}), ...out });
     }
   },
 
   async top(args) {
     const { flags } = parseFlags(args);
-    const score = Number(flags.score);
-    if (!Number.isFinite(score)) throw new Error("--score <n> is required");
     if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
     const provinceId = resolveProvince(flags.province);
     if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
     if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
     const subjects = validateSubjects(flags.subjects.split(/[,，、]/).map((s) => s.trim()));
+    // Accept either --score, or --rank alone (student knows their 全省位次):
+    // derive an equivalent score from the newest 一分一段 table for province+track.
+    let score: number;
+    let rankNote: string | undefined;
+    if (flags.score !== undefined) {
+      score = Number(flags.score);
+      if (!Number.isFinite(score)) throw new Error(`--score must be a number, got: ${String(flags.score)}`);
+    } else if (flags.rank !== undefined) {
+      const rank = Number(flags.rank);
+      if (!Number.isFinite(rank) || rank < 1) throw new Error(`--rank must be a positive number, got: ${String(flags.rank)}`);
+      const d = deriveScoreFromRank(provinceId, subjects, rank);
+      if (!d) throw new Error(`位次 ${flags.rank} 无法换算成分数：缺 ${PROVINCES[provinceId].name} 一分一段表，或位次超出表范围。请改用 --score。`);
+      score = d.score;
+      rankNote = `位次 ${rank} → 约 ${d.score} 分（按 ${PROVINCES[provinceId].name} ${d.year} ${d.track} 一分一段换算）`;
+    } else {
+      throw new Error("--score <n> 或 --rank <n> 必填其一");
+    }
     const limit = parseLimit(flags.limit, 20);
     const filter = buildLabelFilter(flags);
     const out = top({ score, provinceId, subjects, limit, filter });
@@ -1084,7 +1118,7 @@ const VERBS: Record<string, Verb> = {
         tags: [r.is985 ? "985" : "", r.is211 && !r.is985 ? "211" : "", r.dualClass === "双一流" && !r.is985 && !r.is211 ? "双一流" : ""].filter(Boolean).join(" "),
         belong: r.belong
       }));
-      const header = `gaokao-pro top  score=${score}  province=${PROVINCES[provinceId].name}  subjects=${subjects.join("/")}  limit=${limit}\n`;
+      const header = (rankNote ? rankNote + "\n" : "") + `gaokao-pro top  score=${score}  province=${PROVINCES[provinceId].name}  subjects=${subjects.join("/")}  limit=${limit}\n`;
       const slipFooter = (() => {
         try {
           const info = provinceTiaojiInfo(PROVINCES[provinceId].name);
@@ -1098,7 +1132,7 @@ const VERBS: Record<string, Verb> = {
       })();
       process.stdout.write(header + formatTop(rows) + slipFooter + "\n");
     } else {
-      printJson({ ok: true, enriched: enrich, ...out });
+      printJson({ ok: true, enriched: enrich, ...(rankNote ? { rankNote } : {}), ...out });
     }
   },
 

@@ -16,7 +16,7 @@ URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
 | **学信网·阳光高考**（教育部官方） | <https://gaokao.chsi.com.cn/gkxx/ss/202606/20260624/2293845984.html> | 《2026年部分省市高考分数段统计汇总（一分一段）（陆续发布）》。各省发布后**陆续加入**，直链官方源或 chsi 自托管页。**复查首选**。 |
 | 中国教育在线 eol.cn | <https://www.eol.cn/e_html/gk/gkfsd/index.shtml> | 各省 eol 转载入口。某省仅占位锚点（无 202606 链接）= 该省 2026 未发布。slug：陕西=`shan_xi_sheng`、山西=`shan_xi`。 |
 
-### 各省状态与来源（截至 2026-06-25 出分主战日，16 省已入库）
+### 各省状态与来源（24 省已入库；含 OCR/ZIP 攻坚。仅 6 省尚未发布全表）
 
 ✅ 已入库（程序化抓取 + running-sum 不变式 + 独立复核通过）：
 
@@ -38,29 +38,26 @@ URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
 | 内蒙古 | 物/历 | eol `nei_meng/...2748908`(物)`...2748907`(历) / 官方 nm.zsks.cn `/fzlm/26gktj/` | html_table |
 | 青海 | 物/历 | eol `qing_hai/...2749055`(物)`...2749052`(历)（投档类型前缀列） | html_table |
 | 上海 | combined | shmeea.edu.cn `/download/20260623/2/0.pdf`（高分段不公布） | pdf_textlayer |
+| 湖南 | 物/历 | eol `hu_nan/...2749349`(物)`...2749350`(历)（**含全国性加分**口径） | html_table |
+| 江西 | 物/历 | eol `jiang_xi/...2749328`(物)`...2749332`(历) | html_table |
+| 山西 | 物/历 | eol `shan_xi/...2749364`(物)`...2749365`(历)（左右双块版式） | html_table |
+| 海南 | combined | eol `news/...2749368` 转 ea.hainan.gov.cn（标准分 100-900，全体考生投档成绩） | html_table |
+| 贵州 | 物/历 | 官方 eaagz.org.cn ZIP 附件（下载解压后 ingest，640/561 行至 0 分） | zip |
+| 江苏 | 物/历 | jseea.cn 官方 JPG → **OCR**（仅到本科线 456/484，江苏只发本科线以上） | ocr |
+| 福建 | 物/历 | eeafj.cn 官方 JPG → **Apple Vision OCR**（471/454 行，逐值核对官方图） | ocr |
+| 湖北 | 物/历 | hbea.edu.cn 官方 PNG → **Apple Vision OCR**（3 竖块，553/526 行） | ocr |
 
-🖼️ 已发布但**仅图片版**（数据已存在，需 OCR；本批未入库）：
+> 🔬 **OCR 入库的（江苏/福建/湖北）**：官方全网仅图片、无文本表。流程＝放大 + Apple Vision / tesseract 多引擎 OCR → 按坐标重建 [分数\|人数\|累计] → running-sum + 严格递减 + 累计单调不变式门 → 独立 verify agent **重下官方图逐值核对锚点**（福建 18+ 锚点逐一吻合、湖北特控线与 2025 映射精确吻合 72834、跨年 ±30% 内）。工具：`_ocr-pipeline/vision-ocr.swift`。
 
-| 省 | 官方源 / 复查入口 | 图片说明 |
-|---|---|---|
-| 江苏 | jseea.cn `/webfile/index/index_zkxx/2026-06-24/7475494421979467776.html`；eol `jiang_su/...2748904` | 第一阶段逐分段统计表，官方仅 JPG（物 `...3208191910823240.jpg` / 历 `...3205871556923388.jpg`） |
-| 福建 | eol `fu_jian/...2748961`(物)`...2748952`(历)；chsi `...2293847630`/`...2293847635` | 成绩分布（物理/历史科目组），全网仅 PNG（每轨 4 张） |
-| 湖北 | hbea.edu.cn `/html/2026-06/15962.html`；eol `hu_bei/dongtai/`；chsi `...2293847748` | 总分一分一段（首选物理/历史），官方仅 PNG `/files/2026-06/1-10.png`（4 列块并排） |
-
-⏳ **6/25 当日仅出分数线、一分一段表尚未发布**（给官方复查入口；预计 6/26–7 初）：
+⏳ **仍未发布全表（最近核查仅出分数线，预计 7 月初）**——给官方复查入口：
 
 | 省 | 官方复查入口 | eol 频道 | 备注 |
 |---|---|---|---|
-| 海南 | ea.hainan.gov.cn `/ywdt/ptgkyjszsb/` | `hai_nan/dontai/` | 标准分制；2025 是 7/2 发 |
 | 浙江 | zjzs.net `/col/col45/index.html`（复查 id>12449） | `zhe_jiang/dongtai/` | 总分分数段表多为 PDF |
-| 江西 | jxeea.cn `/ptgk49/list.html` | `jiang_xi/dongtai/` | 预计 6/26 左右 |
-| 湖南 | jyt.hunan.gov.cn | `hu_nan/dongtai/` | **双口径，取含全国性加分列** |
 | 广东 | eea.gd.gov.cn `/zwgk/sjfb/tjsj/` | `guang_dong/dongtai/` | 分数段走官方 ZIP 附件，需解压 |
-| 四川 | yfyd.sceeic.cn（查询平台，"系统更新中"）/ sceea.cn | `si_chuan/dongtai/` | 2025 是 7/2 发 |
+| 四川 | yfyd.sceeic.cn（查询平台）/ sceea.cn | `si_chuan/dongtai/` | 2025 是 7/2 发 |
 | 云南 | ynzs.cn | `yun_nan/dongtai/` | 官方仅图片发分数线 |
 | 甘肃 | ganseea.cn | `gan_su/dongtai/` | 2025 是 7/2 发 |
-| 山西 | sxkszx.cn | `shan_xi/dongtai/`（slug=shan_xi） | — |
-| 贵州 | eaagz.org.cn | `gui_zhou/dongtai/` | 2025 为 PDF/图片 |
 | 新疆 | xjzk.gov.cn `/gkgz/ptgk/tzgg/` | `xin_jiang/dongtai/` | 老高考文/理；随志愿填报发 |
 
 > 西藏：官方不发布逐分一分一段表，仅发各批次最低控制分数线，`rank` 列保持"不支持"。
