@@ -146,6 +146,33 @@ def extract_rows_rank_range(htmltext: str):
     return best
 
 
+def extract_rows_cols(htmltext: str, score_i: int, count_i: int, cum_i: int):
+    """For tables whose 分数/人数/累计 live at FIXED (non-leading) column indices —
+    e.g. 青海's [科类, 投档类型, 总分, 人数, 累计数] (cols 2,3,4) or 河北's side-by-side
+    [分数, 物理人数, 物理累计, 历史人数, 历史累计] where physics=cols 0,1,2 and
+    history=cols 0,3,4. Takes those three columns verbatim; rows whose selected cells
+    don't parse (headers / notes / the empty other-track cells) are skipped. The
+    running-sum gate in validate() independently re-derives sum(count)==cumulative,
+    so a wrong column pick fails the gate rather than shipping bad data."""
+    need = max(score_i, count_i, cum_i)
+    best = []
+    for table in re.findall(r"<table.*?</table>", htmltext, re.S):
+        parsed = []
+        for tr in re.findall(r"<tr.*?</tr>", table, re.S):
+            cells = [cell_text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)]
+            if len(cells) <= need:
+                continue
+            score = parse_score(cells[score_i])
+            count = parse_int(cells[count_i])
+            cum = parse_int(cells[cum_i])
+            if score is None or count is None or cum is None:
+                continue  # header / note / empty other-track row
+            parsed.append({"score": score, "count": count, "cumulative": cum})
+        if len(parsed) > len(best):
+            best = parsed
+    return best
+
+
 def validate(rows):
     """Raise ValueError on any integrity violation. Returns (n, top, bottom)."""
     if len(rows) < 20:
@@ -190,6 +217,11 @@ def main():
                     help="for [分数, 位次区间, 同分人数] tables: cumulative = END of the "
                          "位次区间 range, count = 同分人数. Both columns taken verbatim; "
                          "running-sum gate re-checks them (see extract_rows_rank_range).")
+    ap.add_argument("--cols",
+                    help="comma-separated 0-based column indices SCORE,COUNT,CUM for tables "
+                         "where these aren't the first 3 cells — e.g. 青海 '2,3,4' (投档类型 "
+                         "prefix), 河北 side-by-side physics '0,1,2' / history '0,3,4'. "
+                         "See extract_rows_cols.")
     ap.add_argument("--out")
     ap.add_argument("--write", action="store_true")
     a = ap.parse_args()
@@ -216,7 +248,13 @@ def main():
         )
         sys.exit(5)
 
-    if a.rank_range:
+    if a.cols:
+        idx = [int(x) for x in a.cols.split(",")]
+        if len(idx) != 3:
+            print(f"ARG-FAIL {a.province}-{a.year}-{a.track}: --cols needs 3 indices SCORE,COUNT,CUM", file=sys.stderr)
+            sys.exit(4)
+        rows = extract_rows_cols(htmltext, idx[0], idx[1], idx[2])
+    elif a.rank_range:
         rows = extract_rows_rank_range(htmltext)
     elif a.trust_cumulative:
         rows = extract_rows_trust_cumulative(htmltext)
@@ -253,7 +291,8 @@ def main():
         "source_url": a.url,
         "note": (a.source_note
                  + ("；count 由 cumulative(位次) 反推（官方表为累计制/顶部分段合并）" if a.trust_cumulative else "")
-                 + ("；cumulative 取自官方[位次区间]右端，count 取自[同分人数]列" if a.rank_range else "")).lstrip("；"),
+                 + ("；cumulative 取自官方[位次区间]右端，count 取自[同分人数]列" if a.rank_range else "")
+                 + (f"；分数/人数/累计取自官方表第 {a.cols} 列（含投档类型前缀/并排双轨版式）" if a.cols else "")).lstrip("；"),
         "count": n,
         "rows": rows,
     }
