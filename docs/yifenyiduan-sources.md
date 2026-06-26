@@ -16,7 +16,7 @@ URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
 | **学信网·阳光高考**（教育部官方） | <https://gaokao.chsi.com.cn/gkxx/ss/202606/20260624/2293845984.html> | 《2026年部分省市高考分数段统计汇总（一分一段）（陆续发布）》。各省发布后**陆续加入**，直链官方源或 chsi 自托管页。**复查首选**。 |
 | 中国教育在线 eol.cn | <https://www.eol.cn/e_html/gk/gkfsd/index.shtml> | 各省 eol 转载入口。某省仅占位锚点（无 202606 链接）= 该省 2026 未发布。slug：陕西=`shan_xi_sheng`、山西=`shan_xi`。 |
 
-### 各省状态与来源（24 省已入库；含 OCR/ZIP 攻坚。仅 6 省尚未发布全表）
+### 各省状态与来源（27 省已入库；含 OCR/ZIP 攻坚。仅 3 省尚未发布全表）
 
 ✅ 已入库（程序化抓取 + running-sum 不变式 + 独立复核通过）：
 
@@ -46,17 +46,17 @@ URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
 | 江苏 | 物/历 | jseea.cn 官方 JPG → **OCR**（仅到本科线 456/484，江苏只发本科线以上） | ocr |
 | 福建 | 物/历 | eeafj.cn 官方 JPG → **Apple Vision OCR**（471/454 行，逐值核对官方图） | ocr |
 | 湖北 | 物/历 | hbea.edu.cn 官方 PNG → **Apple Vision OCR**（3 竖块，553/526 行） | ocr |
+| 广东 | 物/历 | eol `guang_dong/...2749371`(物)`...2749373`(历) 5列文本表，取 col2=累计本科 | html_table |
+| 四川 | 物/历 | sceea.cn 官方 JPG → **OCR**（Vision 分数列 + tesseract 累计列，535/514 行） | ocr |
+| 云南 | 物/历 | eol `yun_nan/...2749515` 官方单 PNG → **Vision OCR**（窄带分列，504/482 行） | ocr |
 
-> 🔬 **OCR 入库的（江苏/福建/湖北）**：官方全网仅图片、无文本表。流程＝放大 + Apple Vision / tesseract 多引擎 OCR → 按坐标重建 [分数\|人数\|累计] → running-sum + 严格递减 + 累计单调不变式门 → 独立 verify agent **重下官方图逐值核对锚点**（福建 18+ 锚点逐一吻合、湖北特控线与 2025 映射精确吻合 72834、跨年 ±30% 内）。工具：`_ocr-pipeline/vision-ocr.swift`。
+> 🔬 **OCR 入库的（江苏/福建/湖北/四川/云南）**：官方全网仅图片、无文本表。流程＝放大 + Apple Vision / tesseract 多引擎 OCR → 按坐标重建 [分数\|人数\|累计] → running-sum + 严格递减 + 累计单调不变式门 → 独立 verify agent **重下官方图逐值核对锚点**（福建 18+ 锚点吻合、湖北特控线 2025 映射精确吻合、四川本科 435→218562/455→77300 命中 hfplg、云南确认 2026 非旧表，均跨年 ±30% 内）。工具：`_ocr-pipeline/vision-ocr.swift`。
 
 ⏳ **仍未发布全表（最近核查仅出分数线，预计 7 月初）**——给官方复查入口：
 
 | 省 | 官方复查入口 | eol 频道 | 备注 |
 |---|---|---|---|
 | 浙江 | zjzs.net `/col/col45/index.html`（复查 id>12449） | `zhe_jiang/dongtai/` | 总分分数段表多为 PDF |
-| 广东 | eea.gd.gov.cn `/zwgk/sjfb/tjsj/` | `guang_dong/dongtai/` | 分数段走官方 ZIP 附件，需解压 |
-| 四川 | yfyd.sceeic.cn（查询平台）/ sceea.cn | `si_chuan/dongtai/` | 2025 是 7/2 发 |
-| 云南 | ynzs.cn | `yun_nan/dongtai/` | 官方仅图片发分数线 |
 | 甘肃 | ganseea.cn | `gan_su/dongtai/` | 2025 是 7/2 发 |
 | 新疆 | xjzk.gov.cn `/gkgz/ptgk/tzgg/` | `xin_jiang/dongtai/` | 老高考文/理；随志愿填报发 |
 

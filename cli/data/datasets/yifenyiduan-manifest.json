@@ -1295,11 +1295,11 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "https://yfyd.sceeic.cn/",
+   "status": "ingested",
+   "source_url": "https://www.sceea.cn/Html/202606/Newsdetail_4858.html",
    "source_org": "四川省教育考试院 sceea.cn / yfyd.sceeic.cn",
    "year_verified_from": "title+url",
-   "format": "pending",
+   "format": "ocr",
    "notes": "6/25 仅出分数线；官方一分一段查询平台 yfyd.sceeic.cn 显示'系统更新中'。2025 表 7/2 才发。预计~7/2复查。",
    "official_url": "https://www.sceea.cn/",
    "eol_url": "https://gaokao.eol.cn/si_chuan/dongtai/"
@@ -1312,11 +1312,11 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "https://www.ynzs.cn/",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/yun_nan/dongtai/202606/t20260626_2749515.shtml",
    "source_org": "云南省招生考试院 ynzs.cn",
    "year_verified_from": "title+url",
-   "format": "pending",
+   "format": "ocr",
    "notes": "6/25 官方仅以图片发布分数线；一分一段表(物理/历史)待发。复查 ynzs.cn 与 eol yun_nan 频道。",
    "eol_url": "https://gaokao.eol.cn/yun_nan/dongtai/"
   },
