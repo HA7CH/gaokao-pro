@@ -1346,10 +1346,11 @@
    ],
    "status": "ingested",
    "source_url": "https://gaokao.eol.cn/shan_xi/dongtai/202606/t20260625_2749364.shtml",
-   "source_org": "山西省招生考试管理中心 sxkszx.cn",
-   "year_verified_from": "title+url",
-   "format": "pending",
-   "notes": "6/25 一分一段表待发。（已入库,见 cli/data/yifenyiduan/）",
+   "source_url_history": "https://gaokao.eol.cn/shan_xi/dongtai/202606/t20260625_2749365.shtml",
+   "source_org": "eol.cn 文本面板(695-640/547-492) + 163.com 官方全表图片 OCR(macOS Vision) 拼接重建",
+   "year_verified_from": "title+url+anchor+ocr-overlap",
+   "format": "html_panels + image_ocr(中段及本科线以下)",
+   "notes": "已入库并修复中段缺档（eol 仅以两段文本面板发布，中段 639-548 及本科线以下 491-401 为图片）。163.com 全表图片经 macOS Vision OCR 重建，与 eol 文本面板 332 个重叠分数(物理112/历史220)累计逐项精确匹配 + 4 外部锚点(物理600→14366、450→102616)命中；全表 running-sum 通过、无缺档。本科线 物理401→129364/历史409→35387；特招线 物理524→53482/历史538→8512。物理295行(695→401)/历史260行(668→409)。经独立 OCR 复核。",
    "eol_url": "https://gaokao.eol.cn/shan_xi/dongtai/"
   },
   {
