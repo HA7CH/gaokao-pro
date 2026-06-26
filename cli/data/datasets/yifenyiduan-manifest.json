@@ -1278,12 +1278,13 @@
     "物理类",
     "历史类"
    ],
-   "status": "not_published",
-   "source_url": "https://eea.gd.gov.cn/zwgk/sjfb/tjsj/",
-   "source_org": "广东省教育考试院 eea.gd.gov.cn",
-   "year_verified_from": "title+url",
-   "format": "pending",
-   "notes": "6/25 仅出录取最低分数线；各分数段数据走官方 ZIP 附件(2025=post_4734345.zip)，2026 ZIP 尚未上线。需解压后 ingest。",
+   "status": "ingested",
+   "source_url": "https://gaokao.eol.cn/guang_dong/dongtai/202606/t20260625_2749371.shtml",
+   "source_url_history": "https://gaokao.eol.cn/guang_dong/dongtai/202606/t20260625_2749373.shtml",
+   "source_org": "eol.cn（转 eea.gd.gov.cn，Excel→HTML 5列表）",
+   "year_verified_from": "url+title+body+anchor",
+   "format": "html_table(--cols 0,1,2 + --trust-cumulative)",
+   "notes": "已入库（d3 6/25 晚，eol 当晚放出文本表）。5列[分数/本次本科/累计本科/本次专科/累计专科]，取 col2=累计本科。独立对抗校验 CONFIRMED：表头逐字确认 col2 为本科累计(非专科)；物理599/历史569 行逐行 0 偏差；本科 物理425/历史440、特控 539/546 官方招委会公告核对。物理600行(699→20..100→433366)/历史570行(669→16..100→294878)。本科上线 物理425→303919、历史440→114692。",
    "eol_url": "https://gaokao.eol.cn/guang_dong/dongtai/"
   },
   {
