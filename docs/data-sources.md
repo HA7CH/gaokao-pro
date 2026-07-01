@@ -6,7 +6,8 @@
 
 | Source | Verdict | Notes |
 |---|---|---|
-| **static-data.gaokao.cn** (掌上高考 / 中国教育在线 static JSON) | 🟢 | No auth, no sign, no rate limit. 2700+ schools × 2015-2025 × 31 provinces. **Main data source.** Endpoints: `/school/{id}/info.json`, `/schoolspecialplan/{id}/{year}/{provinceId}.json`. |
+| **static-data.gaokao.cn** (掌上高考 / 中国教育在线 static JSON) | 🟢 | No auth, no sign, no rate limit. **`/school/{id}/info.json` still live** — school metadata + `pro_type_min` (per-province historical min scores, incl. current year). This backs `school-index.json.gz` and therefore recommend/top/paiming. |
+| **api.zjzw.cn** (掌上高考 dynamic API) | 🟡 | **Per-major 招生计划 + 录取分 moved here 2026-06** — the static `/schoolspecialplan/…` and `/schoolspecialscore/…` objects were retired (OSS `NoSuchKey`, all years). GET, **unsigned** (a `version` param breaks it), keyed by `local_province_id` (student province, not school): `?uri=apidata/api/gkv3/plan/school` (plan) and `?uri=apidata/api/gk/score/special` (scores), both paginated (`size`/`page`, total in `data.numFound`). **Rate-limits to silent empty `data:[]` under load** → the client throttles (`GAOKAO_CN_DYNAMIC_GAP_MS`, default 250ms) and never caches/ships empties as data. See `cli/src/gaokao-cn.ts`. |
 
 ## Province bureaus — for 一分一段表 + 投档线 fallback
 

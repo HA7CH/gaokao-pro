@@ -1,10 +1,14 @@
-// selftest — 3-stage end-to-end smoke that confirms the whole stack works.
-// Stage 1: upstream API works (school/31/info.json).
-// Stage 2: local school index loads and has expected shape.
-// Stage 3: 一分一段 table loads and looks up correctly.
+// selftest — end-to-end smoke that confirms the whole stack works.
+// Stage 1: static upstream works (school/31/info.json — the min-score corpus).
+// Stage 2: dynamic upstream works (per-major 招生计划 — api.zjzw.cn). This is the
+//          tier that broke in 2026-06 when the static schoolspecialplan objects were
+//          retired; a dedicated stage means a future move surfaces here, not as
+//          silently-empty query results.
+// Stage 3: local school index loads and has expected shape.
+// Stage 4: 一分一段 table loads and looks up correctly.
 //
 // Designed to be the single command a new install runs to know it's healthy.
-import { getSchoolInfo } from "./gaokao-cn.js";
+import { getSchoolInfo, getAdmissionPlan } from "./gaokao-cn.js";
 import { loadIndex } from "./index-loader.js";
 import { loadRankTable, scoreToRank } from "./rank-table.js";
 
@@ -29,6 +33,20 @@ export async function runSelftest(): Promise<{ ok: boolean; results: Result[] }>
       if (info.name !== "北京大学") throw new Error(`expected 北京大学, got ${info.name}`);
       if (!info.pro_type_min || Object.keys(info.pro_type_min).length === 0) {
         throw new Error("pro_type_min missing");
+      }
+    })
+  );
+
+  results.push(
+    await timed("dynamic 招生计划 (api.zjzw.cn)", async () => {
+      // 北大 × 河南 × 2024 reliably carries ~50 majors. Empty here means the plan
+      // source is down/relocated or rate-limiting — the exact 2026-06 breakage.
+      const plan = await getAdmissionPlan(31, 2024, 41);
+      if (plan.length === 0) {
+        throw new Error("empty plan (source down/relocated or rate-limited) — see gaokao-cn.ts DYNAMIC_BASE/PLAN_URI");
+      }
+      if (!plan.some((p) => /^\d{6}[A-Z]?$/.test(p.spcode))) {
+        throw new Error("plan rows carry no valid 专业代码 — item shape may have changed");
       }
     })
   );
