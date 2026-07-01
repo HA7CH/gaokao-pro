@@ -369,33 +369,375 @@ export type AdmissionScoreResponse = {
   };
 };
 
+// ---------------------------------------------------------------------------
+// Dynamic API tier — api.zjzw.cn (掌上高考's app/web backend).
+//
+// WHY THIS EXISTS: as of 2026-06 the free static tier retired the per-school
+// admission-plan and admission-score objects. Every
+//   static-data.gaokao.cn/www/2.0/schoolspecialplan/{id}/{year}/{prov}.json
+//   static-data.gaokao.cn/www/2.0/schoolspecialscore/{id}/{year}/{prov}.json
+// now 404s at the OSS layer ("NoSuchKey"), for ALL years — not just 2026. Only
+// /school/{id}/info.json survived (so the min-score corpus in school-index.json.gz,
+// and therefore recommend/top/paiming, are unaffected). The granular per-major
+// plan & score data moved to the dynamic host below, which:
+//   • is UNSIGNED for GET (no signsafe/md5 needed — a version param actually breaks it),
+//   • is keyed by local_province_id (the STUDENT's province), NOT the school's,
+//   • paginates via size/page and reports the total in data.numFound,
+//   • rate-limits aggressively → we serialize requests through a min-gap throttle.
+//
+// The item shapes come back field-compatible with the old static ones, modulo a
+// few renames (score uses sp_scode not spcode; no top-level track `type`; num is
+// a string) which mapPlanItem/mapScoreItem below normalize back to our types.
+const DYNAMIC_BASE = "https://api.zjzw.cn/web/api/";
+const DYNAMIC_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
+const PLAN_URI = "apidata/api/gkv3/plan/school";
+const SCORE_URI = "apidata/api/gk/score/special";
+const DYNAMIC_PAGE_SIZE = 50;
+// Cap on pages fetched per (school, year, province) — a backstop against a
+// runaway numFound. 50 pages × 50 = 2500 majors, far above any real school.
+const DYNAMIC_MAX_PAGES = 50;
+// Minimum gap between dynamic requests (ms). The host returns empty bodies under
+// load (a silent rate-limit), which would masquerade as "school has no plan" —
+// exactly the kind of silent miss we must never ship. Override via env.
+const DYNAMIC_MIN_GAP_MS = (() => {
+  const env = Number(process.env.GAOKAO_CN_DYNAMIC_GAP_MS);
+  return Number.isFinite(env) && env >= 0 ? env : 250;
+})();
+
+// Raised when the dynamic host answers with a non-success application code
+// (e.g. 1064 "接口请求版本不存在" = the endpoint moved again). Distinct type so
+// callers/health-checks can tell "the API changed" apart from "no data".
+export class GaokaoDynamicError extends Error {
+  constructor(public uri: string, public apiCode: string, public apiMessage: string) {
+    super(
+      `gaokao.cn dynamic endpoint '${uri}' returned code=${apiCode} (${apiMessage}). ` +
+        `The upstream API path likely changed again — update DYNAMIC_BASE/PLAN_URI/SCORE_URI in gaokao-cn.ts.`
+    );
+    this.name = "GaokaoDynamicError";
+  }
+}
+
+// Global serializing throttle. Every dynamic request awaits the previous one plus
+// a min gap, so a fan-out (the bulk pull runs concurrency 8) can't stampede the host.
+let dynamicChain: Promise<void> = Promise.resolve();
+let lastDynamicAt = 0;
+function throttleDynamic(): Promise<void> {
+  dynamicChain = dynamicChain.then(async () => {
+    const wait = lastDynamicAt + DYNAMIC_MIN_GAP_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastDynamicAt = Date.now();
+  });
+  return dynamicChain;
+}
+
+// Fetch one page of a dynamic list endpoint. Returns { item, numFound }.
+// `data: []` (as opposed to `{ item, numFound }`) is the host's shape for an
+// empty result — mapped to numFound 0.
+async function fetchDynamicPage(
+  uri: string,
+  params: Record<string, string | number>,
+  opts: FetchJsonOpts = {}
+): Promise<{ item: Array<Record<string, unknown>>; numFound: number }> {
+  const qs = new URLSearchParams();
+  for (const [k, v] of Object.entries(params)) qs.set(k, String(v));
+  qs.set("uri", uri);
+  const url = `${DYNAMIC_BASE}?${qs.toString()}`;
+  const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
+  const retries = opts.retries ?? DEFAULT_RETRIES;
+
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    await throttleDynamic();
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    let timedOut = false;
+    try {
+      const res = await fetch(url, {
+        headers: { "User-Agent": DYNAMIC_UA, Referer: "https://www.gaokao.cn/" },
+        signal: controller.signal
+      });
+      if (!res.ok) throw new RetryableError(`gaokao.cn dynamic ${res.status} ${res.statusText} for ${url}`);
+      const text = await res.text();
+      let body: { code?: string; message?: string; data?: unknown };
+      try {
+        body = JSON.parse(text);
+      } catch {
+        throw new RetryableError(`gaokao.cn dynamic returned non-JSON for ${url}: ${text.slice(0, 160)}`);
+      }
+      if (body.code !== "0000") {
+        // Application-level error — deterministic for this uri, don't retry.
+        throw new GaokaoDynamicError(uri, body.code ?? "?", body.message ?? "");
+      }
+      const data = body.data;
+      if (Array.isArray(data)) return { item: [], numFound: 0 };
+      const item = Array.isArray((data as { item?: unknown })?.item)
+        ? ((data as { item: Array<Record<string, unknown>> }).item)
+        : [];
+      const numFound = Number((data as { numFound?: unknown })?.numFound) || item.length;
+      return { item, numFound };
+    } catch (err) {
+      if (err instanceof Error && err.name === "AbortError") {
+        timedOut = true;
+        lastErr = new GaokaoTimeoutError(url, timeoutMs);
+      } else {
+        lastErr = err;
+      }
+      const retryable = timedOut || lastErr instanceof RetryableError || isTransientNetworkError(err);
+      if (!retryable || attempt === retries) throw lastErr;
+      await sleep(RETRY_BACKOFF_MS * (attempt + 1) + Math.floor(Math.random() * 100));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastErr instanceof Error ? lastErr : new Error(String(lastErr));
+}
+
+// Fetch every page of a dynamic list endpoint and concatenate the raw items.
+async function fetchDynamicAll(
+  uri: string,
+  params: Record<string, string | number>
+): Promise<Array<Record<string, unknown>>> {
+  const first = await fetchDynamicPage(uri, { ...params, size: DYNAMIC_PAGE_SIZE, page: 1 });
+  const out = first.item.slice();
+  const total = first.numFound;
+  const pages = Math.min(DYNAMIC_MAX_PAGES, Math.ceil(total / DYNAMIC_PAGE_SIZE));
+  for (let page = 2; page <= pages && out.length < total; page++) {
+    const next = await fetchDynamicPage(uri, { ...params, size: DYNAMIC_PAGE_SIZE, page });
+    if (next.item.length === 0) {
+      // An empty page WHILE items are still missing is the host's silent
+      // rate-limit truncation, NOT a clean end-of-list. Surfacing it as an error
+      // (rather than returning a short list) stops an undercounted result from
+      // being cached/shipped as if the school simply had fewer majors.
+      throw new GaokaoDynamicError(
+        uri,
+        "EMPTY_MID_PAGE",
+        `page ${page} came back empty while only ${out.length}/${total} items fetched — suspected rate-limit truncation`
+      );
+    }
+    out.push(...next.item);
+  }
+  return out;
+}
+
+const str = (v: unknown): string => (v == null ? "" : String(v));
+const int = (v: unknown): number => {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : 0;
+};
+
+// 掌上高考's dynamic items carry local_type_name ("文科"/"物理"/…) rather than the
+// numeric track `type` code the static tier used. Map it back so TRACK_NAMES lookups
+// (and any track-based filtering) keep working.
+const TRACK_CODE_BY_NAME: Record<string, string> = {
+  理工: "1", 理科: "1",
+  文史: "2", 文科: "2",
+  综合改革: "3", 综合: "3", 不分文理: "3",
+  物理类: "2073", 物理: "2073",
+  历史类: "2074", 历史: "2074"
+};
+function trackCodeFromName(name: unknown): string {
+  return TRACK_CODE_BY_NAME[str(name).trim()] ?? str(name);
+}
+
+// The dynamic tier writes "-" (and occasionally "") for 普通类/无特殊招生类型, whereas
+// the old static tier returned the literal "普通类". Normalize it for DISPLAY so
+// consumers don't surface a bare "-" (e.g. the pull's byZslx map keying 普通类 under
+// "-"). The raw classification field (`zslx`) keeps "-" so isPutong() still matches.
+function normZslxName(raw: unknown): string {
+  const s = str(raw).trim();
+  return s === "" || s === "-" ? "普通类" : s;
+}
+
+// provinceId is the query key (the student's 生源省) — the dynamic payload carries
+// only local_province_name, no numeric id, so we thread the queried id in to keep
+// the item's `province` field populated the way the static tier's was.
+function mapPlanItem(r: Record<string, unknown>, provinceId: number | string): AdmissionPlanItem {
+  const rawZslx = str(r.zslx ?? r.zslx_name);
+  return {
+    school_id: str(r.school_id),
+    special_id: str(r.special_id),
+    province: str(provinceId),
+    year: r.year != null ? str(r.year) : undefined,
+    type: trackCodeFromName(r.local_type_name ?? r.type),
+    // Keep the raw "-" in zslx (the zhaosheng pull's isPutong() keys off zslx === "-");
+    // expose a human label in zslx_name.
+    zslx: rawZslx,
+    zslx_name: normZslxName(r.zslx_name ?? rawZslx),
+    batch: str(r.local_batch_id ?? r.batch),
+    local_batch_name: str(r.local_batch_name),
+    num: int(r.num),
+    length: str(r.length),
+    tuition: str(r.tuition),
+    spcode: str(r.spcode ?? r.sp_scode),
+    spname: str(r.spname),
+    sp_name: str(r.sp_name),
+    info: str(r.info),
+    remark: str(r.remark),
+    level1_name: str(r.level1_name),
+    level2_name: str(r.level2_name),
+    level3_name: str(r.level3_name),
+    // API returns a NUMBER (0 or a group id). Old code compares `!== "0"`, so a raw
+    // numeric 0 would be mis-read as a real group — always stringify.
+    special_group: str(r.special_group ?? "0"),
+    sp_xuanke: str(r.sp_xuanke),
+    sp_fxk: str(r.sp_fxk),
+    sp_sxk: str(r.sp_sxk),
+    sp_info: str(r.sp_info),
+    sg_xuanke: str(r.sg_xuanke),
+    sg_fxk: str(r.sg_fxk),
+    sg_sxk: str(r.sg_sxk),
+    sg_info: str(r.sg_info),
+    sg_name: str(r.sg_name),
+    first_km: str(r.first_km)
+  };
+}
+
+function mapScoreItem(r: Record<string, unknown>, provinceId: number | string): AdmissionScoreItem {
+  const min = int(r.min);
+  const proscore = Number(r.proscore); // 批次控制线; used to derive 分差 (the old `diff`)
+  const rawZslx = str(r.zslx ?? r.zslx_name);
+  return {
+    school_id: str(r.school_id),
+    special_id: str(r.special_id),
+    province: str(provinceId),
+    type: trackCodeFromName(r.local_type_name ?? r.type),
+    zslx: rawZslx,
+    zslx_name: normZslxName(r.zslx_name ?? rawZslx),
+    batch: str(r.local_batch_id ?? r.batch),
+    local_batch_name: str(r.local_batch_name),
+    // dynamic score tier names it sp_scode, not spcode.
+    spcode: r.sp_scode != null ? str(r.sp_scode) : r.spcode != null ? str(r.spcode) : undefined,
+    spname: str(r.spname),
+    sp_name: str(r.sp_name),
+    info: str(r.info),
+    remark: str(r.remark),
+    level1_name: str(r.level1_name),
+    level2_name: str(r.level2_name),
+    level3_name: str(r.level3_name),
+    special_group: str(r.special_group ?? "0"),
+    max: int(r.max),
+    min,
+    average: int(r.average),
+    lq_num: str(r.lq_num), // 录取人数 — not exposed by the dynamic tier; blank → downstream treats as 0
+    min_section: str(r.min_section ?? "-"),
+    min_range: str(r.min_range),
+    min_rank_range: str(r.min_rank_range),
+    range_max_rank: str(r.range_max_rank),
+    is_score_range: str(r.is_score_range),
+    diff: Number.isFinite(proscore) && proscore > 0 ? min - proscore : int(r.diff),
+    first_km: str(r.first_km),
+    sp_type: str(r.sp_type),
+    sp_fxk: str(r.sp_fxk),
+    sp_sxk: str(r.sp_sxk),
+    sp_info: str(r.sp_info),
+    sp_xuanke: str(r.sp_xuanke),
+    sg_fxk: str(r.sg_fxk),
+    sg_sxk: str(r.sg_sxk),
+    sg_type: str(r.sg_type),
+    sg_name: str(r.sg_name),
+    sg_info: str(r.sg_info),
+    sg_xuanke: str(r.sg_xuanke)
+  };
+}
+
 // ---- Client ----
 
 export async function getSchoolInfo(schoolId: number | string): Promise<SchoolInfo> {
   return fetchJson<SchoolInfo>(`/school/${schoolId}/info.json`);
 }
 
+// Options for the plan/score fetchers.
+//   noCache — bypass BOTH the read and the write cache. Liveness probes (the
+//   zhaosheng pull's canary) MUST set this: otherwise the probe can be answered
+//   from a 24h-old disk entry (or the in-process memCache seeded by an earlier
+//   probe) and reports "source alive" while the source is actually dark.
+export type FetchListOpts = { noCache?: boolean };
+
+// NOTE ON EMPTY RESULTS: the dynamic host silently degrades to an empty result
+// (`code:0000, data:[]`) under rate-limiting, indistinguishable from a genuine
+// "this school has no plan here". We therefore NEVER write an empty array to the
+// cache — freezing a throttle-induced empty for 24h would durably poison the data
+// (and read as 缩招). A real empty is rare and cheap to re-fetch.
+
+// Per-school × per-year × per-province admission plan. Sourced from the dynamic
+// tier (see the block above); non-empty results are cached under a synthetic key
+// so the on-disk response cache still shares hits across CLI invocations.
 export async function getAdmissionPlan(
   schoolId: number | string,
   year: number,
-  provinceId: number | string
+  provinceId: number | string,
+  opts: FetchListOpts = {}
 ): Promise<AdmissionPlanItem[]> {
-  const raw = await fetchJson<AdmissionPlanResponse>(
-    `/schoolspecialplan/${schoolId}/${year}/${provinceId}.json`
-  );
-  // Flatten all buckets into a single array.
-  return Object.values(raw).flatMap((bucket) => bucket?.item ?? []);
+  const cacheKey = `dyn/plan/${schoolId}/${year}/${provinceId}`;
+  if (!opts.noCache) {
+    const hit = readCache(cacheKey);
+    if (hit !== undefined) return hit as AdmissionPlanItem[];
+  }
+  const raw = await fetchDynamicAll(PLAN_URI, {
+    school_id: schoolId,
+    year,
+    local_province_id: provinceId
+  });
+  const items = raw.map((r) => mapPlanItem(r, provinceId));
+  if (!opts.noCache && items.length > 0) writeCache(cacheKey, items);
+  return items;
 }
 
 export async function getAdmissionScores(
   schoolId: number | string,
   year: number,
-  provinceId: number | string
+  provinceId: number | string,
+  opts: FetchListOpts = {}
 ): Promise<AdmissionScoreItem[]> {
-  const raw = await fetchJson<AdmissionScoreResponse>(
-    `/schoolspecialscore/${schoolId}/${year}/${provinceId}.json`
-  );
-  return Object.values(raw).flatMap((bucket) => bucket?.item ?? []);
+  const cacheKey = `dyn/score/${schoolId}/${year}/${provinceId}`;
+  if (!opts.noCache) {
+    const hit = readCache(cacheKey);
+    if (hit !== undefined) return hit as AdmissionScoreItem[];
+  }
+  const raw = await fetchDynamicAll(SCORE_URI, {
+    school_id: schoolId,
+    year,
+    local_province_id: provinceId
+  });
+  const items = raw.map((r) => mapScoreItem(r, provinceId));
+  if (!opts.noCache && items.length > 0) writeCache(cacheKey, items);
+  return items;
+}
+
+// End-to-end source health probe. Verifies the surviving static endpoint AND the
+// two dynamic endpoints we now depend on, so a future upstream move is caught by a
+// single command rather than by silently-empty query results.
+export async function checkSourceHealth(): Promise<{
+  ok: boolean;
+  checks: Array<{ name: string; ok: boolean; detail: string }>;
+}> {
+  const checks: Array<{ name: string; ok: boolean; detail: string }> = [];
+  const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
+
+  try {
+    const info = await getSchoolInfo(31);
+    const ok = info.name === "北京大学" && !!info.pro_type_min;
+    checks.push({ name: "static school/info.json (min-score corpus)", ok, detail: info.name });
+  } catch (e) {
+    checks.push({ name: "static school/info.json (min-score corpus)", ok: false, detail: errMsg(e) });
+  }
+
+  try {
+    const plan = await getAdmissionPlan(31, 2024, 41); // 北大 × 河南 × 2024 — must be non-empty
+    checks.push({ name: `dynamic 招生计划 (${PLAN_URI})`, ok: plan.length > 0, detail: `${plan.length} 专业` });
+  } catch (e) {
+    checks.push({ name: `dynamic 招生计划 (${PLAN_URI})`, ok: false, detail: errMsg(e) });
+  }
+
+  try {
+    const scores = await getAdmissionScores(31, 2024, 41); // 北大 × 河南 × 2024 — must be non-empty
+    checks.push({ name: `dynamic 录取分 (${SCORE_URI})`, ok: scores.length > 0, detail: `${scores.length} 专业分` });
+  } catch (e) {
+    checks.push({ name: `dynamic 录取分 (${SCORE_URI})`, ok: false, detail: errMsg(e) });
+  }
+
+  return { ok: checks.every((c) => c.ok), checks };
 }
 
 // Convenience: historical min-score series for a given (school, province).
