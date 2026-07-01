@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 — 2026-06-30（数据源迁移：招生计划/录取分）
+
+`static-data.gaokao.cn` 退役了 `schoolspecialplan`/`schoolspecialscore` 静态对象（所有年份 OSS `NoSuchKey`）。
+
+- **fix**：`getAdmissionPlan`/`getAdmissionScores` 改走掌上高考动态 API `api.zjzw.cn`（免签 GET，按 `local_province_id` 键控：plan=`gkv3/plan/school`、score=`gk/score/special`），含分页 + 节流 + 字段映射回原类型。`school/info.json`（→ `pro_type_min` → recommend/top/paiming）不受影响。
+- **hardening**：动态源限流时降级成 `code:0000 data:[]`（与"真无数据"无法区分）→ 空结果不进缓存、分页中途空页抛错；`selftest` 加动态源健康 stage。
+- **⚠️ 已知限制**：该动态源会屏蔽数据中心 IP（CI / 云端返回空）；家用宽带 IP 正常。
+
 ## 0.3.17 — 2026-06-10（出分季生产体检）
 
 高考结束当天的全面体检：数据、协议、输入容错三层校正（多智能体审查 + 程序化数据验证）。
